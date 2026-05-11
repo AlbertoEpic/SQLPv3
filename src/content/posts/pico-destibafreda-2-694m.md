@@ -21,7 +21,7 @@ Si eres de los que gustan de funcionar con GPS, a continuación de tejamos el ma
 
 <iframe class="alltrails" src="https://www.alltrails.com/es/widget/map/map-2fb544a-3?scrollZoom=ó&u=m&sh=w4k06q" width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="AllTrails: Trail Guides and Maps for Hiking, Camping, and Running"></iframe>
 
-Y si te gusta el vídeo, no deberías perderte la [foto esférica con cimas etiquetadas](https://pano360.soloquedalopeor.com/panorama/pico-destibafreda-2-694m/) que hemos preparado en nuestra web correspondiente, [www.pano360.soloquedalopeor.com](http://www.pano360.soloquedalopeor.com/)Ã¢â‚¬Â¦
+Y si te gusta el vídeo, no deberías perderte la [foto esférica con cimas etiquetadas](https://pano360.soloquedalopeor.com/panorama/pico-destibafreda-2-694m/) que hemos preparado en nuestra web correspondiente, [www.pano360.soloquedalopeor.com](http://www.pano360.soloquedalopeor.com/)í¢â‚¬Â¦
 
 ![](https://i.imgur.com/oIjd2Do.jpg)
 

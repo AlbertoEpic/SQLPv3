@@ -1,5 +1,5 @@
 ---
-title: "Vík í MÃƒÂ½rdal [ICELAND PILLS 12]"
+title: "Vík í MíƒÂ½rdal [ICELAND PILLS 12]"
 heroImage: "https://i.imgur.com/JJO2koh.jpg"
 pubDate: 2024-09-27T15:54:28Z
 updatedDate: 2024-09-27T15:54:29Z
@@ -9,7 +9,7 @@ description: "Un paseo fotográfico... Enclavado en la costa sur de Islandia. Co
 category: "Islandia 2024"
 tags:
   - "islandia"
-  - "Vík í MÃƒÂ½rdal"
+  - "Vík í MíƒÂ½rdal"
 ---
 
 ## Un paseo fotográfico...
@@ -20,7 +20,7 @@ Nos reservamos un día para dar un paseo contemplativo por lo alto de sus acanti
 
 ![](https://i.imgur.com/JJO2koh.jpg)Sami y Cheles, con [Dyrhólaey](dyrholaey-iceland-pills-4/) al fondo.
 
-![](https://i.imgur.com/HR7wS8u.jpg)Sami y Cheles, con el MÃƒÂ½rdalsjÃƒÂ¶kull al fondo, admirando el vuelo de frailecillos y fulmares.
+![](https://i.imgur.com/HR7wS8u.jpg)Sami y Cheles, con el MíƒÂ½rdalsjíƒÂ¶kull al fondo, admirando el vuelo de frailecillos y fulmares.
 
 ![](https://i.imgur.com/gJPlZad.jpg)En los acantilados no cabe un pajarico más...
 

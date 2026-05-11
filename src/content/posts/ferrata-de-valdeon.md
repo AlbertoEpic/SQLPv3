@@ -17,7 +17,7 @@ tags:
 
 El día anterior, Cheles y AlbertoEpic estuvieron en el pico Tesorero. Este es su último día en Picos, y como despedida, deciden ir a Valdeón a hacer su ferrata. Han conocido de su existencia hace poco, al aparecer en la TV en ['Planeta Calleja'](https://www.cuatro.com/planetacalleja/Bertin-Osborne-Jesus-Calleja-vertigo-abandono-puente-hoces-duraton-cantabrico-leon_0_2532075323.html)... En ese episodio, Bertín Osborne se negaba a hacer la ferrata por sus problemas de vértigo.
 
-[tagline_box backgroundcolor="#eded84" shadow="yes" shadowopacity="0.7" border="1px" bordercolor="#e8e8e8" highlightposition="left" link="https://deandar.com/ferratas/via-ferrata-picoseuropa-posadavaldeon" linktarget="_blank" buttoncolor="blue" button="Saber más..." title="VÃƒÂA FERRATA DE VALDEÃƒâ€œN" description="La primera vía ferrata de los Picos de Europa es aérea, sostenida y larga. La pasarela de entrada, una larga subida vertical y una zona desplomada son sus pasos estrella. Por méritos propios entra en la lista de imprescindibles. (+)" animation_type="flash" animation_direction="down" animation_speed="0.1"][/tagline_box]
+[tagline_box backgroundcolor="#eded84" shadow="yes" shadowopacity="0.7" border="1px" bordercolor="#e8e8e8" highlightposition="left" link="https://deandar.com/ferratas/via-ferrata-picoseuropa-posadavaldeon" linktarget="_blank" buttoncolor="blue" button="Saber más..." title="VíƒÂA FERRATA DE VALDEíƒâ€œN" description="La primera vía ferrata de los Picos de Europa es aérea, sostenida y larga. La pasarela de entrada, una larga subida vertical y una zona desplomada son sus pasos estrella. Por méritos propios entra en la lista de imprescindibles. (+)" animation_type="flash" animation_direction="down" animation_speed="0.1"][/tagline_box]
 
 Llegan al punto de inicio después de un buen rato de coche, cruzar los Picos de Europa por esas carreteras de la España profunda cuesta lo suyo. La verdad es que comenzar con el calor del mediodía, y con el cuerpo plegado en forma de asiento de coche, da bastante pereza, pero ya que están allí...
 ![](https://i.imgur.com/RSwksAQ.jpg)
@@ -42,7 +42,7 @@ Después del primer muro, cruza un tramo de cresta, un pequeño collado, y llega
 En la parte superior del segundo muro (60m). Al fondo, la cresta anterior de subida.
 Sin mayores problemas, AlbertoEpic deja atrás el segundo muro (60m), que cuenta con un pequeño desplome, tal vez el tramo más técnico de la ferrata.
 
-Antes de descender al segundo y último collado, le puede el ansia y saca otra foto esférica, próximamente en elÃ‚Â [catálogo de fotos esféricas etiquetadas](https://soloquedalopeor.com/fotos-esfericas/)Ã‚Â de SQLP... Permanece atento, actualizaremos esta entrada con la imagen!
+Antes de descender al segundo y último collado, le puede el ansia y saca otra foto esférica, próximamente en elí‚Â [catálogo de fotos esféricas etiquetadas](https://soloquedalopeor.com/fotos-esfericas/)í‚Â de SQLP... Permanece atento, actualizaremos esta entrada con la imagen!
 
 
 ---
@@ -71,7 +71,7 @@ En general, la ferrata de Valdeón es una de las mejores que ha hecho AlbertoEpi
 
 ![](https://i.imgur.com/NippA6v.jpg)
 Detalle de la equipación de la ferrata, cuidando detalles al máximo.
-Para hacer la ferrata es necesario sacar un permiso de 3Ã¢â€šÂ¬, que en teoría se invierten en el mantenimiento de la misma. Desde luego, está impecable.
+Para hacer la ferrata es necesario sacar un permiso de 3í¢â€šÂ¬, que en teoría se invierten en el mantenimiento de la misma. Desde luego, está impecable.
 
 ![](https://i.imgur.com/xHHAGou.jpg)
 Imagen del segundo escape de la vía, perfectamente señalizado.

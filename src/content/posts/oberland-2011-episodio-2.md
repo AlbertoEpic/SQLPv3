@@ -6,7 +6,7 @@ heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:49Z
 draft: false
 author: "AlbertoEpic"
-description: "Segundo día en el Oberland. Tras la toma de contacto del primer día, hoy nos toca la primera jornada completa: de refugio a refugio pasando por una cima. Partimos de AnnenhÃƒÂ¼tte, superamos los seracs del Anungletscher y hacemos cima en el Mi"
+description: "Segundo día en el Oberland. Tras la toma de contacto del primer día, hoy nos toca la primera jornada completa: de refugio a refugio pasando por una cima. Partimos de AnnenhíƒÂ¼tte, superamos los seracs del Anungletscher y hacemos cima en el Mi"
 category: "Otros"
 tags:
   - "alpes"
@@ -14,9 +14,9 @@ tags:
   - "Mittaghorn"
   - "Oberland"
 ---
-Segundo día en el Oberland. Tras la toma de contacto del primer día, hoy nos toca la primera jornada completa: de refugio a refugio pasando por una cima. Partimos de AnnenhÃƒÂ¼tte, superamos los seracs del Anungletscher y hacemos cima en el Mittaghorn (3.892m).
+Segundo día en el Oberland. Tras la toma de contacto del primer día, hoy nos toca la primera jornada completa: de refugio a refugio pasando por una cima. Partimos de AnnenhíƒÂ¼tte, superamos los seracs del Anungletscher y hacemos cima en el Mittaghorn (3.892m).
 
-Recorremos la afilada arista hasta el collado Anujoch con los esquís en la mochila, y ya desde allí bajamos esquiando por el Ãƒâ€žbeni Flue-Firn hasta el HollandiahÃƒÂ¼tte.
+Recorremos la afilada arista hasta el collado Anujoch con los esquís en la mochila, y ya desde allí bajamos esquiando por el íƒâ€žbeni Flue-Firn hasta el HollandiahíƒÂ¼tte.
 
 Hoy es nuestro estreno en las condiciones que nos acompañarán en el Oberland: grietas, laberintos de seracs, cruce de rimayas, insolación máxima, temperaturas extremas (Mucho frío/mucho calor), helicópteros sobrevolando, té de marcha, cenas a las 18:30h,...
 

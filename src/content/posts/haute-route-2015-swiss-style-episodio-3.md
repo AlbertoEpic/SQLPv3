@@ -1,5 +1,5 @@
 ---
-title: "Haute Route 2015 Ã¢â‚¬ËœSwiss StyleÃ¢â‚¬â„¢ Ã¢â‚¬â€œ episodio 3"
+title: "Haute Route 2015 í¢â‚¬ËœSwiss Styleí¢â‚¬â„¢ í¢â‚¬â€œ episodio 3"
 pubDate: 2015-04-27T11:35:56Z
 
 heroImage: attachments/SQLPcomodin.jpg
@@ -18,5 +18,5 @@ Al día siguiente, la meteo es pésima: en todos los partes nubarrones negros y 
 Vamos mentalizados para lo peor. Intentaremos llegar al refugio de Prafleuri y por el camino más corto, sin cimas. Por la mañana, somos los únicos que salen del refugio. Pero... ísorpresa! llegando al col de La Chaux superamos la altura de las nubes y de repente salimos a un día soleado espléndido!!! :-)
 Terminamos subiendo a la cima del Rosablanche, y disfrutaremos de un increíble descenso hasta la Cabane de Prafleuri (Unos 100m antes del refugio volvemos a sumergirnos en las nubes, y fue difícil entontrar el refugio en la niebla...)
 [youtube id="YP2vJMg7gAc" width="600" height="350" autoplay="no" api_params=""].
-Puedes descargar el track de este episodio en la sección correspondiente de SQLP, [Ã¢â‚¬ËœTracks gpsÃ¢â‚¬â„¢Ã¢â‚¬Â¦](https://soloquedalopeor.com/tracks-gps/)
+Puedes descargar el track de este episodio en la sección correspondiente de SQLP, [í¢â‚¬ËœTracks gpsí¢â‚¬â„¢í¢â‚¬Â¦](https://soloquedalopeor.com/tracks-gps/)
 

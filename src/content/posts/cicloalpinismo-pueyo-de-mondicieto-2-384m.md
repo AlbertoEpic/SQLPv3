@@ -11,7 +11,7 @@ tags:
   - "ordesa"
   - "Pueyo de Mondicieto"
 ---
-Hace ya unos días que AlbertoEpic, en su afán de ampliar elÃ‚Â [catálogo de fotos esféricas etiquetadas de SQLP](https://pano360.soloquedalopeor.com/), decidió subirse a esta gran atalaya desde la que podemos mirar al Monte Perdido cara a cara...
+Hace ya unos días que AlbertoEpic, en su afán de ampliar elí‚Â [catálogo de fotos esféricas etiquetadas de SQLP](https://pano360.soloquedalopeor.com/), decidió subirse a esta gran atalaya desde la que podemos mirar al Monte Perdido cara a cara...
 
 Saliendo en bici de Torla, nos espera una larga ascensión (Las rampas más duras se centran en el comienzo) por la pista de Las Cutas, que va pasando por varios miradores del valle de Ordesa, a cada cual más impresionante. Desde el último, toca empujar la bici el tramo final hasta la cima. El descenso es ciclable desde la misma cumbre, si vamos con cuidado bordeando el límite del Parque.
 

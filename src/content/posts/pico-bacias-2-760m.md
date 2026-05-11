@@ -5,7 +5,7 @@ pubDate: 2016-01-25T10:55:58Z
 updatedDate: 2016-01-25T10:55:58Z
 draft: false
 author: "AlbertoEpic"
-description: "El pasado domingo tocaba subir a algún monte, y si tenía que ser un plan rápido y con esquís, además de lejos de la nieve de cañón... las posibilidades quedaban bastante limitadas. Ã‚Â¿Qué tal un Bacías desde el Balneario de Panticosa? Vamosss"
+description: "El pasado domingo tocaba subir a algún monte, y si tenía que ser un plan rápido y con esquís, además de lejos de la nieve de cañón... las posibilidades quedaban bastante limitadas. í‚Â¿Qué tal un Bacías desde el Balneario de Panticosa? Vamosss"
 category: "Esquí de travesía"
 tags:
   - "ascensiones"
@@ -13,9 +13,9 @@ tags:
   - "Esquí de travesía"
   - "Valle de Tena"
 ---
-El pasado domingo tocaba subir a algún monte, y si tenía que ser un plan rápido y con esquís, además de lejos de la nieve de cañón... las posibilidades quedaban bastante limitadas. Ã‚Â¿Qué tal un Bacías desde el Balneario de Panticosa? Vamosss!!! Hasta allí se escapan Luzia y AlbertoEpic, donde se juntan con Inazio y Make.
+El pasado domingo tocaba subir a algún monte, y si tenía que ser un plan rápido y con esquís, además de lejos de la nieve de cañón... las posibilidades quedaban bastante limitadas. í‚Â¿Qué tal un Bacías desde el Balneario de Panticosa? Vamosss!!! Hasta allí se escapan Luzia y AlbertoEpic, donde se juntan con Inazio y Make.
 
-El BacíasÃ‚Â ha sido 'trending topic' este fin de semana, y es difícil encontrar nieve virgen Ã‚Â¿Han puesto algún remonte por aqui? ;-p
+El Bacíasí‚Â ha sido 'trending topic' este fin de semana, y es difícil encontrar nieve virgen í‚Â¿Han puesto algún remonte por aqui? ;-p
 
 Condiciones 100% primaverales: nieve helada a primera hora, sopita rica a mediodía y enseguida, con este discreto sol de enero, comenzaba a formarse costra de rehielo. Tocó un poco de porteo, testimonial a la subida (5min) y un poco más a la bajada (10min, algo más si no querías hacer equilibrios y un poco de esquí al-pino)
 

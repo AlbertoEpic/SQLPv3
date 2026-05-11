@@ -22,7 +22,7 @@ Día 11: Ascensión al Mont Blanc du Tacul (4.248m) como aclimatación.
 
 Día 12: Ascensión al Mont Blanc (4.810m) por la Ruta de los Cuatromiles. Antes de llegar al col de La Brenva, Alex y Alberto se separan del grupo para ascender también al Mont Maudit (4.465m).
 
-Descenso del Mont Blanc por la arista de Les Bosses, refugio de Vallot, Dome de GoÃƒÂ»ter, refugio de GoÃƒÂ»ter, Nid d-Aigle,... para bajar ese mismo día a cenar a Chamonix.
+Descenso del Mont Blanc por la arista de Les Bosses, refugio de Vallot, Dome de GoíƒÂ»ter, refugio de GoíƒÂ»ter, Nid d-Aigle,... para bajar ese mismo día a cenar a Chamonix.
 
 Día 13: Regreso a Zgz.
 

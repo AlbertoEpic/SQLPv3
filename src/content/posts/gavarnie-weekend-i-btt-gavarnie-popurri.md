@@ -14,7 +14,7 @@ tags:
 ---
 El pasado finde nos salió la vena nómada y nos fuimos a Gavarnie. La noche del viernes lluvias torrenciales, menos mal que tenemos fe en la meteo y dicen que el frente pasa esta noche... Y así fue, el sábado unas condiciones perfectas para una ruta de cicloalpinismo 'light', un popurrí de btt: breves porteos, tramos técnicos de subida, de bajada, a media ladera, senderos, prados, caminos, asfalto, repechos inhumanos,... de todo, pero a dosis pequeñas de manera que nunca resulta demasiado.
 
-Salimos de Gavarnie, tomamos el GR-10, bajamos hasta GÃƒÂ¨dre, subimos al Lac de Gloriettes y de allí retornamos a Gavarnie por prados llenos de vacas, burros y caballos desafiantes. Un día la mar de completo gozando de unas impresionantes vistas hacia el circo de Gavarnie.
+Salimos de Gavarnie, tomamos el GR-10, bajamos hasta GíƒÂ¨dre, subimos al Lac de Gloriettes y de allí retornamos a Gavarnie por prados llenos de vacas, burros y caballos desafiantes. Un día la mar de completo gozando de unas impresionantes vistas hacia el circo de Gavarnie.
 
 A continuación, el video:
 

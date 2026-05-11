@@ -64,11 +64,11 @@ Subiendo por la pista desde La Sarra
 
 [https://i.imgur.com/UviUW6r.jpg](https://i.imgur.com/UviUW6r.jpg)
 
-ÃƒÅ¡ltimo tramo de la ascensión a Ibonciecho, ya por sendero.
+íƒÅ¡ltimo tramo de la ascensión a Ibonciecho, ya por sendero.
 
 [https://i.imgur.com/lwcvIWF.jpg](https://i.imgur.com/lwcvIWF.jpg)
 
-Superado el ibón, disfrutamos de sus cristalinas aguasÃ¢â‚¬Â¦
+Superado el ibón, disfrutamos de sus cristalinas aguasí¢â‚¬Â¦
 
 [https://i.imgur.com/tJZTW0D.jpg](https://i.imgur.com/tJZTW0D.jpg)
 
@@ -76,11 +76,11 @@ Los neveros del fondo obligaron a dejar la bici abajo.
 
 [https://i.imgur.com/YhXTuky.jpg](https://i.imgur.com/YhXTuky.jpg)
 
-ÃƒÅ¡ltimos metros a la cima del Musales.
+íƒÅ¡ltimos metros a la cima del Musales.
 
 [https://i.imgur.com/xArKshG.jpg](https://i.imgur.com/xArKshG.jpg)
 
-AlbertoEpic montando el trípode para sacar las fotos necesarias para la realización de la imagen esféricaÃ¢â‚¬Â¦
+AlbertoEpic montando el trípode para sacar las fotos necesarias para la realización de la imagen esféricaí¢â‚¬Â¦
 
 [https://i.imgur.com/Ws2VgCH.jpg](https://i.imgur.com/Ws2VgCH.jpg)
 

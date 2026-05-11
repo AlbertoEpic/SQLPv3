@@ -16,9 +16,9 @@ tags:
   - "marboré"
   - "ordesa"
 ---
-Hacía mucho tiempo que AlbertoEpic le tenía ganas a esta actividad a la que, debido a las cosas del destino y la fragilidad de ciertos ligamentos, se le iba a adelantar Luzia. Así, mientras AlbertoEpic se dedica a rehabilitar y fortalecer su tobillo, Luzia se alió con su colega Ãƒâ€°dgar para realizar lo que debe ser una de las travesías de altura más grandiosas (Paisajísticamente hablando) del Pirineo: enlazar los 7 tresmiles que conforman el circo de Gavarnie. Empezando por el Casco, la Torre, la Espalda, los tres Picos de la Cascada y terminando en el Marboré.
+Hacía mucho tiempo que AlbertoEpic le tenía ganas a esta actividad a la que, debido a las cosas del destino y la fragilidad de ciertos ligamentos, se le iba a adelantar Luzia. Así, mientras AlbertoEpic se dedica a rehabilitar y fortalecer su tobillo, Luzia se alió con su colega íƒâ€°dgar para realizar lo que debe ser una de las travesías de altura más grandiosas (Paisajísticamente hablando) del Pirineo: enlazar los 7 tresmiles que conforman el circo de Gavarnie. Empezando por el Casco, la Torre, la Espalda, los tres Picos de la Cascada y terminando en el Marboré.
 
-A continuación, la crónica de Luzia. Fotos de Ãƒâ€°dgar y Luzia.
+A continuación, la crónica de Luzia. Fotos de íƒâ€°dgar y Luzia.
 
 Salir de trabajar y saber que esa noche vas a dormir en Ordesa bajo un cielo lleno de estrellas, es algo que no había hecho nunca y tenía muchas ganas.
 
@@ -56,7 +56,7 @@ La Gruta de Casteret es la gruta helada más alta del mundo. El hielo azul, las 
 
 Salimos a la luz, cogemos las mochilas y vamos al Casco, la idea es subir por la chimenea subterránea.
 
-Para acceder a la chimenea hay que hacer una travesía horizontal fácil pero expuesta, sobre cascotes de piedra, es una zona muy descompuesta, está equipado con chapas y paraboles, para poderÃ‚Â  pasar una cuerda. Una vez debajo de la chimenea, tenemos algún paso de III que con la mochila y las botas se hace un poco más complicado.
+Para acceder a la chimenea hay que hacer una travesía horizontal fácil pero expuesta, sobre cascotes de piedra, es una zona muy descompuesta, está equipado con chapas y paraboles, para poderí‚Â  pasar una cuerda. Una vez debajo de la chimenea, tenemos algún paso de III que con la mochila y las botas se hace un poco más complicado.
 
 [https://i.imgur.com/v02yR7b.jpg](https://i.imgur.com/v02yR7b.jpg)
 

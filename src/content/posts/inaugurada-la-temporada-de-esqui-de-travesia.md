@@ -1,26 +1,26 @@
 ---
-title: "Inaugurada la temporada de esquÃ­ de travesÃ­a..."
+title: "Inaugurada la temporada de esquí­ de travesí­a..."
 heroImage: "attachments/TODOS_CAMINO_DE_LA_ULTIMA_RAMPA_AL_COLL_DE_ASTUN-300x225.webp"
 pubDate: 2008-11-09T19:02:00Z
 updatedDate: 2015-04-06T10:29:08Z
 draft: false
 author: "AlbertoEpic"
-description: "Hoy he hecho la primera salida de esquÃ­ de travesÃ­a de la temporada (Otros ya llevan varias). El monte está impresionante, parece que sea febrero! La nieve estaba un poco de todo, a veces asquerosilla, a veces buena. El recorrido ha sido el"
-category: "EsquÃ­ de travesÃ­a"
+description: "Hoy he hecho la primera salida de esquí­ de travesí­a de la temporada (Otros ya llevan varias). El monte está impresionante, parece que sea febrero! La nieve estaba un poco de todo, a veces asquerosilla, a veces buena. El recorrido ha sido el"
+category: "Esquí­ de travesí­a"
 tags:
-  - "EsquÃ­ de travesÃ­a"
+  - "Esquí­ de travesí­a"
 ---
-[![](attachments/TODOS_CAMINO_DE_LA_ULTIMA_RAMPA_AL_COLL_DE_ASTUN.webp)Hoy he hecho la primera salida de esquÃ­ de travesÃ­a de la temporada (Otros ya llevan varias). El monte está impresionante, parece que sea febrero! La nieve estaba un poco de todo, a veces asquerosilla, a veces buena. El recorrido ha sido el siguiente (Copio-pego de un email de Jorge):
+[![](attachments/TODOS_CAMINO_DE_LA_ULTIMA_RAMPA_AL_COLL_DE_ASTUN.webp)Hoy he hecho la primera salida de esquí­ de travesí­a de la temporada (Otros ya llevan varias). El monte está impresionante, parece que sea febrero! La nieve estaba un poco de todo, a veces asquerosilla, a veces buena. El recorrido ha sido el siguiente (Copio-pego de un email de Jorge):
 
 Recorrido:
 
-Parking de Astún (1.700m)â‚¬â€œ Coll des Moines 2.170mâ‚¬â€œ Desde el collado, bajada a la derecha en direcciÃ³n NE por vallecito a la derecha del Pic Paradis hasta el llano de la Cabanne de la Glare (1.720m). AllÃ­ ponemos pieles de nuevo y giramos a la derecha, para subir al sur por el suave valle en direcciÃ³n al Collado de Astún (2.180m) y, desde allÃ­ mismo, bajamos por el lado español a las pistas de Astún y al coche (Tiempo: 4h 30min).
+Parking de Astún (1.700m)â‚¬â€œ Coll des Moines 2.170mâ‚¬â€œ Desde el collado, bajada a la derecha en dirección NE por vallecito a la derecha del Pic Paradis hasta el llano de la Cabanne de la Glare (1.720m). Allí­ ponemos pieles de nuevo y giramos a la derecha, para subir al sur por el suave valle en dirección al Collado de Astún (2.180m) y, desde allí­ mismo, bajamos por el lado español a las pistas de Astún y al coche (Tiempo: 4h 30min).
 
-Haz [click aquÃ­](http://picasaweb.google.es/dmolinar08/MoinesYAstunCollados#slideshow/5266807052423431058) para ver una proyecciÃ³n de fotos de Donato.
+Haz [click aquí­](http://picasaweb.google.es/dmolinar08/MoinesYAstunCollados#slideshow/5266807052423431058) para ver una proyección de fotos de Donato.
 
-El grupo estaba formado por Jorge GarcÃ­a-Dihinx, Donato Molina, Alex Sola, Ãngel Marco, JM Gimeno, Diego Teixeira y Alberto Lafarga. En el collado de Astún nos ha pillado el mÃ­tico globero doctor LaTrek. David habÃ­a salido más tarde de Huesca.
+El grupo estaba formado por Jorge Garcí­a-Dihinx, Donato Molina, Alex Sola, íngel Marco, JM Gimeno, Diego Teixeira y Alberto Lafarga. En el collado de Astún nos ha pillado el mí­tico globero doctor LaTrek. David habí­a salido más tarde de Huesca.
 
-A continuaciÃ³n, puedes ver algunas de las fotos de Jorge de la ruta de hoy:
+A continuación, puedes ver algunas de las fotos de Jorge de la ruta de hoy:
 
 [![](attachments/TEXTURAS_EN_LA_NIEVE_ALBERTO_Y_ALEX.webp)
 

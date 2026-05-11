@@ -32,9 +32,9 @@ Al principio los hombres no se atrevieron a salir pero, al ver que los genios ma
 
 Los hombres acudieron otra vez a AMALUR pidiéndole algo mas poderoso.
 
-Ã¢â‚¬â€œ AMALUR. te estamos muy agradecidos porque nos has regalado a la madre luna, pero necesitamos algo más poderoso puesto que los genios no dejan de perseguirnos.
+í¢â‚¬â€œ AMALUR. te estamos muy agradecidos porque nos has regalado a la madre luna, pero necesitamos algo más poderoso puesto que los genios no dejan de perseguirnos.
 
-Ã¢â‚¬â€œ Ã¢â‚¬Å“De acuerdo -dijo AMALURÃ¢â‚¬Â- crearé un ser todavía más luminoso que llamaréis EGUZKI.
+í¢â‚¬â€œ í¢â‚¬Å“De acuerdo -dijo AMALURí¢â‚¬Â- crearé un ser todavía más luminoso que llamaréis EGUZKI.
 
 Y AMALUR creó el Sol. De esta forma, el sol iluminaría el día y la luna la noche.
 

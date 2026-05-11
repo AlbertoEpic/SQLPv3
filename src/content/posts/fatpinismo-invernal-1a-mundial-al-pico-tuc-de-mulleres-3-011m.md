@@ -6,7 +6,7 @@ heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2017-02-11T22:09:03Z
 draft: false
 author: "AlbertoEpic"
-description: "Ã‚Â¿FATPINISMO? FAT bike + al PINISMO Primero fue la bicicleta. Se modificó para ir por pistas y se llamó bicicleta de montaña. Algunos pioneros decidieron ir a la montaña de verdad, saliendo de las pistas, y lo bautizaron como cicloalpinismo."
+description: "í‚Â¿FATPINISMO? FAT bike + al PINISMO Primero fue la bicicleta. Se modificó para ir por pistas y se llamó bicicleta de montaña. Algunos pioneros decidieron ir a la montaña de verdad, saliendo de las pistas, y lo bautizaron como cicloalpinismo."
 category: "Bicicleta de montaña"
 tags:
   - "Benasque"
@@ -18,7 +18,7 @@ tags:
 
 
 
-Ã‚Â¿FATPINISMO?
+í‚Â¿FATPINISMO?
 FATbike + alPINISMO
 
 
@@ -47,7 +47,7 @@ Tras 6h (Contando paradas para comer, beber, filmar, descansar...) llego a la ci
 
 Exceptuando las zonas más pendientes de los ibones de La Escaleta y algún resalte puntual, consigo bajar montado todo el descenso, aproximadamente el 80%. Salgo montado de la cima, y dos horas después estaba abriendo la puerta de la furgoneta, en el vado del Hospital de Benasque. La primera mitad del descenso, sin huellas, resulta ser técnica y físicamente exigente. La segunda mitad, seguir la huella de las raquetas es puro deleite hasta entrar en la pista de esquí de fondo, que a estas alturas ya no tiene ningún aliciente...
 
-A continuación, te mostramos Ã‚Â el vídeo que Producciones SQLP ha elaborado para conmemorar tan histórico suceso:
+A continuación, te mostramos í‚Â el vídeo que Producciones SQLP ha elaborado para conmemorar tan histórico suceso:
 Actualización: Lo siento, pero debido al tema de los derechos de autor, Youtube me ha eliminado el sonido del video :-(
 Ahora en 'mute' queda muy soso. Algún día lo remasterizaré... ;-)
 

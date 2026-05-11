@@ -20,7 +20,7 @@ Anecdóticamente, lo más peligroso resultaron las masivas placas de hielo en la
 
 [https://i.imgur.com/7HJ3I95.jpg](https://i.imgur.com/7HJ3I95.jpg) En la mitad inferior del ascenso hubo que rodar por las cunetas, atravesando zarzas y demás espinos, para evitar resbalar en el hielo que cubría toda la pista.
 
-Al llegar arriba de todo toca abrigarse rápido, olvidar las dudas sobre lo helado de la nieve y... disfrutar!!!!! Tras los primeros metros, AlbertoEpic comprueba que el estado de la pista es perfecto y puede realizar el descenso hasta el pueblo de Panticosa sin parar, a 40-50km/h. Habrá que seguir perfeccionando el modo de colocación de la cámara para el descenso, que en esta ocasión miraba al suelo... :-(Ã‚Â  Gran excusa para volver!!!
+Al llegar arriba de todo toca abrigarse rápido, olvidar las dudas sobre lo helado de la nieve y... disfrutar!!!!! Tras los primeros metros, AlbertoEpic comprueba que el estado de la pista es perfecto y puede realizar el descenso hasta el pueblo de Panticosa sin parar, a 40-50km/h. Habrá que seguir perfeccionando el modo de colocación de la cámara para el descenso, que en esta ocasión miraba al suelo... :-(í‚Â  Gran excusa para volver!!!
 
 A continuación puedes ver un pequeño vídeo de la jornada:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RD9y2nrt1KA?rel=0&showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe></iframe>

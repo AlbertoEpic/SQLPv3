@@ -1,62 +1,62 @@
 ---
-title: "Raid La Pineda: crÃ³nica de Jara"
+title: "Raid La Pineda: crónica de Jara"
 heroImage: "attachments/20090425_Raid-la-Pineda_0036-300x225.webp"
 pubDate: 2009-05-02T20:58:00Z
 updatedDate: 2015-04-06T10:29:05Z
 draft: false
 author: "AlbertoEpic"
-description: "Añado a continuaciÃ³n la crÃ³nica de Jara, del 'Nenas o marines?', en el raid de La Pineda... Bueno, pues allÃ­ va la crÃ³nica de las Nenas o Marines según se mire: No voy a empezar con La frase de Jose de â‚¬Å“entrenar es lo que tieneâ‚¬Â¦porque todos"
+description: "Añado a continuación la crónica de Jara, del 'Nenas o marines?', en el raid de La Pineda... Bueno, pues allí­ va la crónica de las Nenas o Marines según se mire: No voy a empezar con La frase de Jose de â‚¬Å“entrenar es lo que tieneâ‚¬Â¦porque todos"
 category: "Otros"
 tags:
   - "Uncategorized"
 ---
-Añado a continuaciÃ³n la crÃ³nica de Jara, del 'Nenas o marines?', en el raid de La Pineda...
+Añado a continuación la crónica de Jara, del 'Nenas o marines?', en el raid de La Pineda...
 
 [![](attachments/20090425_Raid-la-Pineda_0036.webp)
 
 
 
-Bueno, pues allÃ­ va la crÃ³nica de las Nenas o Marines según se mire:
+Bueno, pues allí­ va la crónica de las Nenas o Marines según se mire:
 
 No voy a empezar con La frase de Jose de â‚¬Å“entrenar es lo que
 
 tieneâ‚¬Â¦porque todos sabéis de mi poca formalidad para esoâ‚¬Â¦pero bueno
 
-mis compañeras lo suplen por mi. Voy al grano que esta crÃ³nica se
+mis compañeras lo suplen por mi. Voy al grano que esta crónica se
 
 preve un poco larga;
 
 Empezamos nuestra aventura con meter todo en la furgo, algo que
 
-subsanamos al dÃ­a siguiente ya que dejamos la mitad en el bungalow, el
+subsanamos al dí­a siguiente ya que dejamos la mitad en el bungalow, el
 
 viaje fue muy divertido y lleno de nervios que comenzaron con la
 
 primera etapa;
 
-Nos disponemos Esme y yo a una orientaciÃ³n urbana cortita y muy
+Nos disponemos Esme y yo a una orientación urbana cortita y muy
 
 rápida, nos repartimos las balizas y todo perfecto salvo un baliza
 
-colgada en una fuente que habÃ­an tirado y que nos consto un poco
+colgada en una fuente que habí­an tirado y que nos consto un poco
 
 verla, pero llegamos muy bien por delante de los chicos, jupi!!
 
 Seguidamente sale Lola con un relevo para hacer la ferrata, alli se
 
-encuentra tapÃ³n pero llega muy bien para darnos el relevo y salir a
+encuentra tapón pero llega muy bien para darnos el relevo y salir a
 
 una etapa de bici.
 
-En la ferrata Javier bajando como un jabalÃ­ nos adelanta y salen un
+En la ferrata Javier bajando como un jabalí­ nos adelanta y salen un
 
 poco antes que nosotras en la bici. La etapa de la bici es bastante
 
-llana y fácil de orientaciÃ³n, tenemos que cruzar un rÃ­o que a mi cubre
+llana y fácil de orientación, tenemos que cruzar un rí­o que a mi cubre
 
-casi por la cintura, a otros claro les llegarÃ­a el agua a las
+casi por la cintura, a otros claro les llegarí­a el agua a las
 
-rodillasâ‚¬Â¦en fin eso no tiene soluciÃ³n.
+rodillasâ‚¬Â¦en fin eso no tiene solución.
 
 Y llegamos para hacer el kayak al que me esta esperando Lola ya con el
 
@@ -72,9 +72,9 @@ Poco después de empezar vemos algo muy raro, a lo que digo- Lola pero
 
 has visto eso???!!!!  Chiqueta, no se que era pero era grande y se
 
-movÃ­a muy rápido (luego supimos que eran boyas) pero que susto!! Bueno
+moví­a muy rápido (luego supimos que eran boyas) pero que susto!! Bueno
 
-el remo muy bien hasta hacÃ­amos espumilla remando, ji, ji!!!! Después
+el remo muy bien hasta hací­amos espumilla remando, ji, ji!!!! Después
 
 de 18 Km y viento de cara hacemos un cambio y sale remando Lola Y Esme
 
@@ -82,7 +82,7 @@ los 12 Km restantes en los que tienen un pequeño percance con una rama
 
 clavada en pierna de Esme pero nada más, llegan y seguimos por delante
 
-de los chicos, estamos alucinado!!! La sensaciÃ³n de entrar en los
+de los chicos, estamos alucinado!!! La sensación de entrar en los
 
 tiempos de otros equipos y no quedarnos las ultimas,es genial motiva
 
@@ -98,11 +98,11 @@ barranco con todo el material preparado y cuando llegamos al inicio
 
 nos dicen que hay dos horas de espera para comenzar, hay que tomar una
 
-decisiÃ³n rápida, si no vamos perdemos 3 puntos si nos quedamos nos
+decisión rápida, si no vamos perdemos 3 puntos si nos quedamos nos
 
 arriesgamos a hacer el trekking por esos montes de noche, en eso que
 
-llegan Jose y David y tomamos una decisiÃ³n entre todos que creemos que
+llegan Jose y David y tomamos una decisión entre todos que creemos que
 
 es la mejor, picamos esa baliza y nos vamos.
 
@@ -110,15 +110,15 @@ Llegamos detrás ellos, Jolin que rápido suben!!  Y se preparan Esme y
 
 Lola para la etapa reina el trekking. Salen con todos pero al poco
 
-rato se quedan pensando la direcciÃ³n correcta y estos se adelantan,
+rato se quedan pensando la dirección correcta y estos se adelantan,
 
 alli empieza su calvario, la brújula de Esmeralda marca al revés lo
 
-que les hace ir justo en direcciÃ³n contraria, aunque su instinto le
+que les hace ir justo en dirección contraria, aunque su instinto le
 
 dice que es para el otro lado, se meten en unos cortados tremendo
 
-llenos de vegetaciÃ³n y con una niebla super cerrada, cuando se dan
+llenos de vegetación y con una niebla super cerrada, cuando se dan
 
 cuenta del problema de la brújula ya no saben como volver y empiezan a
 
@@ -130,33 +130,33 @@ las que siguen hasta dar con ellos y respiran UFFFF!!! Ya somos 4
 
 perdidos. Mientras tanto los chicos llegan y nos ven preocupadas por
 
-estas chicas, Javi decÃ­a â‚¬Å“nos tendrÃ­an que haber seguido..â‚¬Â  Sobre
+estas chicas, Javi decí­a â‚¬Å“nos tendrí­an que haber seguido..â‚¬Â  Sobre
 
 todo muchas gracias a todos por vuestro apoyo!!! David y Cesar se
 
 quedaron hasta que llegaron para ver si estaba bien.
 
-Bueno al final y después de hacer más del doble de Km de los que tenÃ­a
+Bueno al final y después de hacer más del doble de Km de los que tení­a
 
-la etapa, aparecen y no os creáis que las ultimas, que todavÃ­a
+la etapa, aparecen y no os creáis que las ultimas, que todaví­a
 
 faltaban muchos otros equipos por llegar.
 
 Llevan un susto en el cuerpo tremendo, Esme llorando y Lola con cara
 
-de aquÃ­ acaba el raid.
+de aquí­ acaba el raid.
 
 Puedo convencer a Esmeralda (es fácil) y salimos a la nocturna de bici
 
-de 40 km, con jabalÃ­ incluido pero la acabamos y cogemos todas las
+de 40 km, con jabalí­ incluido pero la acabamos y cogemos todas las
 
 balizas y no somos las últimas en llegar ni mucho menos.
 
-Buenos aquÃ­ acaba lo duro, nos vamos a dormir que al dÃ­a siguiente nos
+Buenos aquí­ acaba lo duro, nos vamos a dormir que al dí­a siguiente nos
 
-queda la exhibiciÃ³n por la playa, aquÃ­ acabamos la ultimas pero con
+queda la exhibición por la playa, aquí­ acabamos la ultimas pero con
 
-cara de satisfacciÃ³n.
+cara de satisfacción.
 
 [![](attachments/20090426_Raid-la-Pineda_0021.webp)
 

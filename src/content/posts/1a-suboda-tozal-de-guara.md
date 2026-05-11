@@ -13,7 +13,7 @@ date: 2026-05-11
 ---
 El pasado sábado se celebró esta novedosa prueba de carácter único con gran éxito de participación.
 
-![Alberto y Lucía con los globeros](attachments/suboda-globeros-300x251.webp)
+![Alberto y Lucía con los globeros](attachments/suboda-globeros.jpg)
 *Alberto y Lucía con los globeros.*
 
 Muchas gracias a todos los asistentes por hacer del 16/6/2012 una fecha especial, llena de risas, lágrimas, abrazos, sorpresas, cucañas, más lágrimas... ;-)
@@ -22,4 +22,4 @@ Gracias al [Cuarteto Sibelius](http://www.cuartetosibelius.com/) por deleitarnos
 
 Al violín y al coro que entró en acción, y por sorpresa, en la cima.
 
-Y una mención especial a Inazio y Make, Loren e Isa, ÃƒÂlvaro, Pablo y todos aquellos que echaron una mano con la logística de este evento.
+Y una mención especial a Inazio y Make, Loren e Isa, íƒÂlvaro, Pablo y todos aquellos que echaron una mano con la logística de este evento.

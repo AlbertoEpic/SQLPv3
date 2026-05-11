@@ -14,7 +14,7 @@ Todo comenzó el jueves anterior, cuando [Quiri](https://www.facebook.com/quiri.
 
 AlbertoEpic navegaba por el ciberespacio valorando la meteo, las condiciones del monte y posibles actividades compatibles con los múltiples compromisos de estas fechas.
 
-- "Ã‚Â¿San Juan de la Peña? Uhmmm, hace mucho que no voy por allí".
+- "í‚Â¿San Juan de la Peña? Uhmmm, hace mucho que no voy por allí".
 
 En el vídeo parecía que el sendero merecía la pena, y siendo su procedencia el Wikiloc de '[Familia Freeridez](https://es.wikiloc.com/wikiloc/user.do?id=1110720)' (No os lo perdáis, un nicho lleno de rutas de BTT enduro de calidad!), la apuesta era segura.
 

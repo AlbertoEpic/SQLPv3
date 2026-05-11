@@ -29,7 +29,7 @@ El equipo SQLP agradece enormemente al superhéroe Pedro Albero por sus consejos
 
 ![](https://i.imgur.com/NU76imS.jpg)											Con tan poco agua cuesta lo suyo salir de cada marmita :-)
 
-![](https://i.imgur.com/BeAiN5d.jpg)											Agua cristalina (Ã‚Â¿No sabías que el agua es verde? ;-p )
+![](https://i.imgur.com/BeAiN5d.jpg)											Agua cristalina (í‚Â¿No sabías que el agua es verde? ;-p )
 
 ![](https://i.imgur.com/QwxPQx9.jpg)											Con más caudal, en un sitio así la corriente arrastraría a un niño!
 

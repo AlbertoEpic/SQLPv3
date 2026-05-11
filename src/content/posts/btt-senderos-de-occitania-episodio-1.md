@@ -13,7 +13,7 @@ tags:
   - "Occitania"
   - "trialeras"
 ---
-El pasado fin de semana un reducido comando globero de élite formado por los especialistas Morenetti, Jarita, Luzia y AlbertoEpic estuvieron en las inmediaciones de la Pedals d'Occitania, realizando una pequeña adaptación del recorrido para disfrutar de los dos principales valores de la zona (los senderos totalmente ciclables, y el jacuzzi del aparthotel de MaulÃƒÂ¨on Barousse...) en un fin de semana, dos etapas.
+El pasado fin de semana un reducido comando globero de élite formado por los especialistas Morenetti, Jarita, Luzia y AlbertoEpic estuvieron en las inmediaciones de la Pedals d'Occitania, realizando una pequeña adaptación del recorrido para disfrutar de los dos principales valores de la zona (los senderos totalmente ciclables, y el jacuzzi del aparthotel de MaulíƒÂ¨on Barousse...) en un fin de semana, dos etapas.
 
 En total, 144km, 4.120m de desnivel acumulado, 3h bajo la tormenta, 45min de jacuzzi, pizza de 40cm de diámetro...
 

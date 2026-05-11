@@ -20,10 +20,10 @@ Así pues, toca improvisar nuevo plan. El objetivo será el Borón, desde Vadiel
 
 ![Imagen](https://i.imgur.com/vUAK2Qj.jpg)
 
-Al poco de salir, tenemos una buena visión general de la ruta: arriba a la izquierda, la canal de ascenso a los mallos de Lazas, donde se concentran las mayores 'dificultades' técnicas de la ruta. Hacia la derecha, el mallo San Jorge y La Mitra. Más al fondo, el Borón. Siguiendo hacia la derecha, Fragineto, Montidinera, el embalse yÃ‚Â  la presa de Vadiello.
+Al poco de salir, tenemos una buena visión general de la ruta: arriba a la izquierda, la canal de ascenso a los mallos de Lazas, donde se concentran las mayores 'dificultades' técnicas de la ruta. Hacia la derecha, el mallo San Jorge y La Mitra. Más al fondo, el Borón. Siguiendo hacia la derecha, Fragineto, Montidinera, el embalse yí‚Â  la presa de Vadiello.
 A lo largo de la ruta, AlbertoEpic aprovecha para sacar varias fotos esféricas, desde la cima y desde otros puntos de la subida. Actualizaremos esta entrada conforme las vayamos teniendo preparadas.
 
-[VER FOTO ESFÃƒâ€°RICA desde la cima](https://soloquedalopeor.com/producto/el-boron-1-327m/)
+[VER FOTO ESFíƒâ€°RICA desde la cima](https://soloquedalopeor.com/producto/el-boron-1-327m/)
 
 Hemos añadido el track de la ruta a nuestra base de datos, para aquellos interesados en descargarlo.
 

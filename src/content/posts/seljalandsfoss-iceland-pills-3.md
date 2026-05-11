@@ -11,7 +11,7 @@ category: "Islandia 2024"
 
 ## El camino por detrás de la cascada...
 
-La cascada Seljalandsfoss parte del río Seljalandsá ("Río líquido"), y cae cerca de 60 metros en lo que en otros tiempos era una escollera sobre el océano (que en la actualidad se encuentra a varios kilómetros) y que hoy marca el límite entre lasÃ‚Â Tierras AltasÃ‚Â y el resto del país. El río que la alimenta tiene su origen bajo el glaciarÃ‚Â Eyjafjallajokull. El volcán bajo este glaciar fue el que entró en erupción en 2010 y causó estragos en el tráfico aéreo de toda Europa.
+La cascada Seljalandsfoss parte del río Seljalandsá ("Río líquido"), y cae cerca de 60 metros en lo que en otros tiempos era una escollera sobre el océano (que en la actualidad se encuentra a varios kilómetros) y que hoy marca el límite entre lasí‚Â Tierras Altasí‚Â y el resto del país. El río que la alimenta tiene su origen bajo el glaciarí‚Â Eyjafjallajokull. El volcán bajo este glaciar fue el que entró en erupción en 2010 y causó estragos en el tráfico aéreo de toda Europa.
 
 
 [https://www.flickr.com/photos/12672771@N06/albums/72177720320051001](https://www.flickr.com/photos/12672771@N06/albums/72177720320051001)

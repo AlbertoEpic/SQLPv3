@@ -1,5 +1,5 @@
 ---
-title: "'Powder' en el Pirineo: Ã‚Â¿mito o realidad?"
+title: "'Powder' en el Pirineo: í‚Â¿mito o realidad?"
 pubDate: 2010-12-07T08:32:00Z
 
 heroImage: attachments/SQLPcomodin.jpg

@@ -47,7 +47,7 @@ Terminada!
 100%
 Ver panorama esférico desde la cima del [pico Bataillence](https://soloquedalopeor.com/producto/pico-bataillence-2-604m/).
 
-Hemos añadido el track a nuestra base de datos. A continuación puedes consultar el track y descargarlo. Ã‚Â¿Te interesa una actividad sin compromisos que deja un gran sabor de boca? Esta es la tuya!
+Hemos añadido el track a nuestra base de datos. A continuación puedes consultar el track y descargarlo. í‚Â¿Te interesa una actividad sin compromisos que deja un gran sabor de boca? Esta es la tuya!
 <iframe src="https://www.gpsies.com/mapOnly.do?fileId=eeoeaovgtphetusb" width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
 Y también puedes ver la simulación en 3D del recorrido:
 

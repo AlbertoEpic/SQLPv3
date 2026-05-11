@@ -22,7 +22,7 @@ La idea original era recorrer la archiconocida Garganta del Cares, pero en agost
 
 Para no hacer ruta lineal, improvisamos sobre la marcha y un cartel nos ayuda para situar un sendero alternativo que nos lleva al otro lado del desfiladero, bien!
 
-Así, salimos de Villanueva, junto al ÃƒÂrea Recreativa El Molin (Las Xanas), y por Valdolayés accedemos a Dosango y Pedroveya, donde comienza la ruta de Las Xanas. A partir de aquí regresamos a la furgoneta por el desfiladero de Las Xanas, donde ya se empieza a ver algunas personas.
+Así, salimos de Villanueva, junto al íƒÂrea Recreativa El Molin (Las Xanas), y por Valdolayés accedemos a Dosango y Pedroveya, donde comienza la ruta de Las Xanas. A partir de aquí regresamos a la furgoneta por el desfiladero de Las Xanas, donde ya se empieza a ver algunas personas.
 
 Por cierto, eso de similar o mejor que la Garganta del Cares... yo diría que eso lo dijo el mismo que le puso el nombre a los saltamontes!
 ![](https://i.imgur.com/u2wx3GX.jpg)

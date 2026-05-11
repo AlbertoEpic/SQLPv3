@@ -5,13 +5,13 @@ pubDate: 2021-07-27T07:52:01Z
 updatedDate: 2021-07-27T08:47:22Z
 draft: false
 author: "AlbertoEpic"
-description: "El Tarmañones es una fantástica atalaya al norte de las sierras de la Partacua (Telera) y Tendeñera (Sabocos). En su mayoría relieves suaves cubiertos de hierba, se convierte en un apetecible objetivo con niños si pagamos los 7Ã¢â€šÂ¬ para subir "
+description: "El Tarmañones es una fantástica atalaya al norte de las sierras de la Partacua (Telera) y Tendeñera (Sabocos). En su mayoría relieves suaves cubiertos de hierba, se convierte en un apetecible objetivo con niños si pagamos los 7í¢â€šÂ¬ para subir "
 category: "SQLP-kids"
 tags:
   - "ascensiones"
   - "Valle de Tena"
 ---
-El Tarmañones es una fantástica atalaya al norte de las sierras de la Partacua (Telera) y Tendeñera (Sabocos). En su mayoría relieves suaves cubiertos de hierba, se convierte en un apetecible objetivo con niños si pagamos los 7Ã¢â€šÂ¬ para subir en coche por la pista hasta el punto de partida, en el embalse de las Paúles.
+El Tarmañones es una fantástica atalaya al norte de las sierras de la Partacua (Telera) y Tendeñera (Sabocos). En su mayoría relieves suaves cubiertos de hierba, se convierte en un apetecible objetivo con niños si pagamos los 7í¢â€šÂ¬ para subir en coche por la pista hasta el punto de partida, en el embalse de las Paúles.
 Tanto el desnivel (325m+) como la distancia (7km) son asequibles para niños. El track, a continuación:
 
 <iframe src="https://www.alltrails.com/es/widget/map/map-7e6ff02--55?scrollZoom=ó&hideName=true&u=m" width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="AllTrails: Trail Guides and Maps for Hiking, Camping, and Running"></iframe>

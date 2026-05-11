@@ -18,7 +18,7 @@ Otra mañana libre para AlbertoEpic, y otro microplan totalmente recomendable: e
 
 Subida cómoda por asfalto hasta Lacuniacha, y luego por pista buena hasta el ibón de Piedrafita. Allí, AlbertoEpic decide salirse de la ruta para sacar una nueva foto esférica desde lo alto de la cota 1.700m (Ya veremos si la damos por buena, las numerosas nubes dificultan mucho una buena visibilidad).
 
-[VER FOTO ESFÃƒâ€°RICA](https://soloquedalopeor.com/producto/cota-1-693m-junto-al-ibon-de-piedrafita/)
+[VER FOTO ESFíƒâ€°RICA](https://soloquedalopeor.com/producto/cota-1-693m-junto-al-ibon-de-piedrafita/)
 
 Luego viene un tramo de sube-bajas, 100% ciclable si tienes técnica y potencia. Llegados a Plana Terrosa, ya sólo nos resta un divertidísimo sendero hasta Búbal. Absolutamente variado: prado, piedras, hojas, barrancos, tubos, peraltes, escalones. En esta época del año, debido a su orientación, está muy mojado y eso aporta una 'estimulante' sensación de miedo al resbalón...
 

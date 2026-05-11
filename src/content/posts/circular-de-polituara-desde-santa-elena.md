@@ -17,9 +17,9 @@ Otra propuesta sencilla para hacer con niños. Con abundante sombra, poco desniv
 
 2.- Ir encontrando los búnkers de la 'Línea P'. Tenemos centros de mando, nidos de ametralladoras, baterías,... El complemento perfecto para que los críos se monten esas películas de batallitas que tanto les gustan ;-)
 
-La organización defensiva de los Pirineos, conocida comoÃ‚Â Línea P, era una barrera defensiva que se construyó entre 1939 y 1948 formada por unos 6.000 búnkeres. Mediante un trazado estratégicamente dispuesto se levantaron espacios para evitar que laÃ‚Â AlemaniaÃ‚Â nazi o los aliados entrasen aÃ‚Â EspañaÃ‚Â a través de la cordillera pirenaica.
+La organización defensiva de los Pirineos, conocida comoí‚Â Línea P, era una barrera defensiva que se construyó entre 1939 y 1948 formada por unos 6.000 búnkeres. Mediante un trazado estratégicamente dispuesto se levantaron espacios para evitar que laí‚Â Alemaniaí‚Â nazi o los aliados entrasen aí‚Â Españaí‚Â a través de la cordillera pirenaica.
 
-Para más información sobre la ruta, puedesÃ‚Â [visitar este enlace](http://unahuellaenlanieve.blogspot.com/2016/09/circular-por-santa-elena-y-polituara.html?m=1), una estupenda entrada en el blog 'Una Huella en la Nieve'.
+Para más información sobre la ruta, puedesí‚Â [visitar este enlace](http://unahuellaenlanieve.blogspot.com/2016/09/circular-por-santa-elena-y-polituara.html?m=1), una estupenda entrada en el blog 'Una Huella en la Nieve'.
 
 Hemos añadido el track a nuestra base de datos:
 <iframe src="https://www.alltrails.com/es/widget/map/map-oct-20-06-30-pm-caf1a3d?scrollZoom=ó&hideName=true&u=m" width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="AllTrails: Trail Guides and Maps for Hiking, Camping, and Running"></iframe>

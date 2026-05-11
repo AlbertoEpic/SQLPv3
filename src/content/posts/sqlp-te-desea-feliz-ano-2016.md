@@ -1,5 +1,5 @@
 ---
-title: "SQLP te desea FELIZ AÃƒâ€˜O 2016!!!"
+title: "SQLP te desea FELIZ Aíƒâ€˜O 2016!!!"
 pubDate: 2015-12-31T20:58:43Z
 
 heroImage: attachments/SQLPcomodin.jpg

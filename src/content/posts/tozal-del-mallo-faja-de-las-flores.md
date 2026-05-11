@@ -5,7 +5,7 @@ pubDate: 2024-06-28T16:35:27Z
 updatedDate: 2024-06-28T16:48:10Z
 draft: false
 author: "AlbertoEpic"
-description: "Oferta 2x1: Ã‚Â¡Ordesa nunca defrauda! El otro día, los míticos especialistas July&AlbertoEpic, del equipo SQLP TeRReXtrem, realizaron una actividad inusual en ellos. Especializados en incursiones relámpago vespertinas, contaban en esta ocasió"
+description: "Oferta 2x1: í‚Â¡Ordesa nunca defrauda! El otro día, los míticos especialistas July&AlbertoEpic, del equipo SQLP TeRReXtrem, realizaron una actividad inusual en ellos. Especializados en incursiones relámpago vespertinas, contaban en esta ocasió"
 category: "Ascensiones"
 tags:
   - "ascensiones"
@@ -13,7 +13,7 @@ tags:
   - "ordesa"
 ---
 
-## Oferta 2x1: Ã‚Â¡Ordesa nunca defrauda!
+## Oferta 2x1: í‚Â¡Ordesa nunca defrauda!
 
 El otro día, los míticos especialistas July&AlbertoEpic, del equipo SQLP TeRReXtrem, realizaron una actividad inusual en ellos. Especializados en incursiones relámpago vespertinas, contaban en esta ocasión con el día completo.
 
@@ -21,7 +21,7 @@ Puedes ver a continuación el itinerario que siguieron, en la ya clásica animac
 
 
 
-Después de sopesar varias opciones, la ganadora fue esta. Ã‚Â¡Ordesa nunca defrauda! Cogieron uno de sus planes vespertinos, la ascensión al Tozal del Mallo, y lo completaron con el recorrido de la afamada Faja de las Flores (Todos los adjetivos se le quedan cortos).
+Después de sopesar varias opciones, la ganadora fue esta. í‚Â¡Ordesa nunca defrauda! Cogieron uno de sus planes vespertinos, la ascensión al Tozal del Mallo, y lo completaron con el recorrido de la afamada Faja de las Flores (Todos los adjetivos se le quedan cortos).
 
 El track está en internet por todas partes, y ahora lo puedes ver/descargar aquí también.
 
@@ -65,9 +65,9 @@ AlbertoEpic
 
 *July en la parte inicial de la Faja de las Flores.*
 
-![Ã‚Â¿El mayor poder de nuestra especialista July? Su inmensa paciencia con AlbertoEpic y sus gadgets...](attachments/P6190073-Mejorado-NR-1024x768.webp)
+![í‚Â¿El mayor poder de nuestra especialista July? Su inmensa paciencia con AlbertoEpic y sus gadgets...](attachments/P6190073-Mejorado-NR-1024x768.webp)
 
-*Ã‚Â¿El mayor poder de nuestra especialista July? Su inmensa paciencia con AlbertoEpic y sus gadgets...*
+*í‚Â¿El mayor poder de nuestra especialista July? Su inmensa paciencia con AlbertoEpic y sus gadgets...*
 
 
 "Al final se nos hará tarde, y encima va a llover en cualquier momento... Pero tranquilo, saca todas las fotos que te apetezca!"
@@ -113,7 +113,7 @@ Y hasta aquí la selección fotográfica de la jornada. Como anécdota curiosa, 
 
 Afortunadamente, los cálculos de AlbertoEpic eran correctos (Y conservadores) por lo que no tuvieron ningún problema en terminar la vuelta con normalidad...
 
-Este suceso ha dado que pensar a AlbertoEpic... Ã‚Â¿Tal vez necesite un asesor de imagen que le aporte un look más 'pro'? Porque está claro que el otro día en Ordesa transmitía una imagen de imprudente 'turista outsider'... ÃƒÂ°Ã…Â¸Ã‹Å“Ã…â€œ
+Este suceso ha dado que pensar a AlbertoEpic... í‚Â¿Tal vez necesite un asesor de imagen que le aporte un look más 'pro'? Porque está claro que el otro día en Ordesa transmitía una imagen de imprudente 'turista outsider'... íƒÂ°í…Â¸í‹Å“í…â€œ
 
 
 

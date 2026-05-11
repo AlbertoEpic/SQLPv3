@@ -14,7 +14,7 @@ tags:
   - "Esquí de travesía"
   - "Valle de Tena"
 ---
-El otro díaÃ‚Â tuvo lugar otra nueva edición de la Alta Ruta Valle de Tena de Peña Guara. Algunos individuos, que tristemente no podían contar en sus agendas con el necesario hueco de 2 días, decidieron acompañar al grupo en el itinerario de la primera etapa hasta el pico Batanes N, para después regresar directamente al Balneario de Panticosa.
+El otro díaí‚Â tuvo lugar otra nueva edición de la Alta Ruta Valle de Tena de Peña Guara. Algunos individuos, que tristemente no podían contar en sus agendas con el necesario hueco de 2 días, decidieron acompañar al grupo en el itinerario de la primera etapa hasta el pico Batanes N, para después regresar directamente al Balneario de Panticosa.
 A continuación puedes ver el videoreportaje de la jornada:
 <iframe src="https://www.youtube.com/embed/7jdsuBv_8QI?showinfo=0" width="640" height="360" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 Y también hemos añadido el track a nuestra base de datos...

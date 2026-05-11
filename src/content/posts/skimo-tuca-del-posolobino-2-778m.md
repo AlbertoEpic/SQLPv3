@@ -17,5 +17,5 @@ Sobre estas líneas tienes un video de la arista cimera del Posolobino. Y a cont
 <iframe src="https://www.alltrails.com/widget/map/map--130378?scrollZoom=ó&u=m" width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="AllTrails: Trail Guides and Maps for Hiking, Camping, and Running"></iframe>
 Casualidades de la vida, nos encontramos en la arista cimera con otra pareja, y hablando hablando... resulta que éramos 'ciber-conocidos'! Un saludo especial desde aquí al blog '[Tocando el Cielo](https://tocandoelcielosite.wordpress.com/)'.
 
-Como no podía ser de otra manera, AlbertoEpic aprovechó para sacar una nueva esférica desde la cima, puedes verla en laÃ‚Â [web específica de SQLP, Pano360](https://pano360.soloquedalopeor.com/panorama/tuca-del-posolobino-2-778m/).
+Como no podía ser de otra manera, AlbertoEpic aprovechó para sacar una nueva esférica desde la cima, puedes verla en laí‚Â [web específica de SQLP, Pano360](https://pano360.soloquedalopeor.com/panorama/tuca-del-posolobino-2-778m/).
 

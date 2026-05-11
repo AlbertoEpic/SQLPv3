@@ -10,7 +10,7 @@ category: "Otros"
 ---
 Reseñamos aquí una actividad otoñal realizada por los especialistas Myriam y AlbertoEpic, probablemente la realizada a mayor altitud en zapatillas hasta la primavera que viene...
 
-El formato de la actividad fue ese que ya han convertido en habitual (Aproximación en BTT + Tramo final a pie). Parten de Hoz de Jaca en BTT para subir hastaÃ‚Â  dejar atrás el ibón de los Asnos. Portean algo las bicis y las dejan para continuar a pie hasta la cima de Peña Roya, y posteriormente a la cercana Peña Blanca. El ascenso hasta el collado (Cara Norte) se realiza a la sombra y los deja tiesos, cuesta acostumbrarse a estos primeros fríos!
+El formato de la actividad fue ese que ya han convertido en habitual (Aproximación en BTT + Tramo final a pie). Parten de Hoz de Jaca en BTT para subir hastaí‚Â  dejar atrás el ibón de los Asnos. Portean algo las bicis y las dejan para continuar a pie hasta la cima de Peña Roya, y posteriormente a la cercana Peña Blanca. El ascenso hasta el collado (Cara Norte) se realiza a la sombra y los deja tiesos, cuesta acostumbrarse a estos primeros fríos!
 
 Por eso agradecen un montón el sol en el collado... Pero es sólo un espejismo, porque en el cordal sopla un intenso viento que los deja helados en pocos minutos. AlbertoEpic es fiel a nuestro contrato con SQLP y despega el dron para conseguir unas valiosas tomas. Tampoco olvida tomar la foto esférica. (Posteriormente nos confesaría que llegó a temer por sus deditos, totalmente insensibles debido al frío... y que está seguro de que Myriam estuvo deseándole lo peor al maldito Albertdrone para que se bajaran de ahí cuanto antes. Lo vio en su mirada!)
 

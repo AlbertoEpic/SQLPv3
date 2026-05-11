@@ -12,7 +12,7 @@ tags:
   - "Esquí de travesía"
   - "globeros"
 ---
-El pasado domingo tuvo lugar la Salida Promocional de Esquí de Montaña de Peña Guara. Nada menos que 45 extraños especímenes -entre los que se infiltraron algunos seres de varias tribus blogueras: globeros, focas majaras,...- se dieron cita en Aísa para subir al Aspe por el Cubilar de RigÃƒÂ¼elo, Llanas de RigÃƒÂ¼elo y Pico Aspe.
+El pasado domingo tuvo lugar la Salida Promocional de Esquí de Montaña de Peña Guara. Nada menos que 45 extraños especímenes -entre los que se infiltraron algunos seres de varias tribus blogueras: globeros, focas majaras,...- se dieron cita en Aísa para subir al Aspe por el Cubilar de RigíƒÂ¼elo, Llanas de RigíƒÂ¼elo y Pico Aspe.
 
 Un éxito de día, buena meteo, buena nieve, llegada a cima masiva: Desafío Extremo conseguido!!!
 

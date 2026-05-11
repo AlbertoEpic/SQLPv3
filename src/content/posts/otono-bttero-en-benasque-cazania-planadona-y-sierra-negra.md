@@ -14,7 +14,7 @@ tags:
   - "enduro"
 ---
 Estos días pasados el equipo SQLP estuvo disfrutando del otoño anticiclónico en Benasque. Aparte de otras actividades, reseñamos aquí las principales actividades btteras realizadas:
-Marga y AlbertoEpic estuvieron Ã‚Â conociendo la ruta de 'La Cazanía' de Puro Pirineo, desde Seira.
+Marga y AlbertoEpic estuvieron í‚Â conociendo la ruta de 'La Cazanía' de Puro Pirineo, desde Seira.
 
 ![](https://i.imgur.com/NirF6tW.png)
 

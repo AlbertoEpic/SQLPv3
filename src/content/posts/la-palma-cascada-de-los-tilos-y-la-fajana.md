@@ -9,7 +9,7 @@ description: "Vacaciones en La Palma: día 2 Y llega nuestro segundo día en la 
 category: "La Palma 2022"
 ---
 Vacaciones en La Palma: día 2
-Y llega nuestro segundo día en la isla. Hoy lo vamos a plantear más en plan turístico, intentando escapar de las terribles carreteras sinuosas del día anterior... Queremos conocer la zona norte de La Palma. Subiremos viendo cosas sin prisa, y nos acercamos a la zona del Parque Natural de las Nieves Ã¢â‚¬â€œ Bosque de los Tilos.
+Y llega nuestro segundo día en la isla. Hoy lo vamos a plantear más en plan turístico, intentando escapar de las terribles carreteras sinuosas del día anterior... Queremos conocer la zona norte de La Palma. Subiremos viendo cosas sin prisa, y nos acercamos a la zona del Parque Natural de las Nieves í¢â‚¬â€œ Bosque de los Tilos.
 
 Los Tilos alberga uno de los bosques de laurisilva más importantes del archipiélago canario. Se trata de un ecosistema heredado de la época terciaria que llegó a ser, en su día, la primera Reserva de la Biosfera en la isla. Localizado en el municipio de San Andrés y Sauces, conserva un patrimonio natural de excepcional valor.
 
@@ -23,7 +23,7 @@ Abajo puedes ver algunas fotos del Bosque de los Tilos y de la puesta de sol.
 
 ![](https://i.imgur.com/OD17liA.jpg)											La cascada de los Tilos (En su parte superior).
 
-![](https://i.imgur.com/22U2uB5.jpg)											ÃƒÅ¡ltimos instantes de sol en La Fajana de Barlovento.
+![](https://i.imgur.com/22U2uB5.jpg)											íƒÅ¡ltimos instantes de sol en La Fajana de Barlovento.
 
 ![](https://i.imgur.com/X7fLTdy.jpg)											Y otra. El sol se ponía algunos grados al NW, por lo que, pese a estar nosotros al NE de La Palma, lo hacía sobre el océano.
 

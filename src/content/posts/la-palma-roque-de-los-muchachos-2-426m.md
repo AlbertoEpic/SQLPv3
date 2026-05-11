@@ -25,11 +25,11 @@ El mirador del Roque de los Muchachos está en la cima de la isla de La Palma, u
 
 ![](https://i.imgur.com/sszByu2.jpg)											El nombre de Roque de los Muchachos proviene de la forma del mismo, pues son una serie de pequeños roques de unos 3 metros de altura, que se asemejan a un grupo de muchachos. El Roque de los Muchachos es uno de los monumentos naturales más emblemáticos de la isla de La Palma.
 
-El Roque de los Muchachos cierra laÃ‚Â Caldera de TaburienteÃ‚Â por su zona norte. Se formó debido al fuerte empuje que el magma profundo ejerció sobre unas coladas levantándolas y fracturándolas. Posteriormente el resto del macizo desapareció en la depresión que ahora es la Caldera, debido a grandes deslizamientos por efecto de la gravedad, completada con el efecto erosivo de las aguas. Colinda con el municipio deÃ‚Â El Paso, con unos contrafuertes dentro de LaÃ‚Â Caldera de TaburienteÃ‚Â que sostienen geológicamente sus cumbres.
+El Roque de los Muchachos cierra laí‚Â Caldera de Taburienteí‚Â por su zona norte. Se formó debido al fuerte empuje que el magma profundo ejerció sobre unas coladas levantándolas y fracturándolas. Posteriormente el resto del macizo desapareció en la depresión que ahora es la Caldera, debido a grandes deslizamientos por efecto de la gravedad, completada con el efecto erosivo de las aguas. Colinda con el municipio deí‚Â El Paso, con unos contrafuertes dentro de Laí‚Â Caldera de Taburienteí‚Â que sostienen geológicamente sus cumbres.
 
-En el Roque de los Muchachos, dadas sus especiales condiciones climáticas, bañado por el aire fresco y laminar del Atlántico, sin turbulencias, y también a su gran altura, que garantiza una luz estable y prístina, se sitúa elÃ‚Â Observatorio Astrofísico del Roque de los Muchachos.
+En el Roque de los Muchachos, dadas sus especiales condiciones climáticas, bañado por el aire fresco y laminar del Atlántico, sin turbulencias, y también a su gran altura, que garantiza una luz estable y prístina, se sitúa elí‚Â Observatorio Astrofísico del Roque de los Muchachos.
 
-Desde la cumbre se pueden ver las islas deÃ‚Â Tenerife,Ã‚Â La GomeraÃ‚Â yÃ‚Â El HierroÃ‚Â si hay buena visibilidad.
+Desde la cumbre se pueden ver las islas deí‚Â Tenerife,í‚Â La Gomeraí‚Â yí‚Â El Hierroí‚Â si hay buena visibilidad.
 
 [https://www.iac.es/es/observatorios-de-canarias/observatorio-del-roque-de-los-muchachos](https://www.iac.es/es/observatorios-de-canarias/observatorio-del-roque-de-los-muchachos)
 Observatorio del Roque de los Muchachos. El típico mas de nubes en la Caldera de Taburiente...

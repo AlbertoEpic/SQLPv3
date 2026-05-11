@@ -5,18 +5,18 @@ pubDate: 2016-01-22T19:29:40Z
 updatedDate: 2016-01-22T19:29:40Z
 draft: false
 author: "AlbertoEpic"
-description: "El pasado jueves Luzia y AlbertoEpic hicieron una breve actividad matutina. Continúan con el rodaje de pretemporada, en una temporada que todavÃ­a está comenzando a pesar de irse acercando cada vez más hacia su ocaso. Esperemos que la cota d"
-category: "EsquÃ­ de travesÃ­a"
+description: "El pasado jueves Luzia y AlbertoEpic hicieron una breve actividad matutina. Continúan con el rodaje de pretemporada, en una temporada que todaví­a está comenzando a pesar de irse acercando cada vez más hacia su ocaso. Esperemos que la cota d"
+category: "Esquí­ de travesí­a"
 tags:
-  - "EsquÃ­ de travesÃ­a"
+  - "Esquí­ de travesí­a"
   - "Valle de Tena"
 ---
-El pasado jueves Luzia y AlbertoEpic hicieron una breve actividad matutina. Continúan con el rodaje de pretemporada, en una temporada que todavÃ­a está comenzando a pesar de irse acercando cada vez más hacia su ocaso. Esperemos que la cota de nieve baje algún dÃ­a...
+El pasado jueves Luzia y AlbertoEpic hicieron una breve actividad matutina. Continúan con el rodaje de pretemporada, en una temporada que todaví­a está comenzando a pesar de irse acercando cada vez más hacia su ocaso. Esperemos que la cota de nieve baje algún dí­a...
 
-Para este dÃ­a, el recorrido elegido discurriÃ³ por el parking de Anayet, Majada de Espelunciecha, pico Espelunciecha por la cara Norte, y descenso por la misma N y la Glera de Anayet. El dÃ­a, perfecto, y la nieve, sin ser de ensueño, sÃ­ que era polvorÃ³n... :-)
-A continuaciÃ³n, algunas fotos.
+Para este dí­a, el recorrido elegido discurrió por el parking de Anayet, Majada de Espelunciecha, pico Espelunciecha por la cara Norte, y descenso por la misma N y la Glera de Anayet. El dí­a, perfecto, y la nieve, sin ser de ensueño, sí­ que era polvorón... :-)
+A continuación, algunas fotos.
 
-[![](attachments/espelunciecha.webp) Luzia foqueando en direcciÃ³n a la N del Espelunciecha.
+[![](attachments/espelunciecha.webp) Luzia foqueando en dirección a la N del Espelunciecha.
 
 [![](attachments/IMG_20160121_141555-01.webp) Luzia y AlbertoEpic, en la cima del Espelunciecha con el Anayet al fondo.
 

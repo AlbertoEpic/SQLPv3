@@ -6,7 +6,7 @@ heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2023-09-08T19:07:05Z
 draft: false
 author: "AlbertoEpic"
-description: "Hoy traemos una idea de actividad que puede tener dos enfoques: Para machacas: la hemos realizado alguna vez desde el Lac de FabrÃƒÂ¨ges, salvando el desnivel existente hasta el inicio de la ruta ascendiendo en BTT por una cómoda pista. Queda "
+description: "Hoy traemos una idea de actividad que puede tener dos enfoques: Para machacas: la hemos realizado alguna vez desde el Lac de FabríƒÂ¨ges, salvando el desnivel existente hasta el inicio de la ruta ascendiendo en BTT por una cómoda pista. Queda "
 category: "SQLP-kids"
 tags:
   - "ascensiones"
@@ -14,7 +14,7 @@ tags:
 
 Hoy traemos una idea de actividad que puede tener dos enfoques:
 
-**Para machacas:** la hemos realizado alguna vez desde el Lac de FabrÃƒÂ¨ges, salvando el desnivel existente hasta el inicio de la ruta ascendiendo en BTT por una cómoda pista. Queda una actividad BTT+pateo bastante apañada.
+**Para machacas:** la hemos realizado alguna vez desde el Lac de FabríƒÂ¨ges, salvando el desnivel existente hasta el inicio de la ruta ascendiendo en BTT por una cómoda pista. Queda una actividad BTT+pateo bastante apañada.
 
 **Plan infantil:** si estamos 'de campo y playa', podemos evitarnos la mayoría del desnivel subiendo en el telecabina de la estación de Artouste, abierto casi todo el año. Ya sólo nos quedará el tramo indicado en el mapa. Ojo, es corto pero al final bastante pendiente para niños. Hay que ir atento para trazar el itinerario óptimo.
 

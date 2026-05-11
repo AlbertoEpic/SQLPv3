@@ -15,7 +15,7 @@ El pasado martes, tras una bestial nevada las horas anteriores, salimos al monte
 
 Foqueamos desde Panticosa hasta los alto de la estación, el Mandilar, y nos preparamos para un flipante descenso flotando por entre una nube de polvo blanco!
 
-A continuación tenemos en video a Miguel ÃƒÂngel en los primeros giros del descenso:
+A continuación tenemos en video a Miguel íƒÂngel en los primeros giros del descenso:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/szkMBqDEKv8" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

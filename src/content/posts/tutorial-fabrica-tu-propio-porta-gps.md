@@ -5,18 +5,18 @@ pubDate: 2011-08-01T12:21:00Z
 updatedDate: 2018-10-25T16:01:10Z
 draft: false
 author: "AlbertoEpic"
-description: "Hoy te vamos a mostrar lo sencillo y econÃ³mico que es fabricarte tu propio dispositivo para llevar el gps en tus rutas de bici. En este caso, te enseñamos cÃ³mo hacerlo para un garmin eTrex, el gps que llevamos en SoloQuedaLoPeor... En fin, "
+description: "Hoy te vamos a mostrar lo sencillo y económico que es fabricarte tu propio dispositivo para llevar el gps en tus rutas de bici. En este caso, te enseñamos cómo hacerlo para un garmin eTrex, el gps que llevamos en SoloQuedaLoPeor... En fin, "
 category: "Tutoriales"
 tags:
   - "gps"
   - "tutorial"
   - "varios"
 ---
-[attachments/IMG_4867.webp](attachments/IMG_4867.webp)Hoy te vamos a mostrar lo sencillo y econÃ³mico que es fabricarte tu propio dispositivo para llevar el gps en tus rutas de bici. En este caso, te enseñamos cÃ³mo hacerlo para un garmin eTrex, el gps que llevamos en SoloQuedaLoPeor...
+[attachments/IMG_4867.webp](attachments/IMG_4867.webp)Hoy te vamos a mostrar lo sencillo y económico que es fabricarte tu propio dispositivo para llevar el gps en tus rutas de bici. En este caso, te enseñamos cómo hacerlo para un garmin eTrex, el gps que llevamos en SoloQuedaLoPeor...
 
 [attachments/IMG_4869.webp](attachments/IMG_4869.webp)En fin, manos a la obra:
 
-1.- Lo primero de todo, vamos a ver la 'materia prima': necesitas un accesorio portabombas de la secciÃ³n de ciclismo del Decathlon, y un limpiazapatos Yak (En los supermercados suele haber...)[![](attachments/IMG_4867.webp)
+1.- Lo primero de todo, vamos a ver la 'materia prima': necesitas un accesorio portabombas de la sección de ciclismo del Decathlon, y un limpiazapatos Yak (En los supermercados suele haber...)[![](attachments/IMG_4867.webp)
 
 2.- Cogemos la funda del limpiazapatos (La parte de espuma no nos interesa, pero puedes aprovechar para limpiar tus zapatillas) y le hacemos unas ranuras para adaptar los velcros del portabombas y unos recortes para poder accionar los botones del gps.[![](attachments/IMG_4869.webp)
 

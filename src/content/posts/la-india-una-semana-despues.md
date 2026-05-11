@@ -19,7 +19,7 @@ tags:
 ---
 Hace ya casi una semana desde que regresamos de nuestro viaje en bici por la India. Desde Dehra Dun, remontamos los ríos sagrados Ganges y Yamuna hasta su nacimiento. Alejados de las rutas turísticas, nos hemos sumergido durante tres semanas en la India profunda, en la región de Uttarakhand, "los condados del Norte". Curioso lugar, la India, donde:
 
-- El ser humano tiene adormecidos los sentidos: son capaces de ir descalzos; los cocineros meten la mano en el fuego (Ã‚Â¿Para ver si está caliente?) y manejan cacerolas de aceite hirviendo con las manos desnudas; el nivel de picante en la comida es inimaginable para cualquier occidental; el nivel de ruido en el ambiente es superior al del peor de los atascos en Madrid en hora punta.
+- El ser humano tiene adormecidos los sentidos: son capaces de ir descalzos; los cocineros meten la mano en el fuego (í‚Â¿Para ver si está caliente?) y manejan cacerolas de aceite hirviendo con las manos desnudas; el nivel de picante en la comida es inimaginable para cualquier occidental; el nivel de ruido en el ambiente es superior al del peor de los atascos en Madrid en hora punta.
 - En las habitaciones de los 'hoteles' casi no hay mosquitos, porque se los comen unas grandes arañas negras y peludas de temible aspecto que corretean por el suelo y las paredes...
 - Recorrer 200km por una autopista de peaje te cuesta 7 horas. Donde hay dos carriles caben cuatro; lo de dirección prohibida es puramente orientativo; están permitidos los mercadillos en 3 de los 4 carriles...
 - Para que un vehículo indio no se autodestruya, hay que conducirlo tocando el claxon al menos una vez cada dos segundos (O eso parece...).
@@ -33,7 +33,7 @@ Hace ya casi una semana desde que regresamos de nuestro viaje en bici por la Ind
 - Los que van en moto, curiosos, se ponen a tu lado y te observan mientras pedaleas.
 - Por la noche se tienen extraños sueños vividos en paisajes apocalípticos. Luego por el día descubres que esos paisajes son los mismos que estás recorriendo...
 - El río Ganges, sagrado, un río multifunción: sirve para lavar la ropa, fregar, asearse, coger agua para cocinar, tirar a los muertos a medio quemar, tirar la basura, bañarse, represarlo para agua de boca,... Lo más sagrado del país es la auténtica cloaca de la India.
-- No existen las papeleras. Ã‚Â¿Para qué? Las cosas se tiran al suelo.
+- No existen las papeleras. í‚Â¿Para qué? Las cosas se tiran al suelo.
 - Viajar acompañado de Lucía ha sido, cuanto menos, curioso: he sido totalmente transparente para ellos, nadie me hacía ni caso. La India está llena de ligones...
 - Nada más coger el avión a Dehli, parece que vas a un congreso internacional de 'badulaques' (Apu Nahasapeemapetilon, Los Simpson).
 - Te pensabas que estabas moreno, y allí tienes un enfermizo color blanquecino que todos miran con curiosidad.

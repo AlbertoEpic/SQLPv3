@@ -10,7 +10,7 @@ description: "Biel es una localidad y municipio de España, en la comarca de las
 category: "Otros"
 ---
 
-BielÃ‚Â es una localidad y municipio deÃ‚Â España, en la comarca de lasÃ‚Â Cinco Villas, perteneciente aÃ‚Â Ejea de los CaballerosÃ‚Â al noroeste de laÃ‚Â provincia de Zaragoza,Ã‚Â comunidad autónomaÃ‚Â deÃ‚Â Aragón, a 96Ã‚Â kmÃ‚Â deÃ‚Â Zaragoza. Sus principales monumentos son el Castillo de Biel y la Iglesia de San Martín. Te dejamos con un vídeo a vista de dron para que los conozcas:
+Bielí‚Â es una localidad y municipio deí‚Â España, en la comarca de lasí‚Â Cinco Villas, perteneciente aí‚Â Ejea de los Caballerosí‚Â al noroeste de laí‚Â provincia de Zaragoza,í‚Â comunidad autónomaí‚Â deí‚Â Aragón, a 96í‚Â kmí‚Â deí‚Â Zaragoza. Sus principales monumentos son el Castillo de Biel y la Iglesia de San Martín. Te dejamos con un vídeo a vista de dron para que los conozcas:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6YFwul5li24" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

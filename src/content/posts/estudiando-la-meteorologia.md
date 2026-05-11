@@ -1,17 +1,17 @@
 ---
-title: "Estudiando la meteorologÃ­a..."
+title: "Estudiando la meteorologí­a..."
 heroImage: attachments/SQLPcomodin.jpg
 pubDate: 2019-07-08T20:02:40Z
 updatedDate: 2019-07-08T20:02:42Z
 draft: false
 author: "AlbertoEpic"
-description: "... y la viabilidad de un nuevo proyecto! aÅ¡ltimamente en SQLP llevamos un tiempo de silencio y reclusiÃ³n fuera del ciberespacio. AlbertoEpic necesita regenerar su cuerpo, y dedicarse a otras obligaciones más importantes que sus 'chorradicas"
+description: "... y la viabilidad de un nuevo proyecto! aÅ¡ltimamente en SQLP llevamos un tiempo de silencio y reclusión fuera del ciberespacio. AlbertoEpic necesita regenerar su cuerpo, y dedicarse a otras obligaciones más importantes que sus 'chorradicas"
 category: "Otros"
 ---
 
 ## ... y la viabilidad de un nuevo proyecto!
 
-aÅ¡ltimamente en SQLP llevamos un tiempo de silencio y reclusiÃ³n fuera del ciberespacio. AlbertoEpic necesita regenerar su cuerpo, y dedicarse a otras obligaciones más importantes que sus 'chorradicas' en SÃ³loQuedaLoPeor...
+aÅ¡ltimamente en SQLP llevamos un tiempo de silencio y reclusión fuera del ciberespacio. AlbertoEpic necesita regenerar su cuerpo, y dedicarse a otras obligaciones más importantes que sus 'chorradicas' en SóloQuedaLoPeor...
 
 Pero tranquilos! Eso no significa que nuestro superhéroe 'de todo a cien' se haya olvidado de hacer superheroicidades! Actualmente se encuentra rumiando otra de sus ideas: calculando tiempos, fuerzas, horarios, minimizando la lista de material indispensable, estudiando la meteo local,...
 
@@ -22,7 +22,7 @@ AlbertoEpic
 
 Pero no adelantemos acontecimientos, tal vez al final este proyecto quede en el tintero...
 
-Por el momento sÃ³lo compartiremos con vosotros una web, [www.windy.com](http://www.windy.com/), con valiosÃ­sima informaciÃ³n para la prÃ³xima aventura de Albertoepic:
+Por el momento sólo compartiremos con vosotros una web, [www.windy.com](http://www.windy.com/), con valiosí­sima información para la próxima aventura de Albertoepic:
 
 <iframe width="800" height="600" src="https://embed.windy.com/embed2.html?lat=44.032&lon=0.769&zoom=7&level=surface&overlay=wind&menu=&message=&marker=&calendar=&pressure=&type=map&location=coordinates&detail=&detailLat=42.143&detailLon=-0.211&metricWind=default&metricTemp=default&radarRange=-1" frameborder="0"></iframe>
 

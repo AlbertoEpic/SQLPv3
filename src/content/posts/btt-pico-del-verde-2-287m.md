@@ -5,25 +5,25 @@ pubDate: 2020-06-16T15:24:41Z
 updatedDate: 2020-06-29T16:10:18Z
 draft: false
 author: "AlbertoEpic"
-description: "Tras el éxito con el formato de la actividad del Musales , Myriam y AlbertoEpic repiten concepto en el pico del Verde. Salen de Panticosa en BTT, suben por la pista de La Ripera, el RincÃ³n del Verde hasta la Collada de Sabocos/del Verde. A "
+description: "Tras el éxito con el formato de la actividad del Musales , Myriam y AlbertoEpic repiten concepto en el pico del Verde. Salen de Panticosa en BTT, suben por la pista de La Ripera, el Rincón del Verde hasta la Collada de Sabocos/del Verde. A "
 category: "Bicicleta de montaña"
 ---
-Tras el éxito con el formato de la [actividad del Musales](cicloalpinismo-pico-musales-2-654m/), Myriam y AlbertoEpic repiten concepto en el pico del Verde. Salen de Panticosa en BTT, suben por la pista de La Ripera, el RincÃ³n del Verde hasta la Collada de Sabocos/del Verde. A partir de allÃ­, toca empujar la bici hasta la base de la cúpula final (Desde allÃ­ la bajada es ciclable). SÃ³lo les falta culminar a pie la ascensiÃ³n hasta la cima de la Montaña del Verde.
+Tras el éxito con el formato de la [actividad del Musales](cicloalpinismo-pico-musales-2-654m/), Myriam y AlbertoEpic repiten concepto en el pico del Verde. Salen de Panticosa en BTT, suben por la pista de La Ripera, el Rincón del Verde hasta la Collada de Sabocos/del Verde. A partir de allí­, toca empujar la bici hasta la base de la cúpula final (Desde allí­ la bajada es ciclable). Sólo les falta culminar a pie la ascensión hasta la cima de la Montaña del Verde.
 
-A continuaciÃ³n puedes ver el mapa con el track:
+A continuación puedes ver el mapa con el track:
 
 <iframe width="100%" height="400" src="https://www.alltrails.com/widget/map/mapa-741a009?u=m" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="AllTrails: Trail Guides and Maps for Hiking, Camping, and Running"></iframe>
 
-AlbertoEpic aprovechÃ³ para despegar el 'Albertdrone' y captar unas buenas imágenes del comienzo del descenso desde la cima...
+AlbertoEpic aprovechó para despegar el 'Albertdrone' y captar unas buenas imágenes del comienzo del descenso desde la cima...
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5RzqQq80Ud4" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Pero antes aprovechÃ³ a sacar una nueva foto esférica. PretendÃ­a ser una remasterizaciÃ³n a mayor calidad de la que ya constaba en nuestros archivos, pero el cielo muy nuboso impidiÃ³ un resultado Ã³ptimo.
+Pero antes aprovechó a sacar una nueva foto esférica. Pretendí­a ser una remasterización a mayor calidad de la que ya constaba en nuestros archivos, pero el cielo muy nuboso impidió un resultado óptimo.
 
 <iframe width="100%" height="400" style="border-style: none;" allowfullscreen="allowfullscreen" src="https://pano360.soloquedalopeor.com/pannellum/pannellum.htm#panorama=https://i.imgur.com/NAHRMn9.jpg&title=Pico%20del%20Verde%20(2.287m)&author=Alberto%20Lafarga&autoLoad=true">
 </iframe>
 
-Te recordamos que puedes ver esta y muchas más en nuestro portal especÃ­fico de fotos esféricas:
+Te recordamos que puedes ver esta y muchas más en nuestro portal especí­fico de fotos esféricas:
 [![](attachments/logo_Pano360_600x150-300x80.webp)](https://pano360.soloquedalopeor.com)
 pano360.soloquedalopeor.com
 Y para terminar, te dejamos con unas pocas imágenes de la actividad.
@@ -74,10 +74,10 @@ margin-left: 0;
  	En la zona de porteo por el cordal.
 
  	[https://i.imgur.com/pcjDyn7.jpg](https://i.imgur.com/pcjDyn7.jpg)
- 	PrÃ³ximos a dejar la biciâ‚¬Â¦
+ 	Próximos a dejar la biciâ‚¬Â¦
 
  	[https://i.imgur.com/OqnGP9d.jpg](https://i.imgur.com/OqnGP9d.jpg)
- 	La mÃ­tica técnica del â‚¬Ëœmodo bolsoâ‚¬â„¢.
+ 	La mí­tica técnica del â‚¬Ëœmodo bolsoâ‚¬â„¢.
 
  	[https://i.imgur.com/OETHN4L.jpg](https://i.imgur.com/OETHN4L.jpg)
  	La Ripera se cierra y se acercan las rampas más fuertes.
@@ -95,12 +95,12 @@ margin-left: 0;
  	El cordal del Verde, ciclable de bajada.
 
  	[https://i.imgur.com/yiRIq44.jpg](https://i.imgur.com/yiRIq44.jpg)
- 	La cÃ³moda zona intermedia de la pista.
+ 	La cómoda zona intermedia de la pista.
 
  	[https://i.imgur.com/pcgcdvv.jpg](https://i.imgur.com/pcgcdvv.jpg)
- 	Primeras rampas cercanas al RincÃ³n del Verde.
+ 	Primeras rampas cercanas al Rincón del Verde.
 
  	[https://i.imgur.com/4x1O43v.jpg](https://i.imgur.com/4x1O43v.jpg)
- 	Myriam en la cima del Verde. Sabocos, ibÃ³n y pico, al fondo.
+ 	Myriam en la cima del Verde. Sabocos, ibón y pico, al fondo.
 
 

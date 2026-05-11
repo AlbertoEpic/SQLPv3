@@ -17,7 +17,7 @@ Sabemos que la suciedad hace que la fricción entre barras y botellas de las hor
 
 Anteriormente no muy comunes, en los últimos tiempos estos guardabarros empiezan a verse por todas partes. Es un accesorio muy sencillo de colocar y muy barato. Así que por dinero tampoco es, pero si te hace ilusión ahorrarte unos eurillos para unos cuantos cafés, te consideras 'mu apañao' y te gusta hacerte tus propias chapucillas para la bici, aquí te explicamos cómo hacerlo tú mismo.
 
-- Lo primero de todo, Ã‚Â¡la materia prima! Corre a una tienda de chinos (Probablemente estará abierta ahora) y cómprate una carpeta con tapas de plástico, para que resistan el agua, pero lo suficientemente flexibles para adoptar la forma del guardabarros. Si no tienes ya por casa, allí encontrarás todo lo demás que necesitas: bridas de plástico, saca-bocados, tijeras, lápiz.![](attachments/gb11-227x300.webp)
+- Lo primero de todo, í‚Â¡la materia prima! Corre a una tienda de chinos (Probablemente estará abierta ahora) y cómprate una carpeta con tapas de plástico, para que resistan el agua, pero lo suficientemente flexibles para adoptar la forma del guardabarros. Si no tienes ya por casa, allí encontrarás todo lo demás que necesitas: bridas de plástico, saca-bocados, tijeras, lápiz.![](attachments/gb11-227x300.webp)
 
 - Descarga e imprime la plantilla del guardabarros, al 100%, en un DinA4. Luego la recortas para dibujarla sobre la tapa de la carpeta.[![](attachments/GuardabarrosSQLP.webp)
 
@@ -27,7 +27,7 @@ Anteriormente no muy comunes, en los últimos tiempos estos guardabarros empieza
 
 - Recortas el guardabarros con las tijeras y mediante el saca-bocados practicas los agujeros correspondientes. Si no dispones de esta herramienta, puedes buscar alguna otra cosa para hacer los agujeros, pero cuidado! Si haces un corte longitudinal, este tenderá a agrandarse con las vibraciones de la bici y más temprano que tarde te quedarás sin guardabarros...[![](attachments/gb41.webp)
 
-- Sólo te queda instalar el guardabarros en la horquilla de la bici. Mediante 4 bridas plásticas, acomoda el guardabarros en su posición, aprieta bien las bridas y corta el sobrante.Ã‚Â [![](attachments/gb5.webp)
+- Sólo te queda instalar el guardabarros en la horquilla de la bici. Mediante 4 bridas plásticas, acomoda el guardabarros en su posición, aprieta bien las bridas y corta el sobrante.í‚Â [![](attachments/gb5.webp)
 
-- Ã‚Â¡Ã‚Â¡Ã‚Â¡ENHORABUENA!!! Ya tienes tu propio guardabarros...
+- í‚Â¡í‚Â¡í‚Â¡ENHORABUENA!!! Ya tienes tu propio guardabarros...
 

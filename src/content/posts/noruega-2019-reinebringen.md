@@ -15,7 +15,7 @@ tags:
 ---
 - capítulo 5 -
 Alucinando con las Lofoten!!!
-El viaje por Noruega del equipo SQLPÃ‚Â  toca a su fin...
+El viaje por Noruega del equipo SQLPí‚Â  toca a su fin...
 
 Pero antes, la última actividad será mítica! Tras acampar en una playa de las Lofoten, desayunan y siguen su recorrido por el archipiélago. AlbertoEpic ha rebuscado por internet, y parece que hay algo chulo acercándose al extremo más occidental. Hacia allí se dirigen.
 
@@ -26,7 +26,7 @@ Todo esto es surrealista, parece un decorado imaginario.
 
 Siguen un poco con el coche y enseguida llegan al comienzo de la ruta. Sin duda una ruta masificada, hasta el año pasado era totalmente desaconsejada por la gran inclinación y erosión de la senda, que se cobraba varias víctimas todas las temporadas. Afortunadamente, este año estrenan una flamante escalera de rocas construída por un equipo de nepalíes venidos ex-profeso.
 ---
-Este exigente recorrido hacia la verdadera joya de la corona de Reine, en el extremo sur deÃ‚Â Lofoten, no es para los que sufren mal de alturas. Después de subir cientos de empinados escalones entre agrestes picos de montaña, las vistas del Vestfjord y de las pequeñas aldeas de pescadores de Reine y HamnÃƒÂ¸y seguro que te dejarán sin palabras. Eso sí, asegúrate de hacer esta ruta con buen tiempo y no corras ningún riesgo innecesario. (https://www.visitnorway.es)
+Este exigente recorrido hacia la verdadera joya de la corona de Reine, en el extremo sur deí‚Â Lofoten, no es para los que sufren mal de alturas. Después de subir cientos de empinados escalones entre agrestes picos de montaña, las vistas del Vestfjord y de las pequeñas aldeas de pescadores de Reine y HamníƒÂ¸y seguro que te dejarán sin palabras. Eso sí, asegúrate de hacer esta ruta con buen tiempo y no corras ningún riesgo innecesario. (https://www.visitnorway.es)
 ---
 
 
@@ -38,13 +38,13 @@ Puedes ver a continuación un breve vídeo de la actividad:https://youtu.be/hVia
 ![Imagen](https://i.imgur.com/BT5XOTC.jpg)
 AlbertoEpic no pierde la ocasión de sacar una nueva foto esférica desde la cima alcanzada...
 
-Puedes verlaÃ‚Â haciendo [click aquí](https://soloquedalopeor.com/producto/reinebringen/).
+Puedes verlaí‚Â haciendo [click aquí](https://soloquedalopeor.com/producto/reinebringen/).
 
 Por si le puede servir a alguien, dejamos en nuestra base de datos el track de la ruta:
 <iframe src="https://www.gpsies.com/mapOnly.do?fileId=uwcikldojbhsdfol" width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
 Como veis, según el mapa superior (Y parece lo más lógico), el pico Reinebringen es la mayor altura del cordal que continuaba hacia el NW. Esto no quita que en los carteles para los turistas lo indiquen ya como la cima inferior del extremo más oriental del cordal.
 
-Y tras esta ruta que superó todas las expectativas de nuestros protagonistas, se despiden de Nico&Cris para abandonar las Lofoten y llegar a dormir a BodÃƒÂ¸, en el ferry desde Moskenes.
+Y tras esta ruta que superó todas las expectativas de nuestros protagonistas, se despiden de Nico&Cris para abandonar las Lofoten y llegar a dormir a BodíƒÂ¸, en el ferry desde Moskenes.
 
 ## [Regresar al Especial NORWAY2019](https://soloquedalopeor.com/norway-2019/)
 

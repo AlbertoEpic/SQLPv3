@@ -13,7 +13,7 @@ tags:
   - "montfalcó"
   - "montrebei"
 ---
-El pasado finde se dieron una serie de coincidencias cual singular alineación planetaria, para regocijo de SQLP... En la agenda estaba marcada una clásica ascensión a Guara en BTT. Sin embargo, la baja de última hora de Morenetti, promotor de la ruta, desencadena la sucesiva deserción de una serie de personajes ilustres. De repente la cita se tambalea... Ã‚Â¿Acudirá alguien al Carrefour a las 8am? El whatsapp echa humo...
+El pasado finde se dieron una serie de coincidencias cual singular alineación planetaria, para regocijo de SQLP... En la agenda estaba marcada una clásica ascensión a Guara en BTT. Sin embargo, la baja de última hora de Morenetti, promotor de la ruta, desencadena la sucesiva deserción de una serie de personajes ilustres. De repente la cita se tambalea... í‚Â¿Acudirá alguien al Carrefour a las 8am? El whatsapp echa humo...
 Por fortuna, la criba realizada en los participantes iniciales no afecta a los únicos tres ilustres personajes que acuden al punto de encuentro: Pedro, Dr. LaTrek y AlbertoEpic. Tres individuos con filosofía parecida, cicloalpinistas ya en el siglo pasado, y que disfrutan con un concepto más 'Old School' de lo que ahora llaman 'enduro'.
 Montan todos en la furgoneta, y tras unos breves minutos de deliberaciones, deciden buscar algo más original que Guara... Finalmente se hará una ruta propuesta por el Dr. LaTrek, con su sello inconfundible.
 Hemos añadido el track a la base de datos de SQLP, pero con pequeñas modificaciones: editado para realizar el ascenso al pico Montgai íntegramente por pista, evitando tomar los tramos de sendero que se van cruzando con esta.
@@ -34,7 +34,7 @@ Luego, más descenso con mucho mucho 'flow' hasta el pie de las pasarelas de Mon
 Inicio del ascenso por las pasarelas
 
 ![Pasarelas de Montfalcó](https://i.imgur.com/FPucXBX.jpg)
-Ã‚Â¿A quién se le ocurriría poner todo esto por aqui?
+í‚Â¿A quién se le ocurriría poner todo esto por aqui?
 
 ![AlbertoEpic negociando las estrecheces...](https://i.imgur.com/gm8MtCv.jpg)
 AlbertoEpic negociando las estrecheces...

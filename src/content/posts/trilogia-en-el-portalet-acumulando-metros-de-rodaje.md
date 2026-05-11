@@ -6,12 +6,12 @@ heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:49Z
 draft: false
 author: "AlbertoEpic"
-description: "El pasado finde hizo un tiempo bastante 'regulero'. Todo el sábado sin ver el sol, bajo la lluvia, pero por suerte para el domingo por la mañana Jorge nos había encargado una ventanica de buen tiempo. Ã‚Â¿Qué hacer cuando tienes escasas 4 hora"
+description: "El pasado finde hizo un tiempo bastante 'regulero'. Todo el sábado sin ver el sol, bajo la lluvia, pero por suerte para el domingo por la mañana Jorge nos había encargado una ventanica de buen tiempo. í‚Â¿Qué hacer cuando tienes escasas 4 hora"
 category: "Otros"
 tags:
   - "Esquí de travesía"
 ---
-El pasado finde hizo un tiempo bastante 'regulero'. Todo el sábado sin ver el sol, bajo la lluvia, pero por suerte para el domingo por la mañana Jorge nos había encargado una ventanica de buen tiempo. Ã‚Â¿Qué hacer cuando tienes escasas 4 horas hasta que cierren la ventana y venga el marrón, y además dan un elevadísimo riesgo de aludes? Elemental, nos vamos al socorrido Portalet, y nos ponemos a subir y bajar hasta que el marrón nos despacha.
+El pasado finde hizo un tiempo bastante 'regulero'. Todo el sábado sin ver el sol, bajo la lluvia, pero por suerte para el domingo por la mañana Jorge nos había encargado una ventanica de buen tiempo. í‚Â¿Qué hacer cuando tienes escasas 4 horas hasta que cierren la ventana y venga el marrón, y además dan un elevadísimo riesgo de aludes? Elemental, nos vamos al socorrido Portalet, y nos ponemos a subir y bajar hasta que el marrón nos despacha.
 
 Puedes ver las [fotos de Donato aqui](https://picasaweb.google.com/dmolinar/CuyalaretMauhouratBlanca#slideshow/5584093948490934834).
 

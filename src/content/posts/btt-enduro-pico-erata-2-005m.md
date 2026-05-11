@@ -17,7 +17,7 @@ tags:
 
 Llegados a estas fechas, la nieve por fin se va retirando de las cimas más modestas del Pirineo, que con la primavera adquiere unas tonalidades verdes apabullantes. Así está estos días la zona de Biescas, en el valle de Tena. Para aprovecharlo, nuestra propuesta de hoy es... un poco de BTT por Biescas: ruta circular pasando por la cima del Erata (2.005m).
 
-El otro día AlbertoEpic realizó esta ruta circular (Nada original, es laÃ‚Â [R27 del Espacio BTT Pirineo Alto Gállego](http://www.bttpirineosaltogallego.com/es/erata.aspx#)). Según sus impresiones (Hacía al menos 6 años que no bajaba por ahí), la bajada se encuentra ahora mismo espectacular. En todos los tramos que anteriormente eran delicados, existe actualmente una trazada buena, muy al estilo de los tiempos endureros actuales, esos que buscan maximizar el 'flow'... Ahora es posible bajar desde la misma cima hasta la puerta de la furgo aparcada en Biescas sin parar, sin poner un pie.
+El otro día AlbertoEpic realizó esta ruta circular (Nada original, es laí‚Â [R27 del Espacio BTT Pirineo Alto Gállego](http://www.bttpirineosaltogallego.com/es/erata.aspx#)). Según sus impresiones (Hacía al menos 6 años que no bajaba por ahí), la bajada se encuentra ahora mismo espectacular. En todos los tramos que anteriormente eran delicados, existe actualmente una trazada buena, muy al estilo de los tiempos endureros actuales, esos que buscan maximizar el 'flow'... Ahora es posible bajar desde la misma cima hasta la puerta de la furgo aparcada en Biescas sin parar, sin poner un pie.
 
 A continuación puedes ver el itinerario en un mapa 3D:
 ![Imagen](https://i.imgur.com/ex85gIB.jpg)

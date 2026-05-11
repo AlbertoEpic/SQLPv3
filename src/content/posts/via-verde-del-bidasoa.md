@@ -23,6 +23,6 @@ La solución improvisada fue: AlbertoEpic se marca una CRI para regresar sobre s
 
 Se encuentran de nuevo en Endarlatsa, donde cargan todo en la furgo y marchan directos a apurar el día en la playa. Así ha salido todo perfecto: los niños terminan con la deseada playa, han recorrido lo más bonito de la vía verde, y se han evitado el tramo final (Behovia-Irún), la zona más industrial, donde asfalto y hormigón predominan sobre el verde...
 
-Podéis ver el videoreportaje a continuación:https://www.youtube.com/watch?v=BwnwcBjMGGEPor si te ha gustado y estás interesado en repetirlo, te dejamos a continuación el track de la ruta, con la particularidad de que está modificado para terminar en la parada del bus de regreso deÃ‚Â [La Baztanesa](http://www.labaztanesa.com/).
+Podéis ver el videoreportaje a continuación:https://www.youtube.com/watch?v=BwnwcBjMGGEPor si te ha gustado y estás interesado en repetirlo, te dejamos a continuación el track de la ruta, con la particularidad de que está modificado para terminar en la parada del bus de regreso deí‚Â [La Baztanesa](http://www.labaztanesa.com/).
 <iframe src="https://www.alltrails.com/es/widget/map/via-verde-del-bidasoa--4?scrollZoom=ó&u=m&sh=w4k06q" width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="AllTrails: Trail Guides and Maps for Hiking, Camping, and Running"></iframe>
 

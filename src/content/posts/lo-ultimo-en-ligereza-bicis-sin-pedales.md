@@ -6,12 +6,12 @@ heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:56Z
 draft: false
 author: "AlbertoEpic"
-description: "Ã‚Â¿Quién dijo que sin pedales era imposible ir en bici? Desde luego este crío dejaría atrás a más de uno..."
+description: "í‚Â¿Quién dijo que sin pedales era imposible ir en bici? Desde luego este crío dejaría atrás a más de uno..."
 category: "Otros"
 tags:
   - "Uncategorized"
 ---
-Ã‚Â¿Quién dijo que sin pedales era imposible ir en bici? Desde luego este crío dejaría atrás a más de uno...
+í‚Â¿Quién dijo que sin pedales era imposible ir en bici? Desde luego este crío dejaría atrás a más de uno...
 
 
 

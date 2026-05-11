@@ -1,5 +1,5 @@
 ---
-title: "ÃƒÅ¡ltimo Peyreget de la temporada?"
+title: "íƒÅ¡ltimo Peyreget de la temporada?"
 heroImage: "https://i.imgur.com/eDngSlw.jpg"
 pubDate: 2018-04-29T10:53:20Z
 updatedDate: 2018-04-29T11:08:54Z

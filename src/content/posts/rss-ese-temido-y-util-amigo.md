@@ -1,5 +1,5 @@
 ---
-title: "RSS Ã¢â‚¬â€œ Ese temido y útil amigoÃ¢â‚¬Â¦"
+title: "RSS í¢â‚¬â€œ Ese temido y útil amigoí¢â‚¬Â¦"
 heroImage: "http://www.quesabesde.com/images/feed-icon16x16.png"
 pubDate: 2009-02-12T18:12:00Z
 updatedDate: 2018-10-25T16:02:29Z
@@ -17,11 +17,11 @@ Aquí me voy a olvidar de los tecnicismos, y voy a intentar explicarte las venta
 
 Cuando vas al quiosco y compras un periódico, hay secciones que te interesan, y otras que saltas sin ni siquiera mirarlas. Cuando navegas por internet, ocurre lo mismo: consultas las páginas que te interesan, a ver si las han actualizado.
 
-Pues bien, gracias a las RSS, es como si el periódico que compramos sólo tiene noticias que nos interesan. Hacemos algo a nuestra medida. En internet, se acabó ir entrando en webs para ver si han actualizado algo. Nuestro Ã¢â‚¬Ëœperiódico a medidaÃ¢â‚¬â„¢ es un agregador RSS. Ahora sólo tenemos que Ã¢â‚¬ËœsindicarnosÃ¢â‚¬â„¢, suscribirnos a las webs que nos interesan (Mediante el link RSS), y cada vez que esa web se actualice, la novedad se mostrará en nuestro agregador RSS.
+Pues bien, gracias a las RSS, es como si el periódico que compramos sólo tiene noticias que nos interesan. Hacemos algo a nuestra medida. En internet, se acabó ir entrando en webs para ver si han actualizado algo. Nuestro í¢â‚¬Ëœperiódico a medidaí¢â‚¬â„¢ es un agregador RSS. Ahora sólo tenemos que í¢â‚¬Ëœsindicarnosí¢â‚¬â„¢, suscribirnos a las webs que nos interesan (Mediante el link RSS), y cada vez que esa web se actualice, la novedad se mostrará en nuestro agregador RSS.
 
-Se acabó ir entrando y saliendo por las webs en busca de novedades. Ahora las novedades vienen a nosotros. Para pasar un rato entretenido navegando por internet, no hace falta mirar el correo, o ir repasando la lista de favoritos. Las webs que se actualizan nos dicen:Ã¢â‚¬Âeeeh, que aquí hay una cosa que no has visto!Ã¢â‚¬Â. Abrimos nuestro agregador, y comenzamos a ver, en un formato similar al de un programa de correo electrónico, todas las novedades de webs que nos interesan.
+Se acabó ir entrando y saliendo por las webs en busca de novedades. Ahora las novedades vienen a nosotros. Para pasar un rato entretenido navegando por internet, no hace falta mirar el correo, o ir repasando la lista de favoritos. Las webs que se actualizan nos dicen:í¢â‚¬Âeeeh, que aquí hay una cosa que no has visto!í¢â‚¬Â. Abrimos nuestro agregador, y comenzamos a ver, en un formato similar al de un programa de correo electrónico, todas las novedades de webs que nos interesan.
 
-Al igual que con el correo electrónico tenemos dos posibilidades: consultar las novedades vía web (Lo que sería por ejemplo el correo de Hotmail) o vía programa instalado en nuestro ordenador (Lo que sería el gestor de correo Outlook, el Eudora o el Thunderbird). Hay agregadores online, vía web ([google reader](https://www.google.com/reader/), my yahoo, bloglines) y agregadores de escritorio ([RSS Bandit](http://rss-bandit.softonic.com/), FeedDemon,Ã¢â‚¬Â¦). Son prácticamente todos gratuitos, y muy similares entre sí.
+Al igual que con el correo electrónico tenemos dos posibilidades: consultar las novedades vía web (Lo que sería por ejemplo el correo de Hotmail) o vía programa instalado en nuestro ordenador (Lo que sería el gestor de correo Outlook, el Eudora o el Thunderbird). Hay agregadores online, vía web ([google reader](https://www.google.com/reader/), my yahoo, bloglines) y agregadores de escritorio ([RSS Bandit](http://rss-bandit.softonic.com/), FeedDemon,í¢â‚¬Â¦). Son prácticamente todos gratuitos, y muy similares entre sí.
 
 Si quieres saber más, sólo tienes que buscar en internete y tendrás todos los tecnicismos que quieras. Para empezar, [aqui te pongo uno fácil](http://www.quesabesde.com/rss.asp).
 

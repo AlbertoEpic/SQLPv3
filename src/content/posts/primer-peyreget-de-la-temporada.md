@@ -5,14 +5,14 @@ pubDate: 2019-02-22T11:07:17Z
 updatedDate: 2019-02-22T15:46:52Z
 draft: false
 author: "AlbertoEpic"
-description: "El otro día, para entrar con buen pie en la semana blanca, Almudena y AlbertoEpic quedaron para subir al Peyreget. Los imprevistos varios hicieron que nos dé vergÃƒÂ¼enza dejar constancia del horario de la actividad, por lo que no vamos a deci"
+description: "El otro día, para entrar con buen pie en la semana blanca, Almudena y AlbertoEpic quedaron para subir al Peyreget. Los imprevistos varios hicieron que nos dé vergíƒÂ¼enza dejar constancia del horario de la actividad, por lo que no vamos a deci"
 category: "Esquí de travesía"
 tags:
   - "Esquí de travesía"
   - "Peyreget"
   - "Valle de Tena"
 ---
-El otro día, para entrar con buen pie en la semana blanca, Almudena y AlbertoEpic quedaron para subir al Peyreget. Los imprevistos varios hicieron que nos dé vergÃƒÂ¼enza dejar constancia del horario de la actividad, por lo que no vamos a decir que comenzaban a foquear a mediodía...
+El otro día, para entrar con buen pie en la semana blanca, Almudena y AlbertoEpic quedaron para subir al Peyreget. Los imprevistos varios hicieron que nos dé vergíƒÂ¼enza dejar constancia del horario de la actividad, por lo que no vamos a decir que comenzaban a foquear a mediodía...
 
 Por fortuna, las temperaturas fueron bajas todo el día y la nieve aguantó sin problemas. Hasta el collado subieron en un magnífico día sin viento, primaveral... pero una vez en el cordal un viento helado hacía que el windchill fuera de menos muchos grados!
 ![Imagen](https://i.imgur.com/Uv3y16C.jpg)

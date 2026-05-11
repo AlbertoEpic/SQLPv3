@@ -26,7 +26,7 @@ Morenetti en el primer tramo de sendero tras llegar al collado de Espelunciecha.
 ![Imagen](https://i.imgur.com/J4CBSlT.jpg)
 Entrando en los llanos de Anayet.
 ![Imagen](https://i.imgur.com/vCDMiW7.jpg)
-Anayet: pico, llanos e ibón de. ÃƒÅ¡ltimo tramo suave antes del arreón final hasta la cima!
+Anayet: pico, llanos e ibón de. íƒÅ¡ltimo tramo suave antes del arreón final hasta la cima!
 ![Imagen](https://i.imgur.com/k3ZOiSE.jpg)
 Morenetti inicia el descenso desde la cima del Espelunciecha...
 ![Imagen](https://i.imgur.com/VZmuVsT.jpg)

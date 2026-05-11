@@ -27,7 +27,7 @@ Allí estamos como ovejitas en el corral durante una hora y media, charradeta aq
 
 Arrancamos todos en la curva los primeros amagos de que se caen los de delante, les dejo espacio y me coloco por la derecha, adelanto, me adelantan, acabamos la subida y salimos del pueblo, la salida ha sido genial, sin agobios, sin tensiones, ahora llegamos a la pista, momento delicado, las primeras caídas, bicis, por medio, botellines y ciclistas, los charcos cruzan el camino y la gente los intenta esquivar, es la ley de la jungla, aquí gana el más rápido y hábil, sino al suelo.
 
-Los primeros 10 km se pasan muy deprisa, rodeados de gente hay que mantener el ritmo fuerte, nos separamos con Alberto en una zona con barro, me paro a esperar, no lo veo, las pulsaciones del corazón me nublan la vista, pues sigo....pocos metros más adelante lo veo pedaleando suave, esperándome. ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œAlberto por la izquierda!ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â Volvemos a enganchar el ritmo de carrera....
+Los primeros 10 km se pasan muy deprisa, rodeados de gente hay que mantener el ritmo fuerte, nos separamos con Alberto en una zona con barro, me paro a esperar, no lo veo, las pulsaciones del corazón me nublan la vista, pues sigo....pocos metros más adelante lo veo pedaleando suave, esperándome. íƒÂ¢í¢â€šÂ¬í…â€œAlberto por la izquierda!íƒÂ¢í¢â€šÂ¬í‚Â Volvemos a enganchar el ritmo de carrera....
 
 Sube-bajas, rampas de platillo y rectas de plato van intercalándose durante los primeros 30km, el puente de hierro, ya queda menos para el primer avituallamiento, se me hace largo, le echo la bronca a Alberto por apurarme, no quiero hablar, bastante tengo con respirar.
 
@@ -47,7 +47,7 @@ La salida del control es con tendencia a subir, cuesta un poco arrancar después
 
 Voy feliz pedaleando, increíblemente voy sola, los ciclistas más próximos están a bastantes metros por delante y por detrás, levanto la cabeza y me percato del paisaje, los campos, los colores, las nubes, el olor a romero, un ciclista pasando cerca me despierta de mi mundo y me recuerda que debo seguir pedaleando fuerte, bajo un piñón y apuro las pedaladas.
 
-Concentrada en mi ritmo me adelanta Carlos, Ã‚Â¿pero que haces aquí? Reventón de la cubierta, es su respuesta. Menos mal de Lorenzo Alonso, que está de mecánico y le ha hecho buen apaño.
+Concentrada en mi ritmo me adelanta Carlos, í‚Â¿pero que haces aquí? Reventón de la cubierta, es su respuesta. Menos mal de Lorenzo Alonso, que está de mecánico y le ha hecho buen apaño.
 
 Me cuenta que Alberto se ha quedado más atrás, que va a su ritmo.
 
@@ -69,9 +69,9 @@ La gente en Albalatillo anima, un poco de pista, chopera y carretera, niños rec
 
 La gente aplaude, las caras llenas de polvo se mezclan con las limpias, me da miedo bajar de la bici y caerme, el cuerpo ya se ha relajado.
 
-Veo a Nuria y aÃ‚Ângel, ya están limpios, pero que rápido habéis ido chicos!!!
+Veo a Nuria y aí‚Ângel, ya están limpios, pero que rápido habéis ido chicos!!!
 
-Vamos devolver el chip y nos encontramos con el resto de la panda, todos muy felices y contentos. Ã‚Â¿No has visto a Fer que ha pinchado en los últimos km?? Que mala suerte.
+Vamos devolver el chip y nos encontramos con el resto de la panda, todos muy felices y contentos. í‚Â¿No has visto a Fer que ha pinchado en los últimos km?? Que mala suerte.
 
 A los 10 minutos llega Alberto, que por poco me coge en la bajada, si es que me pasaban hasta los caracoles.
 
@@ -81,7 +81,7 @@ Enseguida viene Jara con la rodilla destrozada, como se nota que es aragonesa, g
 
 Duchados y cambiados nos vamos a comer algo, vemos a Tere, que también ha acabado muy bien, ya estamos todos a salvo.
 
-[![](attachments/podiumLuci.webp)Lucía Cinto, 2Ã‚Âª clasificada en éliteMientras estamos en la cola, Esme me dice, ya verás como te toca subir al pódium, yo por quitarme los nervios de encima le contesto que me han pasado muchas chicas y seguro que más de una tendría menos de 30 años, ja, y cual es mi sorpresa que se oye por megafonía: 2Ã‚Âº clasificada en categoría Elíte: Lucía Cinto, ay que alegría, pues nada, a por el trofeo, fotos, besos y sonrisas, que gracia, esto si que no me lo esperaba.
+[![](attachments/podiumLuci.webp)Lucía Cinto, 2í‚Âª clasificada en éliteMientras estamos en la cola, Esme me dice, ya verás como te toca subir al pódium, yo por quitarme los nervios de encima le contesto que me han pasado muchas chicas y seguro que más de una tendría menos de 30 años, ja, y cual es mi sorpresa que se oye por megafonía: 2í‚Âº clasificada en categoría Elíte: Lucía Cinto, ay que alegría, pues nada, a por el trofeo, fotos, besos y sonrisas, que gracia, esto si que no me lo esperaba.
 
 Acabamos de comer, masajito para soltar los músculos y para casa.
 

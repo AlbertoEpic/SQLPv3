@@ -12,12 +12,12 @@ tags:
   - "ates"
   - "cartografía"
 ---
-Cuando se trata del tema de los aludes, cualquier ayuda debe ser siempre bienvenida. El año pasado te hablábamos delÃ‚Â [mapa ATES que Prames había sacado del macizo de las Maladetas-Aneto](aludes-mapa-ates-del-macizo-de-maladetas-aneto/).
+Cuando se trata del tema de los aludes, cualquier ayuda debe ser siempre bienvenida. El año pasado te hablábamos delí‚Â [mapa ATES que Prames había sacado del macizo de las Maladetas-Aneto](aludes-mapa-ates-del-macizo-de-maladetas-aneto/).
 
 Estamos de enhorabuena porque en este caso nos brindan la cartografía ATES del macizo de Infiernos, cubriendo toda el área de los refugios de Respomuso, Ibones de Bachimaña y Casa de Piedra.
 
 Puedes obtener más info al respecto [haciendo click en este enlace](https://montanasegura.com/cartografia-ates-en-el-macizo-de-infiernos/).
 
-Puedes descargarlo en [versión PDF haciendo click en este enlace](https://www.montanasegura.com/ates/MAPA_ATES_Respomuso-Panticosa.pdf), o en otros formatos comoÃ‚Â [.jpg](https://www.montanasegura.com/ates/MAPA_ATES_Respomuso-Panticosa.jpg)Ã‚Â yÃ‚Â [.kmz](https://www.montanasegura.com/ates/ATES_Respomuso-Panticosa.kmz)
+Puedes descargarlo en [versión PDF haciendo click en este enlace](https://www.montanasegura.com/ates/MAPA_ATES_Respomuso-Panticosa.pdf), o en otros formatos comoí‚Â [.jpg](https://www.montanasegura.com/ates/MAPA_ATES_Respomuso-Panticosa.jpg)í‚Â yí‚Â [.kmz](https://www.montanasegura.com/ates/ATES_Respomuso-Panticosa.kmz)
 
 Y para terminar, recordarte que el monte es impredecible, y todo esto es orientativo, una herramienta más. Las únicas leyes que funcionan siempre son las Leyes de Murphy, y éstas dicen que toda mala situación siempre es susceptible de empeorar... ;-p

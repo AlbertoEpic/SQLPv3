@@ -12,7 +12,7 @@ tags:
   - "alpes"
   - "Esquí de travesía"
 ---
-Comenzamos con el primer episodio de la serie HR 2015... La idea original de realizar la clásica Chamonix-Zermatt se vio truncada por la mala meteo prevista, y hubo que variar ligeramente los planes. Por suerte, el equipo internacional hispano-suizo contaba con la experiencia de Laura en la meteoÃ‚Â alpina y su gran habilidad para rehacer planes descubriendo imaginativos itinerarios alternativos...
+Comenzamos con el primer episodio de la serie HR 2015... La idea original de realizar la clásica Chamonix-Zermatt se vio truncada por la mala meteo prevista, y hubo que variar ligeramente los planes. Por suerte, el equipo internacional hispano-suizo contaba con la experiencia de Laura en la meteoí‚Â alpina y su gran habilidad para rehacer planes descubriendo imaginativos itinerarios alternativos...
 Así pues, Laura-hetenidounaidea y Alberto-meparecemuybien comienzan aqui su Chamonix-Zermatt 'al estilo suizo', dejando la idea conceptual de la HR y dedicándose más a disfrutar de las montañas y la nieve alpina.
 
 La previsión de sólo buena meteo para los dos primeros días les hace variar los planes: las dos primeras etapas las hacen del tirón, para aprovechar el segundo día y subir a una cima... pero eso ya es otra historia. (Continuará...)

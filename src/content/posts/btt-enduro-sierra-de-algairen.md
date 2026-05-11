@@ -18,5 +18,5 @@ Nuevamente se formó un equipo de dos globeros: José Orte fue el guía gurú de
 A continuación puedes ver un video de algunos momentos de la jornada (No te esperes maravillas, son imágenes filmadas con el móvil y montaje automático... No hay tiempo para más).
 
 <iframe src="https://www.youtube.com/embed/iteTdexQJC8?showinfo=0" width="100%" height="376" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
-Y como siempre, añadimos elÃ‚Â track a nuestra base de datos...
+Y como siempre, añadimos elí‚Â track a nuestra base de datos...
 <iframe src="http://www.gpsies.com/mapOnly.do?fileId=uagsztehhugzhfuw" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>

@@ -17,9 +17,9 @@ El pasado 31 de agosto, AlbertoEpic se alía con Jorge para una nueva salida de 
 
 La ruta elegida fue la vuelta al Pacino, desde Sallent de Gállego. Puedes ver a continuación algunas fotos de la jornada y el track de alguna otra ocasión.
 
-[https://i.imgur.com/dzIGeEQ.jpg](https://i.imgur.com/dzIGeEQ.jpg) AlbertoEpic en la pista de subida entre Sandiniés y el embalse de Tramacastilla.Ã‚Â (Foto: Jorge García)
+[https://i.imgur.com/dzIGeEQ.jpg](https://i.imgur.com/dzIGeEQ.jpg) AlbertoEpic en la pista de subida entre Sandiniés y el embalse de Tramacastilla.í‚Â (Foto: Jorge García)
 
-[https://i.imgur.com/SfOz4by.jpg](https://i.imgur.com/SfOz4by.jpg) Con el embalse de Tramacastilla al fondo. Hizo un día perfecto...Ã‚Â (Foto: Jorge García)
+[https://i.imgur.com/SfOz4by.jpg](https://i.imgur.com/SfOz4by.jpg) Con el embalse de Tramacastilla al fondo. Hizo un día perfecto...í‚Â (Foto: Jorge García)
 
 [https://i.imgur.com/G2tzkZ0.jpg](https://i.imgur.com/G2tzkZ0.jpg) AlbertoEpic en los últimos metros de ascensión al collado de Pazino. (Foto: Jorge García)
 

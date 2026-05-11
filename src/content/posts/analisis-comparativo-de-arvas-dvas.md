@@ -21,7 +21,7 @@ Para ahorrar tiempo y evitaros largas horas de buceo por el 'ciberdespacio', os 
 
 [https://i.imgur.com/dAChtEk.gif](https://i.imgur.com/dAChtEk.gif)
 
- 	- Outdoor Gear Lab:Ã‚Â The Best Avalanche Beacon Review
+ 	- Outdoor Gear Lab:í‚Â The Best Avalanche Beacon Review
 
 [https://www.outdoorgearlab.com/topics/snow-sports/best-avalanche-beacon](https://www.outdoorgearlab.com/topics/snow-sports/best-avalanche-beacon)
 Con este título tan 'modesto' tenemos a una comparativa/test de DVA's realmente pormenorizada, lo más completo que he encontrado en la red. No es totalmente actual (Noviembre 2015), pero ya incluye los nuevos Mammut Barryvox. Escrito en inglés. Haz click sobre la imagen para ir al artículo...

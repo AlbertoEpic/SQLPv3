@@ -16,7 +16,7 @@ El pasado domingo, un peculiar y variopinto grupo de globeros, nenasomarines, fo
 
 Puedes ver la crónica de la globera marine Jara aquí:
 
-[Hay que escapar del calor y desde luego no hay mejor manera que un barranco de agua fresquita del pirineo, es un buen año y los barrancos que suelen bajar con poco caudal en estas fechas están pletóricos. Un grupo de tritones, globeros y marines, vaya mezclaÃ¢â‚¬Â¦ decidimos ir para Oza al barranco Estribiella, por la zona (...)](http://blogs.barrabes.com/post.asp?idPost=2772)
+[Hay que escapar del calor y desde luego no hay mejor manera que un barranco de agua fresquita del pirineo, es un buen año y los barrancos que suelen bajar con poco caudal en estas fechas están pletóricos. Un grupo de tritones, globeros y marines, vaya mezclaí¢â‚¬Â¦ decidimos ir para Oza al barranco Estribiella, por la zona (...)](http://blogs.barrabes.com/post.asp?idPost=2772)
 
 Y también la visión tritonil en el [blog de los tritones majaras](http://tritonesmajaras.blogspot.com/2010/07/barranco-de-estribiella.html).
 

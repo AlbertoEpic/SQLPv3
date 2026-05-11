@@ -5,13 +5,13 @@ pubDate: 2016-01-18T23:06:37Z
 updatedDate: 2016-01-19T09:18:13Z
 draft: false
 author: "AlbertoEpic"
-description: "El pasado fin de semana el equipo SQLP dio por inaugurada (Por segunda vez, tras el parÃ³n provocado por el eterno anticiclÃ³n y la sequÃ­a...) la temporada de esquÃ­ de travesÃ­a. Luzia y AlbertoEpic pudieron coincidir en un mismo grupo (junto "
-category: "EsquÃ­ de travesÃ­a"
+description: "El pasado fin de semana el equipo SQLP dio por inaugurada (Por segunda vez, tras el parón provocado por el eterno anticiclón y la sequí­a...) la temporada de esquí­ de travesí­a. Luzia y AlbertoEpic pudieron coincidir en un mismo grupo (junto "
+category: "Esquí­ de travesí­a"
 tags:
-  - "EsquÃ­ de travesÃ­a"
-  - "valle del AragÃ³n"
+  - "Esquí­ de travesí­a"
+  - "valle del Aragón"
 ---
-El pasado fin de semana el equipo SQLP dio por inaugurada (Por segunda vez, tras el parÃ³n provocado por el eterno anticiclÃ³n y la sequÃ­a...) la temporada de esquÃ­ de travesÃ­a. Luzia y AlbertoEpic pudieron coincidir en un mismo grupo (junto a Inazio, Make, Toño y Manuel) en esta ocasiÃ³n en una ruta por la zona de Astún. No tiene mayor trascendencia, simplemente querÃ­a dejar aquÃ­ constancia del evento que tan buen sabor de boca nos dejÃ³. A continuaciÃ³n, unas fotos:
+El pasado fin de semana el equipo SQLP dio por inaugurada (Por segunda vez, tras el parón provocado por el eterno anticiclón y la sequí­a...) la temporada de esquí­ de travesí­a. Luzia y AlbertoEpic pudieron coincidir en un mismo grupo (junto a Inazio, Make, Toño y Manuel) en esta ocasión en una ruta por la zona de Astún. No tiene mayor trascendencia, simplemente querí­a dejar aquí­ constancia del evento que tan buen sabor de boca nos dejó. A continuación, unas fotos:
 
 [![](attachments/astun1.webp) Llegando al collado de los Monjes
 

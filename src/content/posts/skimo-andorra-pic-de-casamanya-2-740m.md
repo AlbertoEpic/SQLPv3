@@ -27,7 +27,7 @@ Debido al intenso frío, las condiciones eran idóneas para que se empañara el 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Eh-fPYz7W5M" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Y siguiendo con las buenas costumbres, y como Ã¢â‚¬ËœbonusÃ¢â‚¬â„¢ para los más eruditos del monte, dentro de nuestra secciónÃ‚Â [Pano360 hemos preparado una foto esférica](https://pano360.soloquedalopeor.com/panorama/pic-de-casamanya-w-2-740m/)Ã‚Â desde la cumbre con unas cuantas cimas etiquetadasÃ¢â‚¬Â¦
+Y siguiendo con las buenas costumbres, y como í¢â‚¬Ëœbonusí¢â‚¬â„¢ para los más eruditos del monte, dentro de nuestra seccióní‚Â [Pano360 hemos preparado una foto esférica](https://pano360.soloquedalopeor.com/panorama/pic-de-casamanya-w-2-740m/)í‚Â desde la cumbre con unas cuantas cimas etiquetadasí¢â‚¬Â¦
 
 ![](https://i.imgur.com/pmn0Bcc.jpg)Este es el [Tamarro Nilo](https://visitandorra.com/ca/natura/troba-el-tamarro/#media), en el parking inicio de la ruta...
 

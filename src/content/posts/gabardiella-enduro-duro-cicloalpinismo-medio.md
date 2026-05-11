@@ -14,7 +14,7 @@ Por suerte, justo ese día parecía que fuera noviembre, unas persistentes nubes
 
 Puedes consultar el track de la ruta en el [apartado correspondiente de esta web](https://soloquedalopeor.com/tracks-gps/).
 <iframe src="http://www.gpsies.com/mapOnly.do?fileId=omqeydcpxkuwchnf&mode=kmlTour" width="85%" height="150" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
-La ruta tiene dos caras: si vas sin forzar, y no te da vergÃƒÂ¼enza echar pie a tierra de vez en cuando, simplemente es 'larga pero dura'. Pero da la casualidad de que es ciclable prácticamente en su totalidad, simplemente hace falta tener la potencia de una Caterpillar y la técnica de un cirujano. Así que por muy fuerte que estés, si intentas ciclar todo, el sobo está asegurado.
+La ruta tiene dos caras: si vas sin forzar, y no te da vergíƒÂ¼enza echar pie a tierra de vez en cuando, simplemente es 'larga pero dura'. Pero da la casualidad de que es ciclable prácticamente en su totalidad, simplemente hace falta tener la potencia de una Caterpillar y la técnica de un cirujano. Así que por muy fuerte que estés, si intentas ciclar todo, el sobo está asegurado.
 Y además está garantizado el buen sabor de boca final, con un descenso brutal desde la cima hasta el coche...
 Estadísticas, para los numerófilos:
 Distancia: 34km

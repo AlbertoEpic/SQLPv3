@@ -20,5 +20,5 @@ No sabemos las impresiones que dejaría esta jornada en Laura, habituada a los A
 Tal vez haya sido esta la mejor jugada maestra de Laura en la Haute Route 2015...
 [youtube id="m7WxA-ZIQrE" width="600" height="350" autoplay="no" api_params=""]
 
-Puedes descargar el track de este episodio en la sección correspondiente de SQLP, ['Tracks gps'](https://soloquedalopeor.com/tracks-gps/)Ã¢â‚¬Â¦
+Puedes descargar el track de este episodio en la sección correspondiente de SQLP, ['Tracks gps'](https://soloquedalopeor.com/tracks-gps/)í¢â‚¬Â¦
 

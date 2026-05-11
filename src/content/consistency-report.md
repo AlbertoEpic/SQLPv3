@@ -1,8 +1,4 @@
-# Bad links (44 files)
-[1a-suboda-tozal-de-guara](posts/1a-suboda-tozal-de-guara.md):
-- (line 16): `attachments/cima-globeros-300x251.webp`
-
-
+# Bad links (43 files)
 [alquezar-five-stars-btt-enduro](posts/alquezar-five-stars-btt-enduro.md):
 - (line 14): `attachments/Alquezar5stars8.webp`
 - (line 24): `attachments/Alquezar5stars1.webp`

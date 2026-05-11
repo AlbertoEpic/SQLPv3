@@ -29,11 +29,11 @@ Esperando a que se ocultara el sol y se hiciera visible la Vía Láctea, Cheles 
 
 Y cuando por fin se hizo la noche, pudimos admirar el cielo en toda su grandeza! Dado que soy un completo ignorante en temas astronómicos, no voy a comentar nada concreto. Si he fotografiado alguna galaxia/constelación/nebulosa/satélite/ISS/Starlink/... habrá sido de casualidad, y agradecería a quien sepa más de este tema si quiere añadir en comentarios alguna información clarificadora...
 
-![](https://i.imgur.com/uB95ldF.jpg)											Un trocito de Vía Láctea. Ã‚Â¿Alguien  sabría decir algo sobre lo que se ve ahí? Ã‚Â¿Y esa línea cerca del borde derecho de la foto?
+![](https://i.imgur.com/uB95ldF.jpg)											Un trocito de Vía Láctea. í‚Â¿Alguien  sabría decir algo sobre lo que se ve ahí? í‚Â¿Y esa línea cerca del borde derecho de la foto?
 
-![](https://i.imgur.com/764wW1q.jpg)											Aquí se puede ver en primer término uno de los telescopios del complejo. Y en el cielo, la Vía Láctea y otra rayita Ã‚Â¿satélite?
+![](https://i.imgur.com/764wW1q.jpg)											Aquí se puede ver en primer término uno de los telescopios del complejo. Y en el cielo, la Vía Láctea y otra rayita í‚Â¿satélite?
 
 En casi todas las fotos aparecía alguna línea 'recta', entiendo que provocada por el movimiento orbital de algún satélite, al ser tomadas las fotos a una velocidad de entre 6 y 8 segundos.
 
-![](https://i.imgur.com/UKNRJ5Q.jpg)											Y la última sin satélites... Ã‚Â¿?
+![](https://i.imgur.com/UKNRJ5Q.jpg)											Y la última sin satélites... í‚Â¿?
 

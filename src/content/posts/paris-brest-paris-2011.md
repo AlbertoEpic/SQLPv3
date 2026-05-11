@@ -34,9 +34,9 @@ de sus guerreros a la conquista de Las Galias.
 
 Nos vemos a la vuelta
 
-ÃƒÂngel.
+íƒÂngel.
 
-ACTUALIZACIÃƒâ€œN 24/8/2011
+ACTUALIZACIíƒâ€œN 24/8/2011
 
 Hoy a las 15:32 ha concluido con éxito una vez más la PBP, 58h13' según la web a 21'1km/h de media. 
 

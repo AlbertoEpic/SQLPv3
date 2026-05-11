@@ -4,7 +4,7 @@ pubDate: 2014-11-08T00:17:00Z
 updatedDate: 2015-04-06T10:28:22Z
 draft: false
 author: AlbertoEpic
-description: "Alguna vez has terminado una ruta de BTT con un porteo cuesta arriba? Posiblemente sÃ­. Pero, Â¿alguna vez te daba igual lo largo y duro que fuera ese porteo, porque esa ruta merecÃ­a la pena de cualquier forma? El otro dÃ­a tuve el privilegio "
+description: "Alguna vez has terminado una ruta de BTT con un porteo cuesta arriba? Posiblemente sí­. Pero, Â¿alguna vez te daba igual lo largo y duro que fuera ese porteo, porque esa ruta merecí­a la pena de cualquier forma? El otro dí­a tuve el privilegio "
 category: Bicicleta de montaña
 tags:
   - btt
@@ -12,12 +12,12 @@ heroImage: attachments/SQLPcomodin.jpg
 ---
 
 [attachments/Alquezar5stars8.webp](attachments/Alquezar5stars8.webp)
-Alguna vez has terminado una ruta de BTT con un porteo cuesta arriba? Posiblemente sÃ­. Pero, Â¿alguna vez te daba igual lo largo y duro que fuera ese porteo, porque esa ruta merecÃ­a la pena de cualquier forma?
+Alguna vez has terminado una ruta de BTT con un porteo cuesta arriba? Posiblemente sí­. Pero, Â¿alguna vez te daba igual lo largo y duro que fuera ese porteo, porque esa ruta merecí­a la pena de cualquier forma?
 
-El otro dÃ­a tuve el privilegio de experimentar tales sensaciones, acompañado de dos mÃ­ticos: Quiri, famoso por sus incendiarias entradas semanales en Facebook, y Rafa, el culpable de la concepciÃ³n de esta ruta mÃ­tica, MÃTICA (Y ojo, digo 'mÃ­tica' con mayúsculas).
+El otro dí­a tuve el privilegio de experimentar tales sensaciones, acompañado de dos mí­ticos: Quiri, famoso por sus incendiarias entradas semanales en Facebook, y Rafa, el culpable de la concepción de esta ruta mí­tica, MíTICA (Y ojo, digo 'mí­tica' con mayúsculas).
 
-El asunto empieza gris, con una subida desde Alquézar al MesÃ³n de Sevil, pero poco después todo cambia: se entra en una embriagadora sucesiÃ³n de senderos rápidos que, a pesar de estar ya reventado, no dejan que se te pase por la cabeza el terminar ya, sÃ³lo quieres seguir y seguir!
-Ruta totalmente recomendable, eso sÃ­, que te pille en forma y habilidoso...
+El asunto empieza gris, con una subida desde Alquézar al Mesón de Sevil, pero poco después todo cambia: se entra en una embriagadora sucesión de senderos rápidos que, a pesar de estar ya reventado, no dejan que se te pase por la cabeza el terminar ya, sólo quieres seguir y seguir!
+Ruta totalmente recomendable, eso sí­, que te pille en forma y habilidoso...
 
 El track de la ruta:Â [http://es.wikiloc.com/wikiloc/view.do?id=8201867](http://es.wikiloc.com/wikiloc/view.do?id=8201867)
 
@@ -27,7 +27,7 @@ Itinerario de la ruta, circular desde Alquézar.
 
 [attachments/Alquezar5stars7.webp](attachments/Alquezar5stars7.webp)
 
-Pasado el MesÃ³n de Sevil. (Foto: Quiri)
+Pasado el Mesón de Sevil. (Foto: Quiri)
 
 [attachments/Alquezar5stars3.webp](attachments/Alquezar5stars3.webp)
 
@@ -55,4 +55,4 @@ Llegando a Alquézar, fin de la ruta. (Foto: Rafa)
 
 [attachments/Alquezar5stars9.webp](attachments/Alquezar5stars9.webp)
 
-Fin de la ruta, ya tenemos nuestra raciÃ³n de endorfinas para aguantar otra semana más... (Foto: Quiri)
+Fin de la ruta, ya tenemos nuestra ración de endorfinas para aguantar otra semana más... (Foto: Quiri)

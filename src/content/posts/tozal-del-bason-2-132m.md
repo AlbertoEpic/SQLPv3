@@ -26,7 +26,7 @@ A continuación puedes consultar el track de la ruta propuesta:
 
 Dejamos el coche en el collado de Plana Canal, justo en el límite del PN de Ordesa, y subimos caminando por prados hacia la Forqueta de Sorripas. A continuación seguimos por el verde cordal al Tozal del Basón y el Tozal de San Vicenda, punto más cercano de la ruta al Monte Perdido. Desde allí sólo nos queda perder altura por los prados hasta la pista de regreso al coche.
 
-> [!todo]+ Pano360Ã‚Âº
+> [!todo]+ Pano360í‚Âº
 > Como no podía ser de otra manera, el equipo SQLP arrastró toda la ruta el pesado equipo necesario para poder ofrecerte ahora esta foto esférica con cimas etiquetadas, y que puedas opinar por tí mismo de un lugar único así...
 >
 > **[Haz click aquí](https://pano360.soloquedalopeor.com/panorama/tozal-de-bason-2-132m/)**

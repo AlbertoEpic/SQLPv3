@@ -13,7 +13,7 @@ tags:
 ---
 El pasado domingo, el equipo SQLP-Kids estuvo realizando otra de sus actividades por el monte. Dados los calores estivales, se optó por buscar una ruta por la vertiente norte del Pirineo, siempre algo más fresca: partiendo de Sansanet, el ibón de Estanés siempre es un buen objetivo.
 
-En este caso, además, contamos del aliciente aportado por Chus de hacer la ruta circular. Salió una ruta muy chula, que incluso cuenta con los ingredientes necesarios para agregar un poco de 'pÃƒÂ¬cante' a la actividad: el 'Pass de l'Echelle', una fácil escalera para que los pequeños escaladores se afanen; y el ibón de Estanés, objetivo que les anima a esforzarse para conseguir el prometido baño al llegar.
+En este caso, además, contamos del aliciente aportado por Chus de hacer la ruta circular. Salió una ruta muy chula, que incluso cuenta con los ingredientes necesarios para agregar un poco de 'píƒÂ¬cante' a la actividad: el 'Pass de l'Echelle', una fácil escalera para que los pequeños escaladores se afanen; y el ibón de Estanés, objetivo que les anima a esforzarse para conseguir el prometido baño al llegar.
 
 Pensando en los mayores, hacer la ruta en el sentido mostrado permite hacer toda la subida a la sombra de un bonito bosque.
 

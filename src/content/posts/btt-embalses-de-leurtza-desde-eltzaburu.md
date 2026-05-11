@@ -14,7 +14,7 @@ tags:
 
 ## Paisaje Protegido de Robledales de Ultzama y Basaburua
 
-Seguimos por el norte de Navarra para reseñar otra de las actividades realizadas por los especialistas Miriam y AlbertoEpic: una ruta circular pasando por los embalses de Leurtza. Saliendo de Eltzaburu, al norte de Pamplona (Valle de Ultzama), seguirán un bucle que alcanzará un collado desde el que entra en el ÃƒÂrea Natural Recreativa Embalses de Leurza, a los cuales bajarán, rodearán y cruzarán entre los dos.
+Seguimos por el norte de Navarra para reseñar otra de las actividades realizadas por los especialistas Miriam y AlbertoEpic: una ruta circular pasando por los embalses de Leurtza. Saliendo de Eltzaburu, al norte de Pamplona (Valle de Ultzama), seguirán un bucle que alcanzará un collado desde el que entra en el íƒÂrea Natural Recreativa Embalses de Leurza, a los cuales bajarán, rodearán y cruzarán entre los dos.
 
 En los ascensos de esta ruta predomina el asfalto y las pistas cómodas. El resto, en general una ruta rodadora, con algún que otro sendero, y mucha, mucha zona de bosques encantados...
 
