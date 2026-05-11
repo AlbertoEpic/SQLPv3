@@ -40,5 +40,6 @@
   "vimMode": false,
   "readableLineLength": true,
   "defaultViewMode": "source",
-  "openBehavior": ""
+  "openBehavior": "",
+  "showUnsupportedFiles": true
 }

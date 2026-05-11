@@ -270,5 +270,19 @@
       ],
       "key": "O"
     }
+  ],
+  "app:open-help": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "A"
+    }
+  ],
+  "markdown:toggle-preview": [
+    {
+      "modifiers": [],
+      "key": "F1"
+    }
   ]
 }

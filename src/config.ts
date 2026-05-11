@@ -183,17 +183,17 @@ export interface SiteConfig {
 export const siteConfig: SiteConfig = {
   // Site Information
   // [CONFIG:SITE_URL]
-  site: "https://astro-modular.netlify.app",
+  site: "https://sqlpv3.netlify.app",
   // [CONFIG:SITE_TITLE]
-  title: "Astro Modular",
+  title: "SQLPv3",
   // [CONFIG:HOMEPAGE_TITLE]
   homepageTitle: "",
   // [CONFIG:SITE_DESCRIPTION]
-  description: "A flexible blog theme designed for Obsidian users.",
+  description: "La versión más puntera de SQLP...",
   // [CONFIG:SITE_AUTHOR]
-  author: "David V. Kimball",
+  author: "AlbertoEpic",
   // [CONFIG:SITE_LANGUAGE]
-  language: "en",
+  language: "es",
   // [CONFIG:FAVICON_THEME_ADAPTIVE]
   faviconThemeAdaptive: true, // If true, favicon switches between favicon-dark.png and favicon-light.png based on browser's system theme preference. If false, always uses favicon.png
   // [CONFIG:DEFAULT_OG_IMAGE_ALT]
@@ -315,26 +315,32 @@ export const siteConfig: SiteConfig = {
     showMobileMenu: true,
     // [CONFIG:NAVIGATION_PAGES]
     pages: [
-      { title: "Posts", url: "/posts/" },
-      { title: "Projects", url: "/projects/" },
-      { title: "Docs", url: "/docs/" },
-      { title: "About", url: "/about/",
-        children: [
-          { title: "Privacy Policy", url: "/privacy-policy/" }
-        ] },
-      { title: "GitHub", url: "https://github.com/davidvkimball/astro-modular" }
+      { title: "Rutipedia", url: "/posts/" },
+      { title: "Pano360", url: "https://pano360.soloquedalopeor.com/" },
+      { title: "Miniplanetas", url: "https://miniplanetas.soloquedalopeor.com/" },
+      { title: "Sobre mí", url: "/about/" }
     ],
     // [CONFIG:NAVIGATION_SOCIAL]
     social: [
       {
         title: "X",
-        url: "https://x.com/davidvkimball",
+        url: "https://x.com/soloquedalopeor",
         icon: "x-twitter",
       },
       {
-        title: "GitHub",
-        url: "https://github.com/davidvkimball",
-        icon: "github",
+        title: "Facebook",
+        url: "https://www.facebook.com/AlbertoEpic",
+        icon: "facebook",
+      },
+      {
+        title: "Instagram",
+        url: "https://www.instagram.com/albertroid/",
+        icon: "instagram",
+      },
+      {
+        title: "YouTube",
+        url: "https://www.youtube.com/@AlbertoEpic",
+        icon: "youtube",
       },
     ],
   },
