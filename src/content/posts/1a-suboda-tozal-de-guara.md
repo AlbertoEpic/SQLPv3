@@ -1,6 +1,6 @@
 ---
 title: 1 SUBODA Tozal de Guara
-heroImage: attachments/SQLPcomodin.jpg
+heroImage: attachments/suboda-globeros.jpg
 pubDate: 2012-06-17T16:46:00Z
 updatedDate: 2015-04-06T10:28:40Z
 draft: false
@@ -13,7 +13,7 @@ date: 2026-05-11
 ---
 El pasado sábado se celebró esta novedosa prueba de carácter único con gran éxito de participación.
 
-![Alberto y Lucía con los globeros](attachments/cima-globeros-300x251.webp)
+![Alberto y Lucía con los globeros](attachments/suboda-globeros-300x251.webp)
 *Alberto y Lucía con los globeros.*
 
 Muchas gracias a todos los asistentes por hacer del 16/6/2012 una fecha especial, llena de risas, lágrimas, abrazos, sorpresas, cucañas, más lágrimas... ;-)

@@ -93,6 +93,9 @@ const PDF_EXTENSIONS = ['.pdf'];
 // SVG file extensions
 const SVG_EXTENSIONS = ['.svg'];
 
+// Standard image file extensions
+const IMAGE_EXTENSIONS = ['.jpg', '.jpeg', '.png', '.gif', '.webp', '.avif', '.bmp', '.tiff', '.tif', '.heic', '.heif'];
+
 // YouTube URL patterns
 const YOUTUBE_PATTERNS = [
   /^https?:\/\/(?:www\.)?youtube\.com\/watch\?v=([^&\n?#]+)/,
@@ -155,6 +158,14 @@ function createHtmlNode(html: string): any {
   };
 }
 
+function escapeHtmlAttr(value: string): string {
+  return value
+    .replace(/&/g, '&amp;')
+    .replace(/"/g, '&quot;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;');
+}
+
 export const remarkObsidianEmbeds: Plugin<[], Root> = () => {
   return async (tree, file: any) => {
     // Visit image nodes (covers ![[file]] syntax)
@@ -200,6 +211,16 @@ export const remarkObsidianEmbeds: Plugin<[], Root> = () => {
     class="w-full h-full"
   ></iframe>
 </div>`;
+          parent.children[index] = createHtmlNode(html);
+          return;
+        }
+
+        // For regular external images (including extensionless image endpoints),
+        // render a plain <img> so Astro does not try to optimize/parse remote image metadata.
+        if (!extension || IMAGE_EXTENSIONS.includes(extension)) {
+          const escapedUrl = escapeHtmlAttr(url);
+          const escapedAlt = escapeHtmlAttr(alt);
+          const html = `<img src="${escapedUrl}" alt="${escapedAlt}" loading="lazy" decoding="async" />`;
           parent.children[index] = createHtmlNode(html);
           return;
         }

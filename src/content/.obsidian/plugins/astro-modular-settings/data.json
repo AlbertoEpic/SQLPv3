@@ -29,7 +29,7 @@
   },
   "footer": {
     "enabled": true,
-    "content": "© 2026 {author}. Built with the <a href=\"https://github.com/davidvkimball/astro-modular\" target=\"_blank\">Astro Modular</a> theme.",
+    "content": "© 2026 SQLP by {author}. Built with ❤️ in Tierz for the entire Universe...",
     "showSocialIconsInFooter": true
   },
   "seo": {
@@ -83,7 +83,7 @@
   "commandPalette": {
     "enabled": true,
     "shortcut": "ctrl+K",
-    "placeholder": "Search posts",
+    "placeholder": "Buscar contenidos...",
     "search": {
       "posts": true,
       "pages": false,
@@ -113,11 +113,11 @@
       "count": 7
     },
     "projects": {
-      "enabled": true,
+      "enabled": false,
       "count": 2
     },
     "docs": {
-      "enabled": true,
+      "enabled": false,
       "count": 3
     },
     "blurb": {
@@ -243,8 +243,8 @@
     }
   },
   "optionalContentTypes": {
-    "projects": true,
-    "docs": true
+    "projects": false,
+    "docs": false
   },
   "availableThemes": "default",
   "customThemes": "",
