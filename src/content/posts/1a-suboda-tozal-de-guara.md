@@ -5,22 +5,21 @@ pubDate: 2012-06-17T16:46:00Z
 updatedDate: 2015-04-06T10:28:40Z
 draft: false
 author: AlbertoEpic
-description: El pasado sÃƒÂ¡bado se celebrÃƒÂ³ esta novedosa prueba de carÃƒÂ¡cter ÃƒÂºnico con gran ÃƒÂ©xito de participaciÃƒÂ³n. Alberto&LucÃƒÂ­a con los globeros Muchas gracias a todos los asistentes por hacer del 16/6/2012 una fecha especial, llena de risas, lÃƒÂ¡grimas, a
+description: El pasado sábado se celebró esta novedosa prueba de carácter único con gran éxito de participación. Alberto&Lucía con los globeros Muchas gracias a todos los asistentes por hacer del 16/6/2012 una fecha especial, llena de risas, lágrimas, a
 category: Otros
 tags:
   - Uncategorized
 date: 2026-05-11
 ---
-El pasado sÃƒÂ¡bado se celebrÃƒÂ³ esta novedosa prueba de carÃƒÂ¡cter ÃƒÂºnico con gran ÃƒÂ©xito de participaciÃƒÂ³n.
+El pasado sábado se celebró esta novedosa prueba de carácter único con gran éxito de participación.
 
-[![Alberto y LucÃƒÂ­a con los globeros](attachments/cima-globeros-300x251.webp)](attachments/cima-globeros.webp)
+![Alberto y Lucía con los globeros](attachments/cima-globeros-300x251.webp)
+*Alberto y Lucía con los globeros.*
 
-*Alberto y LucÃƒÂ­a con los globeros.*
+Muchas gracias a todos los asistentes por hacer del 16/6/2012 una fecha especial, llena de risas, lágrimas, abrazos, sorpresas, cucañas, más lágrimas... ;-)
 
-Muchas gracias a todos los asistentes por hacer del 16/6/2012 una fecha especial, llena de risas, lÃƒÂ¡grimas, abrazos, sorpresas, cucaÃƒÂ±as, mÃƒÂ¡s lÃƒÂ¡grimas... ;-)
+Gracias al [Cuarteto Sibelius](http://www.cuartetosibelius.com/) por deleitarnos con su música.
 
-Gracias al [Cuarteto Sibelius](http://www.cuartetosibelius.com/) por deleitarnos con su mÃƒÂºsica.
+Al violín y al coro que entró en acción, y por sorpresa, en la cima.
 
-Al violÃƒÂ­n y al coro que entrÃƒÂ³ en acciÃƒÂ³n, y por sorpresa, en la cima.
-
-Y una menciÃƒÂ³n especial a Inazio y Make, Loren e Isa, ÃƒÂlvaro, Pablo y todos aquellos que echaron una mano con la logÃƒÂ­stica de este evento.
+Y una mención especial a Inazio y Make, Loren e Isa, ÃƒÂlvaro, Pablo y todos aquellos que echaron una mano con la logística de este evento.

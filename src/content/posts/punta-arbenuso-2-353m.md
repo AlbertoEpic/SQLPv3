@@ -5,23 +5,23 @@ pubDate: 2021-09-14T09:21:38Z
 updatedDate: 2021-09-14T10:01:16Z
 draft: false
 author: "AlbertoEpic"
-description: "Combinada BTT + pateo Pasado el verano, en SQLP vamos recuperando la normalidad y el ritmo de nuestras actividades. El otro dÃƒÂ­a AlbertoEpic saliÃƒÂ³ pedaleando del parking de La Cuniacha y apurÃƒÂ³ hasta las cercanÃƒÂ­as de la Canal de Arbenuso. All"
-category: "Bicicleta de montaÃƒÂ±a"
+description: "Combinada BTT + pateo Pasado el verano, en SQLP vamos recuperando la normalidad y el ritmo de nuestras actividades. El otro día AlbertoEpic salió pedaleando del parking de La Cuniacha y apuró hasta las cercanías de la Canal de Arbenuso. All"
+category: "Bicicleta de montaña"
 ---
 
 ## Combinada BTT + pateo
 
-Pasado el verano, en SQLP vamos recuperando la normalidad y el ritmo de nuestras actividades. El otro dÃƒÂ­a AlbertoEpic saliÃƒÂ³ pedaleando del parking de La Cuniacha y apurÃƒÂ³ hasta las cercanÃƒÂ­as de la Canal de Arbenuso. AllÃƒÂ­ dejÃƒÂ³ la BTT y siguiÃƒÂ³ a pie hasta la Punta Arbenuso, un bonito balcÃƒÂ³n que a menudo pasa desapercibido al encontrarse rodeado de otras cumbres mayores.
-Se trata de una actividad relativamente corta, buena para ir retomando la actividad tras el parÃƒÂ³n vacacional (2h BTT - 2h a pie - 1h BTT).
-Te dejamos a continuaciÃƒÂ³n con el vÃƒÂ­deo a vista de dron:
+Pasado el verano, en SQLP vamos recuperando la normalidad y el ritmo de nuestras actividades. El otro día AlbertoEpic salió pedaleando del parking de La Cuniacha y apuró hasta las cercanías de la Canal de Arbenuso. Allí dejó la BTT y siguió a pie hasta la Punta Arbenuso, un bonito balcón que a menudo pasa desapercibido al encontrarse rodeado de otras cumbres mayores.
+Se trata de una actividad relativamente corta, buena para ir retomando la actividad tras el parón vacacional (2h BTT - 2h a pie - 1h BTT).
+Te dejamos a continuación con el vídeo a vista de dron:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/B6fgg8k8uZQ" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Por supuesto, nuestro especialista no perdiÃƒÂ³ la oportunidad para sacar una nueva foto esfÃƒÂ©rica para procesar en nuestros estudios y etiquetar las cimas circundantes:
+Por supuesto, nuestro especialista no perdió la oportunidad para sacar una nueva foto esférica para procesar en nuestros estudios y etiquetar las cimas circundantes:
 
-[Ver foto esfÃƒÂ©rica en Pano360...](https://pano360.soloquedalopeor.com/panorama/punta-arbenuso-2-353m/)
+[Ver foto esférica en Pano360...](https://pano360.soloquedalopeor.com/panorama/punta-arbenuso-2-353m/)
 
-Si te ha gustado y quieres repetir la actividad, te dejamos a continuaciÃƒÂ³n con el track aÃƒÂ±adido a nuestra base de datos.
+Si te ha gustado y quieres repetir la actividad, te dejamos a continuación con el track añadido a nuestra base de datos.
 
 <iframe src="https://www.alltrails.com/es/widget/map/map-2406a0a--51?scrollZoom=ó&hideName=true&u=m" width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="AllTrails: Trail Guides and Maps for Hiking, Camping, and Running"></iframe>
 
@@ -39,7 +39,7 @@ Salida superior de la Canal de Arbenuso
 
 ![](https://i.imgur.com/0hm5EHO.jpg)
 
-Momento ZEN contemplando el ibÃƒÂ³n de Bucuesa
+Momento ZEN contemplando el ibón de Bucuesa
 
 ![](https://i.imgur.com/dsVRadf.jpg)
 
@@ -47,5 +47,5 @@ Momento ZEN contemplando el ibÃƒÂ³n de Bucuesa
 
 [https://i.imgur.com/VAAUWOX.jpg](https://i.imgur.com/VAAUWOX.jpg)
 
-Foto aÃƒÂ©rea con el croquis del recorrido
+Foto aérea con el croquis del recorrido
 

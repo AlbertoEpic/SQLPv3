@@ -1,21 +1,21 @@
 ---
-title: "OceanogrÃƒÂ¡fico de Valencia"
+title: "Oceanográfico de Valencia"
 pubDate: 2010-07-11T04:54:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:56Z
 draft: false
 author: "AlbertoEpic"
-description: "A mediados de junio una 'terrible' gota frÃƒÂ­a desaconsejaba actividades en altura en el Pirineo, asÃƒÂ­ que el equipo de SoloQuedaLoPeor se desplazÃƒÂ³ a Valencia, a visitar la Ciudad de las Artes y las Ciencias . Desde aqui podemos decir que es u"
+description: "A mediados de junio una 'terrible' gota fría desaconsejaba actividades en altura en el Pirineo, así que el equipo de SoloQuedaLoPeor se desplazó a Valencia, a visitar la Ciudad de las Artes y las Ciencias . Desde aqui podemos decir que es u"
 category: "Otros"
 tags:
   - "Uncategorized"
 ---
-A mediados de junio una 'terrible' gota frÃƒÂ­a desaconsejaba actividades en altura en el Pirineo, asÃƒÂ­ que el equipo de SoloQuedaLoPeor se desplazÃƒÂ³ a Valencia, a visitar la [Ciudad de las Artes y las Ciencias](http://www.cac.es/).
+A mediados de junio una 'terrible' gota fría desaconsejaba actividades en altura en el Pirineo, así que el equipo de SoloQuedaLoPeor se desplazó a Valencia, a visitar la [Ciudad de las Artes y las Ciencias](http://www.cac.es/).
 
-Desde aqui podemos decir que es una visita totalmente recomendable, tanto el Museo de las Ciencias, como el OceanogrÃƒÂ¡fico, como el 'HemisfÃƒÂ¨ric', asÃƒÂ­ como la espectacular arquitectura del complejo.
+Desde aqui podemos decir que es una visita totalmente recomendable, tanto el Museo de las Ciencias, como el Oceanográfico, como el 'HemisfÃƒÂ¨ric', así como la espectacular arquitectura del complejo.
 
-De momento, os dejamos con unas imÃƒÂ¡genes de la visita al OceanogrÃƒÂ¡fico...
+De momento, os dejamos con unas imágenes de la visita al Oceanográfico...
 
 https://exposureroom.com/video/81aa06c07f874de1aef09687d3398b12
 

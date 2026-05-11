@@ -6,15 +6,15 @@ heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:37Z
 draft: false
 author: "AlbertoEpic"
-description: "He encontrado este video curioso: un poco de funambulismo en el Cathedral Peak, en Yosemite. El mÃƒÂ­tico Dean Potter se la juega para conseguir unas imÃƒÂ¡genes de esas que quitan el hipo... La caÃƒÂ­da no es una opciÃƒÂ³n!"
+description: "He encontrado este video curioso: un poco de funambulismo en el Cathedral Peak, en Yosemite. El mítico Dean Potter se la juega para conseguir unas imágenes de esas que quitan el hipo... La caída no es una opción!"
 category: "Otros"
 tags:
   - "funambulismo"
   - "yosemite"
 ---
-He encontrado este video curioso: un poco de funambulismo en el Cathedral Peak, en Yosemite. El mÃƒÂ­tico Dean Potter se la juega para conseguir unas imÃƒÂ¡genes de esas que quitan el hipo...
+He encontrado este video curioso: un poco de funambulismo en el Cathedral Peak, en Yosemite. El mítico Dean Potter se la juega para conseguir unas imágenes de esas que quitan el hipo...
 
-La caÃƒÂ­da no es una opciÃƒÂ³n!
+La caída no es una opción!
 
 <iframe allowfullscreen="" frameborder="0" height="370" mozallowfullscreen="" src="https://player.vimeo.com/video/56298775" webkitallowfullscreen="" width="657"></iframe>
 

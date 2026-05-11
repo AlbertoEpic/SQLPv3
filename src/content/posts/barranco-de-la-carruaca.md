@@ -5,31 +5,31 @@ pubDate: 2021-06-28T17:10:39Z
 updatedDate: 2021-06-28T17:42:11Z
 draft: false
 author: AlbertoEpic
-description: "Ideal para un 'bautismo barranquil' AÃƒÂ±adimos hoy a la secciÃƒÂ³n SQLP-kids una nueva actividad: descenso de barrancos. El barranco de La Carruaca, o estrechos de LÃƒÂºsera, es un mini barranco de juguete con una dificultad tÃƒÂ©cnica nula. Si lo pil"
+description: "Ideal para un 'bautismo barranquil' Añadimos hoy a la sección SQLP-kids una nueva actividad: descenso de barrancos. El barranco de La Carruaca, o estrechos de Lúsera, es un mini barranco de juguete con una dificultad técnica nula. Si lo pil"
 category: SQLP-kids
 tags:
   - Carruaca
   - sierra guara
 ---
 Ideal para un 'bautismo barranquil'
-AÃƒÂ±adimos hoy a la secciÃƒÂ³n SQLP-kids una nueva actividad: descenso de barrancos. El barranco de La Carruaca, o estrechos de LÃƒÂºsera, es un mini barranco de juguete con una dificultad tÃƒÂ©cnica nula. Si lo pillamos con el caudal justo*, es perfecto para dejar que los pequeÃƒÂ±os aventureros descubran el mundillo y las sensaciones del descenso de barrancos.
+Añadimos hoy a la sección SQLP-kids una nueva actividad: descenso de barrancos. El barranco de La Carruaca, o estrechos de Lúsera, es un mini barranco de juguete con una dificultad técnica nula. Si lo pillamos con el caudal justo*, es perfecto para dejar que los pequeños aventureros descubran el mundillo y las sensaciones del descenso de barrancos.
 [*] Caudal justo
-Agua corriente suficiente para mantener el agua cristalina en todas las pozas y marmitas, pero en ningÃƒÂºn momento da la sensaciÃƒÂ³n de arrastrarte...
+Agua corriente suficiente para mantener el agua cristalina en todas las pozas y marmitas, pero en ningún momento da la sensación de arrastrarte...
 
 &times;
 Descartar alerta
 
-En esas condiciones se encuentra el barranco estos dÃƒÂ­as, asÃƒÂ­ que tuvimos que ir al bautismo barranquil del mini-componente del equipo SQLP...
+En esas condiciones se encuentra el barranco estos días, así que tuvimos que ir al bautismo barranquil del mini-componente del equipo SQLP...
 
-AÃƒÂ±adimos a continuaciÃƒÂ³n el track de la actividad, para los interesados.
+Añadimos a continuación el track de la actividad, para los interesados.
 <iframe src="https://www.alltrails.com/es/widget/map/wikiloc-la-carruaca-lusera-5faf461?scrollZoom=ó&hideName=true&u=m" width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="AllTrails: Trail Guides and Maps for Hiking, Camping, and Running"></iframe>
-El equipo SQLP agradece enormemente al superhÃƒÂ©roe Pedro Albero por sus consejos y facilidades con la logÃƒÂ­stica (No siempre es fÃƒÂ¡cil encontrar rÃƒÂ¡pido un neopreno de niÃƒÂ±o!). Aunque no hace falta, llevamos una pequeÃƒÂ±a cuerda que siempre va bien por algÃƒÂºn porsiacÃƒÂ¡, ya sea lÃƒÂºdico o inesperado...
+El equipo SQLP agradece enormemente al superhéroe Pedro Albero por sus consejos y facilidades con la logística (No siempre es fácil encontrar rápido un neopreno de niño!). Aunque no hace falta, llevamos una pequeña cuerda que siempre va bien por algún porsiacá, ya sea lúdico o inesperado...
 
-![](https://i.imgur.com/KgxCefA.jpg)											SucesiÃƒÂ³n de marmitas...
+![](https://i.imgur.com/KgxCefA.jpg)											Sucesión de marmitas...
 
 ![](https://i.imgur.com/NU76imS.jpg)											Con tan poco agua cuesta lo suyo salir de cada marmita :-)
 
-![](https://i.imgur.com/BeAiN5d.jpg)											Agua cristalina (Ã‚Â¿No sabÃƒÂ­as que el agua es verde? ;-p )
+![](https://i.imgur.com/BeAiN5d.jpg)											Agua cristalina (Ã‚Â¿No sabías que el agua es verde? ;-p )
 
-![](https://i.imgur.com/QwxPQx9.jpg)											Con mÃƒÂ¡s caudal, en un sitio asÃƒÂ­ la corriente arrastrarÃƒÂ­a a un niÃƒÂ±o!
+![](https://i.imgur.com/QwxPQx9.jpg)											Con más caudal, en un sitio así la corriente arrastraría a un niño!
 

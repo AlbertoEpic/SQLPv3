@@ -6,7 +6,7 @@ heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:46Z
 draft: false
 author: "AlbertoEpic"
-description: "Desde aquÃƒÂ­ queremos animar a Angelito, el globero mÃƒÂ¡s fondista, en su nueva participaciÃƒÂ³n en la PBP 2011 . PodrÃƒÂ¡s seguirlo a partir del lunes a las 5 de la maÃƒÂ±ana con el dorsal 8554 en http://www.paris-brest-paris.org/pbp2011/index2.php?lan"
+description: "Desde aquí queremos animar a Angelito, el globero más fondista, en su nueva participación en la PBP 2011 . Podrás seguirlo a partir del lunes a las 5 de la mañana con el dorsal 8554 en http://www.paris-brest-paris.org/pbp2011/index2.php?lan"
 category: "Otros"
 tags:
   - "brest"
@@ -14,7 +14,7 @@ tags:
   - "paris"
   - "varios"
 ---
-Desde aquÃƒÂ­ queremos animar a Angelito, el globero mÃƒÂ¡s fondista, en su nueva participaciÃƒÂ³n en la [PBP 2011](http://www.paris-brest-paris.org/pbp2011/index.php). PodrÃƒÂ¡s seguirlo a partir del lunes a las 5 de la maÃƒÂ±ana con el dorsal 8554 en
+Desde aquí queremos animar a Angelito, el globero más fondista, en su nueva participación en la [PBP 2011](http://www.paris-brest-paris.org/pbp2011/index.php). Podrás seguirlo a partir del lunes a las 5 de la mañana con el dorsal 8554 en
 
 [http://www.paris-brest-paris.org/pbp2011/index2.php?lang=en&cat=randonnee&page=suivi_participants .](http://www.paris-brest-paris.org/pbp2011/index2.php?lang=en&cat=randonnee&page=suivi_participants)
 
@@ -22,9 +22,9 @@ Desde aquÃƒÂ­ queremos animar a Angelito, el globero mÃƒÂ¡s fondista, en
 
 Citando un email suyo:
 
-Tras el ultimo stage de preparaciÃƒÂ³n en San Lorenzo, como todos los
+Tras el ultimo stage de preparación en San Lorenzo, como todos los
 
-meses de agosto por estas fechas cada 4 aÃƒÂ±os, Los Globeros mandan a uno
+meses de agosto por estas fechas cada 4 años, Los Globeros mandan a uno
 
 de sus guerreros a la conquista de Las Galias.
 
@@ -38,5 +38,5 @@ Nos vemos a la vuelta
 
 ACTUALIZACIÃƒâ€œN 24/8/2011
 
-Hoy a las 15:32 ha concluido con ÃƒÂ©xito una vez mÃƒÂ¡s la PBP, 58h13' segÃƒÂºn la web a 21'1km/h de media. 
+Hoy a las 15:32 ha concluido con éxito una vez más la PBP, 58h13' según la web a 21'1km/h de media. 
 

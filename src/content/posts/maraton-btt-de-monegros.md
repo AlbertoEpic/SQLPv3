@@ -1,93 +1,93 @@
 ---
-title: "MaratÃƒÂ³n BTT de Monegros"
+title: "Maratón BTT de Monegros"
 heroImage: "attachments/fotosalidamonegros-300x168.webp"
 pubDate: 2011-05-02T21:17:00Z
 updatedDate: 2015-04-06T10:28:49Z
 draft: false
 author: "AlbertoEpic"
-description: "30/04/2011 Desayunar mucho, comer mucho, beber mucho para poder pedalear durante mucho rato, la palabra mucho va a venir como complemento a todas las demÃƒÂ¡s, porque este sÃƒÂ¡bado hay recorrer muchos kilometros entre mucha gente y mucho polvo. "
+description: "30/04/2011 Desayunar mucho, comer mucho, beber mucho para poder pedalear durante mucho rato, la palabra mucho va a venir como complemento a todas las demás, porque este sábado hay recorrer muchos kilometros entre mucha gente y mucho polvo. "
 category: "Otros"
 tags:
   - "btt"
-  - "MaratÃƒÂ³n de Monegros"
+  - "Maratón de Monegros"
 ---
 [![](attachments/fotosalidamonegros.webp)
 
 30/04/2011
 
-Desayunar mucho, comer mucho, beber mucho para poder pedalear durante mucho rato, la palabra mucho va a venir como complemento a todas las demÃƒÂ¡s, porque este sÃƒÂ¡bado hay recorrer muchos kilometros entre mucha gente y mucho polvo.
+Desayunar mucho, comer mucho, beber mucho para poder pedalear durante mucho rato, la palabra mucho va a venir como complemento a todas las demás, porque este sábado hay recorrer muchos kilometros entre mucha gente y mucho polvo.
 
-Como siempre antes de algÃƒÂºn acontecimiento nuevo, los nervios me recorren por dentro como hormiguitas durante toda la semana y parecen que deciden pararse minutos antes de tomar la salida.
+Como siempre antes de algún acontecimiento nuevo, los nervios me recorren por dentro como hormiguitas durante toda la semana y parecen que deciden pararse minutos antes de tomar la salida.
 
-Cargamos el coche y nos vamos a SariÃƒÂ±ena, allÃƒÂ­ nos encontramos con Rafa, Jara, Fer, Carlos, ToÃƒÂ±o y Esmeralda, unos mÃƒÂ¡s avanzados que otros en la preparaciÃƒÂ³n vamos a recoger el chip a la salida, el ambiente es increible, bicis y ciclistas han ocupado SariÃƒÂ±ena. La mÃƒÂºsica, la gente, todo en cantidades abundantes anuncia lo que en unas horas va a ser la salida.
+Cargamos el coche y nos vamos a Sariñena, allí nos encontramos con Rafa, Jara, Fer, Carlos, Toño y Esmeralda, unos más avanzados que otros en la preparación vamos a recoger el chip a la salida, el ambiente es increible, bicis y ciclistas han ocupado Sariñena. La música, la gente, todo en cantidades abundantes anuncia lo que en unas horas va a ser la salida.
 
-El traje puesto, la mochila cargada, la bici preparada, son la 12 y los que tienen mÃƒÂ¡s prisa se van a coger sitio a la salida, su teorÃƒÂ­a: Colocarse bien delante para no tener que adelantar a nadie, que sean los que tienen prisa los que te adelanten.
+El traje puesto, la mochila cargada, la bici preparada, son la 12 y los que tienen más prisa se van a coger sitio a la salida, su teoría: Colocarse bien delante para no tener que adelantar a nadie, que sean los que tienen prisa los que te adelanten.
 
-AllÃƒÂ­ estamos como ovejitas en el corral durante una hora y media, charradeta aquÃƒÂ­, charradeta allÃƒÂ¡, unos estiramientos y momento de subirse en la bici, los organizadores con sus discursos finales, la concentraciÃƒÂ³n aumenta, cinco, cuatro, tres, dos, unos......pam!
+Allí estamos como ovejitas en el corral durante una hora y media, charradeta aquí, charradeta allá, unos estiramientos y momento de subirse en la bici, los organizadores con sus discursos finales, la concentración aumenta, cinco, cuatro, tres, dos, unos......pam!
 
-Arrancamos todos en la curva los primeros amagos de que se caen los de delante, les dejo espacio y me coloco por la derecha, adelanto, me adelantan, acabamos la subida y salimos del pueblo, la salida ha sido genial, sin agobios, sin tensiones, ahora llegamos a la pista, momento delicado, las primeras caÃƒÂ­das, bicis, por medio, botellines y ciclistas, los charcos cruzan el camino y la gente los intenta esquivar, es la ley de la jungla, aquÃƒÂ­ gana el mÃƒÂ¡s rÃƒÂ¡pido y hÃƒÂ¡bil, sino al suelo.
+Arrancamos todos en la curva los primeros amagos de que se caen los de delante, les dejo espacio y me coloco por la derecha, adelanto, me adelantan, acabamos la subida y salimos del pueblo, la salida ha sido genial, sin agobios, sin tensiones, ahora llegamos a la pista, momento delicado, las primeras caídas, bicis, por medio, botellines y ciclistas, los charcos cruzan el camino y la gente los intenta esquivar, es la ley de la jungla, aquí gana el más rápido y hábil, sino al suelo.
 
-Los primeros 10 km se pasan muy deprisa, rodeados de gente hay que mantener el ritmo fuerte, nos separamos con Alberto en una zona con barro, me paro a esperar, no lo veo, las pulsaciones del corazÃƒÂ³n me nublan la vista, pues sigo....pocos metros mÃƒÂ¡s adelante lo veo pedaleando suave, esperÃƒÂ¡ndome. ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œAlberto por la izquierda!ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â Volvemos a enganchar el ritmo de carrera....
+Los primeros 10 km se pasan muy deprisa, rodeados de gente hay que mantener el ritmo fuerte, nos separamos con Alberto en una zona con barro, me paro a esperar, no lo veo, las pulsaciones del corazón me nublan la vista, pues sigo....pocos metros más adelante lo veo pedaleando suave, esperándome. ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œAlberto por la izquierda!ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â Volvemos a enganchar el ritmo de carrera....
 
-Sube-bajas, rampas de platillo y rectas de plato van intercalÃƒÂ¡ndose durante los primeros 30km, el puente de hierro, ya queda menos para el primer avituallamiento, se me hace largo, le echo la bronca a Alberto por apurarme, no quiero hablar, bastante tengo con respirar.
+Sube-bajas, rampas de platillo y rectas de plato van intercalándose durante los primeros 30km, el puente de hierro, ya queda menos para el primer avituallamiento, se me hace largo, le echo la bronca a Alberto por apurarme, no quiero hablar, bastante tengo con respirar.
 
-Alucino con la gente tirada en la cuneta, arreglando pinchazos, cadenas, pidiÃƒÂ©ndote material.
+Alucino con la gente tirada en la cuneta, arreglando pinchazos, cadenas, pidiéndote material.
 
-Primer avituallamiento: sandÃƒÂ­a, agua, llevo las pestaÃƒÂ±as llenas de polvo, me lavo la cara y ya puedo ver mejor, arrancamos, y a por el siguiente punto de comida y agua. Para que la carrera no se me haga tan larga me la he dividido en cuatro partes, el objetivo, llegar a cada avituallamiento.
+Primer avituallamiento: sandía, agua, llevo las pestañas llenas de polvo, me lavo la cara y ya puedo ver mejor, arrancamos, y a por el siguiente punto de comida y agua. Para que la carrera no se me haga tan larga me la he dividido en cuatro partes, el objetivo, llegar a cada avituallamiento.
 
-Seguimos con los subes y bajas hasta que empezamos la subida de verdad, la gente sigue pasÃƒÂ¡ndonos muy fuerte, que envidia me dan, cuando la rampa me apura pongo el platillo y el corazÃƒÂ³n se me sube a la cabeza, noto las pulsaciones en los oÃƒÂ­dos y la respiraciÃƒÂ³n va como quiere.
+Seguimos con los subes y bajas hasta que empezamos la subida de verdad, la gente sigue pasándonos muy fuerte, que envidia me dan, cuando la rampa me apura pongo el platillo y el corazón se me sube a la cabeza, noto las pulsaciones en los oídos y la respiración va como quiere.
 
-Un poco mÃƒÂ¡s, unas pedaladas mÃƒÂ¡s y ya estamos arriba, comienza el sube y baja, un grupo que pasa, me engancho a ellos, pillo la rueda, me da miedo ir tan cerca, pero se va muy bien, avanzamos unos metros, llega un poco de bajada y nos descolgamos, para bajar prefiero ver unos metros por delante, la pista estÃƒÂ¡ llena de piedras y agujeros y no quiero verme dentro de uno de ellos por torpe. 
+Un poco más, unas pedaladas más y ya estamos arriba, comienza el sube y baja, un grupo que pasa, me engancho a ellos, pillo la rueda, me da miedo ir tan cerca, pero se va muy bien, avanzamos unos metros, llega un poco de bajada y nos descolgamos, para bajar prefiero ver unos metros por delante, la pista está llena de piedras y agujeros y no quiero verme dentro de uno de ellos por torpe. 
 
-Quedan 5km para el avituallamiento, una culebreta nos adelanta y nos enganchamos ellos, hace viento y se nota la protecciÃƒÂ³n, avanzamos rÃƒÂ¡pido y en nada estamos comiendo otra vez.
+Quedan 5km para el avituallamiento, una culebreta nos adelanta y nos enganchamos ellos, hace viento y se nota la protección, avanzamos rápido y en nada estamos comiendo otra vez.
 
-Vamos llenos de polvo, te metes un plÃƒÂ¡tano en la boca y la arena le da un sabor a playa bastante particular.
+Vamos llenos de polvo, te metes un plátano en la boca y la arena le da un sabor a playa bastante particular.
 
-La salida del control es con tendencia a subir, cuesta un poco arrancar despuÃƒÂ©s del parÃƒÂ³n, la espalda empieza a quejarse y el culo protesta por el sillÃƒÂ­n tan duro que llevo. De nuevo nos aÃƒÂ±adimos a un grupo, tiran a buen ritmo, avanzamos deprisa, le digo a Alberto de tirar un poco mÃƒÂ¡s, me contesta que me espere, que guarde fuerzas y descanse dentro del grupo, sigo pedaleando, el cuerpo me pide un puntito mÃƒÂ¡s y empiezo a tirar para adelante, me miro para atrÃƒÂ¡s y Alberto no me sigue, me indica con la mano que siga, yo muy obediente bajo la cabeza y sigo toda encendida, se que es un subidÃƒÂ³n que me ha dado de la comida y en cuanto se me pase me volverÃƒÂ¡ a coger el grupo y me traerÃƒÂ¡n a Alberto.
+La salida del control es con tendencia a subir, cuesta un poco arrancar después del parón, la espalda empieza a quejarse y el culo protesta por el sillín tan duro que llevo. De nuevo nos añadimos a un grupo, tiran a buen ritmo, avanzamos deprisa, le digo a Alberto de tirar un poco más, me contesta que me espere, que guarde fuerzas y descanse dentro del grupo, sigo pedaleando, el cuerpo me pide un puntito más y empiezo a tirar para adelante, me miro para atrás y Alberto no me sigue, me indica con la mano que siga, yo muy obediente bajo la cabeza y sigo toda encendida, se que es un subidón que me ha dado de la comida y en cuanto se me pase me volverá a coger el grupo y me traerán a Alberto.
 
-Voy feliz pedaleando, increÃƒÂ­blemente voy sola, los ciclistas mÃƒÂ¡s prÃƒÂ³ximos estÃƒÂ¡n a bastantes metros por delante y por detrÃƒÂ¡s, levanto la cabeza y me percato del paisaje, los campos, los colores, las nubes, el olor a romero, un ciclista pasando cerca me despierta de mi mundo y me recuerda que debo seguir pedaleando fuerte, bajo un piÃƒÂ±ÃƒÂ³n y apuro las pedaladas.
+Voy feliz pedaleando, increíblemente voy sola, los ciclistas más próximos están a bastantes metros por delante y por detrás, levanto la cabeza y me percato del paisaje, los campos, los colores, las nubes, el olor a romero, un ciclista pasando cerca me despierta de mi mundo y me recuerda que debo seguir pedaleando fuerte, bajo un piñón y apuro las pedaladas.
 
-Concentrada en mi ritmo me adelanta Carlos, Ã‚Â¿pero que haces aquÃƒÂ­? ReventÃƒÂ³n de la cubierta, es su respuesta. Menos mal de Lorenzo Alonso, que estÃƒÂ¡ de mecÃƒÂ¡nico y le ha hecho buen apaÃƒÂ±o.
+Concentrada en mi ritmo me adelanta Carlos, Ã‚Â¿pero que haces aquí? Reventón de la cubierta, es su respuesta. Menos mal de Lorenzo Alonso, que está de mecánico y le ha hecho buen apaño.
 
-Me cuenta que Alberto se ha quedado mÃƒÂ¡s atrÃƒÂ¡s, que va a su ritmo.
+Me cuenta que Alberto se ha quedado más atrás, que va a su ritmo.
 
-Unos minutos mÃƒÂ¡s tarde veo a Esme, ToÃƒÂ±o y Fer y me alegro un montÃƒÂ³n, subo el ritmo y me acerco a ellos, ver caras conocidas, hablar un poco levanta el ÃƒÂ¡nimo. Esme ya se ha recuperado de la salida, ir forzando siempre acaba pasando factura, pero gracias a la fortaleza que tiene esta mujer, ha superado el bache y aquÃƒÂ­ estÃƒÂ¡ pedaleando duro.
+Unos minutos más tarde veo a Esme, Toño y Fer y me alegro un montón, subo el ritmo y me acerco a ellos, ver caras conocidas, hablar un poco levanta el ánimo. Esme ya se ha recuperado de la salida, ir forzando siempre acaba pasando factura, pero gracias a la fortaleza que tiene esta mujer, ha superado el bache y aquí está pedaleando duro.
 
-El subidÃƒÂ³n que llevaba se me estÃƒÂ¡ pasando y me voy quedando en las subidas, me pesa el culo, jejeje, llega el avituallamiento y Esme me grita que les deje el botellÃƒÂ­n y que no pare, no le hago caso, necesito bajarme de la bici y estirar la espalda, los riÃƒÂ±ones me van a estallar.
+El subidón que llevaba se me está pasando y me voy quedando en las subidas, me pesa el culo, jejeje, llega el avituallamiento y Esme me grita que les deje el botellín y que no pare, no le hago caso, necesito bajarme de la bici y estirar la espalda, los riñones me van a estallar.
 
-Como, bebo, me relleno el Camel, vuelvo a comer, miro a la gente que va llegando con esperanza de ver a Alberto, pero llegado el momento de salir no lo veo, asÃƒÂ­ que sigo.
+Como, bebo, me relleno el Camel, vuelvo a comer, miro a la gente que va llegando con esperanza de ver a Alberto, pero llegado el momento de salir no lo veo, así que sigo.
 
-Voy a mi ritmo, mÃƒÂ¡s lenta que antes y un poco aburrida, he superado a mi mÃƒÂ¡ximo de kilÃƒÂ³metros recorridos sobre una bici, 80, y el cuerpo protesta, pero ahora no tiene nada que nacer, el camino mÃƒÂ¡s corto es llegar a meta y cuanto antes mejor, asÃƒÂ­ que aprieto los dientes y acelero un poco.
+Voy a mi ritmo, más lenta que antes y un poco aburrida, he superado a mi máximo de kilómetros recorridos sobre una bici, 80, y el cuerpo protesta, pero ahora no tiene nada que nacer, el camino más corto es llegar a meta y cuanto antes mejor, así que aprieto los dientes y acelero un poco.
 
-Llegamos al punto mÃƒÂ¡s alto y nos juntamos con los que vienen de la media, mucho mÃƒÂ¡s limpios que nosotros. 
+Llegamos al punto más alto y nos juntamos con los que vienen de la media, mucho más limpios que nosotros. 
 
-Por la bajada vamos unos mÃƒÂ¡s lanzados que otros, yo sigo alucinando como va el personal, yo casi fundo los frenos, y bajo despacito, no vaya a ser que derrape. Hay gente de protecciÃƒÂ³n civil en las peores curvas advirtiÃƒÂ©ndonos, la pista maravillosa se transforma en un arenal de subes y bajas con regueros y agujeros trampa, la ambulancia recoge los restos de alguien.
+Por la bajada vamos unos más lanzados que otros, yo sigo alucinando como va el personal, yo casi fundo los frenos, y bajo despacito, no vaya a ser que derrape. Hay gente de protección civil en las peores curvas advirtiéndonos, la pista maravillosa se transforma en un arenal de subes y bajas con regueros y agujeros trampa, la ambulancia recoge los restos de alguien.
 
-El ÃƒÂºltimo avituallamiento, por costumbre me paro y me como un trozo de sandÃƒÂ­a, sigo el camino, los puntos kilomÃƒÂ©tricos te hacen el camino mÃƒÂ¡s entretenido, llegamos al 100 km, 105 km, 110 km, sÃƒÂ³lo queda como ir de casa a Walqa, esto ya estÃƒÂ¡!
+El último avituallamiento, por costumbre me paro y me como un trozo de sandía, sigo el camino, los puntos kilométricos te hacen el camino más entretenido, llegamos al 100 km, 105 km, 110 km, sólo queda como ir de casa a Walqa, esto ya está!
 
-La gente en Albalatillo anima, un poco de pista, chopera y carretera, niÃƒÂ±os recogiendo botellines, la espalda que me explota, mÃƒÂ¡s gente, coches, la ÃƒÂºltima curva, y la llegada!
+La gente en Albalatillo anima, un poco de pista, chopera y carretera, niños recogiendo botellines, la espalda que me explota, más gente, coches, la última curva, y la llegada!
 
 La gente aplaude, las caras llenas de polvo se mezclan con las limpias, me da miedo bajar de la bici y caerme, el cuerpo ya se ha relajado.
 
-Veo a Nuria y aÃ‚Ângel, ya estÃƒÂ¡n limpios, pero que rÃƒÂ¡pido habÃƒÂ©is ido chicos!!!
+Veo a Nuria y aÃ‚Ângel, ya están limpios, pero que rápido habéis ido chicos!!!
 
-Vamos devolver el chip y nos encontramos con el resto de la panda, todos muy felices y contentos. Ã‚Â¿No has visto a Fer que ha pinchado en los ÃƒÂºltimos km?? Que mala suerte.
+Vamos devolver el chip y nos encontramos con el resto de la panda, todos muy felices y contentos. Ã‚Â¿No has visto a Fer que ha pinchado en los últimos km?? Que mala suerte.
 
 A los 10 minutos llega Alberto, que por poco me coge en la bajada, si es que me pasaban hasta los caracoles.
 
-Nos cambian el chip, por una camiseta y la medalla de Finisher, con el pecho lleno de polvo, los mÃƒÂºsculos petaos y la cabeza como un bombÃƒÂ³n nos arrastramos hasta el coche.
+Nos cambian el chip, por una camiseta y la medalla de Finisher, con el pecho lleno de polvo, los músculos petaos y la cabeza como un bombón nos arrastramos hasta el coche.
 
-Enseguida viene Jara con la rodilla destrozada, como se nota que es aragonesa, gracias a su fortaleza y cabezonerÃƒÂ­a ha podido acabar.
+Enseguida viene Jara con la rodilla destrozada, como se nota que es aragonesa, gracias a su fortaleza y cabezonería ha podido acabar.
 
-Duchados y cambiados nos vamos a comer algo, vemos a Tere, que tambiÃƒÂ©n ha acabado muy bien, ya estamos todos a salvo.
+Duchados y cambiados nos vamos a comer algo, vemos a Tere, que también ha acabado muy bien, ya estamos todos a salvo.
 
-[![](attachments/podiumLuci.webp)LucÃƒÂ­a Cinto, 2Ã‚Âª clasificada en ÃƒÂ©liteMientras estamos en la cola, Esme me dice, ya verÃƒÂ¡s como te toca subir al pÃƒÂ³dium, yo por quitarme los nervios de encima le contesto que me han pasado muchas chicas y seguro que mÃƒÂ¡s de una tendrÃƒÂ­a menos de 30 aÃƒÂ±os, ja, y cual es mi sorpresa que se oye por megafonÃƒÂ­a: 2Ã‚Âº clasificada en categorÃƒÂ­a ElÃƒÂ­te: LucÃƒÂ­a Cinto, ay que alegrÃƒÂ­a, pues nada, a por el trofeo, fotos, besos y sonrisas, que gracia, esto si que no me lo esperaba.
+[![](attachments/podiumLuci.webp)Lucía Cinto, 2Ã‚Âª clasificada en éliteMientras estamos en la cola, Esme me dice, ya verás como te toca subir al pódium, yo por quitarme los nervios de encima le contesto que me han pasado muchas chicas y seguro que más de una tendría menos de 30 años, ja, y cual es mi sorpresa que se oye por megafonía: 2Ã‚Âº clasificada en categoría Elíte: Lucía Cinto, ay que alegría, pues nada, a por el trofeo, fotos, besos y sonrisas, que gracia, esto si que no me lo esperaba.
 
-Acabamos de comer, masajito para soltar los mÃƒÂºsculos y para casa.
+Acabamos de comer, masajito para soltar los músculos y para casa.
 
-Ha sido una experiencia genial, sentir como se puede exprimir el cuerpo aÃƒÂºn llevÃƒÂ¡ndole la contraria a la cabeza y poner los lÃƒÂ­mites de uno un poquito mÃƒÂ¡s altos, son sensaciones que menos mal que no tenemos todos los dÃƒÂ­as, pero que cuando lo logramos es un gran subidÃƒÂ³n.
+Ha sido una experiencia genial, sentir como se puede exprimir el cuerpo aún llevándole la contraria a la cabeza y poner los límites de uno un poquito más altos, son sensaciones que menos mal que no tenemos todos los días, pero que cuando lo logramos es un gran subidón.
 
-Ahora a mirar el calendario y ver cuando es la siguiente, espero encontraros allÃƒÂ­!!!
+Ahora a mirar el calendario y ver cuando es la siguiente, espero encontraros allí!!!
 
-LucÃƒÂ­a.
+Lucía.
 

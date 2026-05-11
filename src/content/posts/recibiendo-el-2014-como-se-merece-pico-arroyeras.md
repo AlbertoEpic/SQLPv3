@@ -6,14 +6,14 @@ heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:36Z
 draft: false
 author: "AlbertoEpic"
-description: "...Y la Tierra terminÃƒÂ³ de dar otra vuelta al Sol, y diÃƒÂ³ comienzo un nuevo ciclo de 365 dÃƒÂ­as, y para celebrarlo, nada mejor que recibir al nuevo aÃƒÂ±o haciendo esquÃƒÂ­ de travesÃƒÂ­a. Luzia estuvo allÃƒÂ­. En este caso, incluÃƒÂ­mos el video de la activi"
-category: "EsquÃƒÂ­ de travesÃƒÂ­a"
+description: "...Y la Tierra terminó de dar otra vuelta al Sol, y dió comienzo un nuevo ciclo de 365 días, y para celebrarlo, nada mejor que recibir al nuevo año haciendo esquí de travesía. Luzia estuvo allí. En este caso, incluímos el video de la activi"
+category: "Esquí de travesía"
 tags:
   - "Uncategorized"
 ---
-...Y la Tierra terminÃƒÂ³ de dar otra vuelta al Sol, y diÃƒÂ³ comienzo un nuevo ciclo de 365 dÃƒÂ­as, y para celebrarlo, nada mejor que recibir al nuevo aÃƒÂ±o haciendo esquÃƒÂ­ de travesÃƒÂ­a. Luzia estuvo allÃƒÂ­.
+...Y la Tierra terminó de dar otra vuelta al Sol, y dió comienzo un nuevo ciclo de 365 días, y para celebrarlo, nada mejor que recibir al nuevo año haciendo esquí de travesía. Luzia estuvo allí.
 
-En este caso, incluÃƒÂ­mos el video de la actividad cedido por Jorge, de [LaMeteoQueViene](http://lameteoqueviene.blogspot.com.es/), que se estÃƒÂ¡ destapando como un crack en esto de la filmaciÃƒÂ³n y ediciÃƒÂ³n exprÃƒÂ©s de videos...
+En este caso, incluímos el video de la actividad cedido por Jorge, de [LaMeteoQueViene](http://lameteoqueviene.blogspot.com.es/), que se está destapando como un crack en esto de la filmación y edición exprés de videos...
 
 
 

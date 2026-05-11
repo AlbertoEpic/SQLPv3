@@ -6,16 +6,16 @@ heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2017-06-05T11:12:32Z
 draft: false
 author: "AlbertoEpic"
-description: "Ya puedes ver el primer episodio de la serie, correspondiente a la actividad en el Macizo del Grand Combin. La aproximaciÃƒÂ³n desde Fionay hasta el refugio Cabane FXB PanossiÃƒÂ¨re, y al dÃƒÂ­a siguiente las ascensiones al Petit Combin y Combin de "
-category: "EsquÃƒÂ­ de travesÃƒÂ­a"
+description: "Ya puedes ver el primer episodio de la serie, correspondiente a la actividad en el Macizo del Grand Combin. La aproximación desde Fionay hasta el refugio Cabane FXB PanossiÃƒÂ¨re, y al día siguiente las ascensiones al Petit Combin y Combin de "
+category: "Esquí de travesía"
 tags:
   - "alpes"
-  - "EsquÃƒÂ­ de travesÃƒÂ­a"
+  - "Esquí de travesía"
   - "Grand Combin"
 ---
-Ya puedes ver el primer episodio de la serie, correspondiente a la actividad en el Macizo del Grand Combin. La aproximaciÃƒÂ³n desde Fionay hasta el refugio Cabane FXB PanossiÃƒÂ¨re, y al dÃƒÂ­a siguiente las ascensiones al Petit Combin y Combin de CorbassiÃƒÂ¨re. Una toma de contacto con intenciÃƒÂ³n de estudiar el estado de la montaÃƒÂ±a para subir al dÃƒÂ­a siguiente al Grand Combin (Combin de Grafeneire, 4.314m).
+Ya puedes ver el primer episodio de la serie, correspondiente a la actividad en el Macizo del Grand Combin. La aproximación desde Fionay hasta el refugio Cabane FXB PanossiÃƒÂ¨re, y al día siguiente las ascensiones al Petit Combin y Combin de CorbassiÃƒÂ¨re. Una toma de contacto con intención de estudiar el estado de la montaña para subir al día siguiente al Grand Combin (Combin de Grafeneire, 4.314m).
 
-Puedes ver el vÃƒÂ­deo a continuaciÃƒÂ³n...
+Puedes ver el vídeo a continuación...
 
 <iframe src="https://player.vimeo.com/video/220289926" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 

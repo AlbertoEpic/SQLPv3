@@ -6,12 +6,12 @@ heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:43Z
 draft: false
 author: "AlbertoEpic"
-description: "De nuevo gracias a Miriam por pasarme una vez mÃƒÂ¡s un video de flipar... No te lo puedes perder, y es que con la cada vez mÃƒÂ¡s acusada escasez de nieve, tarde o temprano nos tocarÃƒÂ¡ esquiar asÃƒÂ­, jeje!"
+description: "De nuevo gracias a Miriam por pasarme una vez más un video de flipar... No te lo puedes perder, y es que con la cada vez más acusada escasez de nieve, tarde o temprano nos tocará esquiar así, jeje!"
 category: "Otros"
 tags:
   - "Uncategorized"
 ---
-De nuevo gracias a Miriam por pasarme una vez mÃƒÂ¡s un video de flipar... No te lo puedes perder, y es que con la cada vez mÃƒÂ¡s acusada escasez de nieve, tarde o temprano nos tocarÃƒÂ¡ esquiar asÃƒÂ­, jeje!
+De nuevo gracias a Miriam por pasarme una vez más un video de flipar... No te lo puedes perder, y es que con la cada vez más acusada escasez de nieve, tarde o temprano nos tocará esquiar así, jeje!
 
 <iframe allowfullscreen="" frameborder="0" height="370" mozallowfullscreen="" src="https://player.vimeo.com/video/32863936?title=0&byline=0&portrait=0" webkitallowfullscreen="" width="658"></iframe>
 

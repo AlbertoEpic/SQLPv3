@@ -6,13 +6,13 @@ heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:59Z
 draft: false
 author: "AlbertoEpic"
-description: "Esta semana hizo mal tiempo y no hay reportaje de la Altos Pirineos de PeÃƒÂ±a Guara, asÃƒÂ­ que en Producciones Soloquedalopeor recuperamos un video de la semana anterior, donde Jarita, Morenetti, Luzia y AlbertoEpic, el ÃƒÂºnico trÃƒÂ­o calavera form"
+description: "Esta semana hizo mal tiempo y no hay reportaje de la Altos Pirineos de Peña Guara, así que en Producciones Soloquedalopeor recuperamos un video de la semana anterior, donde Jarita, Morenetti, Luzia y AlbertoEpic, el único trío calavera form"
 category: "Otros"
 tags:
-  - "EsquÃƒÂ­ de travesÃƒÂ­a"
+  - "Esquí de travesía"
   - "globeros"
 ---
-Esta semana hizo mal tiempo y no hay reportaje de la Altos Pirineos de PeÃƒÂ±a Guara, asÃƒÂ­ que en Producciones Soloquedalopeor recuperamos un video de la semana anterior, donde Jarita, Morenetti, Luzia y AlbertoEpic, el ÃƒÂºnico trÃƒÂ­o calavera formado por cuatro miembros, dan un paseo hasta el pico del Verde.
+Esta semana hizo mal tiempo y no hay reportaje de la Altos Pirineos de Peña Guara, así que en Producciones Soloquedalopeor recuperamos un video de la semana anterior, donde Jarita, Morenetti, Luzia y AlbertoEpic, el único trío calavera formado por cuatro miembros, dan un paseo hasta el pico del Verde.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6ONQoj9-UXM" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

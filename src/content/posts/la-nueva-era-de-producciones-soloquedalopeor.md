@@ -6,12 +6,12 @@ heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:58Z
 draft: false
 author: "AlbertoEpic"
-description: "Hoy en la productora estamos de enhorabuena por la entrada en una nueva era que reportarÃƒÂ¡ novedosas videoproducciones a nuestro catÃƒÂ¡logo..."
+description: "Hoy en la productora estamos de enhorabuena por la entrada en una nueva era que reportará novedosas videoproducciones a nuestro catálogo..."
 category: "Otros"
 tags:
   - "Uncategorized"
 ---
-Hoy en la productora estamos de enhorabuena por la entrada en una nueva era que reportarÃƒÂ¡ novedosas videoproducciones a nuestro catÃƒÂ¡logo...
+Hoy en la productora estamos de enhorabuena por la entrada en una nueva era que reportará novedosas videoproducciones a nuestro catálogo...
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XuOqzpMdDZk" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

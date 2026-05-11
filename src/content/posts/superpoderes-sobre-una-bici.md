@@ -6,12 +6,12 @@ heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:29:05Z
 draft: false
 author: "AlbertoEpic"
-description: "Hay veces que veo un vÃƒÂ­deo en internet y me imagino cuÃƒÂ¡nto tendrÃƒÂ­a que entrenar para conseguir hacer lo que se puede ver en ÃƒÂ©l. Pero en este no. Directamente, hacer esto lo veo fuera del alcance de mis posibilidades. Simplemente me siento y"
+description: "Hay veces que veo un vídeo en internet y me imagino cuánto tendría que entrenar para conseguir hacer lo que se puede ver en él. Pero en este no. Directamente, hacer esto lo veo fuera del alcance de mis posibilidades. Simplemente me siento y"
 category: "Otros"
 tags:
   - "Uncategorized"
 ---
-Hay veces que veo un vÃƒÂ­deo en internet y me imagino cuÃƒÂ¡nto tendrÃƒÂ­a que entrenar para conseguir hacer lo que se puede ver en ÃƒÂ©l. Pero en este no. Directamente, hacer esto lo veo fuera del alcance de mis posibilidades.
+Hay veces que veo un vídeo en internet y me imagino cuánto tendría que entrenar para conseguir hacer lo que se puede ver en él. Pero en este no. Directamente, hacer esto lo veo fuera del alcance de mis posibilidades.
 
 Simplemente me siento y lo veo flipando de lo que algunos pueden llegar a hacer sobre dos ruedas...
 

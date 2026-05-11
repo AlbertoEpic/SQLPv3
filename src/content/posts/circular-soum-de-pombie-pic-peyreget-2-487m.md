@@ -11,7 +11,7 @@ category: "Otros"
 tags:
   - "Uncategorized"
 ---
-Tras un mes de enero en el que Producciones Soloquedalopeor ha estado ocupado en otros menesteres, en febrero retomamos la actividad. Lo hacemos con una ruta sencilla, cuyo principal objetivo era ir acumulando metros de desnivel en las piernas, buscar alguna buena esquiada (Prueba conseguida!!!), y pasar una maÃƒÂ±ana de tertulia con los amigos. Esperemos que nieve pronto, porque la cosa anda escasa...
+Tras un mes de enero en el que Producciones Soloquedalopeor ha estado ocupado en otros menesteres, en febrero retomamos la actividad. Lo hacemos con una ruta sencilla, cuyo principal objetivo era ir acumulando metros de desnivel en las piernas, buscar alguna buena esquiada (Prueba conseguida!!!), y pasar una mañana de tertulia con los amigos. Esperemos que nieve pronto, porque la cosa anda escasa...
 
 La ruta fue Portalet - Col de Pombie - Soum de Pombie - descenso hasta el fondo del valle - Ref. Pombie - Peyreget - Portalet.
 

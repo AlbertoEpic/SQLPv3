@@ -6,12 +6,12 @@ heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:58Z
 draft: false
 author: "AlbertoEpic"
-description: "Con estas impresionantes imÃƒÂ¡genes recoge el fotÃƒÂ³grafo de National Geographic Joel Sartore a algunas de las especies en peligro de extinciÃƒÂ³n mÃƒÂ¡s representativas de AmÃƒÂ©rica. Un montaje muy, muy chulo... Agradecimientos a Myriam por avisarme d"
+description: "Con estas impresionantes imágenes recoge el fotógrafo de National Geographic Joel Sartore a algunas de las especies en peligro de extinción más representativas de América. Un montaje muy, muy chulo... Agradecimientos a Myriam por avisarme d"
 category: "Otros"
 tags:
   - "Uncategorized"
 ---
-Con estas impresionantes imÃƒÂ¡genes recoge el fotÃƒÂ³grafo de National Geographic Joel Sartore a algunas de las especies en peligro de extinciÃƒÂ³n mÃƒÂ¡s representativas de AmÃƒÂ©rica. Un montaje muy, muy chulo...
+Con estas impresionantes imágenes recoge el fotógrafo de National Geographic Joel Sartore a algunas de las especies en peligro de extinción más representativas de América. Un montaje muy, muy chulo...
 
 https://vimeo.com/8426920
 

@@ -6,12 +6,12 @@ heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:59Z
 draft: false
 author: "AlbertoEpic"
-description: "Y otros globeros que se casan, y otros que lo hacen de una manera bastante excÃƒÂ©ntrica: sobre una navata! Sin duda Marco y Andrea mantienen el listÃƒÂ³n muy alto, despuÃƒÂ©s de lo de Rafa y Jara... Aqui se puede ver el breve resumen del singular e"
+description: "Y otros globeros que se casan, y otros que lo hacen de una manera bastante excéntrica: sobre una navata! Sin duda Marco y Andrea mantienen el listón muy alto, después de lo de Rafa y Jara... Aqui se puede ver el breve resumen del singular e"
 category: "Otros"
 tags:
   - "Uncategorized"
 ---
-Y otros globeros que se casan, y otros que lo hacen de una manera bastante excÃƒÂ©ntrica: sobre una navata! Sin duda Marco y Andrea mantienen el listÃƒÂ³n muy alto, despuÃƒÂ©s de lo de Rafa y Jara...
+Y otros globeros que se casan, y otros que lo hacen de una manera bastante excéntrica: sobre una navata! Sin duda Marco y Andrea mantienen el listón muy alto, después de lo de Rafa y Jara...
 
 Aqui se puede ver el breve resumen del singular evento:
 

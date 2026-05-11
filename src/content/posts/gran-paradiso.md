@@ -6,15 +6,15 @@ heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:29:06Z
 draft: false
 author: "AlbertoEpic"
-description: "Hoy voy a echar la vista atrÃƒÂ¡s para recuperar un video del 25 de abril del pasado aÃƒÂ±o, subiendo al Gran Paradiso... MÃƒÂ¡s que nada para probar cÃƒÂ³mo va esto del Vimeo.com, que parece dar mÃƒÂ¡s calidad que Youtube. Donato de primero en el paso cl"
+description: "Hoy voy a echar la vista atrás para recuperar un video del 25 de abril del pasado año, subiendo al Gran Paradiso... Más que nada para probar cómo va esto del Vimeo.com, que parece dar más calidad que Youtube. Donato de primero en el paso cl"
 category: "Otros"
 tags:
   - "alpes"
-  - "EsquÃƒÂ­ de travesÃƒÂ­a"
+  - "Esquí de travesía"
 ---
-Hoy voy a echar la vista atrÃƒÂ¡s para recuperar un video del 25 de abril del pasado aÃƒÂ±o, subiendo al Gran Paradiso...
+Hoy voy a echar la vista atrás para recuperar un video del 25 de abril del pasado año, subiendo al Gran Paradiso...
 
-MÃƒÂ¡s que nada para probar cÃƒÂ³mo va esto del Vimeo.com, que parece dar mÃƒÂ¡s calidad que Youtube.
+Más que nada para probar cómo va esto del Vimeo.com, que parece dar más calidad que Youtube.
 
 https://vimeo.com/3142186
 

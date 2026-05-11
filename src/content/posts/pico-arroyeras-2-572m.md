@@ -6,14 +6,14 @@ heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:29:01Z
 draft: false
 author: "AlbertoEpic"
-description: "El otro dÃƒÂ­a un terceto de globeros (Morenetti, Jorgito y AlbertoEpic) se enfrentaron, unos mÃƒÂ¡s que otros, a la falta de sueÃƒÂ±o derivada de estas fechas navideÃƒÂ±as y subieron a hacer esquÃƒÂ­ de travesÃƒÂ­a. DecÃƒÂ­an que las condiciones no eran ideale"
+description: "El otro día un terceto de globeros (Morenetti, Jorgito y AlbertoEpic) se enfrentaron, unos más que otros, a la falta de sueño derivada de estas fechas navideñas y subieron a hacer esquí de travesía. Decían que las condiciones no eran ideale"
 category: "Otros"
 tags:
   - "Uncategorized"
 ---
-El otro dÃƒÂ­a un terceto de globeros (Morenetti, Jorgito y AlbertoEpic) se enfrentaron, unos mÃƒÂ¡s que otros, a la falta de sueÃƒÂ±o derivada de estas fechas navideÃƒÂ±as y subieron a hacer esquÃƒÂ­ de travesÃƒÂ­a. DecÃƒÂ­an que las condiciones no eran ideales, pero habrÃƒÂ­a que comprobarlo in situ...
+El otro día un terceto de globeros (Morenetti, Jorgito y AlbertoEpic) se enfrentaron, unos más que otros, a la falta de sueño derivada de estas fechas navideñas y subieron a hacer esquí de travesía. Decían que las condiciones no eran ideales, pero habría que comprobarlo in situ...
 
 https://blip.tv/play/hM9ygbimBQA
 
-Puedes ver la crÃƒÂ³nica en el blog de [Las Focas Majaras](http://lasfocasmajaras.blogspot.com/2009/12/pico-arroyeras-2572m.html).
+Puedes ver la crónica en el blog de [Las Focas Majaras](http://lasfocasmajaras.blogspot.com/2009/12/pico-arroyeras-2572m.html).
 

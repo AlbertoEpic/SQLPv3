@@ -6,13 +6,13 @@ heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-04T00:18:27Z
 draft: false
 author: "AlbertoEpic"
-description: "AlbertoEpic acaba de regresar de los Alpes, de su tercer intento a la Chamonix-Zermatt. Nuevamente la meteo no ha acompaÃƒÂ±ado excesivamente, pero eso tampoco ha sido malo del todo: en esta ocasiÃƒÂ³n tenÃƒÂ­a la suerte de formar equipo con Laura, "
-category: "EsquÃƒÂ­ de travesÃƒÂ­a"
+description: "AlbertoEpic acaba de regresar de los Alpes, de su tercer intento a la Chamonix-Zermatt. Nuevamente la meteo no ha acompañado excesivamente, pero eso tampoco ha sido malo del todo: en esta ocasión tenía la suerte de formar equipo con Laura, "
+category: "Esquí de travesía"
 tags:
   - "alpes"
-  - "EsquÃƒÂ­ de travesÃƒÂ­a"
+  - "Esquí de travesía"
 ---
-AlbertoEpic acaba de regresar de los Alpes, de su tercer intento a la Chamonix-Zermatt. Nuevamente la meteo no ha acompaÃƒÂ±ado excesivamente, pero eso tampoco ha sido malo del todo: en esta ocasiÃƒÂ³n tenÃƒÂ­a la suerte de formar equipo con Laura, amiga y futura guÃƒÂ­a de alta montaÃƒÂ±a suiza, y por lo tanto experta en las peculiaridades de la meteo en los Alpes. Se hizo lo que se pudo (que fue mucho) y terminÃƒÂ³ saliendo una Haute Route con variantes inÃƒÂ©ditas y novedosas.
-La factorÃƒÂ­a de SQLP estÃƒÂ¡ trabajando a toda mÃƒÂ¡quina para ofrecerte esta nueva serie de varios episodios con mÃƒÂ¡s detalles de la actividad. De momento, aquÃƒÂ­ tienes el vÃƒÂ­deo promocional:
+AlbertoEpic acaba de regresar de los Alpes, de su tercer intento a la Chamonix-Zermatt. Nuevamente la meteo no ha acompañado excesivamente, pero eso tampoco ha sido malo del todo: en esta ocasión tenía la suerte de formar equipo con Laura, amiga y futura guía de alta montaña suiza, y por lo tanto experta en las peculiaridades de la meteo en los Alpes. Se hizo lo que se pudo (que fue mucho) y terminó saliendo una Haute Route con variantes inéditas y novedosas.
+La factoría de SQLP está trabajando a toda máquina para ofrecerte esta nueva serie de varios episodios con más detalles de la actividad. De momento, aquí tienes el vídeo promocional:
 
 [youtube id="2Kc7OLAMiLM" width="600" height="350" autoplay="no" api_params="&rel=0"]

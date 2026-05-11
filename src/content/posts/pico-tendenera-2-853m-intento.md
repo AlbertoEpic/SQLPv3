@@ -1,19 +1,19 @@
 ---
-title: "Pico TendeÃƒÂ±era (2.853m) - Intento"
+title: "Pico Tendeñera (2.853m) - Intento"
 pubDate: 2010-05-20T14:59:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:58Z
 draft: false
 author: "AlbertoEpic"
-description: "El otro dÃƒÂ­a se dieron cita tres personajes mÃƒÂ­ticos en Bujaruelo para subir al pico TendeÃƒÂ±era: el dr. LaTrek, el primer ser humano en aunar ciclismo, esquÃƒÂ­ y montaÃƒÂ±a en una sola disciplina; Enrique, el ser humano que desde mÃƒÂ¡s lejos acude as"
+description: "El otro día se dieron cita tres personajes míticos en Bujaruelo para subir al pico Tendeñera: el dr. LaTrek, el primer ser humano en aunar ciclismo, esquí y montaña en una sola disciplina; Enrique, el ser humano que desde más lejos acude as"
 category: "Otros"
 tags:
   - "Uncategorized"
 ---
-El otro dÃƒÂ­a se dieron cita tres personajes mÃƒÂ­ticos en Bujaruelo para subir al pico TendeÃƒÂ±era: el dr. LaTrek, el primer ser humano en aunar ciclismo, esquÃƒÂ­ y montaÃƒÂ±a en una sola disciplina; Enrique, el ser humano que desde mÃƒÂ¡s lejos acude asiduamente a realizar actividad al Pirineo (Desde Calatayud); y AlbertoEpic, de la factorÃƒÂ­a SoloQuedaLoPeor.
+El otro día se dieron cita tres personajes míticos en Bujaruelo para subir al pico Tendeñera: el dr. LaTrek, el primer ser humano en aunar ciclismo, esquí y montaña en una sola disciplina; Enrique, el ser humano que desde más lejos acude asiduamente a realizar actividad al Pirineo (Desde Calatayud); y AlbertoEpic, de la factoría SoloQuedaLoPeor.
 
-Lo avanzado de la hora les hizo retirarse antes de llegar a la cima. Aqui puedes ver el testimonio grÃƒÂ¡fico:
+Lo avanzado de la hora les hizo retirarse antes de llegar a la cima. Aqui puedes ver el testimonio gráfico:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CiF2l72BHkI" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

@@ -6,10 +6,10 @@ heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:29:10Z
 draft: false
 author: "AlbertoEpic"
-description: "A ver, los globeros que quieran aÃƒÂ±adir entradas a este blog, deben entrar con los siguientes datos: Usuario: globerosqlp ContraseÃƒÂ±a: gl0ber0$qlp"
+description: "A ver, los globeros que quieran añadir entradas a este blog, deben entrar con los siguientes datos: Usuario: globerosqlp Contraseña: gl0ber0$qlp"
 category: "Otros"
 tags:
   - "Uncategorized"
 ---
-A ver, los globeros que quieran aÃƒÂ±adir entradas a este blog, deben entrar con los siguientes datos:Usuario: globerosqlpContraseÃƒÂ±a: gl0ber0$qlp
+A ver, los globeros que quieran añadir entradas a este blog, deben entrar con los siguientes datos:Usuario: globerosqlpContraseña: gl0ber0$qlp
 

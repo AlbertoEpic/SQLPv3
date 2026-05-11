@@ -6,18 +6,18 @@ heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2020-03-18T08:38:40Z
 draft: false
 author: "AlbertoEpic"
-description: "Por fin me ha dado tiempo a terminar esto, un pequeÃƒÂ±o experimento, jugando con los 'time lapse'. Dado que la cÃƒÂ¡mara tiene que pegarse mucho rato en el mismo sitio (Aprox. 1h para obtener 5 ÃƒÂ³ 6 segundos de video), la mayorÃƒÂ­a de imÃƒÂ¡genes son "
+description: "Por fin me ha dado tiempo a terminar esto, un pequeño experimento, jugando con los 'time lapse'. Dado que la cámara tiene que pegarse mucho rato en el mismo sitio (Aprox. 1h para obtener 5 ó 6 segundos de video), la mayoría de imágenes son "
 category: "Otros"
 tags:
   - "Uncategorized"
 ---
-Por fin me ha dado tiempo a terminar esto, un pequeÃƒÂ±o experimento, jugando con los 'time lapse'.
+Por fin me ha dado tiempo a terminar esto, un pequeño experimento, jugando con los 'time lapse'.
 
-Dado que la cÃƒÂ¡mara tiene que pegarse mucho rato en el mismo sitio (Aprox. 1h para obtener 5 ÃƒÂ³ 6 segundos de video), la mayorÃƒÂ­a de imÃƒÂ¡genes son desde casa, lo que veo por la ventana, o a pocos minutos de ella.
+Dado que la cámara tiene que pegarse mucho rato en el mismo sitio (Aprox. 1h para obtener 5 ó 6 segundos de video), la mayoría de imágenes son desde casa, lo que veo por la ventana, o a pocos minutos de ella.
 
-La temÃƒÂ¡tica predominante son las nubes y el castillo de MontearagÃƒÂ³n.
+La temática predominante son las nubes y el castillo de Montearagón.
 
-Ã‚Â¿QuiÃƒÂ©n dijo que mirar el cielo era un rollo? Ã‚Â¿EstÃƒÂ¡ todo quieto? Todo depende de los ojos con los que lo miremos...
+Ã‚Â¿Quién dijo que mirar el cielo era un rollo? Ã‚Â¿Está todo quieto? Todo depende de los ojos con los que lo miremos...
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sLrFwOGzx44" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

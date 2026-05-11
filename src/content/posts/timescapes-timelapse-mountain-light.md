@@ -6,12 +6,12 @@ heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:29:01Z
 draft: false
 author: "AlbertoEpic"
-description: "A continuaciÃƒÂ³n, un video de imÃƒÂ¡genes tomadas en las White Mountains y en Yosemite, USA. Una visiÃƒÂ³n muy especial, merece la pena verlo a pantalla completa, y esperando a que el video se cargue completamente en alta definiciÃƒÂ³n (HD). Gracias a"
+description: "A continuación, un video de imágenes tomadas en las White Mountains y en Yosemite, USA. Una visión muy especial, merece la pena verlo a pantalla completa, y esperando a que el video se cargue completamente en alta definición (HD). Gracias a"
 category: "Otros"
 tags:
   - "Uncategorized"
 ---
-A continuaciÃƒÂ³n, un video de imÃƒÂ¡genes tomadas en las White Mountains y en Yosemite, USA. Una visiÃƒÂ³n muy especial, merece la pena verlo a pantalla completa, y esperando a que el video se cargue completamente en alta definiciÃƒÂ³n (HD).Gracias a Pedro por avisarme de su existencia!
+A continuación, un video de imágenes tomadas en las White Mountains y en Yosemite, USA. Una visión muy especial, merece la pena verlo a pantalla completa, y esperando a que el video se cargue completamente en alta definición (HD).Gracias a Pedro por avisarme de su existencia!
 
 
 https://vimeo.com/6686768

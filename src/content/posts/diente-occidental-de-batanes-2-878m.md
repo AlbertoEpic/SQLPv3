@@ -6,18 +6,18 @@ heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:37Z
 draft: false
 author: "AlbertoEpic"
-description: "El pasado domingo, contra todo pronÃƒÂ³stico, en Producciones SoloQuedaLoPeor pudimos filmar la ascensiÃƒÂ³n al Diente de Batanes Occidental. La idea era subir un rato, en espera de que las tormentas anunciadas a medio dÃƒÂ­a nos echaran para atrÃƒÂ¡s."
-category: "EsquÃƒÂ­ de travesÃƒÂ­a"
+description: "El pasado domingo, contra todo pronóstico, en Producciones SoloQuedaLoPeor pudimos filmar la ascensión al Diente de Batanes Occidental. La idea era subir un rato, en espera de que las tormentas anunciadas a medio día nos echaran para atrás."
+category: "Esquí de travesía"
 tags:
   - "balneario de panticosa"
   - "dientes de batanes"
-  - "EsquÃƒÂ­ de travesÃƒÂ­a"
+  - "Esquí de travesía"
   - "panticosa"
   - "Valle de Tena"
 ---
-El pasado domingo, contra todo pronÃƒÂ³stico, en Producciones SoloQuedaLoPeor pudimos filmar la ascensiÃƒÂ³n al Diente de Batanes Occidental. La idea era subir un rato, en espera de que las tormentas anunciadas a medio dÃƒÂ­a nos echaran para atrÃƒÂ¡s.
+El pasado domingo, contra todo pronóstico, en Producciones SoloQuedaLoPeor pudimos filmar la ascensión al Diente de Batanes Occidental. La idea era subir un rato, en espera de que las tormentas anunciadas a medio día nos echaran para atrás.
 
-Pero por esta vez los modelos meteorolÃƒÂ³gicos fallaron y la tormenta se quedÃƒÂ³ un poquito mÃƒÂ¡s al sur, permitiÃƒÂ©ndonos disfrutar de la cima y la nieve fresca de la noche anterior. Por fortuna, la meteorologÃƒÂ­a no es una ciencia exacta: siempre hay que salir al monte! si dan bueno, porque dan bueno; y si dan malo, porque igual se equivocan. Para darse la vuelta siempre hay tiempo! :-)
+Pero por esta vez los modelos meteorológicos fallaron y la tormenta se quedó un poquito más al sur, permitiéndonos disfrutar de la cima y la nieve fresca de la noche anterior. Por fortuna, la meteorología no es una ciencia exacta: siempre hay que salir al monte! si dan bueno, porque dan bueno; y si dan malo, porque igual se equivocan. Para darse la vuelta siempre hay tiempo! :-)
 
 Os dejamos con el video...
 

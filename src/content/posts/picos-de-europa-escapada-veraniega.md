@@ -15,11 +15,11 @@ tags:
 
 A final de agosto, Cheles y AlbertoEpic arreglan sus agendas para coincidir una semana y, tras valorar varias opciones, finalmente deciden hacer una escapada a Picos de Europa.
 
-Cheles lleva una sobrecarga de trabajo brutal, y Albertoepic un reposo tambiÃƒÂ©n brutal (4 meses de inactividad absoluta por problemas con la ciÃƒÂ¡tica), por lo que deciden ir en plan totalmente 'turista'. Eso no quita para que entre turisteo y turisteo se dieran algunos garbeos por el monte.
+Cheles lleva una sobrecarga de trabajo brutal, y Albertoepic un reposo también brutal (4 meses de inactividad absoluta por problemas con la ciática), por lo que deciden ir en plan totalmente 'turista'. Eso no quita para que entre turisteo y turisteo se dieran algunos garbeos por el monte.
 
 Sirva este post simplemente para 'hilvanar' esta escapada a Picos de Europa:
 
-Empezaron la visita por el norte, por Llanes, con visita a Oviedo. La idea de la Garganta del Cares fue deshechada por masificaciÃƒÂ³n.
+Empezaron la visita por el norte, por Llanes, con visita a Oviedo. La idea de la Garganta del Cares fue deshechada por masificación.
 
 ![](https://i.imgur.com/eTzwT1p.jpg)
 Oviedo: izquierda, la catedral; derecha, la Universidad.
@@ -27,16 +27,16 @@ Oviedo: izquierda, la catedral; derecha, la Universidad.
 
 ![](https://i.imgur.com/ov53Svf.jpg)
 La catedral de Burgos.
-Ya es conocido, pero no por ello deja de ser reseÃƒÂ±able, lo bien que se come en toda esa zona. Fue una semana de contÃƒÂ­nua orgÃƒÂ­a gastronÃƒÂ³mica!
+Ya es conocido, pero no por ello deja de ser reseñable, lo bien que se come en toda esa zona. Fue una semana de contínua orgía gastronómica!
 
 ![](https://i.imgur.com/XgevzNl.jpg)
 Calidad y cantidad...
-A continuaciÃƒÂ³n recogemos las actividades reseÃƒÂ±adas aparte en SQLP, con informaciÃƒÂ³n ampliada...
+A continuación recogemos las actividades reseñadas aparte en SQLP, con información ampliada...
 
  	- [Desfiladero de Las Xanas (PR AS-187)](desfiladero-de-las-xanas-pr-as-187/)
 
  	- [Pico Tesorero (2.570m)](pico-tesorero-2-570m/)
 
- 	- [Ferrata de ValdeÃƒÂ³n](ferrata-de-valdeon/)
+ 	- [Ferrata de Valdeón](ferrata-de-valdeon/)
 
 

@@ -1,5 +1,5 @@
 ---
-title: "ÃƒÂ­Feliz Navidad!"
+title: "íFeliz Navidad!"
 pubDate: 2011-12-23T15:17:00Z
 
 heroImage: attachments/SQLPcomodin.jpg

@@ -1,22 +1,22 @@
 ---
-title: "Skimo: peÃƒÂ±a Robla (1.804m)"
+title: "Skimo: peña Robla (1.804m)"
 heroImage: "https://i.imgur.com/rEMyUBx.jpg"
 pubDate: 2019-01-27T12:56:54Z
 updatedDate: 2019-01-27T12:57:31Z
 draft: false
 author: "AlbertoEpic"
-description: "El otro dÃƒÂ­a AlbertoEpic se escapÃƒÂ³ un rato a Panticosa para aprovechar la nieve caÃƒÂ­da por fin en el Pirineo... Para ir rodÃƒÂ¡ndose de cara a rutas mÃƒÂ¡s serias, una buena opciÃƒÂ³n es la ascensiÃƒÂ³n a PeÃƒÂ±a Robla (Yandel), perfecta para un dÃƒÂ­a de fuer"
-category: "EsquÃƒÂ­ de travesÃƒÂ­a"
+description: "El otro día AlbertoEpic se escapó un rato a Panticosa para aprovechar la nieve caída por fin en el Pirineo... Para ir rodándose de cara a rutas más serias, una buena opción es la ascensión a Peña Robla (Yandel), perfecta para un día de fuer"
+category: "Esquí de travesía"
 tags:
-  - "EsquÃƒÂ­ de travesÃƒÂ­a"
+  - "Esquí de travesía"
 ---
-El otro dÃƒÂ­a AlbertoEpic se escapÃƒÂ³ un rato a Panticosa para aprovechar la nieve caÃƒÂ­da por fin en el Pirineo...
+El otro día AlbertoEpic se escapó un rato a Panticosa para aprovechar la nieve caída por fin en el Pirineo...
 
-Para ir rodÃƒÂ¡ndose de cara a rutas mÃƒÂ¡s serias, una buena opciÃƒÂ³n es la ascensiÃƒÂ³n a PeÃƒÂ±a Robla (Yandel), perfecta para un dÃƒÂ­a de fuertes vientos y elevado riesgo de aludes. A continuaciÃƒÂ³n puedes ver la ruta seguida en una animaciÃƒÂ³n 3D:
+Para ir rodándose de cara a rutas más serias, una buena opción es la ascensión a Peña Robla (Yandel), perfecta para un día de fuertes vientos y elevado riesgo de aludes. A continuación puedes ver la ruta seguida en una animación 3D:
 
 https://video.relive.cc/6193120012_strava_1548348894549.mp4
 
-Esta corta ascensiÃƒÂ³n, que en condiciones normales es un paseo, resulta diferente abriendo huella en 50cm de nieve reciÃƒÂ©n caÃƒÂ­da.
+Esta corta ascensión, que en condiciones normales es un paseo, resulta diferente abriendo huella en 50cm de nieve recién caída.
 ![Imagen](https://i.imgur.com/rEMyUBx.jpg)
-PeÃƒÂ±a Telera, vista desde la cima de peÃƒÂ±a Robla.
+Peña Telera, vista desde la cima de peña Robla.
 

@@ -6,15 +6,15 @@ heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:37Z
 draft: false
 author: "AlbertoEpic"
-description: "Es sÃƒÂ¡bado, y subimos a foquear por lo blanco, que esta temporada abunda bastante... Pero el fuerte viento, que esta temporada tambiÃƒÂ©n abunda, nos hace recurrir al comodÃƒÂ­n de Panticosa. Incluso allÃƒÂ­ el huracÃƒÂ¡n es de escÃƒÂ¡ndalo. Los de AramÃƒÂ³n "
-category: "EsquÃƒÂ­ de travesÃƒÂ­a"
+description: "Es sábado, y subimos a foquear por lo blanco, que esta temporada abunda bastante... Pero el fuerte viento, que esta temporada también abunda, nos hace recurrir al comodín de Panticosa. Incluso allí el huracán es de escándalo. Los de Aramón "
+category: "Esquí de travesía"
 tags:
-  - "EsquÃƒÂ­ de travesÃƒÂ­a"
+  - "Esquí de travesía"
   - "Valle de Tena"
 ---
-Es sÃƒÂ¡bado, y subimos a foquear por lo blanco, que esta temporada abunda bastante... Pero el fuerte viento, que esta temporada tambiÃƒÂ©n abunda, nos hace recurrir al comodÃƒÂ­n de Panticosa. Incluso allÃƒÂ­ el huracÃƒÂ¡n es de escÃƒÂ¡ndalo.
+Es sábado, y subimos a foquear por lo blanco, que esta temporada abunda bastante... Pero el fuerte viento, que esta temporada también abunda, nos hace recurrir al comodín de Panticosa. Incluso allí el huracán es de escándalo.
 
-Los de AramÃƒÂ³n deciden cerrar por viento, eso sÃƒÂ­, despuÃƒÂ©s de que hubieran 'pasado por caja' todos los esquiadores. Toda la estaciÃƒÂ³n queda a merced de una serie de almas penitentes que luchan contra la ventisca...
+Los de Aramón deciden cerrar por viento, eso sí, después de que hubieran 'pasado por caja' todos los esquiadores. Toda la estación queda a merced de una serie de almas penitentes que luchan contra la ventisca...
 
 <iframe allowfullscreen="" frameborder="0" height="404" src="https://www.youtube.com/embed/ulhYxyZjTws" width="657"></iframe>
 

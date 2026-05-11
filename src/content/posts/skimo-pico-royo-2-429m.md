@@ -6,14 +6,14 @@ heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2020-03-02T10:45:09Z
 draft: false
 author: "AlbertoEpic"
-description: "El pasado 28 de febrero, y despuÃƒÂ©s de unos dÃƒÂ­as mÃƒÂ¡s centrado en la btt, nuestro especialista AlbertoEpic decidiÃƒÂ³ retomar el esquÃƒÂ­ de travesÃƒÂ­a... Pero todo tenÃƒÂ­a truco: lo que en realidad mÃƒÂ¡s le apetecÃƒÂ­a era seguir jugando con el drone! Y qu"
-category: "EsquÃƒÂ­ de travesÃƒÂ­a"
+description: "El pasado 28 de febrero, y después de unos días más centrado en la btt, nuestro especialista AlbertoEpic decidió retomar el esquí de travesía... Pero todo tenía truco: lo que en realidad más le apetecía era seguir jugando con el drone! Y qu"
+category: "Esquí de travesía"
 tags:
-  - "EsquÃƒÂ­ de travesÃƒÂ­a"
+  - "Esquí de travesía"
   - "formigal"
   - "Valle de Tena"
 ---
-El pasado 28 de febrero, y despuÃƒÂ©s de unos dÃƒÂ­as mÃƒÂ¡s centrado en la btt, nuestro especialista AlbertoEpic decidiÃƒÂ³ retomar el esquÃƒÂ­ de travesÃƒÂ­a... Pero todo tenÃƒÂ­a truco: lo que en realidad mÃƒÂ¡s le apetecÃƒÂ­a era seguir jugando con el drone!
+El pasado 28 de febrero, y después de unos días más centrado en la btt, nuestro especialista AlbertoEpic decidió retomar el esquí de travesía... Pero todo tenía truco: lo que en realidad más le apetecía era seguir jugando con el drone!
 
-Y quÃƒÂ© mejor que contar con dos modelos insuperables para sus imÃƒÂ¡genes en altura: Curro y Almu, en su papel de guÃƒÂ­a y clienta, iniciando el descenso desde la cima del pico Royo, en las inmediaciones de Formigal:Ã‚Â Ã‚Â https://youtu.be/54K3Oz5DAZ8El pico Royo es un gran mirador de toda la zona de Formigal, con buen acceso desde el parking de Anayet. Hemos aÃƒÂ±adido el track a nuestra base de datos:<iframe src="https://www.alltrails.com/widget/map/mapa-fcde149?hideName=true&u=m" width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="AllTrails: Trail Guides and Maps for Hiking, Camping, and Running"></iframe>
+Y qué mejor que contar con dos modelos insuperables para sus imágenes en altura: Curro y Almu, en su papel de guía y clienta, iniciando el descenso desde la cima del pico Royo, en las inmediaciones de Formigal:Ã‚Â Ã‚Â https://youtu.be/54K3Oz5DAZ8El pico Royo es un gran mirador de toda la zona de Formigal, con buen acceso desde el parking de Anayet. Hemos añadido el track a nuestra base de datos:<iframe src="https://www.alltrails.com/widget/map/mapa-fcde149?hideName=true&u=m" width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="AllTrails: Trail Guides and Maps for Hiking, Camping, and Running"></iframe>
 

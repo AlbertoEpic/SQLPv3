@@ -6,12 +6,12 @@ heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:29:03Z
 draft: false
 author: "AlbertoEpic"
-description: "Hace un par de fines de semana varios globeros se desplazaron a Fanlo, a descender el barranco de Las Gloces. Era el estreno de la nueva cÃƒÂ¡mara 'guater resist' de soloquedalopeor. TodavÃƒÂ­a me estoy poniendo las pilas en el tema del video HD,"
+description: "Hace un par de fines de semana varios globeros se desplazaron a Fanlo, a descender el barranco de Las Gloces. Era el estreno de la nueva cámara 'guater resist' de soloquedalopeor. Todavía me estoy poniendo las pilas en el tema del video HD,"
 category: "Otros"
 tags:
   - "Uncategorized"
 ---
-Hace un par de fines de semana varios globeros se desplazaron a Fanlo, a descender el barranco de Las Gloces. Era el estreno de la nueva cÃƒÂ¡mara 'guater resist' de soloquedalopeor. TodavÃƒÂ­a me estoy poniendo las pilas en el tema del video HD, asÃƒÂ­ que la calidad del documento deja bastante que desear, pero bueno, la cosa irÃƒÂ¡ mejorando...
+Hace un par de fines de semana varios globeros se desplazaron a Fanlo, a descender el barranco de Las Gloces. Era el estreno de la nueva cámara 'guater resist' de soloquedalopeor. Todavía me estoy poniendo las pilas en el tema del video HD, así que la calidad del documento deja bastante que desear, pero bueno, la cosa irá mejorando...
 
 https://blip.tv/play/AYGV4gcC
 

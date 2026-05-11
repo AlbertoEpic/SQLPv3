@@ -1,17 +1,17 @@
 ---
-title: "II Raid de Aventura PeÃƒÂ±a Guara"
+title: "II Raid de Aventura Peña Guara"
 pubDate: 2010-06-01T13:51:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:58Z
 draft: false
 author: "AlbertoEpic"
-description: "En producciones SoloQuedaLoPeor estamos trabajando a toda mÃƒÂ¡quina para tener listo el video-reportaje del raid de aventura que organizÃƒÂ³ PeÃƒÂ±a Guara el pasado finde, 29-30 de mayo. Para los ansiosos, aqui va un pequeÃƒÂ±o aperitivo..."
+description: "En producciones SoloQuedaLoPeor estamos trabajando a toda máquina para tener listo el video-reportaje del raid de aventura que organizó Peña Guara el pasado finde, 29-30 de mayo. Para los ansiosos, aqui va un pequeño aperitivo..."
 category: "Otros"
 tags:
   - "Uncategorized"
 ---
-En producciones SoloQuedaLoPeor estamos trabajando a toda mÃƒÂ¡quina para tener listo el video-reportaje del raid de aventura que organizÃƒÂ³ PeÃƒÂ±a Guara el pasado finde, 29-30 de mayo. Para los ansiosos, aqui va un pequeÃƒÂ±o aperitivo...
+En producciones SoloQuedaLoPeor estamos trabajando a toda máquina para tener listo el video-reportaje del raid de aventura que organizó Peña Guara el pasado finde, 29-30 de mayo. Para los ansiosos, aqui va un pequeño aperitivo...
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qoD3iV7CpUI" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
