@@ -3,7 +3,7 @@ title: Este es el título guay
 date: 2026-05-11
 description: ""
 tags: []
-heroImage: "[[attachments/este-es-el-ttulo-guay-test-image.png]]"
+heroImage: "[[attachments/suboda-globeros.jpg]]"
 imageAlt: ""
 imageOG: false
 hideCoverImage: false
