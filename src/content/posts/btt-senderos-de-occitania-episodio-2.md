@@ -1,10 +1,10 @@
-﻿---
+---
 title: "BTT - Senderos de Occitania - episodio 2"
 pubDate: 2011-07-11T08:52:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:47Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El segundo dÃƒÂ­a amaneciÃƒÂ³ regulero, amenazaba lluvia, pero por suerte no le hicimos caso y salimos a pedalear. Pasaron las horas y se despejÃƒÂ³, quedando una maÃƒÂ±ana radiante. La jornada nos sirviÃƒÂ³ para recordar que el mundo no es perfecto, que "
 category: "Otros"

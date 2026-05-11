@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Furgoviaje a Dolomitas..."
 heroImage: "https://i.imgur.com/rW6vvMv.jpg"
 pubDate: 2016-10-04T08:56:13Z
 updatedDate: 2016-10-04T08:56:13Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Este verano, el equipo SQLP desechÃƒÂ¯Ã‚Â¿Ã‚Â½ la idea inicial de recorrer en valle del Loira en bici (La mitad que les faltaba, ya hicieron el verano anterior su primera incursiÃƒÂ¯Ã‚Â¿Ã‚Â½n en tierras galas: La Loire ÃƒÂ¯Ã‚Â¿Ã‚Â½ velÃƒÂ¯Ã‚Â¿Ã‚Â½ ), debido al esguince de tobillo de "
 category: "Viajes"

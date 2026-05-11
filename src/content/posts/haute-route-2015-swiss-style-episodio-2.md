@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Haute Route 2015 'Swiss Style' - episodio 2"
 pubDate: 2015-04-20T08:51:34Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-20T09:14:11Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Dormimos en el refugio Cabane du Trient (3.170m). Al dÃƒÂ­a siguiente, en teorÃƒÂ­a vamos a disfrutar de la mejor meteo de toda la semana, asÃƒÂ­ que 'olvidamos' hacer la rutinaria etapa de la Chamonix-Zermatt y nos vamos a por una bonita cima, la A"
 category: "EsquÃƒÂ­ de travesÃƒÂ­a"

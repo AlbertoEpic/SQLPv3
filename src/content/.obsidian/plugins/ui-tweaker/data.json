@@ -238,6 +238,13 @@
       "ariaLabel": "Expandir todo",
       "type": "external",
       "hidden": false
+    },
+    {
+      "id": "external-colapsar-todo",
+      "name": "Colapsar todo",
+      "ariaLabel": "Colapsar todo",
+      "type": "external",
+      "hidden": false
     }
   ],
   "nativeExplorerButtonColors": {},

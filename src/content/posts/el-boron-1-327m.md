@@ -1,9 +1,9 @@
-﻿---
+---
 title: "El BorÃƒÂ³n (1.327m)"
 heroImage: "https://i.imgur.com/vUAK2Qj.jpg"
 pubDate: 2018-12-05T17:32:47Z
 updatedDate: 2018-12-05T17:32:47Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "En este impÃƒÂ¡s mientras esperamos que las condiciones en el Pirineo sean buenas para el esquÃƒÂ­ de travesÃƒÂ­a, y en esos dÃƒÂ­as de meteo incierta en alta montaÃƒÂ±a, siempre es una buena oportunidad para caminar por la sierra. En este caso, Cheles y "
 category: "Ascensiones"

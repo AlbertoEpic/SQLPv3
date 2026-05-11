@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Nunc Tincidunt Elit Cursus"
 pubDate: 2012-07-31T17:22:22Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2012-07-31T17:22:22Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Quisque ligula ipsum, euismod a vulputate a, ultricies et elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla nunc dui, tristique in semper vel, congue sed ligula. Nam dolor ligula, faucib"
 tags:

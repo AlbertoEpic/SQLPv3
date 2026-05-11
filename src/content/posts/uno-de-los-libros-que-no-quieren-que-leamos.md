@@ -1,16 +1,16 @@
-﻿---
+---
 title: "Uno de los libros que no quieren que leamos."
-heroImage: "/attachments/hay-alternativas-portada-250x374-201x300.webp"
+heroImage: "attachments/hay-alternativas-portada-250x374-201x300.webp"
 pubDate: 2012-03-08T10:03:00Z
 updatedDate: 2015-04-06T10:28:41Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Haciendo un pequeño paréntesis en la temática de este blog, vamos a darle difusiÃ³n a esto. Se trata de un libro gratuito que te puedes descargar haciendo click aqui . Una lectura indispensable, totalmente recomendable. A continuaciÃ³n te peg"
 category: "Otros"
 tags:
   - "Uncategorized"
 ---
-[![](/attachments/hay-alternativas-portada-250x374.webp)Haciendo un pequeño paréntesis en la temática de este blog, vamos a darle difusiÃ³n a esto. Se trata de un libro gratuito que te puedes descargar [haciendo click aqui](http://www.sequitur.es/wp-content/uploads/2011/10/hay_alternativas.pdf). Una lectura indispensable, totalmente recomendable. A continuaciÃ³n te pego un texto donde verás de qué va el asunto.Hace un par de meses, la Editorial Aguilar, mostrÃ³ su interés por  publicar nuestro libro HAY ALTERNATIVAS. Propuestas para crear empleo y bienestar en España, que nos prologÃ³ Noam Chomsky. 
+[![](attachments/hay-alternativas-portada-250x374.webp)Haciendo un pequeño paréntesis en la temática de este blog, vamos a darle difusiÃ³n a esto. Se trata de un libro gratuito que te puedes descargar [haciendo click aqui](http://www.sequitur.es/wp-content/uploads/2011/10/hay_alternativas.pdf). Una lectura indispensable, totalmente recomendable. A continuaciÃ³n te pego un texto donde verás de qué va el asunto.Hace un par de meses, la Editorial Aguilar, mostrÃ³ su interés por  publicar nuestro libro HAY ALTERNATIVAS. Propuestas para crear empleo y bienestar en España, que nos prologÃ³ Noam Chomsky. 
 
 Cuando ya se habÃ­a concretado como fecha de publicaciÃ³n el libro el 19  de octubre y se  habÃ­a comenzado su promociÃ³n en la web de Aguilar y en librerÃ­as, los editores nos  comunicaron que la empresa deseaba retrasarla sin otra explicaciÃ³n de por medio, lo que  nos obligÃ³ lamentablemente a desestimar su publicaciÃ³n en esa editorial. Se confirmaba  asÃ­ lo difÃ­cil que resulta difundir en España, en los  momentos en que son más necesarias  que nunca -como ahora en periodo pre-electoral-, ideas alternativas al pensamiento único  que predomina en el debate polÃ­tico y social. 
 

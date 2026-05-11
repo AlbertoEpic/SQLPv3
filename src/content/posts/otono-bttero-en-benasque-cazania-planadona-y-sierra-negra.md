@@ -1,9 +1,9 @@
-﻿---
+---
 title: "OtoÃƒÂ±o bttero en Benasque: CazanÃƒÂ­a, Planadona y Sierra Negra"
 heroImage: "https://i.imgur.com/NirF6tW.png"
 pubDate: 2016-11-02T11:11:55Z
 updatedDate: 2016-11-02T11:16:06Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Estos dÃƒÂ­as pasados el equipo SQLP estuvo disfrutando del otoÃƒÂ±o anticiclÃƒÂ³nico en Benasque. Aparte de otras actividades, reseÃƒÂ±amos aquÃƒÂ­ las principales actividades btteras realizadas: Marga y AlbertoEpic estuvieron conociendo la ruta de 'La C"
 category: "Bicicleta de montaÃƒÂ±a"

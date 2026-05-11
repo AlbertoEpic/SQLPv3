@@ -1,10 +1,10 @@
-﻿---
+---
 title: "XXXI TravesÃƒÂ­a Altos Pirineos"
 pubDate: 2009-04-06T14:34:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:29:05Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Este fin de semana una buena panda de PeÃƒÂ±a Guara estuvimos en el refugio de Ronatiza (Pineta) organizando la Altos Pirineos de este aÃƒÂ±o. Aqui puedes ver el mapa con el recorrido (Finalmente, como el Chinipro tenÃƒÂ­a poca nieve, se subiÃƒÂ³ a Pun"
 category: "Otros"

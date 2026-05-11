@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Cicloalpinismo: Tozal de Las Comas (2.342m)"
 heroImage: "https://i.imgur.com/FzNA7BR.jpg"
 pubDate: 2020-06-29T15:24:18Z
 updatedDate: 2020-06-29T16:15:08Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Una semana más, Myriam y AlbertoEpic siguen a lo suyo y realizan otra actividad consistente en ascensiÃ³n a cima desde la carretera apurando al máximo la aproximaciÃ³n en BTT. En este caso, el pico elegido fue el Tozal de las Comas. Ascendier"
 category: "Bicicleta de montaña"
@@ -24,7 +24,7 @@ Nuestros dos especialistas van mejorando en su faceta como reporteros gráficos.
 [https://pano360.soloquedalopeor.com/panorama/tozal-de-las-comas-2-342m/](https://pano360.soloquedalopeor.com/panorama/tozal-de-las-comas-2-342m/)Tozal de Las Comas
 
 Te recordamos que puedes ver esta y muchas más en nuestro portal especÃ­fico de fotos esféricas:
-[![](/attachments/logo_Pano360_600x150-300x80.webp)](https://pano360.soloquedalopeor.com)pano360.soloquedalopeor.com
+[![](attachments/logo_Pano360_600x150-300x80.webp)](https://pano360.soloquedalopeor.com)pano360.soloquedalopeor.com
 
 Y para terminar, te dejamos con unas pocas imágenes de la actividad.
 

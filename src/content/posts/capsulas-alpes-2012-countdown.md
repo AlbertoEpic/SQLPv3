@@ -1,16 +1,16 @@
-﻿---
+---
 title: "Cápsulas Alpes 2012: \"CountDown\""
-heroImage: "/attachments/borrame.webp"
+heroImage: "attachments/borrame.webp"
 pubDate: 2012-04-30T08:19:00Z
 updatedDate: 2015-04-06T10:28:40Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Estrenamos nuevo formato de video-reportajes: no vamos a relatar cronolÃ³gicamente y por episodios la estancia de Semana Santa en los Alpes. En su lugar, en este caso vamos a ofrecer 'cápsulas': cortos que describan sensaciones, momentos, re"
 category: "EsquÃ­ de travesÃ­a"
 tags:
   - "Uncategorized"
 ---
-[![](/attachments/borrame.webp)Estrenamos nuevo formato de video-reportajes: no vamos a relatar cronolÃ³gicamente y por episodios la estancia de Semana Santa en los Alpes. En su lugar, en este caso vamos a ofrecer 'cápsulas': cortos que describan sensaciones, momentos, recuerdos especiales,... que han tenido lugar en este viaje a los Alpes.
+[![](attachments/borrame.webp)Estrenamos nuevo formato de video-reportajes: no vamos a relatar cronolÃ³gicamente y por episodios la estancia de Semana Santa en los Alpes. En su lugar, en este caso vamos a ofrecer 'cápsulas': cortos que describan sensaciones, momentos, recuerdos especiales,... que han tenido lugar en este viaje a los Alpes.
 
 Empezamos con 'CountDown': nada más llegar a Chamonix, se nos ocurriÃ³ subir en el dÃ­a al MontBlanc du Tacul (4.248m) -Por supuesto, sin subir en el primer teleférico de la Aiguille du Midi, que nos habrÃ­a sobrado tiempo- . Cansados del viaje, sin aclimatar, resoplando como besugos fuera del agua... La experiencia resultÃ³ ser una 'Cuenta Atrás' para no perder el último teleférico de bajada a Chamonix (Lo logramos, nos sobraron 2 minutos).
 

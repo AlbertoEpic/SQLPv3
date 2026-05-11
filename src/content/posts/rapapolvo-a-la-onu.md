@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Rapapolvo a la ONU..."
 pubDate: 2009-02-15T18:06:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:29:05Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Este es el discurso de una niÃƒÂ±a en la cumbre de la Tierra del 92, todo un rapapolvo a la ONU..."
 category: "Otros"

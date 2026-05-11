@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Pico de San Salvador (1.547m)"
 heroImage: "https://i.imgur.com/ioCSGJV.jpg"
 pubDate: 2021-02-15T10:34:45Z
 updatedDate: 2021-02-15T11:21:58Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Una cÃƒÂ³moda y panorÃƒÂ¡mica excursiÃƒÂ³n infantil... Lo de hacer excursiones con los peques cuando el Pirineo estÃƒÂ¡ a tope de nieve se complica un poco, y debemos mirar algo mÃƒÂ¡s al sur de los Pirineos. Un punto de partida ideal es el monasterio nue"
 category: "SQLP-kids"

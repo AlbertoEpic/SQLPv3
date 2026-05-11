@@ -1,9 +1,9 @@
-﻿---
+---
 title: "BTT enduro/cicloalpinismo: pico TarmaÃƒÂ±ones"
 heroImage: "https://i.imgur.com/a3jDX7f.jpg"
 pubDate: 2020-02-26T20:06:34Z
 updatedDate: 2020-02-26T20:14:37Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "La semana pasada, y dada la meteorologÃƒÂ­a primaveral, AlbertoEpic decidiÃƒÂ³ olvidarse del skimo y retomar las rutas pirenaicas de BTT. QuerÃƒÂ­a ademÃƒÂ¡s aÃƒÂ±adir otra foto esfÃƒÂ©rica a su colecciÃƒÂ³n, y de allÃƒÂ­ naciÃƒÂ³ la idea de esta actividad: Se basa e"
 category: "Bicicleta de montaÃƒÂ±a"

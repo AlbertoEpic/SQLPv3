@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Uttarakhand 2011: episodio 3"
 pubDate: 2011-11-23T07:20:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2018-11-02T18:08:11Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "En los siguientes 3 dÃƒÂ­as de viaje nos toca caminar. Dejamos las bicis en Gangotri, y subimos a dormir a Bhojbasa, a pasar dos dÃƒÂ­as en el 'Lal Baba Ashram', una especie de albergue para peregrinos donde duermes y comes en el suelo, y sÃƒÂ³lo ha"
 category: "Viajes"

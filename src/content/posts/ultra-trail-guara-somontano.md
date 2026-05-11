@@ -1,16 +1,16 @@
-﻿---
+---
 title: "Ultra Trail Guara Somontano"
-heroImage: "/attachments/javichus-300x225.webp"
+heroImage: "attachments/javichus-300x225.webp"
 pubDate: 2010-10-04T19:45:00Z
 updatedDate: 2015-04-06T10:28:56Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Pego a continuaciÃ³n un correo del globero Chus, referente a la brutalidad que han realizado varios globeros este pasado sábado: Hola Este fin de semana un nutrido grupo de globeros afrontÃ³ un gran reto: el Ultra Trail Guara Somontano. Nada "
 category: "Otros"
 tags:
   - "ultra trail somontano"
 ---
-[![](/attachments/javichus.webp)[![](/attachments/carlos.webp)[![](/attachments/0marga.webp)[![](/attachments/0natachus.webp)[![](/attachments/0jr.webp)
+[![](attachments/javichus.webp)[![](attachments/carlos.webp)[![](attachments/0marga.webp)[![](attachments/0natachus.webp)[![](attachments/0jr.webp)
 
 
 
@@ -48,5 +48,5 @@ ChusSin duda con cosas asÃ­ uno se siente orgulloso de pertenecer al clan de l
 
 A destacar el 6 puesto del doctor LaTrek, un globero consagrado del ultrafondo en raids y btt, ahora también en las carreras a pie.
 
-[![](/attachments/0monrasin.webp)Gracias a Monrasin: corredor, fotÃ³grafo, cronista, bloguero,...
+[![](attachments/0monrasin.webp)Gracias a Monrasin: corredor, fotÃ³grafo, cronista, bloguero,...
 

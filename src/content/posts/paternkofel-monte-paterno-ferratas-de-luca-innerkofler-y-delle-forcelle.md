@@ -1,9 +1,9 @@
-﻿---
+
 title: "Paternkofel / Monte Paterno, ferratas De Luca-Innerkofler y delle Forcelle"
-heroImage: "/attachments/paterno1-677x1024.webp"
+heroImage: "attachments/paterno1-677x1024.webp"
 pubDate: 2016-09-09T08:25:18Z
 updatedDate: 2016-09-09T08:25:18Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Ferrateando el Monte Paterno (2.746m) y vuelta a las Tres Cimas de Lavaredo Los dÃ­as en los Alpes se acaban para el equipo SQLP, y las actividades se comprimen para exprimir al máximo las últimas horas... Sami, Tai, Luzia y AlbertoEpic se p"
 category: "Escalada"
@@ -22,7 +22,7 @@ Me preparo rápidamente, mochila con material de ferrata, plano, gps, frontal, a
 
 Salgo corriendo del Rifugio Auronzo, paso por el Lavaredo HaÂ¼tte, y entro a la ferrata por el extremo sur (Al revés que la mayorÃ­a de gente). Hasta aquÃ­, corriendo, ha sido fácil mejorar el horario previsto. Veremos en la ferrata. Arnés, set de ferratas, casco, un trago de agua y adelante... Ups! No, espera, que esto empieza por unos túneles, hay que sacar el frontal.
 
-![](/attachments/paterno1-677x1024.webp) AlbertoEpic en la cima del Monte Paterno, con las Tre Cime di Lavaredo al fondo.
+![](attachments/paterno1-677x1024.webp) AlbertoEpic en la cima del Monte Paterno, con las Tre Cime di Lavaredo al fondo.
 
 Hasta la cima del Paternkofel, todo marcha mejor de lo previsto: buena meteo, impresionantes paisajes, brutales vistas sobre las Tres Cimas de Lavaredo,... Llego arriba con 1h 30min de ventaja sobre el horario previsto, lo que me da mucha tranquilidad. Puedo llegar a la furgo todavÃ­a con sol!
 A continuaciÃ³n puedes ver una panorámica de la cima.
@@ -33,7 +33,7 @@ Pero uno no puede dormirse en los laureles: mientras estoy flipando con los brut
 
 Para cuando llego a laÂ Forcella Camosci, soy una duda con patas: unas tablillas indican las direcciones, pero no me aclaro mucho porque los nombres a veces están en italiano y a veces en alemán (Buscaba 'RifugioÂ Locatelli' pero en la tablilla era 'DreizinnenhaÂ¼tte'). Con un buen dÃ­a, desde aquÃ­ arriba la perspectiva es clara y no habrÃ­a habido duda. Pero en esos momentos, hacia ese lado la niebla era espesa, y sÃ³lo se veÃ­a una canal vertical, sucia y descompuesta que se perdÃ­a en la oscuridad. En cambio, hacia la otra vertiente está despejado y el camino me permite progresar rápido... Tengo dos opciones: boca del lobo / bucÃ³lico paseo. AsÃ­ que tomo la decisiÃ³n de bajar por la ferrata Sentiero delle Forcelle.
 
-![](/attachments/paterno3.webp) Inicio del Sentiero delle Forcelle.
+![](attachments/paterno3.webp) Inicio del Sentiero delle Forcelle.
 
 Esta ferrata se dirige al Este, la vertiente más despejada pues las nubes vienen del oeste. Resulta algo más compleja que la anterior, va recorriendo varios nidos de ametralladoras de la 1 Guerra Mundial, y lo más importante, me deja de nuevo en tierra firme, muy lejos de donde me gustarÃ­a, pero en el 'sendero 101', la autopista que sÃ³lo tengo que seguir hasta la furgoneta! :-)
 

@@ -1,9 +1,9 @@
-﻿---
+---
 title: "BTT+Pateo: pico PorrÃ³n Sunset"
-heroImage: "/attachments/DJI_0087-Mejorado-NR-1024x768.webp"
+heroImage: "attachments/DJI_0087-Mejorado-NR-1024x768.webp"
 pubDate: 2025-07-31T09:31:30Z
 updatedDate: 2025-07-31T09:32:02Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Puesta de sol desde esta magnÃ­fica atalaya... El pasado 9 de julio, los especialistas de SQLP Myriam&AlbertoEpic buscaban un lugar elevado desde donde disfrutar de una mÃ­tica puesta de sol. Barajadas posibles opciones, y siendo la condiciÃ³n"
 category: "Ascensiones"
@@ -31,15 +31,15 @@ En esa subida, a velocidad más lenta, se veÃ­an observados por multitud de oj
 
 Un par de fotos a continuaciÃ³n:
 
-![Recién llegados a la cima del PorrÃ³n, con 1h por delante para ir viendo cÃ³mo el sol se ocultaba tras las montañas...](/attachments/DJI_0087-Mejorado-NR-1024x768.webp)
+![Recién llegados a la cima del PorrÃ³n, con 1h por delante para ir viendo cÃ³mo el sol se ocultaba tras las montañas...](attachments/DJI_0087-Mejorado-NR-1024x768.webp)
 
 *Recién llegados a la cima del PorrÃ³n, con 1h por delante para ir viendo cÃ³mo el sol se ocultaba tras las montañas...*
 
-![Tras la puesta de sol llega el festival de tonos anaranjados en el cielo.](/attachments/DJI_0106-Mejorado-NR-1024x768.webp)
+![Tras la puesta de sol llega el festival de tonos anaranjados en el cielo.](attachments/DJI_0106-Mejorado-NR-1024x768.webp)
 
 *Tras la puesta de sol llega el festival de tonos anaranjados en el cielo.*
 
-![Y mientras el sol se ponÃ­a por el W, la luna llena aparecÃ­a a nuestras espaldas, por el E...](/attachments/DJI_0105-Mejorado-NR-1024x768.webp)
+![Y mientras el sol se ponÃ­a por el W, la luna llena aparecÃ­a a nuestras espaldas, por el E...](attachments/DJI_0105-Mejorado-NR-1024x768.webp)
 
 *Y mientras el sol se ponÃ­a por el W, la luna llena aparecÃ­a a nuestras espaldas, por el E...*
 

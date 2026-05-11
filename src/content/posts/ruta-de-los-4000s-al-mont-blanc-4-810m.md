@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Ruta de los 4000's al Mont Blanc (4.810m)"
 pubDate: 2009-09-16T14:15:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:29:03Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Del 9 al 13 de septiembre se desplazaron a Chamonix para subir al Mont Blanc Jorge, Blanca, Edesio, Alex y Alberto. El viaje fue asÃƒÂ­: DÃƒÂ­a 9: Salida de Zgz por la tarde, parada a dormir a mitad de camino. DÃƒÂ­a 10: Llegada a Chamonix con tiemp"
 category: "Viajes"

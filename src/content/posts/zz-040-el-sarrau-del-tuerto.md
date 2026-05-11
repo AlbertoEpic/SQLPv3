@@ -1,9 +1,9 @@
-﻿---
+---
 title: ZZ-040 el SARRAU del TUERTO
-heroImage: /attachments/SarrauTu1.webp
+heroImage: attachments/SarrauTu1.webp
 pubDate: 2025-01-26T17:12:58Z
 updatedDate: 2025-01-26T17:18:23Z
-draft: ó
+draft: false
 author: AlbertoEpic
 description: A falta de nieve... Buenos son los piñones! A mediados de enero, la nieve todavÃ­a escasea en el Pirineo. Nuestro especialista AlbertoEpic, cansado de mirar al cielo y los termÃ³metros, decide cambiar el chip y estudiar los mapas para encontr
 category: Bicicleta de montaña
@@ -31,15 +31,15 @@ Y tras mucho dudarlo, sacaron el dron para unas breves imágenes de la parte alt
 
 Y después del 'short' de Youtube, te mostramos alguna foto de la ruta:
 
-[![Dani y Jorge en la parte alta de la ruta. Un dÃ­a totalmente despejado a la salida se estaba nublando...](/attachments/SarrauTu1.webp)
+[![Dani y Jorge en la parte alta de la ruta. Un dÃ­a totalmente despejado a la salida se estaba nublando...](attachments/SarrauTu1.webp)
 
 *Dani y Jorge en la parte alta de la ruta. Un dÃ­a totalmente despejado a la salida se estaba nublando...*
 
-[![Los tres especialistas en la cima de la Punta Sarrulla.](/attachments/SarrauTu2.webp)
+[![Los tres especialistas en la cima de la Punta Sarrulla.](attachments/SarrauTu2.webp)
 
 *Los tres especialistas en la cima de la Punta Sarrulla.*
 
-[![La Punta Sarrulla desde el aire... Con un cielo cada vez más negro, y la temperatura cayendo en picado!](/attachments/SarrauTu3.webp)
+[![La Punta Sarrulla desde el aire... Con un cielo cada vez más negro, y la temperatura cayendo en picado!](attachments/SarrauTu3.webp)
 
 *La Punta Sarrulla desde el aire... Con un cielo cada vez más negro, y la temperatura cayendo en picado!*
 

@@ -1,16 +1,16 @@
-﻿---
+---
 title: "VÃ­a del Diedro de Hoz de Jaca"
-heroImage: "/attachments/Diedro-de-Hoz-218x300.webp"
+heroImage: "attachments/Diedro-de-Hoz-218x300.webp"
 pubDate: 2010-08-24T12:16:00Z
 updatedDate: 2015-04-06T10:28:56Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El pasado domingo estuvimos en la vÃ­a del Diedro de Hoz de Jaca. Nos habÃ­an hablado tanto de la dificultad oculta de los quintos de allÃ­, que una vez en harina la cosa resultÃ³ más sencilla de lo esperado. Por supuesto, la vÃ­a fue liberada e"
 category: "Escalada"
 tags:
   - "Uncategorized"
 ---
-[![](/attachments/Diedro-de-Hoz.webp)El pasado domingo estuvimos en la vÃ­a del Diedro de Hoz de Jaca. Nos habÃ­an hablado tanto de la dificultad oculta de los quintos de allÃ­, que una vez en harina la cosa resultÃ³ más sencilla de lo esperado.
+[![](attachments/Diedro-de-Hoz.webp)El pasado domingo estuvimos en la vÃ­a del Diedro de Hoz de Jaca. Nos habÃ­an hablado tanto de la dificultad oculta de los quintos de allÃ­, que una vez en harina la cosa resultÃ³ más sencilla de lo esperado.
 
 
 

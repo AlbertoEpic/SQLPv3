@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Fateando por... Panticosa!"
 heroImage: "https://i.imgur.com/kARTd3L.jpg"
 pubDate: 2017-12-20T14:29:02Z
 updatedDate: 2017-12-20T14:29:02Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Este invierno, en SQLP todavÃƒÂ­a no habÃƒÂ­amos sacado la fatbike a rodar por nieve. Ya tocaba... Y el otro dÃƒÂ­a se dieron las condiciones! Para variar, AlbertoEpic eligiÃƒÂ³ un nuevo escenario para estrenar bajo las ruedas de su fatbike. HacÃƒÂ­a tiem"
 category: "Bicicleta de montaÃƒÂ±a"

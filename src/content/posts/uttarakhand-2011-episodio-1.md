@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Uttarakhand 2011: episodio 1"
 pubDate: 2011-11-09T09:00:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2018-11-02T18:08:29Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Aqui tenÃƒÂ©is el primer episodio de la serie que relata el viaje en bici de Luzia y AlbertoEpic por el Himalaya indio. Partimos del aeropuerto de Dehra Dun, nos encontramos con el rÃƒÂ­o Ganges en Rishikesh y lo vamos remontando hacia el lugar d"
 category: "Viajes"

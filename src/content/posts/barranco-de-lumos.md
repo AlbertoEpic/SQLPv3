@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Barranco de Lumos"
-heroImage: "/attachments/lumos3-262x300.webp"
+heroImage: "attachments/lumos3-262x300.webp"
 pubDate: 2010-07-05T17:15:00Z
 updatedDate: 2015-04-06T10:28:56Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El pasado domingo un puñado de globeros estuvo en el barranco de Lumos. Hubo ausencias amparándose en la posibilidad de pasar calor y tener que respirar una atmÃ³sfera hedionda al cruzar marmitas de agua estancada... Pero la actividad causÃ³ "
 category: "Otros"
@@ -16,9 +16,9 @@ Entre los globeros se llegÃ³ a la conclusiÃ³n de que este barranco no es sim
 
 A continuaciÃ³n, algunas fotos cortesÃ­a de Morenetti, el fotÃ³grafo globeril por excelencia.
 
-[![](/attachments/lumos3.webp)
+[![](attachments/lumos3.webp)
 
-[![](/attachments/lumos1.webp)
+[![](attachments/lumos1.webp)
 
-[![](/attachments/lumos2.webp)
+[![](attachments/lumos2.webp)
 

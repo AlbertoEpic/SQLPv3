@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Un paseo hasta el Mandilar (Panticosa)"
 pubDate: 2009-01-30T23:13:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:29:08Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El pasado martes, tras una bestial nevada las horas anteriores, salimos al monte. Hay por todas partes, desde el fondo del valle, entre 50cm y 1m de nieve fresca. Ante el posible riesgo de aludes, nos limitamos a un plan sin compromisos... "
 category: "Otros"

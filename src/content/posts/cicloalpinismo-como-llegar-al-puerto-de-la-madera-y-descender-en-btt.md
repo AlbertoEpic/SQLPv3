@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Cicloalpinismo: cÃƒÂ³mo llegar al Puerto de la Madera y descender en BTT..."
 pubDate: 2011-08-10T21:27:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:46Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Hace unos dÃƒÂ­as vÃƒÂ­ en un blog una ruta en BTT que me apeteciÃƒÂ³ mucho. El otro dÃƒÂ­a fuimos a repetirla con LucÃƒÂ­a, pero la mala previsiÃƒÂ³n de la meteo, con unos nubarrones de mucho miedo, hicieron que finalmente hiciÃƒÂ©ramos un pequeÃƒÂ±o apaÃƒÂ±o para a"
 category: "Otros"

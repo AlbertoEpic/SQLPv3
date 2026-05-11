@@ -1,10 +1,10 @@
-﻿---
+---
 title: "EnduroLandMTB - Buenos senderos en Teruel..."
 pubDate: 2022-01-21T18:35:33Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2022-01-21T18:50:46Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Echamos la vista atrÃƒÂ¡s, al primer fin de semana de octubre del 2021, para recuperar una actividad que bien merece una reseÃƒÂ±a en SQLP. Aquel finde, los especialistas fatos IvÃƒÂ¡n, Pedro y AlbertoEpic estuvieron conociendo nuevos territorios co"
 category: "Bicicleta de montaÃƒÂ±a"

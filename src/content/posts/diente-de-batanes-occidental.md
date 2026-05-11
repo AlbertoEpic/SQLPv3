@@ -1,8 +1,8 @@
-﻿---
+---
 title: Diente de Batanes Occidental
 pubDate: 2025-05-15T10:10:18Z
 updatedDate: 2025-05-15T10:10:21Z
-draft: ó
+draft: false
 author: AlbertoEpic
 description: Nos encontramos apurando una temporada de skimo rara... En cotas bajas ya ha terminado, pero si no nos importa portear, a algo más de 2.000m de altura sigue quedando nieve (Vamos, que las temperaturas son más
 category: EsquÃ­ de travesÃ­a

@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Optimismo e ilusiÃƒÂ³n"
 pubDate: 2011-02-24T10:02:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:51Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Rompemos con la tÃƒÂ³nica de SoloQuedaLoPeor para poner un 'tocho' de vÃƒÂ­deo que creo que merece la pena. Gran conferencia de Emilio DurÃƒÂ³ sobre Optimismo e IlusiÃƒÂ³n. Las imÃƒÂ¡genes son secundarias, aqui lo que cuenta es lo que se dice. Puedes pone"
 category: "Otros"

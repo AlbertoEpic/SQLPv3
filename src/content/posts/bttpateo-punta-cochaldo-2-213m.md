@@ -1,9 +1,9 @@
-﻿---
+---
 title: "BTT+Pateo: Punta Cochaldo (2.213m)"
 heroImage: "https://i.imgur.com/qjXlZN1.jpg"
 pubDate: 2022-03-01T09:08:08Z
 updatedDate: 2022-03-01T09:42:35Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Gran mirador agreste y poco visitado... DespuÃƒÂ©s de un pequeÃƒÂ±o impÃƒÂ¡s en el desarrollo de sus actividades, nuestros especialistas Myriam y AlbertoEpic retoman la acciÃƒÂ³n para acercarse a este magnÃƒÂ­fico balcÃƒÂ³n del valle de Tena. La ascensiÃƒÂ³n a "
 category: "Ascensiones"

@@ -1,9 +1,9 @@
-﻿---
+---
 title: "SkÃƒÂ³gafoss [ICELAND PILLS 13]"
 heroImage: "https://i.imgur.com/8PjBRoL.jpg"
 pubDate: 2024-09-30T07:59:40Z
 updatedDate: 2024-09-30T08:01:27Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "La monumental Famosa por los arcoÃƒÂ­ris que se forman a su alrededor, este espectacular salto de agua estÃƒÂ¡ situado en el sur de Islandia. Sus aguas caen desde lo alto de unos antiguos acantilados, que en tiempos remotos estaban tocando el mar"
 category: "Islandia 2024"

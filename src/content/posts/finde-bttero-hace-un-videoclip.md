@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Finde BTTero - Ã‚Â¿Hace un videoclip?"
 pubDate: 2011-07-26T15:15:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:47Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Este pasado finde, la meteo tan rara para esta ÃƒÂ©poca nos tenÃƒÂ­a despistados, y terminamos haciendo BTT los dos dÃƒÂ­as. Como novedad, hoy Producciones SoloQuedaLoPeor no te ofrece videos en plan 'relato de la actividad'. En su lugar, probamos c"
 category: "Otros"

@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Time Lapse: Viendo pasar el tiempo..."
 pubDate: 2010-07-16T22:11:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2020-03-18T08:38:40Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Por fin me ha dado tiempo a terminar esto, un pequeÃƒÂ±o experimento, jugando con los 'time lapse'. Dado que la cÃƒÂ¡mara tiene que pegarse mucho rato en el mismo sitio (Aprox. 1h para obtener 5 ÃƒÂ³ 6 segundos de video), la mayorÃƒÂ­a de imÃƒÂ¡genes son "
 category: "Otros"

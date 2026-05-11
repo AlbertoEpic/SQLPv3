@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Pico Posets (3.375m) desde ViadÃƒÂ³s"
 pubDate: 2017-05-11T12:00:18Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2017-05-11T12:00:18Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El pasado fin de semana llegÃƒÂ³ el turno de hacer una de esas rutas tÃƒÂ­picas de fin de temporada, donde desnivel, orientaciÃƒÂ³n y estado de forma se conjugan para crear un cÃƒÂ³ctel perfecto. En esta ocasiÃƒÂ³n disfrutamos de uno de los descensos mÃƒÂ¡s "
 category: "EsquÃƒÂ­ de travesÃƒÂ­a"

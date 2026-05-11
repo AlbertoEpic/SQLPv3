@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Por las ferratas de PeÃƒÂ±a Rueba"
 heroImage: "https://i.imgur.com/smDdPcZ.jpg"
 pubDate: 2023-01-21T10:58:03Z
 updatedDate: 2023-01-21T10:58:04Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "DÃƒÂ­as antes de todas las nevadas que por fin nos han blanqueado el Pirineo, tres curiosos individuos hicieron coincidir sus coordenadas espaciotemporales para darse un garbeo por PeÃƒÂ±a Rueba. July y AlbertoEpic, del mÃƒÂ­tico equipo SQLP-TerreXt"
 category: "Escalada"

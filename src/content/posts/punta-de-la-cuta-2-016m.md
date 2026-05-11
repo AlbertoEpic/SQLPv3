@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Punta de la Cuta (2.016m)"
 heroImage: "https://i.imgur.com/eCdepa1.jpg"
 pubDate: 2021-04-02T16:56:05Z
 updatedDate: 2021-04-06T09:07:16Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "En circular desde el refugio de Gabardito En SQLP-kids seguimos con las propuestas de actividades fÃƒÂ¡ciles con niÃƒÂ±os, y poco a poco vamos aumentando la dificultad de las rutas... En Semana Santa se reunieron los ya habituales en esta secciÃƒÂ³n"
 category: "SQLP-kids"

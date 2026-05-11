@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Ruta del Agua"
-heroImage: "/attachments/RutAgua6-1536x1152.webp"
+heroImage: "attachments/RutAgua6-1536x1152.webp"
 pubDate: 2021-03-22T11:20:05Z
 updatedDate: 2021-03-22T11:37:19Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Sendero interpretativo sobre los usos del agua. Este pasado domingo tocaba otra ruta infantil, y la elecciÃ³n del lugar estaba difÃ­cil dado la mala meteo anunciada: fuertes vientos de N y nevadas desaconsejaban mirar demasiado al Pirineo... "
 category: "SQLP-kids"
@@ -27,22 +27,22 @@ Como incentivo para los niños, al finalizar el recorrido entramos en el pueblo 
 Puedes descargar elÂ [folleto oficial de la ruta en este enlace](https://galligueranatural.files.wordpress.com/2013/10/folletorutaagua.pdf).
 
 Y te dejamos a continuaciÃ³n con algunas fotos de la jornada:
-![Iniciando el segundo bucle](/attachments/RutAgua6-1536x1152.webp)
+![Iniciando el segundo bucle](attachments/RutAgua6-1536x1152.webp)
 
 *Iniciando el segundo bucle*
-![Aproximándonos al Mirador del RÃ­o (Foto: Chus)](/attachments/RutAgua5-1536x1152.webp)
+![Aproximándonos al Mirador del RÃ­o (Foto: Chus)](attachments/RutAgua5-1536x1152.webp)
 
 *Aproximándonos al Mirador del RÃ­o (Foto: Chus)*
-![Parte final del segundo bucle](/attachments/RutAgua4-1536x1152.webp)
+![Parte final del segundo bucle](attachments/RutAgua4-1536x1152.webp)
 
 *Parte final del segundo bucle*
-![Parte intermedia del primer bucle](/attachments/RutAgua3-1536x1152.webp)
+![Parte intermedia del primer bucle](attachments/RutAgua3-1536x1152.webp)
 
 *Parte intermedia del primer bucle*
-![Fuente d'o Lugar](/attachments/RutAgua2-1536x1152.webp)
+![Fuente d'o Lugar](attachments/RutAgua2-1536x1152.webp)
 
 *Fuente d'o Lugar*
-![Poco después del Pozo Chelo, terminando el primer bucle.](/attachments/RutAgua1-1536x1152.webp)
+![Poco después del Pozo Chelo, terminando el primer bucle.](attachments/RutAgua1-1536x1152.webp)
 
 *Poco después del Pozo Chelo, terminando el primer bucle.*
 

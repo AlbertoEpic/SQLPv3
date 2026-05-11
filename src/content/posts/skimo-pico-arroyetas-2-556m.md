@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Skimo: pico Arroyetas (2.556m)"
 pubDate: 2022-04-11T17:37:50Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2022-04-11T17:42:57Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Con esta entrada simplemente queremos anunciar que hemos aÃƒÂ±adido a nuestra base de datos el track de la ruta normal al pico Arroyetas, un magnÃƒÂ­fico mirador, desde el parking de Anayet de la estaciÃƒÂ³n de esquÃƒÂ­ de Formigal. La idea era subir p"
 category: "Otros"

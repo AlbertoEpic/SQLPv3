@@ -1,9 +1,9 @@
-﻿---
+---
 title: "BTT: pico del Verde (2.287m)"
-heroImage: "/attachments/logo_Pano360_600x150-300x80.webp"
+heroImage: "attachments/logo_Pano360_600x150-300x80.webp"
 pubDate: 2020-06-16T15:24:41Z
 updatedDate: 2020-06-29T16:10:18Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Tras el éxito con el formato de la actividad del Musales , Myriam y AlbertoEpic repiten concepto en el pico del Verde. Salen de Panticosa en BTT, suben por la pista de La Ripera, el RincÃ³n del Verde hasta la Collada de Sabocos/del Verde. A "
 category: "Bicicleta de montaña"
@@ -24,7 +24,7 @@ Pero antes aprovechÃ³ a sacar una nueva foto esférica. PretendÃ­a ser una r
 </iframe>
 
 Te recordamos que puedes ver esta y muchas más en nuestro portal especÃ­fico de fotos esféricas:
-[![](/attachments/logo_Pano360_600x150-300x80.webp)](https://pano360.soloquedalopeor.com)
+[![](attachments/logo_Pano360_600x150-300x80.webp)](https://pano360.soloquedalopeor.com)
 pano360.soloquedalopeor.com
 Y para terminar, te dejamos con unas pocas imágenes de la actividad.
 (Muchas gracias a Myriam por sus fotos!)

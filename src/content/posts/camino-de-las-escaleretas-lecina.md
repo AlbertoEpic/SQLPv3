@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Camino de las Escaleretas - Lecina"
 heroImage: "https://i.imgur.com/wAlL41D.jpg"
 pubDate: 2022-11-16T10:17:37Z
 updatedDate: 2022-11-16T10:28:42Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "ExcursiÃ¯Â¿Â½n infantil con un montÃ¯Â¿Â½n de alicientes... El pasado domingo, y aprovechando una meteo excepcional, el equipo SQLP-kids realizÃ¯Â¿Â½ una nueva actividad, esta vez con numerosa y selecta participaciÃ¯Â¿Â½n... Seres de AniÃ¯Â¿Â½s, Bolea y Tierz se re"
 category: "SQLP-kids"

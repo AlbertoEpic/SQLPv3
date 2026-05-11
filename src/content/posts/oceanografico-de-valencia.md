@@ -1,10 +1,10 @@
-﻿---
+---
 title: "OceanogrÃƒÂ¡fico de Valencia"
 pubDate: 2010-07-11T04:54:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:56Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "A mediados de junio una 'terrible' gota frÃƒÂ­a desaconsejaba actividades en altura en el Pirineo, asÃƒÂ­ que el equipo de SoloQuedaLoPeor se desplazÃƒÂ³ a Valencia, a visitar la Ciudad de las Artes y las Ciencias . Desde aqui podemos decir que es u"
 category: "Otros"

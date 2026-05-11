@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Oberland 2011: la Serie"
 pubDate: 2011-04-27T06:46:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:49Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "La factorÃƒÂ­a de Producciones SoloQuedaLoPeor estÃƒÂ¡ que arde. ReciÃƒÂ©n regresados de una travesÃƒÂ­a de 7 dÃƒÂ­as por el Oberland BernÃƒÂ©s, tenemos 12Gb de material grabado en FullHD para procesar. Suficiente para la realizaciÃƒÂ³n de una serie de varios e"
 category: "Otros"

@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Pico Tesorero (2.570m)"
 heroImage: "https://i.imgur.com/ovQ8jcU.jpg"
 pubDate: 2018-08-30T19:49:20Z
 updatedDate: 2018-11-06T10:42:23Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "AscensiÃƒÂ³n desde El Cable (Funicular Fuente DÃƒÂ©) Superada por AlbertoEpic la prueba inicial en Las Xanas... la apuesta ahora es mucho mÃƒÂ¡s ambiciosa (Siguen siendo actividades 'de turista'...). AscensiÃƒÂ³n a un pico en el corazÃƒÂ³n de los Picos de"
 category: "Ascensiones"

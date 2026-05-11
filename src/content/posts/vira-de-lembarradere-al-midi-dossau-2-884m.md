@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Vira de l'EmbarradÃƒÂ¨re al Midi d'Ossau (2.884m)"
 pubDate: 2011-08-03T13:33:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:46Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Por fin este pasado finde hizo bueno. Marcos, Marthe, LucÃƒÂ­a y Alberto recuperamos este plan que fue pospuesto la semana anterior. El sÃƒÂ¡bado subimos a vivaquear junto al lac de Pombie, y el domingo subimos al Midi por la vira de l'EmbarradÃƒÂ¨r"
 category: "Escalada"

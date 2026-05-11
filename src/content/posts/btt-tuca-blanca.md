@@ -1,10 +1,10 @@
-﻿---
+---
 title: "BTT: Tuca Blanca"
 pubDate: 2020-08-09T18:33:30Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2020-08-10T08:33:58Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "A finales de julio, Pano360 de SQLP encargÃƒÂ³ a AlbertoEpic la tarea de realizar una nueva foto esfÃƒÂ©rica para su catÃƒÂ¡logo: desde la cima de Tuca Blanca, en el borde superior de la estaciÃƒÂ³n de esquÃƒÂ­ de CandanchÃƒÂº. Con ese propÃƒÂ³sito se desplazÃƒÂ³ "
 category: "Bicicleta de montaÃƒÂ±a"

@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Exprimiendo el finde... en Pineta"
 pubDate: 2015-07-01T09:19:54Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-07-01T09:20:20Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El pasado finde habÃƒÂ­a que escapar de la planicie huyendo de los calores africanos que nos azotan estos dÃƒÂ­as... Una delegaciÃƒÂ³n globeril formada por ToÃƒÂ±o&Esme+Martina y AlbertoEpic&Luzia+Sami+Tai estuvieron en Pineta aprovechando al mÃƒÂ¡ximo su"
 category: "Bicicleta de montaÃƒÂ±a"

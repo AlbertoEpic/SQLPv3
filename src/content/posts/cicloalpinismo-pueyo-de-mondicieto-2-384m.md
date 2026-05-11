@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Cicloalpinismo: Pueyo de Mondicieto (2.384m)"
 heroImage: "https://i.imgur.com/19Z6shh.jpg"
 pubDate: 2020-07-15T08:30:45Z
 updatedDate: 2020-07-15T08:46:29Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Hace ya unos dÃƒÂ­as que AlbertoEpic, en su afÃƒÂ¡n de ampliar el catÃƒÂ¡logo de fotos esfÃƒÂ©ricas etiquetadas de SQLP , decidiÃƒÂ³ subirse a esta gran atalaya desde la que podemos mirar al Monte Perdido cara a cara... Saliendo en bici de Torla, nos espe"
 category: "Bicicleta de montaÃƒÂ±a"

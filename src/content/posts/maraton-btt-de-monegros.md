@@ -1,9 +1,9 @@
-﻿---
+---
 title: "MaratÃƒÂ³n BTT de Monegros"
-heroImage: "/attachments/fotosalidamonegros-300x168.webp"
+heroImage: "attachments/fotosalidamonegros-300x168.webp"
 pubDate: 2011-05-02T21:17:00Z
 updatedDate: 2015-04-06T10:28:49Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "30/04/2011 Desayunar mucho, comer mucho, beber mucho para poder pedalear durante mucho rato, la palabra mucho va a venir como complemento a todas las demÃƒÂ¡s, porque este sÃƒÂ¡bado hay recorrer muchos kilometros entre mucha gente y mucho polvo. "
 category: "Otros"
@@ -11,7 +11,7 @@ tags:
   - "btt"
   - "MaratÃƒÂ³n de Monegros"
 ---
-[![](/attachments/fotosalidamonegros.webp)
+[![](attachments/fotosalidamonegros.webp)
 
 30/04/2011
 
@@ -81,7 +81,7 @@ Enseguida viene Jara con la rodilla destrozada, como se nota que es aragonesa, g
 
 Duchados y cambiados nos vamos a comer algo, vemos a Tere, que tambiÃƒÂ©n ha acabado muy bien, ya estamos todos a salvo.
 
-[![](/attachments/podiumLuci.webp)LucÃƒÂ­a Cinto, 2Ã‚Âª clasificada en ÃƒÂ©liteMientras estamos en la cola, Esme me dice, ya verÃƒÂ¡s como te toca subir al pÃƒÂ³dium, yo por quitarme los nervios de encima le contesto que me han pasado muchas chicas y seguro que mÃƒÂ¡s de una tendrÃƒÂ­a menos de 30 aÃƒÂ±os, ja, y cual es mi sorpresa que se oye por megafonÃƒÂ­a: 2Ã‚Âº clasificada en categorÃƒÂ­a ElÃƒÂ­te: LucÃƒÂ­a Cinto, ay que alegrÃƒÂ­a, pues nada, a por el trofeo, fotos, besos y sonrisas, que gracia, esto si que no me lo esperaba.
+[![](attachments/podiumLuci.webp)LucÃƒÂ­a Cinto, 2Ã‚Âª clasificada en ÃƒÂ©liteMientras estamos en la cola, Esme me dice, ya verÃƒÂ¡s como te toca subir al pÃƒÂ³dium, yo por quitarme los nervios de encima le contesto que me han pasado muchas chicas y seguro que mÃƒÂ¡s de una tendrÃƒÂ­a menos de 30 aÃƒÂ±os, ja, y cual es mi sorpresa que se oye por megafonÃƒÂ­a: 2Ã‚Âº clasificada en categorÃƒÂ­a ElÃƒÂ­te: LucÃƒÂ­a Cinto, ay que alegrÃƒÂ­a, pues nada, a por el trofeo, fotos, besos y sonrisas, que gracia, esto si que no me lo esperaba.
 
 Acabamos de comer, masajito para soltar los mÃƒÂºsculos y para casa.
 

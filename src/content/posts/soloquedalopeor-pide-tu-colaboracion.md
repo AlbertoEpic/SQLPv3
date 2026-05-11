@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Soloquedalopeor pide tu colaboraciÃƒÂ³n!!!"
 pubDate: 2008-09-17T09:36:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:29:10Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Hola globeros! Comienzo hoy con una nueva etapa de www.soloquedalopeor.com... Pretende ser una evoluciÃƒÂ³n hacia los nuevos tiempos que corren, donde cada vez somos mÃƒÂ¡s cibernÃƒÂ©ticos y tenemos herramientas para colaborar todos y dejar nuestra "
 category: "Otros"

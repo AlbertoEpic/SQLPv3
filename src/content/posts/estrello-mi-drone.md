@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Estrello mi drone!!!"
-heroImage: "/attachments/AlbertoEpicDrone.webp"
+heroImage: "attachments/AlbertoEpicDrone.webp"
 pubDate: 2020-02-08T18:01:44Z
 updatedDate: 2020-02-08T18:20:47Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: ".: ANÃLISIS DE LAS CAUSAS :. CONSEJOS Y REFLEXIONES PARA EVITAR SUSTOS CON TU DRONE... https://www.youtube.com/watch?v=g0tXzn-rTTE Hace menos de un mes que SQLP cuenta con un drone para enriquecer todavÃ­a más la experiencia multimedia en su"
 category: "Otros"
@@ -16,7 +16,7 @@ https://www.youtube.com/watch?v=g0tXzn-rTTEHace menos de un mes que SQLP cuenta 
 El primer dÃ­a de vuelo en condiciones reales de alta montaña invernal se saldÃ³ con un pequeño susto, y varios errores de grabaciÃ³n... Pero las pocas imágenes obtenidas fueron tan buenas que le hicieron olvidar todo lo demás, asÃ­ que se lanzÃ³ al segundo vuelo! Y claro, en esta ocasiÃ³n no hubo tanta suerte y el drone se estampÃ³. Mirando el lado bueno, simplemente se empotrÃ³ en la nieve y allÃ­ esperÃ³ intacto a que lo recuperaran, media hora más tarde. Ufff...
 
 Pero basta ya de rollos. Os dejamos con el análisis y conclusiones de AlbertoEpic, esperando que si tú también tienes un drone, no te pase como a él...
-![](/attachments/AlbertoEpicDrone.webp)
+![](attachments/AlbertoEpicDrone.webp)
 Como suele ocurrir en estos casos, la colisiÃ³n no fue producto de un error único, simplemente fue una sucesiÃ³n de decisiones desafortunadas...
 
 El drone es un DJI Mavic Air. Más ligero que los Mavic Pro, pero a costa de no tener sensores anticolisiÃ³n laterales. Esto hace que en la toma que estaba realizando, en vuelo circular, se desplazara lateralmente y no tuviera protecciÃ³n ante una posible colisiÃ³n lateral.

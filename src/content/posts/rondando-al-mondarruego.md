@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Rondando al Mondarruego..."
 heroImage: "https://i.imgur.com/D7cVWKG.jpg"
 pubDate: 2018-10-24T10:14:55Z
 updatedDate: 2018-10-29T09:55:35Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El pasado domingo salen de Huesca en direcciÃƒÂ³n a Ordesa, tal vez con mÃƒÂ¡s ganas e ilusiÃƒÂ³n que otra cosa, Eva, Rosa, Cheles y AlbertoEpic. La idea es hacer algo por ese mÃƒÂ¡gico entorno, especialmente ahora en otoÃƒÂ±o. SubirÃƒÂ­an desde La Pradera h"
 category: "Ascensiones"

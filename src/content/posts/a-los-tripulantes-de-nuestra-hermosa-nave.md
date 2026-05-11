@@ -1,10 +1,10 @@
-﻿---
+---
 title: "\"A los tripulantes de nuestra hermosa nave...\""
 pubDate: 2009-01-23T18:10:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:29:08Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Hoy me han enviado un email con este asunto, que contenÃƒÂ­a el siguiente video:"
 category: "Otros"

@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Punta Foratula (2.581m)"
 heroImage: "https://i.imgur.com/u53sI0i.jpg"
 pubDate: 2018-05-02T17:52:17Z
 updatedDate: 2018-05-04T12:00:28Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Nuestra actividad anterior habÃƒÂ­a sido la ascensiÃƒÂ³n al Peyreget. Condiciones totalmente primaverales, fusiÃƒÂ³n galopante de la nieve... Todo parecÃƒÂ­a dispuesto para recibir al verano en breve. Pero... unos dÃƒÂ­as despuÃƒÂ©s, nos encontramos en el Fo"
 category: "EsquÃƒÂ­ de travesÃƒÂ­a"

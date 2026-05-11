@@ -1,10 +1,10 @@
-﻿---
+---
 title: "BTT enDURO: vuelta al MascÃƒÂºn"
 pubDate: 2018-01-17T10:55:15Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2018-01-17T11:03:52Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Estas fiestas navideÃƒÂ±as han dado mucho de sÃƒÂ­. Ha habido dÃƒÂ­as de polvorÃƒÂ³n en el Pirineo... y tambiÃƒÂ©n dÃƒÂ­as de BTT del bueno por la sierra! Rodellar - Cheto - Saltador de las LaÃƒÂ±as - OtÃƒÂ­n - Rodellar Era la primera semana del aÃƒÂ±o. Un grupo de s"
 category: "Bicicleta de montaÃƒÂ±a"

@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Tuqueta de Bargues (2.617m)"
 heroImage: "https://i.imgur.com/qU80voq.jpg"
 pubDate: 2024-11-07T11:28:09Z
 updatedDate: 2024-11-07T11:29:49Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Un clÃƒÂ¡sico del skimo... sin nieve y a pie! En SQLP nos faltaba poner el pie en esta cima, que en los ÃƒÂºltimos aÃƒÂ±os se estÃƒÂ¡ convirtiendo en habitual de los practicantes de skimo... HabrÃƒÂ¡ que volver con los esquÃƒÂ­s cuando nieve, pero de momento"
 category: "Ascensiones"

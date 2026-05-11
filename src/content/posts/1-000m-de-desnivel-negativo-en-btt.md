@@ -2,7 +2,7 @@
 title: 1.000m de desnivel negativo en btt
 pubDate: 2010-10-07T13:12:00Z
 heroImage: attachments/SQLPcomodin.jpg
-draft:
+draft: false
 author: AlbertoEpic
 description: El pasado domingo, un nutrido grupo de globeros junto con algunos de sus semejantes de Biescas y Zaragoza se dieron cita en Jaca para dar un rulo en btt, en torno a PeÃƒÂ±a Oroel, y hacer asÃƒÂ­ los 1.000m de descenso entre la cima y el coche apa
 category: Bicicleta de montaÃƒÂ±a

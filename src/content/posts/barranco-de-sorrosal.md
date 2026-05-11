@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Barranco de Sorrosal"
 pubDate: 2020-07-20T16:35:27Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2020-07-20T17:02:59Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El reencuentro de dos enmascarados... Durante estas ÃƒÂºltimas semanas se produjo una curiosa sucesiÃƒÂ³n de casualidades: Cheles y AlbertoEpic subieron a andar por Bujaruelo, pero como habÃƒÂ­an madrugado mucho decidieron parar a desayunar en Broto"
 category: "Descenso de barrancos"

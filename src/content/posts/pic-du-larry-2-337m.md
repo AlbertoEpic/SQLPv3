@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Pic du Larry (2.337m)"
 pubDate: 2008-12-29T17:03:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:29:08Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Ayer el mal tiempo se quedÃƒÂ³ en el lado espaÃƒÂ±ol, y en la vertiente francesa (Al otro lado del tÃƒÂºnel de Somport) aÃƒÂºn se dejÃƒÂ³ hacer algo. Hoy voy a innovar, y en lugar de fotos voy a poner un repor de la jornada en video grabado con la cÃƒÂ¡mara "
 category: "Otros"

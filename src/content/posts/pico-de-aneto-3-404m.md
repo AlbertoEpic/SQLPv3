@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Pico de Aneto (3.404m)"
 pubDate: 2011-03-25T08:31:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:49Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El pasado fin de semana la idea era subir el sÃƒÂ¡bado a dormir a la Renclusa, y el domingo hacer el Aneto. Pero el viernes nos comunican que el refugio estÃƒÂ¡ completo. No tenemos sitio para dormir allÃƒÂ­. Ã‚Â¿QuÃƒÂ© hacemos? Mhmmmm... a ver... pues no"
 category: "Otros"

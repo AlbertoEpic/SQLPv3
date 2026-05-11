@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Inaugurando desde Lituania"
 pubDate: 2008-09-24T20:33:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:29:10Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Me vais a permitir inaugurar el blog con esta crÃ¯Â¿Â½nica de Jorgito desde Lituania, donde dos globeros participan con la selecciÃ¯Â¿Â½n en el Cto. de Europa de OrientaciÃ¯Â¿Â½n en bici, una de las actividades estrella en el mundillo globero. -- Muy buen"
 category: "Otros"

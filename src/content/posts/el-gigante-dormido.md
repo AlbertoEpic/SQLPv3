@@ -1,16 +1,16 @@
-﻿---
+---
 title: "El gigante dormido"
-heroImage: "/attachments/el-gigante-dormido-300x98.webp"
+heroImage: "attachments/el-gigante-dormido-300x98.webp"
 pubDate: 2008-10-08T10:14:00Z
 updatedDate: 2015-04-06T10:29:10Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Por gentileza del ilustre globero, reconocido fotÃ³grafo y mejor persona Rafa Moreno nos llega este perfil de la sierra de Guara que parece un gigante dormido, con la Peña de Amán por pies -Â¿quién dijo que los zapatos de plataforma eran un i"
 category: "Otros"
 tags:
   - "Uncategorized"
 ---
-[![](/attachments/el-gigante-dormido.webp)
+[![](attachments/el-gigante-dormido.webp)
 
 
 
@@ -22,7 +22,7 @@ Para llegar a la nariz ya se complica un poco más la cosa, de hecho hay globero
 
 Otros globeros apuntan la existencia de otro gigante en la sierra (Leyendas del Pirineo, de Rafael Andolz, pag 51), el hombre muerto de Guara, con Fragineto por cabeza y Guara son las manos en el pecho.
 
-[![](/attachments/el-gigante-dormido-2.webp)
+[![](attachments/el-gigante-dormido-2.webp)
 
 AquÃ­ hay distintos enfoques, yo sigo viendo más claro el primer gigante, bien es cierto que la segunda foto probablemente no hace justicia al retratado.... y tú Â¿cÃ³mo lo ves?
 

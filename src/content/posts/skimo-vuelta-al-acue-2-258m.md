@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Skimo: vuelta al AcuÃƒÂ© (2.258m)"
 heroImage: "https://i.imgur.com/NCsEXfC.jpg"
 pubDate: 2019-02-19T09:23:57Z
 updatedDate: 2019-02-19T09:36:09Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El pasado 9 de febrero se formÃƒÂ³ un grupo de singulares personajes para hacer algo de esquÃƒÂ­ de travesÃƒÂ­a por el monte, intentando escapar de la masificaciÃƒÂ³n de las estaciones de esquÃƒÂ­ alpino de la zona. La ruta elegida fue la vuelta al pico d"
 category: "EsquÃƒÂ­ de travesÃƒÂ­a"

@@ -1,9 +1,9 @@
-﻿---
+---
 title: "La Palma - pico de la Nieve (2.239m)"
 heroImage: "https://i.imgur.com/nH1VpYj.jpg"
 pubDate: 2022-09-03T10:33:06Z
 updatedDate: 2022-09-03T16:29:48Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Vacaciones en La Palma: dÃƒÂ­a 1 El primer dÃƒÂ­a en la bonita isla de La Palma decidimos comenzar con una actividad breve y sencilla, para estirar las piernas y ponernos en situaciÃƒÂ³n tras el viaje. Lo mÃƒÂ¡s laborioso fue llegar en coche hasta el p"
 category: "Ascensiones"

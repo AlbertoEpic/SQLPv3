@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Castillo del Mon (PerarrÃƒÂºa)"
 heroImage: "https://i.imgur.com/7DRiWhS.jpg"
 pubDate: 2023-02-03T09:46:39Z
 updatedDate: 2023-02-03T09:50:50Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Hoy os proponemos una breve y sencilla excursiÃƒÂ³n para la secciÃƒÂ³n SQLP-Kids... El modesto desnivel, menos de 300m+, y el hecho de que prÃƒÂ¡cticamente durante toda la subida veamos el castillo (Ã‚Â¿A quÃƒÂ© niÃƒÂ±o no le motiva ir a ver un castillo?), h"
 category: "SQLP-kids"

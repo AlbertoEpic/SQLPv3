@@ -1,9 +1,9 @@
-﻿---
+---
 title: "TUTORIAL: determinar inclinaciÃ³n de la pendiente (>/<30)"
 heroImage: attachments/SQLPcomodin.jpg
 pubDate: 2016-02-15T23:22:02Z
 updatedDate: 2016-02-15T23:22:02Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Si estamos metidos en el mundillo del esquÃ­ de travesÃ­a, ya deberÃ­amos estar familiarizados con los partes de riesgo de avalanchas y conocer la importancia de una pendiente concreta: 30. Muy a menudo nos interesa saber si una ladera tiene "
 category: "EsquÃ­ de travesÃ­a"
@@ -31,7 +31,7 @@ Muy a menudo nos interesa saber si una ladera tiene una inclinaciÃ³n de más o
 
 Se entiende mucho mejor con unos dibujos:
 
- [![](/attachments/test-pendiente-bastones.webp)
+ [![](attachments/test-pendiente-bastones.webp)
 
 Me ahorraré la demostraciÃ³n trigonométrica, que no creo que le interese a mucha gente en este blog... ;-)
 

@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Crestas del BorÃƒÂ³n al atardecer..."
 heroImage: "https://crackrats.files.wordpress.com/2012/10/x-croquis-jorge.jpg"
 pubDate: 2016-06-17T11:26:14Z
 updatedDate: 2016-06-17T11:26:14Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Mientras AlbertoEpic sigue contando las horas que le faltan para volver a empezar... Luzia no para. El otro dÃƒÂ­a, al salir de currar, marcharon con Javi con el tiempo justo a Vadiello para hacer las Crestas del BorÃƒÂ³n. AÃƒÂ±ado a continuaciÃƒÂ³n un"
 category: "Escalada"

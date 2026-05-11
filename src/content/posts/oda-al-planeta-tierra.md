@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Oda al Planeta Tierra"
 pubDate: 2009-06-08T11:30:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:29:03Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Este video es una oda a la belleza de nuestro planeta y su delicada armonÃƒÂ­a. A travÃƒÂ©s de imÃƒÂ¡genes aÃƒÂ©reas, Yann Arthus-Bertrand nos lleva a un viaje ÃƒÂºnico alrededor del planeta, para contemplarlo y comprenderlo. No se trata simplemente de un"
 category: "Otros"

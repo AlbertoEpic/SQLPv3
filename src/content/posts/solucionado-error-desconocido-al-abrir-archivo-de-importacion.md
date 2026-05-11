@@ -1,9 +1,9 @@
-﻿---
+---
 title: "SOLUCIONADO: \"Error desconocido al abrir archivo de importaciÃƒÂ³n\""
 heroImage: "https://i.imgur.com/ZqwMHzv.gif"
 pubDate: 2019-05-08T10:41:15Z
 updatedDate: 2019-05-12T12:26:12Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El otro dÃƒÂ­a, trasteando con temas de GPS, me surgiÃƒÂ³ este problema: habÃƒÂ­a descargado un track en formato .gpx del Strava, y me disponÃƒÂ­a a estudiarlo y cargarlo en mi reloj GPS para seguir esa ruta. Pero al intentar abrirlo con el Garmin Base"
 category: "Tutoriales"

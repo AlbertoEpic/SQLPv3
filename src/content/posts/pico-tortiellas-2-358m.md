@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Pico Tortiellas (2.358m)"
 pubDate: 2017-02-21T10:05:18Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2017-02-22T14:01:17Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El otro dÃƒÂ­a Producciones SQLP estuvo por primera vez en el pico Tortiellas. Saliendo del pueblo de Canfranc, pequeÃƒÂ±o porteo por el bosque y luego, pasando por la Gruta Helada de LecherÃƒÂ­n, hasta la cima del Tortiellas por un entorno mÃƒÂ¡gico.."
 category: "EsquÃƒÂ­ de travesÃƒÂ­a"

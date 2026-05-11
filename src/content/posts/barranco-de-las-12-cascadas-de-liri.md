@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Barranco de las 12 cascadas de Liri"
 pubDate: 2011-06-30T22:00:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:47Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Pasamos el finde en Benasque. Tras la ruta de BTT del sÃƒÂ¡bado, recibimos refuerzos para el domingo. La idea es hacer algo refrescante, ya que dan fuerte aumento de las temperaturas. El domingo por la maÃƒÂ±ana, el nutrido grupo se resquebraja: "
 category: "Descenso de barrancos"

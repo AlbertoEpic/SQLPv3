@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Diamond Beach [ICELAND PILLS 10]"
 heroImage: "https://i.imgur.com/A1XIA2F.jpg"
 pubDate: 2024-09-23T08:25:06Z
 updatedDate: 2024-09-23T08:25:09Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "La Playa de los Diamantes: un Tesoro de Hielo y Arena Negra. En el sur de Islandia, junto a la famosa laguna glacial de JÃƒÂ¶kullsÃƒÂ¡rlÃƒÂ³n, se encuentra uno de los lugares mÃƒÂ¡s emblemÃƒÂ¡ticos y fotogÃƒÂ©nicos del paÃƒÂ­s: la Diamond Beach, o BreiÃƒÂ°amerkurs"
 category: "Islandia 2024"

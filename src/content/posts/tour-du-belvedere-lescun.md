@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Tour du BelvÃƒÂ©dÃƒÂ¨re (Lescun)"
 heroImage: "https://i.imgur.com/3JjHUgj.jpg"
 pubDate: 2021-10-17T16:51:35Z
 updatedDate: 2021-10-18T07:29:33Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Ruta circular ideal para hacer con niÃƒÂ±os El pasado puente del Pilar, en SQLP-kids aprovechamos para cruzar a Francia por el tÃƒÂºnel de Somport y acercarnos a Lescun para realizar esta bonita y fÃƒÂ¡cil circular. El sendero es en todo momento agr"
 category: "SQLP-kids"

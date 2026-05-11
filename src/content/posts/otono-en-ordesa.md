@@ -1,9 +1,9 @@
-﻿---
+---
 title: "OtoÃƒÂ±o en Ordesa"
 heroImage: "https://i.imgur.com/GIyN6i6.jpg"
 pubDate: 2022-10-21T17:58:13Z
 updatedDate: 2022-10-21T17:58:15Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Lluvioso paseo vespertino... Otro otoÃƒÂ±o mÃƒÂ¡s, habÃƒÂ­a que cumplir con lo establecido y realizar la clÃƒÂ¡sica peregrinaciÃƒÂ³n a Ordesa, a disfrutar de los mÃƒÂ¡gicos colores que nos brindan sus bosques. En esta ocasiÃƒÂ³n, el 'plan A' mucho mÃƒÂ¡s ambicioso"
 category: "SQLP-kids"

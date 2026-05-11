@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Cicloalpinismo: Garmo del Pico (2.674m)"
 heroImage: "https://i.imgur.com/R7CPaiz.jpg"
 pubDate: 2020-10-12T17:58:15Z
 updatedDate: 2020-10-12T18:18:06Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El otro dÃƒÂ­a, AlbertoEpic partiÃƒÂ³ de la base de SQLP con otra completa misiÃƒÂ³n: la ascensiÃƒÂ³n al Garmo del Pico para la elaboraciÃƒÂ³n de una foto esfÃƒÂ©rica para pano360.soloquedalopeor.com y obtener unas valiosas imÃƒÂ¡genes a vista de drone desde la"
 category: "Bicicleta de montaÃƒÂ±a"

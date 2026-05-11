@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Skimo: pico de Paderna (2.628m)"
 heroImage: "https://i.imgur.com/B1bYCym.jpg"
 pubDate: 2019-04-24T08:16:48Z
 updatedDate: 2019-04-24T08:19:13Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El pasado sÃƒÂ¡bado, tentando a la meteo incierta, Cheles y AlbertoEpic ascendieron con esquÃƒÂ­s de travesÃƒÂ­a al pico de Paderna. Puedes ver el recorrido seguido a continuaciÃƒÂ³n, en una animaciÃƒÂ³n 3D: https://video.relive.cc/1520084032_strava_15559"
 category: "EsquÃƒÂ­ de travesÃƒÂ­a"

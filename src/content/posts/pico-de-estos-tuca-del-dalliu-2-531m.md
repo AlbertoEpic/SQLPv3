@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Pico de EstÃƒÂ³s / Tuca del DalliÃƒÂº (2.531m)"
 heroImage: "https://i.imgur.com/H5Vup5P.jpg"
 pubDate: 2018-11-07T10:27:21Z
 updatedDate: 2018-11-08T15:46:53Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El domingo 4 de noviembre, Cheles y AlbertoEpic deciden subir al pico de EstÃƒÂ³s, sin esquÃƒÂ­s ni raquetas. Pocos dÃƒÂ­as antes ha caÃƒÂ­do la primera nevada del nuevo invierno, por lo que subir con esquÃƒÂ­s es descartable. Ã‚Â¿Y raquetas? Tal vez, pero p"
 category: "Ascensiones"

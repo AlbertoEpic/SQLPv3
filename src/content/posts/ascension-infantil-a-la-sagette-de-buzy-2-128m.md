@@ -1,10 +1,10 @@
-﻿---
+---
 title: "AscensiÃƒÂ³n infantil a La Sagette de Buzy (2.128m)"
 pubDate: 2023-09-08T19:05:18Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2023-09-08T19:07:05Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Hoy traemos una idea de actividad que puede tener dos enfoques: Para machacas: la hemos realizado alguna vez desde el Lac de FabrÃƒÂ¨ges, salvando el desnivel existente hasta el inicio de la ruta ascendiendo en BTT por una cÃƒÂ³moda pista. Queda "
 category: "SQLP-kids"

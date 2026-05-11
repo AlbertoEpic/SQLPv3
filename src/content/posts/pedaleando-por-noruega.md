@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Pedaleando por Noruega..."
 pubDate: 2015-10-12T22:59:49Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-10-12T22:59:49Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Hoy queremos compartir con vosotros la experiencia vivida este verano por uno de los globeros con mÃƒÂ¡s solera: jR, todo un globerazo desde el siglo pasado, un 'coco' con la informÃƒÂ¡tica, y uno de los que mejor se orientan cuando se trata de l"
 category: "Viajes"

@@ -1,10 +1,10 @@
-﻿---
+---
 title: "BTT - Senderos de Occitania - episodio 1"
 pubDate: 2011-07-07T21:42:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:47Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El pasado fin de semana un reducido comando globero de ÃƒÂ©lite formado por los especialistas Morenetti, Jarita, Luzia y AlbertoEpic estuvieron en las inmediaciones de la Pedals d'Occitania, realizando una pequeÃƒÂ±a adaptaciÃƒÂ³n del recorrido para"
 category: "Otros"

@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Escapada relÃƒÂ¡mpago por Bedous"
 pubDate: 2015-07-30T10:57:50Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-07-30T10:57:50Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El pasado finde se alinearon los astros y Luzia&AlbertoEpic tuvieron una maÃƒÂ±ana libre para la actividad que eligieran. La decisiÃƒÂ³n final fue un poco de BTT por el Pirineo francÃƒÂ©s. Una ruta corta pero muy chula. Lo bueno que tiene intennÃƒÂ© es"
 category: "Bicicleta de montaÃƒÂ±a"

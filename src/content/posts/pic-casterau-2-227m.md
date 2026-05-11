@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Pic CastÃƒÂ©rau (2.227m)"
 heroImage: "https://i.imgur.com/Gvc8AFX.jpg"
 pubDate: 2018-09-24T10:23:40Z
 updatedDate: 2018-09-26T11:07:40Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El pasado domingo tocaba ruta de pateo para seguir recuperando la forma perdida... La ruta que hoy reseÃƒÂ±amos es cÃƒÂ³moda para caminar, incluso correr, y mantiene un desnivel acumulado justo por debajo de los 1.000m. Todo eso, unido a que pais"
 category: "Ascensiones"

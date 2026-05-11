@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Fatpinismo invernal: 1 mundial al pico Tuc de Mulleres (3.011m)"
 pubDate: 2017-01-08T19:00:36Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2017-02-11T22:09:03Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Ã‚Â¿FATPINISMO? FAT bike + al PINISMO Primero fue la bicicleta. Se modificÃƒÂ³ para ir por pistas y se llamÃƒÂ³ bicicleta de montaÃƒÂ±a. Algunos pioneros decidieron ir a la montaÃƒÂ±a de verdad, saliendo de las pistas, y lo bautizaron como cicloalpinismo."
 category: "Bicicleta de montaÃƒÂ±a"

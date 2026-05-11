@@ -1,10 +1,10 @@
-﻿---
+---
 title: "BTT: Minas de Liat, o cuidadÃƒÂ­n con crearse expectativas..."
 pubDate: 2011-08-24T11:01:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:46Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Hace unos dÃƒÂ­as estuvimos en la vuelta por la Val d'Aran de las Minas de Liat (65km, 2.700m desnivel+ acumulado, 10h 30min de coche a coche). Le tenÃƒÂ­amos muchas ganas, tal vez demasiadas, despuÃƒÂ©s de tantas maravillas leÃƒÂ­das en 'intennÃƒÂ©': \" m"
 category: "Otros"

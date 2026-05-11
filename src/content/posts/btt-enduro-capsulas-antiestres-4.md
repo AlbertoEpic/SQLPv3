@@ -1,10 +1,10 @@
-﻿---
+---
 title: "BTT enduro: cÃƒÂ¡psulas antiestrÃƒÂ©s #4"
 pubDate: 2019-04-22T16:16:40Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2020-03-10T09:37:47Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Yebra de Basa - ermita de santa Orosia .: Descenso por la senda de las ermitas :. ReseÃƒÂ±amos a continuaciÃƒÂ³n otra de nuestras ya clÃƒÂ¡sicas 'cÃƒÂ¡psulas antiestrÃƒÂ©s': rutas relativamente breves para hacer en una escapada rÃƒÂ¡pida, pero que nos dejarÃƒÂ¡"
 category: "Bicicleta de montaÃƒÂ±a"

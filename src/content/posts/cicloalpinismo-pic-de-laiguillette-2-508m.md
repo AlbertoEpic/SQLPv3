@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Cicloalpinismo: pic de l'Aiguillette (2.508m)"
-heroImage: "/attachments/lAiguillette-1-jpg.webp"
+heroImage: "attachments/lAiguillette-1-jpg.webp"
 pubDate: 2023-10-27T10:39:14Z
 updatedDate: 2023-10-27T10:39:15Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Seguimos con la serie 'Desayunando en...' Aprovechando la bonanza de la meteo a primeros de octubre, en SQLP seguimos con la excéntrica serie de actividades 'Desayunando en...'. el turno es ahora para el pic de l'Aiguillete, una cima que pa"
 category: "Bicicleta de montaña"
@@ -26,7 +26,7 @@ Por supuesto nuestro especialista cargÃ³ todo el dÃ­a el AlbertdrÃ³n para 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/BK3BWEmsBqk" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-[![](/attachments/lAiguillette-1-jpg.webp)](https://pano360.soloquedalopeor.com/panorama/pic-de-laiguillette-2-508m/)
+[![](attachments/lAiguillette-1-jpg.webp)](https://pano360.soloquedalopeor.com/panorama/pic-de-laiguillette-2-508m/)
 Foto esférica con cimas etiquetadas!!!
 
 Como no podÃ­a ser de otra manera, AlbertoEpic no perdiÃ³ la oportunidad de cumplir con el encargo de nuestra secciÃ³n Pano360 y tomÃ³ la foto esférica desde la cima para su posterior procesamiento. La hemos añadido ya a nuestro extenso catálogo...

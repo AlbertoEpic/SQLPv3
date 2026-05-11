@@ -1,10 +1,10 @@
-﻿---
+---
 title: "BTT: Punta Selva y el espÃƒÂ­ritu montaraz de VillanÃƒÂºa..."
 pubDate: 2015-11-09T10:15:11Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-11-09T10:15:11Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El pasado sÃƒÂ¡bado, Laura, Luzia y AlbertoEpic estuvieron en VillanÃƒÂºa para una escapada en BTT. En las labores de documentaciÃƒÂ³n, AlbertoEpic buscaba dÃƒÂ­as antes una ruta por esa zona, que subiera a algÃƒÂºn sitio alto, con orientaciÃƒÂ³n S (soleada,"
 category: "Bicicleta de montaÃƒÂ±a"

@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Circular de Polituara desde Santa Elena"
 heroImage: "https://i.imgur.com/0ae1x9M.jpg"
 pubDate: 2021-10-21T08:15:49Z
 updatedDate: 2021-10-21T09:00:18Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Descubriendo los bÃƒÂºnkers de la 'LÃƒÂ­nea P'... Otra propuesta sencilla para hacer con niÃƒÂ±os. Con abundante sombra, poco desnivel, y dos alicientes extras: 1.- Un puente tibetano para cruzar el rÃƒÂ­o GÃƒÂ¡llego. 2.- Ir encontrando los bÃƒÂºnkers de la "
 category: "SQLP-kids"

@@ -1,10 +1,10 @@
-﻿---
+---
 title: "PeÃƒÂ±a Foratata (2.329m): la combinada perfecta..."
 pubDate: 2023-12-20T09:53:07Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2023-12-20T09:53:08Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Ruta de ascensiÃƒÂ³n circular a uno de los iconos del valle de Tena Con bastante retraso, aÃƒÂ±adimos al blog de SQLP una actividad muy golosa para cualquiera al que le guste esto del monte. Se trata de la ascensiÃƒÂ³n a la PeÃƒÂ±a Foratata, cima icÃƒÂ³ni"
 category: "Ascensiones"

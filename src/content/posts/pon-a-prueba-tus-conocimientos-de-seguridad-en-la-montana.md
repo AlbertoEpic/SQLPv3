@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Pon a prueba tus conocimientos de seguridad en la montaÃƒÂ±a"
 pubDate: 2013-11-29T10:04:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:36Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Por casualidad he encontrado en internet este pequeÃƒÂ±o test de seguridad en montaÃƒÂ±a ante riesgo de avalanchas, y me ha parecido interesante. Lo comparto con vosotros... (ExtraÃƒÂ­do de http://www.puravidaschool.com/test/ ) AquÃƒÂ­ tienes una impre"
 category: "Otros"

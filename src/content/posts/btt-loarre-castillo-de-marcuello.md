@@ -1,9 +1,9 @@
-﻿---
+---
 title: "BTT: Loarre-Castillo de Marcuello"
 heroImage: "https://i.imgur.com/MOLcBvF.jpg"
 pubDate: 2021-05-04T09:07:52Z
 updatedDate: 2021-05-04T09:13:10Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "La ruta que proponemos hoy intenta buscar pistas con buenas vistas, por la sierra de Loarre, y sin demasiados desniveles para seguir siendo asequibles a los pequeÃƒÂ±os bikers... Ida y vuelta por el mismo camino, para mantener la curva de nive"
 category: "SQLP-kids"

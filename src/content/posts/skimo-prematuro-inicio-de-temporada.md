@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Skimo: prematuro inicio de temporada!"
 pubDate: 2019-11-29T07:42:51Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2019-11-29T07:46:34Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "La nieve llega un mes antes de lo previsto... Esta temporada comienza bien. Durante dos semanas a mitad de noviembre, bajas temperaturas junto a sucesivos frentes no han parado de dejar nieve en el Pirineo. En SQLP hemos aprovechado para co"
 category: "EsquÃƒÂ­ de travesÃƒÂ­a"

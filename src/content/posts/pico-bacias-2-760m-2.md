@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Pico BacÃƒÂ­as (2.760m)"
 pubDate: 2018-01-12T12:25:18Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2018-01-12T12:28:28Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El otro dÃƒÂ­a AlbertoEpic se uniÃƒÂ³ al grupo de LaMeteoQueViene, con Jorge a la cabeza, y se dirigieron al Balneario de Panticosa. Desde allÃƒÂ­ realizaron la ascensiÃƒÂ³n con esquÃƒÂ­s de montaÃƒÂ±a al pico BacÃƒÂ­as, comenzando por la variante del GR. La no"
 category: "EsquÃƒÂ­ de travesÃƒÂ­a"

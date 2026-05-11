@@ -1,9 +1,9 @@
-﻿---
+---
 title: "VÃƒÂ­a ferrata 'El Escuacho' - K4"
 heroImage: "https://i.imgur.com/5hn6aCk.jpg"
 pubDate: 2022-09-22T16:45:24Z
 updatedDate: 2022-09-22T17:50:42Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Conocemos la nueva vÃƒÂ­a ferrata de Escarrilla... El pasado miÃƒÂ©rcoles, el mÃƒÂ­tico equipo de SQLP - 'TeRReX .:. Infiltrados por el Mundo', especializado en actividades relÃƒÂ¡mpago en miÃƒÂ©rcoles vespertinos, se desplazÃƒÂ³ a Escarrilla a conocer la nu"
 category: "Escalada"

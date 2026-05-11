@@ -1,9 +1,9 @@
-﻿---
+---
 title: "La Palma - volcÃƒÂ¡n de Tajogaite"
 heroImage: "https://i.imgur.com/Tthp4AX.jpg"
 pubDate: 2022-09-07T15:45:33Z
 updatedDate: 2022-09-07T15:50:27Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Vacaciones en La Palma: dÃƒÂ­a 3 Y claro, si hoy en dÃƒÂ­a viajas a La Palma, es imperdonable no acercarte a ver el famoso volcÃƒÂ¡n 'de Cumbre Vieja' o 'de La Palma' en las noticias, bautizado como volcÃƒÂ¡n de Tajogaite. Se originÃƒÂ³ en la erupciÃƒÂ³n ini"
 category: "La Palma 2022"

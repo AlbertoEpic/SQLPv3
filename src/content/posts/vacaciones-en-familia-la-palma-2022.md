@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Vacaciones en familia: La Palma 2022"
 heroImage: "https://i.imgur.com/Oz8jlGP.jpg"
 pubDate: 2022-10-01T16:22:11Z
 updatedDate: 2022-10-01T16:22:13Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Aventuras de Cheles, Sami y AlbertoEpic en la isla de La Palma... A finales del mes de agosto, el equipo SQLP formado por Cheles, Sami y AlbertoEpic marcharon una semana de vacaciones a las islas Canarias. Concretamente se decidieron por vi"
 category: "La Palma 2022"

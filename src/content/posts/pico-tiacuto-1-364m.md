@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Pico Tiacuto (1.364m)"
 heroImage: "https://i.imgur.com/51UX3cX.jpg"
 pubDate: 2021-01-04T10:15:57Z
 updatedDate: 2021-01-04T10:26:16Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "En circular desde Santa Eulalia de La PeÃƒÂ±a Hoy en SQLP-Kids os proponemos una sencilla actividad para ascender a una cima que nos sorprenderÃƒÂ¡ por las buenas y variadas vistas: por un lado hacia el sur, sobre la Hoya de Huesca; por otro haci"
 category: "SQLP-kids"

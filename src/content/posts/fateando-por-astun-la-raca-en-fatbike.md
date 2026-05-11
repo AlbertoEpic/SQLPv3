@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Fateando por AstÃƒÂºn... La Raca en FatBike!"
 pubDate: 2016-12-04T23:07:49Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2016-12-04T23:07:49Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El otro dÃƒÂ­a se dieron las condiciones idÃƒÂ³neas: la estaciÃƒÂ³n de AstÃƒÂºn todavÃƒÂ­a cerrada, pero con la pista hasta lo alto de La Raca ya pisada; un dÃƒÂ­a de postal, y dos fatos muy fatos dispuestos a sacar a pasear otras tantas fatbikes! Coco y Alb"
 category: "Bicicleta de montaÃƒÂ±a"

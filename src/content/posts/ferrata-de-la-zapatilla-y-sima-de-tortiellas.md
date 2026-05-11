@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Ferrata de La Zapatilla y Sima de Tortiellas"
 heroImage: attachments/SQLPcomodin.jpg
 pubDate: 2017-08-13T00:29:59Z
 updatedDate: 2017-08-13T00:44:01Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El otro dÃ­a SQLP estuvo por fin en una actividad sencilla, pero sobre todo muy original. Hace tiempo que AlbertoEpic la tenÃ­a en la lista de pendientes, asÃ­ que cuando le surgiÃ³ la oportunidad de ir con Eva no tuvo ninguna duda. No importa "
 category: "Escalada"
@@ -24,7 +24,7 @@ Algunos datos:
 
  	- La vÃ­a ferrata sigue el trazado de la vÃ­a reseñada en la imagen:
 
-![](/attachments/reseña.webp) La Zapatilla
+![](attachments/reseña.webp) La Zapatilla
 
 No se han añadido grapas, simplemente la lÃ­nea de vida, por lo que se realiza una trepada fácil con casco, arnés y disipador.
 

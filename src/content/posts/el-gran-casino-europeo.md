@@ -1,10 +1,10 @@
-﻿---
+---
 title: "El gran casino europeo"
 pubDate: 2011-01-11T09:15:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:53Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Para los que no estamos puestos en temas de economÃƒÂ­a, esto da que pensar... El gran casino europeo from ATTAC.TV on Vimeo . Agradecimientos a ToÃƒÂ±o por el aporte de este video a la comunidad globeril..."
 category: "Otros"

@@ -1,10 +1,10 @@
-﻿---
+---
 title: "[scattered flurries]"
 pubDate: 2012-02-06T22:38:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:42Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Algo asÃƒÂ­ como \"Chubascos de nieve\" sugiere el tÃƒÂ­tulo de este video. Unas imÃƒÂ¡genes de esquÃƒÂ­ en Colorado que hacen que te sorprendas a ti mismo con taquicardias, mirando en skyscanner.es por cuÃƒÂ¡nto sale un vuelo a Denver para la semana que vi"
 category: "Otros"

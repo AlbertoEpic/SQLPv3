@@ -1,9 +1,9 @@
-﻿---
+---
 title: "La Palma - La VÃƒÂ­a LÃƒÂ¡ctea (Desde R.d.l.M.)"
 heroImage: "https://i.imgur.com/ds4Fb7d.jpg"
 pubDate: 2022-09-15T07:48:45Z
 updatedDate: 2022-09-15T09:36:49Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Vacaciones en La Palma: dÃƒÂ­a 5bis La idea era ver las estrellas desde el mismo Roque de los Muchachos, pero resulta que toda el ÃƒÂ¡rea es clausurada por la noche, para uso y disfrute de los astrÃƒÂ³nomos 'de verdad', sin las posibles molestias ca"
 category: "La Palma 2022"

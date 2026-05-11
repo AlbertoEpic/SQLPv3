@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Primer Peyreget de la temporada..."
 heroImage: "https://i.imgur.com/Uv3y16C.jpg"
 pubDate: 2019-02-22T11:07:17Z
 updatedDate: 2019-02-22T15:46:52Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El otro dÃƒÂ­a, para entrar con buen pie en la semana blanca, Almudena y AlbertoEpic quedaron para subir al Peyreget. Los imprevistos varios hicieron que nos dÃƒÂ© vergÃƒÂ¼enza dejar constancia del horario de la actividad, por lo que no vamos a deci"
 category: "EsquÃƒÂ­ de travesÃƒÂ­a"

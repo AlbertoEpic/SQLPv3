@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Haute Route 2015 'Swiss Style' - episodio 1"
 pubDate: 2015-04-13T08:35:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-13T08:42:25Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Comenzamos con el primer episodio de la serie HR 2015... La idea original de realizar la clÃƒÂ¡sica Chamonix-Zermatt se vio truncada por la mala meteo prevista, y hubo que variar ligeramente los planes. Por suerte, el equipo internacional hisp"
 category: "EsquÃƒÂ­ de travesÃƒÂ­a"

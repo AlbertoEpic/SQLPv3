@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Skimo: Tuca del Posolobino (2.778m)"
 pubDate: 2020-01-29T10:44:58Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2020-03-02T16:05:29Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "https://youtu.be/9dT8hHh_5LE El pasado domingo 26 de enero, Cheles y AlbertoEpic pudieron vivir una experiencia religiosa. Prevenidos ante la nieve de los ÃƒÂºltimos dÃƒÂ­as, donde experiencias varias hablaban de nieve hÃƒÂºmeda tipo 'engrudo' total"
 category: "EsquÃƒÂ­ de travesÃƒÂ­a"

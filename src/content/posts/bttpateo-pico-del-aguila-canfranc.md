@@ -1,9 +1,9 @@
-﻿---
+---
 title: "BTT+pateo: pico del ÃƒÂguila (Canfranc)"
 heroImage: "https://i.imgur.com/WHQHsc6.jpg"
 pubDate: 2021-10-13T08:55:39Z
 updatedDate: 2021-10-13T09:54:01Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El pasado domingo 26 de septiembre, nuestros especialistas Myriam y Albertoepic estuvieron de paseo por el monte. Llevaron a cabo una de sus habituales rutas 'PECA' (pedalear+caminar): salir pedaleando de la EstaciÃƒÂ³n Internacional de Canfra"
 category: "Bicicleta de montaÃƒÂ±a"

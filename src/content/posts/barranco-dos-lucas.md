@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Barranco d'Os Lucas"
 heroImage: "https://i.imgur.com/FzALNhk.gif"
 pubDate: 2018-08-04T17:54:51Z
 updatedDate: 2018-09-05T18:25:59Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Sirva este breve post simplemente para reseÃƒÂ±ar una breve actividad realizada el 2 de agosto por el equipo SQLP. Adjuntamos la reseÃƒÂ±a y aÃƒÂ±adimos el track a nuestra base de datos."
 category: "Descenso de barrancos"

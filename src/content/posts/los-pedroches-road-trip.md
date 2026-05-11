@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Los Pedroches Road Trip"
 pubDate: 2009-06-17T14:40:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:29:03Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "He aquÃƒÂ­ una de nuestras palizas kilomÃƒÂ©tricas furgonetÃƒÂ­sticas para ir a una competiciÃƒÂ³n, esta vez el campeonato de EspaÃƒÂ±a de orientaciÃƒÂ³n en bici. Como es habitual, las carreras son la excusa para conocer sitios y gentes y pasarlo bomba... mi"
 category: "Otros"

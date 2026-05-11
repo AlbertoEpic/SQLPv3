@@ -1,9 +1,9 @@
-﻿---
+---
 title: "FATBIKE: VÃƒÂ©rtice del Anayet"
 heroImage: "https://i.imgur.com/HnW7VM9.jpg"
 pubDate: 2020-10-28T10:40:38Z
 updatedDate: 2020-10-28T10:43:15Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El pasado sÃƒÂ¡bado 17 de octubre, y con el Pirineo blanco por unas inusuales y tempraneras nevadas, llegÃƒÂ³ la hora de sacar a pasear a la fatbike! AlbertoEpic saliÃƒÂ³ del parking Portalet de la estaciÃƒÂ³n de esquÃƒÂ­ de Formigal, cruzÃƒÂ³ el llano de lo"
 category: "Bicicleta de montaÃƒÂ±a"

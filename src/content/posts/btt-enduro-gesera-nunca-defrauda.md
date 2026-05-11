@@ -1,9 +1,9 @@
-﻿---
+---
 title: "BTT enduro: GÃƒÂ©sera nunca defrauda"
 heroImage: "https://i.imgur.com/HI2nUeb.jpg"
 pubDate: 2018-11-18T10:45:05Z
 updatedDate: 2018-11-18T10:45:05Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El finde se acercaba peligrosamente. Se presentaba un sÃƒÂ¡bado incierto, con meteo revuelta, pero la necesidad de hacer algo porque la previsiÃƒÂ³n para el domingo era mucho peor... El viernes el globero jR prende la llama que desencadenarÃƒÂ¡ todo"
 category: "Bicicleta de montaÃƒÂ±a"

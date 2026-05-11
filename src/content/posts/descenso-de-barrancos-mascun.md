@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Descenso de barrancos: MascÃƒÂºn"
 pubDate: 2011-05-31T09:51:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:49Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El pasado sÃƒÂ¡bado quedÃƒÂ³ inaugurada definitivamente la temporada de barrancos para sqlp con el descenso del MascÃƒÂºn (En palabras de Marcos, 'mÃƒÂ¡scun barranco'). LlevÃƒÂ¡bamos alguno mÃƒÂ¡s, pero este por fin es uno de esos en los que tras unas horas "
 category: "Descenso de barrancos"

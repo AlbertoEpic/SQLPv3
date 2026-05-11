@@ -1,10 +1,10 @@
-﻿---
+---
 title: "USA 2012: Yosemite National Park"
 pubDate: 2012-09-19T06:30:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:40Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Damos otro salto en el tiempo para asistir a la ÃƒÂºltima actividad 'fÃƒÂ­sica' de Luzia y AlbertoEpic en su viaje por USA. Siguen en 'modo raid', apurando el tiempo al mÃƒÂ¡ximo. Tras visitar San Francisco, cogen el coche para ir a Glacier Point, e"
 category: "Otros"

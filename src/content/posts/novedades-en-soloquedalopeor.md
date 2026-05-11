@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Novedades en SoloQuedaLoPeor..."
-heroImage: "/attachments/borrame-300x247.webp"
+heroImage: "attachments/borrame-300x247.webp"
 pubDate: 2012-01-20T08:56:00Z
 updatedDate: 2015-04-06T10:28:43Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Hola cibernautas. Os comunicamos que en SoloQuedaLoPeor estrenamos diseño/concepto/organizaciÃ³n/ llámalo como quieras... SQLP se habÃ­a ido extendiendo por la red en diferentes vertientes, que ahora han sido unificadas. Si ahora tecleas en t"
 category: "Otros"
@@ -14,7 +14,7 @@ Hola cibernautas. Os comunicamos que en SoloQuedaLoPeor estrenamos diseño/conce
 
 SQLP se habÃ­a ido extendiendo por la red en diferentes vertientes, que ahora han sido unificadas. Si ahora tecleas en tu navegador www.soloquedalopeor.com, accederás a la portada de la nueva web.
 
-[![](/attachments/borrame.webp)Portada de SQLPAllÃ­ tienes cuatro niveles de varios bloques cada uno:
+[![](attachments/borrame.webp)Portada de SQLPAllÃ­ tienes cuatro niveles de varios bloques cada uno:
 
 1er nivel: contenidos del blog de SQLP.
 

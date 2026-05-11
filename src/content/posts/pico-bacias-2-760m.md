@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Pico BacÃƒÂ­as (2.760m)"
-heroImage: "/attachments/qr_bacias.webp"
+heroImage: "attachments/qr_bacias.webp"
 pubDate: 2016-01-25T10:55:58Z
 updatedDate: 2016-01-25T10:55:58Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El pasado domingo tocaba subir a algÃƒÂºn monte, y si tenÃƒÂ­a que ser un plan rÃƒÂ¡pido y con esquÃƒÂ­s, ademÃƒÂ¡s de lejos de la nieve de caÃƒÂ±ÃƒÂ³n... las posibilidades quedaban bastante limitadas. Ã‚Â¿QuÃƒÂ© tal un BacÃƒÂ­as desde el Balneario de Panticosa? Vamosss"
 category: "EsquÃƒÂ­ de travesÃƒÂ­a"
@@ -20,7 +20,7 @@ El BacÃƒÂ­asÃ‚Â ha sido 'trending topic' este fin de semana, y es difÃ
 Condiciones 100% primaverales: nieve helada a primera hora, sopita rica a mediodÃƒÂ­a y enseguida, con este discreto sol de enero, comenzaba a formarse costra de rehielo. TocÃƒÂ³ un poco de porteo, testimonial a la subida (5min) y un poco mÃƒÂ¡s a la bajada (10min, algo mÃƒÂ¡s si no querÃƒÂ­as hacer equilibrios y un poco de esquÃƒÂ­ al-pino)
 
 Puedes descargar el [track aqui](http://www.gpsies.com/map.do?fileId=nrixmejfodzjmftn).
-[![](/attachments/qr_bacias.webp)
+[![](attachments/qr_bacias.webp)
 
 Y a continuaciÃƒÂ³n, un par de fotos:
 

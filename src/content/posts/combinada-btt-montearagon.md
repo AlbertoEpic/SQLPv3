@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Combinada BTT MontearagÃ³n"
-heroImage: "/attachments/IMG_7980-198x300.webp"
+heroImage: "attachments/IMG_7980-198x300.webp"
 pubDate: 2008-11-24T10:53:00Z
 updatedDate: 2015-04-06T10:29:08Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Este fin de semana se disputÃ³ la ya tradicional prueba de BTT de MontearagÃ³n aunque este año por primera vez se hizo la prueba combinada y fueron 2 carreras en un mismo fin de semana. El sábado por la tarde se disputÃ³ la Cronoescalada por e"
 category: "Otros"
@@ -30,13 +30,13 @@ Por último disfrutamos de una copiosa comida preparada de nuevo por el Ayuntami
 
 de Quicena que tan bien se porta siempre con nosotros. Todos los corredores se quedaron con un gran sabor de boca y seguro que repetirán en prÃ³ximas ediciones de la prueba.
 
-Desde aquÃ­ dar las gracias a todos los voluntarios de Peña Guara que hicieron un trabajo increÃ­ble como siempre y en especial a Roberto, Christian y todos los que ayudaron a preparar el trazado de la prueba.[![](/attachments/IMG_7980.webp)
+Desde aquÃ­ dar las gracias a todos los voluntarios de Peña Guara que hicieron un trabajo increÃ­ble como siempre y en especial a Roberto, Christian y todos los que ayudaron a preparar el trazado de la prueba.[![](attachments/IMG_7980.webp)
 
-[![](/attachments/IMG_7973.webp)
+[![](attachments/IMG_7973.webp)
 
-[![](/attachments/IMG_7978.webp)
+[![](attachments/IMG_7978.webp)
 
-[![](/attachments/IMG_7970.webp)
+[![](attachments/IMG_7970.webp)
 
-[![](/attachments/IMG_7969.webp)
+[![](attachments/IMG_7969.webp)
 

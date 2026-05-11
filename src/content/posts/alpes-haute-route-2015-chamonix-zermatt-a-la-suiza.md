@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Alpes - Haute Route 2015 Chamonix-Zermatt 'a la suiza'"
 pubDate: 2015-04-04T00:06:12Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-04T00:18:27Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "AlbertoEpic acaba de regresar de los Alpes, de su tercer intento a la Chamonix-Zermatt. Nuevamente la meteo no ha acompaÃƒÂ±ado excesivamente, pero eso tampoco ha sido malo del todo: en esta ocasiÃƒÂ³n tenÃƒÂ­a la suerte de formar equipo con Laura, "
 category: "EsquÃƒÂ­ de travesÃƒÂ­a"

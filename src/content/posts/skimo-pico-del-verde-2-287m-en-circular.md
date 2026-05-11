@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Skimo: pico del Verde (2.287m) en circular"
 heroImage: "https://i.imgur.com/KuwQhWz.jpg"
 pubDate: 2019-02-11T11:38:09Z
 updatedDate: 2019-02-11T11:40:13Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "1 Salida Promocional Skimo de PeÃƒÂ±a Guara 2019 Dicha salida del club oscense de montaÃƒÂ±a se celebrÃƒÂ³ el pasado domingo 10 de febrero, resultando un ÃƒÂ©xito a pesar de la mala meteo prevista... Dado el mal pronÃƒÂ³stico de las condiciones, se optÃƒÂ³ "
 category: "EsquÃƒÂ­ de travesÃƒÂ­a"

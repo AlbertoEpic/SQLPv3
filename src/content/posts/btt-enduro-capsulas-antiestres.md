@@ -1,10 +1,10 @@
-﻿---
+---
 title: "BTT enduro: cÃƒÂ¡psulas antiestrÃƒÂ©s"
 pubDate: 2017-06-30T09:38:20Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2017-06-30T09:38:20Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Ahora que la temporada de nieve terminÃƒÂ³ por fin, en SQLP van tomando mÃƒÂ¡s protagonismo las actividades veraniegas: alpinismo, btt, barrancos,... Hoy simplemente proponemos dos actividades en btt. Todos conocemos las propiedades terapÃƒÂ©uticas "
 category: "Bicicleta de montaÃƒÂ±a"

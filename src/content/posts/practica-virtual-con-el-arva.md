@@ -1,10 +1,10 @@
-﻿---
+---
 title: "PrÃƒÂ¡ctica virtual con el ARVA..."
 pubDate: 2009-02-05T20:03:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:29:06Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "A las buenas noches! El otro dÃƒÂ­a me enterÃƒÂ© de una direcciÃƒÂ³n muy interesante: si nunca encuentras el momento para realizar prÃƒÂ¡cticas de ARVA (Muy mal hecho), ahora las puedes hacer en tu casa, desde el ordenador. Los chicos de 'Esqui de Munt"
 category: "Otros"

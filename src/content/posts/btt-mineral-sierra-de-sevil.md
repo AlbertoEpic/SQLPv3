@@ -1,10 +1,10 @@
-﻿---
+---
 title: "BTT 'mineral': sierra de Sevil"
 pubDate: 2016-11-14T11:04:40Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2016-11-14T11:04:40Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El otro dÃƒÂ­a el equipo SQLP estuvo en AlquÃƒÂ©zar, realizando una actividad rÃƒÂ¡pida de BTT: ruta saliendo de AlquÃƒÂ©zar, subida al MesÃƒÂ³n de Sevil y bajada por toda la sierra de Sevil y las balsas de Basacol. Esta vez no hay fotos, nos limitamos a "
 category: "Bicicleta de montaÃƒÂ±a"

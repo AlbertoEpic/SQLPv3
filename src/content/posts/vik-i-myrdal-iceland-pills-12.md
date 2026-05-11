@@ -1,9 +1,9 @@
-﻿---
+---
 title: "VÃƒÂ­k ÃƒÂ­ MÃƒÂ½rdal [ICELAND PILLS 12]"
 heroImage: "https://i.imgur.com/JJO2koh.jpg"
 pubDate: 2024-09-27T15:54:28Z
 updatedDate: 2024-09-27T15:54:29Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Un paseo fotogrÃƒÂ¡fico... Enclavado en la costa sur de Islandia. Conocida por sus impresionantes acantilados negros, playas de arena volcÃƒÂ¡nica y el majestuoso Reynisdrangar, Vik es una de las joyas naturales mÃƒÂ¡s admiradas de Islandia. Nos res"
 category: "Islandia 2024"

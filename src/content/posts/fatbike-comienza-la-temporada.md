@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Fatbike: comienza la temporada..."
 heroImage: "https://i.imgur.com/Gy8U5bL.jpg"
 pubDate: 2018-12-03T11:54:32Z
 updatedDate: 2018-12-03T12:04:44Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "A finales de abril del 2016, AlbertoEpic iniciÃƒÂ³ la era de 'fatear por la nieve' para SQLP con su primer ascenso en fatbike a La Raca, en AstÃƒÂºn. Desde entonces, cuando se dan las condiciones, la fatbike sobre nieve se ha convertido en una de"
 category: "Bicicleta de montaÃƒÂ±a"

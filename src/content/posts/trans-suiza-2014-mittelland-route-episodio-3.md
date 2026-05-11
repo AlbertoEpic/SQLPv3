@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Trans-Suiza 2014: Mittelland Route - episodio 3"
-heroImage: "/attachments/fotito.webp"
+heroImage: "attachments/fotito.webp"
 pubDate: 2014-08-21T07:10:00Z
 updatedDate: 2018-12-05T12:55:50Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Ya estÃƒÂ¯Ã‚Â¿Ã‚Â½ en el aire el tercer y ÃƒÂ¯Ã‚Â¿Ã‚Â½ltimo episodio de la serie Mittelland Route. Nuestros especialistas Luzia y AlbertoEpic recorren el ÃƒÂ¯Ã‚Â¿Ã‚Â½ltimo tramo de la Mitteland Route, desde Solothurn hasta Laussane. Muchas gracias a Bastian por acogernos e"
 category: "Viajes"
@@ -14,7 +14,7 @@ tags:
   - "solothurn"
   - "suiza"
 ---
-[![](/attachments/fotito.webp)Ya estÃƒÂ¯Ã‚Â¿Ã‚Â½ en el aire el tercer y ÃƒÂ¯Ã‚Â¿Ã‚Â½ltimo episodio de la serie Mittelland Route.
+[![](attachments/fotito.webp)Ya estÃƒÂ¯Ã‚Â¿Ã‚Â½ en el aire el tercer y ÃƒÂ¯Ã‚Â¿Ã‚Â½ltimo episodio de la serie Mittelland Route.
 
 Nuestros especialistas Luzia y AlbertoEpic recorren el ÃƒÂ¯Ã‚Â¿Ã‚Â½ltimo tramo de la Mitteland Route, desde Solothurn hasta Laussane. Muchas gracias a Bastian por acogernos en su casa una noche cerca de Biel.
 

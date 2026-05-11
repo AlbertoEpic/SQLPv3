@@ -1,9 +1,9 @@
-﻿---
+---
 title: "BTT infantil: vuelta al embalse de La Sotonera"
 heroImage: "https://i.imgur.com/asMkvMr.jpg"
 pubDate: 2022-02-14T10:37:17Z
 updatedDate: 2022-02-14T11:04:03Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Ruta sencilla pero... cuidado con el cierzo! Hoy te traemos una ruta de BTT apta para hacer con niños. Poco desnivel, pistas cÃ³modas y carreteras de poco tráfico. Eso sÃ­, mucho cuidado con el viento! Una actividad sencilla se convierte a me"
 category: "SQLP-kids"
@@ -33,5 +33,5 @@ La ruta termina recorriendo los más de 3km de longitud de la presa...
 ![](https://i.imgur.com/asMkvMr.jpg)
 La ruta termina recorriendo los más de 3km de longitud de la presa...
 
-![](/attachments/2026/Pasted%20image%2020260501185237.webp)
+![](attachments/2026/Pasted%20image%2020260501185237.webp)
 La ruta termina recorriendo los más de 3km de longitud de la presa...

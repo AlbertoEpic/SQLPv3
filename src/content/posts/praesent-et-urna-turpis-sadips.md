@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Praesent Et Urna Turpis"
 pubDate: 2012-07-31T17:26:20Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2012-07-31T17:26:20Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Quisque ligulas ipsum, euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla nunc dui, tristique in semper vel, congue sed ligula. Nam dolor ligula, fa"
 tags:

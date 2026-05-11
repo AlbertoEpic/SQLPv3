@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Y la nieve se convirtiÃƒÂ³ en cristal..."
 pubDate: 2012-01-10T09:01:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:43Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Estos dÃƒÂ­as el monte se ha puesto muy peligroso. La ausencia de nevadas, la lluvia, las altas/bajas temperaturas, el viento,... se han aliado para convertir el monte en una pista de patinaje muy peligrosa. Pudimos comprobarlo el otro dÃƒÂ­a: sa"
 category: "Otros"

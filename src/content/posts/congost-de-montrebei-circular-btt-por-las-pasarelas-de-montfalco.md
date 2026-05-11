@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Congost de Montrebei: circular BTT por las pasarelas de MontfalcÃƒÂ³"
 heroImage: "https://i.imgur.com/n1R2Bma.jpg"
 pubDate: 2017-11-13T13:47:58Z
 updatedDate: 2017-11-13T13:47:58Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El pasado finde se dieron una serie de coincidencias cual singular alineaciÃƒÂ³n planetaria, para regocijo de SQLP... En la agenda estaba marcada una clÃƒÂ¡sica ascensiÃƒÂ³n a Guara en BTT. Sin embargo, la baja de ÃƒÂºltima hora de Morenetti, promotor "
 category: "Bicicleta de montaÃƒÂ±a"

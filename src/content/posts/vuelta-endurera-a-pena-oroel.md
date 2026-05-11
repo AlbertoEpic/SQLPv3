@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Vuelta endurera a Peña Oroel..."
-heroImage: "/attachments/face.webp"
+heroImage: "attachments/face.webp"
 pubDate: 2015-12-20T23:59:23Z
 updatedDate: 2015-12-20T23:59:23Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El otro dÃ­a, de buenas a primeras se formÃ³ un buen grupeto de seres singulares que, con la bici y el enduro como nexo de uniÃ³n, y alentados por un post incendiario en Facebook de Koldo (EnduroMaster de la Jacetania), acudieron a Jaca como m"
 category: "Bicicleta de montaña"
@@ -12,7 +12,7 @@ tags:
   - "enduro"
   - "Oroel"
 ---
-[![](/attachments/face.webp)El otro dÃ­a, de buenas a primeras se formÃ³ un buen grupeto de seres singulares que, con la bici y el enduro como nexo de uniÃ³n, y alentados por un post incendiario en FacebookÂ de Koldo (EnduroMaster de la Jacetania), acudieron a Jaca como moscas a la miel...
+[![](attachments/face.webp)El otro dÃ­a, de buenas a primeras se formÃ³ un buen grupeto de seres singulares que, con la bici y el enduro como nexo de uniÃ³n, y alentados por un post incendiario en FacebookÂ de Koldo (EnduroMaster de la Jacetania), acudieron a Jaca como moscas a la miel...
 
 La ruta elegida era la vuelta a Peña Oroel, pero aderezada con mucho sendero y grandes dosis de adrenalina... Como novedad, la parte baja del sendero de Los Lobos, con una nueva variante, como dicen los entendidos, 'con mucho flow'! Y de postre, para terminar la ruta, la bajada de Las Calzadas, todo un clásico. Al final de la ruta, losÂ seis integrantes (Quiri, Pedro, Oscar, Javi, Paco y AlbertoEpic) de la grupeta terminaron mansos, mansos... y con una sonrisa de oreja a oreja. :-)
 
@@ -27,11 +27,11 @@ Puedes ver el mapa con el track de la ruta a continuaciÃ³n (El track ha sido p
 
 Y a continuaciÃ³n verás algunas fotos de la ruta, todas cortesÃ­a de Quiri.
 
-[![](/attachments/12377951_986341174755757_8398773719295276380_o.webp) Foto de grupo en la cima.
+[![](attachments/12377951_986341174755757_8398773719295276380_o.webp) Foto de grupo en la cima.
 
-[![](/attachments/12366154_986340864755788_1299248356621258513_o.webp)
+[![](attachments/12366154_986340864755788_1299248356621258513_o.webp)
 
-[![](/attachments/12357224_986372874752587_3295353302192959453_o.webp) Hacia los árboles de Mordor...
+[![](attachments/12357224_986372874752587_3295353302192959453_o.webp) Hacia los árboles de Mordor...
 
-[![](/attachments/1501224_986341331422408_8889154768519006461_o.webp) Peña Oroel al fondo, recorriendo todo el cordal.
+[![](attachments/1501224_986341331422408_8889154768519006461_o.webp) Peña Oroel al fondo, recorriendo todo el cordal.
 

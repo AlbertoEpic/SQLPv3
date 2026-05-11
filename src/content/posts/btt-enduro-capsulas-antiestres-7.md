@@ -1,9 +1,9 @@
-﻿---
+---
 title: "BTT enduro: cÃ¯Â¿Â½psulas antiestrÃ¯Â¿Â½s #7"
 heroImage: "https://i.imgur.com/Mrs9GAA.jpg"
 pubDate: 2021-06-25T07:27:14Z
 updatedDate: 2021-06-25T07:34:04Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Punta GÃ¯Â¿Â½Ã¯Â¿Â½ (Desde SenegÃ¯Â¿Â½Ã¯Â¿Â½) AÃ¯Â¿Â½adimos otra propuesta para la BTT dentro de nuestra serie 'CÃ¯Â¿Â½psulas antiestrÃ¯Â¿Â½s': saliendo de SenegÃ¯Â¿Â½Ã¯Â¿Â½, el ascenso se realiza por una pista cÃ¯Â¿Â½moda (Aunque dura), y el descenso casi Ã¯Â¿Â½ntegramente por sendero, con una"
 category: "Bicicleta de montaÃ¯Â¿Â½a"

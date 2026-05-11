@@ -1,9 +1,9 @@
-﻿---
+---
 title: "SkiLof 3 - Un garbeo desde el Trollfjord"
-heroImage: "/attachments/P4020253-1024x768.webp"
+heroImage: "attachments/P4020253-1024x768.webp"
 pubDate: 2024-04-03T14:39:00Z
 updatedDate: 2024-05-28T15:32:58Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El tercer dÃ­a la meteo mejora y todo empieza a ser espectacular. Las tarjetas de memoria van que echan humo, acumulando material gráfico para varios meses... De nuevo AlbertoEpic sale con todo: cámara y dron. El peso extra es lo de menos. L"
 category: "EsquÃ­ de travesÃ­a"
@@ -39,27 +39,27 @@ Y como era un dÃ­a muy 'escénico', en SQLP hemos preparado otro Reel para sin
 
  [Ver esta publicaciÃ³n en Instagram](https://www.instagram.com/reel/C6yC60yAAPQ/?utm_source=ig_embed&utm_campaign=loading)[Una publicaciÃ³n compartida de @albertroid](https://www.instagram.com/reel/C6yC60yAAPQ/?utm_source=ig_embed&utm_campaign=loading) 
 
-[![Por la mañana, en el barco hacia el Trollfjord.](/attachments/P4020253-jpg.webp)
+[![Por la mañana, en el barco hacia el Trollfjord.](attachments/P4020253-jpg.webp)
 
 *Por la mañana, en el barco hacia el Trollfjord.*
 
-[![Y volviendo la vista atrás.](/attachments/P4020258-jpg.webp)
+[![Y volviendo la vista atrás.](attachments/P4020258-jpg.webp)
 
 *Y volviendo la vista atrás.*
 
-[![La primera parte de la ruta es a la sombra, hace una mañana heladora!](/attachments/P4020285-jpg.webp)
+[![La primera parte de la ruta es a la sombra, hace una mañana heladora!](attachments/P4020285-jpg.webp)
 
 *La primera parte de la ruta es a la sombra, hace una mañana heladora!*
 
-[![Sobre el embalse helado de Trollfjordvatnet. Todos a buscar el sol por fin!](/attachments/P4020292-jpg.webp)
+[![Sobre el embalse helado de Trollfjordvatnet. Todos a buscar el sol por fin!](attachments/P4020292-jpg.webp)
 
 *Sobre el embalse helado de Trollfjordvatnet. Todos a buscar el sol por fin!*
 
-[![AquÃ­ encontramos un buen 'photocall'...](/attachments/P4020326-jpg.webp)
+[![AquÃ­ encontramos un buen 'photocall'...](attachments/P4020326-jpg.webp)
 
 *AquÃ­ encontramos un buen 'photocall'...*
 
-[![Disfrutando por la loma, al solecito... pero siempre bajo cero! Al pie de las paredes de roca, el fiordo del Troll.](/attachments/P4020333-jpg.webp)
+[![Disfrutando por la loma, al solecito... pero siempre bajo cero! Al pie de las paredes de roca, el fiordo del Troll.](attachments/P4020333-jpg.webp)
 
 *Disfrutando por la loma, al solecito... pero siempre bajo cero! Al pie de las paredes de roca, el fiordo del Troll.*
 

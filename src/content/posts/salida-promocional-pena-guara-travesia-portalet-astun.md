@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Salida Promocional Peña Guara: travesÃ­a Portalet-Astún"
-heroImage: "/attachments/fotito.webp"
+heroImage: "attachments/fotito.webp"
 pubDate: 2014-02-26T09:00:00Z
 updatedDate: 2015-04-06T10:28:27Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Luis en las rampas finales al Peyreget. El pasado domingo tuvo lugar esta salida promocional de esquÃ­ de travesÃ­a de Peña Guara. HabÃ­a que aprovechar y apuntarse: pocas veces un autobús te lleva a Portalet y te recoge en Astún! El video rec"
 category: "EsquÃ­ de travesÃ­a"
@@ -14,7 +14,7 @@ tags:
   - "Valle de Tena"
   - "valle del AragÃ³n"
 ---
-[![](/attachments/fotito.webp)Luis en las rampas finales al Peyreget.El pasado domingo tuvo lugar esta salida promocional de esquÃ­ de travesÃ­a de Peña Guara. HabÃ­a que aprovechar y apuntarse: pocas veces un autobús te lleva a Portalet y te recoge en Astún!
+[![](attachments/fotito.webp)Luis en las rampas finales al Peyreget.El pasado domingo tuvo lugar esta salida promocional de esquÃ­ de travesÃ­a de Peña Guara. HabÃ­a que aprovechar y apuntarse: pocas veces un autobús te lleva a Portalet y te recoge en Astún!
 
 El video recoge la variante larga de la ruta, ascendiendo primero al Pic de Peyreget y luego al Pic des Moines (Pico de los Monjes).
 

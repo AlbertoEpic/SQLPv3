@@ -1,9 +1,9 @@
-﻿---
+---
 title: Abrigos de QuizÃ¯Â¿Â½ns y Chimiachas
 heroImage: https://i.imgur.com/nORVYsh.jpg
 pubDate: 2021-02-01T10:35:04Z
 updatedDate: 2021-02-01T10:37:47Z
-draft: ó
+draft: false
 author: AlbertoEpic
 description: Visitando las pinturas rupestres... El pasado domingo, el equipo de SQLP-Kids despedimos el mes de enero con un entretenido paseo hasta los abrigos de QuizÃ¯Â¿Â½ns y Chimiachas. La meteo revuelta y ventosa nos hizo buscar un objetivo en AlquÃ¯Â¿Â½zar
 category: SQLP-kids

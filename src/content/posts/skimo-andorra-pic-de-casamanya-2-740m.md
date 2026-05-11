@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Skimo Andorra: pic de Casamanya (2.740m)"
 heroImage: "https://i.imgur.com/pmn0Bcc.jpg"
 pubDate: 2023-01-09T17:54:18Z
 updatedDate: 2023-01-09T18:00:38Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Para segundo y ÃƒÂºltimo dÃƒÂ­a de su concentraciÃƒÂ³n de alto rendimiento en Andorra, nuestros especialistas se decidieron por ascender a este gran clÃƒÂ¡sico de Andorra. El Casamanya W, o simplemente Casamanya, comparte cordal con dos hermanos, el Ca"
 category: "EsquÃƒÂ­ de travesÃƒÂ­a"

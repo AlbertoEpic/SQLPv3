@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Skimo: vuelta al Midi d'Ossau"
 heroImage: "https://i.imgur.com/I7OFmEw.jpg"
 pubDate: 2023-03-09T10:53:08Z
 updatedDate: 2023-03-09T10:53:09Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Con Loli mano a mano... El pasado sÃƒÂ¡bado, y tras una tentativa frustrada justo el anterior fin de semana, unieron sus fuerzas Loli y AlbertoEpic para quitarse la espinita clavada y realizar esta gran vuelta. Esta vez todo fue fluÃƒÂ­do: dÃƒÂ­a pe"
 category: "Otros"

@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Combinada BTT+Pateo: PeÃƒÂ±as Roya&Blanca (de Sabocos)"
 heroImage: "https://i.imgur.com/rcEOImN.jpg"
 pubDate: 2020-11-19T19:33:22Z
 updatedDate: 2020-11-19T19:35:48Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "ReseÃƒÂ±amos aquÃƒÂ­ una actividad otoÃƒÂ±al realizada por los especialistas Myriam y AlbertoEpic, probablemente la realizada a mayor altitud en zapatillas hasta la primavera que viene... El formato de la actividad fue ese que ya han convertido en h"
 category: "Otros"

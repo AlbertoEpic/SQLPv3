@@ -1,10 +1,10 @@
-﻿---
+---
 title: "USA 2012: Colorado Trail (3), la brusca interrupciÃ¯Â¿Â½n!"
 pubDate: 2012-08-27T06:50:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:40Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "La noche en Breckenridge supone un 'renacer' para nuestros especialistas. Recuperadas las fuerzas tras dormir y alimentarse bien, emprenden con la moral a tope un cada vez mÃ¯Â¿Â½s alpino CT, que ahora los mantiene a alturas entre 3.000m y 4.000"
 category: "Otros"

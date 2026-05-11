@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Skimo: PeÃƒÂ±a Telera"
 heroImage: "https://i.imgur.com/lYlHWIT.jpg"
 pubDate: 2021-03-28T17:50:43Z
 updatedDate: 2021-03-28T17:53:20Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "ÃƒÂ­La soluciÃƒÂ³n al laberinto de la cara Sur! El pasado sÃƒÂ¡bado 13 de marzo, por fin se alinearon los planetas y el equipo SQLP pudo realizar una actividad mÃƒÂ­tica, bastante complicada logÃƒÂ­sticamente hablando. Myriam y AlbertoEpic disponÃƒÂ­an (Mil "
 category: "EsquÃƒÂ­ de travesÃƒÂ­a"

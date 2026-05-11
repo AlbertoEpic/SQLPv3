@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Un regalo del dios Eolo..."
 heroImage: "https://i.imgur.com/tTLWOu9.jpg"
 pubDate: 2018-04-04T11:56:40Z
 updatedDate: 2019-03-25T12:32:03Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "CorrÃƒÂ­a la fecha estelar 71610.3, cumpleaÃƒÂ±os de AlbertoEpic, y decidiÃƒÂ³ subir al Pirineo con la fatbike. Lo que ÃƒÂ©l no se imaginaba era que los dioses le iban a hacer el mejor de los regalos imaginables: fue nada menos que el dios Eolo; tuvo e"
 category: "Bicicleta de montaÃƒÂ±a"

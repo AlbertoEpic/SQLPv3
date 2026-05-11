@@ -1,9 +1,9 @@
-﻿---
+---
 title: "BTT: Itsusiko Harriak desde Amaiur"
 heroImage: "https://i.imgur.com/fIqAc6R.jpg"
 pubDate: 2022-11-04T22:49:47Z
 updatedDate: 2022-11-05T19:56:55Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Ruta circular pasando por las PeÃƒÂ±as de Itsusi Y llegÃƒÂ³ el puente de noviembre, y en SQLP nos incorporamos a nuestro particular 'BTC' (BaztÃƒÂ¡n Training Camp). Te ofrecemos a continuaciÃƒÂ³n una de las actividades realizadas por los especialistas "
 category: "Bicicleta de montaÃƒÂ±a"

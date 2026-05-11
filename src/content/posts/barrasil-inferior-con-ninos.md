@@ -1,9 +1,9 @@
-﻿---
+---
 title: Barrasil Inferior con niÃƒÂ±os
 heroImage: https://i.imgur.com/U42bh7r.jpg
 pubDate: 2021-08-01T17:08:08Z
 updatedDate: 2021-08-02T17:13:39Z
-draft: ó
+draft: false
 author: AlbertoEpic
 description: Una gran opciÃƒÂ³n cuando el calor aprieta... Seguimos proponiendo actividades para realizar con niÃƒÂ±os. En esta ocasiÃƒÂ³n, algo para cuando el calor aprieta y no apetece caminar ni pedalear... Ã‚Â¿QuÃƒÂ© tal un barranco? El barranco del Barrasil es un
 category: SQLP-kids
@@ -33,7 +33,7 @@ Es normal ver siempre varias barcas 'aparcadas' al otro lado de los Estrechos, p
 Hemos aÃƒÂ±adido el track de la actividad a nuestra base de datos:
 <iframe src="https://www.alltrails.com/es/widget/map/map-7fc3463--43?scrollZoom=ó&hideName=true&u=m" width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="AllTrails: Trail Guides and Maps for Hiking, Camping, and Running"></iframe>
 
-![Croquis del Barrasil](../../../attachments/croquis-del-barrasil.png)
+![Croquis del Barrasil](../../..attachments/croquis-del-barrasil.png)
 
 *Croquis del Barrasil.*
 

@@ -1,10 +1,10 @@
-﻿---
+---
 title: "EspectÃƒÂ¡culo visual a cÃƒÂ¡mara lenta"
 pubDate: 2011-06-15T10:43:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:47Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Recojo aqui otro de los videos que me ha llegado de nuevo en un email de Myriam (Gracias!). Un montaje muy refrescante, para los dÃƒÂ­as de verano (Hasta me ha gustado a mi, que soy de secano...):"
 category: "Otros"

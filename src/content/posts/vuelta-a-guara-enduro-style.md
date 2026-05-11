@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Vuelta a Guara 'enduro style'"
 heroImage: "https://i.imgur.com/J65T3bA.jpg"
 pubDate: 2016-09-19T10:41:45Z
 updatedDate: 2016-09-19T10:41:45Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Simplemente comentar que el otro dÃƒÂ­a el grupo formado por Rafa, JosÃƒÂ©, Luis, Lola y AlbertoEpic se reunieron en el parking del Formiga para aprovechar estos dÃƒÂ­as fresquitos y hacer con las btt la vuelta a Guara, en su versiÃƒÂ³n mÃƒÂ¡s endurera. U"
 category: "Bicicleta de montaÃƒÂ±a"

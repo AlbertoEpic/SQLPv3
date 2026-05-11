@@ -1,14 +1,14 @@
-﻿---
+---
 title: "DÃ­as de uñas largas y culos prietos. CrÃ³nica de dos dÃ­as de esquÃ­ de TravesÃ­a con Peña Guara"
-heroImage: "/attachments/borrame.webp"
+heroImage: "attachments/borrame.webp"
 pubDate: 2015-03-18T00:17:00Z
 updatedDate: 2015-04-06T10:28:22Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "En las últimas rampas al BisaurÃ­n. Los pasados 7 y 8 de marzo el club Peña Guara de Huesca organizÃ³ la Alta Ruta BisaurÃ­n-Aspe 2015 . Estuvieron presentes varios elementos del clan de los globeros, entre ellos José Orte, autor del tÃ­tulo de"
 category: "Otros"
 ---
-[![](/attachments/borrame.webp)En las últimas rampas al BisaurÃ­n.Los pasados 7 y 8 de marzo el club Peña Guara de Huesca organizÃ³ la [Alta Ruta BisaurÃ­n-Aspe 2015](http://p-guara.com/wordpress/secciones/esqui-de-montana-2/alta-ruta-bisaurin-aspe-2015/).
+[![](attachments/borrame.webp)En las últimas rampas al BisaurÃ­n.Los pasados 7 y 8 de marzo el club Peña Guara de Huesca organizÃ³ la [Alta Ruta BisaurÃ­n-Aspe 2015](http://p-guara.com/wordpress/secciones/esqui-de-montana-2/alta-ruta-bisaurin-aspe-2015/).
 
 Estuvieron presentes varios elementos del clan de los globeros, entre ellos José Orte, autor del tÃ­tulo del post y del relato posterior. Evitaré extenderme más en la crÃ³nica, y daré paso a la calidad literaria de sus textos. Simplemente añadiré, al final del post, el mapa de la ruta.
 

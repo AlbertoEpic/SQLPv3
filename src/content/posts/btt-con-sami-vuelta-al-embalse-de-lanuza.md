@@ -1,10 +1,10 @@
-﻿---
+---
 title: "BTT con Sami: vuelta al embalse de Lanuza"
 pubDate: 2020-07-02T21:55:53Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2020-07-02T21:57:32Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Os proponemos en esta ocasiÃƒÂ³n una breve actividad para realizar con niÃƒÂ±os que estÃƒÂ©n empezando a descubrir el mundillo de los senderos en BTT. El tramo desde la presa del embalse de Lanuza hasta Sallent de GÃƒÂ¡llego pasando por el pueblo de La"
 category: "SQLP-kids"

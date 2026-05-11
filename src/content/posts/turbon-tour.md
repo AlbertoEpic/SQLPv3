@@ -1,10 +1,10 @@
-﻿---
+---
 title: "TurbÃƒÂ³n Tour"
 pubDate: 2010-08-02T05:02:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:56Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Hace unos dÃƒÂ­as, una delegaciÃƒÂ³n de globeros se trasladÃƒÂ³ a Pont de Suert a realizar, en dos etapas, la famosa TurbÃƒÂ³n Tour (Vuelta al TurbÃƒÂ³n en BTT organizada por AramonBike) Primera etapa: Pont de Suert - Bonansa - GabÃƒÂ¡s - Vilas del TurbÃƒÂ³n. S"
 category: "Bicicleta de montaÃƒÂ±a"

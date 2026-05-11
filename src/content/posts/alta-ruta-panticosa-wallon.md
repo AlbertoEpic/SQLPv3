@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Alta Ruta Panticosa - Wallon"
 pubDate: 2009-03-18T15:36:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:29:05Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El pasado fin de semana, 14 y 15 de marzo, realizamos una ruta de esquÃƒÂ­ de montaÃƒÂ±a de dos dÃƒÂ­as, partiendo del Balneario de Panticosa y pernoctando en el refugio de Wallon. No voy a ser repetitivo, y simplemente voy a aÃƒÂ±adir un montaje de vi"
 category: "Otros"

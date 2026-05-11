@@ -1,10 +1,10 @@
-﻿---
+---
 title: "EWS Round 7: AÃ¯Â¿Â½nsa"
 pubDate: 2015-09-28T11:09:43Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-09-28T11:09:43Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El pasado finde se celebraba en AÃ¯Â¿Â½nsa la 7 prueba de las Enduro World Series. Aprovechando la ocasiÃ¯Â¿Â½n, algunos globeros con globeritos pasaron las ya habituales jornadas de convivencia realizando actividad el sÃ¯Â¿Â½bado y flipando con la calid"
 category: "Bicicleta de montaÃ¯Â¿Â½a"

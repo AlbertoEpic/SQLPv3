@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Latrek Trail Loop: mañana vintage..."
-heroImage: "/attachments/LaTrekTrail22-1024x1024.webp"
+heroImage: "attachments/LaTrekTrail22-1024x1024.webp"
 pubDate: 2015-09-16T21:52:46Z
 updatedDate: 2015-09-16T21:52:46Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Hoy en dÃ­a los senderos para btt abundan cada vez más. Y cada vez son más limpios, rápidos y disfrutones. Puro Pirineo, Zona Zero, Senderos de Canfranc, Villanúa-Collarada, BTT Pirineos Alto Gállego,... Son rutas para la nueva hornada de bi"
 category: "Bicicleta de montaña"
@@ -12,7 +12,7 @@ Hoy en dÃ­a los senderos para btt abundan cada vez más. Y cada vez son más l
 El otro dÃ­a, después de mucho tiempo, el mÃ­tico doctor LaTrek y AlbertoEpic, practicantes de cicloalpinismo ya en el siglo pasado, se juntaron para una salidita matutina 'de las de antes'. No les importÃ³ subir pedaleando algo más de 1.000m de desnivel+ para luego realizar un descenso 'de aventura', lento, sinuoso, con pinchos,... Se trata de un proyecto que el doctor LaTrek está realizando él mismo en sus ratos libres. Sin duda es un itinerario muy, muy chulo y variado, que cuando se limpie un poco más será rápido y divertido.
 Por el momento este descenso puntúa muy alto, más que por la descarga de adrenalina, por la satisfacciÃ³n que aporta desenvolvernos de manera fluÃ­da en plena naturaleza, por un terreno totalmente virgen.
 
-[![](/attachments/LaTrekTrail22.webp) 
+[![](attachments/LaTrekTrail22.webp) 
 
 El sendero atraviesa variasÂ zonas de 'slickrock'...
 

@@ -1,9 +1,9 @@
-﻿---
+---
 title: "RSS Ã¢â‚¬â€œ Ese temido y ÃƒÂºtil amigoÃ¢â‚¬Â¦"
 heroImage: "http://www.quesabesde.com/images/feed-icon16x16.png"
 pubDate: 2009-02-12T18:12:00Z
 updatedDate: 2018-10-25T16:02:29Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Si te has fijado, cada vez en mÃƒÂ¡s webs tenemos un iconito de este tipo , normalmente acompaÃƒÂ±ado de las letras RSS. Si has hecho click en uno de esos enlaces, seguramente se te habrÃƒÂ¡ abierto una pÃƒÂ¡gina ininteligible, o con una maquetaciÃƒÂ³n si"
 category: "Tutoriales"

@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Un paseo por ReykjavÃƒÂ­k [ICELAND PILLS 14]"
 heroImage: "https://i.imgur.com/iEKmonM.jpg"
 pubDate: 2024-10-03T10:04:18Z
 updatedDate: 2024-10-03T10:08:45Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El corazÃƒÂ³n palpitante de Islandia. Ubicada en la costa suroeste de Islandia, ReykjavÃƒÂ­k es mucho mÃƒÂ¡s que una simple capital. Es el epicentro cultural, econÃƒÂ³mico y polÃƒÂ­tico del paÃƒÂ­s, y ofrece a los visitantes una ventana ÃƒÂºnica a la esencia mis"
 category: "Islandia 2024"

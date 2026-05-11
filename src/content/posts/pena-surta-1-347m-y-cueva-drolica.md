@@ -1,9 +1,9 @@
-﻿---
+---
 title: "PeÃƒÂ±a Surta (1.347m) y cueva DrÃƒÂ³lica"
 heroImage: "https://i.imgur.com/oGCcyoT.jpg"
 pubDate: 2021-12-13T17:55:55Z
 updatedDate: 2021-12-13T18:50:28Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El pasado fin de semana, por fin con buena meteo... ÃƒÂ­subir al Pirineo es tentador! Pero lo desestimamos para intentar escapar de las hordas de esquiadores ansiosos que convierten nuestras tranquilas montaÃƒÂ±as en hervideros estresantes. Optam"
 category: "SQLP-kids"

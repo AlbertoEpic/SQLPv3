@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Punta de la Cochata (1.911m)"
 heroImage: "https://i.imgur.com/uBWP7WS.jpg"
 pubDate: 2019-08-07T22:13:29Z
 updatedDate: 2020-03-02T17:23:30Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Una ascensiÃƒÂ³n fÃƒÂ¡cil, breve y muy agradecida... El pasado domingo 28 de julio, y aprovechando un breve hueco de tiempo libre, Cheles y AlbertoEpic aprovecharon para subir hasta otro gran mirador del valle de Tena. Esta cima, por su cercanÃƒÂ­a "
 category: "Ascensiones"

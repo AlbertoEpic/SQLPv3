@@ -1,9 +1,9 @@
-﻿---
+---
 title: "BTT: reconocimiento de senderos serranos..."
 heroImage: "https://i.imgur.com/a8NIOiq.jpg"
 pubDate: 2019-12-16T17:20:17Z
 updatedDate: 2020-03-02T15:57:17Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El pasado sÃƒÂ¡bado, y como habÃƒÂ­a riesgo 4 de aludes, cambiamos los esquÃƒÂ­s por los pedales y salimos a reconocer el terreno para posibles futuras rutas mÃƒÂ¡s largas, cuando el dÃƒÂ­a tenga mÃƒÂ¡s horas de luz. AlbertoEpic se uniÃƒÂ³ al grupo de avezados "
 category: "Bicicleta de montaÃƒÂ±a"

@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Cicloalpinismo: pico BacÃƒÂºn Norte"
 heroImage: "https://i.imgur.com/cJt8z01.jpg"
 pubDate: 2018-09-06T17:59:00Z
 updatedDate: 2018-10-10T10:14:51Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El pasado 25 de agosto, terminando ya el verano, por fin se realizÃƒÂ³ una mini-quedada globeril para hacer una de esas rutas de cicloalpinismo que tanto nos gustan a los globeros. La ruta, por otra parte, no era nada del otro mundo. Cortita y"
 category: "Bicicleta de montaÃƒÂ±a"

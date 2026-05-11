@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Skimo: Garmo Negro (3.064m)"
 heroImage: "https://i.imgur.com/D4hYEZn.jpg"
 pubDate: 2021-04-16T07:23:55Z
 updatedDate: 2021-04-16T07:40:03Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Un clÃƒÂ¡sico entre los clÃƒÂ¡sicos... El pasado 29 de marzo, los especialistas de SQLP Myriam y AlbertoEpic se limitaron a rellenar el expediente con la ascensiÃƒÂ³n anual de rigor al Gamo Negro, desde el Balneario de Panticosa. Todo un clÃƒÂ¡sico del"
 category: "EsquÃƒÂ­ de travesÃƒÂ­a"

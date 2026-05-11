@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Gavarnie weekend I: BTT - Gavarnie popurrÃƒÂ­"
 pubDate: 2011-08-30T11:28:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:46Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El pasado finde nos saliÃƒÂ³ la vena nÃƒÂ³mada y nos fuimos a Gavarnie. La noche del viernes lluvias torrenciales, menos mal que tenemos fe en la meteo y dicen que el frente pasa esta noche... Y asÃƒÂ­ fue, el sÃƒÂ¡bado unas condiciones perfectas para "
 category: "Otros"

@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Muro de Roda"
 heroImage: "https://i.imgur.com/7ilqMS1.jpg"
 pubDate: 2023-03-06T09:55:00Z
 updatedDate: 2023-03-07T10:05:37Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Un lugar especial lleno de historia Muro de Roda , localizado en un emplazamiento estratÃƒÂ©gico, es un pueblo fortificado perteneciente al municipio de La Fueva en el Sobrarbe , provincia de Huesca , AragÃƒÂ³n , EspaÃƒÂ±a . En la actualidad estÃƒÂ¡ de"
 category: "SQLP-kids"

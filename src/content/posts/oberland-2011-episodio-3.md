@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Oberland 2011: episodio 3"
 pubDate: 2011-05-12T15:11:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:49Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El tercer dÃƒÂ­a en el Oberland acometemos la etapa mÃƒÂ¡s larga. Salimos al amanecer desde HollandiahÃƒÂ¼tte y nos deslizamos hasta KonkordiaPlatz. AllÃƒÂ­, ponemos pieles y comenzamos a remontar el glaciar Jungfraufirn con idea de ascender al Jungfra"
 category: "Otros"

@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Apurando con la BTT antes de que nieve..."
 pubDate: 2010-11-08T07:38:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:53Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Producciones Soloquedalopeor agradece pÃ¯Â¿Â½blicamente a los mecenas que estÃ¯Â¿Â½n apoyando su causa. Ya hemos encargado la estatua del primero de ellos para nuestro jardÃ¯Â¿Â½n... Por el momento todavÃ¯Â¿Â½a no hemos reunido suficiente dinero para el nuevo "
 category: "Bicicleta de montaÃ¯Â¿Â½a"

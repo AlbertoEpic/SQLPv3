@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Picos de Europa - Escapada veraniega"
 heroImage: "https://i.imgur.com/eTzwT1p.jpg"
 pubDate: 2018-09-05T17:16:25Z
 updatedDate: 2018-09-05T17:16:25Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Una semana por los Picos de Europa... A final de agosto, Cheles y AlbertoEpic arreglan sus agendas para coincidir una semana y, tras valorar varias opciones, finalmente deciden hacer una escapada a Picos de Europa. Cheles lleva una sobrecar"
 category: "Viajes"

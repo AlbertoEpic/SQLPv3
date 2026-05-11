@@ -1,9 +1,9 @@
-﻿---
+---
 title: "HR Circo de Gavarnie: travesÃƒÂ­a Casco-MarborÃƒÂ©"
 heroImage: "https://i.imgur.com/t9vIsiB.jpg"
 pubDate: 2016-08-11T09:49:26Z
 updatedDate: 2018-09-10T11:09:51Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "HacÃƒÂ­a mucho tiempo que AlbertoEpic le tenÃƒÂ­a ganas a esta actividad a la que, debido a las cosas del destino y la fragilidad de ciertos ligamentos, se le iba a adelantar Luzia. AsÃƒÂ­, mientras AlbertoEpic se dedica a rehabilitar y fortalecer s"
 category: "Ascensiones"

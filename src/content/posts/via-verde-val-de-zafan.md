@@ -1,9 +1,9 @@
-﻿---
+---
 title: "VÃƒÂ­a Verde Val de ZafÃƒÂ¡n"
 heroImage: "https://i.imgur.com/0XJjNe7.jpg"
 pubDate: 2022-06-03T15:34:32Z
 updatedDate: 2022-06-03T15:57:02Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Interesante actividad para hacer con niÃƒÂ±os Nos faltaba por reseÃƒÂ±ar en el blog de SQLP esta actividad realizada por AlbertoEpic&Sami, del equipo SQLP-kids, el pasado mes de abril. Si bien el verano es una ÃƒÂ©poca totalmente desaconsejada para "
 category: "SQLP-kids"

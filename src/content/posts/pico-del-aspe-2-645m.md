@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Pico del Aspe (2.645m)"
 pubDate: 2010-04-01T20:00:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:59Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El pasado domingo tuvo lugar la Salida Promocional de EsquÃƒÂ­ de MontaÃƒÂ±a de PeÃƒÂ±a Guara. Nada menos que 45 extraÃƒÂ±os especÃƒÂ­menes -entre los que se infiltraron algunos seres de varias tribus blogueras: globeros, focas majaras,...- se dieron cita"
 category: "Otros"

@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Haute Route 2015 Ã¢â‚¬ËœSwiss StyleÃ¢â‚¬â„¢ Ã¢â‚¬â€œ episodio 3"
 pubDate: 2015-04-27T11:35:56Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-27T11:35:56Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Seguimos con los 'imaginativos ajustes' en la Haute Route forzados por el mal tiempo. Pasamos el dÃƒÂ­a de peor predicciÃƒÂ³n esquiando en Verbier y dormimos en el refugio de Mont-Fort. Al dÃƒÂ­a siguiente, la meteo es pÃƒÂ©sima: en todos los partes nu"
 category: "EsquÃƒÂ­ de travesÃƒÂ­a"

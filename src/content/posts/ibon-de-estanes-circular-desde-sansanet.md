@@ -1,9 +1,9 @@
-﻿---
+---
 title: "IbÃƒÂ³n de EstanÃƒÂ©s: circular desde Sansanet"
 heroImage: "https://i.imgur.com/D45Uq6W.jpg"
 pubDate: 2020-07-27T14:58:11Z
 updatedDate: 2020-07-27T15:04:27Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El pasado domingo, el equipo SQLP-Kids estuvo realizando otra de sus actividades por el monte. Dados los calores estivales, se optÃƒÂ³ por buscar una ruta por la vertiente norte del Pirineo, siempre algo mÃƒÂ¡s fresca: partiendo de Sansanet, el i"
 category: "SQLP-kids"

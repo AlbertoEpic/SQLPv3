@@ -1,10 +1,10 @@
-﻿---
+---
 title: "La India, una semana despuÃƒÂ©s..."
 pubDate: 2011-10-31T17:48:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2018-11-02T18:08:50Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Hace ya casi una semana desde que regresamos de nuestro viaje en bici por la India. Desde Dehra Dun, remontamos los rÃƒÂ­os sagrados Ganges y Yamuna hasta su nacimiento. Alejados de las rutas turÃƒÂ­sticas, nos hemos sumergido durante tres semana"
 category: "Viajes"

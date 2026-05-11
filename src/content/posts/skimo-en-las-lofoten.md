@@ -1,15 +1,15 @@
 ---
-title: "SKIMO en las LOFOTEN"
-heroImage: "/attachments/P4051062-1024x768.webp"
+title: SKIMO en las LOFOTEN
+heroImage: attachments/P4051062-1024x768.webp
 pubDate: 2024-05-28T14:48:03Z
 updatedDate: 2024-05-28T15:45:12Z
-draft: ó
-author: "AlbertoEpic"
-description: "SkiLof24 Con esta entrada pretendemos unificar una serie de informaciÃ³n acerca del viaje de nuestro especialista AlbertoEpic a Noruega, a las islas Lofoten, para salvar la temporada de skimo. Comenzamos con su escalofriante testimonio: \"La "
-category: "EsquÃ­ de travesÃ­a"
+draft: false
+author: AlbertoEpic
+description: 'SkiLof24 Con esta entrada pretendemos unificar una serie de informaciÃ³n acerca del viaje de nuestro especialista AlbertoEpic a Noruega, a las islas Lofoten, para salvar la temporada de skimo. Comenzamos con su escalofriante testimonio: "La '
+category: EsquÃ­ de travesÃ­a
 tags:
-  - "EsquÃ­ de travesÃ­a"
-  - "Lofoten"
+  - EsquÃ­ de travesÃ­a
+  - Lofoten
 ---
 
 ## SkiLof24
@@ -41,31 +41,31 @@ A continuaciÃ³n detallamos brevemente las actividades, dÃ­a a dÃ­a. En una
 
 - [SkiLof 6 - Store Kvittind (696m)](skilof-6-store-kvittind-696m/)
 
-![AllÃ­ lo más normal son las casas de madera. A saber qué tipo de barnices utilizan para que eso aguante...](/attachments/P4051062-1024x768.webp)
+![AllÃ­ lo más normal son las casas de madera. A saber qué tipo de barnices utilizan para que eso aguante...](attachments/P4051062-1024x768.webp)
 
 *AllÃ­ lo más normal son las casas de madera. A saber qué tipo de barnices utilizan para que eso aguante...*
 
-![Hay que contar que, si el cielo está despejado, las auroras boreales te van a quitar horas de sueño...](/attachments/P4041038-1024x768.webp)
+![Hay que contar que, si el cielo está despejado, las auroras boreales te van a quitar horas de sueño...](attachments/P4041038-1024x768.webp)
 
 *Hay que contar que, si el cielo está despejado, las auroras boreales te van a quitar horas de sueño...*
 
-![Svolvaer, con el FlaÂ¸ya, o también FlaÂ¸yfjellet (590m) detrás. Esperando la aurora boreal...](/attachments/P4030508-1024x768.webp)
+![Svolvaer, con el FlaÂ¸ya, o también FlaÂ¸yfjellet (590m) detrás. Esperando la aurora boreal...](attachments/P4030508-1024x768.webp)
 
 *Svolvaer, con el FlaÂ¸ya, o también FlaÂ¸yfjellet (590m) detrás. Esperando la aurora boreal...*
 
-![La iglesia de Vagan, construÃ­da en madera, y conocida como la catedral de Lofoten.](/attachments/P4030495-1024x768.webp)
+![La iglesia de Vagan, construÃ­da en madera, y conocida como la catedral de Lofoten.](attachments/P4030495-1024x768.webp)
 
 *La iglesia de Vagan, construÃ­da en madera, y conocida como la catedral de Lofoten.*
 
-![Pesquero en el puerto de Svolvaer.](/attachments/P3310118-1024x768.webp)
+![Pesquero en el puerto de Svolvaer.](attachments/P3310118-1024x768.webp)
 
 *Pesquero en el puerto de Svolvaer.*
 
-![A esas latitudes, los atardeceres duran varias horas...](/attachments/P3310117-1024x768.webp)
+![A esas latitudes, los atardeceres duran varias horas...](attachments/P3310117-1024x768.webp)
 
 *A esas latitudes, los atardeceres duran varias horas...*
 
-![Unos eslabones de cadena sobre la nieve, en el puerto de Svolvaer.](/attachments/P3310101-1024x768.webp)
+![Unos eslabones de cadena sobre la nieve, en el puerto de Svolvaer.](attachments/P3310101-1024x768.webp)
 
 *Unos eslabones de cadena sobre la nieve, en el puerto de Svolvaer.*
 

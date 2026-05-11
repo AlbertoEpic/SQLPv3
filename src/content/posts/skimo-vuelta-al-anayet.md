@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Skimo: vuelta al Anayet"
 heroImage: "https://i.imgur.com/YI82QE9.jpg"
 pubDate: 2019-05-18T17:58:52Z
 updatedDate: 2019-05-20T07:09:24Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Apurando las ÃƒÂºltimas nieves de Formigal... El pasado 13 de mayo, Donato y AlbertoEpic estuvieron aprovechando una de las ÃƒÂºltimas oportunidades que brinda en valle de Tena para esquiar sin portear (En este caso, 5min desde el coche hasta el "
 category: "EsquÃƒÂ­ de travesÃƒÂ­a"

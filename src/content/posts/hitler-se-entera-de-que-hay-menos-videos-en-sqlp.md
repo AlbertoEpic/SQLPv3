@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Hitler se entera... de que hay menos vÃƒÂ­deos en SQLP"
 pubDate: 2016-02-11T13:04:41Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2016-02-11T13:04:41Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Hoy rompemos con la temÃƒÂ¡tica de SQLP, debido a un suceso excepcional: Una inspiraciÃƒÂ³n repentina me llevÃƒÂ³ el otro dÃƒÂ­a a preparar el tÃƒÂ­pico video de 'Hitler se entera...'. No pensaba darle mayor importancia, pero me ha sorprendido que en sÃƒÂ³lo"
 category: "Otros"

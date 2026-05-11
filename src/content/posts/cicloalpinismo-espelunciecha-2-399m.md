@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Cicloalpinismo: Espelunciecha (2.399m)"
 heroImage: "https://i.imgur.com/kHLIYe3.jpg"
 pubDate: 2019-10-14T10:57:01Z
 updatedDate: 2020-02-07T17:39:09Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Una buena alternativa para un dÃƒÂ­a de meteo incierta El pasado sÃƒÂ¡bado, Morenetti y AlbertoEpic parten hacia el Pirineo con idea de hacer alguna ruta chula... Pero la meteo es peor de lo esperado, y tras deliberar en torno a un pincho de tort"
 category: "Bicicleta de montaÃƒÂ±a"

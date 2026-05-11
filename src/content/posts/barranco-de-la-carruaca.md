@@ -1,15 +1,15 @@
-﻿---
-title: "Barranco de La Carruaca"
-heroImage: "https://i.imgur.com/KgxCefA.jpg"
+---
+title: Barranco de La Carruaca
+heroImage: https://i.imgur.com/KgxCefA.jpg
 pubDate: 2021-06-28T17:10:39Z
 updatedDate: 2021-06-28T17:42:11Z
-draft: ó
-author: "AlbertoEpic"
+draft: false
+author: AlbertoEpic
 description: "Ideal para un 'bautismo barranquil' AÃƒÂ±adimos hoy a la secciÃƒÂ³n SQLP-kids una nueva actividad: descenso de barrancos. El barranco de La Carruaca, o estrechos de LÃƒÂºsera, es un mini barranco de juguete con una dificultad tÃƒÂ©cnica nula. Si lo pil"
-category: "SQLP-kids"
+category: SQLP-kids
 tags:
-  - "Carruaca"
-  - "sierra guara"
+  - Carruaca
+  - sierra guara
 ---
 Ideal para un 'bautismo barranquil'
 AÃƒÂ±adimos hoy a la secciÃƒÂ³n SQLP-kids una nueva actividad: descenso de barrancos. El barranco de La Carruaca, o estrechos de LÃƒÂºsera, es un mini barranco de juguete con una dificultad tÃƒÂ©cnica nula. Si lo pillamos con el caudal justo*, es perfecto para dejar que los pequeÃƒÂ±os aventureros descubran el mundillo y las sensaciones del descenso de barrancos.

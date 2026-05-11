@@ -1,10 +1,10 @@
-﻿---
+---
 title: "BTT enduro: cÃƒÂ¡psulas antiestrÃƒÂ©s #2"
 pubDate: 2018-09-29T23:23:12Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2018-10-01T16:15:10Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Seguimos con la serie de 'CÃƒÂ¡psulas antiestrÃƒÂ©s'... El otro dÃƒÂ­a AlbertoEpic sacÃƒÂ³ una maÃƒÂ±ana libre para ir a Santa Elena con la furgo, y desde allÃƒÂ­ con la btt, en menos de 3h, hacer este '8' que sin duda deja un buen sabor de boca. Subida por "
 category: "Bicicleta de montaÃƒÂ±a"

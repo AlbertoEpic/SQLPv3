@@ -1,10 +1,10 @@
-﻿---
+---
 title: "USA 2012: Grand Canyon National Park"
 pubDate: 2012-09-13T13:29:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:40Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Abrimos un pequeÃ¯Â¿Â½o parÃ¯Â¿Â½ntesis en el Colorado Trail. Rompemos el orden cronolÃ¯Â¿Â½gico de los acontecimientos para recoger en este episodio la actividad de Luzia y AlbertoEpic en el Grand Canyon National Park. Saltamos adelante en el tiempo, has"
 category: "Otros"

@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Tan cerca..."
 pubDate: 2009-08-04T11:57:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:29:03Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 category: "Otros"
 tags:

@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Barranco de Portiacha"
-heroImage: "/attachments/portiacha_topo-1024x680.webp"
+heroImage: "attachments/portiacha_topo-1024x680.webp"
 pubDate: 2022-10-27T10:05:38Z
 updatedDate: 2022-10-27T16:20:23Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Larga vida a los rápeles 'volaos'... aÅ¡ltima semana de octubre, última semana con horario de verano, y presumiblemente final de temporada de actividades vespertinas los miércoles por el monte para el TeRReXtrem Team... Como colofÃ³n a esta pr"
 category: "Descenso de barrancos"
@@ -20,7 +20,7 @@ El barranco de Portiacha es un afluente del rÃ­o Vero, un barranco seco y cort
 
 Desde allÃ­, el barranco comienza directamente con el primer rápel, para calentar, después de un suspiro! A continuaciÃ³n puedes ver el croquis:
 
-[![Imagen de https://www.docuwiki.infobarrancos.es/doku.php?id=barrancos:huesca:portiacha](/attachments/portiacha_topo.webp)](https://www.docuwiki.infobarrancos.es/doku.php?id=barrancos:huesca:portiacha)
+[![Imagen de https://www.docuwiki.infobarrancos.es/doku.php?id=barrancos:huesca:portiacha](attachments/portiacha_topo.webp)](https://www.docuwiki.infobarrancos.es/doku.php?id=barrancos:huesca:portiacha)
 
 *Imagen de https://www.docuwiki.infobarrancos.es/doku.php?id=barrancos:huesca:portiacha*
 

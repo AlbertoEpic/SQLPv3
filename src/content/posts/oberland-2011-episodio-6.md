@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Oberland 2011: episodio 6"
 pubDate: 2011-06-03T11:36:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:49Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Hoy es nuestro sexto dÃƒÂ­a en el Oberland. Hasta ahora, todo han sido picos 'alpinos', donde los esquÃƒÂ­s sÃƒÂ³lo sirven para la aproximaciÃƒÂ³n. Hay que remediarlo: hoy elegimos el Wyssnollen. Digamos que es el 'Peyreget' del Oberland :-) y gracias "
 category: "EsquÃƒÂ­ de travesÃƒÂ­a"

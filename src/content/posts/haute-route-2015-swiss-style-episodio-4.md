@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Haute Route 2015 Ã¢â‚¬ËœSwiss StyleÃ¢â‚¬â„¢ Ã¢â‚¬â€œ episodio 4"
 pubDate: 2015-05-05T08:46:59Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-05-05T13:36:56Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El dÃƒÂ­a amanece en la Cabane Prafleuri con la mala meteo esperada. Nieva, visibilidad nula, riesgo de aludes creciente,... Hoy nuestros especialistas evitarÃƒÂ¡n las cimas, y van por el camino mÃƒÂ¡s corto hasta la Cabane des Dix. Llegan pronto po"
 category: "EsquÃƒÂ­ de travesÃƒÂ­a"

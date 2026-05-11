@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Cicloalpinismo: pico BacÃƒÂºn (2.193m)"
 heroImage: "https://i.imgur.com/8b3tZcR.jpg"
 pubDate: 2021-07-06T18:27:31Z
 updatedDate: 2021-07-06T18:52:01Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Una clÃƒÂ¡sica de cicloalpinismo... a vista de dron! Los globeros Rafa 'Morenetti' y AlbertoEpic por fin han conseguido hacer coincidir sus agendas para realizar una clÃƒÂ¡sica de cicloalpinismo. A pesar de lo incierto de la meteo (Subieron por l"
 category: "Bicicleta de montaÃƒÂ±a"

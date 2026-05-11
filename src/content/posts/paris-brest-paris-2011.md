@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Paris - Brest - Paris 2011"
 pubDate: 2011-08-19T10:33:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:46Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Desde aquÃƒÂ­ queremos animar a Angelito, el globero mÃƒÂ¡s fondista, en su nueva participaciÃƒÂ³n en la PBP 2011 . PodrÃƒÂ¡s seguirlo a partir del lunes a las 5 de la maÃƒÂ±ana con el dorsal 8554 en http://www.paris-brest-paris.org/pbp2011/index2.php?lan"
 category: "Otros"

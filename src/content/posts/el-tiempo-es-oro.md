@@ -1,10 +1,10 @@
-﻿---
+---
 title: "El tiempo es oro"
 pubDate: 2010-08-03T17:28:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:56Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "jR, el RaiderMan, con Marga y Laura El tiempo es oro, es limitado, sobre todo el tiempo libre... Es el origen de los raids de aventura. Hay que diversificarse, y con tantas actividades diferentes y tiempo tan limitado, no queda otra que con"
 category: "Descenso de barrancos"
@@ -14,7 +14,7 @@ tags:
 
 
 
-[/attachments/2lucars1-300x223.webp](/attachments/2lucars1-300x223.webp)
+[attachments/2lucars1-300x223.webp](attachments/2lucars1-300x223.webp)
 
 
 jR, el RaiderMan, con Marga y Laura
@@ -29,7 +29,7 @@ Primero fuimos a apretar a las paredes de RapÃƒÂºn. AquÃƒÂ­ Producciones
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mEaIAR2qHz8" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 Y luego nos acercamos a OrÃƒÂ³s Bajo, a bajar el barranco de D'os Lucars. Un barranco de juguete, pero muy coqueto y que merece la pena bajar por sus curiosas formaciones de estratos en la roca...
-[/attachments/2lucars3-300x213.webp](/attachments/2lucars3-300x213.webp)
+[attachments/2lucars3-300x213.webp](attachments/2lucars3-300x213.webp)
 Puedes ver mÃƒÂ¡s en el [blog de los Tritones Majaras](http://tritonesmajaras.blogspot.com/2010/08/tarde-en-dos-lucars.html)...
 
 

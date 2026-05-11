@@ -1,16 +1,16 @@
-﻿---
+---
 title: "Aludes: mapa ATES del macizo de Maladetas - Aneto"
-heroImage: "http://montanasegura.com/wp-content/uploads/2017/11/Evaluator-canadiense.jpg"
+heroImage: http://montanasegura.com/wp-content/uploads/2017/11/Evaluator-canadiense.jpg
 pubDate: 2017-12-27T10:49:42Z
 updatedDate: 2017-12-27T10:53:17Z
-draft: ó
-author: "AlbertoEpic"
-description: "Cuando se trata del tema de los aludes, cualquier ayuda debe ser siempre bienvenida. En este caso, comentamos que Prames ha sacado un mapa ATES del macizo de las Maladetas-Aneto. Ein? Mapa ATES? Y eso de quÃƒÂ© va? En el 2010, la PCA (Parks Ca"
-category: "EsquÃƒÂ­ de travesÃƒÂ­a"
+draft: false
+author: AlbertoEpic
+description: Cuando se trata del tema de los aludes, cualquier ayuda debe ser siempre bienvenida. En este caso, comentamos que Prames ha sacado un mapa ATES del macizo de las Maladetas-Aneto. Ein? Mapa ATES? Y eso de quÃƒÂ© va? En el 2010, la PCA (Parks Ca
+category: EsquÃƒÂ­ de travesÃƒÂ­a
 tags:
-  - "aludes"
-  - "ates"
-  - "avalanchas"
+  - aludes
+  - ates
+  - avalanchas
 ---
 Cuando se trata del tema de los aludes, cualquier ayuda debe ser siempre bienvenida. En este caso, comentamos que Prames ha sacado un mapa ATES del macizo de las Maladetas-Aneto. Ein? Mapa ATES? Y eso de quÃƒÂ© va?
 En el 2010, la PCA (Parks Canada Agency) adoptÃƒÂ³ una nueva metodologÃƒÂ­a para la Escala de ClasificaciÃƒÂ³n de Terrenos de Aludes (Por sus siglas en inglÃƒÂ©s, [ATES](http://arc.lib.montana.edu/snow-science/objects/issw-2006-491-497.pdf)), consistente en lo siguiente:

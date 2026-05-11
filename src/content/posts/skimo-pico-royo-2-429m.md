@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Skimo: pico Royo (2.429m)"
 pubDate: 2020-03-02T10:19:36Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2020-03-02T10:45:09Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El pasado 28 de febrero, y despuÃƒÂ©s de unos dÃƒÂ­as mÃƒÂ¡s centrado en la btt, nuestro especialista AlbertoEpic decidiÃƒÂ³ retomar el esquÃƒÂ­ de travesÃƒÂ­a... Pero todo tenÃƒÂ­a truco: lo que en realidad mÃƒÂ¡s le apetecÃƒÂ­a era seguir jugando con el drone! Y qu"
 category: "EsquÃƒÂ­ de travesÃƒÂ­a"

@@ -1,9 +1,9 @@
-﻿---
+---
 title: "AscensiÃ³n infantil: la Cristallare (1.874m)"
-heroImage: "/attachments/IMG_20210912_114510-scaled-e1632561104763.webp"
+heroImage: "attachments/IMG_20210912_114510-scaled-e1632561104763.webp"
 pubDate: 2021-09-25T07:28:19Z
 updatedDate: 2021-09-25T09:32:24Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "La excursiÃ³n propuesta hoy es ideal como una de las primeras cimas para un niño. El terreno es el tÃ­pico del Pirineo francés, donde escasean las piedras y abundan los senderos cÃ³modos a través de bosques y prados. La Cristallare es una cumb"
 category: "SQLP-kids"
@@ -23,13 +23,13 @@ Hemos añadido el track a nuestra base de datos, por si quieres descargarlo para
 También puedes ver el track animado sobre una representaciÃ³n en 3D, que siempre queda más futurista... ;-p https://video.relive.cc/274354648501_garmin-health_1632555437464.mp4
 
 Para terminar, te dejamos con algunas fotos de la jornada, realizada el segundo domingo de septiembre 2021.
-![En la parte baja del valle se atraviesan bonitos hayedos. (Foto: Chus)](/attachments/IMG_20210912_114510-scaled-e1632561104763.webp)
+![En la parte baja del valle se atraviesan bonitos hayedos. (Foto: Chus)](attachments/IMG_20210912_114510-scaled-e1632561104763.webp)
 
 *En la parte baja del valle se atraviesan bonitos hayedos. (Foto: Chus)*
-![En la antecima.](/attachments/LaCristallere12-e1632560122785.webp)
+![En la antecima.](attachments/LaCristallere12-e1632560122785.webp)
 
 *En la antecima.*
-![Descendiendo hacia el collado.](/attachments/LaCristallere04-e1632560470830.webp)
+![Descendiendo hacia el collado.](attachments/LaCristallere04-e1632560470830.webp)
 
 *Descendiendo hacia el collado.*
 

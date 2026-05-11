@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Se ha escrito otro ÃƒÂ©pico capÃƒÂ­tulo en la historia globeril - Vuelta a Guara en BTT"
 heroImage: "https://lh6.googleusercontent.com/_7YhMCQHkDgI/TVpGMHizTPI/AAAAAAAACVg/vSr1V5T8nBI/s320/110212%20Vuelta%20Guara_0013.JPG"
 pubDate: 2011-02-16T19:54:00Z
 updatedDate: 2015-04-06T10:28:53Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El pasado domingo volviÃƒÂ³ a ocurrir: llevados por una irracional carga de masoquismo y ausencia de miedo al dolor, un reducido grupo de globeros se reuniÃƒÂ³ para dar la mÃƒÂ­tica vuelta a Guara en BTT, pero no en primavera, sino en pleno invierno"
 category: "Otros"

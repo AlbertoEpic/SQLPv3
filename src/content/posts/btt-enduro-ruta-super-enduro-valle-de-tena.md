@@ -1,10 +1,10 @@
-﻿---
+---
 title: "BTT Enduro: ruta Super Enduro valle de Tena"
 pubDate: 2019-07-15T17:36:05Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2019-07-15T17:48:02Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Una ruta para 'vagos' pero fuertes... Cuando te hablan de una ruta de enduro, con combinaciÃƒÂ³n de coches, que sale del punto mÃƒÂ¡s alto de la ruta para terminar en el punto mÃƒÂ¡s bajo... uno no puede evitar pensar \"serÃƒÂ¡ una ruta para vagos\". Cra"
 category: "Bicicleta de montaÃƒÂ±a"

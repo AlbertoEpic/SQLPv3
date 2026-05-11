@@ -1,9 +1,9 @@
-﻿---
+---
 title: "BTT - La Solana de Sasé (ZZ-027)"
-heroImage: "/attachments/LuziaSaseGIF.gif"
+heroImage: "attachments/LuziaSaseGIF.gif"
 pubDate: 2015-08-18T21:08:59Z
 updatedDate: 2015-08-18T21:37:56Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El pasado domingo Luzia y AlbertoEpic gozaron de un breve 'permiso filial' y aprovecharon para escaparse a Fiscal, para hacer esta ruta que les faltaba en la zona. Puedes ver una descripciÃ³n más detallada de la misma en la web oficial . Par"
 category: "Bicicleta de montaña"
@@ -23,9 +23,9 @@ Puedes ver el mapa con la ruta y descargarte el track en la [secciÃ³n correspo
 Para los devoradores de cifras:
 Distancia: 29km
 Desnivel+: 1.405m
-![](/attachments/LuziaSaseGIF.webp)
+![](attachments/LuziaSaseGIF.webp)
 
 Luzia en el descenso hacia Fiscal...
 
-Â¿Te gustan los cÃ³digos QR?![](/attachments/QRsase.webp)
+Â¿Te gustan los cÃ³digos QR?![](attachments/QRsase.webp)
 

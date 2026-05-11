@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Raid La Pineda: crÃ³nica de Jara"
-heroImage: "/attachments/20090425_Raid-la-Pineda_0036-300x225.webp"
+heroImage: "attachments/20090425_Raid-la-Pineda_0036-300x225.webp"
 pubDate: 2009-05-02T20:58:00Z
 updatedDate: 2015-04-06T10:29:05Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Añado a continuaciÃ³n la crÃ³nica de Jara, del 'Nenas o marines?', en el raid de La Pineda... Bueno, pues allÃ­ va la crÃ³nica de las Nenas o Marines según se mire: No voy a empezar con La frase de Jose de â‚¬Å“entrenar es lo que tieneâ‚¬Â¦porque todos"
 category: "Otros"
@@ -12,7 +12,7 @@ tags:
 ---
 Añado a continuaciÃ³n la crÃ³nica de Jara, del 'Nenas o marines?', en el raid de La Pineda...
 
-[![](/attachments/20090425_Raid-la-Pineda_0036.webp)
+[![](attachments/20090425_Raid-la-Pineda_0036.webp)
 
 
 
@@ -66,7 +66,7 @@ podéis imaginar primero no cogemos los remos, luego cogemos dos cada
 
 una y por poco me voy remando a contracorrienteâ‚¬Â¦.
 
-[![](/attachments/20090425_Raid-la-Pineda_0038.webp)
+[![](attachments/20090425_Raid-la-Pineda_0038.webp)
 
 Poco después de empezar vemos algo muy raro, a lo que digo- Lola pero
 
@@ -158,7 +158,7 @@ queda la exhibiciÃ³n por la playa, aquÃ­ acabamos la ultimas pero con
 
 cara de satisfacciÃ³n.
 
-[![](/attachments/20090426_Raid-la-Pineda_0021.webp)
+[![](attachments/20090426_Raid-la-Pineda_0021.webp)
 
 En resumen, un raid lleno de vivencias, inolvidables e incomparables.
 

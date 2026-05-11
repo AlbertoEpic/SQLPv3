@@ -1,10 +1,10 @@
-﻿---
+---
 title: "TravesÃƒÂ­a Balneario de Panticosa a Sallent"
 pubDate: 2010-03-16T17:47:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2016-01-26T09:34:46Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El pasado sÃƒÂ¡bado, un cuarteto de ilustres globeros (Dr. LaTrek, Morenetti, Luzia y AlbertoEpic) se juntÃƒÂ³ con un 'multitudinario' grupo de traveseros, ya conocidos de anteriores ocasiones, con la idea de ir al Balneario de Panticosa y 'ver q"
 category: "EsquÃƒÂ­ de travesÃƒÂ­a"

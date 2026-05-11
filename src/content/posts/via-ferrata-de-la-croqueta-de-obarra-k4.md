@@ -1,9 +1,9 @@
-﻿---
+---
 title: "VÃ­a Ferrata de la Croqueta de Obarra (K4)"
-heroImage: "/attachments/croquisCroqueta-jpg.webp"
+heroImage: "attachments/croquisCroqueta-jpg.webp"
 pubDate: 2024-01-29T11:01:16Z
 updatedDate: 2024-01-29T11:05:18Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Una ferrata larga y mantenida... El pasado 11 de enero, y para comenzar sus actividades del 2024 por todo lo alto, el equipo SQLP TeRReXtrem formado por los especialistas July y AlbertoEpic decide ir a recorrer la vÃ­a ferrata de 'La Croquet"
 category: "Escalada"
@@ -13,7 +13,7 @@ category: "Escalada"
 
 El pasado 11 de enero, y para comenzar sus actividades del 2024 por todo lo alto, el equipo SQLP TeRReXtrem formado por los especialistas July y AlbertoEpic decide ir a recorrer la vÃ­a ferrata de 'La Croqueta" de Obarra. Durante largo tiempo en la lista de 'pendientes', la escasez de nieve este invierno y las inusualmente altas temperaturas provocaron que esta ferrata fuera un plan razonable para estas fechas.
 
-![](/attachments/croquisCroqueta-jpg.webp)
+![](attachments/croquisCroqueta-jpg.webp)
 
 Arriba puedes ver un croquis de la vÃ­a., y abajo verás el track sobre el mapa.
 
@@ -27,7 +27,7 @@ Por cierto, si vas a hacer la ferrata, desde SQLP te aconsejamos que desestimes 
 
 Te dejamos a continuaciÃ³n con un par de fotos de nuestros especialistas:
 
-![](/attachments/WhatsApp-Image-2024-01-11-at-21.16.43-1024x770.webp)
+![](attachments/WhatsApp-Image-2024-01-11-at-21.16.43-1024x770.webp)
 
-![](/attachments/WhatsApp-Image-2024-01-11-at-20.10.40-1-461x1024.webp)
+![](attachments/WhatsApp-Image-2024-01-11-at-20.10.40-1-461x1024.webp)
 

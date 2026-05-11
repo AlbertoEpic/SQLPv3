@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Seljalandsfoss [ICELAND PILLS 3]"
 heroImage: "https://live.staticflickr.com/65535/53969461917_2caeb42746_b.jpg"
 pubDate: 2024-09-04T10:40:19Z
 updatedDate: 2024-09-04T10:40:20Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El camino por detrÃƒÂ¡s de la cascada... La cascada Seljalandsfoss parte del rÃƒÂ­o SeljalandsÃƒÂ¡ (\"RÃƒÂ­o lÃƒÂ­quido\"), y cae cerca de 60 metros en lo que en otros tiempos era una escollera sobre el ocÃƒÂ©ano (que en la actualidad se encuentra a varios kil"
 category: "Islandia 2024"

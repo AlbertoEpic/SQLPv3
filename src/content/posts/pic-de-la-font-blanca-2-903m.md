@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Pic de la Font Blanca (2.903m)"
 heroImage: "https://i.imgur.com/CIn29Bh.jpg"
 pubDate: 2018-01-26T11:55:11Z
 updatedDate: 2018-01-26T11:55:11Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El pasado lunes, y aprovechando la festividad de San Vicente en Huesca, SQLP estuvo en Andorra para hacer actividad por lugares nuevos... La ascensiÃƒÂ³n elegida fue el Pic de la Font Blanca. Hemos aÃƒÂ±adido el track a nuestra base de datos. La "
 category: "EsquÃƒÂ­ de travesÃƒÂ­a"

@@ -1,9 +1,9 @@
-﻿---
+---
 title: "ISLANDIA 2024: diario de un viaje en autocaravana"
-heroImage: "/attachments/Pasted-image-20240829193527-1024x576.webp"
+heroImage: "attachments/Pasted-image-20240829193527-1024x576.webp"
 pubDate: 2024-10-28T21:32:23Z
 updatedDate: 2024-10-28T21:41:53Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Cuaderno de bitÃƒÂ¡cora. Extractos del diario de AlbertoEpic... Finiquitamos el tema de las vacaciones en Islandia con este 'Especial' que contiene el vÃƒÂ­deo resumen del viaje, un ' Cuaderno de bitÃƒÂ¡cora ' confeccionado a partir de retazos del d"
 category: "Islandia 2024"
@@ -28,7 +28,7 @@ Finiquitamos el tema de las vacaciones en Islandia con este 'Especial' que conti
 Son las 6:30pm, estamos en el aviÃƒÂ³n, volando camino de Islandia. SerÃƒÂ¡n unas 4h y pico de vuelo, se hace un poco largo, pero bueno. HabÃƒÂ­a venido preparado con los cascos para ir escuchando mÃƒÂºsica, pero mejor se los he dejado a Sami para que viera una peli (Tenemos pantalla en cada asiento).
 Y asÃƒÂ­ comienzan nuestras vacaciones en Islandia!!!
 
-![En el aeropuerto de Barcelona.](/attachments/Pasted-image-20240829193527-1024x576.webp)
+![En el aeropuerto de Barcelona.](attachments/Pasted-image-20240829193527-1024x576.webp)
 
 *En el aeropuerto de Barcelona.*
 
@@ -40,7 +40,7 @@ Y asÃƒÂ­ comienzan nuestras vacaciones en Islandia!!!
 
 La jornada comienza con una noche movidita: nos han dado una AC (AutoCaravana) con la baterÃƒÂ­a de servicio muerta, y se apaga la calefacciÃƒÂ³n, asÃƒÂ­ que pasamos algo de frÃƒÂ­o por la noche. A la maÃƒÂ±ana toca volver a las oficinas de alquiler a negociar para que nos cambien la baterÃƒÂ­a. Total, que pasamos allÃƒÂ­ la maÃƒÂ±ana, y asÃƒÂ­ perdemos un poco de tiempo para el plan previsto.
 
-[![Lugar de la primera noche, en medio de la nada... y sin calefacciÃƒÂ³n! :-)](/attachments/IMG20240820093911.webp)
+[![Lugar de la primera noche, en medio de la nada... y sin calefacciÃƒÂ³n! :-)](attachments/IMG20240820093911.webp)
 
 *Lugar de la primera noche, en medio de la nada... y sin calefacciÃƒÂ³n! :-)*
 
@@ -48,7 +48,7 @@ Por la tarde, nos da tiempo de ver rÃƒÂ¡pidamente Pingvellir, [Gullfoss](gul
 
 Terminamos la jornada durmiendo en el parking de un supermercado en Selfoss.
 
-![Gullfoss, una bestialidad para los que venimos del secano... ;-p](/attachments/Pasted-image-20240829194723-1024x653.webp)
+![Gullfoss, una bestialidad para los que venimos del secano... ;-p](attachments/Pasted-image-20240829194723-1024x653.webp)
 
 *Gullfoss, una bestialidad para los que venimos del secano... ;-p*
 
@@ -63,7 +63,7 @@ Lo de ver frailecillos habrÃƒÂ¡ que dejarlo para maÃƒÂ±ana...
 Por la maÃƒÂ±ana hemos visto la cascada [Seljalandfoss](seljalandsfoss-iceland-pills-3/).
 DespuÃƒÂ©s del huracÃƒÂ¡n, pudimos llegar al camping de Vik.
 
-![Sami y Cheles despuÃƒÂ©s de cruzar tras la cascada de Seljalandfoss...](/attachments/Pasted-image-20240829200907-1024x576.webp)
+![Sami y Cheles despuÃƒÂ©s de cruzar tras la cascada de Seljalandfoss...](attachments/Pasted-image-20240829200907-1024x576.webp)
 
 *Sami y Cheles despuÃƒÂ©s de cruzar tras la cascada de Seljalandfoss...*
 
@@ -77,7 +77,7 @@ Salimos de Vik y retrocedemos un poco a ver lo que no pudimos el dÃƒÂ­a ante
 Me deja un poco decepcionado, estÃƒÂ¡ todo absolutamente masificado, demasiada gente comparado con cuando estuve con la bici hace unos aÃƒÂ±os. ÃƒÂ°Ã…Â¸Ã‹Å“Ã‚Â£
 Y luego continuamos camino hasta Skaftafell.
 
-![El equipo SQLP haciendo el canelo con las Agujas de Reynisdrangar al fondo.](/attachments/Pasted-image-20240829201716-1024x577.webp)
+![El equipo SQLP haciendo el canelo con las Agujas de Reynisdrangar al fondo.](attachments/Pasted-image-20240829201716-1024x577.webp)
 
 *El equipo SQLP haciendo el canelo con las Agujas de Reynisdrangar al fondo.*
 
@@ -89,13 +89,13 @@ Y luego continuamos camino hasta Skaftafell.
 
 Nos levantamos en el camping de Skaftafell que con tan buen criterio eligiÃƒÂ³ Cheles, y nos vamos primero a dar un paseo hasta la lengua del glaciar [SkaftafellsjaÃ‚Â¶kull](skaftafellsjokull-iceland-pills-6/). Espectacular, una pena que no se pudiera volar el dronÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦
 
-![Sami y AlbertoEpic con el SkaftafellsjaÃ‚Â¶kull al fondo.](/attachments/Pasted-image-20240829202047-1024x576.webp)
+![Sami y AlbertoEpic con el SkaftafellsjaÃ‚Â¶kull al fondo.](attachments/Pasted-image-20240829202047-1024x576.webp)
 
 *Sami y AlbertoEpic con el SkaftafellsjaÃ‚Â¶kull al fondo.*
 
 Terminamos ese bucle y lo enlazamos con otro que se acerca a visitar la cercana cascada de [Svartifoss](svartifoss-iceland-pills-7/). Esta zona empieza a estar un poco menos masificada, con un ambiente mÃƒÂ¡s montaÃƒÂ±ero y menos turista de masas.
 
-![Svartifoss.](/attachments/Pasted-image-20240830113323-1024x577.webp)
+![Svartifoss.](attachments/Pasted-image-20240830113323-1024x577.webp)
 
 *Svartifoss.*
 
@@ -107,7 +107,7 @@ Terminamos ese bucle y lo enlazamos con otro que se acerca a visitar la cercana 
 
 Hoy ha sido el mejor dÃƒÂ­a hasta la fecha!!! Hemos salido de Skaftafell a visitar [JaÃ‚Â¶kullsÃƒÂ¡rlÃƒÂ³n](jokullsarlon-iceland-pills-9/), pero antes de llegar hemos parado en otra lengua glaciar ([FjallsjaÃ‚Â¶kull](fjallsjokull-iceland-pills-7/)) con su laguna llena de pequeÃƒÂ±os icebergs: FjallsÃƒÂ¡rlÃƒÂ³n.
 
-![Flipando con la laguna glaciar del FjallsjaÃ‚Â¶kull.](/attachments/Pasted-image-20240830114502-1024x576.webp)
+![Flipando con la laguna glaciar del FjallsjaÃ‚Â¶kull.](attachments/Pasted-image-20240830114502-1024x576.webp)
 
 *Flipando con la laguna glaciar del FjallsjaÃ‚Â¶kull.*
 
@@ -126,14 +126,14 @@ Hoy nos hemos levantado en el camping de [VÃƒÂ­k ÃƒÂ­ MaÃ‚Â½rdal](v
 
 A la vuelta del paseo el cansancio acumulado de los mayores unido al 'aburrimiento' de los pequeÃƒÂ±os hacen peligrar la agenda marcada! Pero no hay tregua. Comemos un bocata con cuatro cosas del supermercado, un cafÃƒÂ© en el mÃƒÂ­tico Schoolbus de los Simpsons y como nuevos!
 
-![MÃƒÂ­tico autobÃƒÂºs escolar de los Simpsons, reconvertido en cafeterÃƒÂ­a.](/attachments/Pasted-image-20240830120419-1024x577.webp)
+![MÃƒÂ­tico autobÃƒÂºs escolar de los Simpsons, reconvertido en cafeterÃƒÂ­a.](attachments/Pasted-image-20240830120419-1024x577.webp)
 
 *MÃƒÂ­tico autobÃƒÂºs escolar de los Simpsons, reconvertido en cafeterÃƒÂ­a.*
 
 Tras el cafÃƒÂ© (Sami un 'hot chocolate') hemos partido camino a [SkÃƒÂ³gafoss](skogafoss-iceland-pills-13/). Una cascada brutal!!!
 Nos ha gustado mucho y nos ha levantado el ÃƒÂ¡nimo. Luego ya hemos seguido para terminar en el camping municipal de Reykjavik.
 
-![SkÃƒÂ³gafoss, un caudal de agua sÃƒÂ³lo superado por el caudal de turistas!](/attachments/Pasted-image-20240830120535-1024x576.webp)
+![SkÃƒÂ³gafoss, un caudal de agua sÃƒÂ³lo superado por el caudal de turistas!](attachments/Pasted-image-20240830120535-1024x576.webp)
 
 *SkÃƒÂ³gafoss, un caudal de agua sÃƒÂ³lo superado por el caudal de turistas!*
 
@@ -146,7 +146,7 @@ Nos ha gustado mucho y nos ha levantado el ÃƒÂ¡nimo. Luego ya hemos seguido 
 Hoy hemos pasado el dÃƒÂ­a en [Reykjavik](un-paseo-por-reykjavik-iceland-pills-14/). Un revival de mi anterior viajeÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ Mismo camping, paseo por el parque botÃƒÂ¡nico, por las calles de Reykjavik, su iglesia, etc.
 La nota curiosa: paseando por un parque, de repente llega un dron gigante y entrega un paquete a una seÃƒÂ±ora! Le he preguntado y resulta que era la madre de un tÃƒÂ­o que se estÃƒÂ¡ montando una empresa de entrega de comida mediante drones. He estado hablando con ella, y al final nos ha hecho un pedido de tres fajitas y botellines de zumo.
 
-![Con nuestra comida repartida vÃƒÂ­a dron!](/attachments/Pasted-image-20240830121448-1024x577.webp)
+![Con nuestra comida repartida vÃƒÂ­a dron!](attachments/Pasted-image-20240830121448-1024x577.webp)
 
 *Con nuestra comida repartida vÃƒÂ­a dron!*
 
@@ -174,7 +174,7 @@ A las 6am nos llevan al aeropuerto y a las 8.25 am despegamos rumbo a BCN.
 
 DespuÃƒÂ©s de escribir las lÃƒÂ­neas anteriores, salgo a mirar si aparecÃƒÂ­a alguna aurora, y un resplandor rojo tremendo en el cielo me ha hecho pasear unos 10min hasta salir a las afueras del lugar, ya sin farolas, para admirar la grandeza del volcÃƒÂ¡n ÃƒÂ°Ã…Â¸Ã‹Å“Ã‚Â².
 
-![El volcÃƒÂ¡n de SundhnÃƒÂºkur en la noche...](/attachments/Pasted-image-20240830121713-1024x576.webp)
+![El volcÃƒÂ¡n de SundhnÃƒÂºkur en la noche...](attachments/Pasted-image-20240830121713-1024x576.webp)
 
 *El volcÃƒÂ¡n de SundhnÃƒÂºkur en la noche...*
 
@@ -189,6 +189,6 @@ Nada estÃƒÂ¡ siendo fÃƒÂ¡cil en este viajeÃƒÂ¢Ã¢â€šÂ¬Ã‚Â
 Luego en el aeropuerto, problemas con el auto check-in y varias cosas mÃƒÂ¡s... y terminamos cruzando el aeropuerto a la carrera para llegar a embarcar.
 El vuelo se me ha hecho largo e incÃƒÂ³modo, y desde BCN a Tierz en la furgo ha sido una penitencia. Al menos el tema de la furgo con Aparca&Go ha ido fino como la seda. ÃƒÂ°Ã…Â¸Ã‹Å“Ã…Â 
 
-![Una que yo me sÃƒÂ©, contenta de volver a casa... ;-)](/attachments/Pasted-image-20240830123151-1024x576.webp)
+![Una que yo me sÃƒÂ©, contenta de volver a casa... ;-)](attachments/Pasted-image-20240830123151-1024x576.webp)
 
 *Una que yo me sÃƒÂ©, contenta de volver a casa... ;-)*

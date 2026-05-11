@@ -1,9 +1,9 @@
-﻿---
+---
 title: "La Palma - pico Bejenado (1.856m)"
 heroImage: "https://i.imgur.com/99JdOBM.jpg"
 pubDate: 2022-09-18T14:51:18Z
 updatedDate: 2022-09-19T17:53:42Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Vacaciones en La Palma: dÃƒÂ­a 6 PenÃƒÂºltimo dÃƒÂ­a de vacaciones en La Palma, maÃƒÂ±ana tomamos el aviÃƒÂ³n de regreso a Barcelona. La idea para hoy es ascender al pico Bejenado, en el borde sur de la Caldera de Taburiente. Es un excelente mirador de la"
 category: "La Palma 2022"

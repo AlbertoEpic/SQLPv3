@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Skimo: Tendeñera (2.845m)"
-heroImage: "/attachments/Tendenera_planeta2-150x150.webp"
+heroImage: "attachments/Tendenera_planeta2-150x150.webp"
 pubDate: 2021-04-27T17:34:10Z
 updatedDate: 2021-04-28T08:09:45Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "- Combinada BTT+porteo+Skimo - El pasado 18 de abril los especialistas de SQLP, Myriam y AlbertoEpic, realizaron una actividad, digamos, original (Teniendo en cuenta que hoy en dÃ­a cada vez más gente hace de todo). La idea no es nueva, fue "
 category: "EsquÃ­ de travesÃ­a"
@@ -22,7 +22,7 @@ Consiste en salir en BTT del refugio de Bujaruelo, con los esquÃ­s en la mochi
 Y hasta la cima arrastrÃ³ AlbertoEpic toda la artillerÃ­a: dron, GoPro,... para que Producciones SQLP os pueda ofrecer el consiguiente videoreportaje de la actividad:https://youtu.be/NvZ0JszhAHsSi te ha motivado y estás interesado en ir tras los pasos de nuestro equipo, te ofrecemos a continuaciÃ³n el mapa con el track del itinerario seguido, con los puntos donde hicieron las transiciones bici-porteo y porteo-skimo.
 <iframe src="https://www.alltrails.com/es/widget/map/tende-era-btt-skimo-c559da2?scrollZoom=ó&hideName=true&u=m" width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="AllTrails: Trail Guides and Maps for Hiking, Camping, and Running"></iframe>
 Y para tener una idea más visual de la actividad, bajo estas lÃ­neas tienes el track animado en un mapa 3D virtual:https://video.relive.cc/24705334298_garmin-health_1619513831659.mp4
-[![](/attachments/Tendenera_planeta2-150x150.webp)](https://pano360.soloquedalopeor.com/panorama/tendenera-2-845m/)[PanoSphere desde la cima...](https://pano360.soloquedalopeor.com/panorama/tendenera-2-845m/)Por supuesto no podÃ­a faltar una de nuestras fotos esféricas desde la cumbre, con infinidad de cimas etiquetadas!!! Haz click en la imagen del mini-planeta de la izquierda para verla en nuestra web dedicada: https://pano360.soloquedalopeor.com
+[![](attachments/Tendenera_planeta2-150x150.webp)](https://pano360.soloquedalopeor.com/panorama/tendenera-2-845m/)[PanoSphere desde la cima...](https://pano360.soloquedalopeor.com/panorama/tendenera-2-845m/)Por supuesto no podÃ­a faltar una de nuestras fotos esféricas desde la cumbre, con infinidad de cimas etiquetadas!!! Haz click en la imagen del mini-planeta de la izquierda para verla en nuestra web dedicada: https://pano360.soloquedalopeor.com
 
 La jornada resultÃ³ como viene siendo habitual en un dÃ­a de esquÃ­ de primavera: desde el momento "yo no salgo del coche! No hay nieve, hace mucho frÃ­o, un viento racheado muy desagradable... (Ande vamo, zeñorita, ande vamo?)", pasando por momentos de silencioso esfuerzo mantenido, alegrÃ­a contenida en una cima totalmente invernal tras una concentrada subida con cuchillas por la nieve helada, y terminando con una jubilosa bajada por la nieve 'mantequilla'!
 

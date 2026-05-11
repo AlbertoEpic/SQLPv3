@@ -1,10 +1,10 @@
-﻿---
+---
 title: "OtoÃƒÂ±o en Benasque..."
 pubDate: 2015-10-27T10:54:30Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-10-27T10:54:30Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El equipo SQLP ha pasado unos dÃƒÂ­as disfrutando del otoÃƒÂ±o en Benasque. Una excursiÃƒÂ³n hasta el Plan d'Aigualluts, paseos por el bosque de Linsoles, BTT por los senderos de Planadona y Ãƒâ€˜ara... Unas variadas y relajadas jornadas alucinando de l"
 category: "Otros"

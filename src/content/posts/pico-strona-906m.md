@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Noruega 2019: pico StrÃƒÂ¸na (906m)"
 heroImage: "https://i.imgur.com/R5yROJX.jpg"
 pubDate: 2019-09-16T15:08:12Z
 updatedDate: 2020-03-02T17:06:59Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "- capÃƒÂ­tulo 4 - Por fin las islas Lofoten!!! El viaje por Noruega del equipo SQLP se estÃƒÂ¡ poniendo cada vez mÃƒÂ¡s interesante! Tras la increÃƒÂ­ble ruta del Holmvassfjellet el listÃƒÂ³n ha quedado muy alto, pero... De Narvik pasan a la isla de Hadse"
 category: "Ascensiones"

@@ -1,9 +1,9 @@
-﻿---
+---
 title: "BTT: circular enlazando Erata y Oturia"
 heroImage: "https://i.imgur.com/0FddDVK.jpg"
 pubDate: 2021-06-11T09:33:44Z
 updatedDate: 2021-06-11T20:08:58Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Una ruta de dÃ¯Â¿Â½a completo, sin ninguna prisa... El pasado domingo, Myriam y AlbertoEpic, los especialistas de SQLP, aprovecharon para darse un capricho enlazando dos cimas mÃ¯Â¿Â½ticas del Sobrepuerto: Erata (Biescas) y Oturia (SabiÃ¯Â¿Â½Ã¯Â¿Â½nigo). Y ya "
 category: "Bicicleta de montaÃ¯Â¿Â½a"

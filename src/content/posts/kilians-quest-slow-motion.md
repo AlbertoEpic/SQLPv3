@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Kilian's Quest Slow Motion"
 pubDate: 2011-10-30T19:31:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:46Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Un montaje de video a cÃƒÂ¡mara superlenta con Kilian Jornet, muy muy chulo!"
 category: "Otros"

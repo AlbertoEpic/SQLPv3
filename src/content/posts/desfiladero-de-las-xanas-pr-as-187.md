@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Desfiladero de Las Xanas (PR AS-187)"
 heroImage: "https://i.imgur.com/u2wx3GX.jpg"
 pubDate: 2018-08-29T15:44:55Z
 updatedDate: 2018-11-05T08:09:49Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "En circular por la Ruta de ValdolayÃƒÂ©s La idea original era recorrer la archiconocida Garganta del Cares, pero en agosto... la elevada masificaciÃƒÂ³n de la zona nos echa para atrÃƒÂ¡s y buscamos una alternativa. Leemos por ahÃƒÂ­ que el desfiladero "
 category: "Ascensiones"

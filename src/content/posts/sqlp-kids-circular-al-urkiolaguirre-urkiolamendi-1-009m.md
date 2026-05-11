@@ -1,9 +1,9 @@
-﻿---
+---
 title: "SQLP-kids: circular al Urkiolaguirre / Urkiolamendi (1.009m)"
 heroImage: "https://i.imgur.com/V6FNqWQ.jpg"
 pubDate: 2020-09-02T16:13:22Z
 updatedDate: 2020-09-02T16:18:36Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Hoy os traemos otra actividad sencilla para hacer con niÃƒÂ±os, y en esta ocasiÃƒÂ³n vamos a ampliar el radio de acciÃƒÂ³n de SQLP-kids hasta el Parque Natural de Urkiola , situado en el extremo sur oriental de Vizcaya y norte de ÃƒÂlava. La ruta comi"
 category: "SQLP-kids"

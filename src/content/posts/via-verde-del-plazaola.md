@@ -1,10 +1,10 @@
-﻿---
+---
 title: "VÃƒÂ­a Verde del Plazaola"
 pubDate: 2019-08-12T20:08:28Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2020-07-02T21:59:21Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Ideal para iniciar a los niÃƒÂ±os en las rutas de btt... El pasado 10 de agosto tocaba ir a hacer una vÃƒÂ­a verde, en algÃƒÂºn lugar verde y fresco, para ir metiendo el gusanillo de la BTT al componente mÃƒÂ¡s joven del equipo SQLP. La ruta elegida fu"
 category: "SQLP-kids"

@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Aludes: mapa ATES del macizo de Infiernos"
 pubDate: 2019-02-07T10:35:48Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2019-02-07T10:37:22Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Cuando se trata del tema de los aludes, cualquier ayuda debe ser siempre bienvenida. El aÃƒÂ±o pasado te hablÃƒÂ¡bamos del mapa ATES que Prames habÃƒÂ­a sacado del macizo de las Maladetas-Aneto . Estamos de enhorabuena porque en este caso nos brinda"
 category: "EsquÃƒÂ­ de travesÃƒÂ­a"

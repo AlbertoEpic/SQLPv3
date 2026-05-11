@@ -1,10 +1,10 @@
-﻿---
+---
 title: "USA 2012: Colorado Trail, toma de contacto."
 pubDate: 2012-08-13T07:18:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:40Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "DespuÃƒÂ©s de un largo viaje hasta Denver, por fin comenzamos a pedalear con todo el Colorado Trail por delante... El segundo dÃƒÂ­a nos quedamos sin agua, el tercero sin comida,... Cuesta adaptarse a las nuevas condiciones: calcular distancias e"
 category: "Viajes"

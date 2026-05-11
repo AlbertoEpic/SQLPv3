@@ -1,16 +1,15 @@
-﻿---
-title: "Alta Ruta Maladetas-Posets 2016"
+---
+title: Alta Ruta Maladetas-Posets 2016
 pubDate: 2016-04-12T17:11:30Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2016-04-12T17:11:30Z
-draft: ó
-author: "AlbertoEpic"
+draft: false
+author: AlbertoEpic
 description: "El mes pasado se formÃƒÂ³ un equipo internacional para una travesÃƒÂ­a con esquÃƒÂ­s de varios dÃƒÂ­as por los macizos de Posets y Maladetas: Marco y Laura Bomio, de Grindelwald, y Luzia&AlbertoEpic, por parte del equipo SQLP. Dado que estos ÃƒÂºltimos ti"
-category: "EsquÃƒÂ­ de travesÃƒÂ­a"
+category: EsquÃƒÂ­ de travesÃƒÂ­a
 tags:
-  - "Benasque"
-  - "EsquÃƒÂ­ de travesÃƒÂ­a"
+  - Benasque
+  - EsquÃƒÂ­ de travesÃƒÂ­a
 ---
 El mes pasado se formÃƒÂ³ un equipo internacional para una travesÃƒÂ­a con esquÃƒÂ­s de varios dÃƒÂ­as por los macizos de Posets y Maladetas: [Marco](http://www.marcobomio.ch) y Laura Bomio, de Grindelwald, y Luzia&AlbertoEpic, por parte del equipo SQLP. Dado que estos ÃƒÂºltimos tienen que contar con el tercer miembro del equipo SQLP, el ya experto en ciclo-viajes con remolque Sami, se turnarÃƒÂ­an para acompaÃƒÂ±ar a los suizos en su primera vez con esquÃƒÂ­s por el Pirineo.
 

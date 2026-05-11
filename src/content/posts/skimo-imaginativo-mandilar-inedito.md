@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Skimo imaginativo: Mandilar inÃƒÂ©dito"
 heroImage: "https://i.imgur.com/oXXq4Lh.jpg"
 pubDate: 2018-03-19T21:04:32Z
 updatedDate: 2018-03-19T21:04:32Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Ayer domingo, Marta y AlbertoEpic hicieron coincidir sus coordenadas espaciotemporales para hacer algo de esquÃƒÂ­ de montaÃƒÂ±a. La sucesiÃƒÂ³n de frentes locos que ÃƒÂºltimamente nos castiga habÃƒÂ­a hecho que la salida de PeÃƒÂ±a Guara se suspendiera, y e"
 category: "EsquÃƒÂ­ de travesÃƒÂ­a"

@@ -1,10 +1,10 @@
-﻿---
+---
 title: "ÃƒÂ­EXCLUSIVA! Compartimos una jornada de trabajo de campo con RocÃƒÂ­o (ALURTE)"
 pubDate: 2017-02-16T18:24:02Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2017-02-16T18:24:02Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El otro dÃƒÂ­a nos olvidamos de sumar metros de desnivel foqueados, de transiciones rÃƒÂ¡pidas y de objetivos cimeros... Esta vez se trataba de palear! ;-) AlbertoEpic compartiÃƒÂ³ una jornada de trabajo de campo con RocÃƒÂ­o, de ALURTE (Centro pirenai"
 category: "EsquÃƒÂ­ de travesÃƒÂ­a"

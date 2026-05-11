@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Tuca de La MontaÃƒÂ±eta (Intento)"
 pubDate: 2011-01-14T13:54:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:53Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Tras un tiempo sin publicar ningÃƒÂºn video, Producciones SoloQuedaLoPeor recupera uno perteneciente a la primera actividad del aÃƒÂ±o 2011. El 1/1/11, en Benasque, la idea era subir al pico de la MontaÃƒÂ±eta (2.552m) por el corredor Oeste, ya que "
 category: "Otros"

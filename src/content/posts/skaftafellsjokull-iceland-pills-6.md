@@ -1,9 +1,9 @@
-﻿---
+---
 title: "SkaftafellsjÃƒÂ¶kull [ICELAND PILLS 6]"
 heroImage: "https://i.imgur.com/vzi1BN0.jpg"
 pubDate: 2024-09-12T15:54:32Z
 updatedDate: 2024-09-12T15:54:34Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El glaciar de Skaftafell... Se trata de una de las lenguas del enorme glaciar VatnajÃƒÂ¶kull , el campo de hielo mÃƒÂ¡s grande de Europa y un 14% de la superficie total de Islandia. A lo largo del viaje iremos viendo mÃƒÂ¡s glaciares que son todos l"
 category: "Islandia 2024"

@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Fatpinismo invernal: a los pies del Aneto en fatbike"
-heroImage: "/attachments/AlbertoEpic.webp"
+heroImage: "attachments/AlbertoEpic.webp"
 pubDate: 2019-03-18T20:36:19Z
 updatedDate: 2019-03-18T20:50:09Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Reseñamos a continuaciÃ³n la última actividad de Fatpinismo (Alpinismo en fatbike) de AlbertoEpic. Se encontraba en Benasque y tenÃ­a que llegar a una comida familiar en Huesca. Pero antes querÃ­a 'homologar' el prototipo de cadenas de nieve p"
 category: "Bicicleta de montaña"
@@ -39,7 +39,7 @@ Tic tac, tic tac,... El tiempo va pasando irremediablemente, y ha llegado el mom
 Pero son las 8:40am. Con las condiciones tan buenas que hay, todavÃ­a no hay prisa, pero ya no se puede perder más tiempo. En la primera pala más pendiente comprueba que las cadenas funcionan de maravilla, aportando algo asÃ­ como un 70% más de poder de frenada.
 
 "Hoy las condiciones eran perfectas. Si hubiera tenido más tiempo... el Aneto me llamaba!"
-![](/attachments/AlbertoEpic.webp)
+![](attachments/AlbertoEpic.webp)
 AlbertoEpic
 Superhéroe de todo a 100
 

@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Cicloalpinismo: Dedo de Yenefrito (1.818m)"
 heroImage: "https://i.imgur.com/jPgQwgh.jpg"
 pubDate: 2021-06-03T18:28:30Z
 updatedDate: 2021-06-03T18:53:23Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El otro dÃƒÂ­a los especialistas Myriam y AlbertoEpic realizaron otra de sus mÃƒÂ­ticas actividades al atardecer (No sabemos si van a esas horas porque les gusta, o porque no pueden a otras mÃƒÂ¡s decentes...). Resulta que alguien le puso en canciÃƒÂ³n"
 category: "Bicicleta de montaÃƒÂ±a"

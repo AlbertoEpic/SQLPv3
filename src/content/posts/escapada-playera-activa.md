@@ -1,16 +1,16 @@
-﻿---
+---
 title: "Escapada playera activa..."
-heroImage: "/attachments/borrame.webp"
+heroImage: "attachments/borrame.webp"
 pubDate: 2014-06-12T12:47:00Z
 updatedDate: 2015-04-06T10:28:27Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "En SQLP vamos poco a poco poniéndonos en marcha, dentro de esta nueva etapa de la vida. Estamos en perÃ­odos de pruebas y ensayos para acometer con mÃ­nimas garantÃ­as las futuras aventuras. El escenario elegido para los últimos test realizado"
 category: "Viajes"
 tags:
   - "Uncategorized"
 ---
-[![](/attachments/borrame.webp)En SQLP vamos poco a poco poniéndonos en marcha, dentro de esta nueva etapa de la vida. Estamos en perÃ­odos de pruebas y ensayos para acometer con mÃ­nimas garantÃ­as las futuras aventuras.
+[![](attachments/borrame.webp)En SQLP vamos poco a poco poniéndonos en marcha, dentro de esta nueva etapa de la vida. Estamos en perÃ­odos de pruebas y ensayos para acometer con mÃ­nimas garantÃ­as las futuras aventuras.
 
 El escenario elegido para los últimos test realizados fue la regiÃ³n de Las Landas.
 

@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Cicloalpinismo: pico Musales (2.654m)"
 heroImage: "https://i.imgur.com/UTNJAYB.jpg"
 pubDate: 2020-06-05T17:03:53Z
 updatedDate: 2020-06-16T09:51:42Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "La semana pasada llegÃƒÂ³ el dÃƒÂ­a por fin. Se alinearon los astros para que AlbertoEpic pudiera sacar tiempo para hacer una actividad algo mÃƒÂ¡s larga, y el avance de la desescalada por el temita del coronavirus ya le permitiera salir de su munic"
 category: "Bicicleta de montaÃƒÂ±a"

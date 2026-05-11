@@ -1,9 +1,9 @@
-﻿---
+---
 title: "BTT enduro: cÃ¯Â¿Â½psulas antiestrÃ¯Â¿Â½s #6"
 heroImage: "https://i.imgur.com/PJjgYkZ.jpg"
 pubDate: 2021-05-21T07:52:57Z
 updatedDate: 2021-05-21T08:17:19Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "La Travenosa Comenzamos hoy la temporada primavera-verano de BTT con una nueva 'CÃ¯Â¿Â½psula antiestrÃ¯Â¿Â½s'. Una ruta breve, de menos de 2h, que puede hacerse en una maÃ¯Â¿Â½ana/tarde si disponemos de sÃ¯Â¿Â½lo medio dÃ¯Â¿Â½a libre. Esta ruta parte de Panticosa, "
 category: "Bicicleta de montaÃ¯Â¿Â½a"

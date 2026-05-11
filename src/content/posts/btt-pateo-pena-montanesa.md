@@ -1,9 +1,9 @@
-﻿---
+---
 title: "BTT-Pateo: Peña Montañesa"
 heroImage: "https://i.postimg.cc/d3LBV60S/P2040362.jpg"
 pubDate: 2024-02-05T18:44:39Z
 updatedDate: 2024-02-05T18:44:41Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Una subida muy directa del coche a cima... El pasado domingo, los especialistas en actividades BTT+pateo del mÃ­tico Equipo SQLP, Myriam y AlbertoEpic, estuvieron en la Peña Montañesa. Realizaron una actividad que, debido a su orientaciÃ³n N,"
 category: "Ascensiones"
@@ -39,7 +39,7 @@ Una rápida bajada directa, primero a pie por la pedrera y luego en la BTT, ataj
 
 ![](https://i.postimg.cc/DZYrHGcQ/P2040388.jpg)Desde la cima, mirando hacia el sur. La Tuca (2.275m), una 'cima gemela' de la principal...
 
-![Los especialistas SQLP Myriam y AlbertoEpic, en la cima de Peña Montañesa.](/attachments/penamontanesa-jpg.webp)
+![Los especialistas SQLP Myriam y AlbertoEpic, en la cima de Peña Montañesa.](attachments/penamontanesa-jpg.webp)
 
 *Los especialistas SQLP Myriam y AlbertoEpic, en la cima de Peña Montañesa.*
 

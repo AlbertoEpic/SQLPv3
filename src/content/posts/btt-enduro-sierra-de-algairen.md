@@ -1,10 +1,10 @@
-﻿---
+---
 title: "BTT Enduro - Sierra de AlgairÃƒÂ©n"
 pubDate: 2016-05-17T11:07:43Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2016-05-17T11:31:50Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El pasado sÃƒÂ¡bado, y dado lo revuelto de la meteo en el Pirineo, AlbertoEpic siguiÃƒÂ³ con su proyecto 'Ampliando horizontes cercanos - mirando al Sur'. En esta ocasiÃƒÂ³n la zona elegida fue la sierra de AlgairÃƒÂ©n. Nuevamente se formÃƒÂ³ un equipo de"
 category: "Bicicleta de montaÃƒÂ±a"

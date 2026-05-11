@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Ellos las prefieren gordas. Un poco de snowbike en Formigal..."
-heroImage: "/attachments/itinerario.webp"
+heroImage: "attachments/itinerario.webp"
 pubDate: 2016-04-18T22:15:18Z
 updatedDate: 2016-04-18T22:15:18Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "En el equipo SQLP innovamos hoy un poco en cuanto a disciplinas/material se refiere. Vamos con una variedad de la BTT: las FatBike. cualquier parecido de una fatbike con una mountainbike es pura coincidencia... Realmente no se pueden compar"
 category: "Bicicleta de montaña"
@@ -22,13 +22,13 @@ De esta manera ha bajado por la nieve hasta la furgoneta, en el parking de Sexta
 
 A continuaciÃ³n puedes ver el recorrido: 12km, algo menos de 2h y muchas, muchas risas!!!
 
-![](/attachments/itinerario.webp)
+![](attachments/itinerario.webp)
 
 Después de darse la vuelta, bajo el pico Royo. Con unas ruedas de 4.6', es muy fácil plantar la bici en el suelo... :-)
 
-[![](/attachments/snowbike2.webp)
+[![](attachments/snowbike2.webp)
 
-En la segunda mitad de bajada, la nieve estaba exageradamente sopa... Para poder flotar un poco, la presiÃ³n de las ruedas era ridÃ­cula: 0'3bar delante y 0'4bar detrás.[/attachments/itinerario.webp](/attachments/itinerario.webp) [![](/attachments/snowbike3.webp)
+En la segunda mitad de bajada, la nieve estaba exageradamente sopa... Para poder flotar un poco, la presiÃ³n de las ruedas era ridÃ­cula: 0'3bar delante y 0'4bar detrás.[attachments/itinerario.webp](attachments/itinerario.webp) [![](attachments/snowbike3.webp)
 
 Y eso ha sido todo por hoy... Como decÃ­a AlbertoEpic, "olvÃ­date de rendimiento, una FatBike es el colmo de la diversiÃ³n".
 

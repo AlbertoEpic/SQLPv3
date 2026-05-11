@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Agujas de Reynisdrangar [ICELAND PILLS 5]"
 heroImage: "https://i.imgur.com/0RL1aQb.jpg"
 pubDate: 2024-09-11T09:33:50Z
 updatedDate: 2024-09-11T09:40:37Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "La leyenda de los tres trolls La leyenda popular islandesa cuenta que las Rocas Reynisdrangar son malÃƒÂ©volos trolls convertidos en piedra por el sol. Tres trolls llamados Skessudrangar, Landdrangar y Langhamrar habÃƒÂ­an salido de sus cuevas du"
 category: "Islandia 2024"

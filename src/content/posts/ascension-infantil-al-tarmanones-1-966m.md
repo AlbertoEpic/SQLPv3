@@ -1,9 +1,9 @@
-﻿---
+---
 title: "AscensiÃƒÂ³n infantil al TarmaÃƒÂ±ones (1.966m)"
 heroImage: "https://i.imgur.com/5trvLMT.jpg"
 pubDate: 2021-07-27T07:52:01Z
 updatedDate: 2021-07-27T08:47:22Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El TarmaÃƒÂ±ones es una fantÃƒÂ¡stica atalaya al norte de las sierras de la Partacua (Telera) y TendeÃƒÂ±era (Sabocos). En su mayorÃƒÂ­a relieves suaves cubiertos de hierba, se convierte en un apetecible objetivo con niÃƒÂ±os si pagamos los 7Ã¢â€šÂ¬ para subir "
 category: "SQLP-kids"

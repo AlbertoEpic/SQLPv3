@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Vuelta al Mall Pintrat"
-heroImage: "/attachments/vueltaMPin1.webp"
+heroImage: "attachments/vueltaMPin1.webp"
 pubDate: 2016-02-23T10:33:16Z
 updatedDate: 2016-02-23T10:33:16Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El pasado finde, los globeros jR&Marga&Alejandra y AlbertoEpic&Luzia&Sami&Tai estuvieron concentrados en Benasque para aprovechar las últimas nevadas. Se recurriÃ³ a la afamada técnica 'turno de padres'/'turno de madres' para alternar activi"
 category: "EsquÃ­ de travesÃ­a"
@@ -26,23 +26,23 @@ Respecto al track, sÃ³lo unÂ apunte: la parte que discurre por el fondo del 
 
 Y a continuaciÃ³n, algunas fotos:
 
-![](/attachments/vueltaMPin1.webp)
+![](attachments/vueltaMPin1.webp)
 jR subiendo por el valle de Remuñe, por la margen derecha. Al ser el primer dÃ­a de calor después de las nevadas, habÃ­a que olvidarse de una huella que iba por la cara S. Todas las paredes de la margen izquierda del valle de Remuñe (Cara S) estaban cargadas de nieve y hielo, que con el sol de la mañana se iba derritiendo y cayendo. Al fondo, cierra el valle la Forca de Remuñe.
 
-![](/attachments/vueltaMPin2.webp)
+![](attachments/vueltaMPin2.webp)
 
 jR llegando al cuello de Mall Plané. La nieve estaba bien, y se ha podido subir desde abajo con los esquÃ­s puestos. Al fondo, encima de jR, el Posets, y más a la derecha asoma el Perdiguero.
 
-![](/attachments/vueltaMPin3.webp)
+![](attachments/vueltaMPin3.webp)
 
 La vista desde el collado hacia Francia. Bagneres de Luchon. Los primeros 4 Ã³ 5 metros de bajada la nieve está barrida por el viento, pero luego ya se calzan esquÃ­s y emprenden un fantabuloso descenso por 'polvorÃ³n del gaÂ¼eno' hasta el Lac du Port Vieil.
 
-![](/attachments/vueltaMPin4.webp)
+![](attachments/vueltaMPin4.webp)
 
 En la foto puede verse el final de la bajada hasta el lago, donde toca transiciÃ³n y un breve foqueo (La huella está resaltada) hasta el Puerto Biello.
 
 AquÃ­ sÃ­, jR y AlbertoEpic agradecen enormemente la labor del anÃ³nimo grupo que abriÃ³ la huella de ascenso hasta el collado. Lo que fueraÂ una dura labor para ese grupo, resultÃ³Â un juego de niños para ellos, siguiendo una huella perfecta. :-)
-![](/attachments/vueltaMPin5.webp)
+![](attachments/vueltaMPin5.webp)
 Y este es el panorama desde el Puerto Biello, mirando hacia España. A la izquierda destaca el pico Salvaguardia, y a la derecha el macizo de las Maladetas.
 
 Ya sÃ³lo quedaba el descenso hasta los Llanos del Hospital. La primera parte, nuevamente nieve polvo de vicio. Luego, algo de costra de rehielo finita, que 'haciendo un poco el burro' no afectaba al esquÃ­, y para terminar, sopa.

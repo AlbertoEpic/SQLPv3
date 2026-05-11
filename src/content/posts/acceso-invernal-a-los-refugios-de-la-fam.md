@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Acceso invernal a los refugios de la FAM"
 pubDate: 2018-12-12T11:11:48Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2018-12-12T11:11:49Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El otro dÃƒÂ­a llegÃƒÂ³ a mÃƒÂ­ una informaciÃƒÂ³n que pienso que puede ser ÃƒÂºtil a aquellos interesados en llegar a cualquiera de los refugios de montaÃƒÂ±a de la FAM (FederaciÃƒÂ³n Aragonesa de MontaÃƒÂ±ismo) en condiciones invernales. Se trata de unas fichas "
 category: "Otros"

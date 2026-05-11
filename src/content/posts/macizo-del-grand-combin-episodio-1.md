@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Macizo del Grand Combin - episodio 1"
 pubDate: 2017-06-05T10:47:42Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2017-06-05T11:12:32Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Ya puedes ver el primer episodio de la serie, correspondiente a la actividad en el Macizo del Grand Combin. La aproximaciÃƒÂ³n desde Fionay hasta el refugio Cabane FXB PanossiÃƒÂ¨re, y al dÃƒÂ­a siguiente las ascensiones al Petit Combin y Combin de "
 category: "EsquÃƒÂ­ de travesÃƒÂ­a"

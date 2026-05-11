@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Cicloalpinismo: monte SarasÃƒÂ©"
 pubDate: 2020-09-20T10:06:18Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2020-09-20T10:24:45Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Ã‚Â¿Sabes la ÃƒÂºltima del mÃƒÂ­tico dÃƒÂºo formado por Myriam y AlbertoEpic? Se subieron a merendar a la cima del monte SarasÃƒÂ© (Entre GavÃƒÂ­n y Sabocos) para jugar un poco con el drone... Puedes ver a continuaciÃƒÂ³n el vÃƒÂ­deo resultante de la jornada vespe"
 category: "Bicicleta de montaÃƒÂ±a"

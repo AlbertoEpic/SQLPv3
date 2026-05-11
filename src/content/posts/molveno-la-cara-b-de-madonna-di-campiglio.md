@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Molveno: la 'cara B' de Madonna di Campiglio"
 heroImage: "https://i.imgur.com/PyrP86J.jpg"
 pubDate: 2016-09-14T17:42:33Z
 updatedDate: 2016-09-14T17:42:33Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "DespuÃƒÂ©s de Madonna de Campiglio, nuestra siguiente parada es Molveno, poblaciÃƒÂ³n situada justo al otro lado del macizo de Brenta (Dolomiti di Brenta). Un lugar de ensueÃƒÂ±o que cuenta con un lago (Lago di Molveno) con playas muy buenas para da"
 category: "Otros"

@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Trajes de superhÃƒÂ©roe..."
 pubDate: 2010-10-01T15:30:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:56Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "... para hacer superheroicidades? Bueno, sÃƒÂ­, en cierto modo... si consigues no acabar aplastado en el suelo como una mosca en el morro del coche! Digamos que sirven para hacer una caÃƒÂ­da controlada, y que luego viendo estos videos alucinemos"
 category: "Otros"

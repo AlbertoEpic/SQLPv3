@@ -1,9 +1,9 @@
-﻿---
+---
 title: "BTT-kids: circular AnzÃƒÂ¡nigo-Javierrelatre"
 heroImage: "https://i.imgur.com/czRwwhB.jpg"
 pubDate: 2021-05-26T07:50:00Z
 updatedDate: 2021-05-26T08:08:04Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Siguiendo el Canal del GÃƒÂ¡llego... El bucle propuesto intenta sacar una ruta circular aprovechando la pista de servicio del Canal del GÃƒÂ¡llego, un tramo muy amigable para ir con jÃƒÂ³venes bikers. Se puede unir asÃƒÂ­ Javierrelatre con AnzÃƒÂ¡nigo de "
 category: "SQLP-kids"

@@ -1,10 +1,10 @@
-﻿---
+---
 title: "BTT enduro: cÃƒÂ¡psulas antiestrÃƒÂ©s #5"
 pubDate: 2020-02-14T11:35:37Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2020-02-14T11:37:26Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "BTT enduro: sierra Estronad Ya iba siendo hora de aÃƒÂ±adir a nuestra colecciÃƒÂ³n alguna otra 'cÃƒÂ¡psula antiestrÃƒÂ©s' de BTT para ayudarnos a sobrellevar esta dura vida moderna... El bucle propuesto hoy cumple con los requisitos: subidas en su mayo"
 category: "Otros"

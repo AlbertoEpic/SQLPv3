@@ -1,9 +1,9 @@
-﻿---
+---
 title: "La Palma - Cascada de los Tilos y La Fajana"
 heroImage: "https://i.imgur.com/U56bawF.jpg"
 pubDate: 2022-09-05T15:17:32Z
 updatedDate: 2022-09-05T16:04:01Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Vacaciones en La Palma: dÃƒÂ­a 2 Y llega nuestro segundo dÃƒÂ­a en la isla. Hoy lo vamos a plantear mÃƒÂ¡s en plan turÃƒÂ­stico, intentando escapar de las terribles carreteras sinuosas del dÃƒÂ­a anterior... Queremos conocer la zona norte de La Palma. Sub"
 category: "La Palma 2022"

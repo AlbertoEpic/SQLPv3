@@ -1,9 +1,9 @@
-﻿---
+---
 title: "AnÃƒÂ¡lisis comparativo de arvas/DVA's"
 heroImage: "https://i.imgur.com/dAChtEk.gif"
 pubDate: 2017-12-01T12:37:42Z
 updatedDate: 2017-12-01T12:37:42Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Por fin parece que comienza una nueva temporada de esquÃƒÂ­ de travesÃƒÂ­a, y con ella el repaso a todo el material indispensable... Estos dÃƒÂ­as he estado poniÃƒÂ©ndome un poco al dÃƒÂ­a en el tema de los arvas (Ahora los llaman DVA's) y me he dado cuen"
 category: "EsquÃƒÂ­ de travesÃƒÂ­a"

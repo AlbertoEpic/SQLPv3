@@ -1,16 +1,16 @@
-﻿---
+---
 title: "Noruega 2019: Cabo Norte"
-heroImage: "/attachments/nw_6-150x150.webp"
+heroImage: "attachments/nw_6-150x150.webp"
 pubDate: 2019-09-02T08:38:20Z
 updatedDate: 2020-03-29T09:22:41Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "- CapÃ­tulo 1 - El equipo SQLP comienza su viaje por Noruega el 17 de agosto, aterrizando en TromsaÂ¸ . AllÃ­ alquilan un coche, y comienzan a subir hacia el norte. Primera noche en TromsaÂ¸, y segunda en Alta, en el 'Holmen Husky Lodge', donde d"
 category: "Norway2019"
 ---
 - CapÃ­tulo 1 -
 El equipo SQLP comienza su viaje por Noruega el 17 de agosto, aterrizando en [TromsaÂ¸](https://es.wikipedia.org/wiki/Troms%C3%B8). AllÃ­ alquilan un coche, y comienzan a subir hacia el norte. Primera noche en TromsaÂ¸, y segunda en Alta, en el 'Holmen Husky Lodge', donde duermen en un 'tipi' sami y conocen a un montÃ³n de perros de trineo que entrenan allÃ­.
-[![Cabo Norte](/attachments/nw_6.webp)[![Holmen Husky Lodge](/attachments/nw_7.webp)[![Holmen Husky Lodge](/attachments/nw_8.webp)[![Holmen Husky Lodge](/attachments/nw_2.webp)[![Holmen Husky Lodge](/attachments/nw_3.webp)[![Cabo Norte](/attachments/nw_4.webp)[![Cabo Norte](/attachments/nw_5.webp)
+[![Cabo Norte](attachments/nw_6.webp)[![Holmen Husky Lodge](attachments/nw_7.webp)[![Holmen Husky Lodge](attachments/nw_8.webp)[![Holmen Husky Lodge](attachments/nw_2.webp)[![Holmen Husky Lodge](attachments/nw_3.webp)[![Cabo Norte](attachments/nw_4.webp)[![Cabo Norte](attachments/nw_5.webp)
 Anterior
 Siguiente
 Al dÃ­a siguiente llegan a Cabo Norte. TÃ­pica visita de turisteo con muchas fotos y se quedan a dormir en las cabañas del camping más prÃ³ximo a Nordkapp.

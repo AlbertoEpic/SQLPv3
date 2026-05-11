@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Pico Espelunciecha: clausura del curso de EsquÃƒÂ­ de TravesÃƒÂ­a de PeÃƒÂ±a Guara"
 pubDate: 2017-02-14T10:50:46Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2017-02-14T10:50:46Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El pasado sÃƒÂ¡bado tuvo lugar la ÃƒÂºltima jornada del curso de EsquÃƒÂ­ de TravesÃƒÂ­a de PeÃƒÂ±a Guara. Este aÃƒÂ±o se ha juntado allÃƒÂ­ un grupo de gente muy maja y que ha sabido sobreponerse a las complicaciones creadas por la mala meteo... Aprovechamos p"
 category: "EsquÃƒÂ­ de travesÃƒÂ­a"

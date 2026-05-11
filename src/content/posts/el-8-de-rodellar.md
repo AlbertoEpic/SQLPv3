@@ -1,9 +1,9 @@
-﻿---
+---
 title: "El 8 de Rodellar"
-heroImage: "/attachments/8rodellar.webp"
+heroImage: "attachments/8rodellar.webp"
 pubDate: 2011-11-28T06:43:00Z
 updatedDate: 2018-11-02T18:09:07Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Interrumpimos la serie Uttarakhand 2011 para hacernos eco de la actividad globeril del pasado sábado: los globeros Morenetti, Ãngel, jR, Marga, Luzia, AlbertoEpic y el Flow Master José se dieron cita en Rodellar con las btt para hacer una r"
 category: "Bicicleta de montaña"
@@ -14,7 +14,7 @@ tags:
 ---
 Interrumpimos la serie Uttarakhand 2011 para hacernos eco de la actividad globeril del pasado sábado: los globeros Morenetti, Ãngel, jR, Marga, Luzia, AlbertoEpic y el Flow Master José se dieron cita en Rodellar con las btt para hacer una ruta endurera 'larga pero dura'. Salida de Rodellar, bajada al Mascún, subida porteando por el barranco de Andrebot, dolmen de la Losa Mora, OtÃ­n, bajada por La Costera al Mascún, subida a Rodellar, Las Almunias, sierra de Balced y descenso trialero a Rodellar. 
 
-[![](/attachments/8rodellar.webp)El '8' de Rodellar. Primero el bucle superior, acompañados por Tai...Para los adictos a las estadÃ­sticas:
+[![](attachments/8rodellar.webp)El '8' de Rodellar. Primero el bucle superior, acompañados por Tai...Para los adictos a las estadÃ­sticas:
 
 Tiempo total: 7h 30min (SÃ³lo 3h en movimiento, juajua!)
 

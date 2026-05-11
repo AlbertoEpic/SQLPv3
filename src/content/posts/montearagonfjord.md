@@ -1,10 +1,10 @@
-﻿---
+---
 title: "MontearagonFjord"
 pubDate: 2021-01-06T18:35:55Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2021-01-07T07:55:25Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Otra ruta realizada por el ya mÃƒÂ­tico grupo IvÃƒÂ¡n&Chus+Sami&AlbertoEpic, en esta ocasiÃƒÂ³n en BTT y para recibir bien el aÃƒÂ±o 2021. Cuando decimos 'MontearagonFjord', o 'fiordo de MontearagÃƒÂ³n', nos referimos a un nuevo sendero que recorre el fil"
 category: "SQLP-kids"

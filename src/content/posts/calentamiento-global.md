@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Calentamiento global..."
 pubDate: 2010-05-11T16:31:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:58Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Aqui va un video de esos que hacen pensar... Global Warming: When you feel it, it's already too late Calentamiento global: cuando lo sientes, ya es demasiado tarde"
 category: "Otros"

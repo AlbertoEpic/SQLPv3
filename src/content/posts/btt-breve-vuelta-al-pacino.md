@@ -1,9 +1,9 @@
-﻿---
+---
 title: "BTT: breve vuelta al Pacino"
 heroImage: "https://i.imgur.com/dzIGeEQ.jpg"
 pubDate: 2018-09-10T09:11:49Z
 updatedDate: 2018-09-10T09:14:25Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El pasado 31 de agosto, AlbertoEpic se alÃƒÂ­a con Jorge para una nueva salida de BTT (PodrÃƒÂ­amos catalogarla como de 'cicloalpinismo de iniciaciÃƒÂ³n'?) con la esperanza de ir recuperando la forma de la manera menos traumÃƒÂ¡tica posible... La ruta "
 category: "Bicicleta de montaÃƒÂ±a"

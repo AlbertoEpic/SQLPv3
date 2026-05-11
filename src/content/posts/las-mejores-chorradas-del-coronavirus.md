@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Las mejores chorradas del coronavirus..."
 pubDate: 2020-03-20T17:39:07Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2020-04-15T10:39:44Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Participa en la elecciÃ¯Â¿Â½n del mÃ¯Â¿Â½s gracioso!!! Estamos en tiempos de confinamiento por el coronavirus. Eso ha disparado la imaginaciÃ¯Â¿Â½n de la gente y andamos todo el dÃ¯Â¿Â½a con el whatsapp echando humo entre mensajes apocalÃ¯Â¿Â½pticos, en un extremo,"
 category: "Otros"

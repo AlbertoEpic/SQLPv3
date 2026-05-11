@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Sociedad General de Fabricantes de Mesas"
-heroImage: "/attachments/ramoncin.webp"
+heroImage: "attachments/ramoncin.webp"
 pubDate: 2011-01-11T20:55:00Z
 updatedDate: 2015-04-06T10:28:53Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Reproduzco a continuaciÃ³n un texto que me ha parecido interesante. Lo he encontrado por casualidad en este blog . Yo creo la Sociedad General de Fabricantes de Mesas. Yo fabrico una mesa a Victor Manuel, él va, me la paga y se la lleva a su"
 category: "Otros"
@@ -12,7 +12,7 @@ tags:
 ---
 Reproduzco a continuaciÃ³n un texto que me ha parecido interesante. Lo he encontrado por casualidad en [este blog](http://puarel.blogspot.com/2010/04/sociedad-general-de-fabricantes-de.html).
 
-[![](/attachments/ramoncin.webp)
+[![](attachments/ramoncin.webp)
 
  Yo creo la Sociedad General de Fabricantes de Mesas.
 

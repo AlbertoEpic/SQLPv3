@@ -1,9 +1,9 @@
-﻿---
+---
 title: Aguja de BachimaÃƒÂ±a - EspolÃƒÂ³n Edu (250m, IV+)
 heroImage: https://i.imgur.com/akqQtv3.jpg
 pubDate: 2016-10-28T09:47:53Z
 updatedDate: 2016-10-28T09:52:05Z
-draft: ó
+draft: false
 author: AlbertoEpic
 description: El otro dÃƒÂ­a, Curro y AlbertoEpic se aliaron para subirse a algÃƒÂºn sitio alto ahora que hace una meteo espectacular para tales menesteres. Por consejo de Curro fueron a la Aguja de BachimaÃƒÂ±a. La escalaron por el EspolÃƒÂ³n Edu (250m, IV+), entra
 category: Escalada

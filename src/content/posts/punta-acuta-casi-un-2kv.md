@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Punta Acuta - Casi un 2KV..."
 pubDate: 2015-08-07T10:59:15Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-08-18T18:43:17Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El otro dÃƒÂ­a, a AlbertoEpic no se le ocurriÃƒÂ³ otra cosa que hacer la famosa ruta ZZ-030 , pero como al llegar al punto mÃƒÂ¡s alto se habÃƒÂ­a quedado con ganas de mÃƒÂ¡s, continuÃƒÂ³ subiendo para disfrutar del panorama que ofrece la Punta Acuta (2.242m"
 category: "Bicicleta de montaÃƒÂ±a"

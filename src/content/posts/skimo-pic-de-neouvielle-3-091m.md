@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Skimo: pic de Néouvielle (3.091m)"
-heroImage: "/attachments/Neouvielle-300x300.webp"
+heroImage: "attachments/Neouvielle-300x300.webp"
 pubDate: 2023-05-11T09:17:15Z
 updatedDate: 2023-05-11T09:17:16Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Despidiendo la temporada de esquÃ­ de travesÃ­a con un BTT+Skimo... El pasado sábado, los especialistas de SQLP Silvia, Miriam y AlbertoEpic se hallaban en el Lac d'Oredon, en la Reserva Natural del Néouvielle, para dar por finiquitada la tem"
 category: "EsquÃ­ de travesÃ­a"
@@ -20,7 +20,7 @@ Ya que la carretera hasta el Lac d'Aubert está cerrada hasta finales de mayo, l
 
 Dejan las bicis junto a la presa, portean a pie escasos minutos y ya calzan esquÃ­s para ir buscando lenguas de nieve. Menuda nevera gigante tienen montada aquÃ­ en el Néouvielle! Es un gran lugar para acudir cuando la nieve escasea ya en todos los rincones del Pirineo...
 
-[![](/attachments/Neouvielle-300x300.webp)](https://bit.ly/neouvielle)
+[![](attachments/Neouvielle-300x300.webp)](https://bit.ly/neouvielle)
 
 Según la meteo, por la tarde se esperan tormentas, pero la mañana está siendo perfecta (Las primeras gotas cayeron con nuestros protagonistas ya en la furgo).
 

@@ -1,16 +1,16 @@
-﻿---
+---
 title: "Pico Barrosa (2.742m)"
-heroImage: "/attachments/P1200163-300x194.webp"
+heroImage: "attachments/P1200163-300x194.webp"
 pubDate: 2010-01-25T18:53:00Z
 updatedDate: 2015-04-06T10:29:00Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El pasado dÃ­a 22, y por la gloria de Brad Pitt (y también un poco por la de San Vicente), un pequeño grupo de globeros se apuntÃ³ a la indecente proposiciÃ³n de Jorge: ascensiÃ³n al pico Barrosa, en ruta circular. Ida por el circo de Pinarra y"
 category: "Otros"
 tags:
   - "EsquÃ­ de travesÃ­a"
 ---
-[![](/attachments/P1200163.webp)
+[![](attachments/P1200163.webp)
 
 El pasado dÃ­a 22, y por la gloria de Brad Pitt (y también un poco por la de San Vicente), un pequeño grupo de globeros se apuntÃ³ a la indecente proposiciÃ³n de Jorge: ascensiÃ³n al pico Barrosa, en ruta circular. Ida por el circo de Pinarra y vuelta por el circo de Barrosa.
 

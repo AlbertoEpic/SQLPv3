@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Semana barranquil: Peonera inferior y Formiga"
 heroImage: "https://i.imgur.com/6dDYH4X.jpg"
 pubDate: 2016-08-19T22:35:13Z
 updatedDate: 2016-08-21T15:50:47Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Vaya esta entrada simplemente para dejar constancia de las ÃƒÂºltimas actividades del equipo SQLP... Es tiempo de mucho calor, vacaciones para algunos y tardes todavÃƒÂ­a largas para los que no. A comienzos de semana, AlbertoEpic se apuntaba de r"
 category: "Descenso de barrancos"

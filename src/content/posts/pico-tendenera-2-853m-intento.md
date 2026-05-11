@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Pico TendeÃƒÂ±era (2.853m) - Intento"
 pubDate: 2010-05-20T14:59:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:58Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El otro dÃƒÂ­a se dieron cita tres personajes mÃƒÂ­ticos en Bujaruelo para subir al pico TendeÃƒÂ±era: el dr. LaTrek, el primer ser humano en aunar ciclismo, esquÃƒÂ­ y montaÃƒÂ±a en una sola disciplina; Enrique, el ser humano que desde mÃƒÂ¡s lejos acude as"
 category: "Otros"

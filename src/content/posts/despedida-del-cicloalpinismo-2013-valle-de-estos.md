@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Despedida del cicloalpinismo 2013: valle de EstÃ¯Â¿Â½s"
 pubDate: 2013-11-16T22:30:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:36Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Es el Ã¯Â¿Â½ltimo dÃ¯Â¿Â½a antes de las nevadas que cubrirÃ¯Â¿Â½n todo durante, esperemos, los prÃ¯Â¿Â½ximos 6 meses. Las Ã¯Â¿Â½ltimas horas de luz con terreno ciclable, que hay que aprovechar para cerrar la temporada 2013 de 'cicloalpinismo' por el Pirineo... Sin "
 category: "Bicicleta de montaÃ¯Â¿Â½a"

@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Viajar a 2.400km/h"
 pubDate: 2010-05-15T17:11:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:58Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Te invitamos a bajar a Zaragoza de compras, pasar por ahÃƒÂ­ la tarde y regresar caÃƒÂ­da la noche. Por supuesto, montado en nuestra 'fragoneta' a unos 2.400km/h... que si no el viaje se hace muy largo! PequeÃƒÂ±os experimentos con eso de los TimeLa"
 category: "Otros"

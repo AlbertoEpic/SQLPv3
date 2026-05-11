@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Pico de Coronas (3.297m)"
-heroImage: "/attachments/Sin-titulo_1.7.3-1024x576.webp"
+heroImage: "attachments/Sin-titulo_1.7.3-1024x576.webp"
 pubDate: 2025-05-22T10:11:04Z
 updatedDate: 2025-05-22T10:16:21Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Un relajado fin de temporada de skimo... El pasado sÃƒÂ¡bado, y sin estar muy convencidos, en SQLP decidimos dar por concluÃƒÂ­da la temporada de skimo '24/25. Por arriba sigue quedando mucha nieve, sÃƒÂ­... pero las temperaturas en el llano hacen q"
 category: "EsquÃƒÂ­ de travesÃƒÂ­a"
@@ -36,23 +36,23 @@ Tras el paso del PortillÃƒÂ³n Superior, la cosa quedaba bastante clara. Habi
 
 Te dejamos con algunas fotos.
 
-![Silvia poco despuÃƒÂ©s de cruzar el PortillÃƒÂ³n Superior.](/attachments/Sin-titulo_1.7.3-1024x576.webp)
+![Silvia poco despuÃƒÂ©s de cruzar el PortillÃƒÂ³n Superior.](attachments/Sin-titulo_1.7.3-1024x576.webp)
 
 *Silvia poco despuÃƒÂ©s de cruzar el PortillÃƒÂ³n Superior.*
 
-![Huyendo de la masificaciÃƒÂ³n absoluta en el Aneto, Elena subiendo hacia el collado del Medio.](/attachments/Sin-titulo_1.12.1-1024x576.webp)
+![Huyendo de la masificaciÃƒÂ³n absoluta en el Aneto, Elena subiendo hacia el collado del Medio.](attachments/Sin-titulo_1.12.1-1024x576.webp)
 
 *Huyendo de la masificaciÃƒÂ³n absoluta en el Aneto, Elena subiendo hacia el collado del Medio.*
 
-![Miriam en la arista cimera del Coronas, con el masificado Aneto al fondo.](/attachments/Sin-titulo_1.14.1-1024x576.webp)
+![Miriam en la arista cimera del Coronas, con el masificado Aneto al fondo.](attachments/Sin-titulo_1.14.1-1024x576.webp)
 
 *Miriam en la arista cimera del Coronas, con el masificado Aneto al fondo.*
 
-![Elena, AlbertoEpic y Miriam. Selfie de cima, con una meteo fantabulosa... (Foto: Miriam)](/attachments/WhatsApp-Image-2025-05-17-at-21.49.57-1024x768.webp)
+![Elena, AlbertoEpic y Miriam. Selfie de cima, con una meteo fantabulosa... (Foto: Miriam)](attachments/WhatsApp-Image-2025-05-17-at-21.49.57-1024x768.webp)
 
 *Elena, AlbertoEpic y Miriam. Selfie de cima, con una meteo fantabulosa... (Foto: Miriam)*
 
-![Miriam y Elena regresando al collado del Medio, con el elegante pico del Medio al fondo.](/attachments/Sin-titulo_1.18.1-1024x576.webp)
+![Miriam y Elena regresando al collado del Medio, con el elegante pico del Medio al fondo.](attachments/Sin-titulo_1.18.1-1024x576.webp)
 
 *Miriam y Elena regresando al collado del Medio, con el elegante pico del Medio al fondo.*
 

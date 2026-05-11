@@ -1,9 +1,9 @@
-﻿---
+---
 title: "La verdad estÃƒÂ¡ ahÃƒÂ­ fuera..."
 heroImage: "http://drewhyslop.com/assets/images/Nepal/Annapurna%20Range%20PanoramaII.jpg"
 pubDate: 2010-05-04T10:15:00Z
 updatedDate: 2015-04-06T10:28:59Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "... ya lo decÃƒÂ­an Mudler y Scully. Hoy en soloquedalopeor no vamos a contar ninguna actividad nuestra, hoy estamos en plan reflexivo... Y es que, hay que ver, hay que ver, cÃƒÂ³mo estÃƒÂ¡ degenerando esto! Por naturaleza, el ser humano es malo, mu"
 category: "Otros"

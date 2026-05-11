@@ -1,16 +1,16 @@
-﻿---
+---
 title: "BTT enduro: Bara - Miz - Alastrué - Bibán - Bara"
-heroImage: "/attachments/koldo.webp"
+heroImage: "attachments/koldo.webp"
 pubDate: 2014-01-09T08:49:00Z
 updatedDate: 2015-04-06T10:28:36Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Koldo en plena escalinata Dado lo borrascoso de la meteo en el Pirineo para poder hacer una relajada actividad de esquÃ­ de travesÃ­a, el dÃ­a de Reyes cambiamos el chip y nos vamos a endurear con las BTT por una de las zonas más dejadas de la"
 category: "Bicicleta de montaña"
 tags:
   - "Uncategorized"
 ---
-![](/attachments/koldo.webp)
+![](attachments/koldo.webp)
 
 *Koldo en plena escalinata.*
 

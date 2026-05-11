@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Vallnord, si al final sabÃƒÂ­a que lo probarÃƒÂ­a"
 heroImage: "http://lh4.ggpht.com/_7YhMCQHkDgI/TFb3DOl9IFI/AAAAAAAAB1Q/LNxiDYi92xY/s200/100801%20Vallnord_0008.JPG"
 pubDate: 2010-08-03T21:01:00Z
 updatedDate: 2015-04-06T10:28:56Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "JosÃƒÂ© Orte Hay cosas que el destino reserva a los globeros sÃƒÂ­ o sÃƒÂ­... Tarde o temprano, algÃƒÂºn globero dejarÃƒÂ­a de deambular por el Pirineo con la bici al hombro en busca del sendero perfecto, para acudir a alguno de los 'parques de atraccione"
 category: "Bicicleta de montaÃƒÂ±a"

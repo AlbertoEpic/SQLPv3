@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Aguarales de Valpalmas"
 pubDate: 2020-09-17T15:46:52Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2020-09-17T16:05:08Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Un ejercicio de imaginaciÃƒÂ³n para niÃƒÂ±os... Dentro de nuestra secciÃƒÂ³n SQLP-Kids, hoy os traemos una actividad novedosa. No se trata de caminar ni de pedalear. Simplemente dar un paseo para visitar un mundo mÃƒÂ¡gico, un microcosmos oculto entre "
 category: "SQLP-kids"

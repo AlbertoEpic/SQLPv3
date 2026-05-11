@@ -1,10 +1,10 @@
-﻿---
+---
 title: "BurgasÃƒÂ© Infinito / CALOR INFINITO"
 pubDate: 2018-10-08T19:32:40Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2018-10-09T07:01:41Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El otro dÃƒÂ­a AlbertoEpic se equivocÃƒÂ³. DejÃƒÂ¡ndose llevar por las redes sociales, decide ir a hacer la ruta 'trending topic' del momento. Hace una meteo espectacular para rutas de cicloalpinismo por el Pirineo, pero hablan tan bien de la 'Burga"
 category: "Bicicleta de montaÃƒÂ±a"

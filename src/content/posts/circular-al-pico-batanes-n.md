@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Circular al pico Batanes N"
 pubDate: 2017-03-19T21:58:13Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2017-03-19T22:01:05Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El otro dÃƒÂ­a tuvo lugar otra nueva ediciÃƒÂ³n de la Alta Ruta Valle de Tena de PeÃƒÂ±a Guara. Algunos individuos, que tristemente no podÃƒÂ­an contar en sus agendas con el necesario hueco de 2 dÃƒÂ­as, decidieron acompaÃƒÂ±ar al grupo en el itinerario de l"
 category: "EsquÃƒÂ­ de travesÃƒÂ­a"

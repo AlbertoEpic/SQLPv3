@@ -1,10 +1,10 @@
-﻿---
+---
 title: "La Raca: fateando por AstÃƒÂºn..."
 pubDate: 2016-04-29T14:13:29Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2016-04-29T16:28:34Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "AlbertoEpic sigue experimentando nuevas sensaciones en la nieve a bordo de una FatBike. El otro dÃƒÂ­a, aprovechando la bajada de temperaturas y un buen rehielo nocturno, no dudÃƒÂ³ en plantarse en AstÃƒÂºn. La estaciÃƒÂ³n estÃƒÂ¡ cerrada, pero todavÃƒÂ­a ti"
 category: "Bicicleta de montaÃƒÂ±a"

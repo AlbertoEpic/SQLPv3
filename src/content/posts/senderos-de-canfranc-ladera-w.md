@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Senderos de Canfranc - ladera W"
-heroImage: "/attachments/canfrancBTT-1024x576.webp"
+heroImage: "attachments/canfrancBTT-1024x576.webp"
 pubDate: 2016-10-10T10:14:33Z
 updatedDate: 2016-10-10T10:23:36Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El otro dÃ­a Luzia y AlbertoEpic gozaron de un permiso paterno perfecto para hacer una incursiÃ³n rápida en los senderos de Canfranc con sus btt's... Les habrÃ­a gustado subir hasta el CarretÃ³n de Ip y de allÃ­ al embalse del mismo nombre, pero"
 category: "Bicicleta de montaña"
@@ -14,7 +14,7 @@ tags:
 El otro dÃ­a Luzia y AlbertoEpic gozaron de un permiso paterno perfecto para hacer una incursiÃ³n rápida en los senderos de Canfranc con sus btt's...
 Les habrÃ­a gustado subir hasta el CarretÃ³n de Ip y de allÃ­ al embalse del mismo nombre, pero el tiempo es limitado y no dio para más. A 150m del CarretÃ³n de Ip todaba darse la vuelta.
 
-![](/attachments/canfrancBTT-1024x576.webp)
+![](attachments/canfrancBTT-1024x576.webp)
 
 A continuaciÃ³n puedes ver el track de la ruta. Lo hemos editado para eliminar la parte superior del camino recorrido hacia el CarretÃ³n de Ip, de un carácter mucho más severo, y mostramos asÃ­ únicamente la parte más amable y disfrutona de la ruta.
 

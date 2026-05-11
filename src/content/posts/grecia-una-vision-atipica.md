@@ -1,16 +1,16 @@
-﻿---
+---
 title: "Grecia, una visiÃ³n atÃ­pica..."
-heroImage: "/attachments/meteora-300x141.webp"
+heroImage: "attachments/meteora-300x141.webp"
 pubDate: 2009-11-25T23:21:00Z
 updatedDate: 2015-04-06T10:29:01Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Siempre se nos presenta Grecia como el paÃ­s de las playas de arena blanca, el sol, las islas y los yogures... pero sorprendentemente este paÃ­s da para mucho más. Y es que si te alejas escasos 30km de la costa, el paisaje cambia radicalmente"
 category: "Otros"
 tags:
   - "Uncategorized"
 ---
-[![](/attachments/meteora.webp)
+[![](attachments/meteora.webp)
 
 Siempre se nos presenta Grecia como el paÃ­s de las playas de arena blanca, el sol, las islas y los yogures... pero sorprendentemente este paÃ­s da para mucho más.
 

@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Skimo: PeÃƒÂ±a Sabocos (2.754m)"
 heroImage: "https://i.imgur.com/FWHdojL.jpg"
 pubDate: 2021-05-17T08:51:49Z
 updatedDate: 2021-05-17T09:11:13Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Solitaria despedida de temporada... despidiendo al sol! En SQLP ya damos por terminada la temporada de skimo 2020-2021. A partir de ahora tocarÃƒÂ¡, aparte de otras actividades puntuales, principalmente pedalear! Y como despedida del skimo, Al"
 category: "Otros"

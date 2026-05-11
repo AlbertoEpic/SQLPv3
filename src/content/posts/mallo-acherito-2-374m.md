@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Mallo Acherito (2.374m)"
 heroImage: "https://i.imgur.com/0Azbc7C.jpg"
 pubDate: 2018-09-12T05:00:21Z
 updatedDate: 2018-09-14T09:02:38Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El pasado domingo, y desafiando a las tormentas anunciadas, Cheles y AlbertoEpic quedaron con Sonia y Chira en el refugio de Linza para subirse a algÃƒÂºn sitio alto... AlbertoEpic propuso el mallo Acherito, que le faltaba por tachar de su lis"
 category: "Ascensiones"

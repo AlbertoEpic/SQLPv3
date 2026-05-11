@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Skimo: circular Sextas-Anayet, Formigal."
 heroImage: "https://i.imgur.com/iuuFbzd.jpg"
 pubDate: 2019-01-28T11:57:36Z
 updatedDate: 2019-01-28T12:02:06Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "ReseÃƒÂ±amos a continuaciÃƒÂ³n una actividad de esquÃƒÂ­ de montaÃƒÂ±a algo diferente a lo habitual. HabÃƒÂ­a que combinar los siguientes ingredientes: estar en Formigal, en el parking de Sextas, a las 13:15h. ExistÃƒÂ­a un elevado riesgo de aludes. El grupo"
 category: "EsquÃƒÂ­ de travesÃƒÂ­a"

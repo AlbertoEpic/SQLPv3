@@ -1,9 +1,9 @@
-﻿---
+---
 title: "BTT enduro: cÃƒÂ¡psulas antiestrÃƒÂ©s #3"
 heroImage: "https://i.imgur.com/3eyGijX.jpg"
 pubDate: 2018-11-19T19:30:27Z
 updatedDate: 2020-06-03T10:10:24Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Otra maÃƒÂ±ana libre para AlbertoEpic, y otro microplan totalmente recomendable: en este caso, la ruta comienza en BÃƒÂºbal. Subida cÃƒÂ³moda por asfalto hasta Lacuniacha, y luego por pista buena hasta el ibÃƒÂ³n de Piedrafita. AllÃƒÂ­, AlbertoEpic decide"
 category: "Bicicleta de montaÃƒÂ±a"

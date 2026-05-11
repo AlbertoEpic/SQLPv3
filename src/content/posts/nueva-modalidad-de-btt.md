@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Nueva modalidad de BTT..."
 pubDate: 2010-11-24T16:07:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:53Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Primero fue el ciclismo, luego llegÃƒÂ³ el ciclismo de montaÃƒÂ±a, mÃƒÂ¡s tarde creamos el cicloalpinismo (btt + montaÃƒÂ±as), que un invierno se convirtiÃƒÂ³ en cicloesquialpinismo (btt + esquÃƒÂ­ alpinismo). Eso es todo? Nooo! Ahora resulta que unos locos "
 category: "Bicicleta de montaÃƒÂ±a"

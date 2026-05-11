@@ -1,9 +1,9 @@
-﻿---
+---
 title: "PolÃ­gono industrial desalojado en Ayerbe"
-heroImage: "/attachments/NidoAyerbe.webp"
+heroImage: "attachments/NidoAyerbe.webp"
 pubDate: 2010-12-28T11:17:00Z
 updatedDate: 2015-04-06T10:28:53Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Ultimas noticias del quebrantahuesos de Peña Rueba : finalmente, en el sorteo del programa de nidos toctoc, al quebrantahuesos le ha tocado un nido en el polÃ­gono de Ayerbe. En la imagen podemos ver a la feliz pareja tomando posesiÃ³n de su "
 category: "Otros"
@@ -16,6 +16,6 @@ Estas fueron las primeras declaraciones de ella: "os dejo, que tengo que poner u
 
 Debido a ello, todas las empresas establecidas en el polÃ­gono serán desalojadas en el plazo de una semana.
 
-[![](/attachments/NidoAyerbe.webp)La feliz pareja en su nido de protecciÃ³n oficial, todo exterior con mucha luz...
+[![](attachments/NidoAyerbe.webp)La feliz pareja en su nido de protecciÃ³n oficial, todo exterior con mucha luz...
 
 

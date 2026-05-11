@@ -1,9 +1,9 @@
-﻿---
+---
 title: "La leyenda del Eguzkilore"
 heroImage: "https://i.imgur.com/gnYqONy.jpg"
 pubDate: 2022-11-02T09:58:50Z
 updatedDate: 2022-11-03T12:38:55Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "MitologÃƒÂ­a vasca En SQLP estamos reciÃƒÂ©n llegados de pasar unos dÃƒÂ­as por el valle de BaztÃƒÂ¡n, al norte de Navarra. Y antes de reseÃƒÂ±ar ninguna ruta, vamos a plasmar una bonita leyenda que nos ha gustado mucho. En todos los pueblos podÃƒÂ­amos ver "
 category: "Otros"

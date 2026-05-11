@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Trail Running: circular Salto RoldÃƒÂ¡n - PicÃƒÂ³n"
 pubDate: 2018-01-19T12:19:01Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2018-09-10T11:07:30Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Hoy venimos para anunciar que hemos aÃƒÂ±adido a nuestra base de datos el track de una vuelta muy apropiada para trail running. AlbertoEpic fue el otro dÃƒÂ­a, querÃƒÂ­a reconocer el tramo que rodea el PicÃƒÂ³n para una posible ruta en bici (ComprobÃƒÂ³ q"
 category: "Ascensiones"

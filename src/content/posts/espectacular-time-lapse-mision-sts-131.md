@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Espectacular time-lapse: misiÃƒÂ³n STS-131"
 pubDate: 2010-05-27T15:28:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:58Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Agradecimientos a Pedro por pasarme un email con el enlace a este mÃƒÂ­tico time-lapse: la preparaciÃƒÂ³n del transbordador espacial Discovery para su misiÃƒÂ³n STS-131."
 category: "Otros"

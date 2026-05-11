@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Al mal tiempo... FatBike y buena cara!"
 pubDate: 2018-02-14T20:23:19Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2018-02-14T20:23:19Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "En SQLP empezamos a estar un poco hartos de esta meteo tan revuelta e impredecible... Nos gusta que nieve. Mejor dicho nos gusta la nieve! EstÃƒÂ¡ bien que el monte estÃƒÂ© blanco, pero es mejor si hace sol para aprovechar esa nieve. El otro dÃƒÂ­a,"
 category: "Bicicleta de montaÃƒÂ±a"

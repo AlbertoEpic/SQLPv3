@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Estudiando la meteorologÃ­a..."
 heroImage: attachments/SQLPcomodin.jpg
 pubDate: 2019-07-08T20:02:40Z
 updatedDate: 2019-07-08T20:02:42Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "... y la viabilidad de un nuevo proyecto! aÅ¡ltimamente en SQLP llevamos un tiempo de silencio y reclusiÃ³n fuera del ciberespacio. AlbertoEpic necesita regenerar su cuerpo, y dedicarse a otras obligaciones más importantes que sus 'chorradicas"
 category: "Otros"
@@ -16,7 +16,7 @@ aÅ¡ltimamente en SQLP llevamos un tiempo de silencio y reclusiÃ³n fuera del 
 Pero tranquilos! Eso no significa que nuestro superhéroe 'de todo a cien' se haya olvidado de hacer superheroicidades! Actualmente se encuentra rumiando otra de sus ideas: calculando tiempos, fuerzas, horarios, minimizando la lista de material indispensable, estudiando la meteo local,...
 
 Este no será un proyecto tan épico como la [primera mundial al Aneto en FatBike](https://soloquedalopeor.com/aneto-en-fatbike/), pero bueno, desde el punto de vista conceptual tiene su gracia. ;-)
-![](/attachments/AlbertoEpic-o4pqb8rsz7703rb7axfv82qoegc2qodykj9599nqw8.webp)
+![](attachments/AlbertoEpic-o4pqb8rsz7703rb7axfv82qoegc2qodykj9599nqw8.webp)
 AlbertoEpic
 "Con la técnica de no contarle a nadie mis proyectos y planes hasta materializarlos, he logrado fracasar sin que nadie se entere"
 

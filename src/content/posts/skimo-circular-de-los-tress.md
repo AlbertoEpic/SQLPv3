@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Skimo: circular de los Tres's"
 heroImage: "https://i.imgur.com/N7lBIH5.jpg"
 pubDate: 2019-12-28T09:14:17Z
 updatedDate: 2020-03-02T17:02:34Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Recorrido circular por los dos picos '3' de Formigal: Tres Hombres y Tres GÃƒÂ¼egas... El pasado martes 24 de diciembre, y para ganarse la cena de Nochebuena, AlbertoEpic saliÃƒÂ³ a estirar las piernas por el monte y aprovechar para sacar una nue"
 category: "EsquÃƒÂ­ de travesÃƒÂ­a"

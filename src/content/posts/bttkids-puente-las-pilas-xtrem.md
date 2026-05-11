@@ -1,9 +1,9 @@
-﻿---
+---
 title: "BTTkids: puente las Pilas Xtrem"
 heroImage: "https://i.imgur.com/sTn2j5v.jpg"
 pubDate: 2020-07-31T07:51:51Z
 updatedDate: 2020-07-31T08:22:26Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Una aventura extrema para los aprendices de superhÃ¯Â¿Â½roe... En SQLP-Kids seguimos con el programa de formaciÃ¯Â¿Â½n de superhÃ¯Â¿Â½roes. En esta ocasiÃ¯Â¿Â½n tocaba btt, y habiendo superado el nivel de las Rutas FÃ¯Â¿Â½ciles del Espacio BTT-Pirineo Alto GÃ¯Â¿Â½llego "
 category: "SQLP-kids"

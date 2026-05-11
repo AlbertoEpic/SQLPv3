@@ -1,9 +1,9 @@
-﻿---
+---
 title: "BTT enduro: LÃ¯Â¿Â½rrede-Oturia en circular"
 heroImage: "https://i.imgur.com/lIsGhrh.jpg"
 pubDate: 2019-04-30T11:05:12Z
 updatedDate: 2019-05-02T18:39:37Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Proponemos a continuaciÃ¯Â¿Â½n una ruta de 'autÃ¯Â¿Â½ntico muntanbai', con una subida 'larga pero dura' y una bajada trialera larga y con mucho 'flow' que nos dejarÃ¯Â¿Â½ en el coche con una sonrisa de oreja a oreja para al menos una semana... El otro dÃ¯Â¿Â½a"
 category: "Bicicleta de montaÃ¯Â¿Â½a"

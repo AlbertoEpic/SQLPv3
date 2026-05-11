@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Pedaleando en medio del temporal..."
 pubDate: 2018-03-01T16:59:50Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2018-03-01T17:00:57Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El otro dÃƒÂ­a, una singular conjunciÃƒÂ³n de sucesos meteorolÃƒÂ³gicos produjo en Tierz una nevada histÃƒÂ³rica. Una intensa y larga nevada combinada con fuertes vientos, capaz de cortar el trÃƒÂ¡fico en el Estrecho Quinto, dejÃƒÂ³ blanca a casi toda EspaÃƒÂ±a"
 category: "Bicicleta de montaÃƒÂ±a"

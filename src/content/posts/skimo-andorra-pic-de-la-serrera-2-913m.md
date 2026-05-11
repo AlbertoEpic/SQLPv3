@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Skimo Andorra: pic de La Serrera (2.913m)"
 heroImage: "https://i.imgur.com/y3TfcbE.jpg"
 pubDate: 2023-01-04T17:55:48Z
 updatedDate: 2023-01-04T18:17:30Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "A finales del aÃ¯Â¿Â½o pasado, el equipo SQLP de skimo formado por los especialistas Miriam y AlbertoEpic realizÃ¯Â¿Â½ una concentraciÃ¯Â¿Â½n de alto rendimiento de skimo en Andorra. TenÃ¯Â¿Â½an dos dÃ¯Â¿Â½as, y realizaron dos ascensiones. El sÃ¯Â¿Â½bado 17 de diciembre"
 category: "EsquÃ¯Â¿Â½ de travesÃ¯Â¿Â½a"

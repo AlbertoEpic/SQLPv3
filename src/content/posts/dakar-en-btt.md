@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Dakar en btt"
-heroImage: "/attachments/chile-11-300x189.webp"
+heroImage: "attachments/chile-11-300x189.webp"
 pubDate: 2009-01-14T08:02:00Z
 updatedDate: 2015-04-06T10:29:08Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Hoy he encontrado en la bandeja de entrada uno de esos correos que le hacen a uno estar orgulloso de pertenecer al clan de los globeros. Perteneciente a uno de los globeros fundadores, uno de los más mÃ­ticos: Morenetti. Lo cito a continuaci"
 category: "Otros"
@@ -22,5 +22,5 @@ Hoy viendo el resumen del Dakar reviviremos momentos grabados a fuego en el cabe
 
 Un  paraje impresionante y desolador y que hoy, solo por un dÃ­a,  no será solitario.
 
-Os mando una foto de un instante por alli.[![](/attachments/chile-11.webp)
+Os mando una foto de un instante por alli.[![](attachments/chile-11.webp)
 

@@ -1,9 +1,9 @@
-﻿---
+---
 title: "RutÃƒÂ³n BTT: circular entre Saravillo y Barbaruens"
 heroImage: "https://i.imgur.com/EuCrZij.jpg"
 pubDate: 2017-10-17T11:25:58Z
 updatedDate: 2017-10-17T11:32:51Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El pasado domingo, y como colofÃƒÂ³n al anticiclÃƒÂ³nico puente del Pilar, Jorge, Israel y AlbertoEpic decidieron gastar las pocas fuerzas que les quedaban en una ruta ÃƒÂ©pica: algo mÃƒÂ¡s de 50km, mÃƒÂ¡s de 2.000m de desnivel, un porteo, dos descensos a"
 category: "Bicicleta de montaÃƒÂ±a"

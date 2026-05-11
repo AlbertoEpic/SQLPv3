@@ -1,9 +1,9 @@
-﻿---
+---
 title: "BTT Enduro: la clÃƒÂ¡sica vuelta de Sabocos, enriquecida..."
 heroImage: "https://i.imgur.com/wiyQkTx.jpg"
 pubDate: 2019-05-31T15:19:41Z
 updatedDate: 2019-06-06T07:42:13Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "... con la subida al pico del Verde y la bajada por el bosque del Yandel."
 category: "Bicicleta de montaÃƒÂ±a"

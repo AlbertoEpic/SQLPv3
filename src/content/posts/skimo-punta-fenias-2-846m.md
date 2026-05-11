@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Skimo: Punta FeniÃƒÂ¡s (2.846m)"
 heroImage: "https://i.imgur.com/wVr4SFV.jpg"
 pubDate: 2021-02-09T17:36:43Z
 updatedDate: 2021-02-09T17:58:25Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Aprovechamos que el domingo estuvo AlbertoEpic realizando un encargo de Producciones SQLP (La grabaciÃƒÂ³n con el drone de la arista cimera del FeniÃƒÂ¡s) para realizar esta entrada donde unificar toda la informaciÃƒÂ³n obtenida: vÃƒÂ­deo, track gps de"
 category: "EsquÃƒÂ­ de travesÃƒÂ­a"

@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Puente del Pilar entre piñones..."
-heroImage: "/attachments/autor.webp"
+heroImage: "attachments/autor.webp"
 pubDate: 2018-11-05T12:36:14Z
 updatedDate: 2018-11-06T08:57:54Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Por más resacas como esta! (CrÃ³nica de un puente ciclo-alpinÃ­stico que pretendÃ­a ser endureroâ‚¬Â¦ 12/13 octubre 2018) José Orte aâ€°l es el autor de esta mÃ­tica crÃ³nica... Brindo por más resacas como esta, brindo por resacas que dejan pequeñas a "
 category: "Bicicleta de montaña"
@@ -18,7 +18,7 @@ tags:
 Por más resacas como esta!
 (CrÃ³nica de un puente ciclo-alpinÃ­stico que pretendÃ­a ser endureroâ‚¬Â¦ 12/13 octubre 2018)
 
-![](/attachments/autor.webp)
+![](attachments/autor.webp)
 José Orte
 aâ€°l es el autor
 de esta mÃ­tica crÃ³nica...

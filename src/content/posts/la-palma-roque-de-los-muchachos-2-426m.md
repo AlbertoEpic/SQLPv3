@@ -1,9 +1,9 @@
-﻿---
+---
 title: "La Palma - Roque de los Muchachos (2.426m)"
 heroImage: "https://i.imgur.com/sszByu2.jpg"
 pubDate: 2022-09-12T16:41:23Z
 updatedDate: 2022-09-15T09:36:26Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Vacaciones en La Palma: dÃƒÂ­a 5 Hemos estado al norte, al sur,... y ahora nos toca un lugar mÃƒÂ­tico, sobre todo para los astrÃƒÂ³nomos. Es el punto mÃƒÂ¡s alto de la isla (2.426 metros) donde astronomÃƒÂ­a y naturaleza se dan la mano. Impresionantes vi"
 category: "La Palma 2022"

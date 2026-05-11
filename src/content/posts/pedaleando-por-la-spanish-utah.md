@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Pedaleando por la 'Spanish Utah'..."
-heroImage: "/attachments/IMG_20160423_110229_2-01-680x1024.webp"
+heroImage: "attachments/IMG_20160423_110229_2-01-680x1024.webp"
 pubDate: 2016-04-25T12:17:19Z
 updatedDate: 2016-04-25T12:17:19Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "HacÃ­a mucho tiempo que José hablaba a los globeros de este lugar. HacÃ­a mucho tiempo que AlbertoEpic la tenÃ­a en su lista de 'pendientes'. Pero también hacÃ­a mucho tiempo que finalmente desechaba la opciÃ³n frente a otras que no supusieran b"
 category: "Bicicleta de montaña"
@@ -30,13 +30,13 @@ En internet puedes encontrar varios tracks de itinerarios por esta curiosa zona,
 
 Y a continuaciÃ³n algunas fotos sacadas durante la ruta...
 
-[![](/attachments/IMG_20160423_110229_2-01.webp) José pegando un bote...
+[![](attachments/IMG_20160423_110229_2-01.webp) José pegando un bote...
 
-[![](/attachments/IMG_20160423_124202-01.webp) Curiosas formaciones...
+[![](attachments/IMG_20160423_124202-01.webp) Curiosas formaciones...
 
-[![](/attachments/IMG_20160423_124808-01.webp) El paisaje nos traslada en ocasiones al 'Far West'...
+[![](attachments/IMG_20160423_124808-01.webp) El paisaje nos traslada en ocasiones al 'Far West'...
 
-[![](/attachments/Spanish-Utah-Postureando1.webp) AlbertoEpic postureando... 'Corre corre, que no aguantaré mucho más!'
+[![](attachments/Spanish-Utah-Postureando1.webp) AlbertoEpic postureando... 'Corre corre, que no aguantaré mucho más!'
 
 En resumen, un lugar, la puerta de atrás de Calatayud, que sin duda te sorprenderá. Tal vez no sea un lugar para ir a menudo, pero si te gusta la BTT, sÃ­ un lugar para conocer.
 

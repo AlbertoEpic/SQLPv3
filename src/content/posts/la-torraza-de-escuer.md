@@ -1,9 +1,9 @@
-﻿---
+---
 title: "La Torraza de Escuer"
 heroImage: "https://i.imgur.com/Nv2rATz.jpg"
 pubDate: 2023-06-23T17:32:39Z
 updatedDate: 2023-06-23T19:18:14Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Paseo circular con niÃ¯Â¿Â½os Hace ya casi un mes, el nÃ¯Â¿Â½cleo duro de la secciÃ¯Â¿Â½n SQLPkids, formado por Sami&AlbertoEpic, se desplazaron hasta Escuer con la idea de hacer una ruta circular sencilla para ir a conocer la Torraza de Escuer. Te detall"
 category: "SQLP-kids"

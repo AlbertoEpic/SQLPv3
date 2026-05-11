@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Strokkur [ICELAND PILLS 2]"
 heroImage: "https://live.staticflickr.com/65535/53968487750_ed15351bed_b.jpg"
 pubDate: 2024-09-03T11:34:53Z
 updatedDate: 2024-09-03T11:37:48Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El vecino más activo de Geysir Geysir: La fuente termal que da nombre a todas las demás Geysir, ubicado en la regiÃ³n geotérmica de Haukadalur, es un géiser en Islandia que ha dado su nombre a todos los demás. Se cree que ha estado activo du"
 category: "Islandia 2024"
@@ -31,7 +31,7 @@ Arriba puedes ver una secuencia de fotos de la erupciÃ³n del Strokkur.
 
 Y a continuaciÃ³n, Sami contemplando otra de las múltiples fuentes termales o respiraderos geotérmicos de la zona de Haukadalur, que experimentan fluctuaciones en actividad.
 
-![](/attachments/SamiGeysir-jpg.webp)
+![](attachments/SamiGeysir-jpg.webp)
 
 
 

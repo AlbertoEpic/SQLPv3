@@ -1,20 +1,19 @@
-﻿---
-title: "Alta Ruta Ordesa y Monte Perdido 2013 - PeÃƒÂ±a Guara"
+---
+title: Alta Ruta Ordesa y Monte Perdido 2013 - PeÃƒÂ±a Guara
 pubDate: 2013-05-03T16:21:00Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:36Z
-draft: ó
-author: "AlbertoEpic"
-description: "El pasado finde 20 y 21 de abril PeÃƒÂ±a Guara organizÃƒÂ³ la Alta Ruta Ordesa y Monte Perdido, ruta mÃƒÂ­tica de esquÃƒÂ­ de travesÃƒÂ­a de dos dÃƒÂ­as. El primero de ellos, con condiciones 'para curtirse', se ascendiÃƒÂ³ de Cuello Gordo al MarborÃƒÂ© y se bajÃƒÂ³ a"
-category: "EsquÃƒÂ­ de travesÃƒÂ­a"
+draft: false
+author: AlbertoEpic
+description: El pasado finde 20 y 21 de abril PeÃƒÂ±a Guara organizÃƒÂ³ la Alta Ruta Ordesa y Monte Perdido, ruta mÃƒÂ­tica de esquÃƒÂ­ de travesÃƒÂ­a de dos dÃƒÂ­as. El primero de ellos, con condiciones 'para curtirse', se ascendiÃƒÂ³ de Cuello Gordo al MarborÃƒÂ© y se bajÃƒÂ³ a
+category: EsquÃƒÂ­ de travesÃƒÂ­a
 tags:
-  - "alta ruta"
-  - "EsquÃƒÂ­ de travesÃƒÂ­a"
-  - "marborÃƒÂ©"
-  - "ordesa"
-  - "peÃƒÂ±a guara"
-  - "taillÃƒÂ³n"
+  - alta ruta
+  - EsquÃƒÂ­ de travesÃƒÂ­a
+  - marborÃƒÂ©
+  - ordesa
+  - peÃƒÂ±a guara
+  - taillÃƒÂ³n
 ---
 El pasado finde 20 y 21 de abril PeÃƒÂ±a Guara organizÃƒÂ³ la Alta Ruta Ordesa y Monte Perdido, ruta mÃƒÂ­tica de esquÃƒÂ­ de travesÃƒÂ­a de dos dÃƒÂ­as. El primero de ellos, con condiciones 'para curtirse', se ascendiÃƒÂ³ de Cuello Gordo al MarborÃƒÂ© y se bajÃƒÂ³ a dormir al refugio de GÃƒÂ³riz.
 

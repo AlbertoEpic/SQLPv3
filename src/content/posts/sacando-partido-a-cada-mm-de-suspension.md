@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Sacando partido a cada mm de suspensiÃ³n..."
-heroImage: "/attachments/ruta2-300x191.webp"
+heroImage: "attachments/ruta2-300x191.webp"
 pubDate: 2011-12-05T18:24:00Z
 updatedDate: 2015-04-06T10:28:43Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Cruzando el Vero camino de Alquézar El pasado domingo, nueva quedada. En este caso, individuos de varios clanes (globeros, lentejos, ...) se dieron cita en Colungo para realizar otra de esas tÃ­picas rutas endureras por la sierra de Guara. Â¿"
 category: "Otros"
@@ -13,9 +13,9 @@ tags:
   - "enduro"
   - "sierra guara"
 ---
-[![](/attachments/ruta2.webp)Cruzando el Vero camino de AlquézarEl pasado domingo, nueva quedada. En este caso, individuos de varios clanes (globeros, lentejos, ...) se dieron cita en Colungo para realizar otra de esas tÃ­picas rutas endureras por la sierra de Guara. Â¿TÃ­pica ruta por Guara? Pues sÃ­. Una continua lucha sin cuartel goma-mineral, mineral-goma, en la que las pulsaciones nunca bajan, ya sea por la dura subida o por la técnica bajada; un terreno perfecto para poner a punto las suspensiones, donde aprovecharemos cada mm de recorrido de los amortiguadores. 
+[![](attachments/ruta2.webp)Cruzando el Vero camino de AlquézarEl pasado domingo, nueva quedada. En este caso, individuos de varios clanes (globeros, lentejos, ...) se dieron cita en Colungo para realizar otra de esas tÃ­picas rutas endureras por la sierra de Guara. Â¿TÃ­pica ruta por Guara? Pues sÃ­. Una continua lucha sin cuartel goma-mineral, mineral-goma, en la que las pulsaciones nunca bajan, ya sea por la dura subida o por la técnica bajada; un terreno perfecto para poner a punto las suspensiones, donde aprovecharemos cada mm de recorrido de los amortiguadores. 
 
-Los avezados participantes fueron Roberto, Alfredo, Josete, Marco, Lola, Bati, jR, Marga, José, Fabrice, LucÃ­a y Alberto.[![](/attachments/ruta1.webp)La ruta: Colungo - Asque - Alquézar - MesÃ³n de Sevil - Quizans - Basacol - Puente Villacantal - Asque - ColungoCuatro números: 
+Los avezados participantes fueron Roberto, Alfredo, Josete, Marco, Lola, Bati, jR, Marga, José, Fabrice, LucÃ­a y Alberto.[![](attachments/ruta1.webp)La ruta: Colungo - Asque - Alquézar - MesÃ³n de Sevil - Quizans - Basacol - Puente Villacantal - Asque - ColungoCuatro números: 
 
 Tiempo: mucha gente, todo el dÃ­a y sin prisas.
 

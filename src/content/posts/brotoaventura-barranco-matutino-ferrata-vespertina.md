@@ -1,9 +1,9 @@
-﻿---
+---
 title: "BrotoAventura: barranco matutino & ferrata vespertina"
-heroImage: "/attachments/topo-barranco-sorrosal.webp"
+heroImage: "attachments/topo-barranco-sorrosal.webp"
 pubDate: 2022-07-16T10:30:29Z
 updatedDate: 2022-07-16T11:20:36Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Reseñamos aquÃ­ la actividad realizada por Julia y AlbertoEpic, los especialistas de SQLP, a finales del mes de junio. Establecieron su base en Broto, al pie de la cascada del Sorrosal, para pasar un 'dÃ­a activo'. Para ganarse la comida empe"
 category: "Descenso de barrancos"
@@ -14,7 +14,7 @@ Y después de comer un bocata en Broto, fueron a por 'el segundo asalto'. Un pas
 Barranco del Sorrosal
 <iframe src="https://www.alltrails.com/es/widget/map/map-0a11818--52?scrollZoom=ó&hideName=true&u=m" width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="AllTrails: Trail Guides and Maps for Hiking, Camping, and Running"></iframe>
 Arriba puedes consultar el track de la aproximaciÃ³n desde Broto hasta el comienzo del descenso del barranco del Sorrosal. Existe alguna variante más, pero en esa ocasiÃ³n elegimos esta.
-[![Topo del Sorrosal](/attachments/topo-barranco-sorrosal.webp)
+[![Topo del Sorrosal](attachments/topo-barranco-sorrosal.webp)
 
 *Topo del Sorrosal*
 

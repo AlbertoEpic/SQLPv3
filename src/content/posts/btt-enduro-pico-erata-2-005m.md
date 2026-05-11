@@ -1,9 +1,9 @@
-﻿---
+---
 title: "BTT Enduro: pico Erata (2.005m)"
 heroImage: "https://i.imgur.com/ex85gIB.jpg"
 pubDate: 2019-05-21T18:09:42Z
 updatedDate: 2021-05-05T10:21:46Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "- ruta circular desde Biescas - Llegados a estas fechas, la nieve por fin se va retirando de las cimas mÃƒÂ¡s modestas del Pirineo, que con la primavera adquiere unas tonalidades verdes apabullantes. AsÃƒÂ­ estÃƒÂ¡ estos dÃƒÂ­as la zona de Biescas, en "
 category: "Bicicleta de montaÃƒÂ±a"

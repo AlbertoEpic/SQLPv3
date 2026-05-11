@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Raid de Aventura - II Trofeo PeÃƒÂ±a Guara - La pelÃƒÂ­cula"
 pubDate: 2010-06-08T20:34:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:58Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Y por fin en sus pantallas... la versiÃƒÂ³n extendida del videoreportaje del raid de aventura de PeÃƒÂ±a Guara!!! Nuevamente, una obra maestra de la realizadora Luzia, con pequeÃƒÂ±os retoques (Para peor...) de AlbertoEpic. Producciones Soloquedalop"
 category: "Otros"

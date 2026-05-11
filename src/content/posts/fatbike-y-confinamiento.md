@@ -1,10 +1,10 @@
-﻿---
+---
 title: "FatBike y confinamiento"
 pubDate: 2020-04-25T07:29:46Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2020-04-25T07:36:16Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Primavera confinada, fantasÃƒÂ­as caseras... Primavera del 2020. Hace un aÃƒÂ±o, AlbertoEpic llevaba a cabo el primer descenso del Aneto sobre su fatbike. Pero ahora... la crisis del COVID-19 lo mantiene confinado en su casa, sin las tan necesari"
 category: "Otros"

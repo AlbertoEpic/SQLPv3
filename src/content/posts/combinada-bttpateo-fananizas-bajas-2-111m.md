@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Combinada BTT+pateo: FaÃƒÂ±anizas Bajas (2.111m)"
 heroImage: "https://i.imgur.com/H6AuNlL.jpg"
 pubDate: 2020-10-22T09:54:31Z
 updatedDate: 2020-11-18T18:42:13Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Hace ya dos semanas que el equipo inasequible al desaliento formado por los especialistas Myriam y AlbertoEpic, viendo la meteo tan ventosa y desapacible, decidieron bajar un poco el listÃƒÂ³n y realizar una actividad mÃƒÂ¡s ligera. Una breve mat"
 category: "Bicicleta de montaÃƒÂ±a"

@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Cicloalpinismo: pico Petrechema (2.371m)..."
 pubDate: 2017-11-03T19:41:48Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2017-11-03T19:41:48Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Impresionante ruta de cicloalpinismo El otro dÃƒÂ­a Pedro y AlbertoEpic se aliaron para realizar la que probablemente haya sido la ruta de cicloalpinismo mÃƒÂ¡s gozosa de la temporada para AlbertoEpic... Por aportar un poco de originalidad a la r"
 category: "Bicicleta de montaÃƒÂ±a"

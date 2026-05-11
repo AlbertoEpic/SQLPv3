@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Pico d'Estibafreda (2.694m)"
 heroImage: "https://i.imgur.com/oIjd2Do.jpg"
 pubDate: 2023-09-19T18:16:16Z
 updatedDate: 2023-09-20T08:31:00Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Sencilla y muy vistosa ascensiÃƒÂ³n infantil Hoy en SQLP-kids llegamos con una ruta muy sencilla y agradecida, que supone la ascensiÃƒÂ³n a un mirador de primer orden situado entre el macizo de las Maladetas-Aneto y la estaciÃƒÂ³n de esquÃƒÂ­ de Cerler"
 category: "Otros"

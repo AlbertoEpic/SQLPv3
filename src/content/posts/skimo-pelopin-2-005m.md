@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Skimo: PelopÃƒÂ­n (2.005m)"
 pubDate: 2021-01-20T08:26:50Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2021-02-05T08:39:43Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El pasado 6 de enero, y en plena ola polar, Almu&AlbertoEpic sacaron a pasear a Tara y entre unas cosas y otras, el paseo se les complicÃƒÂ³ y terminaron subiendo al pico PelopÃƒÂ­n ;-p . Sirva este post simplemente para unificar el material grÃƒÂ¡f"
 category: "EsquÃƒÂ­ de travesÃƒÂ­a"

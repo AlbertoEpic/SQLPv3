@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Noruega 2019: Reinebringen"
 heroImage: "https://i.imgur.com/QIdza4j.jpg"
 pubDate: 2019-09-23T18:43:06Z
 updatedDate: 2020-03-09T16:07:02Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "- capÃƒÂ­tulo 5 - Alucinando con las Lofoten!!! El viaje por Noruega del equipo SQLP toca a su fin... Pero antes, la ÃƒÂºltima actividad serÃƒÂ¡ mÃƒÂ­tica! Tras acampar en una playa de las Lofoten, desayunan y siguen su recorrido por el archipiÃƒÂ©lago. A"
 category: "Norway2019"

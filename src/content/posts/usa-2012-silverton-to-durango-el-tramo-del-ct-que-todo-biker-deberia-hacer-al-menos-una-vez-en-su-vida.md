@@ -1,10 +1,10 @@
-﻿---
+---
 title: "USA 2012: Silverton to Durango, el tramo del CT que todo biker deberÃƒÂ­a hacer al menos una vez en su vida..."
 pubDate: 2012-10-22T06:00:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:40Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Volvemos al Colorado Trail. Tras interrumpir el mismo en Leadville para que AlbertoEpic se recuperara, nuestros especialistas replantean la situaciÃƒÂ³n, hacen sus nuevos cÃƒÂ¡lculos de fechas y deciden asegurar el tramo del CT mÃƒÂ¡s espectacular y"
 category: "Viajes"

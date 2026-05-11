@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Cicloalpinismo: pico de la Magdalena"
 pubDate: 2020-09-09T08:07:59Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2020-09-09T08:14:56Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Compartiendo el campo de juego con avionetas, planeadores y alas delta... El pasado fin de semana, el ya mÃƒÂ­tico duo formado por Myriam y AlbertoEpic uniÃƒÂ³ sus fuerzas para realizar una nueva actividad en su peculiar estilo. Como resultado, u"
 category: "Bicicleta de montaÃƒÂ±a"

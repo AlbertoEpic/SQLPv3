@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Madonna di Campiglio - Patascoss"
 heroImage: "https://i.imgur.com/hGb5ls2.jpg"
 pubDate: 2016-09-18T14:34:50Z
 updatedDate: 2016-09-18T14:34:50Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "AÃƒÂ±adimos este post simplemente para reseÃƒÂ±ar que se ha aÃƒÂ±adido a la base de datos de tracks gps de SQLP el correspondiente a la actividad realizada allÃƒÂ­ por el equipo SQLP. El dÃƒÂ­a de llegada a Madonna di Campiglio, toca visita turÃƒÂ­stica y po"
 category: "Otros"

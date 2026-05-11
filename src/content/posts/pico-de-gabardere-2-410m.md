@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Pico de GabardÃƒÂ¨re (2.410m)"
 heroImage: "https://i.imgur.com/7V5UgnT.jpg"
 pubDate: 2018-01-23T12:13:54Z
 updatedDate: 2018-01-23T12:13:54Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El pasado 15 de enero, el grupo de LaMeteoQueViene, con Jorge a la cabeza, se acercÃƒÂ³ a Caillou de Soques para realizar la ascensiÃƒÂ³n al GabardÃƒÂ¨re, una modesta cima que requiere ciertas condiciones determinadas de nivosidad. En su persecuciÃƒÂ³n"
 category: "EsquÃƒÂ­ de travesÃƒÂ­a"

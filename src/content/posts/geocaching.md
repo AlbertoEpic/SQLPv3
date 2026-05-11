@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Geocaching"
 pubDate: 2011-12-30T10:33:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:43Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Acabo de leer un correo que puede ser interesante para algunos. Resume muy bien de quÃƒÂ© va esto del geocaching. Como me ha gustado, copio y pego a continuaciÃƒÂ³n el email de Alfredo, versiÃƒÂ³n ÃƒÂ­ntegra: Hola a todos. Hace algÃƒÂºn tiempo descubrimos"
 category: "Otros"

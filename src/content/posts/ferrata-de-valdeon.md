@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Ferrata de ValdeÃƒÂ³n"
 heroImage: "https://i.imgur.com/RSwksAQ.jpg"
 pubDate: 2018-09-02T17:05:40Z
 updatedDate: 2018-11-06T10:24:13Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "SQLP se despide de Picos de Europa... El dÃƒÂ­a anterior, Cheles y AlbertoEpic estuvieron en el pico Tesorero. Este es su ÃƒÂºltimo dÃƒÂ­a en Picos, y como despedida, deciden ir a ValdeÃƒÂ³n a hacer su ferrata. Han conocido de su existencia hace poco, "
 category: "Escalada"

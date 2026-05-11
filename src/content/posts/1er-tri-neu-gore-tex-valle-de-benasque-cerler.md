@@ -1,16 +1,16 @@
-﻿---
+---
 title: "1er TRI-NEU gore-tex \"Valle de Benasque-Cerler\""
-heroImage: "/attachments/trineu1-300x300.webp"
+heroImage: "attachments/trineu1-300x300.webp"
 pubDate: 2012-04-17T19:42:00Z
 updatedDate: 2015-04-06T10:28:40Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "AlbertoEpic El pasado domingo se disputÃ³ en Benasque una competiciÃ³n novedosa, consistente en combinar una prueba de BTT con una carrera por montaña y un rally de esquÃ­ de travesÃ­a. Se organizaba la prueba un poco a modo de experimento, sin"
 category: "Otros"
 tags:
   - "Uncategorized"
 ---
-![](/attachments/trineu1.webp)
+![](attachments/trineu1.webp)
 
 *AlbertoEpic.*
 
@@ -18,7 +18,7 @@ El pasado domingo se disputÃ³ en Benasque una competiciÃ³n novedosa, consist
 
 Se organizaba la prueba un poco a modo de experimento, sin saber muy bien cuál serÃ­a la acogida de algo asÃ­. PodÃ­a hacerse en dos modalidades: individual y por equipos de tres, corriendo cada uno en una disciplina.
 
-![](/attachments/trineu2.webp)
+![](attachments/trineu2.webp)
 
 *Luzia comenzando el sector de esquÃ­ de montaña.*
 
@@ -30,7 +30,7 @@ Si sientes curiosidad, aquÃ­ puedes marujear los resultados:
 
 [http://p-guara.com/esquiMon/2012/04-15/resultados.htm](http://p-guara.com/esquiMon/2012/04-15/resultados.htm)
 
-![](/attachments/trineu3.webp)
+![](attachments/trineu3.webp)
 
 *Luzia es entrevistada tras cruzar la lÃ­nea de meta.*
 
@@ -42,7 +42,7 @@ Hizo un dÃ­a de perros, viento, frÃ­o, una nevada cada vez más intensa... e
 
 Como ya es habitual, una excelente organizaciÃ³n a cargo de Peña Guara, que cada prueba se supera.
 
-![](/attachments/DSC_0091.webp)
+![](attachments/DSC_0091.webp)
 
 *PÃ³dium femenino: Luzia, Gurutze y Amaia.*
 

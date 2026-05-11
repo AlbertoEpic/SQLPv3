@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Ahora toca roca: Pene Sarriere"
 pubDate: 2010-08-12T15:00:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:56Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Como actividad estrella enmarcada dentro de otro fin de semana multiactividad (Escalada, barranco, ferrata), figura esta vez la llevada a cabo por AlbertoEpic y Luzia en el Pene Sarriere (Gourette). Aqui puedes ver la escalada de la cara Es"
 category: "Escalada"

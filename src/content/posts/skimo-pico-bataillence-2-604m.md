@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Skimo: pico Bataillence (2.604m)"
-heroImage: "/attachments/cheles.webp"
+heroImage: "attachments/cheles.webp"
 pubDate: 2019-03-11T12:32:07Z
 updatedDate: 2019-03-13T12:37:10Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Y quÃƒÂ© bien cuando todo sale bien... Cheles, jR y AlbertoEpic hicieron coincidir sus coordenadas espacio-temporales para hacer algo de esquÃƒÂ­ de travesÃƒÂ­a este pasado domingo. Tener lugares mÃƒÂ¡s cercanos con nieve hace que la decisiÃƒÂ³n de ir has"
 category: "EsquÃƒÂ­ de travesÃƒÂ­a"
@@ -19,7 +19,7 @@ Cheles, jR y AlbertoEpic hicieron coincidir sus coordenadas espacio-temporales p
 
 AsÃƒÂ­ que la decisiÃƒÂ³n estaba tomada: el pico Bataillence era el elegido. Un clÃƒÂ¡sico de la zona, con el objetivo sin mÃƒÂ¡s pretensiones que pasar un buen rato... y claro, conseguir una nueva [foto esfÃƒÂ©rica para nuestra secciÃƒÂ³n](https://soloquedalopeor.com/panosphere/)! :-)
 "Imaginaba el tramo inicial mucho peor, pero al final con las cuchillas no ha habido ningÃƒÂºn problema, dan mucha seguridad"
-![](/attachments/cheles.webp)
+![](attachments/cheles.webp)
 Cheles
 Equipo SQLP
 
@@ -34,7 +34,7 @@ En el cordal, con el pie derecho en EspaÃƒÂ±a 'et le pied gauche en France' 
 ![Imagen](https://i.imgur.com/EjQEoVm.jpg)
 jR, Cheles y AlbertoEpic en la cima del pico Bataillance, con el valle de Bielsa detrÃƒÂ¡s.
 "Esta ha sido la ascensiÃƒÂ³n mÃƒÂ¡s agradable, relajada y sin imprevistos de la temporada. Todo estÃƒÂ¡ saliendo bien!"
-![](/attachments/AlbertoEpic.webp)
+![](attachments/AlbertoEpic.webp)
 AlbertoEpic
 SuperhÃƒÂ©roe de todo a 100
 En general, puede decirse que el dÃƒÂ­a fue perfecto. Buena meteo, buena compaÃƒÂ±ÃƒÂ­a y buena nieve. Con los esquÃƒÂ­s puestos de coche a coche. Si la cosa no cambia y nieva mÃƒÂ¡s, probablemente este haya sido el ÃƒÂºltimo finde de la temporada en el que se ha podido, pues ya asomaban hierba y piedras entre la nieve en algunos puntos.

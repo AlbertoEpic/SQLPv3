@@ -1,10 +1,10 @@
-﻿---
+---
 title: "'Powder' en el Pirineo: Ã‚Â¿mito o realidad?"
 pubDate: 2010-12-07T08:32:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:53Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "En Producciones Soloquedalopeor estÃƒÂ¡bamos cansados de ver videos de esquÃƒÂ­ por las MontaÃƒÂ±as Rocosas con una nieve polvo espectacular. Resignados a que esa nieve ideal no la probarÃƒÂ­amos sin comprar un billete de aviÃƒÂ³n, y que aqui nos tendrÃƒÂ­am"
 category: "EsquÃƒÂ­ de travesÃƒÂ­a"

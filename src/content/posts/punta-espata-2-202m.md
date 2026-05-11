@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Punta Espata (2.202m)"
 pubDate: 2023-10-17T09:26:25Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2023-10-17T09:26:27Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Desayuno al amanecer... en la cima! ÃƒÅ¡ltimamente, a nuestro especialista le ha dado por llevar a cabo algunos de sus planes un tanto excÃƒÂ©ntricos... En una sola jugada reÃƒÂºne varios de sus 'juguetes' y aficiones. Y Ã‚Â¿quÃƒÂ© pasa si juntamos montaÃƒÂ±"
 category: "Ascensiones"

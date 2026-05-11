@@ -1,10 +1,10 @@
-﻿---
+---
 title: "AscensiÃƒÂ³n al TaillÃƒÂ³n (3.144m) desde Bujaruelo"
 pubDate: 2009-04-30T23:15:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:29:05Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "La semana pasada estuvimos en el TaillÃƒÂ³n desde Bujaruelo. Ahora a final de temporada el motor va mÃƒÂ¡s fino y nos podemos atrever con estas excursioncillas... Al final del dÃƒÂ­a mi reloj marcaba 2.052m de desnivel acumulado en ascenso. Puedes v"
 category: "Otros"

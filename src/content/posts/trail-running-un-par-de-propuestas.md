@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Trail Running: un par de propuestas..."
 pubDate: 2017-11-25T19:43:23Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2017-11-25T19:43:23Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "En SQLP nos gusta innovar... sobre todo si no tenemos mÃƒÂ¡s remedio: AlbertoEpic tiene un dedo roto y no podrÃƒÂ¡ agarrar un manillar en unas semanas, por lo que ha decidido dejarse llevar por las modas y quitarse el mono de monte con un poco de"
 category: "Otros"

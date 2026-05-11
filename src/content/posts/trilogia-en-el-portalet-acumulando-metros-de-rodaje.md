@@ -1,10 +1,10 @@
-﻿---
+---
 title: "TrilogÃƒÂ­a en el Portalet: acumulando metros de rodaje..."
 pubDate: 2011-03-16T17:39:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:49Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El pasado finde hizo un tiempo bastante 'regulero'. Todo el sÃƒÂ¡bado sin ver el sol, bajo la lluvia, pero por suerte para el domingo por la maÃƒÂ±ana Jorge nos habÃƒÂ­a encargado una ventanica de buen tiempo. Ã‚Â¿QuÃƒÂ© hacer cuando tienes escasas 4 hora"
 category: "Otros"

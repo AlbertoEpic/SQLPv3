@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Ã¯Â¿Â½Ã¯Â¿Â½Exclusiva!! MiguelÃ¯Â¿Â½n vuelve al Tour"
 pubDate: 2009-06-29T11:05:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:29:03Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El equipo de Soloquedalopeor, invitado de Ã¯Â¿Â½ltima hora al Tour de Flancia 2009 y patrocinado por Bodegas de Tabuenca, desvela sus armas con el fichaje y el retorno de Miguel IndurÃ¯Â¿Â½in, la Ã¯Â¿Â½nica persona que ha ganao 5 tours seguidos y es capaz"
 category: "Otros"

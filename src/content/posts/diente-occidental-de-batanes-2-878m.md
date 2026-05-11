@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Diente Occidental de Batanes (2.878m)"
 pubDate: 2013-03-28T07:58:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:37Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El pasado domingo, contra todo pronÃƒÂ³stico, en Producciones SoloQuedaLoPeor pudimos filmar la ascensiÃƒÂ³n al Diente de Batanes Occidental. La idea era subir un rato, en espera de que las tormentas anunciadas a medio dÃƒÂ­a nos echaran para atrÃƒÂ¡s."
 category: "EsquÃƒÂ­ de travesÃƒÂ­a"

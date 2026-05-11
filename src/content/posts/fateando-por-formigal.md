@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Fateando por... Formigal!"
 heroImage: "https://i.imgur.com/u1Qxwr0.jpg"
 pubDate: 2018-12-28T18:43:47Z
 updatedDate: 2018-12-28T18:45:06Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "DÃƒÂ­as antes de Nochebuena, las oportunidades se terminaban. Formigal habÃƒÂ­a comunicado sus intenciones de abrir la estaciÃƒÂ³n despuÃƒÂ©s del dÃƒÂ­a de Navidad. AsÃƒÂ­ que la ÃƒÂºltima fecha posible para AlbertoEpic para rular a sus anchas era el 24 por la maÃƒÂ±ana."
 category: "Bicicleta de montaÃƒÂ±a"

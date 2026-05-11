@@ -1,10 +1,10 @@
-﻿---
+---
 title: "II Raid de Aventura PeÃƒÂ±a Guara"
 pubDate: 2010-06-01T13:51:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:58Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "En producciones SoloQuedaLoPeor estamos trabajando a toda mÃƒÂ¡quina para tener listo el video-reportaje del raid de aventura que organizÃƒÂ³ PeÃƒÂ±a Guara el pasado finde, 29-30 de mayo. Para los ansiosos, aqui va un pequeÃƒÂ±o aperitivo..."
 category: "Otros"

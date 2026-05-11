@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Gabardiella: enduro duro / cicloalpinismo medio"
 pubDate: 2015-08-04T10:31:53Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-08-04T10:31:53Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "El pasado finde, un grupo de seres peculiares se reunieron para sacar a pasear sus bicis... Rafa, Roberto, Susana y AlbertoEpic realizaron una ruta que en un dÃƒÂ­a de agosto normal habrÃƒÂ­a supuesto la muerte por deshidrataciÃƒÂ³n. Por suerte, jus"
 category: "Bicicleta de montaÃƒÂ±a"

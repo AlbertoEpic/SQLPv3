@@ -1,9 +1,9 @@
-﻿---
+---
 title: "BTT+pateo: Punta Arbenuso (2.353m)"
 heroImage: "https://i.imgur.com/6LBBPT0.jpg"
 pubDate: 2021-09-14T09:21:38Z
 updatedDate: 2021-09-14T10:01:16Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Combinada BTT + pateo Pasado el verano, en SQLP vamos recuperando la normalidad y el ritmo de nuestras actividades. El otro dÃƒÂ­a AlbertoEpic saliÃƒÂ³ pedaleando del parking de La Cuniacha y apurÃƒÂ³ hasta las cercanÃƒÂ­as de la Canal de Arbenuso. All"
 category: "Bicicleta de montaÃƒÂ±a"

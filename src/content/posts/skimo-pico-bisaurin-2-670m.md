@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Skimo: pico BisaurÃƒÂ­n (2.670m)"
 heroImage: "https://i.imgur.com/forlU9c.jpg"
 pubDate: 2019-12-12T13:10:34Z
 updatedDate: 2020-02-07T17:47:57Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Desde el refugio de Lizara, subiendo por Fetas y bajando por ForatÃƒÂ³n. El otro dÃƒÂ­a fue el cumpleaÃƒÂ±os de Jorge, y para celebrarlo, un grupito de afortunados pudieron subir al BisaurÃƒÂ­n. Jorge, Donato, Alfonso, Sara y AlbertoEpic salieron con l"
 category: "EsquÃƒÂ­ de travesÃƒÂ­a"

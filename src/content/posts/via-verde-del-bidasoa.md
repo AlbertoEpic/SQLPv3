@@ -1,10 +1,10 @@
-﻿---
+---
 title: "VÃƒÂ­a Verde del Bidasoa"
 pubDate: 2019-10-04T07:40:01Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2025-02-04T08:33:33Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Un finde, una vÃƒÂ­a verde, dos globeros y dos globeritos... El pasado finde, Chus y AlbertoEpic hicieron coincidir por fin sus coordenadas espaciotemporales y marcharon con IvÃƒÂ¡n y Sami a hacer la VÃƒÂ­a Verde del Bidasoa . Tras el ÃƒÂ©xito de la de"
 category: "SQLP-kids"

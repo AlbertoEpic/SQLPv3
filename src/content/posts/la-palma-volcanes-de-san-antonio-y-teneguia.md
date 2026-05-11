@@ -1,9 +1,9 @@
-﻿---
+---
 title: "La Palma - Volcanes de San Antonio y TeneguÃƒÂ­a"
 heroImage: "https://i.imgur.com/pPAPeTQ.jpg"
 pubDate: 2022-09-09T10:43:39Z
 updatedDate: 2022-09-09T17:31:18Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Vacaciones en La Palma: dÃƒÂ­a 4 Si el otro dÃƒÂ­a estuvimos husmeando por el norte de la isla, hoy nos acercamos al extremo sur. Daremos un paseo visitando los volcanes de San Antonio y TeneguÃƒÂ­a. Es una pena, no sÃƒÂ© si en temporada baja la cosa c"
 category: "La Palma 2022"

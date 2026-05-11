@@ -1,10 +1,10 @@
-﻿---
+---
 title: "La Nueva Era de Producciones SoloQuedaLoPeor..."
 pubDate: 2010-05-12T17:08:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:58Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Hoy en la productora estamos de enhorabuena por la entrada en una nueva era que reportarÃƒÂ¡ novedosas videoproducciones a nuestro catÃƒÂ¡logo..."
 category: "Otros"

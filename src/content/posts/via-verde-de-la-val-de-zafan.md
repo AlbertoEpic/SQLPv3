@@ -1,10 +1,10 @@
-﻿---
+---
 title: "VÃƒÂ­a Verde de la Val de ZafÃƒÂ¡n"
 pubDate: 2025-04-18T10:15:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2025-05-23T10:40:35Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Desde Bot hasta la desembocadura del Ebro Llega Semana Santa, abril de 2025, y con ello una nueva oportunidad para Sami&AlbertoEpic para concluir su proyecto inacabado: continuar la VÃƒÂ­a Verde de la Val de ZafÃƒÂ¡n hasta la desembocadura del Eb"
 category: "SQLP-kids"

@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Cicloalpinismo al anochecer: cuello Escarra"
 pubDate: 2020-08-15T20:05:20Z
 
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2020-08-15T20:48:45Z
-draft: ó
+draft: false
 author: "AlbertoEpic"
 description: "Con nocturnidad y alevosÃƒÂ­a... Esta semana, Producciones SQLP encargÃƒÂ³ a AlbertoEpic otra nueva y arriesgada misiÃƒÂ³n sÃƒÂ³lo apta para superhÃƒÂ©roes: la filmaciÃƒÂ³n con el drone de unas imÃƒÂ¡genes de la puesta de sol desde el cuello de Escarra. Y hasta"
 category: "Bicicleta de montaÃƒÂ±a"
