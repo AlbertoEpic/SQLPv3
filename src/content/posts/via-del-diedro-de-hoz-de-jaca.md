@@ -10,7 +10,7 @@ category: "Escalada"
 tags:
   - "Uncategorized"
 ---
-[![](attachments/Diedro-de-Hoz.webp)El pasado domingo estuvimos en la ví­a del Diedro de Hoz de Jaca. Nos habí­an hablado tanto de la dificultad oculta de los quintos de allí­, que una vez en harina la cosa resultó más sencilla de lo esperado.
+![](attachments/Diedro-de-Hoz.webp)El pasado domingo estuvimos en la ví­a del Diedro de Hoz de Jaca. Nos habí­an hablado tanto de la dificultad oculta de los quintos de allí­, que una vez en harina la cosa resultó más sencilla de lo esperado.
 
 
 

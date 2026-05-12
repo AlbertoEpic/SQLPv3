@@ -8,7 +8,7 @@ author: "AlbertoEpic"
 description: "En las últimas rampas al Bisaurí­n. Los pasados 7 y 8 de marzo el club Peña Guara de Huesca organizó la Alta Ruta Bisaurí­n-Aspe 2015 . Estuvieron presentes varios elementos del clan de los globeros, entre ellos José Orte, autor del tí­tulo de"
 category: "Otros"
 ---
-[![](attachments/borrame.webp)En las últimas rampas al Bisaurí­n.Los pasados 7 y 8 de marzo el club Peña Guara de Huesca organizó la [Alta Ruta Bisaurí­n-Aspe 2015](http://p-guara.com/wordpress/secciones/esqui-de-montana-2/alta-ruta-bisaurin-aspe-2015/).
+![](attachments/borrame.webp)En las últimas rampas al Bisaurí­n.Los pasados 7 y 8 de marzo el club Peña Guara de Huesca organizó la [Alta Ruta Bisaurí­n-Aspe 2015](http://p-guara.com/wordpress/secciones/esqui-de-montana-2/alta-ruta-bisaurin-aspe-2015/).
 
 Estuvieron presentes varios elementos del clan de los globeros, entre ellos José Orte, autor del tí­tulo del post y del relato posterior. Evitaré extenderme más en la crónica, y daré paso a la calidad literaria de sus textos. Simplemente añadiré, al final del post, el mapa de la ruta.
 

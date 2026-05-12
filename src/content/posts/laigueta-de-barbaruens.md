@@ -10,7 +10,7 @@ category: "Otros"
 tags:
   - "barrancos"
 ---
-[![](attachments/P1011317.webp)
+![](attachments/P1011317.webp)
 
 Otro año más, los globeros se dieron cita en Barbaruens, para hacer el barranco de l'AigaÂ¼eta. Conocedores de lo divertido que resulta, la convocatoria globeril tuvo gran éxito, una vez más.
 

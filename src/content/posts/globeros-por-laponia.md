@@ -10,7 +10,7 @@ category: "Otros"
 tags:
   - "Uncategorized"
 ---
-[![](attachments/IGP0499_1.webp)
+![](attachments/IGP0499_1.webp)
 
      Normal   0   21         ó   ó   ó                             MicrosoftInternetExplorer4                       Ya hemos vuelto del pais donde hace mas frí­o que en el congelador de tu casa, donde la humedad precipita en forma de brillantina de cristales de hielo y donde la nieve no son bolisas  sino perfectas estrellas de todas las formas.
 

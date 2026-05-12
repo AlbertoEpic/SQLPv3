@@ -12,7 +12,7 @@ tags:
   - "Esquí­ de travesí­a"
   - "Valle de Tena"
 ---
-[![](attachments/PtaBila.webp)El último fin de semana de abril, en SQLP retomamos los cacharros de nieve y nos vamos al Balneario de Panticosa, a apurar la nieve antes de que haya que portear demasiado para llegar a ella. Como, ya que nos ponemos, nos ponemos bien, tocará una ruta de algo más de 2.000m de desnivel+ acumulado.
+![](attachments/PtaBila.webp)El último fin de semana de abril, en SQLP retomamos los cacharros de nieve y nos vamos al Balneario de Panticosa, a apurar la nieve antes de que haya que portear demasiado para llegar a ella. Como, ya que nos ponemos, nos ponemos bien, tocará una ruta de algo más de 2.000m de desnivel+ acumulado.
 
 aÅ¡ltimamente voy muy escaso de tiempo libre y no tengo tiempo de editar ví­deos, así­ que tomo prestado de Jorge (La Meteo Que Viene) su videoreportaje para ilustrar la actividad. Gracias, Jorge!
 

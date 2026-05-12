@@ -10,7 +10,7 @@ category: "Otros"
 tags:
   - "Uncategorized"
 ---
-[![](attachments/1011371.webp)
+![](attachments/1011371.webp)
 
 Siguiendo la serie de fotos con famosos, aqui otra con otro ilustre. Aprovechando la boda Navatera de Escalona nos acercamos el domingo a Nerin a escuchar su charla junto con Ramon Morillas sobre sus incursiones parapentisticas en el Karakorum.
 

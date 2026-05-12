@@ -10,7 +10,7 @@ category: "Otros"
 tags:
   - "Uncategorized"
 ---
-[![](attachments/meteora.webp)
+![](attachments/meteora.webp)
 
 Siempre se nos presenta Grecia como el paí­s de las playas de arena blanca, el sol, las islas y los yogures... pero sorprendentemente este paí­s da para mucho más.
 

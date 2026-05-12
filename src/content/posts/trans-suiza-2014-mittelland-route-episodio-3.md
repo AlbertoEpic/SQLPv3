@@ -14,7 +14,7 @@ tags:
   - "solothurn"
   - "suiza"
 ---
-[![](attachments/fotito.webp)Ya estíƒÂ¯í‚Â¿í‚Â½ en el aire el tercer y íƒÂ¯í‚Â¿í‚Â½ltimo episodio de la serie Mittelland Route.
+![](attachments/fotito.webp)Ya estíƒÂ¯í‚Â¿í‚Â½ en el aire el tercer y íƒÂ¯í‚Â¿í‚Â½ltimo episodio de la serie Mittelland Route.
 
 Nuestros especialistas Luzia y AlbertoEpic recorren el íƒÂ¯í‚Â¿í‚Â½ltimo tramo de la Mitteland Route, desde Solothurn hasta Laussane. Muchas gracias a Bastian por acogernos en su casa una noche cerca de Biel.
 

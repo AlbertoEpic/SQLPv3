@@ -16,9 +16,9 @@ Entre los globeros se llegó a la conclusión de que este barranco no es simplem
 
 A continuación, algunas fotos cortesí­a de Morenetti, el fotógrafo globeril por excelencia.
 
-[![](attachments/lumos3.webp)
+![](attachments/lumos3.webp)
 
-[![](attachments/lumos1.webp)
+![](attachments/lumos1.webp)
 
-[![](attachments/lumos2.webp)
+![](attachments/lumos2.webp)
 

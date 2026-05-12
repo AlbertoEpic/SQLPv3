@@ -12,7 +12,7 @@ tags:
   - "Lariste"
   - "valle de Hecho"
 ---
-[![](attachments/fotaza.webp)aÅ¡ltimos pasos a la cima del Lariste (2.168m) -- Foto de Rafa MorenoNo pensaba reseñar esta actividad, pero la fotaza que me sacó Rafa llegando a la cima creo que lo merece... El pasado domingo, desafiando a los modelos meteorológicos de la gente del tiempo que anunciaban vientos huracanados, temperaturas heladoras y una nueva glaciación, nos fuimos al monte Rafa, Inazio, Luzia y AlbertoEpic. El destino (bueno, y la poca nieve, y alguna otra nimiedad...), hizo que nos encontráramos con Miguel y David, casualmente con el mismo objetivo.
+![](attachments/fotaza.webp)aÅ¡ltimos pasos a la cima del Lariste (2.168m) -- Foto de Rafa MorenoNo pensaba reseñar esta actividad, pero la fotaza que me sacó Rafa llegando a la cima creo que lo merece... El pasado domingo, desafiando a los modelos meteorológicos de la gente del tiempo que anunciaban vientos huracanados, temperaturas heladoras y una nueva glaciación, nos fuimos al monte Rafa, Inazio, Luzia y AlbertoEpic. El destino (bueno, y la poca nieve, y alguna otra nimiedad...), hizo que nos encontráramos con Miguel y David, casualmente con el mismo objetivo.
 
 Nos fuimos todos a Oza, hasta donde la nieve obligó a dejar los coches, y desde allí­ hasta la cima del pico Lariste. Puedes ver y descargarte el track en [No Te Pierdas](http://notepierdas.soloquedalopeor.com/ruta.php?id=44).
 

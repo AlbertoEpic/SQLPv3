@@ -12,7 +12,7 @@ tags:
 ---
 Reproduzco a continuación un texto que me ha parecido interesante. Lo he encontrado por casualidad en [este blog](http://puarel.blogspot.com/2010/04/sociedad-general-de-fabricantes-de.html).
 
-[![](attachments/ramoncin.webp)
+![](attachments/ramoncin.webp)
 
  Yo creo la Sociedad General de Fabricantes de Mesas.
 

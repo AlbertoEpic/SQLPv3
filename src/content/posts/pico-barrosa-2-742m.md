@@ -10,7 +10,7 @@ category: "Otros"
 tags:
   - "Esquí­ de travesí­a"
 ---
-[![](attachments/P1200163.webp)
+![](attachments/P1200163.webp)
 
 El pasado dí­a 22, y por la gloria de Brad Pitt (y también un poco por la de San Vicente), un pequeño grupo de globeros se apuntó a la indecente proposición de Jorge: ascensión al pico Barrosa, en ruta circular. Ida por el circo de Pinarra y vuelta por el circo de Barrosa.
 

@@ -12,7 +12,7 @@ tags:
 ---
 Añado a continuación la crónica de Jara, del 'Nenas o marines?', en el raid de La Pineda...
 
-[![](attachments/20090425_Raid-la-Pineda_0036.webp)
+![](attachments/20090425_Raid-la-Pineda_0036.webp)
 
 
 
@@ -66,7 +66,7 @@ podéis imaginar primero no cogemos los remos, luego cogemos dos cada
 
 una y por poco me voy remando a contracorrienteâ‚¬Â¦.
 
-[![](attachments/20090425_Raid-la-Pineda_0038.webp)
+![](attachments/20090425_Raid-la-Pineda_0038.webp)
 
 Poco después de empezar vemos algo muy raro, a lo que digo- Lola pero
 
@@ -158,7 +158,7 @@ queda la exhibición por la playa, aquí­ acabamos la ultimas pero con
 
 cara de satisfacción.
 
-[![](attachments/20090426_Raid-la-Pineda_0021.webp)
+![](attachments/20090426_Raid-la-Pineda_0021.webp)
 
 En resumen, un raid lleno de vivencias, inolvidables e incomparables.
 

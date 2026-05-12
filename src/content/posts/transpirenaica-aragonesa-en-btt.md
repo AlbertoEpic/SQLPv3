@@ -16,23 +16,23 @@ Han sido un total de 5 etapas, unos 300km aproximadamente, una media de 7-8 hora
 
 Dí­a 1 Campo - Escalona: por el collado de Cullibert, una subida muy exigente hasta este collado y una gran bajada por pista de casi 1000m de desnivel hasta Escalona. Etapa cortita de menos de 5h ya que el bus nos dejó en Campo a las 13h.
 
-[![](attachments/Etapa-1-En-el-collado-de-Cullibert-2.webp)En el Collado de Cullibert (1455m)
+![](attachments/Etapa-1-En-el-collado-de-Cullibert-2.webp)En el Collado de Cullibert (1455m)
 
 Dí­a 2 Escalona - Broto: por la Sierra de las Cutas, la etapa más bonita y una de las de mayor desnivel. Muchos ya la conocéis y creo que poco hay que decir de las increí­bles vistas que ofrece esta pista hasta hace poco prohibida para las bicis... El plan original era terminar en Bujaruelo pero uno de los compañeros petó el núcleo de los piñones y tuvimos que bajar a Broto para que volviera a Huesca haciendo autostop jeje
 
-[![](attachments/Etapa-2-Ordesa.webp)En uno de los increí­bles miradores de Ordesa
+![](attachments/Etapa-2-Ordesa.webp)En uno de los increí­bles miradores de Ordesa
 
 Dí­a 3 Broto - Formigal: por Bujaruelo, subida por el valle de Otal hasta el collado de Tendeñera (2.327m), punto más alto de nuestra ruta, para bajar por el valle de la Ripera hasta Panticosa. Fue el dí­a más duro de todos porque desde la cabaña de Otal nos tocó portear (700m de desnivel en casi 3h...) y después el primer tramo de bajada apenas se dejaba ciclar... Y encima para terminar tení­amos que subir de Panticosa hasta Formigal!! Menos mal que aquí­ nos estaba esperando José Orte y su madre que nos acogieron de una manera increí­ble y nos agasajaron con todo tipo de comodidades, muchí­simas gracias!! Aquí­ en Formigal se nos unió de nuevo el compañero averiado que cogió una rueda mí­a vieja para continuar la ruta.
 
-[![](attachments/Etapa-3-Valle-de-la-Ripera.webp)Llegando al valle de la Ripera
+![](attachments/Etapa-3-Valle-de-la-Ripera.webp)Llegando al valle de la Ripera
 
 Dí­a 4 Formigal - Candanchú: cruzamos por los ibones de Anayet, tuvimos que portear 1h más o menos para alcanzarlos, nos dimos un bañito disfrutando de las hermosas vistas y nos bajamos por Canal Roya terminando en la cima del Somport donde pasamos la última noche. Esta fue la etapa más corta de todas.
 
-[![](attachments/Etapa-4-Ibones-de-Anayet.webp)En los Ibones de Anayet
+![](attachments/Etapa-4-Ibones-de-Anayet.webp)En los Ibones de Anayet
 
 Dí­a 5 Candanchú - Hecho - Jaca: nos bajamos a Les Forges de Abel y de aquí­ comenzamos la subida por Francia hasta el collado fronterizo d'Escalé para cruzar a Aguas Tuertas. Nos tocó portear menos de 1h por el valle francés puesto que es Parque Nacional y nos la jugamos un poco si nos pillaban los forestales... Bajamos a Hecho por Guarrinza y por la carretera de Oza y para terminar bien nos comimos 44km de carretera hasta Jaca ya que tení­amos allí­ el coche para volver a Huesca...
 
-[![](attachments/Etapa-5-Aguas-Tuertas.webp)En Aguas Tuertas
+![](attachments/Etapa-5-Aguas-Tuertas.webp)En Aguas Tuertas
 
 Ha sido una gran experiencia, era un plan que ya tení­a en mente hace dos o tres años y por fin he podido realizarlo! Tenéis alguna crónica más extensa en mi [blog](http://jorgit-o.blogspot.com/) y próximamente espero tener un ví­deo que se va a currar uno de mis colegas de la ruta.
 

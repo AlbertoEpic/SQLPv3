@@ -16,6 +16,6 @@ Estas fueron las primeras declaraciones de ella: "os dejo, que tengo que poner u
 
 Debido a ello, todas las empresas establecidas en el polí­gono serán desalojadas en el plazo de una semana.
 
-[![](attachments/NidoAyerbe.webp)La feliz pareja en su nido de protección oficial, todo exterior con mucha luz...
+![](attachments/NidoAyerbe.webp)La feliz pareja en su nido de protección oficial, todo exterior con mucha luz...
 
 

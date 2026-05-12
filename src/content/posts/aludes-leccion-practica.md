@@ -13,7 +13,7 @@ tags:
 ---
 
 
-[![](attachments/alud.webp)De la mano de Gil d'Asprer me ha llegado esto: una buena descripción, en la [página del ACNA](http://www.acna.cat/), de una avalancha que afectó a 6 personas, grupo de Albert Castellet. Debido a su interés para todos los que nos movemos por montaña en invierno, reproduzco aquí­ su contenido en castellano (Versión traducida por Google sin revisar, perdón por los errores). Si quieres ver el original haz [click aquí­](http://www.acna.cat/accidents/relatsaccidents/140201_Accident_Campcardos/index.htm).
+![](attachments/alud.webp)De la mano de Gil d'Asprer me ha llegado esto: una buena descripción, en la [página del ACNA](http://www.acna.cat/), de una avalancha que afectó a 6 personas, grupo de Albert Castellet. Debido a su interés para todos los que nos movemos por montaña en invierno, reproduzco aquí­ su contenido en castellano (Versión traducida por Google sin revisar, perdón por los errores). Si quieres ver el original haz [click aquí­](http://www.acna.cat/accidents/relatsaccidents/140201_Accident_Campcardos/index.htm).
 
 ////////////////////////////////////////////////////////////////////////////////////////////
 

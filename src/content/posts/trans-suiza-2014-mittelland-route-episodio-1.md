@@ -10,7 +10,7 @@ category: "Viajes"
 tags:
   - "Uncategorized"
 ---
-[![](attachments/fotito.webp)Tras series de éxito como [Uttarakhand 2011](la-india-una-semana-despues/), [Oberland 2011](oberland-2011-la-serie/), [USA 2012](usa-2012-la-serie/),... Producciones SoloQuedaLoPeor comienza una nueva etapa, centrada en actividades familiares. El equipo de SQLP ha crecido, y a los especialistas Luzia y AlbertoEpic les acompaña ahora el pequeño Samuel, 'Sami'.
+![](attachments/fotito.webp)Tras series de éxito como [Uttarakhand 2011](la-india-una-semana-despues/), [Oberland 2011](oberland-2011-la-serie/), [USA 2012](usa-2012-la-serie/),... Producciones SoloQuedaLoPeor comienza una nueva etapa, centrada en actividades familiares. El equipo de SQLP ha crecido, y a los especialistas Luzia y AlbertoEpic les acompaña ahora el pequeño Samuel, 'Sami'.
 
 En esta nueva serie,  nuestros especialistas cruzarán Suiza desde Romanshorn (NE) hasta Lausanne (W). En bicicleta, sin prisas y con el pequeño Samuel en un remolque...
 

@@ -10,7 +10,7 @@ category: "Otros"
 tags:
   - "Uncategorized"
 ---
-[![](attachments/dmsqlp.webp)En SQLP interrumpimos la emisión de videos de producción propia para rescatar de la red este video de Danny MacAskill. Impresionante por la edición, impresionante por la habilidad de Danny, impresionante por la belleza del lugar (Isla de Skye).
+![](attachments/dmsqlp.webp)En SQLP interrumpimos la emisión de videos de producción propia para rescatar de la red este video de Danny MacAskill. Impresionante por la edición, impresionante por la habilidad de Danny, impresionante por la belleza del lugar (Isla de Skye).
 
 Son demasiados 'impresionantes' para dejarlo pasar...
 

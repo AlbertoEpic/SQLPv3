@@ -14,7 +14,7 @@ Unos globeros hemos estado pasando el puente del Pilar en una casa Rural de Gist
 
 Aqui puedes ver alguna foto de la ruta en BTT:
 
-[![](attachments/Puente-Pilar-en-Gistain-009.webp)[![](attachments/Puente-Pilar-en-Gistain-016.webp)[![](attachments/Puente-Pilar-en-Gistain-018.webp)Y estas otras son del otoño en la zona del cañón de Añisclo...
+![](attachments/Puente-Pilar-en-Gistain-009.webp)![](attachments/Puente-Pilar-en-Gistain-016.webp)![](attachments/Puente-Pilar-en-Gistain-018.webp)Y estas otras son del otoño en la zona del cañón de Añisclo...
 
-[![](attachments/Puente-Pilar-en-Gistain-037.webp)[![](attachments/Puente-Pilar-en-Gistain-040.webp)
+![](attachments/Puente-Pilar-en-Gistain-037.webp)![](attachments/Puente-Pilar-en-Gistain-040.webp)
 

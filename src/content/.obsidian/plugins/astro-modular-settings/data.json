@@ -243,8 +243,8 @@
     }
   },
   "optionalContentTypes": {
-    "projects": false,
-    "docs": false
+    "projects": true,
+    "docs": true
   },
   "availableThemes": "default",
   "customThemes": "",

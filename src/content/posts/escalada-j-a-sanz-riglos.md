@@ -10,7 +10,7 @@ category: "Escalada"
 tags:
   - "escalada"
 ---
-[![](attachments/Copia-de-DSC06957.webp)En esta época, ideal para pedalear, en soloquedalopeor estamos que nos subimos por las paredes; además de la btt, necesitamos llenar el hueco que nos dejan los barrancos (Demasiado frí­o ahora) y el esquí­ de travesí­a (Demasiado calor ahora). Así­ que, el otro dí­a, decidimos subir al mallo Frechí­n, en Riglos, por la ví­a J.A. Sanz (220m, 6a+, V oblig.).
+![](attachments/Copia-de-DSC06957.webp)En esta época, ideal para pedalear, en soloquedalopeor estamos que nos subimos por las paredes; además de la btt, necesitamos llenar el hueco que nos dejan los barrancos (Demasiado frí­o ahora) y el esquí­ de travesí­a (Demasiado calor ahora). Así­ que, el otro dí­a, decidimos subir al mallo Frechí­n, en Riglos, por la ví­a J.A. Sanz (220m, 6a+, V oblig.).
 
 
 
@@ -20,11 +20,11 @@ Una apacible tarde de escalada, al caer el sol se convertí­a en un frí­o oca
 
 Lo mejor de la tarde de escalada: las pasadas de los buitres con el tren de aterrizaje desplegado, llegando a algún nido cercano; y los 'vuelos' de los escaladores que suben a la visera y caen al vací­o a pocos metros de salir por arriba!
 
-[![](attachments/4frechin.webp)
+![](attachments/4frechin.webp)
 
-[![](attachments/Copia-de-DSC06985.webp)
+![](attachments/Copia-de-DSC06985.webp)
 
-[![](attachments/Copia-de-DSC06994.webp)
+![](attachments/Copia-de-DSC06994.webp)
 
 
 

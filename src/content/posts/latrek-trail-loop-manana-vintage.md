@@ -12,7 +12,7 @@ Hoy en dí­a los senderos para btt abundan cada vez más. Y cada vez son más l
 El otro dí­a, después de mucho tiempo, el mí­tico doctor LaTrek y AlbertoEpic, practicantes de cicloalpinismo ya en el siglo pasado, se juntaron para una salidita matutina 'de las de antes'. No les importó subir pedaleando algo más de 1.000m de desnivel+ para luego realizar un descenso 'de aventura', lento, sinuoso, con pinchos,... Se trata de un proyecto que el doctor LaTrek está realizando él mismo en sus ratos libres. Sin duda es un itinerario muy, muy chulo y variado, que cuando se limpie un poco más será rápido y divertido.
 Por el momento este descenso puntúa muy alto, más que por la descarga de adrenalina, por la satisfacción que aporta desenvolvernos de manera fluí­da en plena naturaleza, por un terreno totalmente virgen.
 
-[![](attachments/LaTrekTrail22.webp) 
+![](attachments/LaTrekTrail22.webp) 
 
 El sendero atraviesa variasÂ zonas de 'slickrock'...
 

@@ -24,7 +24,7 @@ Pero antes aprovechó a sacar una nueva foto esférica. Pretendí­a ser una rem
 </iframe>
 
 Te recordamos que puedes ver esta y muchas más en nuestro portal especí­fico de fotos esféricas:
-[![](attachments/logo_Pano360_600x150-300x80.webp)](https://pano360.soloquedalopeor.com)
+![](attachments/logo_Pano360_600x150-300x80.webp)](https://pano360.soloquedalopeor.com)
 pano360.soloquedalopeor.com
 Y para terminar, te dejamos con unas pocas imágenes de la actividad.
 (Muchas gracias a Myriam por sus fotos!)

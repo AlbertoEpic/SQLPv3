@@ -20,7 +20,7 @@ Ya que la carretera hasta el Lac d'Aubert está cerrada hasta finales de mayo, l
 
 Dejan las bicis junto a la presa, portean a pie escasos minutos y ya calzan esquí­s para ir buscando lenguas de nieve. Menuda nevera gigante tienen montada aquí­ en el Néouvielle! Es un gran lugar para acudir cuando la nieve escasea ya en todos los rincones del Pirineo...
 
-[![](attachments/Neouvielle-300x300.webp)](https://bit.ly/neouvielle)
+![](attachments/Neouvielle-300x300.webp)](https://bit.ly/neouvielle)
 
 Según la meteo, por la tarde se esperan tormentas, pero la mañana está siendo perfecta (Las primeras gotas cayeron con nuestros protagonistas ya en la furgo).
 

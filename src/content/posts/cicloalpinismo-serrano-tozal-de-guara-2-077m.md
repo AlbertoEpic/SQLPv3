@@ -12,7 +12,7 @@ tags:
   - "nocito"
   - "sierra guara"
 ---
-[![](attachments/DSC00312.webp)Son las exigencias del guión: es necesaria una toma falsa...Seguimos esperando a que nieve, y seguimos haciendo planes con las btt. En este caso, marchamos a Nocito para desde allí­ subir al Tozal de Guara.
+![](attachments/DSC00312.webp)Son las exigencias del guión: es necesaria una toma falsa...Seguimos esperando a que nieve, y seguimos haciendo planes con las btt. En este caso, marchamos a Nocito para desde allí­ subir al Tozal de Guara.
 
 La ruta de ascenso: Nocito - Ref. Los Fenales - collado de Ballemona - cima. Para el descenso, tomamos una senda que baja directa al refugio de Los Fenales, y de allí­ por otro sendero hasta el mismo Nocito.
 

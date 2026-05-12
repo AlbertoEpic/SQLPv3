@@ -14,7 +14,7 @@ tags:
   - "Valle de Tena"
   - "valle del Aragón"
 ---
-[![](attachments/fotito.webp)Luis en las rampas finales al Peyreget.El pasado domingo tuvo lugar esta salida promocional de esquí­ de travesí­a de Peña Guara. Habí­a que aprovechar y apuntarse: pocas veces un autobús te lleva a Portalet y te recoge en Astún!
+![](attachments/fotito.webp)Luis en las rampas finales al Peyreget.El pasado domingo tuvo lugar esta salida promocional de esquí­ de travesí­a de Peña Guara. Habí­a que aprovechar y apuntarse: pocas veces un autobús te lleva a Portalet y te recoge en Astún!
 
 El video recoge la variante larga de la ruta, ascendiendo primero al Pic de Peyreget y luego al Pic des Moines (Pico de los Monjes).
 

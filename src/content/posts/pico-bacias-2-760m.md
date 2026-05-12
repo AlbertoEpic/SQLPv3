@@ -20,7 +20,7 @@ El Bacíasí‚Â ha sido 'trending topic' este fin de semana, y es difícil en
 Condiciones 100% primaverales: nieve helada a primera hora, sopita rica a mediodía y enseguida, con este discreto sol de enero, comenzaba a formarse costra de rehielo. Tocó un poco de porteo, testimonial a la subida (5min) y un poco más a la bajada (10min, algo más si no querías hacer equilibrios y un poco de esquí al-pino)
 
 Puedes descargar el [track aqui](http://www.gpsies.com/map.do?fileId=nrixmejfodzjmftn).
-[![](attachments/qr_bacias.webp)
+![](attachments/qr_bacias.webp)
 
 Y a continuación, un par de fotos:
 

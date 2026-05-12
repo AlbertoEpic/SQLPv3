@@ -24,6 +24,6 @@ Puedes ver más información del evento en los demás blogs:
 
 A continuación puedes ver el recorrido de ascenso/descenso seguido por el grupo hacia el Foratulas I.
 
-[![](attachments/foratulas.webp)
+![](attachments/foratulas.webp)
 
 

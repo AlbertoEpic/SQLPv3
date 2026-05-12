@@ -12,7 +12,7 @@ tags:
 ---
 El pasado sábado,  Nacho, Jose y Alberto se fueron a dar un rulo por el Pirineo con las btt. El itinerario escogido fue Salinas - Bielsa - Parzán - Ordiceto - GR11 hacia Viadós - Plan - Salinas.
 
-[![](attachments/btt-ordiceto.webp)
+![](attachments/btt-ordiceto.webp)
 
 Una ruta todosubida-todobajada... Para calentar, 3h de subida hasta el GR11 de bajada, que hicieron recordar a AlbertoEpic la importancia de los entrenamientos en esto de la bici...
 

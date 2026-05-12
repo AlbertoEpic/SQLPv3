@@ -22,5 +22,5 @@ Hoy viendo el resumen del Dakar reviviremos momentos grabados a fuego en el cabe
 
 Un  paraje impresionante y desolador y que hoy, solo por un dí­a,  no será solitario.
 
-Os mando una foto de un instante por alli.[![](attachments/chile-11.webp)
+Os mando una foto de un instante por alli.![](attachments/chile-11.webp)
 

@@ -15,5 +15,5 @@ En Producciones SoloQuedaLoPeor estamos de enhorabuena porque un miembro de nues
 
 Disputado sobre unas distancias de 500-13-2, Luzia basó su victoria en el sector de BTT, donde puso de manifiesto la ya legendaria supremací­a globeril en esto de las trialeras y la BTT...
 
-[![](attachments/Lucitri.webp)Luzia en el sector de BTT, adelantando a otra competidora.
+![](attachments/Lucitri.webp)Luzia en el sector de BTT, adelantando a otra competidora.
 

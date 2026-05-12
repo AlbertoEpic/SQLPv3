@@ -10,7 +10,7 @@ category: "Otros"
 tags:
   - "Uncategorized"
 ---
-[![](attachments/Copia-de-Rogainning-L-C3-A9rida-2710.jpg-16-_resize.webp)
+![](attachments/Copia-de-Rogainning-L-C3-A9rida-2710.jpg-16-_resize.webp)
 
 El pasado sábado se disputó esta prueba. A falta de conocer más puestos del resto de globeros participantes, mención especial merecen Esme y Jara, que consiguieron una meritoria 3 posición en su categorí­a entre 24 equipos más...
 

@@ -10,7 +10,7 @@ category: "Esquí­ de travesí­a"
 tags:
   - "Esquí­ de travesí­a"
 ---
-[![](attachments/TODOS_CAMINO_DE_LA_ULTIMA_RAMPA_AL_COLL_DE_ASTUN.webp)Hoy he hecho la primera salida de esquí­ de travesí­a de la temporada (Otros ya llevan varias). El monte está impresionante, parece que sea febrero! La nieve estaba un poco de todo, a veces asquerosilla, a veces buena. El recorrido ha sido el siguiente (Copio-pego de un email de Jorge):
+![](attachments/TODOS_CAMINO_DE_LA_ULTIMA_RAMPA_AL_COLL_DE_ASTUN.webp)Hoy he hecho la primera salida de esquí­ de travesí­a de la temporada (Otros ya llevan varias). El monte está impresionante, parece que sea febrero! La nieve estaba un poco de todo, a veces asquerosilla, a veces buena. El recorrido ha sido el siguiente (Copio-pego de un email de Jorge):
 
 Recorrido:
 
@@ -22,21 +22,21 @@ El grupo estaba formado por Jorge Garcí­a-Dihinx, Donato Molina, Alex Sola, í
 
 A continuación, puedes ver algunas de las fotos de Jorge de la ruta de hoy:
 
-[![](attachments/TEXTURAS_EN_LA_NIEVE_ALBERTO_Y_ALEX.webp)
+![](attachments/TEXTURAS_EN_LA_NIEVE_ALBERTO_Y_ALEX.webp)
 
-[![](attachments/SURCANDO_UN_BONITO_LLANO_A_1900m.webp)
+![](attachments/SURCANDO_UN_BONITO_LLANO_A_1900m.webp)
 
-[![](attachments/SILUETAS_EN_UN_PAISAJE_DE_ENSUE-C3-91O.webp)
+![](attachments/SILUETAS_EN_UN_PAISAJE_DE_ENSUE-C3-91O.webp)
 
-[![](attachments/PRIMER_DESCENSO_EN_FRANCIA_AL_FONDO_MIDI_DOSSAU.webp)
+![](attachments/PRIMER_DESCENSO_EN_FRANCIA_AL_FONDO_MIDI_DOSSAU.webp)
 
-[![](attachments/JM_Y_DIEGO_BALAITUS_FRONDIELLAS.webp)
+![](attachments/JM_Y_DIEGO_BALAITUS_FRONDIELLAS.webp)
 
-[![](attachments/FLANQUEANDO_LOS_BARRANCOS_AL_FONDO_NUESTRO_COLLADO.webp)
+![](attachments/FLANQUEANDO_LOS_BARRANCOS_AL_FONDO_NUESTRO_COLLADO.webp)
 
-[![](attachments/DIEGO_ALEX_Y_JM_SOBRE_COLL_MONJES.webp)
+![](attachments/DIEGO_ALEX_Y_JM_SOBRE_COLL_MONJES.webp)
 
-[![](attachments/AZULES_Y_BLANCOS_TEXTURAS.webp)
+![](attachments/AZULES_Y_BLANCOS_TEXTURAS.webp)
 
-[![](attachments/ALBERTO_Y_ALEX_SOBRE_UN_MAR_BLANCO.webp)
+![](attachments/ALBERTO_Y_ALEX_SOBRE_UN_MAR_BLANCO.webp)
 

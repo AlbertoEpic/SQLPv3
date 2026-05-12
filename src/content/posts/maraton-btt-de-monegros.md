@@ -11,7 +11,7 @@ tags:
   - "btt"
   - "Maratón de Monegros"
 ---
-[![](attachments/fotosalidamonegros.webp)
+![](attachments/fotosalidamonegros.webp)
 
 30/04/2011
 
@@ -81,7 +81,7 @@ Enseguida viene Jara con la rodilla destrozada, como se nota que es aragonesa, g
 
 Duchados y cambiados nos vamos a comer algo, vemos a Tere, que también ha acabado muy bien, ya estamos todos a salvo.
 
-[![](attachments/podiumLuci.webp)Lucía Cinto, 2í‚Âª clasificada en éliteMientras estamos en la cola, Esme me dice, ya verás como te toca subir al pódium, yo por quitarme los nervios de encima le contesto que me han pasado muchas chicas y seguro que más de una tendría menos de 30 años, ja, y cual es mi sorpresa que se oye por megafonía: 2í‚Âº clasificada en categoría Elíte: Lucía Cinto, ay que alegría, pues nada, a por el trofeo, fotos, besos y sonrisas, que gracia, esto si que no me lo esperaba.
+![](attachments/podiumLuci.webp)Lucía Cinto, 2í‚Âª clasificada en éliteMientras estamos en la cola, Esme me dice, ya verás como te toca subir al pódium, yo por quitarme los nervios de encima le contesto que me han pasado muchas chicas y seguro que más de una tendría menos de 30 años, ja, y cual es mi sorpresa que se oye por megafonía: 2í‚Âº clasificada en categoría Elíte: Lucía Cinto, ay que alegría, pues nada, a por el trofeo, fotos, besos y sonrisas, que gracia, esto si que no me lo esperaba.
 
 Acabamos de comer, masajito para soltar los músculos y para casa.
 

@@ -10,7 +10,7 @@ category: "Viajes"
 tags:
   - "Uncategorized"
 ---
-[![](attachments/borrame.webp)En SQLP vamos poco a poco poniéndonos en marcha, dentro de esta nueva etapa de la vida. Estamos en perí­odos de pruebas y ensayos para acometer con mí­nimas garantí­as las futuras aventuras.
+![](attachments/borrame.webp)En SQLP vamos poco a poco poniéndonos en marcha, dentro de esta nueva etapa de la vida. Estamos en perí­odos de pruebas y ensayos para acometer con mí­nimas garantí­as las futuras aventuras.
 
 El escenario elegido para los últimos test realizados fue la región de Las Landas.
 

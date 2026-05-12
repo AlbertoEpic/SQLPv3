@@ -20,19 +20,19 @@ Anécdotas? Me he olvidado la cámara de fotos. aâ€°stas son sacadas con el 
 
 
 
-[![](attachments/Foto0012.webp)
+![](attachments/Foto0012.webp)
 
 En la cima de la Bola del Mundo. Al fondo, La Maliciosa.
 
-[![](attachments/Foto0013.webp)
+![](attachments/Foto0013.webp)
 
 Por la Loma de los Noruegos, hacia el puerto de Cotos.
 
-[![](attachments/Foto0021.webp)
+![](attachments/Foto0021.webp)
 
 Desde el Cerro de Valdemartí­n, al fondo, Peñalara. El puerto de Cotos bajo la niebla.
 
-[![](attachments/Foto0022.webp)
+![](attachments/Foto0022.webp)
 
 Desde las cercaní­as del Cerro de Valdemartí­n, la Bola del mundo.
 

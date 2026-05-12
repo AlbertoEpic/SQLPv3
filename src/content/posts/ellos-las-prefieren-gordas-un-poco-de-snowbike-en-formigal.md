@@ -26,9 +26,9 @@ A continuación puedes ver el recorrido: 12km, algo menos de 2h y muchas, muchas
 
 Después de darse la vuelta, bajo el pico Royo. Con unas ruedas de 4.6', es muy fácil plantar la bici en el suelo... :-)
 
-[![](attachments/snowbike2.webp)
+![](attachments/snowbike2.webp)
 
-En la segunda mitad de bajada, la nieve estaba exageradamente sopa... Para poder flotar un poco, la presión de las ruedas era ridí­cula: 0'3bar delante y 0'4bar detrás.[attachments/itinerario.webp](attachments/itinerario.webp) [![](attachments/snowbike3.webp)
+En la segunda mitad de bajada, la nieve estaba exageradamente sopa... Para poder flotar un poco, la presión de las ruedas era ridí­cula: 0'3bar delante y 0'4bar detrás.[attachments/itinerario.webp](attachments/itinerario.webp) ![](attachments/snowbike3.webp)
 
 Y eso ha sido todo por hoy... Como decí­a AlbertoEpic, "olví­date de rendimiento, una FatBike es el colmo de la diversión".
 

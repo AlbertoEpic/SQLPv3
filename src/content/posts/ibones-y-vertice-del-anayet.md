@@ -16,7 +16,7 @@ Desde el parking de Anayet (petao de coches y de "ejquiadores", con atasco inclu
 
 Acabamos ansiosos de bocata (algunas más que otros) después de desatascar una pobre fragoneta y a su desesperada conductora de la nieve.
 
-[![](attachments/Anayet-002.webp)[![](attachments/Anayet-008.webp)[![](attachments/Anayet-005.webp)[![](attachments/Anayet-006.webp)[![](attachments/Anayet-015.webp)
+![](attachments/Anayet-002.webp)![](attachments/Anayet-008.webp)![](attachments/Anayet-005.webp)![](attachments/Anayet-006.webp)![](attachments/Anayet-015.webp)
 
-[![](attachments/Anayet-018.webp)
+![](attachments/Anayet-018.webp)
 

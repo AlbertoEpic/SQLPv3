@@ -14,11 +14,11 @@ Eso me pregunto yo. Antes pensaba que no, que la meteo es la que es, y luego las
 
 Hoy en internete puede verse, al mismo tiempo:
 
-[![](attachments/formi.webp)
+![](attachments/formi.webp)
 
-[![](attachments/salle.webp)Podemos decir que la estación de Formigal está junto a Sallent de Gállego, o sea que el tiempo más o menos será el mismo, o al menos parecido. Pero... Â¿sol o nubes?Veamos las webcam de Formigal (En la meteo dicen sol):[![](attachments/1012051412010405G.webp)
+![](attachments/salle.webp)Podemos decir que la estación de Formigal está junto a Sallent de Gállego, o sea que el tiempo más o menos será el mismo, o al menos parecido. Pero... Â¿sol o nubes?Veamos las webcam de Formigal (En la meteo dicen sol):![](attachments/1012051412010405G.webp)
 
-[![](attachments/1012051412010102G.webp)Y exactamente lo mismo ocurre en Benasque y Cerler. Da que pensar, no?
+![](attachments/1012051412010102G.webp)Y exactamente lo mismo ocurre en Benasque y Cerler. Da que pensar, no?
 
 
 

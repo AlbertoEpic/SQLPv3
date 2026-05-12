@@ -10,7 +10,7 @@ category: "Otros"
 tags:
   - "ultra trail somontano"
 ---
-[![](attachments/javichus.webp)[![](attachments/carlos.webp)[![](attachments/0marga.webp)[![](attachments/0natachus.webp)[![](attachments/0jr.webp)
+![](attachments/javichus.webp)![](attachments/carlos.webp)![](attachments/0marga.webp)![](attachments/0natachus.webp)![](attachments/0jr.webp)
 
 
 
@@ -48,5 +48,5 @@ ChusSin duda con cosas así­ uno se siente orgulloso de pertenecer al clan de l
 
 A destacar el 6 puesto del doctor LaTrek, un globero consagrado del ultrafondo en raids y btt, ahora también en las carreras a pie.
 
-[![](attachments/0monrasin.webp)Gracias a Monrasin: corredor, fotógrafo, cronista, bloguero,...
+![](attachments/0monrasin.webp)Gracias a Monrasin: corredor, fotógrafo, cronista, bloguero,...
 

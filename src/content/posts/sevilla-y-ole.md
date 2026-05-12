@@ -10,7 +10,7 @@ category: "Otros"
 tags:
   - "Uncategorized"
 ---
-[![](attachments/Sevilla-004.webp)
+![](attachments/Sevilla-004.webp)
 
 También concluí­a hace 2 semanas en Sevilla la Liga Española de Orientación en bici , una buena excusa para una tarde-noche por La Monumental. Aquí­ podéis ver [unas cuantas fotos](http://flickr.com/photos/j0taerre/sets/72157608536989831/show/), incluidos los podiums de vencedores.
 

@@ -10,7 +10,7 @@ category: "Otros"
 tags:
   - "Uncategorized"
 ---
-[![](attachments/415.webp)
+![](attachments/415.webp)
 
 A peticion de Alberto (el creador de este blog), publico esta foto como el dice tan "mí­tica".
 

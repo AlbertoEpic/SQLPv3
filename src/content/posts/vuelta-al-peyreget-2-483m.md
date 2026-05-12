@@ -13,7 +13,7 @@ tags:
   - "Portalet"
   - "Valle de Tena"
 ---
-[![](attachments/fotitopaborrar.webp)Hacemos un 'flashback' para retroceder al pasado (reciente) y ver un video filmado y editado por la componente del Equipo SoloQuedaLoPeor, Luzia:
+![](attachments/fotitopaborrar.webp)Hacemos un 'flashback' para retroceder al pasado (reciente) y ver un video filmado y editado por la componente del Equipo SoloQuedaLoPeor, Luzia:
 
 el pasado 22 de diciembre, dí­a de la loterí­a, a algunos les tocó un fantástico dí­a de esquí­ de travesí­a por la zona del pico Peyreget.
 

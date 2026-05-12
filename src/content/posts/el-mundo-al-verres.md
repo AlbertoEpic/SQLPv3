@@ -10,7 +10,7 @@ category: "Otros"
 tags:
   - "Uncategorized"
 ---
-[![](attachments/3257221819_aa1e6c1653_o.webp)
+![](attachments/3257221819_aa1e6c1653_o.webp)
 
 A ti viajero incansable, í‚Â¿no te apetecería escalar las montañas Marianas, cruzar el puente de Panamá, visitar Galápagos City o darte un chapuzón en el océano Africano? Pues ahora es posible, aunque sea desde tu salvapantallas.... [í‚Â¡í‚Â¡Mira, mira!!](http://www.vladstudio.com/es/wallpaper/?worldinversed)
 

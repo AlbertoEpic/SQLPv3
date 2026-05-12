@@ -16,13 +16,13 @@ Menos mal que Marta lleva unos kit-kats y una bolsita de pan de pipas. Habrá qu
 
 Comenzamos a subir por el barranco de los Azús, pasando por el mí­tico coche destartalado.
 
-[![](attachments/Pico-Collarada-282.876m-29-002.webp)Aprovechamos un claro sin nieve para estar un buen rato gozando del silencio de las montañas en un dí­a cálido, primaveral, y saboreando sin prisas un trocito de pan de pipas.
+![](attachments/Pico-Collarada-282.876m-29-002.webp)Aprovechamos un claro sin nieve para estar un buen rato gozando del silencio de las montañas en un dí­a cálido, primaveral, y saboreando sin prisas un trocito de pan de pipas.
 
 Un poco antes de la cima, Marta decide quedarse esperando, disfrutando de un dí­a espectacular: 'no wind, no clouds, summit day!'.
 
-[![](attachments/Pico-Collarada-282.876m-29-005.webp)Así­ que me pego un sofocón para no tardar mucho, y me acerco a la cima, para mí­ solo, silencio total, sólo un quebrantahuesos me observa desde las alturas.
+![](attachments/Pico-Collarada-282.876m-29-005.webp)Así­ que me pego un sofocón para no tardar mucho, y me acerco a la cima, para mí­ solo, silencio total, sólo un quebrantahuesos me observa desde las alturas.
 
-[![](attachments/Pico-Collarada-282.876m-29-021.webp)
+![](attachments/Pico-Collarada-282.876m-29-021.webp)
 
 
 ---

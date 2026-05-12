@@ -10,17 +10,17 @@ category: "Otros"
 tags:
   - "Uncategorized"
 ---
-[![](attachments/216.webp)
+![](attachments/216.webp)
 
-[![](attachments/215.webp)
+![](attachments/215.webp)
 
-[![](attachments/214.webp)
+![](attachments/214.webp)
 
-[![](attachments/213.webp)
+![](attachments/213.webp)
 
-[![](attachments/212.webp)
+![](attachments/212.webp)
 
-[![](attachments/211.webp)
+![](attachments/211.webp)
 
 Recordando viejos tiempos. Un antes y un despues de un viaje machacogloberil
 

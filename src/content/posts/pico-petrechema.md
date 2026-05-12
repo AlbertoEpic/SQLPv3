@@ -10,7 +10,7 @@ category: "Otros"
 tags:
   - "Petrechema"
 ---
-[![](attachments/Chus-Petrechema3.webp)
+![](attachments/Chus-Petrechema3.webp)
 
 HolaPrimera invernal de esta temporada para el que escribe (Chus): pico Petrechema.
 
@@ -18,7 +18,7 @@ Dí­a soleado aunque frí­o. No demasiada nieve y bastante dura, bien para pat
 
 A ver si nos ponemos de acuerdo para hacer alguna otra salida de este tipo.Ahí­ van unas foticos.
 
-[![](attachments/Chus-Petrechema.webp)[![](attachments/Chus-Petrechema2.webp)A plantar fuerte
+![](attachments/Chus-Petrechema.webp)![](attachments/Chus-Petrechema2.webp)A plantar fuerte
 
 Chus
 

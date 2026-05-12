@@ -10,7 +10,7 @@ category: "Otros"
 tags:
   - "raid aventura"
 ---
-[![](attachments/borrame1.webp)Chus, Belén, Esme y LuziaEl pasado 24 de marzo se disputó en Yécora este raid de aventura por parejas y de un dí­a. Desde SQLP nos hacemos eco del mismo debido a que hasta allí­ se desplazó Luzia, de la factorí­a SoloQuedaLoPeor, formando equipo con Esmeralda Gabasa.
+![](attachments/borrame1.webp)Chus, Belén, Esme y LuziaEl pasado 24 de marzo se disputó en Yécora este raid de aventura por parejas y de un dí­a. Desde SQLP nos hacemos eco del mismo debido a que hasta allí­ se desplazó Luzia, de la factorí­a SoloQuedaLoPeor, formando equipo con Esmeralda Gabasa.
 
 Entre las dos consiguieron dominar la prueba, quedando primeras en categorí­a femenina. Superaron también a todos los equipos mixtos, y consiguieron una meritoria 23 plaza entre 70 equipos.
 

@@ -11,7 +11,7 @@ tags:
   - "boda"
   - "globeros"
 ---
-[![](attachments/PA310063.webp)
+![](attachments/PA310063.webp)
 
 Hoy se ha celebrado la boda de dos de los más representativos globeros entre los globeros: Rafa Morenetti y Jarita Lorés.
 

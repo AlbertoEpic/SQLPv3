@@ -12,7 +12,7 @@ tags:
   - "cicloalpinismo"
   - "louvie-juzon"
 ---
-[![](attachments/ruta.webp)Itinerario de la rutaEsto no es normal... Se acercan las navidades y parece que en la TV los del mapa del tiempo ha perdido las estrellitas de poner nieve en el pirineo. Los pobres esquí­s siguen arrinconados esperando su turno, resignados a que el lugar prioritario del trastero sea para la bici.
+![](attachments/ruta.webp)Itinerario de la rutaEsto no es normal... Se acercan las navidades y parece que en la TV los del mapa del tiempo ha perdido las estrellitas de poner nieve en el pirineo. Los pobres esquí­s siguen arrinconados esperando su turno, resignados a que el lugar prioritario del trastero sea para la bici.
 
 Para celebrar el dí­a de la Inmaculada, nos vamos a Louvie-Juzon a hacer el primer bucle de la tercera etapa del Raid des 3 Vallées del 2011 (Gran acierto de íngel). Al final nos juntamos buena tropa: jR, Marga, íngel, Nuria, Carlos, Lucí­a y Alberto.
 

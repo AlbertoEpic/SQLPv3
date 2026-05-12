@@ -30,13 +30,13 @@ Por último disfrutamos de una copiosa comida preparada de nuevo por el Ayuntami
 
 de Quicena que tan bien se porta siempre con nosotros. Todos los corredores se quedaron con un gran sabor de boca y seguro que repetirán en próximas ediciones de la prueba.
 
-Desde aquí­ dar las gracias a todos los voluntarios de Peña Guara que hicieron un trabajo increí­ble como siempre y en especial a Roberto, Christian y todos los que ayudaron a preparar el trazado de la prueba.[![](attachments/IMG_7980.webp)
+Desde aquí­ dar las gracias a todos los voluntarios de Peña Guara que hicieron un trabajo increí­ble como siempre y en especial a Roberto, Christian y todos los que ayudaron a preparar el trazado de la prueba.![](attachments/IMG_7980.webp)
 
-[![](attachments/IMG_7973.webp)
+![](attachments/IMG_7973.webp)
 
-[![](attachments/IMG_7978.webp)
+![](attachments/IMG_7978.webp)
 
-[![](attachments/IMG_7970.webp)
+![](attachments/IMG_7970.webp)
 
-[![](attachments/IMG_7969.webp)
+![](attachments/IMG_7969.webp)
 

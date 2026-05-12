@@ -11,7 +11,7 @@ tags:
   - "Altos Pirineos"
   - "Esquí­ de travesí­a"
 ---
-[![](attachments/SILVRETA.webp)Gracias a Inazio, nos llega del blog [Las Focas Majaras](http://lasfocasmajaras.blogspot.com.es/) una joya histórica, una vista a los comienzos del esquí­ de travesí­a por estos lares.
+![](attachments/SILVRETA.webp)Gracias a Inazio, nos llega del blog [Las Focas Majaras](http://lasfocasmajaras.blogspot.com.es/) una joya histórica, una vista a los comienzos del esquí­ de travesí­a por estos lares.
 
 En este post, Inazio vuelve la vista atrás y nos cuenta cómo era el material por aquel entonces.
 

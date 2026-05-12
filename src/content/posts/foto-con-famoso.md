@@ -10,7 +10,7 @@ category: "Otros"
 tags:
   - "Uncategorized"
 ---
-[![](attachments/IGP0041.webp)
+![](attachments/IGP0041.webp)
 
 Os publico una foto en la que salgo con un chaval que se llamaba Julian Torner o algo asi y con el famoso Antonio Gros, toda una eminencia del esqui de montaña.
 

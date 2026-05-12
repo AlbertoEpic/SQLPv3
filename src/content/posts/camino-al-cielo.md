@@ -10,7 +10,7 @@ category: "Otros"
 tags:
   - "Uncategorized"
 ---
-[![](attachments/CAMINO-AL-CIELO.webp)
+![](attachments/CAMINO-AL-CIELO.webp)
 
 Todos nos hemos preguntado alguna vez. Â¿Que pasa cuando un dí­a todo acaba?. Â¿Habrá cielo?. Â¿Cómo será?.
 

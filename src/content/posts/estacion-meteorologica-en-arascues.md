@@ -14,6 +14,6 @@ Desde cualquier sitio con internete podemos acceder a los datos de la estación 
 
 Parece muy completa: barómetro, termómetro, anemómetro, higrómetro, históricos de presiones, temperaturas, precipitaciones,... Vamos, el juguete perfecto para jugar a Maldonado!
 
-[![](attachments/meteo.webp)](http://www.parquedeguara.es/)
+![](attachments/meteo.webp)](http://www.parquedeguara.es/)
 
 

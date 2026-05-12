@@ -31,7 +31,7 @@ Muy a menudo nos interesa saber si una ladera tiene una inclinación de más o m
 
 Se entiende mucho mejor con unos dibujos:
 
- [![](attachments/test-pendiente-bastones.webp)
+ ![](attachments/test-pendiente-bastones.webp)
 
 Me ahorraré la demostración trigonométrica, que no creo que le interese a mucha gente en este blog... ;-)
 

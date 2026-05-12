@@ -14,7 +14,7 @@ tags:
 ---
 Interrumpimos la serie Uttarakhand 2011 para hacernos eco de la actividad globeril del pasado sábado: los globeros Morenetti, íngel, jR, Marga, Luzia, AlbertoEpic y el Flow Master José se dieron cita en Rodellar con las btt para hacer una ruta endurera 'larga pero dura'. Salida de Rodellar, bajada al Mascún, subida porteando por el barranco de Andrebot, dolmen de la Losa Mora, Otí­n, bajada por La Costera al Mascún, subida a Rodellar, Las Almunias, sierra de Balced y descenso trialero a Rodellar. 
 
-[![](attachments/8rodellar.webp)El '8' de Rodellar. Primero el bucle superior, acompañados por Tai...Para los adictos a las estadí­sticas:
+![](attachments/8rodellar.webp)El '8' de Rodellar. Primero el bucle superior, acompañados por Tai...Para los adictos a las estadí­sticas:
 
 Tiempo total: 7h 30min (Sólo 3h en movimiento, juajua!)
 

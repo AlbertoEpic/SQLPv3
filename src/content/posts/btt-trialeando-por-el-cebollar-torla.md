@@ -10,7 +10,7 @@ category: "Otros"
 tags:
   - "Uncategorized"
 ---
-[![](attachments/btt_Torla4.webp)Interrumpimos momentaneamente la emisión de la serie 'Oberland 2011' para mostrar las actividades del último fin de semana, bastante movidito para el equipo de grabación de Soloquedalopeor.
+![](attachments/btt_Torla4.webp)Interrumpimos momentaneamente la emisión de la serie 'Oberland 2011' para mostrar las actividades del último fin de semana, bastante movidito para el equipo de grabación de Soloquedalopeor.
 
 El domingo, una ruta de btt de las pirenaicas:
 
@@ -22,9 +22,9 @@ Y retrocediendo hacia atrás en el tiempo, el sábado el grupo formado por Marco
 
 
 
-[![](attachments/btt_Torla1.webp)
+![](attachments/btt_Torla1.webp)
 
-[![](attachments/btt_Torla2.webp)
+![](attachments/btt_Torla2.webp)
 
-[![](attachments/btt_Torla3.webp)
+![](attachments/btt_Torla3.webp)
 

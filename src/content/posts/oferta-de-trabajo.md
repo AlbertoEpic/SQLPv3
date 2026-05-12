@@ -12,5 +12,5 @@ tags:
 ---
 En estos tiempos que corren, y dado el extremo al que han llegado las cosas, en este anuncio pueden verse los dos puestos de trabajo más buscados y necesarios. Sin palabras...
 
-[![](attachments/anuncio.webp)
+![](attachments/anuncio.webp)
 

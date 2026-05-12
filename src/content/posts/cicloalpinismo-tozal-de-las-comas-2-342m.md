@@ -24,7 +24,7 @@ Nuestros dos especialistas van mejorando en su faceta como reporteros gráficos.
 [https://pano360.soloquedalopeor.com/panorama/tozal-de-las-comas-2-342m/](https://pano360.soloquedalopeor.com/panorama/tozal-de-las-comas-2-342m/)Tozal de Las Comas
 
 Te recordamos que puedes ver esta y muchas más en nuestro portal especí­fico de fotos esféricas:
-[![](attachments/logo_Pano360_600x150-300x80.webp)](https://pano360.soloquedalopeor.com)pano360.soloquedalopeor.com
+![](attachments/logo_Pano360_600x150-300x80.webp)](https://pano360.soloquedalopeor.com)pano360.soloquedalopeor.com
 
 Y para terminar, te dejamos con unas pocas imágenes de la actividad.
 

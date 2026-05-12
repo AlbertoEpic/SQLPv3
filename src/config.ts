@@ -348,9 +348,9 @@ export const siteConfig: SiteConfig = {
   // Optional Content Types - Enable/disable optional content sections (takes priority over homeOptions)
   optionalContentTypes: {
     // [CONFIG:OPTIONAL_CONTENT_TYPES_PROJECTS]
-    projects: false, // Enable projects section
+    projects: true, // Enable projects section
     // [CONFIG:OPTIONAL_CONTENT_TYPES_DOCS]
-    docs: false, // Enable documentation section
+    docs: true, // Enable documentation section
   },
 
   // Home Options

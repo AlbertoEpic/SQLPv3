@@ -10,7 +10,7 @@ category: "Otros"
 tags:
   - "Uncategorized"
 ---
-[![](attachments/IMG_1756.webp)
+![](attachments/IMG_1756.webp)
 
 Este pasado sábado unos globeros estuvieron haciendo una ruta de btt por el Pirineo: El Pueyo de Jaca - Hoz de Jaca - Ibón de Sabocos - La Ripera - PR a Panticosa - PR a El Pueyo.
 
@@ -20,11 +20,11 @@ Prácticamente todo el descenso por PR, es una variante que hace ganar muchos en
 
  
 
-[![](attachments/IMG_1742.webp)
+![](attachments/IMG_1742.webp)
 
-[![](attachments/IMG_1763.webp)
+![](attachments/IMG_1763.webp)
 
-[![](attachments/IMG_1767.webp)
+![](attachments/IMG_1767.webp)
 
 
 
