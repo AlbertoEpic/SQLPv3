@@ -5,12 +5,12 @@ pubDate: 2009-02-04T12:01:00Z
 updatedDate: 2015-04-06T10:29:06Z
 draft: false
 author: "AlbertoEpic"
-description: "Â¿Quién dijo que el esquí­ de montaña era un deporte minoritario? Nada más y nada menos que 35 personas del cursillo provincial organizado por Peña Guara , foqueamos el domingo desde el refugio de La Renclusa al accesible pico Paderna. El tie"
+description: "¿Quién dijo que el esquí­ de montaña era un deporte minoritario? Nada más y nada menos que 35 personas del cursillo provincial organizado por Peña Guara , foqueamos el domingo desde el refugio de La Renclusa al accesible pico Paderna. El tie"
 category: "Otros"
 tags:
   - "Esquí­ de travesí­a"
 ---
-Â¿Quién dijo que el esquí­ de montaña era un deporte minoritario?
+¿Quién dijo que el esquí­ de montaña era un deporte minoritario?
 
 ![](attachments/IMG_0001.webp)
 

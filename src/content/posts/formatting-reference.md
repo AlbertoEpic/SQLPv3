@@ -156,10 +156,10 @@ On mobile devices, all layouts switch to a single column for better readability.
 
 ### Linked Images
 
-[![Mountains](/postsattachments/mountains.png)](https://obsidian.md)
+![Mountains](/postsattachments/mountains.png)](https://obsidian.md)
 
 ```
-[![Mountains](/postsattachments/mountains.png)](https://obsidian.md)
+![Mountains](/postsattachments/mountains.png)](https://obsidian.md)
 ```
 
 ## Lists

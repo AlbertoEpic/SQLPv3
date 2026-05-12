@@ -6,7 +6,7 @@ heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2017-02-11T22:09:03Z
 draft: false
 author: "AlbertoEpic"
-description: "í‚Â¿FATPINISMO? FAT bike + al PINISMO Primero fue la bicicleta. Se modificó para ir por pistas y se llamó bicicleta de montaña. Algunos pioneros decidieron ir a la montaña de verdad, saliendo de las pistas, y lo bautizaron como cicloalpinismo."
+description: "í‚¿FATPINISMO? FAT bike + al PINISMO Primero fue la bicicleta. Se modificó para ir por pistas y se llamó bicicleta de montaña. Algunos pioneros decidieron ir a la montaña de verdad, saliendo de las pistas, y lo bautizaron como cicloalpinismo."
 category: "Bicicleta de montaña"
 tags:
   - "Benasque"
@@ -18,7 +18,7 @@ tags:
 
 
 
-í‚Â¿FATPINISMO?
+í‚¿FATPINISMO?
 FATbike + alPINISMO
 
 

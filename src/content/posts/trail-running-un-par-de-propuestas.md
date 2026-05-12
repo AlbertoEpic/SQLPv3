@@ -23,7 +23,7 @@ La ruta comienza con un tramo de calentamiento por asfalto, para posteriormente 
 
 https://video.relive.cc/7349275821_strava_1511365984907.mp4
 
-<iframe src="https://www.gpsies.com/mapOnly.do?fileId=kjzekkgetaeifydl" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">í¯Â»Â¿</span></iframe>
+<iframe src="https://www.gpsies.com/mapOnly.do?fileId=kjzekkgetaeifydl" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">í¯Â»¿</span></iframe>
 
 ## 2.- Pico Gabardiella
 

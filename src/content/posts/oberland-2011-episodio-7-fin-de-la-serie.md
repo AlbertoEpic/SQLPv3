@@ -6,7 +6,7 @@ heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:49Z
 draft: false
 author: "AlbertoEpic"
-description: "Y llegamos a la última etapa de nuestra travesía por el Oberland. La buena meteo y la aclimatación conseguida en esta semana ha hecho que en nuestra cabeza se vaya alimentando una idea: í‚Â¿Mont Blanc? Así que nuestra misión hoy es salir tempr"
+description: "Y llegamos a la última etapa de nuestra travesía por el Oberland. La buena meteo y la aclimatación conseguida en esta semana ha hecho que en nuestra cabeza se vaya alimentando una idea: í‚¿Mont Blanc? Así que nuestra misión hoy es salir tempr"
 category: "Otros"
 tags:
   - "alpes"
@@ -15,7 +15,7 @@ tags:
   - "Konkordia"
   - "Oberland"
 ---
-Y llegamos a la última etapa de nuestra travesía por el Oberland. La buena meteo y la aclimatación conseguida en esta semana ha hecho que en nuestra cabeza se vaya alimentando una idea: í‚Â¿Mont Blanc? Así que nuestra misión hoy es salir temprano del refugio de Konkordia y llegar cuanto antes a Fafleralp. Allí, pillar el coche y sin perder tiempo a Chamonix, donde cenaremos y descansaremos para el día siguiente hacer un intento expréss al Mont Blanc con esquís.
+Y llegamos a la última etapa de nuestra travesía por el Oberland. La buena meteo y la aclimatación conseguida en esta semana ha hecho que en nuestra cabeza se vaya alimentando una idea: í‚¿Mont Blanc? Así que nuestra misión hoy es salir temprano del refugio de Konkordia y llegar cuanto antes a Fafleralp. Allí, pillar el coche y sin perder tiempo a Chamonix, donde cenaremos y descansaremos para el día siguiente hacer un intento expréss al Mont Blanc con esquís.
 
 La idea era buena, pero la meteo no estuvo de acuerdo y conforme nos acercábamos al coche el fuerte viento nos hacía dudar... Ya en Chamonix, la visita de rigor a la 'Maison de la Montagne' para ver la meteo nos quita definitivamente la idea del Mont Blanc: fuerte descenso de las temperaturas, mucho viento, elevada nubosidad,... en fin, que no.
 

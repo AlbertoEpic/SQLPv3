@@ -39,27 +39,27 @@ Y como era un dí­a muy 'escénico', en SQLP hemos preparado otro Reel para sin
 
  [Ver esta publicación en Instagram](https://www.instagram.com/reel/C6yC60yAAPQ/?utm_source=ig_embed&utm_campaign=loading)[Una publicación compartida de @albertroid](https://www.instagram.com/reel/C6yC60yAAPQ/?utm_source=ig_embed&utm_campaign=loading) 
 
-[![Por la mañana, en el barco hacia el Trollfjord.](attachments/P4020253-jpg.webp)
+![Por la mañana, en el barco hacia el Trollfjord.](attachments/P4020253-jpg.webp)
 
 *Por la mañana, en el barco hacia el Trollfjord.*
 
-[![Y volviendo la vista atrás.](attachments/P4020258-jpg.webp)
+![Y volviendo la vista atrás.](attachments/P4020258-jpg.webp)
 
 *Y volviendo la vista atrás.*
 
-[![La primera parte de la ruta es a la sombra, hace una mañana heladora!](attachments/P4020285-jpg.webp)
+![La primera parte de la ruta es a la sombra, hace una mañana heladora!](attachments/P4020285-jpg.webp)
 
 *La primera parte de la ruta es a la sombra, hace una mañana heladora!*
 
-[![Sobre el embalse helado de Trollfjordvatnet. Todos a buscar el sol por fin!](attachments/P4020292-jpg.webp)
+![Sobre el embalse helado de Trollfjordvatnet. Todos a buscar el sol por fin!](attachments/P4020292-jpg.webp)
 
 *Sobre el embalse helado de Trollfjordvatnet. Todos a buscar el sol por fin!*
 
-[![Aquí­ encontramos un buen 'photocall'...](attachments/P4020326-jpg.webp)
+![Aquí­ encontramos un buen 'photocall'...](attachments/P4020326-jpg.webp)
 
 *Aquí­ encontramos un buen 'photocall'...*
 
-[![Disfrutando por la loma, al solecito... pero siempre bajo cero! Al pie de las paredes de roca, el fiordo del Troll.](attachments/P4020333-jpg.webp)
+![Disfrutando por la loma, al solecito... pero siempre bajo cero! Al pie de las paredes de roca, el fiordo del Troll.](attachments/P4020333-jpg.webp)
 
 *Disfrutando por la loma, al solecito... pero siempre bajo cero! Al pie de las paredes de roca, el fiordo del Troll.*
 

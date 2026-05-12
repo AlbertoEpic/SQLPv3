@@ -15,13 +15,13 @@ Acabo de leer un correo que puede ser interesante para algunos. Resume muy bien 
 
 Hola a todos.
 
-Hace algún tiempo descubrimos una actividad llamada Geocaching. í‚Â¿La conocéis? Para los que no, básicamente consiste en, con la ayuda de un gps (en realidad también se puede hacer con un buen mapa y brújula), encontrar un determinado punto en el que se esconde un pequeño "tesoro". Se trata de recipientes herméticos (tipo tupper) en los que hay diversos objetos y una libreta para apuntar las visitas. La idea es que puedes coger uno de los objetos del caché, siempre y cuando dejes a cambio otro de igual o superior "valor". Son objetos de escaso valor, como podéis imaginar, el premio realmente consiste en ser capaz de localizarlo. También se apuntan en una libreta los datos de la visita: fecha, lo que coges, lo que dejas, algún comentario sobre lo que te parece el lugar, si te ha resultado fácil o difícil encontrarlo... Todo esto también puedes registrarlo en internet, en la página [www.geocaching.com](http://www.geocaching.com/); de esa manera, el caché es algo vivo y, tanto su "propietario" como los "buscadores" podemos seguir su evolución.
+Hace algún tiempo descubrimos una actividad llamada Geocaching. í‚¿La conocéis? Para los que no, básicamente consiste en, con la ayuda de un gps (en realidad también se puede hacer con un buen mapa y brújula), encontrar un determinado punto en el que se esconde un pequeño "tesoro". Se trata de recipientes herméticos (tipo tupper) en los que hay diversos objetos y una libreta para apuntar las visitas. La idea es que puedes coger uno de los objetos del caché, siempre y cuando dejes a cambio otro de igual o superior "valor". Son objetos de escaso valor, como podéis imaginar, el premio realmente consiste en ser capaz de localizarlo. También se apuntan en una libreta los datos de la visita: fecha, lo que coges, lo que dejas, algún comentario sobre lo que te parece el lugar, si te ha resultado fácil o difícil encontrarlo... Todo esto también puedes registrarlo en internet, en la página [www.geocaching.com](http://www.geocaching.com/); de esa manera, el caché es algo vivo y, tanto su "propietario" como los "buscadores" podemos seguir su evolución.
 
 Es una actividad para pequeños y mayores y  es una buena manera de introducir a los más pequeños, de una forma muy amena y motivadora, en el mundo de la naturaleza, la aventura, etc. í Comprobado, funciona !
 
 Bueno, no sé para qué tanto rollo, si lo tenéis todo perfectamente explicado en la página web:
 
-í‚Â¿Qué es geocaching?:  [http://www.geocaching.com/guide/default.aspx](http://www.geocaching.com/guide/default.aspx)
+í‚¿Qué es geocaching?:  [http://www.geocaching.com/guide/default.aspx](http://www.geocaching.com/guide/default.aspx)
 
 Y si tienes 2 minutos y te apañas medianamente con el Inglés, aquí tienes un vídeo en el que se resume muy bien en qué consite el geocaching:
 

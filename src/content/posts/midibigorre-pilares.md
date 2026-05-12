@@ -117,7 +117,7 @@ Lo cierto es que ya estamos viendo el aparcamiento de Hautacam, nos queda una se
 
 ![Imagen](https://i.imgur.com/a7u05K3.jpg)
 
-Dicho y hecho, tal y como nos han dicho, la senda está para darle zapatilla y vamos jugando con las diferentes trazadas, sin mucho más, hasta llegar al Lac dâ‚¬â„¢Isaby donde la cosa cambia, hay que estar atentos para no seguir bajando y perderse la entrada al bosque, dondeâ‚¬Â¦ en finâ‚¬Â¦ hubiera sido pecado mortal perderse rodar por aquí­. Â¿Os acordáis de lo de los elfos y los enanos?
+Dicho y hecho, tal y como nos han dicho, la senda está para darle zapatilla y vamos jugando con las diferentes trazadas, sin mucho más, hasta llegar al Lac dâ‚¬â„¢Isaby donde la cosa cambia, hay que estar atentos para no seguir bajando y perderse la entrada al bosque, dondeâ‚¬Â¦ en finâ‚¬Â¦ hubiera sido pecado mortal perderse rodar por aquí­. ¿Os acordáis de lo de los elfos y los enanos?
 
 ![Imagen](https://i.imgur.com/nHxroz1.jpg)
 

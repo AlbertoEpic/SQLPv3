@@ -5,7 +5,7 @@ pubDate: 2014-08-21T07:10:00Z
 updatedDate: 2018-12-05T12:55:50Z
 draft: false
 author: "AlbertoEpic"
-description: "Ya estíƒÂ¯í‚Â¿í‚Â½ en el aire el tercer y íƒÂ¯í‚Â¿í‚Â½ltimo episodio de la serie Mittelland Route. Nuestros especialistas Luzia y AlbertoEpic recorren el íƒÂ¯í‚Â¿í‚Â½ltimo tramo de la Mitteland Route, desde Solothurn hasta Laussane. Muchas gracias a Bastian por acogernos e"
+description: "Ya estíƒÂ¯í‚¿í‚Â½ en el aire el tercer y íƒÂ¯í‚¿í‚Â½ltimo episodio de la serie Mittelland Route. Nuestros especialistas Luzia y AlbertoEpic recorren el íƒÂ¯í‚¿í‚Â½ltimo tramo de la Mitteland Route, desde Solothurn hasta Laussane. Muchas gracias a Bastian por acogernos e"
 category: "Viajes"
 tags:
   - "lausanne"
@@ -14,13 +14,13 @@ tags:
   - "solothurn"
   - "suiza"
 ---
-![](attachments/fotito.webp)Ya estíƒÂ¯í‚Â¿í‚Â½ en el aire el tercer y íƒÂ¯í‚Â¿í‚Â½ltimo episodio de la serie Mittelland Route.
+![](attachments/fotito.webp)Ya estíƒÂ¯í‚¿í‚Â½ en el aire el tercer y íƒÂ¯í‚¿í‚Â½ltimo episodio de la serie Mittelland Route.
 
-Nuestros especialistas Luzia y AlbertoEpic recorren el íƒÂ¯í‚Â¿í‚Â½ltimo tramo de la Mitteland Route, desde Solothurn hasta Laussane. Muchas gracias a Bastian por acogernos en su casa una noche cerca de Biel.
+Nuestros especialistas Luzia y AlbertoEpic recorren el íƒÂ¯í‚¿í‚Â½ltimo tramo de la Mitteland Route, desde Solothurn hasta Laussane. Muchas gracias a Bastian por acogernos en su casa una noche cerca de Biel.
 
-Por fin ha vuelto el buen tiempo, y el fríƒÂ¯í‚Â¿í‚Â½o y las lluvias del principio han sido sustituidas por cielo azul, sol y mucho calor...
+Por fin ha vuelto el buen tiempo, y el fríƒÂ¯í‚¿í‚Â½o y las lluvias del principio han sido sustituidas por cielo azul, sol y mucho calor...
 
-Son jornadas de pernoctas en campings, pedaleo cada vez míƒÂ¯í‚Â¿í‚Â½s intenso y paradas para baíƒÂ¯í‚Â¿í‚Â½os en los lagos de NeuchíƒÂ¯í‚Â¿í‚Â½tel, Biel y LemíƒÂ¯í‚Â¿í‚Â½n.
+Son jornadas de pernoctas en campings, pedaleo cada vez míƒÂ¯í‚¿í‚Â½s intenso y paradas para baíƒÂ¯í‚¿í‚Â½os en los lagos de NeuchíƒÂ¯í‚¿í‚Â½tel, Biel y LemíƒÂ¯í‚¿í‚Â½n.
 
 <iframe allowfullscreen="" frameborder="0" height="370" src="https://www.youtube.com/embed/BlEwXfJYjBY" width="657"></iframe>
 

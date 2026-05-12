@@ -5,7 +5,7 @@ pubDate: 2021-08-01T17:08:08Z
 updatedDate: 2021-08-02T17:13:39Z
 draft: false
 author: AlbertoEpic
-description: Una gran opción cuando el calor aprieta... Seguimos proponiendo actividades para realizar con niños. En esta ocasión, algo para cuando el calor aprieta y no apetece caminar ni pedalear... í‚Â¿Qué tal un barranco? El barranco del Barrasil es un
+description: Una gran opción cuando el calor aprieta... Seguimos proponiendo actividades para realizar con niños. En esta ocasión, algo para cuando el calor aprieta y no apetece caminar ni pedalear... í‚¿Qué tal un barranco? El barranco del Barrasil es un
 category: SQLP-kids
 tags:
   - barrancos
@@ -16,7 +16,7 @@ tags:
 ---
 Una gran opción cuando el calor aprieta...
 
-Seguimos proponiendo actividades para realizar con niños. En esta ocasión, algo para cuando el calor aprieta y no apetece caminar ni pedalear... í‚Â¿Qué tal un barranco?
+Seguimos proponiendo actividades para realizar con niños. En esta ocasión, algo para cuando el calor aprieta y no apetece caminar ni pedalear... í‚¿Qué tal un barranco?
 
 El barranco del Barrasil es un tramo del Alcanadre que se completa haciendo un bucle desde Rodellar, aunque la aproximación resulta algo larga para hacer con niños + mucho calor... En nuestro caso, como la cuestión es pasar un rato divertido e ir metiendo el gusanillo de los barrancos a los pequeños aventureros, optamos por algo diferente: dejaremos el coche junto al puente de Pedruel, desde donde remontaremos el Barrasil todo lo que nos apetezca antes de dar la vuelta y regresar. Proponemos hacer un esfuerzo y llegar hasta la característica marmita 'La Olleta', muy fotogénica, donde podremos hacer buenas prácticas de salto hasta hartarnos.
 

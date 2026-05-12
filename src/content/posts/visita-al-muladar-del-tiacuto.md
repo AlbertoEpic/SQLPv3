@@ -14,7 +14,7 @@ tags:
 
 ## Conociendo de cerca buitres y otras aves carroñeras
 
-El otro dí­a estuvimos en el muladar del Tiacuto, asistiendo a un aporte de comida para el buitre leonado, el quebrantahuesos, el alimoche, el cuervo y otras aves... Resultó ser una actividad muy recomendable para gente inquieta y niños curiosos (Â¿Quién no ha querido ser biólogo en su infancia?).
+El otro dí­a estuvimos en el muladar del Tiacuto, asistiendo a un aporte de comida para el buitre leonado, el quebrantahuesos, el alimoche, el cuervo y otras aves... Resultó ser una actividad muy recomendable para gente inquieta y niños curiosos (¿Quién no ha querido ser biólogo en su infancia?).
 
 Se trata de una actividad organizada por el [Grupo Ornitológico Oscense](https://avesdehuesca.com/proyectos-goo/comedero-para-aves-carroneras-en-tiacuto-nueno/). Accedimos de paseo desde Santa Eulalia de la Peña, y ya que estamos, para satisfacer esa irracional ansia por subirnos a sitios altos, completamos la jornada con la visita a la cercana cima del Tiacuto. Como en circular siempre mola más, el retorno lo hicimos por otro sendero. Puedes ver el track a continuación:
 
@@ -28,7 +28,7 @@ AlbertoEpic estaba emocionado, no paraba de sacar fotos... Y claro, entre tantas
 
 *Sobrevolando el almuerzo...*
 
-[![Bien estudiado el terreno, es hora de tomar tierra!](attachments/P3160752-Mejorado-NR-1024x768.webp)](https://soloquedalopeor.com/p3160752-mejorado-nr/)
+![Bien estudiado el terreno, es hora de tomar tierra!](attachments/P3160752-Mejorado-NR-1024x768.webp)](https://soloquedalopeor.com/p3160752-mejorado-nr/)
 
 *Bien estudiado el terreno, es hora de tomar tierra!*
 
@@ -52,9 +52,9 @@ AlbertoEpic estaba emocionado, no paraba de sacar fotos... Y claro, entre tantas
 
 *Algunos no pueden creer que ya no quede comida y marujean el coche donde ha venido el manjar...*
 
-![Mirados de cerca... Â¿No le dan un aire a un velociráptor?](attachments/P3160389-Mejorado-NR-1024x768.webp)
+![Mirados de cerca... ¿No le dan un aire a un velociráptor?](attachments/P3160389-Mejorado-NR-1024x768.webp)
 
-*Mirados de cerca... Â¿No le dan un aire a un velociráptor?*
+*Mirados de cerca... ¿No le dan un aire a un velociráptor?*
 
 Si eres más moderno que las fotos y prefieres un reel, pues aquí­ lo tienes!
 

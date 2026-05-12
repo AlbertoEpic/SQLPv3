@@ -59,7 +59,7 @@ El lugar es mágico, pero no debían olvidar que las horas de luz son limitadas.
 
 Regresan por donde han venido hasta el circo de Salarons. Allí vuelve a estar todo bajo control. Hay ganas de hacer una parada a comer, que para eso han subido la comida hasta allí...
 
-Pero AlbertoEpic está indeciso... no tiene hambre... í‚Â¿va a volver de Ordesa sin una nueva foto esférica desde una cima? No puede ser! El pico Mondarruego, sólo 500m más arriba... Se estudia el mapa y lo ve factible. Rellena el impreso de solicitud de permiso al grupo para sustituir el almuerzo por una carrera, lo obtiene (Gracias!!!), respira hondo y sale para arriba!
+Pero AlbertoEpic está indeciso... no tiene hambre... í‚¿va a volver de Ordesa sin una nueva foto esférica desde una cima? No puede ser! El pico Mondarruego, sólo 500m más arriba... Se estudia el mapa y lo ve factible. Rellena el impreso de solicitud de permiso al grupo para sustituir el almuerzo por una carrera, lo obtiene (Gracias!!!), respira hondo y sale para arriba!
 
 Su tiempo límite de regreso eran 30min. Por suerte, sus cálculos han sido correctos y todavía le sobran 2min. para disfrutar de la soledad y el grandioso paisaje.
 

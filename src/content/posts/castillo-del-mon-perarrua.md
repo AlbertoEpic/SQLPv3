@@ -5,14 +5,14 @@ pubDate: 2023-02-03T09:46:39Z
 updatedDate: 2023-02-03T09:50:50Z
 draft: false
 author: "AlbertoEpic"
-description: "Hoy os proponemos una breve y sencilla excursión para la sección SQLP-Kids... El modesto desnivel, menos de 300m+, y el hecho de que prácticamente durante toda la subida veamos el castillo (í‚Â¿A qué niño no le motiva ir a ver un castillo?), h"
+description: "Hoy os proponemos una breve y sencilla excursión para la sección SQLP-Kids... El modesto desnivel, menos de 300m+, y el hecho de que prácticamente durante toda la subida veamos el castillo (í‚¿A qué niño no le motiva ir a ver un castillo?), h"
 category: "SQLP-kids"
 tags:
   - "castillo"
   - "Ribagorza"
 ---
 
-Hoy os proponemos una breve y sencilla excursión para la sección SQLP-Kids... El modesto desnivel, menos de 300m+, y el hecho de que prácticamente durante toda la subida veamos el castillo (í‚Â¿A qué niño no le motiva ir a ver un castillo?), hacen que la subida se haga bastante amena.
+Hoy os proponemos una breve y sencilla excursión para la sección SQLP-Kids... El modesto desnivel, menos de 300m+, y el hecho de que prácticamente durante toda la subida veamos el castillo (í‚¿A qué niño no le motiva ir a ver un castillo?), hacen que la subida se haga bastante amena.
 
 A continuación puedes ver/descargar el mapa con el track de la ruta. Verás que es muy breve, y contamos además con el comodín de una pista por la que un adulto puede subir con el coche, en caso de rebelión infantil. ;-p
 

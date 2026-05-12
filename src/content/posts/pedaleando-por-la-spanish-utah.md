@@ -14,7 +14,7 @@ tags:
 ---
 Hací­a mucho tiempo que José hablaba a los globeros de este lugar. Hací­a mucho tiempo que AlbertoEpic la tení­a en su lista de 'pendientes'. Pero también hací­a mucho tiempo que finalmente desechaba la opción frente a otras que no supusieran bajar al sur de Almudévar... ;-)
 
-Este fin de semana se alinearon los astros: época correcta, meteo incierta en el Pirineo pero buena al sur de Zaragoza,... total que ya tenemos a AlbertoEpic enfrentándose a sus prejuicios y partiendo al sur, a la margen derecha del Ebro nada menos, todaví­a más allá, a Calatayud. Â¿Colmarí­an sus espectativas las horas de pedaleo por la 'Spanish Utah', de la que tantas maravillas habla la gente en 'intenné'?
+Este fin de semana se alinearon los astros: época correcta, meteo incierta en el Pirineo pero buena al sur de Zaragoza,... total que ya tenemos a AlbertoEpic enfrentándose a sus prejuicios y partiendo al sur, a la margen derecha del Ebro nada menos, todaví­a más allá, a Calatayud. ¿Colmarí­an sus espectativas las horas de pedaleo por la 'Spanish Utah', de la que tantas maravillas habla la gente en 'intenné'?
 
 A su regreso, AlbertoEpic tení­a claro dos cosas:
 

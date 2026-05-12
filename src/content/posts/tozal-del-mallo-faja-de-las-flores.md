@@ -65,9 +65,9 @@ AlbertoEpic
 
 *July en la parte inicial de la Faja de las Flores.*
 
-![í‚Â¿El mayor poder de nuestra especialista July? Su inmensa paciencia con AlbertoEpic y sus gadgets...](attachments/P6190073-Mejorado-NR-1024x768.webp)
+![í‚¿El mayor poder de nuestra especialista July? Su inmensa paciencia con AlbertoEpic y sus gadgets...](attachments/P6190073-Mejorado-NR-1024x768.webp)
 
-*í‚Â¿El mayor poder de nuestra especialista July? Su inmensa paciencia con AlbertoEpic y sus gadgets...*
+*í‚¿El mayor poder de nuestra especialista July? Su inmensa paciencia con AlbertoEpic y sus gadgets...*
 
 
 "Al final se nos hará tarde, y encima va a llover en cualquier momento... Pero tranquilo, saca todas las fotos que te apetezca!"
@@ -113,7 +113,7 @@ Y hasta aquí la selección fotográfica de la jornada. Como anécdota curiosa, 
 
 Afortunadamente, los cálculos de AlbertoEpic eran correctos (Y conservadores) por lo que no tuvieron ningún problema en terminar la vuelta con normalidad...
 
-Este suceso ha dado que pensar a AlbertoEpic... í‚Â¿Tal vez necesite un asesor de imagen que le aporte un look más 'pro'? Porque está claro que el otro día en Ordesa transmitía una imagen de imprudente 'turista outsider'... íƒÂ°í…Â¸í‹Å“í…â€œ
+Este suceso ha dado que pensar a AlbertoEpic... í‚¿Tal vez necesite un asesor de imagen que le aporte un look más 'pro'? Porque está claro que el otro día en Ordesa transmitía una imagen de imprudente 'turista outsider'... íƒÂ°í…Â¸í‹Å“í…â€œ
 
 
 

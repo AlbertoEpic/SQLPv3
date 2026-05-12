@@ -15,7 +15,7 @@ tags:
 íƒÅ¡ltimo episodio de la serie Haute Route 2015...
 
 En las horas finales de nuestra Chamonix-Zermatt, la meteo lo decide todo:
-para el último día se pronostican fuertes vientos, copiosas nevadas (Riesgo de aludes) y visibilidad nula en altura, especialmente en el momento de tener que cruzar un gran glaciar agrietado, tras el Col de Valpelline... El día amanece perfecto í‚Â¿Se habrán equivocado? Nuestros especialistas foquean con ganas hacia Zermatt, pero desde el ascenso al Col de l'EvíƒÂªque el cambio de tiempo es claro. :-(
+para el último día se pronostican fuertes vientos, copiosas nevadas (Riesgo de aludes) y visibilidad nula en altura, especialmente en el momento de tener que cruzar un gran glaciar agrietado, tras el Col de Valpelline... El día amanece perfecto í‚¿Se habrán equivocado? Nuestros especialistas foquean con ganas hacia Zermatt, pero desde el ascenso al Col de l'EvíƒÂªque el cambio de tiempo es claro. :-(
 
 Entra por el norte rápidamente un frente de nubes negras, y en altura el viento es demasiado fuerte. Mala suerte. Otra vez será. No quieren tener tantos boletos en la rifa de los problemas para hoy, y se bajaní‚Â a Arolla. Varios grupos con guías que salieron del refugio detrás, deciden hacer lo mismo. El resto, se habían quedado en Vignettes. Impresionante bajada también hasta Arolla. Desde allí, en bus, tren y coche (Gracias, í‚Â Daniel) para llegar a Zermatt.
 

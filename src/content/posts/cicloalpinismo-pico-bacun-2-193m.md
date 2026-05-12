@@ -20,7 +20,7 @@ Te dejamos a continuación con el vídeo a vista de dron:https://youtu.be/p5Rxp6
 <iframe src="https://www.alltrails.com/es/widget/map/map-948f847--44?scrollZoom=ó&hideName=true&u=m" width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="AllTrails: Trail Guides and Maps for Hiking, Camping, and Running"></iframe>
 Y aquí puedes ver la representación de la ruta en una animación sobre un mapa 3D:https://video.relive.cc/64378519679_garmin-health_1625503431358.mp4
 
-![](https://i.imgur.com/8b3tZcR.jpg)											Rafa Moreno, el gran Morenetti, en pleno duelo con el Albertdrón: í‚Â¿Quién dispararía antes?
+![](https://i.imgur.com/8b3tZcR.jpg)											Rafa Moreno, el gran Morenetti, en pleno duelo con el Albertdrón: í‚¿Quién dispararía antes?
 
 ![](https://i.imgur.com/dRGWUnH.jpg)											Morenetti y AlbertoEpic llegando a la cima del Bacún Sur.
 

@@ -1,5 +1,5 @@
 ---
-title: "Camino Â¿Natural? de la Hoya de Huesca"
+title: "Camino ¿Natural? de la Hoya de Huesca"
 heroImage: "attachments/borrame-295x300.webp"
 pubDate: 2012-03-25T21:30:00Z
 updatedDate: 2015-04-06T10:28:41Z
@@ -24,7 +24,7 @@ Aqui puedes ver algunas fotos:
 
 ![](attachments/borrame1.webp)El maravilloso hayedo del Peiro, convertido en la atracción 'Recorre el bosque' de Port Aventura...
 
-![](attachments/borrame2.webp)Â¿Eran necesarios tantos palitos?
+![](attachments/borrame2.webp)¿Eran necesarios tantos palitos?
 
 ![](attachments/borrame3.webp)Ya veremos la pinta que tiene esto en un par de años, con todos los troncos podridos, rotos y sin mantenimiento.
 
@@ -38,7 +38,7 @@ Aqui puedes ver algunas fotos:
 
 ![](attachments/borrame8.webp)El sendero en pendiente era muy aburrido. Sin embargo, esta escalera será un punto muy resbaladizo y divertido cuando lleguen las humedades del invierno.
 
-![](attachments/borrame9.webp)Â¿Esto no es impacto medioambiental?
+![](attachments/borrame9.webp)¿Esto no es impacto medioambiental?
 
 
 

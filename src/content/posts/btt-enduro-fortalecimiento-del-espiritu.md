@@ -24,7 +24,7 @@ Por los datos, de haber sido una ruta ciclable, o al menos con porteos cómodos,
 
 Pero algo no iba a salir según lo previsto... Salieron del Viñedo, pasando por Cuello Bail, bajaron a Cienfuens, Belsué, Salto Roldán... Hasta aquí­ todo fluido y sin problemas, buscando ese ritmo de larga distancia, compromiso ideal entre rapidez (menos horas de ruta = menos cansancio) y ritmo suave (más despacio = menos cansancio).
 
-La bajada al Flumen fue gloriosa, pero... de repente todo cambió. Â¿Y la senda? Sí­, por aquí­ se ven restos difusos bajo 2m de vegetación 'serrana' (todo pincha). Sin GPS se habrí­an batido en retirada, pero el maldito track les dio ánimos para seguir penosamente hacia el collado, arrastrando las bicis entre unas ramas pinchudas que parecí­an cobrar vida e intentaban arrebatarte la bici constantemente.
+La bajada al Flumen fue gloriosa, pero... de repente todo cambió. ¿Y la senda? Sí­, por aquí­ se ven restos difusos bajo 2m de vegetación 'serrana' (todo pincha). Sin GPS se habrí­an batido en retirada, pero el maldito track les dio ánimos para seguir penosamente hacia el collado, arrastrando las bicis entre unas ramas pinchudas que parecí­an cobrar vida e intentaban arrebatarte la bici constantemente.
 
 ![](attachments/10152590_10203639102685977_7419658044717238575_n.webp)
 

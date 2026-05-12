@@ -13,10 +13,10 @@ tags:
   - "cicloalpinismo"
   - "Gallinero"
 ---
-Una idea rondaba por la cabeza de AlbertoEpic hace tiempo: desde Castejón de Sos (PuroPirineo) está marcada la ruta ní‚Âº 15 'Integral del Gallinero'. OK, pero siempre que oye Gallinero le viene a la mente la estación de esquí de Cerler y el Ampríu. í‚Â¿Por qué no hacer el descenso hasta Castejón desde más arriba, desde la cima del pico Gallinero?
+Una idea rondaba por la cabeza de AlbertoEpic hace tiempo: desde Castejón de Sos (PuroPirineo) está marcada la ruta ní‚Âº 15 'Integral del Gallinero'. OK, pero siempre que oye Gallinero le viene a la mente la estación de esquí de Cerler y el Ampríu. í‚¿Por qué no hacer el descenso hasta Castejón desde más arriba, desde la cima del pico Gallinero?
 Como el tiempo es oro, la vuelta completa queda para mejor ocasión. En este caso cuenta con la inestimable colaboración del resto del equipo SQLP (Luzia&Sami&Tai), que le hacen un porteo hasta el Ampríu.
 
-![](attachments/Ampriu_Gallinero_Integral_11.webp)Ya en el Ampríu, se ve el Gallinero con nieve en las zonas altas... A ver qué tal. De momento, pechugazo gigante para llegar allá arriba. Hasta la Colladeta, el 70% ciclable. A partir de allí la cosa se pone peor... tal vez un 40% ciclable. (Por cierto, í‚Â¿te has fijado? Es cierto, es cierto, llevamos la [cicloestrella SQLP](https://soloquedalopeor.com/tienda/#!/CycloStar-la-cicloestrella-de-SQLP/p/55956097/category=14959189) en el retrovisor de la furgo!)
+![](attachments/Ampriu_Gallinero_Integral_11.webp)Ya en el Ampríu, se ve el Gallinero con nieve en las zonas altas... A ver qué tal. De momento, pechugazo gigante para llegar allá arriba. Hasta la Colladeta, el 70% ciclable. A partir de allí la cosa se pone peor... tal vez un 40% ciclable. (Por cierto, í‚¿te has fijado? Es cierto, es cierto, llevamos la [cicloestrella SQLP](https://soloquedalopeor.com/tienda/#!/CycloStar-la-cicloestrella-de-SQLP/p/55956097/category=14959189) en el retrovisor de la furgo!)
 
 ![](attachments/Ampriu_Gallinero_Integral_21.webp)Breve parada para disfrutar del paisaje y abrigarme. Llego a la nieve, a la sombra, y hace frío. Falta unos 200m+ para el collado.
 

@@ -14,7 +14,7 @@ tags:
 ---
 Reseñamos a continuación la última actividad de Fatpinismo (Alpinismo en fatbike) de AlbertoEpic. Se encontraba en Benasque y tení­a que llegar a una comida familiar en Huesca. Pero antes querí­a 'homologar' el prototipo de cadenas de nieve para su fatbike, y un invento para portear la bici más cómodo...
 
-Â¿La solución? Despertador a las 5:15am, salir pitando con la furgo hasta el parking del vado de los Llanos del Hospital, y allí­ montar en la fatbike y hacer probatinas, teniendo en cuenta que a las 10am toca ducha, desayuno y regreso a Huesca.
+¿La solución? Despertador a las 5:15am, salir pitando con la furgo hasta el parking del vado de los Llanos del Hospital, y allí­ montar en la fatbike y hacer probatinas, teniendo en cuenta que a las 10am toca ducha, desayuno y regreso a Huesca.
 
 ![Imagen](https://i.imgur.com/jYbJaYU.jpg)
 

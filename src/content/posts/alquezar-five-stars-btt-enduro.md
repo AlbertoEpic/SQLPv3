@@ -4,7 +4,7 @@ pubDate: 2014-11-08T00:17:00Z
 updatedDate: 2015-04-06T10:28:22Z
 draft: false
 author: AlbertoEpic
-description: "Alguna vez has terminado una ruta de BTT con un porteo cuesta arriba? Posiblemente sí­. Pero, Â¿alguna vez te daba igual lo largo y duro que fuera ese porteo, porque esa ruta merecí­a la pena de cualquier forma? El otro dí­a tuve el privilegio "
+description: "Alguna vez has terminado una ruta de BTT con un porteo cuesta arriba? Posiblemente sí­. Pero, ¿alguna vez te daba igual lo largo y duro que fuera ese porteo, porque esa ruta merecí­a la pena de cualquier forma? El otro dí­a tuve el privilegio "
 category: Bicicleta de montaña
 tags:
   - btt
@@ -12,7 +12,7 @@ heroImage: attachments/SQLPcomodin.jpg
 ---
 
 [attachments/Alquezar5stars8.webp](attachments/Alquezar5stars8.webp)
-Alguna vez has terminado una ruta de BTT con un porteo cuesta arriba? Posiblemente sí­. Pero, Â¿alguna vez te daba igual lo largo y duro que fuera ese porteo, porque esa ruta merecí­a la pena de cualquier forma?
+Alguna vez has terminado una ruta de BTT con un porteo cuesta arriba? Posiblemente sí­. Pero, ¿alguna vez te daba igual lo largo y duro que fuera ese porteo, porque esa ruta merecí­a la pena de cualquier forma?
 
 El otro dí­a tuve el privilegio de experimentar tales sensaciones, acompañado de dos mí­ticos: Quiri, famoso por sus incendiarias entradas semanales en Facebook, y Rafa, el culpable de la concepción de esta ruta mí­tica, MíTICA (Y ojo, digo 'mí­tica' con mayúsculas).
 

@@ -36,7 +36,7 @@ Y eso es lo que dio de sí­ esta temporada de nieve... El domingo, con mala met
 
 A continuación, algunas fotos del sábado:
 
-![](https://i.imgur.com/RU1ZKIJ.jpg)En la parte inicial del bici-porteo... Â¿Pero dónde está la nieve?
+![](https://i.imgur.com/RU1ZKIJ.jpg)En la parte inicial del bici-porteo... ¿Pero dónde está la nieve?
 
 ![](https://i.imgur.com/mT9HlH0.jpg)Algo más arriba el tema ya no resulta tan mosqueante... Al menos en el Néouvielle queda nieve!
 

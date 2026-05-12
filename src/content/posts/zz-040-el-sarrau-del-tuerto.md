@@ -17,7 +17,7 @@ tags:
 
 A mediados de enero, la nieve todaví­a escasea en el Pirineo. Nuestro especialista AlbertoEpic, cansado de mirar al cielo y los termómetros, decide cambiar el chip y estudiar los mapas para encontrar un enclave chulo donde volar el dron esté permitido para conseguir unas imágenes de calidad.
 
-En esta ocasión le toca el turno al cordal de la Sierra de las Mentiras. Limí­trofe con el Parque Nacional de Ordesa, promete una vistas impresionantes de sus tresmiles nevados. 'Casualmente', la [ruta ZZ-040 El Sarrau del Tuerto](https://zonazeropirineos.com/rutabtt/zz-040-el-sarrau-del-tuerto/) pasa por allí­. Decidido pues, la actividad será en BTT, la ruta será la ZZ-040, y Â¿los especialistas? Hoy en dí­a con los grupos de Whatsapp es muy fácil! Enseguida se unen al plan dos mákinas de absoluta confianza: Jorgito y Dani.
+En esta ocasión le toca el turno al cordal de la Sierra de las Mentiras. Limí­trofe con el Parque Nacional de Ordesa, promete una vistas impresionantes de sus tresmiles nevados. 'Casualmente', la [ruta ZZ-040 El Sarrau del Tuerto](https://zonazeropirineos.com/rutabtt/zz-040-el-sarrau-del-tuerto/) pasa por allí­. Decidido pues, la actividad será en BTT, la ruta será la ZZ-040, y ¿los especialistas? Hoy en dí­a con los grupos de Whatsapp es muy fácil! Enseguida se unen al plan dos mákinas de absoluta confianza: Jorgito y Dani.
 
 A petición de AlbertoEpic, deciden hacer la ruta desde Buesa, en lugar de Broto, para contar con algo de tiempo extra para volar el dron. Tienes a continuación el track con la ruta realizada:
 
@@ -31,15 +31,15 @@ Y tras mucho dudarlo, sacaron el dron para unas breves imágenes de la parte alt
 
 Y después del 'short' de Youtube, te mostramos alguna foto de la ruta:
 
-[![Dani y Jorge en la parte alta de la ruta. Un dí­a totalmente despejado a la salida se estaba nublando...](attachments/SarrauTu1.webp)
+![Dani y Jorge en la parte alta de la ruta. Un dí­a totalmente despejado a la salida se estaba nublando...](attachments/SarrauTu1.webp)
 
 *Dani y Jorge en la parte alta de la ruta. Un dí­a totalmente despejado a la salida se estaba nublando...*
 
-[![Los tres especialistas en la cima de la Punta Sarrulla.](attachments/SarrauTu2.webp)
+![Los tres especialistas en la cima de la Punta Sarrulla.](attachments/SarrauTu2.webp)
 
 *Los tres especialistas en la cima de la Punta Sarrulla.*
 
-[![La Punta Sarrulla desde el aire... Con un cielo cada vez más negro, y la temperatura cayendo en picado!](attachments/SarrauTu3.webp)
+![La Punta Sarrulla desde el aire... Con un cielo cada vez más negro, y la temperatura cayendo en picado!](attachments/SarrauTu3.webp)
 
 *La Punta Sarrulla desde el aire... Con un cielo cada vez más negro, y la temperatura cayendo en picado!*
 

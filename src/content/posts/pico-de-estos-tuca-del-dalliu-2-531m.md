@@ -5,7 +5,7 @@ pubDate: 2018-11-07T10:27:21Z
 updatedDate: 2018-11-08T15:46:53Z
 draft: false
 author: "AlbertoEpic"
-description: "El domingo 4 de noviembre, Cheles y AlbertoEpic deciden subir al pico de Estós, sin esquís ni raquetas. Pocos días antes ha caído la primera nevada del nuevo invierno, por lo que subir con esquís es descartable. í‚Â¿Y raquetas? Tal vez, pero p"
+description: "El domingo 4 de noviembre, Cheles y AlbertoEpic deciden subir al pico de Estós, sin esquís ni raquetas. Pocos días antes ha caído la primera nevada del nuevo invierno, por lo que subir con esquís es descartable. í‚¿Y raquetas? Tal vez, pero p"
 category: "Ascensiones"
 tags:
   - "ascensiones"
@@ -13,7 +13,7 @@ tags:
   - "estós"
   - "valle de Benasque"
 ---
-El domingo 4 de noviembre, Cheles y AlbertoEpic deciden subir al pico de Estós, sin esquís ni raquetas. Pocos días antes ha caído la primera nevada del nuevo invierno, por lo que subir con esquís es descartable. í‚Â¿Y raquetas? Tal vez, pero por no llevarlas en la mochila demasiado tiempo... En el tercio inferior de la ruta no hay nieve (Cara S, el sol la ha derretido) y en la parte superior, más vertical y expuesta, el viento ha barrido mucha nieve y con las rocas sería desaconsejable. Así pues, será suficiente con hacer un poco de 'penitencia' en la parte intermedia de la ruta. AlbertoEpic dice que le apetece eso de 'ceprenar' en la nieve...
+El domingo 4 de noviembre, Cheles y AlbertoEpic deciden subir al pico de Estós, sin esquís ni raquetas. Pocos días antes ha caído la primera nevada del nuevo invierno, por lo que subir con esquís es descartable. í‚¿Y raquetas? Tal vez, pero por no llevarlas en la mochila demasiado tiempo... En el tercio inferior de la ruta no hay nieve (Cara S, el sol la ha derretido) y en la parte superior, más vertical y expuesta, el viento ha barrido mucha nieve y con las rocas sería desaconsejable. Así pues, será suficiente con hacer un poco de 'penitencia' en la parte intermedia de la ruta. AlbertoEpic dice que le apetece eso de 'ceprenar' en la nieve...
 ![Imagen](https://i.imgur.com/H5Vup5P.jpg)
 El inicio de la subida por el valle de Lliterola, hasta la Cabaña de Lliterola, es por la cara S y casi no hay nieve...
 ![Imagen](https://i.imgur.com/oqjEYz7.jpg)

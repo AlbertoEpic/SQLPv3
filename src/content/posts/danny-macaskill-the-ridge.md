@@ -14,7 +14,7 @@ tags:
 
 Son demasiados 'impresionantes' para dejarlo pasar...
 
-Por cierto, Â¿habí­as visto a alguien manejar así­ una doble?
+Por cierto, ¿habí­as visto a alguien manejar así­ una doble?
 
 <iframe allowfullscreen="" frameborder="0" height="370" src="https://www.youtube.com/embed/xQ_IQS3VKjA" width="657"></iframe>  
 

@@ -17,7 +17,7 @@ Dado que la cámara tiene que pegarse mucho rato en el mismo sitio (Aprox. 1h pa
 
 La temática predominante son las nubes y el castillo de Montearagón.
 
-í‚Â¿Quién dijo que mirar el cielo era un rollo? í‚Â¿Está todo quieto? Todo depende de los ojos con los que lo miremos...
+í‚¿Quién dijo que mirar el cielo era un rollo? í‚¿Está todo quieto? Todo depende de los ojos con los que lo miremos...
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sLrFwOGzx44" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

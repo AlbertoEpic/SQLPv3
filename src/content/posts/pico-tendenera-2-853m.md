@@ -15,7 +15,7 @@ tags:
 
 Una situación así­ no se podí­a dejar pasar. Quedada en Panticosa, completado de los todoterrenos y subida al Rincón del Verde por la pista de La Ripera (Luis -[Sendero Lí­mite](http://senderolimite.blogspot.com.es/)- continúa alargando la sombra de su leyenda y sube corriendo desde Panticosa).
 
-Desde allí­, subida al pico Tendeñera con unas condiciones de nieve, tanto para la subida como para la bajada, de esas que te hacen pensar 'Â¿para qué narices quiero yo nieve polvo, si la primavera es genial?'
+Desde allí­, subida al pico Tendeñera con unas condiciones de nieve, tanto para la subida como para la bajada, de esas que te hacen pensar '¿para qué narices quiero yo nieve polvo, si la primavera es genial?'
 
 ![](attachments/Tende1.webp)Alfredo y Jesús, en la subida ![](attachments/Tende2.webp)'Fantabulosas' laderas para el descenso...![](attachments/Tende3.webp)En el paso clave de la arista cimera
 

@@ -16,7 +16,7 @@ tags:
 El pasado lunes, y aprovechando la festividad de San Vicente en Huesca, SQLP estuvo en Andorra para hacer actividad por lugares nuevos...
 
 La ascensión elegida fue el Pic de la Font Blanca. Hemos añadido el track a nuestra base de datos.
-<iframe src="https://www.gpsies.com/mapOnly.do?fileId=bwfvizjyveblhnvg" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">í¯Â»Â¿</span><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">í¯Â»Â¿</span></iframe>
+<iframe src="https://www.gpsies.com/mapOnly.do?fileId=bwfvizjyveblhnvg" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">í¯Â»¿</span><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">í¯Â»¿</span></iframe>
 La ruta propuesta asciende por la derecha, por una zona mucho más segura en tema de avalanchas. Y desciende directamente por la pala SW del pico. Esta tiene algo más de 40 de pendiente, por lo que sólo es segura si las condiciones son buenas. En otro caso, la bajada por la ruta de ascenso también es buena.
 
 Comentar que el track no corresponde exactamente con nuestra actividad. Nosotros ascendimos por la ruta de descenso del track, mucho más directa, y no pisamos la cima porque un viento racheado de más de 100km/h lo hacía incómodo.

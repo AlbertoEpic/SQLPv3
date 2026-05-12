@@ -27,5 +27,5 @@ Desnivel+: 1.405m
 
 Luzia en el descenso hacia Fiscal...
 
-Â¿Te gustan los códigos QR?![](attachments/QRsase.webp)
+¿Te gustan los códigos QR?![](attachments/QRsase.webp)
 

@@ -40,7 +40,7 @@ Y así comienzan nuestras vacaciones en Islandia!!!
 
 La jornada comienza con una noche movidita: nos han dado una AC (AutoCaravana) con la batería de servicio muerta, y se apaga la calefacción, así que pasamos algo de frío por la noche. A la mañana toca volver a las oficinas de alquiler a negociar para que nos cambien la batería. Total, que pasamos allí la mañana, y así perdemos un poco de tiempo para el plan previsto.
 
-[![Lugar de la primera noche, en medio de la nada... y sin calefacción! :-)](attachments/IMG20240820093911.webp)
+![Lugar de la primera noche, en medio de la nada... y sin calefacción! :-)](attachments/IMG20240820093911.webp)
 
 *Lugar de la primera noche, en medio de la nada... y sin calefacción! :-)*
 

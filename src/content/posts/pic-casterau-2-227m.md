@@ -25,7 +25,7 @@ Van pasando por el Lac Roumassot, Lac du Miey y Lac Gentau, próximo al Refuge d
 
 [https://i.imgur.com/ZcLc6qi.jpg](https://i.imgur.com/ZcLc6qi.jpg)
 
-Pasado ya el refugio, no pueden dejar de sacar fotos a cada lago con el Midi. í‚Â¿Quién quiere playa de arena, teniendo playa de prado junto al refugio? Lac Gentau.
+Pasado ya el refugio, no pueden dejar de sacar fotos a cada lago con el Midi. í‚¿Quién quiere playa de arena, teniendo playa de prado junto al refugio? Lac Gentau.
 
 [https://i.imgur.com/eyLodDX.jpg](https://i.imgur.com/eyLodDX.jpg)
 
@@ -47,7 +47,7 @@ AlbertoEpic aprovecha y saca otra foto esférica, que próximamente será editad
 
 
 
-[í‚Â¿Quieres verla?](https://soloquedalopeor.com/producto/pic-casterau-2-227m/)
+[í‚¿Quieres verla?](https://soloquedalopeor.com/producto/pic-casterau-2-227m/)
 
 
 

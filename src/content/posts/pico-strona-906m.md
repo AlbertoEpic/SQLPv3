@@ -31,7 +31,7 @@ Puedes verla [haciendo click aquí](https://soloquedalopeor.com/producto/pico-st
 
 Por si le puede servir a alguien, dejamos en nuestra base de datos el track de la ruta:
 <iframe src="https://www.gpsies.com/mapOnly.do?fileId=eorsyciqjxoopexc" width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-Al día siguiente harán su última ascensión. í‚Â¿Se portará la meteo? í‚Â¿Responderá la ruta a sus expectativas? Podrás ver próximamente en SQLP! :-)
+Al día siguiente harán su última ascensión. í‚¿Se portará la meteo? í‚¿Responderá la ruta a sus expectativas? Podrás ver próximamente en SQLP! :-)
 Continuará...
 
 ## [Regresar al Especial NORWAY2019](https://soloquedalopeor.com/norway-2019/)

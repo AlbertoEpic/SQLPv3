@@ -9,7 +9,7 @@ author: "AlbertoEpic"
 description: "Otra ruta realizada por el ya mítico grupo Iván&Chus+Sami&AlbertoEpic, en esta ocasión en BTT y para recibir bien el año 2021. Cuando decimos 'MontearagonFjord', o 'fiordo de Montearagón', nos referimos a un nuevo sendero que recorre el fil"
 category: "SQLP-kids"
 ---
-Otra ruta realizada por el ya mítico grupo Iván&Chus+Sami&AlbertoEpic, en esta ocasión en BTT y para recibir bien el año 2021. Cuando decimos 'MontearagonFjord', o 'fiordo de Montearagón', nos referimos a un nuevo sendero que recorre el filo de una arista, la cual divide en dos brazos el embalse de Montearagón. í‚Â¿Quién quiere viajar a Noruega, teniendo fiordos al lado de casa? ;-p
+Otra ruta realizada por el ya mítico grupo Iván&Chus+Sami&AlbertoEpic, en esta ocasión en BTT y para recibir bien el año 2021. Cuando decimos 'MontearagonFjord', o 'fiordo de Montearagón', nos referimos a un nuevo sendero que recorre el filo de una arista, la cual divide en dos brazos el embalse de Montearagón. í‚¿Quién quiere viajar a Noruega, teniendo fiordos al lado de casa? ;-p
 
 Por lo que sea, este agradable paseo se ha convertido tal vez en el 'trending topic', el más popular durante los periodos de desconfinamiento para la gente de Huesca capital.
 

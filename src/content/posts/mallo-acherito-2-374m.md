@@ -50,7 +50,7 @@ AlbertoEpic llega a la cima y antes de que se cierre más, saca una foto esféri
 
 
 
-[í‚Â¿Quieres verla?](https://soloquedalopeor.com/producto/mallo-acherito-2-374m/)
+[í‚¿Quieres verla?](https://soloquedalopeor.com/producto/mallo-acherito-2-374m/)
 
 
 

@@ -20,7 +20,7 @@ El barranco de Portiacha es un afluente del rí­o Vero, un barranco seco y cort
 
 Desde allí­, el barranco comienza directamente con el primer rápel, para calentar, después de un suspiro! A continuación puedes ver el croquis:
 
-[![Imagen de https://www.docuwiki.infobarrancos.es/doku.php?id=barrancos:huesca:portiacha](attachments/portiacha_topo.webp)](https://www.docuwiki.infobarrancos.es/doku.php?id=barrancos:huesca:portiacha)
+![Imagen de https://www.docuwiki.infobarrancos.es/doku.php?id=barrancos:huesca:portiacha](attachments/portiacha_topo.webp)](https://www.docuwiki.infobarrancos.es/doku.php?id=barrancos:huesca:portiacha)
 
 *Imagen de https://www.docuwiki.infobarrancos.es/doku.php?id=barrancos:huesca:portiacha*
 

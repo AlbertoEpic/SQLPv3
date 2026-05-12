@@ -5,7 +5,7 @@ pubDate: 2008-10-08T10:14:00Z
 updatedDate: 2015-04-06T10:29:10Z
 draft: false
 author: "AlbertoEpic"
-description: "Por gentileza del ilustre globero, reconocido fotógrafo y mejor persona Rafa Moreno nos llega este perfil de la sierra de Guara que parece un gigante dormido, con la Peña de Amán por pies -Â¿quién dijo que los zapatos de plataforma eran un i"
+description: "Por gentileza del ilustre globero, reconocido fotógrafo y mejor persona Rafa Moreno nos llega este perfil de la sierra de Guara que parece un gigante dormido, con la Peña de Amán por pies -¿quién dijo que los zapatos de plataforma eran un i"
 category: "Otros"
 tags:
   - "Uncategorized"
@@ -14,7 +14,7 @@ tags:
 
 
 
-Por gentileza del ilustre globero, reconocido fotógrafo y mejor persona [Rafa Moreno](http://flickr.com/photos/7413708%40N08/) nos llega este perfil de la sierra de Guara que parece un gigante dormido, con la Peña de Amán por pies -Â¿quién dijo que los zapatos de plataforma eran un invento moderno?-, mientras que la "tocha" aguileña estarí­a formada por el Picón o Pico del Mediodí­a. Según Rafa algún dí­a se despertará para hacer justicia en este mundo.
+Por gentileza del ilustre globero, reconocido fotógrafo y mejor persona [Rafa Moreno](http://flickr.com/photos/7413708%40N08/) nos llega este perfil de la sierra de Guara que parece un gigante dormido, con la Peña de Amán por pies -¿quién dijo que los zapatos de plataforma eran un invento moderno?-, mientras que la "tocha" aguileña estarí­a formada por el Picón o Pico del Mediodí­a. Según Rafa algún dí­a se despertará para hacer justicia en este mundo.
 
 Hace unos dí­as tuve la suerte de subir en un dí­a espléndido al dedo gordo del pie a hacerle unas cosquillicas ayudado de unos buitres, pero nada, que no se despierta el tí­o, í­con lo necesitado que está el mundo de justicia!
 
@@ -24,6 +24,6 @@ Otros globeros apuntan la existencia de otro gigante en la sierra (Leyendas del 
 
 ![](attachments/el-gigante-dormido-2.webp)
 
-Aquí­ hay distintos enfoques, yo sigo viendo más claro el primer gigante, bien es cierto que la segunda foto probablemente no hace justicia al retratado.... y tú Â¿cómo lo ves?
+Aquí­ hay distintos enfoques, yo sigo viendo más claro el primer gigante, bien es cierto que la segunda foto probablemente no hace justicia al retratado.... y tú ¿cómo lo ves?
 
 

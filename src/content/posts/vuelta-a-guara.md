@@ -29,7 +29,7 @@ De allí­ al collado de Vallemona nos faltaba una fuerte subida (bastante rato 
 
 ![](attachments/2008-04-09-Vuelta-a-Guara-15b_peq-300x225.webp)En el cuello nos abrigamos y nos comemos nuestras últimas viandas (otra vez me llevaré más comida, que hice corto, menos mal que Esme repartió frutos secos).
 
-Bajada por una trialera bastante arreglada, o igual es que la vemos mejor al bajarla con las dobles. Rafita se "despendola" tratando de seguir a un dibujo animado llamado José (cómo baja el tí­o). Al final de la bajada un cartel nos llama la atención, Â¿quién lo habrá colgado?
+Bajada por una trialera bastante arreglada, o igual es que la vemos mejor al bajarla con las dobles. Rafita se "despendola" tratando de seguir a un dibujo animado llamado José (cómo baja el tí­o). Al final de la bajada un cartel nos llama la atención, ¿quién lo habrá colgado?
 
 
 

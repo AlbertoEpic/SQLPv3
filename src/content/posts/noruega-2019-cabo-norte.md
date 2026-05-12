@@ -10,7 +10,7 @@ category: "Norway2019"
 ---
 - Capí­tulo 1 -
 El equipo SQLP comienza su viaje por Noruega el 17 de agosto, aterrizando en [TromsaÂ¸](https://es.wikipedia.org/wiki/Troms%C3%B8). Allí­ alquilan un coche, y comienzan a subir hacia el norte. Primera noche en TromsaÂ¸, y segunda en Alta, en el 'Holmen Husky Lodge', donde duermen en un 'tipi' sami y conocen a un montón de perros de trineo que entrenan allí­.
-[![Cabo Norte](attachments/nw_6.webp)[![Holmen Husky Lodge](attachments/nw_7.webp)[![Holmen Husky Lodge](attachments/nw_8.webp)[![Holmen Husky Lodge](attachments/nw_2.webp)[![Holmen Husky Lodge](attachments/nw_3.webp)[![Cabo Norte](attachments/nw_4.webp)[![Cabo Norte](attachments/nw_5.webp)
+![Cabo Norte](attachments/nw_6.webp)![Holmen Husky Lodge](attachments/nw_7.webp)![Holmen Husky Lodge](attachments/nw_8.webp)![Holmen Husky Lodge](attachments/nw_2.webp)![Holmen Husky Lodge](attachments/nw_3.webp)![Cabo Norte](attachments/nw_4.webp)![Cabo Norte](attachments/nw_5.webp)
 Anterior
 Siguiente
 Al dí­a siguiente llegan a Cabo Norte. Tí­pica visita de turisteo con muchas fotos y se quedan a dormir en las cabañas del camping más próximo a Nordkapp.

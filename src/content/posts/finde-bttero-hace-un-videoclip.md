@@ -1,5 +1,5 @@
 ---
-title: "Finde BTTero - í‚Â¿Hace un videoclip?"
+title: "Finde BTTero - í‚¿Hace un videoclip?"
 pubDate: 2011-07-26T15:15:00Z
 
 heroImage: attachments/SQLPcomodin.jpg

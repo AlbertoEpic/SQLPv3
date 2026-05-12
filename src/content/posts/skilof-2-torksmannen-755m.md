@@ -21,7 +21,7 @@ En el siguiente Reel puedes ver brevemente cuáles eran las condiciones meteorol
 
  [Ver esta publicación en Instagram](https://www.instagram.com/reel/C6ny5UCoGZ1/?utm_source=ig_embed&utm_campaign=loading)[Una publicación compartida de @albertroid](https://www.instagram.com/reel/C6ny5UCoGZ1/?utm_source=ig_embed&utm_campaign=loading) 
 
-[![Un caprichoso relieve en la nieve esculpido por el viento, a mitad de la ascensión.](attachments/P4010148-jpg.webp)
+![Un caprichoso relieve en la nieve esculpido por el viento, a mitad de la ascensión.](attachments/P4010148-jpg.webp)
 
 *Un caprichoso relieve en la nieve esculpido por el viento, a mitad de la ascensión.*
 

@@ -47,7 +47,7 @@ La salida del control es con tendencia a subir, cuesta un poco arrancar después
 
 Voy feliz pedaleando, increíblemente voy sola, los ciclistas más próximos están a bastantes metros por delante y por detrás, levanto la cabeza y me percato del paisaje, los campos, los colores, las nubes, el olor a romero, un ciclista pasando cerca me despierta de mi mundo y me recuerda que debo seguir pedaleando fuerte, bajo un piñón y apuro las pedaladas.
 
-Concentrada en mi ritmo me adelanta Carlos, í‚Â¿pero que haces aquí? Reventón de la cubierta, es su respuesta. Menos mal de Lorenzo Alonso, que está de mecánico y le ha hecho buen apaño.
+Concentrada en mi ritmo me adelanta Carlos, í‚¿pero que haces aquí? Reventón de la cubierta, es su respuesta. Menos mal de Lorenzo Alonso, que está de mecánico y le ha hecho buen apaño.
 
 Me cuenta que Alberto se ha quedado más atrás, que va a su ritmo.
 
@@ -71,7 +71,7 @@ La gente aplaude, las caras llenas de polvo se mezclan con las limpias, me da mi
 
 Veo a Nuria y aí‚Ângel, ya están limpios, pero que rápido habéis ido chicos!!!
 
-Vamos devolver el chip y nos encontramos con el resto de la panda, todos muy felices y contentos. í‚Â¿No has visto a Fer que ha pinchado en los últimos km?? Que mala suerte.
+Vamos devolver el chip y nos encontramos con el resto de la panda, todos muy felices y contentos. í‚¿No has visto a Fer que ha pinchado en los últimos km?? Que mala suerte.
 
 A los 10 minutos llega Alberto, que por poco me coge en la bajada, si es que me pasaban hasta los caracoles.
 

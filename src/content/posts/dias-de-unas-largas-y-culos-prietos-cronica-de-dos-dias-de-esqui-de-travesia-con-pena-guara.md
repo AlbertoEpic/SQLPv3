@@ -18,7 +18,7 @@ Supongo que queremos compartir todas esas cosas de las que disfrutamos sufriendo
 
 Somos gregarios y disfrutamos de la comunidad, del apoyo y seguridad del grupo. De las experiencias que van un poco más allá de lo que estamos acostumbrados, de superar nuestros lí­mites y nuestros condicionantes. Somos autoexigentes y masocas. 
 
-Por todo ello siempre me planteo... Â¿cómo contar algo que por ya narrado mil veces anteriormente parece siempre igual? Â¿Para que hacer el esfuerzo de algo que no se puede transportar a otra persona? Es algo estéril. Más bien se debe vivir, experimentar, disfrutar, y ser ganado mediante el esfuerzo... Y más complejo aún... debe ser experimentado por el iniciado... No vale con comprar un ticket y subirse a la atracción de feria... Para estar ahí­, hay que pasar muchos cortes, tener una predisposición a sufrir, a disfrutar de las dificultades, el cansancio, el frí­o, los golpes, el peligro, gozar de cierta forma fí­sica... para estar ahí­ se debe haber estado antes en otros muchos sitios. 
+Por todo ello siempre me planteo... ¿cómo contar algo que por ya narrado mil veces anteriormente parece siempre igual? ¿Para que hacer el esfuerzo de algo que no se puede transportar a otra persona? Es algo estéril. Más bien se debe vivir, experimentar, disfrutar, y ser ganado mediante el esfuerzo... Y más complejo aún... debe ser experimentado por el iniciado... No vale con comprar un ticket y subirse a la atracción de feria... Para estar ahí­, hay que pasar muchos cortes, tener una predisposición a sufrir, a disfrutar de las dificultades, el cansancio, el frí­o, los golpes, el peligro, gozar de cierta forma fí­sica... para estar ahí­ se debe haber estado antes en otros muchos sitios. 
 
 
 

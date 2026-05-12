@@ -15,7 +15,7 @@ tags:
 
 ## Ascensión desde El Cable (Funicular Fuente Dé)
 
-Superada por AlbertoEpic la prueba inicial en Las Xanas... la apuesta ahora es mucho más ambiciosa (Siguen siendo actividades 'de turista'...). Ascensión a un pico en el corazón de los Picos de Europa, con casi 1.000m de desnivel y según lo leído en internet (No fiarse nunca) pequeña trepada final, con tramo algo confuso... í‚Â¿?
+Superada por AlbertoEpic la prueba inicial en Las Xanas... la apuesta ahora es mucho más ambiciosa (Siguen siendo actividades 'de turista'...). Ascensión a un pico en el corazón de los Picos de Europa, con casi 1.000m de desnivel y según lo leído en internet (No fiarse nunca) pequeña trepada final, con tramo algo confuso... í‚¿?
 
 [tagline_box backgroundcolor="#eded84" shadow="yes" shadowopacity="0.7" border="1px" bordercolor="#e8e8e8" highlightposition="left" link="https://es.wikipedia.org/wiki/Pico_Tesorero" linktarget="_blank" buttoncolor="blue" button="Saber más..." title="PICO TESORERO (2.570m)" description="Elí‚Â picoí‚Â Tesoreroí‚Â es una elevación montañosa enclavada en elí‚Â macizo Central de los Picos de Europaí‚Â oí‚Â macizo de los Urrieles, un puntoí‚Â trifinioí‚Â provincial entreí‚Â León,í‚Â Asturiasí‚Â yí‚Â Cantabria, ení‚Â España. (+)" animation_type="flash" animation_direction="down" animation_speed="0.1"][/tagline_box]
 
