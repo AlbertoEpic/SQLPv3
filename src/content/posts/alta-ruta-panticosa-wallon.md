@@ -1,15 +1,14 @@
 ---
-title: "Alta Ruta Panticosa - Wallon"
+title: Alta Ruta Panticosa - Wallon
 pubDate: 2009-03-18T15:36:00Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:29:05Z
 draft: false
-author: "AlbertoEpic"
-description: "El pasado fin de semana, 14 y 15 de marzo, realizamos una ruta de esquí de montaña de dos días, partiendo del Balneario de Panticosa y pernoctando en el refugio de Wallon. No voy a ser repetitivo, y simplemente voy a añadir un montaje de vi"
-category: "Otros"
+author: AlbertoEpic
+description: El pasado fin de semana, 14 y 15 de marzo, realizamos una ruta de esquí de montaña de dos días, partiendo del Balneario de Panticosa y pernoctando en el refugio de Wallon. No voy a ser repetitivo, y simplemente voy a añadir un montaje de vi
+category: Esquí de travesía
 tags:
-  - "Uncategorized"
+  - Uncategorized
 ---
 El pasado fin de semana, 14 y 15 de marzo, realizamos una ruta de esquí de montaña de dos días, partiendo del Balneario de Panticosa y pernoctando en el refugio de Wallon.
 

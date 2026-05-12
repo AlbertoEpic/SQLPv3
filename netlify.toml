@@ -176,6 +176,12 @@
   force = true
 
 [[redirects]]
+  from = "/posts/ASCENCIONES"
+  to = "/posts/ascensiones"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/posts/Sin título"
   to = "/posts/este-es-el-título-guay"
   status = 301
