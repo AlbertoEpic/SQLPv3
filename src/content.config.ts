@@ -7,21 +7,12 @@ const postsCollection = defineCollection({
   schema: z.object({
     title: z.string().default('Untitled Post'),
     description: z.string().nullable().optional().default('No description provided'),
-    date: z.coerce.date().default(() => new Date()),
+    date: z.coerce.date().optional(),
+    pubDate: z.coerce.date().optional(),
     tags: z.array(z.string()).nullable().optional(),
     draft: z.boolean().optional(),
-    image: z.any().nullable().optional().transform((val) => {
-      // Handle various Obsidian syntax formats
-      if (Array.isArray(val)) {
-        // Handle array format from [[...]] syntax - take first element
-        return val[0] || null;
-      }
-      if (typeof val === 'string') {
-        // Handle string format - return as-is
-        return val;
-      }
-      return null;
-    }),
+    image: z.any().nullable().optional(),
+    heroImage: z.any().nullable().optional(),
     imageOG: z.boolean().optional(),
     imageAlt: z.string().nullable().optional(),
     hideCoverImage: z.boolean().optional(),
@@ -30,6 +21,30 @@ const postsCollection = defineCollection({
     targetKeyword: z.string().nullable().optional(),
     author: z.string().nullable().optional(),
     noIndex: z.boolean().optional(),
+  }).transform((data) => {
+    const normalizeImage = (val: unknown) => {
+      if (Array.isArray(val)) {
+        return val[0] || null;
+      }
+      if (typeof val === 'string') {
+        return val;
+      }
+      return null;
+    };
+
+    const normalizedImage = normalizeImage(data.image);
+    const normalizedHeroImage = normalizeImage(data.heroImage);
+
+    return {
+      ...data,
+      // Legacy compatibility: if date is missing, use pubDate.
+      date: data.date ?? data.pubDate ?? new Date(),
+      // Keep pubDate for consumers that want to prefer explicit publish date.
+      pubDate: data.pubDate ?? data.date,
+      // Legacy compatibility: heroImage is treated as image when image is missing.
+      image: normalizedImage ?? normalizedHeroImage,
+      heroImage: normalizedHeroImage ?? normalizedImage,
+    };
   }),
 });
 

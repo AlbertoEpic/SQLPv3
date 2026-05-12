@@ -1,146 +1,132 @@
 ---
-import { getCollection, getEntry, render, type CollectionEntry } from 'astro:content';
-import { isValidDate } from '@/utils/markdown';
+import { getCollection } from 'astro:content';
 import { siteConfig } from '@/config';
 import { generateHomeSEO } from '@/utils/seo';
-import { shouldShowPost, shouldShowContent, sortPostsByDate, processPost } from '@/utils/markdown';
-import { hasProjectCategories } from '@/utils/categories';
+import { shouldShowPost, sortPostsByDate, processPost } from '@/utils/markdown';
+import { getOptimizedFormat, stripObsidianBrackets } from '@/utils/images';
 import BaseLayout from '@/layouts/BaseLayout.astro';
-import PostCard from '@/components/PostCard.astro';
-import ProjectCard from '@/components/ProjectCard.astro';
-import DocumentationCard from '@/components/DocumentationCard.astro';
 import Icon from '@/components/Icon.astro';
-import { optimizePostImagePath } from '@/utils/images';
+import ImageWrapper from '@/components/ImageWrapper.astro';
 
-// Get all posts and filter by visibility
 const allPosts = await getCollection('posts');
 const isDev = import.meta.env.DEV;
 const visiblePosts = allPosts.filter(post => shouldShowPost(post, isDev));
 const sortedPosts = sortPostsByDate(visiblePosts);
-
-// Process posts for reading time and word count
 const processedPosts = await Promise.all(
   sortedPosts.map(async (post) => await processPost(post))
 ) as any[];
 
-// Get featured post based on configuration
-let featuredPost = null;
-if (siteConfig.homeOptions.featuredPost.enabled) {
-  if (siteConfig.homeOptions.featuredPost.type === "latest") {
-    featuredPost = processedPosts[0];
-  } else if (siteConfig.homeOptions.featuredPost.type === "featured" && siteConfig.homeOptions.featuredPost.slug) {
-    // Find the specific post by id (slug config value maps to post.id in v6)
-    featuredPost = processedPosts.find(post => post.id === siteConfig.homeOptions.featuredPost.slug) || null;
-  }
-}
+const latestPost = processedPosts[0] || null;
 
-// Get preview posts based on whether featured post is shown
-const previewPosts = featuredPost
-  ? processedPosts.slice(1, siteConfig.homeOptions.recentPosts.count + 1)
-  : processedPosts.slice(0, siteConfig.homeOptions.recentPosts.count);
-
-// Get featured projects if enabled
-let featuredProjects: any[] = [];
-let projectsHaveCategories = false;
-if (siteConfig.homeOptions.projects.enabled && siteConfig.optionalContentTypes.projects) {
-  const allProjects = await getCollection('projects');
-  const visibleProjects = allProjects.filter(project => shouldShowContent(project, isDev));
-
-  // Check if any projects have categories
-  projectsHaveCategories = hasProjectCategories(visibleProjects);
-
-  // First try to get featured projects
-  const featuredOnly = visibleProjects.filter(project => project.data.featured);
-
-  if (featuredOnly.length > 0) {
-    // Show up to configured count of featured projects
-            featuredProjects = featuredOnly
-              .sort((a, b) => {
-                const dateA = isValidDate(a.data.date) ? a.data.date : new Date(0);
-                const dateB = isValidDate(b.data.date) ? b.data.date : new Date(0);
-                return dateB.getTime() - dateA.getTime();
-              })
-              .slice(0, siteConfig.homeOptions.projects.count);
-  } else if (visibleProjects.length > 0) {
-    // Fallback to most recent projects if no featured ones
-    featuredProjects = visibleProjects
-      .sort((a, b) => {
-        const dateA = isValidDate(a.data.date) ? a.data.date : new Date(0);
-        const dateB = isValidDate(b.data.date) ? b.data.date : new Date(0);
-        return dateB.getTime() - dateA.getTime();
-      })
-      .slice(0, siteConfig.homeOptions.projects.count);
+const latestPostImage = (() => {
+  if (!latestPost) {
+    return null;
   }
 
-}
-
-// Get featured docs if enabled
-let featuredDocs: any[] = [];
-if (siteConfig.homeOptions.docs.enabled && siteConfig.optionalContentTypes.docs) {
-  const allDocs = await getCollection('docs');
-  const visibleDocs = allDocs.filter(doc => shouldShowContent(doc, isDev));
-
-  // First try to get featured docs
-  const featuredOnly = visibleDocs.filter(doc => doc.data.featured);
-
-  if (featuredOnly.length > 0) {
-    // Show up to configured count of featured docs
-    featuredDocs = featuredOnly
-      .sort((a, b) => {
-        // Use lastModified if available, otherwise use epoch (invisible date for sorting)
-        const dateA = (a.data.lastModified && isValidDate(a.data.lastModified)) ? a.data.lastModified : new Date(0);
-        const dateB = (b.data.lastModified && isValidDate(b.data.lastModified)) ? b.data.lastModified : new Date(0);
-        return dateB.getTime() - dateA.getTime();
-      })
-      .slice(0, siteConfig.homeOptions.docs.count);
-  } else if (visibleDocs.length > 0) {
-    // Fallback to most recent docs if no featured ones
-    featuredDocs = visibleDocs
-      .sort((a, b) => {
-        // Use lastModified if available, otherwise use epoch (invisible date for sorting)
-        const dateA = (a.data.lastModified && isValidDate(a.data.lastModified)) ? a.data.lastModified : new Date(0);
-        const dateB = (b.data.lastModified && isValidDate(b.data.lastModified)) ? b.data.lastModified : new Date(0);
-        return dateB.getTime() - dateA.getTime();
-      })
-      .slice(0, siteConfig.homeOptions.docs.count);
+  if (!latestPost.data?.image) {
+    return {
+      src: '/open-graph.png',
+      basePath: '',
+      preloadHref: '/open-graph.png',
+    };
   }
-}
 
-// Get home blurb content from special collection
-let homeBlurbContent = null;
-let HomeBlurbContent = null;
+  const rawImage = Array.isArray(latestPost.data.image)
+    ? latestPost.data.image[0]
+    : latestPost.data.image;
 
-if (siteConfig.homeOptions.blurb.placement !== 'none') {
-  try {
-    homeBlurbContent = await getEntry('special', 'home');
-    if (homeBlurbContent) {
-      const { Content } = await render(homeBlurbContent);
-      HomeBlurbContent = Content;
+  if (!rawImage || typeof rawImage !== 'string') {
+    return {
+      src: '/open-graph.png',
+      basePath: '',
+      preloadHref: '/open-graph.png',
+    };
+  }
+
+  const cleanImagePath = stripObsidianBrackets(rawImage.trim());
+  if (!cleanImagePath) {
+    return {
+      src: '/open-graph.png',
+      basePath: '',
+      preloadHref: '/open-graph.png',
+    };
+  }
+
+  if (cleanImagePath.startsWith('http')) {
+    return {
+      src: cleanImagePath,
+      basePath: '',
+      preloadHref: cleanImagePath,
+    };
+  }
+
+  const isFileBased = cleanImagePath.startsWith('attachments/');
+
+  let normalizedSrc = cleanImagePath;
+  if (isFileBased) {
+    normalizedSrc = normalizedSrc.replace('attachments/', '');
+  } else if (normalizedSrc.startsWith('images/') || normalizedSrc.startsWith('attachments/')) {
+    normalizedSrc = normalizedSrc.replace(/^(images|attachments)\//, '');
+  }
+
+  const optimizedSrc = getOptimizedFormat(normalizedSrc);
+  const basePath = isFileBased ? '/posts/attachments/' : `/posts/${latestPost.id}/`;
+
+  return {
+    src: optimizedSrc,
+    basePath,
+    preloadHref: `${basePath}${optimizedSrc}`,
+  };
+})();
+
+const panoPageLink = siteConfig.navigation.pages.find(
+  page => /pano|360/i.test(page.title) || /pano|360/i.test(page.url || '')
+)?.url || '/';
+
+const miniPlanetsLink = siteConfig.navigation.pages.find(
+  page => /mini|planet/i.test(page.title) || /mini|planet/i.test(page.url || '')
+)?.url || '/';
+
+const instagramLink = siteConfig.navigation.social.find(
+  social => /instagram/i.test(social.title)
+)?.url || '#';
+
+const youtubeLink = siteConfig.navigation.social.find(
+  social => /youtube/i.test(social.title)
+)?.url || '#';
+
+const categoriesMap = new Map<string, { count: number; latestPostId: string; latestPostTitle: string }>();
+
+for (const post of processedPosts) {
+  const tags = post?.data?.tags || [];
+  for (const tag of tags) {
+    if (!categoriesMap.has(tag)) {
+      categoriesMap.set(tag, {
+        count: 1,
+        latestPostId: post.id,
+        latestPostTitle: post.data.title,
+      });
+      continue;
     }
-  } catch (error) {
+
+    const current = categoriesMap.get(tag);
+    if (!current) continue;
+
+    categoriesMap.set(tag, {
+      ...current,
+      count: current.count + 1,
+    });
   }
 }
 
-// Determine which content types are being displayed
-const hasFeaturedPost = siteConfig.homeOptions.featuredPost.enabled && featuredPost;
-const hasRecentPosts = siteConfig.homeOptions.recentPosts.enabled && previewPosts.length > 0;
-const hasProjects = siteConfig.homeOptions.projects.enabled && featuredProjects.length > 0;
-const hasDocs = siteConfig.homeOptions.docs.enabled && featuredDocs.length > 0;
+const categorizedPosts = Array.from(categoriesMap.entries())
+  .map(([category, info]) => ({ category, ...info }))
+  .sort((a, b) => b.count - a.count || a.category.localeCompare(b.category, 'es'))
+  .slice(0, 12);
 
-// Count how many content types are being displayed
-const contentTypesCount = [hasFeaturedPost, hasRecentPosts, hasProjects, hasDocs].filter(Boolean).length;
-
-// Determine if we should use special treatment (only one content type is displayed)
-const useSpecialTreatment = contentTypesCount === 1;
-
-// Determine if only blurb content should be shown (no posts, projects, or docs)
-const onlyBlurbContent = contentTypesCount === 0 && siteConfig.homeOptions.blurb.placement !== 'none' && HomeBlurbContent;
-
-// Generate SEO data for homepage
 const seoData = generateHomeSEO(Astro.url.href);
 if (siteConfig.homepageTitle) seoData.title = siteConfig.homepageTitle;
 
-// Structured data for the website
 const structuredData = {
   '@context': 'https://schema.org',
   '@type': 'Blog',
@@ -161,226 +147,513 @@ const structuredData = {
 
 <BaseLayout seoData={seoData}>
   <Fragment slot="head">
-    <!-- Structured Data -->
     <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />
-
-    <!-- Preload critical images - use same URL as actual img tags for caching -->
-    {featuredPost && featuredPost.data.image && siteConfig.postOptions.showPostCardCoverImages === 'all' && !featuredPost.data.hideCoverImage && typeof featuredPost.data.image === 'string' && !featuredPost.data.image.startsWith('http') && (
-      <link
-        rel="preload"
-        as="image"
-        href={optimizePostImagePath(featuredPost.data.image, undefined, featuredPost.id)}
-        fetchpriority="high"
-      />
+    {latestPostImage && (
+      <link rel="preload" as="image" href={latestPostImage.preloadHref} fetchpriority="high" />
     )}
   </Fragment>
 
-  <div class="py-8 relative">
-    <div class="mx-auto px-4 sm:px-6 lg:px-8" style={`max-width: ${siteConfig.layout.contentWidth}`}>
-      {onlyBlurbContent ? (
-        <!-- Blurb-only homepage with page-like layout -->
-        <article class="bg-primary-50 dark:bg-primary-900 rounded-lg border border-primary-200 dark:border-primary-700 shadow-sm">
-          <div class="p-6 rounded-lg">
-            <!-- Page header -->
-            {homeBlurbContent?.data.title && (
-              <header class="mb-4">
-                <h1 class="text-xl font-bold text-primary-900 dark:text-primary-50 mb-6 leading-tight">
-                  {homeBlurbContent.data.title}
-                </h1>
-              </header>
-            )}
+  <main class="home-cover w-full pb-14">
+    <section class="hero-row hero-fullbleed relative overflow-hidden border-b border-primary-200/80 dark:border-primary-700/70">
+      <div class="hero-bg absolute inset-0" aria-hidden="true"></div>
+      <div class="hero-overlay absolute inset-0" aria-hidden="true"></div>
 
-            <!-- Page content -->
-            <div class="prose dark:prose-dark max-w-none" id="page-content">
-              {HomeBlurbContent && <HomeBlurbContent />}
+      <div class="relative px-4 sm:px-6 lg:px-10 py-12 md:py-16 lg:py-20">
+        <div class="grid gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.25fr)] items-center">
+          <div class="hero-copy max-w-2xl">
+            <div class="inline-flex items-center gap-3 rounded-full bg-primary-50/90 dark:bg-primary-900/70 border border-primary-200/90 dark:border-primary-700 px-3 py-2 mb-5">
+              <img src="/favicon.png" alt="Logotipo" class="h-8 w-8 rounded-md" loading="eager" fetchpriority="high" />
+              {/* <span class="text-sm font-semibold tracking-wide text-primary-800 dark:text-primary-100">{siteConfig.title}</span> */}
+            </div>
+
+            <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight text-primary-950 dark:text-primary-50">
+              Aventuras visuales, rutas y mundos 360 desde SQLP
+            </h1>
+
+            <p class="mt-4 text-base sm:text-lg text-primary-700 dark:text-primary-200 max-w-xl">
+              La portada se organiza por islas para que entres directo a lo que buscas: blog, panorámicas, miniplanetas y canales sociales.
+            </p>
+
+            <div class="mt-6 flex flex-wrap gap-3">
+              <a href="/posts" class="hero-btn hero-btn-primary">
+                Explorar blog
+                <Icon name="arrow-right" class="w-4 h-4" />
+              </a>
+              <a href="/about" class="hero-btn hero-btn-secondary">
+                Sobre mí
+              </a>
             </div>
           </div>
+
+          <a href={latestPost ? `/posts/${latestPost.id}` : '/posts'} class="hero-banner group" aria-label="Ir a la última entrada">
+            <div class="hero-banner-media">
+              {latestPostImage ? (
+                <ImageWrapper
+                  src={latestPostImage.src}
+                  basePath={latestPostImage.basePath}
+                  alt={latestPost?.data?.imageAlt || latestPost?.data?.title || 'Ultima entrada'}
+                  class="hero-banner-image"
+                  width={1200}
+                  height={630}
+                  loading="eager"
+                  fetchpriority="high"
+                />
+              ) : (
+                <div class="hero-banner-fallback" aria-hidden="true"></div>
+              )}
+            </div>
+
+            <div class="hero-banner-content">
+              <p class="text-xs uppercase tracking-[0.18em] text-primary-100/90">Presentación</p>
+              <h2 class="text-xl sm:text-2xl font-semibold text-white mt-2 line-clamp-2">
+                {latestPost?.data?.title || 'Tu siguiente historia empieza aquí'}
+              </h2>
+              <p class="text-sm text-primary-100/90 mt-2 line-clamp-2">
+                {latestPost?.data?.description || 'Descubre las últimas publicaciones y entra al archivo completo de rutas y experiencias.'}
+              </p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-row px-4 sm:px-6 lg:px-10 mt-8 md:mt-10">
+      <div class="islands-grid-3">
+        <article class="island-card">
+          <header class="island-head">
+            <h3>Ultima entrada del blog</h3>
+            <Icon name="file-text" class="w-4 h-4" />
+          </header>
+          {latestPost ? (
+            <a href={`/posts/${latestPost.id}`} class="island-link">
+              {latestPostImage ? (
+                <ImageWrapper
+                  src={latestPostImage.src}
+                  basePath={latestPostImage.basePath}
+                  alt={latestPost?.data?.imageAlt || latestPost?.data?.title || 'Ultima entrada del blog'}
+                  class="island-post-image"
+                  width={800}
+                  height={450}
+                  loading="lazy"
+                />
+              ) : (
+                <div class="island-post-image island-post-image-fallback" aria-hidden="true"></div>
+              )}
+              <h4>{latestPost.data.title}</h4>
+              <p>{latestPost.data.description || 'Lee la entrada mas reciente del blog.'}</p>
+              <span class="island-cta">Leer ahora</span>
+            </a>
+          ) : (
+            <p class="island-empty">Todavia no hay entradas publicadas.</p>
+          )}
         </article>
-      ) : processedPosts.length > 0 ? (
-        <>
-          <!-- Home blurb above posts -->
-          {siteConfig.homeOptions.blurb.placement === 'above' && HomeBlurbContent && (
-            <section class="prose prose-sm dark:prose-dark max-w-none mb-16">
-              <HomeBlurbContent />
-            </section>
-          )}
 
-          <!-- Featured post -->
-          {siteConfig.homeOptions.featuredPost.enabled && featuredPost && (
-            <section class="mb-12">
-              <div class="flex items-center justify-between mb-6">
-                <h2 class="text-lg font-semibold text-primary-900 dark:text-primary-50">
-                  {siteConfig.homeOptions.featuredPost.type === "latest" ? "Latest Post" : "Featured Post"}
-                </h2>
-              </div>
+        <article class="island-card">
+          <header class="island-head">
+            <h3>Panoramicas 360</h3>
+            <Icon name="navigation" class="w-4 h-4" />
+          </header>
+          <a href={panoPageLink} class="island-link" data-no-swup>
+            <h4>Galeria panoramica</h4>
+            <p>Recorre escenarios inmersivos y visualiza cada lugar con perspectiva completa.</p>
+            <span class="island-cta">Abrir Pano360</span>
+          </a>
+        </article>
 
-              <PostCard post={featuredPost} featured={true} eager={true} context="featured" />
-            </section>
-          )}
+        <article class="island-card">
+          <header class="island-head">
+            <h3>Miniplanetas</h3>
+            <Icon name="star" class="w-4 h-4" />
+          </header>
+          <a href={miniPlanetsLink} class="island-link" data-no-swup>
+            <h4>Mundos en miniatura</h4>
+            <p>Una seleccion de miniplanetas para explorar escenas compactas y creativas.</p>
+            <span class="island-cta">Ver miniplanetas</span>
+          </a>
+        </article>
+      </div>
+    </section>
 
-          <!-- Recent posts preview -->
-          {siteConfig.homeOptions.recentPosts.enabled && previewPosts.length > 0 && (
-            <section class="mb-12">
-              {!useSpecialTreatment && (
-                <div class="flex items-center justify-between mb-6">
-                  <h2 class="text-lg font-semibold text-primary-900 dark:text-primary-50">
-                    Recent Posts
-                  </h2>
-                  <a
-                    href="/posts"
-                    class="text-primary-600 dark:text-primary-300 hover:text-highlight-600 dark:hover:text-highlight-400 font-medium transition-colors"
-                  >
-                    View all posts →
-                  </a>
-                </div>
-              )}
+    <section class="content-row px-4 sm:px-6 lg:px-10 mt-8">
+      <article class="island-card island-wide">
+        <header class="island-head">
+          <h3>Entradas por categorias</h3>
+          <Icon name="tag" class="w-4 h-4" />
+        </header>
 
-              <div class="space-y-4">
-                {previewPosts.map((post, index) => (
-                  <PostCard post={post} eager={featuredPost ? index === 0 : index < 2} context="recent" />
-                ))}
-              </div>
-
-              {useSpecialTreatment && (
-                <div class="mt-8 text-center">
-                  <a
-                    href="/posts"
-                    class="text-primary-600 dark:text-primary-300 hover:text-highlight-600 dark:hover:text-highlight-400 font-medium transition-colors"
-                  >
-                    View all posts →
-                  </a>
-                </div>
-              )}
-            </section>
-          )}
-
-          <!-- Featured Projects -->
-          {siteConfig.homeOptions.projects.enabled && featuredProjects.length > 0 && (
-            <section class="mb-12">
-              {!useSpecialTreatment && (
-                <div class="flex items-center justify-between mb-6">
-                  <h2 class="text-lg font-semibold text-primary-900 dark:text-primary-50">
-                    Projects
-                  </h2>
-                  <a
-                    href="/projects"
-                    class="text-primary-600 dark:text-primary-300 hover:text-highlight-600 dark:hover:text-highlight-400 font-medium transition-colors"
-                  >
-                    View all projects →
-                  </a>
-                </div>
-              )}
-
-              <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                {featuredProjects.map((project, index) => (
-                  <ProjectCard project={project} eager={false} context="home" showCategories={projectsHaveCategories} />
-                ))}
-              </div>
-
-              {useSpecialTreatment && (
-                <div class="mt-8 text-center">
-                  <a
-                    href="/projects"
-                    class="text-primary-600 dark:text-primary-300 hover:text-highlight-600 dark:hover:text-highlight-400 font-medium transition-colors"
-                  >
-                    View all projects →
-                  </a>
-                </div>
-              )}
-            </section>
-          )}
-
-          <!-- Featured Documentation -->
-          {siteConfig.homeOptions.docs.enabled && featuredDocs.length > 0 && (
-            <section class="mb-12">
-              {!useSpecialTreatment && (
-                <div class="flex items-center justify-between mb-6">
-                  <h2 class="text-lg font-semibold text-primary-900 dark:text-primary-50">
-                    Documentation
-                  </h2>
-                  <a
-                    href="/docs"
-                    class="text-primary-600 dark:text-primary-300 hover:text-highlight-600 dark:hover:text-highlight-400 font-medium transition-colors"
-                  >
-                    View all docs →
-                  </a>
-                </div>
-              )}
-
-              <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                {featuredDocs.map((doc, index) => (
-                  <DocumentationCard documentation={doc} eager={index === 0} context="home" />
-                ))}
-              </div>
-
-              {useSpecialTreatment && (
-                <div class="mt-8 text-center">
-                  <a
-                    href="/docs"
-                    class="text-primary-600 dark:text-primary-300 hover:text-highlight-600 dark:hover:text-highlight-400 font-medium transition-colors"
-                  >
-                    View all docs →
-                  </a>
-                </div>
-              )}
-            </section>
-          )}
-
-          <!-- Home blurb below posts -->
-          {siteConfig.homeOptions.blurb.placement === 'below' && HomeBlurbContent && (
-            <section class="prose prose-sm dark:prose-dark max-w-none mt-16">
-              <HomeBlurbContent />
-            </section>
-          )}
-
-        </>
-      ) : (
-        <!-- Empty state -->
-        <section class="text-center py-16">
-          <div class="max-w-md mx-auto">
-            <Icon name="file-text" class="w-16 h-16 text-primary-400 dark:text-primary-500 mx-auto mb-6" />
-            <h2 class="text-2xl font-semibold text-primary-900 dark:text-primary-50 mb-4">
-              No Posts Yet
-            </h2>
-            <p class="text-primary-600 dark:text-primary-300 mb-8">
-              This blog is just getting started. Check back soon for new content!
-            </p>
-            {isDev && (
-              <div class="p-4 bg-blue-50 dark:bg-blue-950 rounded-lg border border-blue-200 dark:border-blue-800">
-                <p class="text-sm text-blue-800 dark:text-blue-200">
-                  <strong>Dev Mode:</strong> Add some posts to the <code>content/posts/</code> directory to see them here.
-                </p>
-              </div>
-            )}
+        {categorizedPosts.length > 0 ? (
+          <div class="category-grid">
+            {categorizedPosts.map((item) => (
+              <a href={`/posts/tag/${encodeURIComponent(item.category)}`} class="category-chip">
+                <span class="category-name">#{item.category}</span>
+                <span class="category-count">{item.count} entradas</span>
+                <span class="category-latest">Ultima: {item.latestPostTitle}</span>
+              </a>
+            ))}
           </div>
-        </section>
-      )}
+        ) : (
+          <p class="island-empty">No hay categorias disponibles aun.</p>
+        )}
+      </article>
+    </section>
 
-    </div>
-  </div>
+    <section class="content-row px-4 sm:px-6 lg:px-10 mt-8">
+      <div class="social-column">
+        <a href={instagramLink} class="social-island" data-no-swup>
+          <div class="social-head">
+            <Icon name="instagram" class="w-5 h-5" />
+            <h3>Instagram</h3>
+          </div>
+          <p>Fotos, stories y momentos del dia a dia en ruta.</p>
+          <span>Ir a Instagram</span>
+        </a>
+
+        <a href={youtubeLink} class="social-island" data-no-swup>
+          <div class="social-head">
+            <Icon name="youtube" class="w-5 h-5" />
+            <h3>YouTube</h3>
+          </div>
+          <p>Videos, recorridos y contenido audiovisual extendido.</p>
+          <span>Ir a YouTube</span>
+        </a>
+      </div>
+    </section>
+  </main>
 </BaseLayout>
 
-<script>
-  // Hero search button functionality
-  document.addEventListener('DOMContentLoaded', () => {
-    const heroSearchButton = document.getElementById('hero-search-button');
-
-    if (heroSearchButton) {
-      heroSearchButton.addEventListener('click', () => {
-        const event = new CustomEvent('openCommandPalette');
-        window.dispatchEvent(event);
-      });
-    }
-  });
-</script>
-
 <style>
-  /* Enhanced homepage styles */
-  .btn-primary {
-    @apply inline-flex items-center px-6 py-3 font-medium rounded-lg transition-all duration-200 hover:shadow-lg transform hover:scale-105;
+  .home-cover {
+    background:
+      radial-gradient(1200px 380px at 20% -5%, rgb(var(--color-highlight-500) / 0.22), transparent 60%),
+      radial-gradient(1000px 420px at 95% 0%, rgb(var(--color-primary-700) / 0.18), transparent 62%),
+      rgb(var(--color-primary-50));
   }
 
-  .btn-primary:focus-visible {
-    @apply outline-none ring-2 ring-highlight-500 ring-offset-2;
+  :global(.dark) .home-cover {
+    background:
+      radial-gradient(1200px 380px at 20% -5%, rgb(var(--color-highlight-500) / 0.2), transparent 60%),
+      radial-gradient(1000px 420px at 95% 0%, rgb(var(--color-primary-200) / 0.08), transparent 62%),
+      rgb(var(--color-primary-950));
+  }
+
+  .hero-row {
+    min-height: clamp(26rem, 52vh, 40rem);
+  }
+
+  .hero-fullbleed {
+    position: relative;
+    left: 50%;
+    right: 50%;
+    width: 100vw;
+    max-width: 100vw;
+    margin-left: -50vw;
+    margin-right: -50vw;
+  }
+
+  @supports (width: 100dvw) {
+    .hero-fullbleed {
+      width: 100dvw;
+      max-width: 100dvw;
+      margin-left: -50dvw;
+      margin-right: -50dvw;
+    }
+  }
+
+  .hero-bg {
+    background-image: linear-gradient(100deg, rgb(var(--color-primary-950) / 0.92), rgb(var(--color-primary-800) / 0.66)), url('/open-graph.png');
+    background-size: cover;
+    background-position: center;
+    filter: saturate(1.15);
+  }
+
+  .hero-overlay {
+    background: linear-gradient(180deg, rgb(var(--color-primary-900) / 0.08), rgb(var(--color-primary-950) / 0.38));
+  }
+
+  .hero-banner {
+    display: grid;
+    grid-template-rows: minmax(11rem, 1fr);
+    border-radius: 1.25rem;
+    overflow: hidden;
+    border: 1px solid rgb(var(--color-primary-300) / 0.5);
+    box-shadow: 0 20px 55px rgb(var(--color-primary-950) / 0.35);
+    transform: translateZ(0);
+    transition: transform 220ms ease, box-shadow 220ms ease;
+  }
+
+  .hero-banner:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 26px 60px rgb(var(--color-primary-950) / 0.45);
+  }
+
+  .hero-banner-media {
+    position: absolute;
+    inset: 0;
+  }
+
+  .hero-banner-image,
+  .hero-banner-fallback {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .hero-banner-fallback {
+    background: linear-gradient(130deg, rgb(var(--color-highlight-600) / 0.85), rgb(var(--color-primary-900) / 0.95));
+  }
+
+  .hero-banner-content {
+    position: relative;
+    z-index: 1;
+    padding: 1.25rem;
+    align-self: end;
+    background: linear-gradient(180deg, transparent, rgb(var(--color-primary-950) / 0.88));
+  }
+
+  .hero-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    padding: 0.72rem 1rem;
+    border-radius: 0.85rem;
+    font-weight: 600;
+    transition: all 180ms ease;
+  }
+
+  .hero-btn-primary {
+    color: rgb(var(--color-primary-50));
+    background: rgb(var(--color-highlight-600));
+    border: 1px solid rgb(var(--color-highlight-400));
+  }
+
+  .hero-btn-primary:hover {
+    background: rgb(var(--color-highlight-500));
+  }
+
+  .hero-btn-secondary {
+    color: rgb(var(--color-primary-100));
+    background: rgb(var(--color-primary-900) / 0.42);
+    border: 1px solid rgb(var(--color-primary-300) / 0.45);
+  }
+
+  .hero-btn-secondary:hover {
+    background: rgb(var(--color-primary-900) / 0.58);
+  }
+
+  .islands-grid-3 {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr;
+  }
+
+  .island-card {
+    border: 1px solid rgb(var(--color-primary-200));
+    background: rgb(var(--color-primary-50) / 0.8);
+    border-radius: 1rem;
+    padding: 1rem;
+    backdrop-filter: blur(6px);
+    box-shadow: 0 14px 35px rgb(var(--color-primary-900) / 0.07);
+  }
+
+  :global(.dark) .island-card {
+    border-color: rgb(var(--color-primary-700));
+    background: rgb(var(--color-primary-900) / 0.62);
+  }
+
+  .island-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.75rem;
+    color: rgb(var(--color-primary-800));
+  }
+
+  :global(.dark) .island-head {
+    color: rgb(var(--color-primary-100));
+  }
+
+  .island-head h3 {
+    font-size: 1rem;
+    font-weight: 700;
+  }
+
+  .island-link {
+    display: block;
+  }
+
+  .island-post-image {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border-radius: 0.75rem;
+    margin-bottom: 0.75rem;
+    border: 1px solid rgb(var(--color-primary-200));
+  }
+
+  :global(.dark) .island-post-image {
+    border-color: rgb(var(--color-primary-700));
+  }
+
+  .island-post-image-fallback {
+    background: linear-gradient(130deg, rgb(var(--color-highlight-500) / 0.9), rgb(var(--color-primary-800) / 0.9));
+  }
+
+  .island-link h4 {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: rgb(var(--color-primary-900));
+  }
+
+  :global(.dark) .island-link h4 {
+    color: rgb(var(--color-primary-50));
+  }
+
+  .island-link p,
+  .island-empty {
+    margin-top: 0.5rem;
+    font-size: 0.95rem;
+    color: rgb(var(--color-primary-700));
+  }
+
+  :global(.dark) .island-link p,
+  :global(.dark) .island-empty {
+    color: rgb(var(--color-primary-200));
+  }
+
+  .island-cta {
+    display: inline-flex;
+    margin-top: 0.8rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: rgb(var(--color-highlight-700));
+  }
+
+  :global(.dark) .island-cta {
+    color: rgb(var(--color-highlight-300));
+  }
+
+  .island-wide {
+    width: 100%;
+  }
+
+  .category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 0.75rem;
+  }
+
+  .category-chip {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    border-radius: 0.85rem;
+    padding: 0.75rem 0.85rem;
+    border: 1px solid rgb(var(--color-primary-200));
+    background: rgb(var(--color-primary-100) / 0.6);
+    transition: border-color 160ms ease, transform 160ms ease;
+  }
+
+  .category-chip:hover {
+    transform: translateY(-1px);
+    border-color: rgb(var(--color-highlight-400));
+  }
+
+  :global(.dark) .category-chip {
+    border-color: rgb(var(--color-primary-700));
+    background: rgb(var(--color-primary-800) / 0.7);
+  }
+
+  .category-name {
+    font-weight: 700;
+    color: rgb(var(--color-primary-900));
+  }
+
+  .category-count {
+    font-size: 0.85rem;
+    color: rgb(var(--color-highlight-700));
+  }
+
+  .category-latest {
+    font-size: 0.8rem;
+    color: rgb(var(--color-primary-700));
+    line-height: 1.25;
+  }
+
+  :global(.dark) .category-name {
+    color: rgb(var(--color-primary-50));
+  }
+
+  :global(.dark) .category-count {
+    color: rgb(var(--color-highlight-300));
+  }
+
+  :global(.dark) .category-latest {
+    color: rgb(var(--color-primary-300));
+  }
+
+  .social-column {
+    display: grid;
+    gap: 0.9rem;
+    grid-template-columns: minmax(0, 1fr);
+    max-width: 34rem;
+  }
+
+  .social-island {
+    border: 1px solid rgb(var(--color-primary-200));
+    background: linear-gradient(120deg, rgb(var(--color-primary-50) / 0.88), rgb(var(--color-highlight-100) / 0.52));
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: 0 12px 30px rgb(var(--color-primary-900) / 0.08);
+  }
+
+  .social-head {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: rgb(var(--color-primary-900));
+    font-weight: 700;
+  }
+
+  .social-island p {
+    margin-top: 0.45rem;
+    color: rgb(var(--color-primary-700));
+    font-size: 0.95rem;
+  }
+
+  .social-island span {
+    display: inline-flex;
+    margin-top: 0.75rem;
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: rgb(var(--color-highlight-700));
+  }
+
+  :global(.dark) .social-island {
+    border-color: rgb(var(--color-primary-700));
+    background: linear-gradient(120deg, rgb(var(--color-primary-900) / 0.85), rgb(var(--color-highlight-900) / 0.42));
+  }
+
+  :global(.dark) .social-head {
+    color: rgb(var(--color-primary-50));
+  }
+
+  :global(.dark) .social-island p {
+    color: rgb(var(--color-primary-200));
+  }
+
+  :global(.dark) .social-island span {
+    color: rgb(var(--color-highlight-300));
+  }
+
+  @media (min-width: 768px) {
+    .islands-grid-3 {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 1.1rem;
+    }
+
+    .island-card,
+    .social-island {
+      padding: 1.15rem;
+    }
   }
 </style>

@@ -286,10 +286,14 @@ export function shouldShowContent(
 }
 
 // Sort content by date (newest first)
-export function sortPostsByDate<T extends { data: { date: Date } }>(
+export function sortPostsByDate<T extends { data: { date: Date; pubDate?: Date } }>(
   posts: T[]
 ): T[] {
-  return posts.sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+  return posts.sort((a, b) => {
+    const dateA = a.data.pubDate instanceof Date ? a.data.pubDate : a.data.date;
+    const dateB = b.data.pubDate instanceof Date ? b.data.pubDate : b.data.date;
+    return dateB.getTime() - dateA.getTime();
+  });
 }
 
 // Get next and previous content items

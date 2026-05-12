@@ -1,8 +1,8 @@
 ---
 title: ZZ-040 el SARRAU del TUERTO
 heroImage: attachments/SarrauTu1.webp
-pubDate: 2025-01-26T17:12:58Z
-updatedDate: 2025-01-26T17:18:23Z
+pubDate: 2027-01-26T17:12:58Z
+updatedDate: 2026-05-12T17:18:23Z
 draft: false
 author: AlbertoEpic
 description: A falta de nieve... Buenos son los piñones! A mediados de enero, la nieve todaví­a escasea en el Pirineo. Nuestro especialista AlbertoEpic, cansado de mirar al cielo y los termómetros, decide cambiar el chip y estudiar los mapas para encontr
@@ -13,7 +13,7 @@ tags:
   - enduro
 ---
 
-## A falta de nieve... Buenos son los piñones!
+## A falta de nieve... Buenos son los piñones!!!
 
 A mediados de enero, la nieve todaví­a escasea en el Pirineo. Nuestro especialista AlbertoEpic, cansado de mirar al cielo y los termómetros, decide cambiar el chip y estudiar los mapas para encontrar un enclave chulo donde volar el dron esté permitido para conseguir unas imágenes de calidad.
 
