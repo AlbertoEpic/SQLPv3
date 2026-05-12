@@ -5,34 +5,34 @@ pubDate: 2023-06-23T17:32:39Z
 updatedDate: 2023-06-23T19:18:14Z
 draft: false
 author: "AlbertoEpic"
-description: "Paseo circular con nií¯¿Â½os Hace ya casi un mes, el ní¯¿Â½cleo duro de la seccií¯¿Â½n SQLPkids, formado por Sami&AlbertoEpic, se desplazaron hasta Escuer con la idea de hacer una ruta circular sencilla para ir a conocer la Torraza de Escuer. Te detall"
+description: "Paseo circular con niáos Hace ya casi un mes, el nácleo duro de la seccián SQLPkids, formado por Sami&AlbertoEpic, se desplazaron hasta Escuer con la idea de hacer una ruta circular sencilla para ir a conocer la Torraza de Escuer. Te detall"
 category: "SQLP-kids"
 ---
 
-## Paseo circular con nií¯¿Â½os
+## Paseo circular con niáos
 
-Hace ya casi un mes, el ní¯¿Â½cleo duro de la seccií¯¿Â½n SQLPkids, formado por Sami&AlbertoEpic, se desplazaron hasta Escuer con la idea de hacer una ruta circular sencilla para ir a conocer la Torraza de Escuer. Te detallamos a continuacií¯¿Â½n la ruta sobre el mapa, donde te puedes descargar el track si te interesa repetir la ruta. La subida es por un sendero, en algunos tramos algo expuesto; y la bajada mayormente por pista, aunque en la parte baja se cogen varios atajos por sendero.
+Hace ya casi un mes, el nácleo duro de la seccián SQLPkids, formado por Sami&AlbertoEpic, se desplazaron hasta Escuer con la idea de hacer una ruta circular sencilla para ir a conocer la Torraza de Escuer. Te detallamos a continuacián la ruta sobre el mapa, donde te puedes descargar el track si te interesa repetir la ruta. La subida es por un sendero, en algunos tramos algo expuesto; y la bajada mayormente por pista, aunque en la parte baja se cogen varios atajos por sendero.
 
 <iframe class="alltrails" src="https://www.alltrails.com/es/widget/map/map-668f332-2?scrollZoom=ó&u=m&sh=w4k06q" width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="AllTrails: Trail Guides and Maps for Hiking, Camping, and Running"></iframe>
 
-El plan oculto de AlbertoEpic era, ademí¯¿Â½s de dar un paseo, soltar a volar el Albertdrí¯¿Â½n para grabar unas imí¯¿Â½genes con las que posteriormente Producciones SQLP pudiera realizar el ví¯¿Â½deo que te mostramos a continuacií¯¿Â½n:
+El plan oculto de AlbertoEpic era, además de dar un paseo, soltar a volar el Albertdrán para grabar unas imágenes con las que posteriormente Producciones SQLP pudiera realizar el vádeo que te mostramos a continuacián:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RDGyICGysrU" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Y ahora, un poco de informacií¯¿Â½n adicional sobre esta esplí¯¿Â½ndida torre:
+Y ahora, un poco de informacián adicional sobre esta esplándida torre:
 
 La Torraza de Escuer
 
-La Torraza o castillo de Escuer es uno de los ejemplares mí¯¿Â½s seí¯¿Â½eros en cuanto a fortificaciones de finales de la Edad Media, Junto con la Torraza de Biescas y la Torre del Moro de Lí¯¿Â½rrede forma parte del sistema defensivo de la zona media del Gí¯¿Â½llego. Su interí¯¿Â½s radica, ademí¯¿Â½s de en su estado de conservacií¯¿Â½n, su empaque y su extraordinaria ubicacií¯¿Â½n, en que, al contrario que las otras dos conserva su perí¯¿Â½metro amurallado y su capilla.
+La Torraza o castillo de Escuer es uno de los ejemplares más seáeros en cuanto a fortificaciones de finales de la Edad Media, Junto con la Torraza de Biescas y la Torre del Moro de Lárrede forma parte del sistema defensivo de la zona media del Gállego. Su interás radica, además de en su estado de conservacián, su empaque y su extraordinaria ubicacián, en que, al contrario que las otras dos conserva su perámetro amurallado y su capilla.
 
-Situada en un emplazamiento prí¯¿Â½cticamente inexpugnable, la torre fue construida en el siglo XV y se reformí¯¿Â½ profundamente en el siglo XVI. En origen, la estructura de la fortificacií¯¿Â½n seria la misma que la actual: torre, muralla con entrada situada al sur y capilla con acceso desde el interior del recinto.
+Situada en un emplazamiento prácticamente inexpugnable, la torre fue construida en el siglo XV y se reformá profundamente en el siglo XVI. En origen, la estructura de la fortificacián seria la misma que la actual: torre, muralla con entrada situada al sur y capilla con acceso desde el interior del recinto.
 
 La torre era un soberbio inmueble de cinco plantas, con pisos de madera, con un acceso a pie de calle y otro elevado mediante una escalera en la que se abre un aljibe.
-Todas las puertas son adinteladas, descansando el dintel sobre impostas. La occidental presenta ademí¯¿Â½s, decoracií¯¿Â½n consistente en esferas y dos motilones. En la fachada sur una hilera de mechinales delata la existencia de una galerí¯¿Â½a corrida a la que se llegaba por otra puerta situada en la mitad oriental del paramento.
+Todas las puertas son adinteladas, descansando el dintel sobre impostas. La occidental presenta además, decoracián consistente en esferas y dos motilones. En la fachada sur una hilera de mechinales delata la existencia de una galeráa corrida a la que se llegaba por otra puerta situada en la mitad oriental del paramento.
 
 Numerosas aspilleras se abren en sus cuatro caras. Tres de ellas cruciformes y coronadas por sillares tallados. Al sur y al este, varios vanos, uno de ellos geminado, dotaban de luz al interior.
 
-Interiormente el edificio presentarí¯¿Â½a una gran austeridad, í¯¿Â½nicamente una fregadera situada en el tercer piso rompí¯¿Â½a el espí¯¿Â½ritu castrense del edificio. Sin embargo, el interior actual poco tiene que ver con el original. En el siglo XVI se emprendií¯¿Â½ una importante reforma consistente en la construccií¯¿Â½n de bí¯¿Â½vedas de caí¯¿Â½í¯¿Â½n, lo que ocasioní¯¿Â½ que las cinco plantas originales se redujeran a tres. El desarrollo de las bí¯¿Â½vedas hizo que numerosas aspilleras quedaran ocultas e inutilizadas. En esta reforma se debií¯¿Â½ cerrar tambií¯¿Â½n el acceso desde el interior del recinto de la capilla, abrií¯¿Â½ndose una puerta al sur.
+Interiormente el edificio presentaráa una gran austeridad, ánicamente una fregadera situada en el tercer piso rompáa el espáritu castrense del edificio. Sin embargo, el interior actual poco tiene que ver con el original. En el siglo XVI se emprendiá una importante reforma consistente en la construccián de bávedas de caáán, lo que ocasioná que las cinco plantas originales se redujeran a tres. El desarrollo de las bávedas hizo que numerosas aspilleras quedaran ocultas e inutilizadas. En esta reforma se debiá cerrar tambián el acceso desde el interior del recinto de la capilla, abriándose una puerta al sur.
 
 ![](https://i.imgur.com/Nv2rATz.jpg)La Torraza de Escuer, desde el dron.
 
@@ -42,6 +42,6 @@ Interiormente el edificio presentarí¯¿Â½a una gran austeridad, í¯¿Â½ni
 
 ![](https://i.imgur.com/uC42rG5.jpg)El interior de la torre.
 
-![](https://i.imgur.com/4XbTDJ4.jpg)El interior de la torre, desde el í¯¿Â½ngulo opuesto.
+![](https://i.imgur.com/4XbTDJ4.jpg)El interior de la torre, desde el ángulo opuesto.
 
 ![](https://i.imgur.com/qP4Tmob.jpg)Sami asomado a una ventana, en la parte mejor conservada de la torre.

@@ -1,5 +1,5 @@
 ---
-title: "í¯¿Â½í¯¿Â½í¯¿Â½Feliz Navidad!!!"
+title: "áááFeliz Navidad!!!"
 pubDate: 2014-12-21T08:00:00Z
 
 heroImage: attachments/SQLPcomodin.jpg
