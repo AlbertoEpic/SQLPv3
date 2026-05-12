@@ -31,7 +31,7 @@ Arriba puedes ver una secuencia de fotos de la erupción del Strokkur.
 
 Y a continuación, Sami contemplando otra de las múltiples fuentes termales o respiraderos geotérmicos de la zona de Haukadalur, que experimentan fluctuaciones en actividad.
 
-![](attachments/SamiGeysir-jpg.webp)
+![](attachments/SamiGeysir-1024x768.webp)
 
 
 

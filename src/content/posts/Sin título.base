@@ -3,4 +3,4 @@ views:
     name: Tabla
     filters:
       and:
-        - category == "Ascensiones"
+        - category == "Bicicleta de montaña"

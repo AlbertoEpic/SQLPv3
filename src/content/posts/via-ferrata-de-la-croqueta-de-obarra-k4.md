@@ -1,6 +1,6 @@
 ---
 title: "Ví­a Ferrata de la Croqueta de Obarra (K4)"
-heroImage: "attachments/croquisCroqueta-jpg.webp"
+heroImage: "attachments/croquisCroqueta-1024x768.webp"
 pubDate: 2024-01-29T11:01:16Z
 updatedDate: 2024-01-29T11:05:18Z
 draft: false
@@ -13,7 +13,7 @@ category: "Escalada"
 
 El pasado 11 de enero, y para comenzar sus actividades del 2024 por todo lo alto, el equipo SQLP TeRReXtrem formado por los especialistas July y AlbertoEpic decide ir a recorrer la ví­a ferrata de 'La Croqueta" de Obarra. Durante largo tiempo en la lista de 'pendientes', la escasez de nieve este invierno y las inusualmente altas temperaturas provocaron que esta ferrata fuera un plan razonable para estas fechas.
 
-![](attachments/croquisCroqueta-jpg.webp)
+![](attachments/croquisCroqueta-1024x768.webp)
 
 Arriba puedes ver un croquis de la ví­a., y abajo verás el track sobre el mapa.
 

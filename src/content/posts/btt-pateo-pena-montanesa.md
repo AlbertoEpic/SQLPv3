@@ -39,7 +39,7 @@ Una rápida bajada directa, primero a pie por la pedrera y luego en la BTT, ataj
 
 ![](https://i.postimg.cc/DZYrHGcQ/P2040388.jpg)Desde la cima, mirando hacia el sur. La Tuca (2.275m), una 'cima gemela' de la principal...
 
-![Los especialistas SQLP Myriam y AlbertoEpic, en la cima de Peña Montañesa.](attachments/penamontanesa-jpg.webp)
+![Los especialistas SQLP Myriam y AlbertoEpic, en la cima de Peña Montañesa.](attachments/penamontanesa-1024x768.webp)
 
 *Los especialistas SQLP Myriam y AlbertoEpic, en la cima de Peña Montañesa.*
 
