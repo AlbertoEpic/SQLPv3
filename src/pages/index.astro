@@ -7,6 +7,8 @@ import { getOptimizedFormat, stripObsidianBrackets } from '@/utils/images';
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import Icon from '@/components/Icon.astro';
 import ImageWrapper from '@/components/ImageWrapper.astro';
+import logoMiniPlanetas from '@/content/logoMiniPlanetas.png';
+import pano360Favicon from '@/content/pano360 favicon-1-180x180.png';
 
 const allPosts = await getCollection('posts');
 const isDev = import.meta.env.DEV;
@@ -79,13 +81,151 @@ const latestPostImage = (() => {
   };
 })();
 
-const panoPageLink = siteConfig.navigation.pages.find(
-  page => /pano|360/i.test(page.title) || /pano|360/i.test(page.url || '')
-)?.url || '/';
 
-const miniPlanetsLink = siteConfig.navigation.pages.find(
-  page => /mini|planet/i.test(page.title) || /mini|planet/i.test(page.url || '')
-)?.url || '/';
+// --- Panoramicas 360: obtener ultimo producto desde feed XML personalizado ---
+let latestPanoLink = null;
+let latestPanoTitle = null;
+let latestPanoImage = null;
+try {
+  const res = await fetch('https://pano360.soloquedalopeor.com/wp-content/uploads/woo-feed/custom/xml/feedpano360.xml');
+  if (res.ok) {
+    const xml = await res.text();
+    const products = Array.from(xml.matchAll(/<product>([\s\S]*?)<\/product>/g)).map(m => m[1]);
+
+    if (products.length > 0) {
+      const latestProduct = products[0];
+      const linkMatch = latestProduct.match(/<link>([\s\S]*?)<\/link>/);
+      const titleMatch = latestProduct.match(/<title>([\s\S]*?)<\/title>/);
+      const imageMatch = latestProduct.match(/<image_link>([\s\S]*?)<\/image_link>/);
+
+      if (linkMatch && linkMatch[1].includes('/panorama/')) {
+        latestPanoLink = linkMatch[1].trim();
+        latestPanoTitle = titleMatch ? titleMatch[1].trim() : 'Ver ultima panoramica';
+        latestPanoImage = imageMatch ? imageMatch[1].trim() : null;
+      }
+    }
+  }
+} catch (e) {
+  // Si hay error, dejar latestPanoLink en null
+}
+
+let latestMiniPlanetLink = null;
+let latestMiniPlanetTitle = null;
+let latestMiniPlanetImage = null;
+
+const parseSpanishDiscoveryDate = (rawDate: string) => {
+  const monthMap: Record<string, number> = {
+    enero: 1,
+    febrero: 2,
+    marzo: 3,
+    abril: 4,
+    mayo: 5,
+    junio: 6,
+    julio: 7,
+    agosto: 8,
+    septiembre: 9,
+    setiembre: 9,
+    octubre: 10,
+    noviembre: 11,
+    diciembre: 12,
+  };
+
+  const normalized = rawDate
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/&nbsp;|&#160;/g, ' ')
+    .replace(/[.,]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+
+  const match = normalized.match(/(\d{1,2})(?:\s+de)?\s+([a-z]+)(?:\s+de)?\s+(\d{4})/);
+  if (!match) return null;
+
+  const day = Number(match[1]);
+  const month = monthMap[match[2]];
+  const year = Number(match[3]);
+  if (!day || !month || !year) return null;
+
+  return Date.UTC(year, month - 1, day);
+};
+
+try {
+  const miniBaseUrl = 'https://miniplanetas.soloquedalopeor.com';
+  const miniFetchHeaders = {
+    'User-Agent': 'Mozilla/5.0 (compatible; SQLP-Astro-Bot/1.0; +https://soloquedalopeor.com)',
+    Accept: 'text/html,application/xhtml+xml',
+  };
+
+  const catalogRes = await fetch('https://miniplanetas.soloquedalopeor.com/catalogo/', {
+    headers: miniFetchHeaders,
+  });
+  if (catalogRes.ok) {
+    const catalogHtml = await catalogRes.text();
+    const linkMatches = Array.from(
+      catalogHtml.matchAll(/href=["'](https:\/\/miniplanetas\.soloquedalopeor\.com\/planetas\/[^"'#?]+\/?|\/planetas\/[^"'#?]+\/?)["']/gi)
+    );
+
+    const planetLinks = Array.from(
+      new Set(
+        linkMatches
+          .map(match => match[1].trim())
+          .map(link => (link.startsWith('http') ? link : `${miniBaseUrl}${link}`))
+          .filter(link => link.startsWith(`${miniBaseUrl}/planetas/`))
+      )
+    );
+
+    const planetsWithDate = await Promise.all(planetLinks.map(async (detailUrl) => {
+
+      try {
+        const detailRes = await fetch(detailUrl, {
+          headers: miniFetchHeaders,
+        });
+        if (!detailRes.ok) return null;
+
+        const detailHtml = await detailRes.text();
+        const detailText = detailHtml
+          .replace(/<script[\s\S]*?<\/script>/gi, ' ')
+          .replace(/<style[\s\S]*?<\/style>/gi, ' ')
+          .replace(/<[^>]+>/g, ' ')
+          .replace(/\s+/g, ' ')
+          .trim();
+
+        const dateMatch = detailText.match(/Fecha de descubrimiento:\s*([0-9]{1,2}\s*(?:de\s*)?[A-Za-zÁÉÍÓÚÜÑáéíóúüñ]+(?:\s*de)?\s*[0-9]{4})/i);
+        if (!dateMatch) return null;
+
+        const timestamp = parseSpanishDiscoveryDate(dateMatch[1]);
+        if (!timestamp) return null;
+
+        const titleMatch = detailHtml.match(/<meta\s+property=["']og:title["']\s+content=["']([^"']+)["']/i)
+          || detailHtml.match(/<meta\s+content=["']([^"']+)["']\s+property=["']og:title["']/i);
+        const imageMatch = detailHtml.match(/<meta\s+property=["']og:image["']\s+content=["']([^"']+)["']/i)
+          || detailHtml.match(/<meta\s+content=["']([^"']+)["']\s+property=["']og:image["']/i);
+
+        return {
+          link: detailUrl,
+          timestamp,
+          title: titleMatch ? titleMatch[1].trim() : 'Ver ultimo miniplaneta',
+          image: imageMatch ? imageMatch[1].trim() : null,
+        };
+      } catch {
+        return null;
+      }
+    }));
+
+    const latestPlanet = planetsWithDate
+      .filter(Boolean)
+      .sort((a, b) => (b?.timestamp || 0) - (a?.timestamp || 0))[0];
+
+    if (latestPlanet) {
+      latestMiniPlanetLink = latestPlanet.link;
+      latestMiniPlanetTitle = latestPlanet.title;
+      latestMiniPlanetImage = latestPlanet.image;
+    }
+  }
+} catch (e) {
+  // Si hay error, dejar valores null para fallback visual.
+}
 
 const instagramLink = siteConfig.navigation.social.find(
   social => /instagram/i.test(social.title)
@@ -222,7 +362,13 @@ const structuredData = {
         <article class="island-card">
           <header class="island-head">
             <h3>Ultima entrada del blog</h3>
-            <Icon name="file-text" class="w-4 h-4" />
+            <img
+              src="/favicon.png"
+              alt="SQLP"
+              class="w-8 h-8"
+              loading="lazy"
+              decoding="async"
+            />
           </header>
           {latestPost ? (
             <a href={`/posts/${latestPost.id}`} class="island-link">
@@ -231,7 +377,7 @@ const structuredData = {
                   src={latestPostImage.src}
                   basePath={latestPostImage.basePath}
                   alt={latestPost?.data?.imageAlt || latestPost?.data?.title || 'Ultima entrada del blog'}
-                  class="island-post-image"
+                  class="island-post-image rounded-[0.75rem] mb-3"
                   width={800}
                   height={450}
                   loading="lazy"
@@ -251,25 +397,73 @@ const structuredData = {
         <article class="island-card">
           <header class="island-head">
             <h3>Panoramicas 360</h3>
-            <Icon name="navigation" class="w-4 h-4" />
+            <img
+              src={pano360Favicon.src}
+              alt="Favicon Pano360"
+              class="w-8 h-8"
+              loading="lazy"
+              decoding="async"
+            />
           </header>
-          <a href={panoPageLink} class="island-link" data-no-swup>
-            <h4>Galeria panoramica</h4>
-            <p>Recorre escenarios inmersivos y visualiza cada lugar con perspectiva completa.</p>
-            <span class="island-cta">Abrir Pano360</span>
-          </a>
+          {latestPanoLink ? (
+            <a href={latestPanoLink} class="island-link" target="_blank" rel="noopener noreferrer" data-no-swup>
+              {latestPanoImage ? (
+                <img
+                  src={latestPanoImage}
+                  alt={latestPanoTitle || 'Ultima panoramica'}
+                  class="island-post-image"
+                  width="800"
+                  height="450"
+                  loading="lazy"
+                  decoding="async"
+                  referrerpolicy="no-referrer"
+                />
+              ) : (
+                <div class="island-post-image island-post-image-fallback" aria-hidden="true"></div>
+              )}
+              <h4>{latestPanoTitle}</h4>
+              <p>Descubre la ultima panoramica publicada en SQLP Pano360.</p>
+              <span class="island-cta">Ver panoramica</span>
+            </a>
+          ) : (
+            <div class="island-link island-empty">No se pudo cargar la ultima panoramica.</div>
+          )}
         </article>
 
         <article class="island-card">
           <header class="island-head">
             <h3>Miniplanetas</h3>
-            <Icon name="star" class="w-4 h-4" />
+            <img
+              src={logoMiniPlanetas.src}
+              alt="Favicon Miniplanetas"
+              class="w-10 h-8"
+              loading="lazy"
+              decoding="async"
+            />
           </header>
-          <a href={miniPlanetsLink} class="island-link" data-no-swup>
-            <h4>Mundos en miniatura</h4>
-            <p>Una seleccion de miniplanetas para explorar escenas compactas y creativas.</p>
-            <span class="island-cta">Ver miniplanetas</span>
-          </a>
+          {latestMiniPlanetLink ? (
+            <a href={latestMiniPlanetLink} class="island-link" target="_blank" rel="noopener noreferrer" data-no-swup>
+              {latestMiniPlanetImage ? (
+                <img
+                  src={latestMiniPlanetImage}
+                  alt={latestMiniPlanetTitle || 'Ultimo miniplaneta'}
+                  class="island-post-image"
+                  width="800"
+                  height="450"
+                  loading="lazy"
+                  decoding="async"
+                  referrerpolicy="no-referrer"
+                />
+              ) : (
+                <div class="island-post-image island-post-image-fallback" aria-hidden="true"></div>
+              )}
+              <h4>{latestMiniPlanetTitle}</h4>
+              <p>Descubre el ultimo miniplaneta publicado en el catalogo.</p>
+              <span class="island-cta">Ver miniplaneta</span>
+            </a>
+          ) : (
+            <div class="island-link island-empty">No se pudo cargar el ultimo miniplaneta.</div>
+          )}
         </article>
       </div>
     </section>
