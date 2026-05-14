@@ -33,7 +33,7 @@ const paletteIcon = allSectionsDisabled ? 'search' : 'command';
 
 <header id="main-header" class="sticky top-0 z-40 w-full bg-white dark:bg-primary-950 transition-shadow duration-200">
   <div class="mx-auto px-4 sm:px-6 lg:px-8" style={`max-width: ${siteConfig.layout.contentWidth}`}>
-    <div class="flex items-center justify-between h-16">
+    <div class="flex items-center justify-between h-20">
       <!-- Logo / Site Title / Profile Picture -->
       <div class="flex items-center">
         <a href="/" class="hover:opacity-75 transition-opacity">
@@ -47,7 +47,7 @@ const paletteIcon = allSectionsDisabled ? 'search' : 'command';
             <img
               src={faviconLogo.src}
               alt={siteConfig.title}
-              class="h-8 w-8 object-contain"
+              class="h-16 w-16 object-contain"
             />
           )}
         </a>
@@ -326,7 +326,7 @@ const paletteIcon = allSectionsDisabled ? 'search' : 'command';
 
     // Desktop dropdown menu hover behavior
     const dropdownContainers = document.querySelectorAll<HTMLElement>('.nav-dropdown-container');
-    let hoverTimeout: ReturnType<typeof window.setTimeout> | null = null;
+    let hoverTimeout: ReturnType<typeof setTimeout> | null = null;
 
     dropdownContainers.forEach(container => {
       const trigger = container.querySelector('a, button') as HTMLAnchorElement | HTMLButtonElement | null;
@@ -344,7 +344,7 @@ const paletteIcon = allSectionsDisabled ? 'search' : 'command';
       };
 
       const hideDropdown = () => {
-        hoverTimeout = window.setTimeout(() => {
+        hoverTimeout = setTimeout(() => {
           dropdown.classList.add('hidden');
           trigger.setAttribute('aria-expanded', 'false');
         }, 150); // Small delay to prevent accidental closes
