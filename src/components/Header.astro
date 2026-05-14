@@ -6,6 +6,21 @@ import faviconLogo from '@/content/favicon.png';
 
 const showProfilePicture = siteConfig.profilePicture.enabled && siteConfig.profilePicture.placement === 'header';
 const profilePicture = siteConfig.profilePicture;
+const baseUrl = import.meta.env.BASE_URL;
+
+const withBase = (path: string) => `${baseUrl}${path.replace(/^\//, '')}`;
+
+const resolveNavHref = (rawUrl?: string) => {
+  if (!rawUrl) return '#';
+  const normalized = rawUrl.trim();
+  if (!normalized) return '#';
+
+  const isExternal = /^https?:\/\//i.test(normalized);
+  const isSpecial = /^(mailto:|tel:|#)/i.test(normalized);
+
+  if (isExternal || isSpecial) return normalized;
+  return withBase(normalized);
+};
 
 // Style classes for profile picture in header
 const getHeaderProfilePictureClasses = (style: string) => {
@@ -36,7 +51,7 @@ const paletteIcon = allSectionsDisabled ? 'search' : 'command';
     <div class="flex items-center justify-between h-20">
       <!-- Logo / Site Title / Profile Picture -->
       <div class="flex items-center">
-        <a href="/" class="hover:opacity-75 transition-opacity">
+        <a href={withBase('/')} class="hover:opacity-75 transition-opacity">
           {showProfilePicture ? (
             <img
               src={profilePicture.image}
@@ -62,6 +77,7 @@ const paletteIcon = allSectionsDisabled ? 'search' : 'command';
             {siteConfig.navigation.pages.map((page, index) => {
               const childPages = page.children ?? [];
               const pageHref = page.url?.trim() ?? '';
+              const resolvedPageHref = resolveNavHref(pageHref);
               const hasChildren = childPages.length > 0;
               const hasUrl = pageHref.length > 0;
               const pageTarget = pageHref.startsWith('http') ? '_blank' : undefined;
@@ -73,7 +89,7 @@ const paletteIcon = allSectionsDisabled ? 'search' : 'command';
                     {hasUrl ? (
                       // Clickable parent with dropdown
                       <a 
-                        href={pageHref}
+                        href={resolvedPageHref}
                         class={
                           siteConfig.navigation.style === 'minimal' 
                             ? `flex items-center space-x-1 text-xs font-normal transition-colors hover:text-highlight-600 dark:hover:text-highlight-400 text-primary-500 dark:text-primary-400`
@@ -110,7 +126,7 @@ const paletteIcon = allSectionsDisabled ? 'search' : 'command';
                     <div class="nav-dropdown-menu absolute top-full left-0 mt-1 hidden bg-white dark:bg-primary-900 border border-primary-200 dark:border-primary-700 rounded-lg shadow-lg py-2 min-w-[200px] z-50">
                       {childPages.map(child => (
                         <a
-                          href={child.url || '#'}
+                          href={resolveNavHref(child.url)}
                           class="block px-4 py-2 text-sm text-primary-700 dark:text-primary-200 hover:text-highlight-600 dark:hover:text-highlight-400 transition-colors"
                           target={child.url?.startsWith('http') ? '_blank' : undefined}
                           aria-label={`Navigate to ${child.title}`}
@@ -128,7 +144,7 @@ const paletteIcon = allSectionsDisabled ? 'search' : 'command';
                 // Regular navigation item without children
                 return (
                   <a 
-                      href={pageHref || '#'}
+                      href={resolvedPageHref}
                     class={
                       siteConfig.navigation.style === 'minimal' 
                         ? `flex items-center space-x-1 text-xs font-normal transition-colors hover:text-highlight-600 dark:hover:text-highlight-400 text-primary-500 dark:text-primary-400`
@@ -219,6 +235,7 @@ const paletteIcon = allSectionsDisabled ? 'search' : 'command';
           {siteConfig.navigation.pages.map((page, index) => {
             const childPages = page.children ?? [];
             const pageHref = page.url?.trim() ?? '';
+            const resolvedPageHref = resolveNavHref(pageHref);
             const hasChildren = childPages.length > 0;
             const hasUrl = pageHref.length > 0;
             const pageTarget = pageHref.startsWith('http') ? '_blank' : undefined;
@@ -231,7 +248,7 @@ const paletteIcon = allSectionsDisabled ? 'search' : 'command';
                     {hasUrl ? (
                       // Clickable parent with expand button
                       <a 
-                        href={pageHref}
+                        href={resolvedPageHref}
                         class="flex-1 flex items-center justify-between px-3 py-2 text-primary-600 dark:text-primary-300 hover:text-highlight-600 dark:hover:text-highlight-400 hover:bg-primary-50 dark:hover:bg-primary-800 transition-colors font-medium rounded-md"
                         target={pageTarget}
                         aria-label={`Navigate to ${page.title}`}
@@ -260,7 +277,7 @@ const paletteIcon = allSectionsDisabled ? 'search' : 'command';
                   <div class="mobile-nav-children hidden pl-4 pt-1">
                     {childPages.map(child => (
                       <a
-                        href={child.url || '#'}
+                        href={resolveNavHref(child.url)}
                         class="block px-3 py-2 text-sm text-primary-600 dark:text-primary-300 hover:text-highlight-600 dark:hover:text-highlight-400 hover:bg-primary-50 dark:hover:bg-primary-800 transition-colors font-medium rounded-md"
                         target={child.url?.startsWith('http') ? '_blank' : undefined}
                         aria-label={`Navigate to ${child.title}`}
@@ -278,7 +295,7 @@ const paletteIcon = allSectionsDisabled ? 'search' : 'command';
               // Regular navigation item without children
               return (
                 <a 
-                  href={pageHref || '#'}
+                  href={resolvedPageHref}
                   class="flex items-center justify-between px-3 py-2 text-primary-600 dark:text-primary-300 hover:text-highlight-600 dark:hover:text-highlight-400 hover:bg-primary-50 dark:hover:bg-primary-800 transition-colors font-medium rounded-md"
                   target={pageTarget}
                   aria-label={`Navigate to ${page.title}`}

@@ -265,6 +265,8 @@ const categorizedPosts = Array.from(categoriesMap.entries())
   .sort((a, b) => b.count - a.count || a.category.localeCompare(b.category, 'es'))
   .slice(0, 12);
 
+const withBase = (path: string) => `${import.meta.env.BASE_URL}${path.replace(/^\//, '')}`;
+
 const seoData = generateHomeSEO(Astro.url.href);
 if (siteConfig.homepageTitle) seoData.title = siteConfig.homepageTitle;
 
@@ -312,17 +314,17 @@ const structuredData = {
             </p>
 
             <div class="mt-6 flex flex-wrap gap-3">
-              <a href="/posts" class="hero-btn hero-btn-primary">
+              <a href={withBase('/posts')} class="hero-btn hero-btn-primary">
                 Explorar blog
                 <Icon name="arrow-right" class="w-4 h-4" />
               </a>
-              <a href="/about" class="hero-btn hero-btn-secondary">
+              <a href={withBase('/about')} class="hero-btn hero-btn-secondary">
                 Sobre mí
               </a>
             </div>
           </div>
 
-          <a href={latestPost ? `/posts/${latestPost.id}` : '/posts'} class="hero-banner group" aria-label="Ir a la última entrada">
+          <a href={latestPost ? withBase(`/posts/${latestPost.id}`) : withBase('/posts')} class="hero-banner group" aria-label="Ir a la última entrada">
             <div class="hero-banner-media">
               {latestPostImage ? (
                 <ImageWrapper
@@ -368,7 +370,7 @@ const structuredData = {
             />
           </header>
           {latestPost ? (
-            <a href={`/posts/${latestPost.id}`} class="island-link">
+            <a href={withBase(`/posts/${latestPost.id}`)} class="island-link">
               {latestPostImage ? (
                 <ImageWrapper
                   src={latestPostImage.src}
@@ -475,7 +477,7 @@ const structuredData = {
         {categorizedPosts.length > 0 ? (
           <div class="category-grid">
             {categorizedPosts.map((item) => (
-              <a href={`/posts/tag/${encodeURIComponent(item.category)}`} class="category-chip">
+              <a href={withBase(`/posts/tag/${encodeURIComponent(item.category)}`)} class="category-chip">
                 <span class="category-name">#{item.category}</span>
                 <span class="category-count">{item.count} entradas</span>
                 <span class="category-latest">Ultima: {item.latestPostTitle}</span>

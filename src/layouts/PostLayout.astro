@@ -23,6 +23,7 @@ export interface Props {
 }
 
 const { post } = Astro.props;
+const withBase = (path: string) => `${import.meta.env.BASE_URL}${path.replace(/^\//, '')}`;
 
 // Check if we're in development mode
 const isDev = import.meta.env.DEV;
@@ -246,7 +247,7 @@ if (siteConfig.postOptions.graphView.enabled && siteConfig.postOptions.graphView
             <div class="flex flex-wrap gap-2 mb-8">
               {post.data.tags.map(tag => (
                 <a
-                  href={`/posts/tag/${encodeURIComponent(tag)}`}
+                  href={withBase(`/posts/tag/${encodeURIComponent(tag)}`)}
                   class="text-xs text-primary-600 dark:text-primary-300 bg-primary-100 dark:bg-primary-800 px-2.5 py-1 rounded-full border border-primary-200 dark:border-primary-700 transition-colors hover:bg-highlight-100 dark:hover:bg-highlight-800"
                 >
                   {tag}
@@ -272,7 +273,7 @@ if (siteConfig.postOptions.graphView.enabled && siteConfig.postOptions.graphView
               {prevPost && (
                 <div class="text-left">
                   <a
-                    href={`/posts/${prevPost.id}`}
+                    href={withBase(`/posts/${prevPost.id}`)}
                     class="group block p-4 rounded-lg border border-primary-200 dark:border-primary-700 hover:border-highlight-300 dark:hover:border-highlight-600 transition-all duration-200 hover:shadow-md"
                   >
                     <h3 class="font-semibold text-primary-900 dark:text-primary-50 group-hover:text-highlight-600 dark:group-hover:text-highlight-400 transition-colors">
@@ -288,7 +289,7 @@ if (siteConfig.postOptions.graphView.enabled && siteConfig.postOptions.graphView
               {nextPost && (
                 <div class={`text-right ${!prevPost ? 'md:col-start-2' : ''}`}>
                   <a
-                    href={`/posts/${nextPost.id}`}
+                    href={withBase(`/posts/${nextPost.id}`)}
                     class="group block p-4 rounded-lg border border-primary-200 dark:border-primary-700 hover:border-highlight-300 dark:hover:border-highlight-600 transition-all duration-200 hover:shadow-md"
                   >
                     <h3 class="font-semibold text-primary-900 dark:text-primary-50 group-hover:text-highlight-600 dark:group-hover:text-highlight-400 transition-colors">
@@ -338,7 +339,7 @@ if (siteConfig.postOptions.graphView.enabled && siteConfig.postOptions.graphView
   </div>
 
   <Fragment slot="scripts">
-    <script define:vars={{ posts: visiblePosts, commentsEnabled: siteConfig.postOptions.comments.enabled, postTitle: post.data.title, postSlug: post.id }}>
+    <script define:vars={{ posts: visiblePosts, commentsEnabled: siteConfig.postOptions.comments.enabled, postTitle: post.data.title, postSlug: post.id, siteBaseUrl: import.meta.env.BASE_URL }}>
 
       // Process wikilinks - unified logic for all wikilink types
       function initializeWikilinks() {
@@ -386,9 +387,9 @@ if (siteConfig.postOptions.graphView.enabled && siteConfig.postOptions.graphView
             const anchor = anchorMatch ? anchorMatch[1] : null;
             
             if (anchor) {
-              link.href = `/posts/${post.id}#${anchor}`;
+              link.href = `${siteBaseUrl}posts/${post.id}#${anchor}`;
             } else {
-              link.href = `/posts/${post.id}`;
+              link.href = `${siteBaseUrl}posts/${post.id}`;
             }
 
             // Simple logic:
