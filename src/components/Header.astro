@@ -2,6 +2,7 @@
 import { siteConfig } from '../config';
 import ThemeToggle from './ThemeToggle.astro';
 import Icon from './Icon.astro';
+import faviconLogo from '@/content/favicon.png';
 
 const showProfilePicture = siteConfig.profilePicture.enabled && siteConfig.profilePicture.placement === 'header';
 const profilePicture = siteConfig.profilePicture;
@@ -43,9 +44,11 @@ const paletteIcon = allSectionsDisabled ? 'search' : 'command';
               class={getHeaderProfilePictureClasses(profilePicture.style)}
             />
           ) : (
-            <span class="font-semibold text-primary-900 dark:text-primary-50">
-              {siteConfig.title}
-            </span>
+            <img
+              src={faviconLogo.src}
+              alt={siteConfig.title}
+              class="h-8 w-8 object-contain"
+            />
           )}
         </a>
       </div>
@@ -57,8 +60,11 @@ const paletteIcon = allSectionsDisabled ? 'search' : 'command';
     <nav class={`nav-desktop-audit-visible flex items-center ${  
       siteConfig.navigation.style === 'minimal' ? `space-x-5 ${siteConfig.featureButton === 'none' && !siteConfig.commandPalette.enabled ? '' : 'mr-4'}` : 'space-x-5' }`} aria-label="Main navigation">
             {siteConfig.navigation.pages.map((page, index) => {
-              const hasChildren = page.children && page.children.length > 0;
-              const hasUrl = page.url && page.url.trim() !== '';
+              const childPages = page.children ?? [];
+              const pageHref = page.url?.trim() ?? '';
+              const hasChildren = childPages.length > 0;
+              const hasUrl = pageHref.length > 0;
+              const pageTarget = pageHref.startsWith('http') ? '_blank' : undefined;
               
               if (hasChildren) {
                 // Parent item with children - dropdown menu
@@ -67,19 +73,19 @@ const paletteIcon = allSectionsDisabled ? 'search' : 'command';
                     {hasUrl ? (
                       // Clickable parent with dropdown
                       <a 
-                        href={page.url}
+                        href={pageHref}
                         class={
                           siteConfig.navigation.style === 'minimal' 
                             ? `flex items-center space-x-1 text-xs font-normal transition-colors hover:text-highlight-600 dark:hover:text-highlight-400 text-primary-500 dark:text-primary-400`
                             : `flex items-center space-x-1 text-sm font-medium transition-colors hover:text-highlight-600 dark:hover:text-highlight-400 text-primary-600 dark:text-primary-300`
                         }
-                        target={page.url.startsWith('http') ? '_blank' : undefined}
+                        target={pageTarget}
                         aria-label={`Navigate to ${page.title}`}
                         aria-haspopup="true"
                         aria-expanded="false"
                       >
                         <span>{siteConfig.navigation.style === 'minimal' ? page.title.toLowerCase() : page.title}</span>
-                        {page.url.startsWith('http') && (
+                        {pageTarget && (
                           <Icon name="external-link" class="w-3 h-3 text-primary-400 dark:text-primary-500" />
                         )}
                         <Icon name="chevron-down" class="w-3 h-3 ml-1 text-primary-400 dark:text-primary-500" title={page.title} />
@@ -102,7 +108,7 @@ const paletteIcon = allSectionsDisabled ? 'search' : 'command';
                     )}
                     {/* Dropdown menu */}
                     <div class="nav-dropdown-menu absolute top-full left-0 mt-1 hidden bg-white dark:bg-primary-900 border border-primary-200 dark:border-primary-700 rounded-lg shadow-lg py-2 min-w-[200px] z-50">
-                      {page.children.map(child => (
+                      {childPages.map(child => (
                         <a
                           href={child.url || '#'}
                           class="block px-4 py-2 text-sm text-primary-700 dark:text-primary-200 hover:text-highlight-600 dark:hover:text-highlight-400 transition-colors"
@@ -122,17 +128,17 @@ const paletteIcon = allSectionsDisabled ? 'search' : 'command';
                 // Regular navigation item without children
                 return (
                   <a 
-                    href={page.url || '#'}
+                      href={pageHref || '#'}
                     class={
                       siteConfig.navigation.style === 'minimal' 
                         ? `flex items-center space-x-1 text-xs font-normal transition-colors hover:text-highlight-600 dark:hover:text-highlight-400 text-primary-500 dark:text-primary-400`
                         : `flex items-center space-x-1 text-sm font-medium transition-colors hover:text-highlight-600 dark:hover:text-highlight-400 text-primary-600 dark:text-primary-300`
                     }
-                    target={page.url?.startsWith('http') ? '_blank' : undefined}
+                      target={pageTarget}
                     aria-label={`Navigate to ${page.title}`}
                   >
                     <span>{siteConfig.navigation.style === 'minimal' ? page.title.toLowerCase() : page.title}</span>
-                    {page.url?.startsWith('http') && (
+                      {pageTarget && (
                       <Icon name="external-link" class="w-3 h-3 text-primary-400 dark:text-primary-500" />
                     )}
                   </a>
@@ -211,8 +217,11 @@ const paletteIcon = allSectionsDisabled ? 'search' : 'command';
           aria-label="Mobile navigation menu">
         <nav class="flex flex-col space-y-1">
           {siteConfig.navigation.pages.map((page, index) => {
-            const hasChildren = page.children && page.children.length > 0;
-            const hasUrl = page.url && page.url.trim() !== '';
+            const childPages = page.children ?? [];
+            const pageHref = page.url?.trim() ?? '';
+            const hasChildren = childPages.length > 0;
+            const hasUrl = pageHref.length > 0;
+            const pageTarget = pageHref.startsWith('http') ? '_blank' : undefined;
             
             if (hasChildren) {
               // Parent item with children - accordion
@@ -222,13 +231,13 @@ const paletteIcon = allSectionsDisabled ? 'search' : 'command';
                     {hasUrl ? (
                       // Clickable parent with expand button
                       <a 
-                        href={page.url}
+                        href={pageHref}
                         class="flex-1 flex items-center justify-between px-3 py-2 text-primary-600 dark:text-primary-300 hover:text-highlight-600 dark:hover:text-highlight-400 hover:bg-primary-50 dark:hover:bg-primary-800 transition-colors font-medium rounded-md"
-                        target={page.url.startsWith('http') ? '_blank' : undefined}
+                        target={pageTarget}
                         aria-label={`Navigate to ${page.title}`}
                       >
                         <span>{page.title}</span>
-                        {page.url.startsWith('http') && (
+                        {pageTarget && (
                           <Icon name="external-link" class="w-3 h-3 text-primary-400 dark:text-primary-500" />
                         )}
                       </a>
@@ -249,7 +258,7 @@ const paletteIcon = allSectionsDisabled ? 'search' : 'command';
                   </div>
                   {/* Children menu (collapsed by default) */}
                   <div class="mobile-nav-children hidden pl-4 pt-1">
-                    {page.children.map(child => (
+                    {childPages.map(child => (
                       <a
                         href={child.url || '#'}
                         class="block px-3 py-2 text-sm text-primary-600 dark:text-primary-300 hover:text-highlight-600 dark:hover:text-highlight-400 hover:bg-primary-50 dark:hover:bg-primary-800 transition-colors font-medium rounded-md"
@@ -269,13 +278,13 @@ const paletteIcon = allSectionsDisabled ? 'search' : 'command';
               // Regular navigation item without children
               return (
                 <a 
-                  href={page.url || '#'}
+                  href={pageHref || '#'}
                   class="flex items-center justify-between px-3 py-2 text-primary-600 dark:text-primary-300 hover:text-highlight-600 dark:hover:text-highlight-400 hover:bg-primary-50 dark:hover:bg-primary-800 transition-colors font-medium rounded-md"
-                  target={page.url?.startsWith('http') ? '_blank' : undefined}
+                  target={pageTarget}
                   aria-label={`Navigate to ${page.title}`}
                 >
                   <span>{page.title}</span>
-                  {page.url?.startsWith('http') && (
+                  {pageTarget && (
                     <Icon name="external-link" class="w-3 h-3 text-primary-400 dark:text-primary-500" />
                   )}
                 </a>
@@ -316,11 +325,11 @@ const paletteIcon = allSectionsDisabled ? 'search' : 'command';
     }
 
     // Desktop dropdown menu hover behavior
-    const dropdownContainers = document.querySelectorAll('.nav-dropdown-container');
-    let hoverTimeout: ReturnType<typeof setTimeout> | null = null;
+    const dropdownContainers = document.querySelectorAll<HTMLElement>('.nav-dropdown-container');
+    let hoverTimeout: ReturnType<typeof window.setTimeout> | null = null;
 
     dropdownContainers.forEach(container => {
-      const trigger = container.querySelector('a, button');
+      const trigger = container.querySelector('a, button') as HTMLAnchorElement | HTMLButtonElement | null;
       const dropdown = container.querySelector('.nav-dropdown-menu') as HTMLElement;
       
       if (!trigger || !dropdown) return;
@@ -346,29 +355,33 @@ const paletteIcon = allSectionsDisabled ? 'search' : 'command';
       container.addEventListener('mouseleave', hideDropdown);
 
       // Keyboard navigation
-      trigger.addEventListener('keydown', (e: KeyboardEvent) => {
-        if (e.key === 'Enter' || e.key === ' ') {
-          e.preventDefault();
+      const handleTriggerKeydown: EventListener = (event) => {
+        const keyEvent = event as KeyboardEvent;
+
+        if (keyEvent.key === 'Enter' || keyEvent.key === ' ') {
+          keyEvent.preventDefault();
           if (dropdown.classList.contains('hidden')) {
             showDropdown();
           } else {
             hideDropdown();
           }
-        } else if (e.key === 'Escape') {
+        } else if (keyEvent.key === 'Escape') {
           hideDropdown();
           trigger.focus();
         }
-      });
+      };
+
+      trigger.addEventListener('keydown', handleTriggerKeydown);
     });
 
     // Mobile accordion functionality
-    const mobileNavToggles = document.querySelectorAll('.mobile-nav-toggle');
+    const mobileNavToggles = document.querySelectorAll<HTMLButtonElement>('.mobile-nav-toggle');
     mobileNavToggles.forEach(toggle => {
       toggle.addEventListener('click', () => {
         const index = toggle.getAttribute('data-toggle-index');
         const parent = toggle.closest('.mobile-nav-parent');
         const children = parent?.querySelector('.mobile-nav-children') as HTMLElement;
-        const icon = toggle.querySelector('svg');
+        const icon = toggle.querySelector<HTMLElement>('svg');
         
         if (!children || !icon) return;
 

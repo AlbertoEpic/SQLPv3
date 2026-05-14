@@ -7,6 +7,7 @@ import { getOptimizedFormat, stripObsidianBrackets } from '@/utils/images';
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import Icon from '@/components/Icon.astro';
 import ImageWrapper from '@/components/ImageWrapper.astro';
+import faviconLogo from '@/content/favicon.png';
 import logoMiniPlanetas from '@/content/logoMiniPlanetas.png';
 import pano360Favicon from '@/content/pano360 favicon-1-180x180.png';
 
@@ -301,10 +302,9 @@ const structuredData = {
       <div class="relative px-4 sm:px-6 lg:px-10 py-12 md:py-16 lg:py-20">
         <div class="grid gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.25fr)] items-center">
           <div class="hero-copy max-w-2xl">
-            {/* <div class="inline-flex items-center gap-3 rounded-full bg-primary-50/90 dark:bg-primary-900/70 border border-primary-200/90 dark:border-primary-700 px-3 py-2 mb-5">
-              <img src="/favicon.png" alt="Logotipo" class="h-8 w-8 rounded-md" loading="eager" fetchpriority="high" />
-               <span class="text-sm font-semibold tracking-wide text-primary-800 dark:text-primary-100">{siteConfig.title}</span> 
-            </div> */}
+            <div class="inline-flex items-center rounded-full bg-primary-50/90 dark:bg-primary-900/70 border border-primary-200/90 dark:border-primary-700 px-3 py-2 mb-5">
+              <img src={faviconLogo.src} alt="Logotipo SQLP" class="h-8 w-8 rounded-md" loading="eager" fetchpriority="high" />
+            </div>
 
             <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight text-primary-950 dark:text-primary-50">
               Aventuras visuales, rutas y mundos 360 desde SQLP
@@ -363,7 +363,7 @@ const structuredData = {
           <header class="island-head">
             <h3>Ultima entrada del blog</h3>
             <img
-              src="/favicon.png"
+              src={faviconLogo.src}
               alt="SQLP"
               class="w-8 h-8"
               loading="lazy"
