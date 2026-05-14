@@ -18,10 +18,10 @@
     "author": "AlbertoEpic",
     "language": "es",
     "faviconThemeAdaptive": true,
-    "defaultOgImageAlt": "Astro Modular logo."
+    "defaultOgImageAlt": "SQLP"
   },
   "layout": {
-    "contentWidth": "45rem"
+    "contentWidth": "70rem"
   },
   "tableOfContents": {
     "enabled": true,
@@ -33,7 +33,7 @@
     "showSocialIconsInFooter": true
   },
   "seo": {
-    "defaultOgImageAlt": "Astro Modular logo."
+    "defaultOgImageAlt": "SQLP"
   },
   "navigation": {
     "showNavigation": true,
@@ -121,7 +121,7 @@
       "count": 3
     },
     "blurb": {
-      "placement": "below"
+      "placement": "none"
     }
   },
   "postOptions": {
@@ -226,7 +226,7 @@
     }
   },
   "deployment": {
-    "platform": "netlify"
+    "platform": "github-pages"
   },
   "pluginConfig": {
     "obsidianSettings": {
@@ -243,8 +243,8 @@
     }
   },
   "optionalContentTypes": {
-    "projects": true,
-    "docs": true
+    "projects": false,
+    "docs": false
   },
   "availableThemes": "default",
   "customThemes": "",
