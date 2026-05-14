@@ -25,20 +25,12 @@ import { siteConfig } from './src/config.ts';
 import swup from '@swup/astro';
 import refreshContentOnChange from './src/integrations/refresh-content-on-change.ts';
 import { fileURLToPath } from 'node:url';
-import getDeploymentPlatform from './scripts/get-deployment-platform.js';
-
-// Deployment platform configuration
-const DEPLOYMENT_PLATFORM = process.env.DEPLOYMENT_PLATFORM || getDeploymentPlatform();
-const SITE_URL = new URL(siteConfig.site);
-const ASTRO_BASE = DEPLOYMENT_PLATFORM === 'github-pages'
-  ? (SITE_URL.pathname.replace(/\/$/, '') || '/')
-  : '/';
 
 export default defineConfig({
-  site: siteConfig.site,
-  base: ASTRO_BASE,
+  site: 'https://albertoepic.github.io',
+  base: '/SQLPv3',
   deployment: {
-    platform: DEPLOYMENT_PLATFORM
+    platform: siteConfig.deployment.platform
   },
   csp: {
     scriptDirective: {
