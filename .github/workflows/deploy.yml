@@ -18,8 +18,7 @@ jobs:
 
       - name: Install pnpm
         uses: pnpm/action-setup@v4
-        with:
-          version: 10
+        # Hemos quitado la línea "version: 10" para que no haya conflicto          
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
