@@ -12,7 +12,7 @@
     }
   },
   "siteInfo": {
-    "site": "https://sqlpv3.netlify.app",
+    "site": "https://albertoepic.github.io/SQLPv3/",
     "title": "SQLPv3",
     "description": "La versión más puntera de SQLP...",
     "author": "AlbertoEpic",
@@ -77,6 +77,11 @@
         "title": "YouTube",
         "url": "https://www.youtube.com/@AlbertoEpic",
         "icon": "youtube"
+      },
+      {
+        "title": "500px",
+        "url": "https://500px.com/p/albertolafarga?view=photos",
+        "icon": "500px"
       }
     ]
   },
@@ -243,8 +248,8 @@
     }
   },
   "optionalContentTypes": {
-    "projects": false,
-    "docs": false
+    "projects": true,
+    "docs": true
   },
   "availableThemes": "default",
   "customThemes": "",
