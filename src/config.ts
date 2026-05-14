@@ -183,7 +183,7 @@ export interface SiteConfig {
 export const siteConfig: SiteConfig = {
   // Site Information
   // [CONFIG:SITE_URL]
-  site: "https://sqlpv3.netlify.app",
+  site: "https://albertoepic.github.io/SQLPv3",
   // [CONFIG:SITE_TITLE]
   title: "SQLPv3",
   // [CONFIG:HOMEPAGE_TITLE]
