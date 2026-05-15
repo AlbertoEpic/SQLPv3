@@ -17,8 +17,8 @@
     {
       "id": "posts-1765432337485",
       "name": "Posts",
-      "folder": "posts",
-      "linkBasePath": "/posts/",
+      "folder": "/SQLPv3/posts/",
+      "linkBasePath": "/SQLPv3/posts/",
       "template": "---\ntitle: \"{{title}}\"\ndate: {{date}}\ndescription: \"\"\ntags: []\nheroImage: \"\"\nimageAlt: \"\"\nimageOG: false\nhideCoverImage: false\nhideTOC: false\ntargetKeyword: \"\"\ndraft: false\n---\n",
       "enabled": true,
       "creationMode": "file",
