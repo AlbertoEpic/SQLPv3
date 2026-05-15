@@ -45,7 +45,7 @@ const scrollbarClass = siteConfig.hideScrollBar ? '' : 'show-scrollbars';
 ---
 
 <!DOCTYPE html>
-<html lang={siteConfig.language} class={`scrollbar-hide ${scrollbarClass}`} data-theme-config={siteConfig.theme} data-custom-theme-file={siteConfig.customThemeFile} data-available-themes={JSON.stringify(siteConfig.availableThemes)} data-command-palette-enabled={siteConfig.commandPalette.enabled} data-command-palette-change-theme={siteConfig.commandPalette.quickActions.changeTheme} data-feature-button={siteConfig.featureButton} data-favicon-theme-adaptive={siteConfig.faviconThemeAdaptive}>
+<html lang={siteConfig.language} class={`scrollbar-hide ${scrollbarClass}`} data-theme-config={siteConfig.theme} data-custom-theme-file={siteConfig.customThemeFile} data-available-themes={JSON.stringify(siteConfig.availableThemes)} data-command-palette-enabled={siteConfig.commandPalette.enabled} data-command-palette-change-theme={siteConfig.commandPalette.quickActions.changeTheme} data-feature-button={siteConfig.featureButton} data-favicon-theme-adaptive={siteConfig.faviconThemeAdaptive} data-base-url={import.meta.env.BASE_URL}>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -116,7 +116,7 @@ const scrollbarClass = siteConfig.hideScrollBar ? '' : 'show-scrollbars';
   )}
 
   <!-- Default favicon (will be updated by JavaScript) -->
-    <link rel="icon" type="image/png" href="/SQLPv3/favicon.png" />
+    <link rel="icon" type="image/png" href={`${import.meta.env.BASE_URL}/favicon.png`} />
 
   <!-- Command Palette Config for Client Script -->
   <meta name="command-palette-shortcut" content={siteConfig.commandPalette.shortcut || ''}>
@@ -380,6 +380,7 @@ const scrollbarClass = siteConfig.hideScrollBar ? '' : 'show-scrollbars';
     // Set favicon based on system theme
     function setFavicon() {
       const faviconThemeAdaptive = window.siteConfig?.faviconThemeAdaptive ?? true;
+      const baseUrl = document.documentElement.getAttribute('data-base-url') || '';
       
       let faviconUrl;
       
@@ -389,15 +390,15 @@ const scrollbarClass = siteConfig.hideScrollBar ? '' : 'show-scrollbars';
         const prefersLight = window.matchMedia('(prefers-color-scheme: light)').matches;
 
         if (prefersDark) {
-          faviconUrl = '${import.meta.env.BASE_URL}/favicon-dark.png';
+          faviconUrl = `${baseUrl}/favicon-dark.png`;
         } else if (prefersLight) {
-          faviconUrl = '${import.meta.env.BASE_URL}/favicon-light.png';
+          faviconUrl = `${baseUrl}/favicon-light.png`;
         } else {
-          faviconUrl = '/SQLPv3/favicon.png';
+          faviconUrl = `${baseUrl}/favicon.png`;
         }
       } else {
         // Always use static favicon
-        faviconUrl = '/SQLPv3/favicon.png';
+        faviconUrl = `${baseUrl}/favicon.png`;
       }
 
       // Remove ALL existing favicon links
@@ -1128,7 +1129,7 @@ const scrollbarClass = siteConfig.hideScrollBar ? '' : 'show-scrollbars';
     </script>
 
   <!-- Global scripts - Defer non-critical JavaScript -->
-  <script define:vars={{ commentsEnabled: siteConfig.postOptions.comments.enabled }} defer>
+  <script define:vars={{ commentsEnabled: siteConfig.postOptions.comments.enabled, baseUrl: import.meta.env.BASE_URL }} defer>
     
     // Logger removed - no console output in production
 
@@ -1147,10 +1148,10 @@ const scrollbarClass = siteConfig.hideScrollBar ? '' : 'show-scrollbars';
       if (faviconThemeAdaptive) {
         // Use theme-based favicons based on browser preference
         const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-        faviconUrl = prefersDark ? '/favicon-dark.png' : '/favicon-light.png';
+        faviconUrl = prefersDark ? `${baseUrl}/favicon-dark.png` : `${baseUrl}/favicon-light.png`;
       } else {
         // Always use static favicon
-        faviconUrl = '/favicon.png';
+        faviconUrl = `${baseUrl}/favicon.png`;
       }
 
       // Remove existing favicon
