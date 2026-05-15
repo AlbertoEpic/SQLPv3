@@ -341,6 +341,19 @@ if (siteConfig.postOptions.graphView.enabled && siteConfig.postOptions.graphView
   <Fragment slot="scripts">
     <script define:vars={{ posts: visiblePosts, commentsEnabled: siteConfig.postOptions.comments.enabled, postTitle: post.data.title, postSlug: post.id, siteBaseUrl: import.meta.env.BASE_URL }}>
 
+      function fixPostAttachmentImageUrls() {
+        const images = document.querySelectorAll('img');
+        images.forEach((img) => {
+          const src = img.getAttribute('src');
+          if (src && src.startsWith('/posts/attachments/') && !src.startsWith('/SQLPv3/')) {
+            img.setAttribute('src', `/SQLPv3${src}`);
+          }
+        });
+      }
+
+      // Make function globally available for Swup re-initialization
+      window.fixPostAttachmentImageUrls = fixPostAttachmentImageUrls;
+
       // Process wikilinks - unified logic for all wikilink types
       function initializeWikilinks() {
         const wikilinks = document.querySelectorAll('.wikilink[data-wikilink]');
@@ -425,9 +438,25 @@ if (siteConfig.postOptions.graphView.enabled && siteConfig.postOptions.graphView
           window.processExternalLinks();
         }
 
+        // Fix image URLs on initial load
+        fixPostAttachmentImageUrls();
+
         // Initialize wikilinks on initial load
         initializeWikilinks();
       });
+
+      // Execute immediately as well to cover first paint scenarios
+      fixPostAttachmentImageUrls();
+
+      // Re-run after Swup navigations
+      if (window.swup?.hooks) {
+        window.swup.hooks.on('page:view', () => {
+          fixPostAttachmentImageUrls();
+        });
+        window.swup.hooks.on('visit:end', () => {
+          fixPostAttachmentImageUrls();
+        });
+      }
 
       // External links are now handled globally by BaseLayout Swup hooks
 
@@ -436,17 +465,3 @@ if (siteConfig.postOptions.graphView.enabled && siteConfig.postOptions.graphView
 
   <!-- Lightbox is handled globally by BaseLayout -->
 </BaseLayout>
-
-<script is:inline>
-  // Ejecutar cuando el HTML este listo
-  document.addEventListener('DOMContentLoaded', () => {
-    const images = document.querySelectorAll('img');
-    images.forEach(img => {
-      const src = img.getAttribute('src');
-      // Si la imagen apunta a /posts/attachments/... pero no tiene el prefijo de la base
-      if (src && src.startsWith('/posts/attachments/') && !src.startsWith('/SQLPv3/')) {
-        img.setAttribute('src', `/SQLPv3${src}`);
-      }
-    });
-  });
-</script>
