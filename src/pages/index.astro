@@ -10,6 +10,7 @@ import ImageWrapper from '@/components/ImageWrapper.astro';
 import faviconLogo from '@/content/favicon.png';
 import logoMiniPlanetas from '@/content/logoMiniPlanetas.png';
 import pano360Favicon from '@/content/pano360 favicon-1-180x180.png';
+import { withBase } from '@/utils/base-url';
 
 const allPosts = await getCollection('posts');
 const isDev = import.meta.env.DEV;
@@ -264,8 +265,6 @@ const categorizedPosts = Array.from(categoriesMap.entries())
   .map(([category, info]) => ({ category, ...info }))
   .sort((a, b) => b.count - a.count || a.category.localeCompare(b.category, 'es'))
   .slice(0, 12);
-
-const withBase = (path: string) => `${import.meta.env.BASE_URL}${path.replace(/^\//, '')}`;
 
 const seoData = generateHomeSEO(Astro.url.href);
 if (siteConfig.homepageTitle) seoData.title = siteConfig.homepageTitle;

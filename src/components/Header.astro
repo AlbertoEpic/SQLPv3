@@ -8,7 +8,7 @@ const showProfilePicture = siteConfig.profilePicture.enabled && siteConfig.profi
 const profilePicture = siteConfig.profilePicture;
 const baseUrl = import.meta.env.BASE_URL;
 
-const withBase = (path: string) => `${baseUrl}${path.replace(/^\//, '')}`;
+const withBase = (path: string) => `${baseUrl.replace(/\/$/, '')}/${path.replace(/^\//, '')}`;
 
 const resolveNavHref = (rawUrl?: string) => {
   if (!rawUrl) return '#';

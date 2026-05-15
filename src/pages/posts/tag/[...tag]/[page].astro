@@ -8,6 +8,7 @@ import PostCard from '@/components/PostCard.astro';
 import Tags from '@/components/Tags.astro';
 import Pagination from '@/components/Pagination.astro';
 import Icon from '@/components/Icon.astro';
+import { withBase } from '@/utils/base-url';
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const isDev = import.meta.env.DEV;
@@ -114,8 +115,6 @@ const seoData = {
   canonical: Astro.url.href,
   ogType: 'website' as const
 };
-
-const withBase = (path: string) => `${import.meta.env.BASE_URL}${path.replace(/^\//, '')}`;
 
 // Pagination info
 const baseUrl = withBase(`/posts/tag/${encodeURIComponent(tag)}`);

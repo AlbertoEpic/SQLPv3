@@ -11,7 +11,7 @@ export interface Props {
 
 const { currentSlug } = Astro.props;
 const isCompact = (siteConfig.postOptions.linkedMentions as any).linkedMentionsCompact;
-const withBase = (path: string) => `${import.meta.env.BASE_URL}${path.replace(/^\//, '')}`;
+import { withBase } from '@/utils/base-url';
 
 // Get all posts and pages to find linked mentions
 const posts = await getCollection('posts');

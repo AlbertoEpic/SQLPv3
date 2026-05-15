@@ -10,7 +10,7 @@ export interface Props {
 }
 
 const { tags, currentTag, showCount = false, variant = 'default' } = Astro.props;
-const withBase = (path: string) => `${import.meta.env.BASE_URL}${path.replace(/^\//, '')}`;
+import { withBase } from '@/utils/base-url';
 
 // Sort tags alphabetically
 const sortedTags = [...tags].sort();

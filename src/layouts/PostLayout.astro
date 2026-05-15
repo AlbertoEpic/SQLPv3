@@ -23,7 +23,7 @@ export interface Props {
 }
 
 const { post } = Astro.props;
-const withBase = (path: string) => `${import.meta.env.BASE_URL}${path.replace(/^\//, '')}`;
+import { withBase } from '@/utils/base-url';
 
 // Check if we're in development mode
 const isDev = import.meta.env.DEV;
