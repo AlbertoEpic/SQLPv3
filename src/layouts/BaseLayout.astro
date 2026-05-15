@@ -116,7 +116,7 @@ const scrollbarClass = siteConfig.hideScrollBar ? '' : 'show-scrollbars';
   )}
 
   <!-- Default favicon (will be updated by JavaScript) -->
-  <link rel="icon" href="/favicon.png" />
+    <link rel="icon" type="image/png" href="/SQLPv3/favicon.png" />
 
   <!-- Command Palette Config for Client Script -->
   <meta name="command-palette-shortcut" content={siteConfig.commandPalette.shortcut || ''}>
@@ -389,15 +389,15 @@ const scrollbarClass = siteConfig.hideScrollBar ? '' : 'show-scrollbars';
         const prefersLight = window.matchMedia('(prefers-color-scheme: light)').matches;
 
         if (prefersDark) {
-          faviconUrl = '/favicon-dark.png';
+          faviconUrl = '${import.meta.env.BASE_URL}/favicon-dark.png';
         } else if (prefersLight) {
-          faviconUrl = '/favicon-light.png';
+          faviconUrl = '${import.meta.env.BASE_URL}/favicon-light.png';
         } else {
-          faviconUrl = '/favicon.png';
+          faviconUrl = '/SQLPv3/favicon.png';
         }
       } else {
         // Always use static favicon
-        faviconUrl = '/favicon.png';
+        faviconUrl = '/SQLPv3/favicon.png';
       }
 
       // Remove ALL existing favicon links

@@ -28,7 +28,7 @@ import { fileURLToPath } from 'node:url';
 
 export default defineConfig({
   site: 'https://albertoepic.github.io',
-  base: '/SQLPv3/',
+  base: '/SQLPv3',
   deployment: {
     platform: siteConfig.deployment.platform
   },
