@@ -436,3 +436,17 @@ if (siteConfig.postOptions.graphView.enabled && siteConfig.postOptions.graphView
 
   <!-- Lightbox is handled globally by BaseLayout -->
 </BaseLayout>
+
+<script is:inline>
+  // Ejecutar cuando el HTML este listo
+  document.addEventListener('DOMContentLoaded', () => {
+    const images = document.querySelectorAll('img');
+    images.forEach(img => {
+      const src = img.getAttribute('src');
+      // Si la imagen apunta a /posts/attachments/... pero no tiene el prefijo de la base
+      if (src && src.startsWith('/posts/attachments/') && !src.startsWith('/SQLPv3/')) {
+        img.setAttribute('src', `/SQLPv3${src}`);
+      }
+    });
+  });
+</script>
