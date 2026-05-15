@@ -17,6 +17,7 @@ tags:
 
 El pasado 9 de julio, los especialistas de SQLP Myriam&AlbertoEpic buscaban un lugar elevado desde donde disfrutar de una mí­tica puesta de sol. Barajadas posibles opciones, y siendo la condición indispensable que estuviera permitido volar el Alberdrón, al final se decidieron por contemplar el atardecer desde la cima del pico Porrón.
 
+## El vídeo
 Puedes ver el ví­deo resultante de la experiencia a continuación:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YamMQnOcvag" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -25,10 +26,13 @@ Por si te ha gustado y quieres repetir la actividad, debajo tienes el mapa con e
 
 Tras la puesta de sol, regreso con frontales hasta las bicis, y bajada a Sandiniés tras remontar el mini puerto hasta el embalse de las Paúles.
 
+## El track
+
 <iframe class="alltrails" src="https://www.alltrails.com/es/widget/map/map-d0f5eda-26?scrollZoom=ó&u=m&sh=w4k06q" width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="AllTrails: Trail Guides and Maps for Hiking, Camping, and Running"></iframe>
 
 En esa subida, a velocidad más lenta, se veí­an observados por multitud de ojos que brillaban en la oscuridad a la luz de los frontales...
 
+## Las fotos
 Un par de fotos a continuación:
 
 ![Recién llegados a la cima del Porrón, con 1h por delante para ir viendo cómo el sol se ocultaba tras las montañas...](attachments/DJI_0087-Mejorado-NR-1024x768.webp)
@@ -43,6 +47,7 @@ Un par de fotos a continuación:
 
 *Y mientras el sol se poní­a por el W, la luna llena aparecí­a a nuestras espaldas, por el E...*
 
+## Pano360
 También puedes ver una foto esférica con cimas etiquetadas desde el Porrón realizada durante el dí­a, en otra ocasión anterior, [haciendo click aquí­](https://pano360.soloquedalopeor.com/panorama/el-porron-2-311m/).
 
 

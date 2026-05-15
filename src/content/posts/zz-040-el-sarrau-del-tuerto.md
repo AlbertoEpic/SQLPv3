@@ -21,14 +21,18 @@ En esta ocasión le toca el turno al cordal de la Sierra de las Mentiras. Limí�
 
 A petición de AlbertoEpic, deciden hacer la ruta desde Buesa, en lugar de Broto, para contar con algo de tiempo extra para volar el dron. Tienes a continuación el track con la ruta realizada:
 
+## El Track
+
 <iframe class="alltrails" src="https://www.alltrails.com/es/widget/map/sarrau-del-tuerto-desde-buesa-st-65f2a94?scrollZoom=ó&u=m&sh=w4k06q" width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="AllTrails: Trail Guides and Maps for Hiking, Camping, and Running"></iframe>
 
 Desgraciadamente, la predicción de la meteo falló y el frente se adelantó, de manera que no tuvieron visibilidad hacia los tresmiles de Ordesa... Gran excusa para volver! Nuestros especialistas terminaron la ruta en medio de una discreta nevada.
 
+## El vídeo
 Y tras mucho dudarlo, sacaron el dron para unas breves imágenes de la parte alta de la ruta. Después de cargarlo toda la subida... era tonterí­a no sacarlo!
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QR0JJjAPpDI" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+## Las fotos
 Y después del 'short' de Youtube, te mostramos alguna foto de la ruta:
 
 ![Dani y Jorge en la parte alta de la ruta. Un dí­a totalmente despejado a la salida se estaba nublando...](attachments/SarrauTu1.webp)

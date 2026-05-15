@@ -44,9 +44,9 @@ views:
       and:
         - file.folder.startsWith("posts")
     sort:
-      - property: date
+      - property: pubDate
         direction: DESC
-    imageProperty: note.image
+    imageProperty: note.heroImage
     fallbackToEmbeds: if-empty
     propertyDisplay1: formula.Slug
     showTextPreview: true
@@ -55,7 +55,7 @@ views:
     showDraftStatus: true
     propertyLabels: above
     titleProperty: note.title
-    dateProperty: note.date
+    dateProperty: note.pubDate
     draftStatusProperty: note.draft
     descriptionProperty: note.description
     propertyLayout12SideBySide: false
@@ -72,6 +72,7 @@ views:
     draftStatusReverse: false
     scheduledDateProperty: note.date
     showScheduledBadge: true
+    hideQuickEditIcon: false
   - type: cms
     name: Pages
     filters:

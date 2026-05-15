@@ -18,7 +18,8 @@
     "author": "AlbertoEpic",
     "language": "es",
     "faviconThemeAdaptive": true,
-    "defaultOgImageAlt": "SQLP"
+    "defaultOgImageAlt": "SQLP",
+    "homepageTitle": ".::: SQLP :::."
   },
   "layout": {
     "contentWidth": "70rem"
@@ -248,8 +249,8 @@
     }
   },
   "optionalContentTypes": {
-    "projects": true,
-    "docs": true
+    "projects": false,
+    "docs": false
   },
   "availableThemes": "default",
   "customThemes": "",
