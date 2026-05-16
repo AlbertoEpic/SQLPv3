@@ -11,6 +11,7 @@ import faviconLogo from '@/content/favicon.png';
 import logoMiniPlanetas from '@/content/logoMiniPlanetas.png';
 import pano360Favicon from '@/content/pano360 favicon-1-180x180.png';
 import { withBase } from '@/utils/base-url';
+import Instagram from '@/components/Instagram.astro';
 
 const allPosts = await getCollection('posts');
 const isDev = import.meta.env.DEV;
@@ -403,7 +404,7 @@ const structuredData = {
       <div class="islands-grid-3">
         <article class="island-card">
           <header class="island-head">
-            <h3>Ultima entrada del blog</h3>
+            <h3>ÚUltima entrada del blog</h3>
             <img
               src={faviconLogo.src}
               alt="SQLP"
@@ -541,9 +542,12 @@ const structuredData = {
             <h3>Instagram</h3>
           </div>
           <p>¿Prefieres el Instagram? Fotos y Reels de Albertroid...</p>
-          <!-- LightWidget WIDGET -->
-          <iframe src="//lightwidget.com/widgets/01da894476135b5badbc4ef1845b2ea6.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;">
-          </iframe>
+          <iframe
+            src="https://feeds.behold.so/2Ru3wNoVDy0rJKYYZ4O0"
+            style="width:100%;height:600px;border:0;border-radius:1rem"
+            loading="lazy"
+            title="Instagram feed from Behold"
+          ></iframe>
         </div>
 
 
