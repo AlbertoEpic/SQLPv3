@@ -1258,6 +1258,9 @@ const scrollbarClass = siteConfig.hideScrollBar ? '' : 'show-scrollbars';
         }
         window.initializeGiscusComments();
       }
+      if (window.initializeImagePreloader) {
+        window.initializeImagePreloader();
+      }
       // Initialize base embeds on initial page load (before table wrappers)
       if (window.initializeBaseEmbeds) {
         window.initializeBaseEmbeds();
@@ -1409,6 +1412,9 @@ const scrollbarClass = siteConfig.hideScrollBar ? '' : 'show-scrollbars';
           const theme = getThemeWithoutClearing();
           document.documentElement.setAttribute('data-theme', theme);
           updateThemeCSSVariables(theme).catch(console.error);
+          if (window.initializeImagePreloader) {
+            window.initializeImagePreloader();
+          }
           setTimeout(() => {
             if (document.querySelector('#giscus-comments')) {
               window.initializeGiscusComments();
@@ -1592,6 +1598,11 @@ const scrollbarClass = siteConfig.hideScrollBar ? '' : 'show-scrollbars';
 
     // Initialize global preloader
     window.imagePreloader = new ImagePreloader();
+    function initializeImagePreloader() {
+      window.imagePreloader?.preloadAllImages();
+    }
+
+    window.initializeImagePreloader = initializeImagePreloader;
 
     // Handle smooth scrolling for anchor links (same-page only)
     function setupSmoothScrolling() {
