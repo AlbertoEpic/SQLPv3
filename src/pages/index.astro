@@ -237,6 +237,49 @@ const youtubeLink = siteConfig.navigation.social.find(
   social => /youtube/i.test(social.title)
 )?.url || '#';
 
+type YoutubeVideo = {
+  id: string;
+  title: string;
+  url: string;
+  thumbnail: string;
+};
+
+let latestYoutubeVideos: YoutubeVideo[] = [];
+
+try {
+  const youtubeFeedUrl = 'https://www.youtube.com/feeds/videos.xml?user=AlbertoEpic';
+  const youtubeRes = await fetch(youtubeFeedUrl, {
+    headers: {
+      'User-Agent': 'Mozilla/5.0 (compatible; SQLP-Astro-Bot/1.0; +https://soloquedalopeor.com)',
+      Accept: 'application/atom+xml,text/xml',
+    },
+  });
+
+  if (youtubeRes.ok) {
+    const xml = await youtubeRes.text();
+    const entries = Array.from(xml.matchAll(/<entry>([\s\S]*?)<\/entry>/g)).map((m) => m[1]);
+
+    latestYoutubeVideos = entries.slice(0, 3).map((entry) => {
+      const idMatch = entry.match(/<yt:videoId>([^<]+)<\/yt:videoId>/);
+      const titleMatch = entry.match(/<title>([\s\S]*?)<\/title>/);
+      const linkMatch = entry.match(/<link\s+rel=["']alternate["'][^>]*href=["']([^"']+)["']/);
+
+      const id = idMatch?.[1]?.trim() || '';
+      const title = titleMatch?.[1]?.trim() || 'Video de YouTube';
+      const url = linkMatch?.[1]?.trim() || (id ? `https://www.youtube.com/watch?v=${id}` : youtubeLink);
+
+      return {
+        id,
+        title,
+        url,
+        thumbnail: id ? `https://i.ytimg.com/vi/${id}/hqdefault.jpg` : '',
+      };
+    }).filter(video => video.id && video.thumbnail);
+  }
+} catch {
+  latestYoutubeVideos = [];
+}
+
 const categoriesMap = new Map<string, { count: number; latestPostId: string; latestPostTitle: string }>();
 
 for (const post of processedPosts) {
@@ -289,6 +332,7 @@ const structuredData = {
 
 <BaseLayout seoData={seoData}>
   <Fragment slot="head">
+    <script src="https://cdn.lightwidget.com/widgets/lightwidget.js" is:inline></script>
     <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />
     {latestPostImage && (
       <link rel="preload" as="image" href={latestPostImage.preloadHref} fetchpriority="high" />
@@ -304,11 +348,11 @@ const structuredData = {
         <div class="grid gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.25fr)] items-center">
           <div class="hero-copy max-w-2xl">
 
-            <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight text-primary-950 dark:text-primary-50">
-              SóloQueda Lo Peor...
+            <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight text-white">
+              Sólo Queda Lo Peor...
             </h1>
 
-            <p class="mt-4 text-base sm:text-lg text-primary-700 dark:text-primary-200 max-w-xl">
+            <p class="mt-4 text-base sm:text-lg text-white/90 max-w-xl">
               Aventuras visuales, rutas, panoramas esféricos y miniplanetas desde la Factoría SQLP...
             </p>
 
@@ -491,23 +535,54 @@ const structuredData = {
 
     <section class="content-row px-4 sm:px-6 lg:px-10 mt-8">
       <div class="social-column">
-        <a href={instagramLink} class="social-island" data-no-swup>
+        <div class="social-island instagram-widget" data-no-swup>
           <div class="social-head">
             <Icon name="instagram" class="w-5 h-5" />
             <h3>Instagram</h3>
           </div>
-          <p>Fotos, stories y momentos del dia a dia en ruta.</p>
-          <span>Ir a Instagram</span>
-        </a>
+          <p>¿Prefieres el Instagram? Fotos y Reels de Albertroid...</p>
+          <!-- LightWidget WIDGET -->
+          <iframe src="//lightwidget.com/widgets/01da894476135b5badbc4ef1845b2ea6.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;">
+          </iframe>
+        </div>
 
-        <a href={youtubeLink} class="social-island" data-no-swup>
+
+        <div class="social-island youtube-widget" data-no-swup>
           <div class="social-head">
             <Icon name="youtube" class="w-5 h-5" />
             <h3>YouTube</h3>
           </div>
-          <p>Videos, recorridos y contenido audiovisual extendido.</p>
-          <span>Ir a YouTube</span>
-        </a>
+          <p>Ultimos videos del canal de AlbertoEpic.</p>
+          {latestYoutubeVideos.length > 0 ? (
+            <div class="youtube-row" role="list" aria-label="Ultimos videos de YouTube">
+              {latestYoutubeVideos.map((video) => (
+                <a
+                  href={video.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="youtube-video"
+                  role="listitem"
+                  aria-label={`Ver ${video.title}`}
+                >
+                  <img
+                    src={video.thumbnail}
+                    alt={video.title}
+                    loading="lazy"
+                    decoding="async"
+                    class="youtube-video-thumb"
+                    width="480"
+                    height="270"
+                  />
+                  <span class="youtube-video-title">{video.title}</span>
+                </a>
+              ))}
+            </div>
+          ) : (
+            <a href={youtubeLink} target="_blank" rel="noopener noreferrer" class="island-link">
+              <span class="island-cta">Ir al canal</span>
+            </a>
+          )}
+        </div>
       </div>
     </section>
   </main>
@@ -787,7 +862,7 @@ const structuredData = {
     display: grid;
     gap: 0.9rem;
     grid-template-columns: minmax(0, 1fr);
-    max-width: 34rem;
+  /*  max-width: 34rem; */
   }
 
   .social-island {
@@ -835,6 +910,57 @@ const structuredData = {
 
   :global(.dark) .social-island span {
     color: rgb(var(--color-highlight-300));
+  }
+
+  .youtube-row {
+    margin-top: 0.75rem;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.55rem;
+  }
+
+  .youtube-video {
+    display: grid;
+    gap: 0.35rem;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .youtube-video-thumb {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border-radius: 0.6rem;
+    border: 1px solid rgb(var(--color-primary-300));
+    transition: transform 180ms ease;
+  }
+
+  .youtube-video:hover .youtube-video-thumb {
+    transform: translateY(-1px);
+  }
+
+  .youtube-video-title {
+    font-size: 0.72rem;
+    line-height: 1.2;
+    color: rgb(var(--color-primary-800));
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  :global(.dark) .youtube-video-thumb {
+    border-color: rgb(var(--color-primary-600));
+  }
+
+  :global(.dark) .youtube-video-title {
+    color: rgb(var(--color-primary-100));
+  }
+
+  @media (max-width: 767px) {
+    .youtube-row {
+      grid-template-columns: 1fr;
+    }
   }
 
   @media (min-width: 768px) {
