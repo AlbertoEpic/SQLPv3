@@ -12,6 +12,7 @@ import logoMiniPlanetas from '@/content/logoMiniPlanetas.png';
 import pano360Favicon from '@/content/pano360 favicon-1-180x180.png';
 import { withBase } from '@/utils/base-url';
 import Instagram from '@/components/Instagram.astro';
+import HomeGraph from '@/components/HomeGraph.astro';
 
 const allPosts = await getCollection('posts');
 const isDev = import.meta.env.DEV;
@@ -635,23 +636,11 @@ const structuredData = {
     <section class="content-row px-4 sm:px-6 lg:px-10 mt-8">
       <article class="island-card island-wide">
         <header class="island-head">
-          <h3>Entradas por categorias</h3>
-          <Icon name="tag" class="w-4 h-4" />
+          <h3>Gráfico de conexiones</h3>
+          <Icon name="network" class="w-4 h-4" />
         </header>
 
-        {categorizedPosts.length > 0 ? (
-          <div class="category-grid">
-            {categorizedPosts.map((item) => (
-              <a href={withBase(`/posts/tag/${encodeURIComponent(item.category)}`)} class="category-chip">
-                <span class="category-name">#{item.category}</span>
-                <span class="category-count">{item.count} entradas</span>
-                <span class="category-latest">Ultima: {item.latestPostTitle}</span>
-              </a>
-            ))}
-          </div>
-        ) : (
-          <p class="island-empty">No hay categorias disponibles aun.</p>
-        )}
+        <HomeGraph />
       </article>
     </section>
 

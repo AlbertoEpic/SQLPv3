@@ -293,7 +293,7 @@ function readContentFiles(dirPath) {
         const indexPath = join(itemPath, "index.md");
         if (existsSync(indexPath)) {
           const content = readFileSync(indexPath, "utf-8");
-          const parsed = parseMarkdownFile(content, item);
+          const parsed = parseMarkdownFile(content, item, `posts/${item}/index.md`);
           if (parsed) {
             posts.push(parsed);
           }
@@ -302,7 +302,7 @@ function readContentFiles(dirPath) {
         // Handle single-file posts
         const content = readFileSync(itemPath, "utf-8");
         const slug = item.replace(".md", "");
-        const parsed = parseMarkdownFile(content, slug);
+        const parsed = parseMarkdownFile(content, slug, `posts/${item}`);
         if (parsed) {
           posts.push(parsed);
         }
@@ -318,7 +318,7 @@ function readContentFiles(dirPath) {
 /**
  * Parse markdown file and extract frontmatter and content
  */
-function parseMarkdownFile(content, slug) {
+function parseMarkdownFile(content, slug, sourcePath = "") {
   try {
     // Extract frontmatter (handle both \n and \r\n line endings)
     const frontmatterMatch = content.match(
@@ -373,6 +373,13 @@ function parseMarkdownFile(content, slug) {
             data[key] = new Date(value);
           } else if (key === "draft") {
             data[key] = value === "true";
+          } else if (key === "tags" && value.startsWith("[") && value.endsWith("]")) {
+            // Support inline tags syntax: tags: [foo, bar]
+            data[key] = value
+              .slice(1, -1)
+              .split(",")
+              .map((tag) => tag.trim().replace(/^['\"]|['\"]$/g, ""))
+              .filter(Boolean);
           } else if (
             key === "imageOG" ||
             key === "hideCoverImage" ||
@@ -400,6 +407,7 @@ function parseMarkdownFile(content, slug) {
       id: slug,
       data,
       body,
+      sourcePath,
     };
   } catch (error) {
     log.warn(`Error parsing file ${slug}:`, error.message);
@@ -436,12 +444,29 @@ async function generateGraphData() {
 
     // Process each post
     for (const post of visiblePosts) {
+      const normalizedTags = Array.isArray(post.data.tags)
+        ? post.data.tags.map((tag) => String(tag).trim()).filter(Boolean)
+        : typeof post.data.tags === "string"
+          ? [post.data.tags.trim()].filter(Boolean)
+          : [];
+
+      const folder = (() => {
+        if (!post.sourcePath) return "";
+        const relativePath = post.sourcePath.replace(/^posts\//, "");
+        const parts = relativePath.split("/").filter(Boolean);
+        // Single-file posts (posts/foo.md) are in root; folder-based posts (posts/foo/index.md) use "foo".
+        return parts.length > 1 ? parts[0] : "";
+      })();
+
       // Add post node
       const postNode = {
         id: post.id,
         type: "post",
         title: post.data.title,
         slug: post.id,
+        tags: normalizedTags,
+        folder,
+        sourcePath: post.sourcePath || `posts/${post.id}.md`,
         date: post.data.date
           ? post.data.date.toISOString()
           : new Date().toISOString(),

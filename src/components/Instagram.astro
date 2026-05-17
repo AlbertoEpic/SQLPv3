@@ -1,0 +1,60 @@
+---
+// --- SECCIÓN DE SERVIDOR ---
+const url = import.meta.env.BEHOLD_API_URL;
+let fotos = [];
+
+try {
+  const response = await fetch(url);
+  fotos = await response.json();
+} catch (error) {
+  console.error("Error cargando el feed de Instagram:", error);
+}
+---
+
+<!-- --- SECCIÓN HTML --- -->
+<section class="instagram-contenedor">
+  <h2>Sígueme en Instagram</h2>
+  
+  <div class="instagram-grid">
+    {fotos.length > 0 ? (
+      // Mostramos las últimas 6 fotos
+      fotos.slice(0, 6).map((foto) => (
+        <a href={foto.permalink} target="_blank" rel="noopener noreferrer" class="instagram-tarjeta">
+          <img src={foto.mediaUrl} alt={foto.caption || "Foto de Instagram"} loading="lazy" />
+        </a>
+      ))
+    ) : (
+      <p>Las fotos no están disponibles en este momento.</p>
+    )}
+  </div>
+</section>
+
+<!-- --- SECCIÓN DE ESTILOS CSS --- -->
+<style>
+  .instagram-contenedor {
+    margin: 40px auto;
+    max-width: 1000px;
+    padding: 0 20px;
+  }
+  .instagram-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 16px;
+    margin-top: 20px;
+  }
+  .instagram-tarjeta {
+    overflow: hidden;
+    border-radius: 8px;
+    aspect-ratio: 1 / 1;
+    display: block;
+  }
+  .instagram-tarjeta img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  .instagram-tarjeta:hover img {
+    transform: scale(1.05);
+  }
+</style>
