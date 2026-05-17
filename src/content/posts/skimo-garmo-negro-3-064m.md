@@ -10,7 +10,7 @@ category: "Esquí de travesía"
 tags:
   - "balneario de panticosa"
   - "skimo"
-  - "Valle de Tena"
+  - valle_de_tena
 ---
 Un clásico entre los clásicos...
 El pasado 29 de marzo, los especialistas de SQLP Myriam y AlbertoEpic se limitaron a rellenar el expediente con la ascensión anual de rigor al Gamo Negro, desde el Balneario de Panticosa. Todo un clásico del esquí de montaña en el valle de Tena.

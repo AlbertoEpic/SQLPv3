@@ -1,16 +1,16 @@
 ---
-title: "Circular al pico Ferraturas (2.641m)"
-heroImage: "https://i.imgur.com/xnsY7DU.jpg"
+title: Circular al pico Ferraturas (2.641m)
+heroImage: https://i.imgur.com/xnsY7DU.jpg
 pubDate: 2017-04-13T10:00:57Z
 updatedDate: 2017-04-23T21:49:34Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "En SQLP hemos estado realizando esta vuelta perfecta para la primavera... Salimos sobre las 8:30am de los paraludes de la carretera (Ver track) y ascendemos sin ninguna prisa, ya que la orientación perfecta para esta época (NW) mantiene la "
-category: "Esquí de travesía"
+category: Esquí de travesía
 tags:
-  - "Esquí de travesía"
-  - "Ferraturas"
-  - "Valle de Tena"
+  - Ferraturas
+  - valle_de_tena
+  - skimo
 ---
 En SQLP hemos estado realizando esta vuelta perfecta para la primavera...
 Salimos sobre las 8:30am de los paraludes de la carretera (Ver track) y ascendemos sin ninguna prisa, ya que la orientación perfecta para esta época (NW) mantiene la nieve muy bien hasta mediodía.

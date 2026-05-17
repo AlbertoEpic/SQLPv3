@@ -10,7 +10,7 @@ category: "Bicicleta de montaña"
 tags:
   - "fatbike"
   - "formigal"
-  - "Valle de Tena"
+  - valle_de_tena
 ---
 
 ![Imagen](https://i.imgur.com/u1Qxwr0.jpg)

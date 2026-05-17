@@ -1,19 +1,18 @@
 ---
-title: "Diente Occidental de Batanes (2.878m)"
+title: Diente Occidental de Batanes (2.878m)
 pubDate: 2013-03-28T07:58:00Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:37Z
 draft: false
-author: "AlbertoEpic"
-description: "El pasado domingo, contra todo pronóstico, en Producciones SoloQuedaLoPeor pudimos filmar la ascensión al Diente de Batanes Occidental. La idea era subir un rato, en espera de que las tormentas anunciadas a medio día nos echaran para atrás."
-category: "Esquí de travesía"
+author: AlbertoEpic
+description: El pasado domingo, contra todo pronóstico, en Producciones SoloQuedaLoPeor pudimos filmar la ascensión al Diente de Batanes Occidental. La idea era subir un rato, en espera de que las tormentas anunciadas a medio día nos echaran para atrás.
+category: Esquí de travesía
 tags:
-  - "balneario de panticosa"
-  - "dientes de batanes"
-  - "Esquí de travesía"
-  - "panticosa"
-  - "Valle de Tena"
+  - dientes_de_batanes
+  - panticosa
+  - valle_de_tena
+  - skimo
+  - balneario_de_panticosa
 ---
 El pasado domingo, contra todo pronóstico, en Producciones SoloQuedaLoPeor pudimos filmar la ascensión al Diente de Batanes Occidental. La idea era subir un rato, en espera de que las tormentas anunciadas a medio día nos echaran para atrás.
 

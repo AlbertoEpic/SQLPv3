@@ -1,16 +1,16 @@
 ---
 title: "BTT enduro - Foz de Salinas: circular desde Villalangua"
-heroImage: "https://i.imgur.com/DvPrk1l.jpg"
+heroImage: https://i.imgur.com/DvPrk1l.jpg
 pubDate: 2019-05-10T11:46:42Z
 updatedDate: 2019-05-10T11:47:33Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "Senda romántica (Artaso) vs Senda endurera (Osqueta) En la ruta que presentamos hoy viajaremos al pasado, a los orígenes del btt, cuando recorríamos las sendas abandonadas, cubiertas de vegetación y llenas de piedras donde no debían estar. "
-category: "Bicicleta de montaña"
+category: Bicicleta de montaña
 tags:
-  - "btt"
-  - "Osqueta"
-  - "sierra de santo domingo"
+  - btt
+  - Osqueta
+  - sierra_de_santo_domingo
 ---
 
 ## Senda romántica (Artaso) vs Senda endurera (Osqueta)

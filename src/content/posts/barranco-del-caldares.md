@@ -1,15 +1,15 @@
 ---
-title: "Barranco del Caldarés"
-heroImage: "https://i.imgur.com/7paA5TI.jpg"
+title: Barranco del Caldarés
+heroImage: https://i.imgur.com/7paA5TI.jpg
 pubDate: 2020-08-09T11:22:23Z
 updatedDate: 2020-08-09T11:23:48Z
 draft: false
-author: "AlbertoEpic"
-description: "El otro día, nuestro especialista AlbertoEpic se reunió con las expertas barranquistas Almu(dena) y Eli(sa) para escapar a las inhumanas temperaturas del verano. La idea era darse un buen remojón, y para eso nada mejor que acudir al Balnear"
-category: "Descenso de barrancos"
+author: AlbertoEpic
+description: El otro día, nuestro especialista AlbertoEpic se reunió con las expertas barranquistas Almu(dena) y Eli(sa) para escapar a las inhumanas temperaturas del verano. La idea era darse un buen remojón, y para eso nada mejor que acudir al Balnear
+category: Descenso de barrancos
 tags:
-  - "Caldarés"
-  - "Valle de Tena"
+  - Caldarés
+  - valle_de_tena
 ---
 El otro día, nuestro especialista AlbertoEpic se reunió con las expertas barranquistas Almu(dena) y Eli(sa) para escapar a las inhumanas temperaturas del verano. La idea era darse un buen remojón, y para eso nada mejor que acudir al Balneario de Panticosa, como sugerencia de Almu, y hacer el descenso del Caldarés.
 

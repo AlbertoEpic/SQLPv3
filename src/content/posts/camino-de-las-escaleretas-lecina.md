@@ -1,12 +1,15 @@
 ---
-title: "Camino de las Escaleretas - Lecina"
-heroImage: "https://i.imgur.com/wAlL41D.jpg"
+title: Camino de las Escaleretas - Lecina
+heroImage: https://i.imgur.com/wAlL41D.jpg
 pubDate: 2022-11-16T10:17:37Z
 updatedDate: 2022-11-16T10:28:42Z
 draft: false
-author: "AlbertoEpic"
-description: "Excursián infantil con un montán de alicientes... El pasado domingo, y aprovechando una meteo excepcional, el equipo SQLP-kids realizá una nueva actividad, esta vez con numerosa y selecta participacián... Seres de Aniás, Bolea y Tierz se re"
-category: "SQLP-kids"
+author: AlbertoEpic
+description: Excursián infantil con un montán de alicientes... El pasado domingo, y aprovechando una meteo excepcional, el equipo SQLP-kids realizá una nueva actividad, esta vez con numerosa y selecta participacián... Seres de Aniás, Bolea y Tierz se re
+category: SQLP-kids
+tags:
+  - via_ferrata
+  - sierra_de_guara
 ---
 
 ## Excursián infantil con un montán de alicientes...

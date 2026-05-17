@@ -9,7 +9,7 @@ description: "En este impás mientras esperamos que las condiciones en el Pirine
 category: "Ascensiones"
 tags:
   - "Borón"
-  - "sierra guara"
+  - "sierra_de_guara"
 ---
 En este impás mientras esperamos que las condiciones en el Pirineo sean buenas para el esquí de travesía, y en esos días de meteo incierta en alta montaña, siempre es una buena oportunidad para caminar por la sierra.
 En este caso, Cheles y AlbertoEpic aprovechan para subir al Borón. La idea original era ascender al Picón, pero al llegar al inicio del sendero se encuentran con lo tristemente típico en estas fechas: un montón de todoterrenos con carros, y los carteles de "MUCHO PELIGRO: BATIDA DE CAZA MAYOR*"

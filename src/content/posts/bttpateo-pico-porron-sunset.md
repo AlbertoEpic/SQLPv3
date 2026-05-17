@@ -1,21 +1,21 @@
 ---
 title: "BTT+Pateo: pico Porrón Sunset"
-heroImage: "attachments/DJI_0087-Mejorado-NR-1024x768.webp"
+heroImage: attachments/DJI_0087-Mejorado-NR-1024x768.webp
 pubDate: 2025-07-31T09:31:30Z
 updatedDate: 2025-07-31T09:32:02Z
 draft: false
-author: "AlbertoEpic"
-description: "Puesta de sol desde esta magní­fica atalaya... El pasado 9 de julio, los especialistas de SQLP Myriam&AlbertoEpic buscaban un lugar elevado desde donde disfrutar de una mí­tica puesta de sol. Barajadas posibles opciones, y siendo la condición"
-category: "Ascensiones"
+author: AlbertoEpic
+description: puesta_de_sol desde esta magní­fica atalaya... El pasado 9 de julio, los especialistas de SQLP Myriam&AlbertoEpic buscaban un lugar elevado desde donde disfrutar de una mí­tica puesta_de_sol. Barajadas posibles opciones, y siendo la condición
+category: BTT+Pateo
 tags:
-  - "ascensiones"
-  - "btt"
-  - "Valle de Tena"
+  - ascensiones
+  - btt
+  - valle_de_tena
 ---
 
-## Puesta de sol desde esta magní­fica atalaya...
+## puesta_de_sol desde esta magní­fica atalaya...
 
-El pasado 9 de julio, los especialistas de SQLP Myriam&AlbertoEpic buscaban un lugar elevado desde donde disfrutar de una mí­tica puesta de sol. Barajadas posibles opciones, y siendo la condición indispensable que estuviera permitido volar el Alberdrón, al final se decidieron por contemplar el atardecer desde la cima del pico Porrón.
+El pasado 9 de julio, los especialistas de SQLP Myriam&AlbertoEpic buscaban un lugar elevado desde donde disfrutar de una mí­tica puesta_de_sol. Barajadas posibles opciones, y siendo la condición indispensable que estuviera permitido volar el Alberdrón, al final se decidieron por contemplar el atardecer desde la cima del pico Porrón.
 
 ## El vídeo
 Puedes ver el ví­deo resultante de la experiencia a continuación:
@@ -24,7 +24,7 @@ Puedes ver el ví­deo resultante de la experiencia a continuación:
 
 Por si te ha gustado y quieres repetir la actividad, debajo tienes el mapa con el track. Comenzaron subiendo en BTT desde Sandiniés, recorriendo todo el camino ciclable hasta el final de la pista (Waypoint 1 en el mapa). Desde allí­, a pie hasta la cima.
 
-Tras la puesta de sol, regreso con frontales hasta las bicis, y bajada a Sandiniés tras remontar el mini puerto hasta el embalse de las Paúles.
+Tras la puesta_de_sol, regreso con frontales hasta las bicis, y bajada a Sandiniés tras remontar el mini puerto hasta el embalse de las Paúles.
 
 ## El track
 
@@ -39,9 +39,9 @@ Un par de fotos a continuación:
 
 *Recién llegados a la cima del Porrón, con 1h por delante para ir viendo cómo el sol se ocultaba tras las montañas...*
 
-![Tras la puesta de sol llega el festival de tonos anaranjados en el cielo.](attachments/DJI_0106-Mejorado-NR-1024x768.webp)
+![Tras la puesta_de_sol llega el festival de tonos anaranjados en el cielo.](attachments/DJI_0106-Mejorado-NR-1024x768.webp)
 
-*Tras la puesta de sol llega el festival de tonos anaranjados en el cielo.*
+*Tras la puesta_de_sol llega el festival de tonos anaranjados en el cielo.*
 
 ![Y mientras el sol se poní­a por el W, la luna llena aparecí­a a nuestras espaldas, por el E...](attachments/DJI_0105-Mejorado-NR-1024x768.webp)
 

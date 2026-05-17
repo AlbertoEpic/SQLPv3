@@ -1,15 +1,14 @@
 ---
-title: "Barranco de Las Gloces"
+title: Barranco de Las Gloces
 pubDate: 2009-08-04T06:16:00Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:29:03Z
 draft: false
-author: "AlbertoEpic"
-description: "Hace un par de fines de semana varios globeros se desplazaron a Fanlo, a descender el barranco de Las Gloces. Era el estreno de la nueva cámara 'guater resist' de soloquedalopeor. Todavía me estoy poniendo las pilas en el tema del video HD,"
-category: "Otros"
+author: AlbertoEpic
+description: Hace un par de fines de semana varios globeros se desplazaron a Fanlo, a descender el barranco de Las Gloces. Era el estreno de la nueva cámara 'guater resist' de soloquedalopeor. Todavía me estoy poniendo las pilas en el tema del video HD,
+category: Descenso de barrancos
 tags:
-  - "Uncategorized"
+  - las_gloces
 ---
 Hace un par de fines de semana varios globeros se desplazaron a Fanlo, a descender el barranco de Las Gloces. Era el estreno de la nueva cámara 'guater resist' de soloquedalopeor. Todavía me estoy poniendo las pilas en el tema del video HD, así que la calidad del documento deja bastante que desear, pero bueno, la cosa irá mejorando...
 

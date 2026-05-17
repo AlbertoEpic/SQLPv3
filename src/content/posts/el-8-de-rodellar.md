@@ -1,16 +1,16 @@
 ---
-title: "El 8 de Rodellar"
-heroImage: "attachments/8rodellar.webp"
+title: El 8 de Rodellar
+heroImage: attachments/8rodellar.webp
 pubDate: 2011-11-28T06:43:00Z
 updatedDate: 2018-11-02T18:09:07Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "Interrumpimos la serie Uttarakhand 2011 para hacernos eco de la actividad globeril del pasado sábado: los globeros Morenetti, íngel, jR, Marga, Luzia, AlbertoEpic y el Flow Master José se dieron cita en Rodellar con las btt para hacer una r"
-category: "Bicicleta de montaña"
+category: Bicicleta de montaña
 tags:
-  - "btt"
-  - "rodellar"
-  - "sierra guara"
+  - btt
+  - rodellar
+  - sierra_de_guara
 ---
 Interrumpimos la serie Uttarakhand 2011 para hacernos eco de la actividad globeril del pasado sábado: los globeros Morenetti, íngel, jR, Marga, Luzia, AlbertoEpic y el Flow Master José se dieron cita en Rodellar con las btt para hacer una ruta endurera 'larga pero dura'. Salida de Rodellar, bajada al Mascún, subida porteando por el barranco de Andrebot, dolmen de la Losa Mora, Otí­n, bajada por La Costera al Mascún, subida a Rodellar, Las Almunias, sierra de Balced y descenso trialero a Rodellar. 
 

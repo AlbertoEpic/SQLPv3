@@ -11,7 +11,7 @@ category: "Bicicleta de montaña"
 tags:
   - "cicloalpinismo"
   - "Magdalena"
-  - "valle del Aragón"
+  - "valle_del_aragon"
 ---
 Compartiendo el campo de juego con avionetas, planeadores y alas delta...
 El pasado fin de semana, el ya mítico duo formado por Myriam y AlbertoEpic unió sus fuerzas para realizar una nueva actividad en su peculiar estilo. Como resultado, un poco de cicloalpinismo y, para variar, esta vez fuera del valle de Tena.

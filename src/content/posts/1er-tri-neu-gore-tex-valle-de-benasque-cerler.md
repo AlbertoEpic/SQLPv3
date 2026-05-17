@@ -1,14 +1,14 @@
 ---
-title: "1er TRI-NEU gore-tex \"Valle de Benasque-Cerler\""
-heroImage: "attachments/trineu1-300x300.webp"
+title: 1er TRI-NEU gore-tex "Valle de Benasque-Cerler"
+heroImage: attachments/trineu1-300x300.webp
 pubDate: 2012-04-17T19:42:00Z
 updatedDate: 2015-04-06T10:28:40Z
 draft: false
-author: "AlbertoEpic"
-description: "AlbertoEpic El pasado domingo se disputó en Benasque una competición novedosa, consistente en combinar una prueba de BTT con una carrera por montaña y un rally de esquí­ de travesí­a. Se organizaba la prueba un poco a modo de experimento, sin"
-category: "Otros"
+author: AlbertoEpic
+description: AlbertoEpic El pasado domingo se disputó en Benasque una competición novedosa, consistente en combinar una prueba de BTT con una carrera por montaña y un rally de esquí­ de travesí­a. Se organizaba la prueba un poco a modo de experimento, sin
+category: Otros
 tags:
-  - "Uncategorized"
+  - tri-neu
 ---
 ![](attachments/trineu1.webp)
 

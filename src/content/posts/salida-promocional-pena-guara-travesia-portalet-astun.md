@@ -11,8 +11,8 @@ tags:
   - "Astún"
   - "Esquí­ de travesí­a"
   - "Portalet"
-  - "Valle de Tena"
-  - "valle del Aragón"
+  - valle_de_tena
+  - "valle_del_aragon"
 ---
 ![](attachments/fotito.webp)Luis en las rampas finales al Peyreget.El pasado domingo tuvo lugar esta salida promocional de esquí­ de travesí­a de Peña Guara. Habí­a que aprovechar y apuntarse: pocas veces un autobús te lleva a Portalet y te recoge en Astún!
 

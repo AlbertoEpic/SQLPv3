@@ -1,12 +1,16 @@
 ---
 title: "BTT enduro: cápsulas antiestrás #7"
-heroImage: "https://i.imgur.com/Mrs9GAA.jpg"
+heroImage: https://i.imgur.com/Mrs9GAA.jpg
 pubDate: 2021-06-25T07:27:14Z
 updatedDate: 2021-06-25T07:34:04Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "Punta Gáá (Desde Senegáá) Aáadimos otra propuesta para la BTT dentro de nuestra serie 'Cápsulas antiestrás': saliendo de Senegáá, el ascenso se realiza por una pista cámoda (Aunque dura), y el descenso casi ántegramente por sendero, con una"
-category: "Bicicleta de montaáa"
+category: Bicicleta de montaña
+tags:
+  - btt
+  - enduro
+  - antiestrés
 ---
 Punta Gáá (Desde Senegáá)
 

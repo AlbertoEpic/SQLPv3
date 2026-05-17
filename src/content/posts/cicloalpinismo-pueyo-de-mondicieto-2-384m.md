@@ -1,15 +1,15 @@
 ---
 title: "Cicloalpinismo: Pueyo de Mondicieto (2.384m)"
-heroImage: "https://i.imgur.com/19Z6shh.jpg"
+heroImage: https://i.imgur.com/19Z6shh.jpg
 pubDate: 2020-07-15T08:30:45Z
 updatedDate: 2020-07-15T08:46:29Z
 draft: false
-author: "AlbertoEpic"
-description: "Hace ya unos días que AlbertoEpic, en su afán de ampliar el catálogo de fotos esféricas etiquetadas de SQLP , decidió subirse a esta gran atalaya desde la que podemos mirar al Monte Perdido cara a cara... Saliendo en bici de Torla, nos espe"
-category: "Bicicleta de montaña"
+author: AlbertoEpic
+description: Hace ya unos días que AlbertoEpic, en su afán de ampliar el catálogo de fotos esféricas etiquetadas de SQLP , decidió subirse a esta gran atalaya desde la que podemos mirar al Monte Perdido cara a cara... Saliendo en bici de Torla, nos espe
+category: Bicicleta de montaña
 tags:
-  - "ordesa"
-  - "Pueyo de Mondicieto"
+  - ordesa
+  - pueyo_de_mondicieto
 ---
 Hace ya unos días que AlbertoEpic, en su afán de ampliar elí‚Â [catálogo de fotos esféricas etiquetadas de SQLP](https://pano360.soloquedalopeor.com/), decidió subirse a esta gran atalaya desde la que podemos mirar al Monte Perdido cara a cara...
 

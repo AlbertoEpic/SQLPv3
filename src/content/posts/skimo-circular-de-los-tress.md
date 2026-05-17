@@ -12,7 +12,7 @@ tags:
   - "formigal"
   - "Tres GíƒÂ¼egas"
   - "Tres Hombres"
-  - "Valle de Tena"
+  - valle_de_tena
 ---
 Recorrido circular por los dos picos '3' de Formigal:
 Tres Hombres y Tres GíƒÂ¼egas...

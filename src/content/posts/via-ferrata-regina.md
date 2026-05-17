@@ -1,5 +1,5 @@
 ---
-title: "Vía ferrata Regina"
+title: "via_ferrata Regina"
 pubDate: 2009-10-09T11:23:00Z
 
 heroImage: attachments/SQLPcomodin.jpg

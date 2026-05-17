@@ -10,7 +10,7 @@ category: "Esquí de travesía"
 tags:
   - "Esquí de travesía"
   - "Peyreget"
-  - "Valle de Tena"
+  - valle_de_tena
 ---
 El otro día, para entrar con buen pie en la semana blanca, Almudena y AlbertoEpic quedaron para subir al Peyreget. Los imprevistos varios hicieron que nos dé vergíƒÂ¼enza dejar constancia del horario de la actividad, por lo que no vamos a decir que comenzaban a foquear a mediodía...
 

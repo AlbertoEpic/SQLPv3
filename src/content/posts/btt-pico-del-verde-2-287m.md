@@ -1,12 +1,16 @@
 ---
 title: "BTT: pico del Verde (2.287m)"
-heroImage: "attachments/logo_Pano360_600x150-300x80.webp"
+heroImage: attachments/logo_Pano360_600x150-300x80.webp
 pubDate: 2020-06-16T15:24:41Z
 updatedDate: 2020-06-29T16:10:18Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "Tras el éxito con el formato de la actividad del Musales , Myriam y AlbertoEpic repiten concepto en el pico del Verde. Salen de Panticosa en BTT, suben por la pista de La Ripera, el Rincón del Verde hasta la Collada de Sabocos/del Verde. A "
-category: "Bicicleta de montaña"
+category: Bicicleta de montaña
+tags:
+  - btt
+  - pico_del_verde
+  - valle_de_tena
 ---
 Tras el éxito con el formato de la [actividad del Musales](cicloalpinismo-pico-musales-2-654m/), Myriam y AlbertoEpic repiten concepto en el pico del Verde. Salen de Panticosa en BTT, suben por la pista de La Ripera, el Rincón del Verde hasta la Collada de Sabocos/del Verde. A partir de allí­, toca empujar la bici hasta la base de la cúpula final (Desde allí­ la bajada es ciclable). Sólo les falta culminar a pie la ascensión hasta la cima de la Montaña del Verde.
 

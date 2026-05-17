@@ -10,7 +10,7 @@ description: "Es sábado, y subimos a foquear por lo blanco, que esta temporada 
 category: "Esquí de travesía"
 tags:
   - "Esquí de travesía"
-  - "Valle de Tena"
+  - valle_de_tena
 ---
 Es sábado, y subimos a foquear por lo blanco, que esta temporada abunda bastante... Pero el fuerte viento, que esta temporada también abunda, nos hace recurrir al comodín de Panticosa. Incluso allí el huracán es de escándalo.
 

@@ -1,15 +1,14 @@
 ---
 title: "Espectacular time-lapse: misión STS-131"
 pubDate: 2010-05-27T15:28:00Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:58Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "Agradecimientos a Pedro por pasarme un email con el enlace a este mítico time-lapse: la preparación del transbordador espacial Discovery para su misión STS-131."
-category: "Otros"
+category: Otros
 tags:
-  - "Uncategorized"
+  - Videos
 ---
 Agradecimientos a Pedro por pasarme un email con el enlace a este mítico time-lapse: la preparación del transbordador espacial Discovery para su misión STS-131.
 

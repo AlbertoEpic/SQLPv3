@@ -11,7 +11,7 @@ tags:
   - "balneario de panticosa"
   - "Feniás"
   - "skimo"
-  - "Valle de Tena"
+  - valle_de_tena
 ---
 Aprovechamos que el domingo estuvo AlbertoEpic realizando un encargo de Producciones SQLP (La grabación con el drone de la arista cimera del Feniás) para realizar esta entrada donde unificar toda la información obtenida: vídeo, track gps de la ruta y fotos.
 

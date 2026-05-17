@@ -12,7 +12,7 @@ tags:
   - "Bacías"
   - "balneario de panticosa"
   - "Esquí de travesía"
-  - "Valle de Tena"
+  - valle_de_tena
 ---
 El otro día AlbertoEpic se unió al grupo de LaMeteoQueViene, con Jorge a la cabeza, y se dirigieron al Balneario de Panticosa. Desde allí realizaron la ascensión con esquís de montaña al pico Bacías, comenzando por la variante del GR.
 

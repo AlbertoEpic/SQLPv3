@@ -1,14 +1,15 @@
 ---
-title: "III Raid Rioja Alavesa"
-heroImage: "attachments/borrame1-300x219.webp"
+title: III Raid Rioja Alavesa
+heroImage: attachments/borrame1-300x219.webp
 pubDate: 2012-04-13T19:45:00Z
 updatedDate: 2015-04-06T10:28:40Z
 draft: false
-author: "AlbertoEpic"
-description: "Chus, Belén, Esme y Luzia El pasado 24 de marzo se disputó en Yécora este raid de aventura por parejas y de un dí­a. Desde SQLP nos hacemos eco del mismo debido a que hasta allí­ se desplazó Luzia, de la factorí­a SoloQuedaLoPeor, formando equ"
-category: "Otros"
+author: AlbertoEpic
+description: Chus, Belén, Esme y Luzia El pasado 24 de marzo se disputó en Yécora este raid de aventura por parejas y de un dí­a. Desde SQLP nos hacemos eco del mismo debido a que hasta allí­ se desplazó Luzia, de la factorí­a SoloQuedaLoPeor, formando equ
+category: Otros
 tags:
-  - "raid aventura"
+  - raid_de_aventura
+  - rioja
 ---
 ![](attachments/borrame1.webp)Chus, Belén, Esme y LuziaEl pasado 24 de marzo se disputó en Yécora este raid de aventura por parejas y de un dí­a. Desde SQLP nos hacemos eco del mismo debido a que hasta allí­ se desplazó Luzia, de la factorí­a SoloQuedaLoPeor, formando equipo con Esmeralda Gabasa.
 

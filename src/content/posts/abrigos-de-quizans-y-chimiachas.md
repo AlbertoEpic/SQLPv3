@@ -8,9 +8,9 @@ author: AlbertoEpic
 description: Visitando las pinturas rupestres... El pasado domingo, el equipo de SQLP-Kids despedimos el mes de enero con un entretenido paseo hasta los abrigos de Quizáns y Chimiachas. La meteo revuelta y ventosa nos hizo buscar un objetivo en Alquázar
 category: SQLP-kids
 tags:
-  - pinturas rupestres
-  - sierra de sevil
-  - sierra guara
+  - pinturas_rupestres
+  - sierra_de_sevil
+  - sierra_de_guara
 ---
 ## Visitando las pinturas rupestres...
 

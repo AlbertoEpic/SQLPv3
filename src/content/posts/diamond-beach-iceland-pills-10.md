@@ -1,26 +1,27 @@
 ---
-title: "Diamond Beach [ICELAND PILLS 10]"
-heroImage: "https://i.imgur.com/A1XIA2F.jpg"
+title: Diamond Beach [ICELAND PILLS 10]
+heroImage: https://i.imgur.com/A1XIA2F.jpg
 pubDate: 2024-09-23T08:25:06Z
 updatedDate: 2024-09-23T08:25:09Z
 draft: false
-author: "AlbertoEpic"
-description: "La Playa de los Diamantes: un Tesoro de Hielo y Arena Negra. En el sur de Islandia, junto a la famosa laguna glacial de JíƒÂ¶kullsárlón, se encuentra uno de los lugares más emblemáticos y fotogénicos del país: la Diamond Beach, o BreiíƒÂ°amerkurs"
-category: "Islandia 2024"
+author: AlbertoEpic
+description: "La Playa de los Diamantes: un Tesoro de Hielo y Arena Negra. En el sur de Islandia, junto a la famosa laguna glacial de Jökulsárlón, se encuentra uno de los lugares más emblemáticos y fotogénicos del país: la Diamond Beach, o BreiíƒÂ°amerkurs"
+category: Islandia 2024
 tags:
-  - "diamond beach"
-  - "islandia"
+  - islandia
+  - viajes
+  - diamond_beach
 ---
 
 ## La Playa de los Diamantes: un Tesoro de Hielo y Arena Negra
 
-En el sur de Islandia, junto a la famosa laguna glacial de [JíƒÂ¶kullsárlón](jokullsarlon-iceland-pills-9/), se encuentra uno de los lugares más emblemáticos y fotogénicos del país: la Diamond Beach, o BreiíƒÂ°amerkursandur en islandés. Esta playa de arena negra volcánica es un verdadero tesoro natural, donde los icebergs centenarios se mezclan con la oscuridad del suelo, creando un panorama que parece salido de un cuento de hadas.
+En el sur de Islandia, junto a la famosa laguna glacial de [Jökulsárlón](jokullsarlon-iceland-pills-9/), se encuentra uno de los lugares más emblemáticos y fotogénicos del país: la Diamond Beach, o BreiíƒÂ°amerkursandur en islandés. Esta playa de arena negra volcánica es un verdadero tesoro natural, donde los icebergs centenarios se mezclan con la oscuridad del suelo, creando un panorama que parece salido de un cuento de hadas.
 
 Origen y Formación
 
-La Diamond Beach es parte de la gran llanura glacial de BreiíƒÂ°amerkursandur, que se extiende a lo largo de 18 kilómetros a lo largo de la costa sur de Islandia. Los icebergs que adornan esta playa provienen de la laguna glacial de JíƒÂ¶kullsárlón, donde se desprenden del glaciar BreiíƒÂ°amerkurjíƒÂ¶kull, una de las lenguas glaciares del vasto campo de hielo VatnajíƒÂ¶kull, el más grande de Europa.
+La Diamond Beach es parte de la gran llanura glacial de BreiíƒÂ°amerkursandur, que se extiende a lo largo de 18 kilómetros a lo largo de la costa sur de Islandia. Los icebergs que adornan esta playa provienen de la laguna glacial de Jökulsárlón, donde se desprenden del glaciar BreiíƒÂ°amerkurjíƒÂ¶kull, una de las lenguas glaciares del vasto campo de hielo VatnajíƒÂ¶kull, el más grande de Europa.
 
-![](https://i.imgur.com/A1XIA2F.jpg)Icebergs en la salida de JíƒÂ¶kullsárlón hacia el cercano océano.
+![](https://i.imgur.com/A1XIA2F.jpg)Icebergs en la salida de Jökulsárlón hacia el cercano océano.
 
 Después de flotar lánguidamente por la laguna, estos fragmentos de hielo son llevados por las corrientes hasta la costa, donde se depositan sobre la arena negra, creando un contraste visual impresionante. La arena negra, formada por la erosión volcánica, sirve de fondo para estos "diamantes" de hielo, que varían en tamaño y color, desde tonos azules profundos hasta blancos brillantes y nieblas transparentes.
 
@@ -39,7 +40,7 @@ La Diamond Beach es un lugar que combina la belleza natural con la magia del hie
 
 ![](https://i.imgur.com/0q0hAab.jpg)Diamond Beach
 
-![](https://i.imgur.com/9ejyFQm.jpg)Esta poderosa corriente de agua comunica JíƒÂ¶kullsárlón con la Diamond Beach.
+![](https://i.imgur.com/9ejyFQm.jpg)Esta poderosa corriente de agua comunica Jökulsárlón con la Diamond Beach.
 
 ![](https://i.imgur.com/mSoH93k.jpg)Islandia: glaciares a pie de carretera...
 

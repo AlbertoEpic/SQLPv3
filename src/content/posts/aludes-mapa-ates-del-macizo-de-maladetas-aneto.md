@@ -11,6 +11,7 @@ tags:
   - aludes
   - ates
   - avalanchas
+  - cartografía
 ---
 Cuando se trata del tema de los aludes, cualquier ayuda debe ser siempre bienvenida. En este caso, comentamos que Prames ha sacado un mapa ATES del macizo de las Maladetas-Aneto. Ein? Mapa ATES? Y eso de qué va?
 En el 2010, la PCA (Parks Canada Agency) adoptó una nueva metodología para la Escala de Clasificación de Terrenos de Aludes (Por sus siglas en inglés, [ATES](http://arc.lib.montana.edu/snow-science/objects/issw-2006-491-497.pdf)), consistente en lo siguiente:

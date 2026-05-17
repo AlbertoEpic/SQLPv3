@@ -8,7 +8,9 @@ author: AlbertoEpic
 description: "El pasado domingo, tuvo lugar una jornada de convivencia globero-vulkanera: Bati y Lola, de la estirpe de los Vulkanos, se juntaron con Morenetti y AlbertoEpic, del linaje de los Globeros., en el Mesón de Salinas con sus BTT's. La idea era "
 category: Bicicleta de montaña
 tags:
-  - Uncategorized
+  - cicloalpinismo
+  - btt
+  - sobrarbe
 ---
 ![](attachments/fotito.webp)El pasado domingo, tuvo lugar una jornada de convivencia globero-vulkanera: Bati y Lola, de la estirpe de los Vulkanos, se juntaron con Morenetti y AlbertoEpic, del linaje de los Globeros., en el Mesón de Salinas con sus BTT's. La idea era hacer el Canal del Cinca, pero dada la alergia que presentan estos curiosos seres al asfalto, el camino más corto y lógico no serví­a.
 

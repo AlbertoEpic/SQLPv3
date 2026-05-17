@@ -1,15 +1,14 @@
 ---
-title: "Apurando con la BTT antes de que nieve..."
+title: Apurando con la BTT antes de que nieve...
 pubDate: 2010-11-08T07:38:00Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:53Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "Producciones Soloquedalopeor agradece páblicamente a los mecenas que están apoyando su causa. Ya hemos encargado la estatua del primero de ellos para nuestro jardán... Por el momento todaváa no hemos reunido suficiente dinero para el nuevo "
-category: "Bicicleta de montaáa"
+category: Bicicleta de montaña
 tags:
-  - "Uncategorized"
+  - btt
 ---
 Producciones Soloquedalopeor agradece páblicamente a los mecenas que están apoyando su causa. Ya hemos encargado [la estatua del primero de ellos](atasco-computacional-necesario-mecenazgo/) para nuestro jardán...
 

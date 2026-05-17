@@ -1,12 +1,14 @@
 ---
-title: "Estrello mi drone!!!"
-heroImage: "attachments/AlbertoEpicDrone.webp"
+title: Estrello mi drone!!!
+heroImage: attachments/AlbertoEpicDrone.webp
 pubDate: 2020-02-08T18:01:44Z
 updatedDate: 2020-02-08T18:20:47Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: ".: ANíLISIS DE LAS CAUSAS :. CONSEJOS Y REFLEXIONES PARA EVITAR SUSTOS CON TU DRONE... https://www.youtube.com/watch?v=g0tXzn-rTTE Hace menos de un mes que SQLP cuenta con un drone para enriquecer todaví­a más la experiencia multimedia en su"
-category: "Otros"
+category: Otros
+tags:
+  - dron
 ---
 .: ANíLISIS DE LAS CAUSAS :.
 CONSEJOS Y REFLEXIONES

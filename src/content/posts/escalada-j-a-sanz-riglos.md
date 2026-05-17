@@ -1,14 +1,15 @@
 ---
-title: "Estamos que nos subimos por las paredes! J.A. Sanz, Riglos"
-heroImage: "attachments/Copia-de-DSC06957-225x300.webp"
+title: Estamos que nos subimos por las paredes! J.A. Sanz, Riglos
+heroImage: attachments/Copia-de-DSC06957-225x300.webp
 pubDate: 2010-10-18T08:12:00Z
 updatedDate: 2015-04-06T10:28:54Z
 draft: false
-author: "AlbertoEpic"
-description: "En esta época, ideal para pedalear, en soloquedalopeor estamos que nos subimos por las paredes; además de la btt, necesitamos llenar el hueco que nos dejan los barrancos (Demasiado frí­o ahora) y el esquí­ de travesí­a (Demasiado calor ahora)."
-category: "Escalada"
+author: AlbertoEpic
+description: En esta época, ideal para pedalear, en soloquedalopeor estamos que nos subimos por las paredes; además de la btt, necesitamos llenar el hueco que nos dejan los barrancos (Demasiado frí­o ahora) y el esquí­ de travesí­a (Demasiado calor ahora).
+category: Escalada
 tags:
-  - "escalada"
+  - escalada
+  - riglos
 ---
 ![](attachments/Copia-de-DSC06957.webp)En esta época, ideal para pedalear, en soloquedalopeor estamos que nos subimos por las paredes; además de la btt, necesitamos llenar el hueco que nos dejan los barrancos (Demasiado frí­o ahora) y el esquí­ de travesí­a (Demasiado calor ahora). Así­ que, el otro dí­a, decidimos subir al mallo Frechí­n, en Riglos, por la ví­a J.A. Sanz (220m, 6a+, V oblig.).
 

@@ -223,3 +223,9 @@ views:
     imageAspectRatio: 0.55
     maxTagsToShow: 2
     hideQuickEditIcon: true
+  - type: table
+    name: Tabla de entradas
+    order:
+      - file.name
+      - category
+      - tags

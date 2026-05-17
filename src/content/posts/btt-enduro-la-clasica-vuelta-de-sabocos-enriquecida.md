@@ -1,16 +1,17 @@
 ---
 title: "BTT Enduro: la clásica vuelta de Sabocos, enriquecida..."
-heroImage: "https://i.imgur.com/wiyQkTx.jpg"
+heroImage: https://i.imgur.com/wiyQkTx.jpg
 pubDate: 2019-05-31T15:19:41Z
 updatedDate: 2019-06-06T07:42:13Z
 draft: false
-author: "AlbertoEpic"
-description: "... con la subida al pico del Verde y la bajada por el bosque del Yandel."
-category: "Bicicleta de montaña"
+author: AlbertoEpic
+description: ... con la subida al pico del Verde y la bajada por el bosque del Yandel.
+category: Bicicleta de montaña
 tags:
-  - "btt"
-  - "panticosa"
-  - "Valle de Tena"
+  - btt
+  - panticosa
+  - valle_de_tena
+  - sabocos
 ---
 La nieve se va retirando y ya permite cerrar el bucle Ripera-Sabocos en bici, así que le ha llegado el turno a esta clásica vuelta de BTT: salida de Panticosa, subida por el valle de La Ripera, refugio y collado del Verde, y bajada a Panticosa por el refugio e ibón de Sabocos, aprovechando las pistas de la estación hasta el pueblo.
 

@@ -1,13 +1,16 @@
 ---
 title: "Biel: endureando ando... por el Puig Moné"
 pubDate: 2023-05-26T16:23:31Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2023-05-26T16:23:32Z
 draft: false
-author: "AlbertoEpic"
-description: "Biel es una localidad y municipio de España, en la comarca de las Cinco Villas, perteneciente a Ejea de los Caballeros al noroeste de la provincia de Zaragoza, comunidad autónoma de Aragón, a 96 km de Zaragoza. Sus principales monumentos so"
-category: "Otros"
+author: AlbertoEpic
+description: Biel es una localidad y municipio de España, en la comarca de las Cinco Villas, perteneciente a Ejea de los Caballeros al noroeste de la provincia de Zaragoza, comunidad autónoma de Aragón, a 96 km de Zaragoza. Sus principales monumentos so
+category: Bicicleta de montaña
+tags:
+  - btt
+  - biel
+  - enduro
 ---
 
 Bielí‚Â es una localidad y municipio deí‚Â España, en la comarca de lasí‚Â Cinco Villas, perteneciente aí‚Â Ejea de los Caballerosí‚Â al noroeste de laí‚Â provincia de Zaragoza,í‚Â comunidad autónomaí‚Â deí‚Â Aragón, a 96í‚Â kmí‚Â deí‚Â Zaragoza. Sus principales monumentos son el Castillo de Biel y la Iglesia de San Martín. Te dejamos con un vídeo a vista de dron para que los conozcas:

@@ -1,12 +1,15 @@
 ---
 title: "Cicloalpinismo: pic de l'Aiguillette (2.508m)"
-heroImage: "attachments/lAiguillette-1-1024x768.webp"
+heroImage: attachments/lAiguillette-1-1024x768.webp
 pubDate: 2023-10-27T10:39:14Z
 updatedDate: 2023-10-27T10:39:15Z
 draft: false
-author: "AlbertoEpic"
-description: "Seguimos con la serie 'Desayunando en...' Aprovechando la bonanza de la meteo a primeros de octubre, en SQLP seguimos con la excéntrica serie de actividades 'Desayunando en...'. el turno es ahora para el pic de l'Aiguillete, una cima que pa"
-category: "Bicicleta de montaña"
+author: AlbertoEpic
+description: Seguimos con la serie 'Desayunando en...' Aprovechando la bonanza de la meteo a primeros de octubre, en SQLP seguimos con la excéntrica serie de actividades 'Desayunando en...'. el turno es ahora para el pic de l'Aiguillete, una cima que pa
+category: Bicicleta de montaña
+tags:
+  - btt
+  - cicloalpinismo
 ---
 
 ## Seguimos con la serie 'Desayunando en...'

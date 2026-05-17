@@ -8,7 +8,7 @@ author: "AlbertoEpic"
 description: "Un lugar especial lleno de historia Muro de Roda , localizado en un emplazamiento estratégico, es un pueblo fortificado perteneciente al municipio de La Fueva en el Sobrarbe , provincia de Huesca , Aragón , España . En la actualidad está de"
 category: "SQLP-kids"
 tags:
-  - "btt"
+  - btt
   - "la fueva"
   - "sobrarbe"
 ---

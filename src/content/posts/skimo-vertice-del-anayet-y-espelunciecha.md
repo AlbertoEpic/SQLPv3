@@ -11,7 +11,7 @@ tags:
   - "Anayet"
   - "espelunciecha"
   - "skimo"
-  - "Valle de Tena"
+  - valle_de_tena
 ---
 El pasado sábado 27 de febrero se originó espontáneamente una salida extra del curso de esquí­ de montaña de Peña Guara. Saliendo del parking de Portalet de la estación de esquí­ de Formigal, se realizó una buena ruta pasando por el Vértice del Anayet y el Espelunciecha. Allí­ estuvo infiltrado nuestro especialista AlbertoEpic, que gracias a las buenas condiciones atmosféricas pudo sacar toda la 'artillerí­a': GoPro y dron.
 

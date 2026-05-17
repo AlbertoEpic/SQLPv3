@@ -8,7 +8,7 @@ author: "AlbertoEpic"
 description: "Hací­a mucho tiempo que José hablaba a los globeros de este lugar. Hací­a mucho tiempo que AlbertoEpic la tení­a en su lista de 'pendientes'. Pero también hací­a mucho tiempo que finalmente desechaba la opción frente a otras que no supusieran b"
 category: "Bicicleta de montaña"
 tags:
-  - "btt"
+  - btt
   - "Calatayud"
   - "Utah"
 ---

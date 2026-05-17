@@ -9,7 +9,7 @@ author: "AlbertoEpic"
 description: "Echamos la vista atrás, al primer fin de semana de octubre del 2021, para recuperar una actividad que bien merece una reseña en SQLP. Aquel finde, los especialistas fatos Iván, Pedro y AlbertoEpic estuvieron conociendo nuevos territorios co"
 category: "Bicicleta de montaña"
 tags:
-  - "btt"
+  - btt
   - "enduro"
   - "Teruel"
 ---

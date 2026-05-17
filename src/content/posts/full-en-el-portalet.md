@@ -1,15 +1,15 @@
 ---
 title: "'Full' en el Portalet"
 pubDate: 2010-12-15T16:06:00Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:53Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "El pasado fin de semana volvimos a la realidad. Ese mítico polvorón que recordábamos de la última vez tal vez fuera un sueño... Hemos tenido muy buena nieve, sí, pero de la 'made in Spain'. Condiciones de primavera totales: helada por la ma"
-category: "Otros"
+category: Esquí de travesía
 tags:
-  - "Esquí de travesía"
+  - skimo
+  - Portalet
 ---
 El pasado fin de semana volvimos a la realidad. Ese mítico polvorón que recordábamos de la última vez tal vez fuera un sueño... Hemos tenido muy buena nieve, sí, pero de la 'made in Spain'. Condiciones de primavera totales: helada por la mañana, sopa por la tarde. Imprescindible todos los accesorios que pinchan (Cuchillas, crampones,...)
 

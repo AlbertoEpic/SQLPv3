@@ -8,7 +8,9 @@ author: AlbertoEpic
 description: El pasado fin de semana, 14 y 15 de marzo, realizamos una ruta de esquí de montaña de dos días, partiendo del Balneario de Panticosa y pernoctando en el refugio de Wallon. No voy a ser repetitivo, y simplemente voy a añadir un montaje de vi
 category: Esquí de travesía
 tags:
-  - Uncategorized
+  - skimo
+  - panticosa
+  - wallon
 ---
 El pasado fin de semana, 14 y 15 de marzo, realizamos una ruta de esquí de montaña de dos días, partiendo del Balneario de Panticosa y pernoctando en el refugio de Wallon.
 

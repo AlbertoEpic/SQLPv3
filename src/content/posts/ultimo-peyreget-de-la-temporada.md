@@ -10,7 +10,7 @@ category: "Esquí de travesía"
 tags:
   - "Esquí de travesía"
   - "Peyreget"
-  - "Valle de Tena"
+  - valle_de_tena
 ---
 Aunque todavía queda muuucha nieve en el Pirineo, sobre todo en cotas bajas está desapareciendo a marchas forzadas, como es normal en primavera...
 El otro día Eva y AlbertoEpic realizaron la que probablemente sea una de las últimas ascensiones de la temporada al Peyreget con los esquís puestos de coche a coche, pasando por la cima (Vale, vale, el puente que se cruza a la salida ya no tiene nieve).

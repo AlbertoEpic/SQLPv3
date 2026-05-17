@@ -11,7 +11,8 @@ tags:
   - Aguja
   - Bachimaña
   - escalada
-  - Espolón Edu
+  - espolon_edu
+  - valle_de_tena
 ---
 El otro día, Curro y AlbertoEpic se aliaron para subirse a algún sitio alto ahora que hace una meteo espectacular para tales menesteres. Por consejo de Curro fueron a la Aguja de Bachimaña. La escalaron por el Espolón Edu (250m, IV+), entrando por la variante sur de Sendero Límite (90m, V+).
 

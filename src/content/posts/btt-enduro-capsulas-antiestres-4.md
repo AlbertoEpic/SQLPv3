@@ -1,18 +1,16 @@
 ---
 title: "BTT enduro: cápsulas antiestrés #4"
 pubDate: 2019-04-22T16:16:40Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2020-03-10T09:37:47Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "Yebra de Basa - ermita de santa Orosia .: Descenso por la senda de las ermitas :. Reseñamos a continuación otra de nuestras ya clásicas 'cápsulas antiestrés': rutas relativamente breves para hacer en una escapada rápida, pero que nos dejará"
-category: "Bicicleta de montaña"
+category: Bicicleta de montaña
 tags:
-  - "btt"
-  - "enduro"
-  - "santa orosia"
-  - "Valle de Tena"
+  - btt
+  - enduro
+  - antiestrés
 ---
 
 ## Yebra de Basa - ermita de santa Orosia

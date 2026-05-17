@@ -9,7 +9,7 @@ author: "AlbertoEpic"
 description: "Seguimos pedaleando hacia Durango por el Colorado Trail. Uno de los días más fotogénicos. Luzia y AlbertoEpic se mantienen entre 3.000m y 4.000m cruzando varios collados. La altitud se nota, y ciclar una senda cuesta arriba con un 22-34 y e"
 category: "Viajes"
 tags:
-  - "btt"
+  - btt
   - "cicloturismo"
   - "Colorado Trail"
   - "durango"

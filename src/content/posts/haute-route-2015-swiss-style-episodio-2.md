@@ -1,17 +1,18 @@
 ---
-title: "Haute Route 2015 'Swiss Style' - episodio 2"
+title: Haute Route 2015 'Swiss Style' - episodio 2
 pubDate: 2015-04-20T08:51:34Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-20T09:14:11Z
 draft: false
-author: "AlbertoEpic"
-description: "Dormimos en el refugio Cabane du Trient (3.170m). Al día siguiente, en teoría vamos a disfrutar de la mejor meteo de toda la semana, así que 'olvidamos' hacer la rutinaria etapa de la Chamonix-Zermatt y nos vamos a por una bonita cima, la A"
-category: "Esquí de travesía"
+author: AlbertoEpic
+description: Dormimos en el refugio Cabane du Trient (3.170m). Al día siguiente, en teoría vamos a disfrutar de la mejor meteo de toda la semana, así que 'olvidamos' hacer la rutinaria etapa de la Chamonix-Zermatt y nos vamos a por una bonita cima, la A
+category: Esquí de travesía
 tags:
-  - "Aiguille du Tour"
-  - "alpes"
-  - "Esquí de travesía"
+  - alpes
+  - skimo
+  - aiguille_du_tour
+  - viajes
+  - haute_route
 ---
 Dormimos en el refugio Cabane du Trient (3.170m). Al día siguiente, en teoría vamos a disfrutar de la mejor meteo de toda la semana, así que 'olvidamos' hacer la rutinaria etapa de la Chamonix-Zermatt y nos vamos a por una bonita cima, la Aiguille du Tour (3.540m), y a por un descenso épico de casi 2.000m con una nieve excepcional
 

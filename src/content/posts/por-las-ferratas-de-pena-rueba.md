@@ -9,7 +9,7 @@ description: "Días antes de todas las nevadas que por fin nos han blanqueado el
 category: "Escalada"
 tags:
   - "peña rueba"
-  - "vía ferrata"
+  - "via_ferrata"
 ---
 
 Días antes de todas las nevadas que por fin nos han blanqueado el Pirineo, tres curiosos individuos hicieron coincidir sus coordenadas espaciotemporales para darse un garbeo por Peña Rueba. July y AlbertoEpic, del mítico equipo SQLP-TerreXtream, con Josan de estrella invitada, recorrieron las ferratas de Varela-Portillo (Ascenso) y de La Mora (Descenso), en un día casi veraniego.
@@ -20,7 +20,7 @@ A continuación puedes ver un mapa con el track de la ruta:
 
 Y si te aclaras mejor, debajo puedes ver el track animado sobre un mapa en 3D:
 
-AlbertoEpic no perdió la ocasión para sacar una foto esférica desde el mirador que hay a mitad de la vía ferrata de La Mora, con unas excelentes vistas de los Mallos de Riglos y toda la Galliguera. Puedes verla [haciendo click en este enlace](https://pano360.soloquedalopeor.com/panorama/via-ferrata-de-la-mora-pena-rueba-mirador/). No te la pierdas!
+AlbertoEpic no perdió la ocasión para sacar una foto esférica desde el mirador que hay a mitad de la via_ferrata de La Mora, con unas excelentes vistas de los Mallos de Riglos y toda la Galliguera. Puedes verla [haciendo click en este enlace](https://pano360.soloquedalopeor.com/panorama/via-ferrata-de-la-mora-pena-rueba-mirador/). No te la pierdas!
 
 [https://i.imgur.com/smDdPcZ.jpg](https://i.imgur.com/smDdPcZ.jpg)En los primeros tramos de la ferrata Varela-Portillo...
 

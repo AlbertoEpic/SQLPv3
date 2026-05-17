@@ -1,12 +1,15 @@
 ---
 title: "Cicloalpinismo romántico: Lacs de Consaterre"
-heroImage: "attachments/Consaterre1-300x165.webp"
+heroImage: attachments/Consaterre1-300x165.webp
 pubDate: 2015-09-21T15:39:25Z
 updatedDate: 2015-09-21T15:39:25Z
 draft: false
-author: "AlbertoEpic"
-description: "El pasado sábado los globeros jR, LaTrek y AlbertoEpic hicieron coincidir sus coordenadas espacio-temporales para realizar una actividad con sabor añejo. Una ruta de cicloalpinismo similar a las que hací­an el siglo pasado... La jornada empi"
-category: "Bicicleta de montaña"
+author: AlbertoEpic
+description: El pasado sábado los globeros jR, LaTrek y AlbertoEpic hicieron coincidir sus coordenadas espacio-temporales para realizar una actividad con sabor añejo. Una ruta de cicloalpinismo similar a las que hací­an el siglo pasado... La jornada empi
+category: Bicicleta de montaña
+tags:
+  - cicloalpinismo
+  - consaterre
 ---
 ![](attachments/Consaterre1.webp)
 

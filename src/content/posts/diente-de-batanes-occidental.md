@@ -7,9 +7,10 @@ author: AlbertoEpic
 description: Nos encontramos apurando una temporada de skimo rara... En cotas bajas ya ha terminado, pero si no nos importa portear, a algo más de 2.000m de altura sigue quedando nieve (Vamos, que las temperaturas son más
 category: Esquí­ de travesí­a
 tags:
-  - Diente de Batanes
-  - Esquí­ de travesí­a
-  - Valle de Tena
+  - valle_de_tena
+  - skimo
+  - dientes_de_batanes
+  - balneario_de_panticosa
 heroImage: attachments/SQLPcomodin.jpg
 ---
 

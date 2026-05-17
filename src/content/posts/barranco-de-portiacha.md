@@ -1,15 +1,15 @@
 ---
-title: "Barranco de Portiacha"
-heroImage: "attachments/portiacha_topo-1024x680.webp"
+title: Barranco de Portiacha
+heroImage: attachments/portiacha_topo-1024x680.webp
 pubDate: 2022-10-27T10:05:38Z
 updatedDate: 2022-10-27T16:20:23Z
 draft: false
-author: "AlbertoEpic"
-description: "Larga vida a los rápeles 'volaos'... aÅ¡ltima semana de octubre, última semana con horario de verano, y presumiblemente final de temporada de actividades vespertinas los miércoles por el monte para el TeRReXtrem Team... Como colofón a esta pr"
-category: "Descenso de barrancos"
+author: AlbertoEpic
+description: Larga vida a los rápeles 'volaos'... aÅ¡ltima semana de octubre, última semana con horario de verano, y presumiblemente final de temporada de actividades vespertinas los miércoles por el monte para el TeRReXtrem Team... Como colofón a esta pr
+category: Descenso de barrancos
 tags:
-  - "Lecina"
-  - "sierra guara"
+  - Lecina
+  - sierra_de_guara
 ---
 
 ## Larga vida a los rápeles 'volaos'...

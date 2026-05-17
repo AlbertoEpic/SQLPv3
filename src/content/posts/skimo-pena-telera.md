@@ -10,7 +10,7 @@ category: "Esquí de travesía"
 tags:
   - "Peña Telera"
   - "skimo"
-  - "Valle de Tena"
+  - valle_de_tena
 ---
 íLa solución al laberinto de la cara Sur!
 El pasado sábado 13 de marzo, por fin se alinearon los planetas y el equipo SQLP pudo realizar una actividad mítica, bastante complicada logísticamente hablando.

@@ -1,15 +1,14 @@
 ---
-title: "El Camino del Rey"
+title: El Camino del Rey
 pubDate: 2008-11-25T21:23:00Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:29:08Z
 draft: false
-author: "AlbertoEpic"
-description: "Circula por la red un email con este video, impresionante. Que yo sepa, todavía no ha estado por allí ningún globero... \"íƒâ€°ste es un video muy interesante y original que muestra un lugar en Málaga llamado El Chorro, un desfiladero donde se e"
-category: "Otros"
+author: AlbertoEpic
+description: Circula por la red un email con este video, impresionante. Que yo sepa, todavía no ha estado por allí ningún globero... "íƒâ€°ste es un video muy interesante y original que muestra un lugar en Málaga llamado El Chorro, un desfiladero donde se e
+category: Otros
 tags:
-  - "Uncategorized"
+  - Videos
 ---
 Circula por la red un email con este video, impresionante. Que yo sepa, todavía no ha estado por allí ningún globero...
 

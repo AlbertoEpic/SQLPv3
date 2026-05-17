@@ -1,16 +1,16 @@
 ---
-title: "BTT - La Solana de Sasé (ZZ-027)"
-heroImage: "attachments/LuziaSaseGIF.gif"
+title: BTT - La Solana de Sasé (ZZ-027)
+heroImage: attachments/LuziaSaseGIF.gif
 pubDate: 2015-08-18T21:08:59Z
 updatedDate: 2015-08-18T21:37:56Z
 draft: false
-author: "AlbertoEpic"
-description: "El pasado domingo Luzia y AlbertoEpic gozaron de un breve 'permiso filial' y aprovecharon para escaparse a Fiscal, para hacer esta ruta que les faltaba en la zona. Puedes ver una descripción más detallada de la misma en la web oficial . Par"
-category: "Bicicleta de montaña"
+author: AlbertoEpic
+description: El pasado domingo Luzia y AlbertoEpic gozaron de un breve 'permiso filial' y aprovecharon para escaparse a Fiscal, para hacer esta ruta que les faltaba en la zona. Puedes ver una descripción más detallada de la misma en la web oficial . Par
+category: Bicicleta de montaña
 tags:
-  - "btt"
-  - "enduro"
-  - "Zona Zero"
+  - btt
+  - enduro
+  - zona-zero
 ---
 El pasado domingo Luzia y AlbertoEpic gozaron de un breve 'permiso filial' y aprovecharon para escaparse a Fiscal, para hacer esta ruta que les faltaba en la zona. Puedes ver una descripción más detallada de la misma en la [web oficial](http://www.bttpirineo.com/es/rutas-btt-pirineo/zz-027-solana-sase).
 

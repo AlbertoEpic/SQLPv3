@@ -9,7 +9,7 @@ description: "El mes pasado se formó un equipo internacional para una travesía
 category: Esquí de travesía
 tags:
   - Benasque
-  - Esquí de travesía
+  - skimo
 ---
 El mes pasado se formó un equipo internacional para una travesía con esquís de varios días por los macizos de Posets y Maladetas: [Marco](http://www.marcobomio.ch) y Laura Bomio, de Grindelwald, y Luzia&AlbertoEpic, por parte del equipo SQLP. Dado que estos últimos tienen que contar con el tercer miembro del equipo SQLP, el ya experto en ciclo-viajes con remolque Sami, se turnarían para acompañar a los suizos en su primera vez con esquís por el Pirineo.
 

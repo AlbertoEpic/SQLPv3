@@ -9,7 +9,7 @@ author: "AlbertoEpic"
 description: "Ideal para iniciar a los niños en las rutas de btt... El pasado 10 de agosto tocaba ir a hacer una vía verde, en algún lugar verde y fresco, para ir metiendo el gusanillo de la BTT al componente más joven del equipo SQLP. La ruta elegida fu"
 category: "SQLP-kids"
 tags:
-  - "btt"
+  - btt
   - "vía verde"
 ---
 Ideal para iniciar a los niños en las rutas de btt...

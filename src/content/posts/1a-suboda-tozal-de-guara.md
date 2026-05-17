@@ -8,7 +8,7 @@ author: AlbertoEpic
 description: El pasado sábado se celebró esta novedosa prueba de carácter único con gran éxito de participación. Alberto&Lucía con los globeros Muchas gracias a todos los asistentes por hacer del 16/6/2012 una fecha especial, llena de risas, lágrimas, a
 category: Otros
 tags:
-  - Uncategorized
+  - suboda
 date: 2026-05-11
 ---
 El pasado sábado se celebró esta novedosa prueba de carácter único con gran éxito de participación.

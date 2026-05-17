@@ -1,12 +1,15 @@
 ---
 title: "Ascensión infantil: la Cristallare (1.874m)"
-heroImage: "attachments/IMG_20210912_114510-scaled-e1632561104763.webp"
+heroImage: attachments/IMG_20210912_114510-scaled-e1632561104763.webp
 pubDate: 2021-09-25T07:28:19Z
 updatedDate: 2021-09-25T09:32:24Z
 draft: false
-author: "AlbertoEpic"
-description: "La excursión propuesta hoy es ideal como una de las primeras cimas para un niño. El terreno es el tí­pico del Pirineo francés, donde escasean las piedras y abundan los senderos cómodos a través de bosques y prados. La Cristallare es una cumb"
-category: "SQLP-kids"
+author: AlbertoEpic
+description: La excursión propuesta hoy es ideal como una de las primeras cimas para un niño. El terreno es el tí­pico del Pirineo francés, donde escasean las piedras y abundan los senderos cómodos a través de bosques y prados. La Cristallare es una cumb
+category: SQLP-kids
+tags:
+  - ascensiones
+  - la_cristallere
 ---
 La excursión propuesta hoy es ideal como una de las primeras cimas para un niño. El terreno es el tí­pico del Pirineo francés, donde escasean las piedras y abundan los senderos cómodos a través de bosques y prados.
 

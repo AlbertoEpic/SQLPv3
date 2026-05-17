@@ -1,17 +1,17 @@
 ---
 title: "Combinada BTT+pateo: Fañanizas Bajas (2.111m)"
-heroImage: "https://i.imgur.com/H6AuNlL.jpg"
+heroImage: https://i.imgur.com/H6AuNlL.jpg
 pubDate: 2020-10-22T09:54:31Z
 updatedDate: 2020-11-18T18:42:13Z
 draft: false
-author: "AlbertoEpic"
-description: "Hace ya dos semanas que el equipo inasequible al desaliento formado por los especialistas Myriam y AlbertoEpic, viendo la meteo tan ventosa y desapacible, decidieron bajar un poco el listón y realizar una actividad más ligera. Una breve mat"
-category: "Bicicleta de montaña"
+author: AlbertoEpic
+description: Hace ya dos semanas que el equipo inasequible al desaliento formado por los especialistas Myriam y AlbertoEpic, viendo la meteo tan ventosa y desapacible, decidieron bajar un poco el listón y realizar una actividad más ligera. Una breve mat
+category: BTT+Pateo
 tags:
-  - "btt"
-  - "Fañanizas"
-  - "ordesa"
-  - "Valle de Tena"
+  - btt
+  - Fañanizas
+  - ordesa
+  - valle_de_tena
 ---
 Hace ya dos semanas que el equipo inasequible al desaliento formado por los especialistas Myriam y AlbertoEpic, viendo la meteo tan ventosa y desapacible, decidieron bajar un poco el listón y realizar una actividad más ligera. Una breve matinal 'TakeItEasy'.
 

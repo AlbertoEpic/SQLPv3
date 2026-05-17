@@ -1,16 +1,17 @@
 ---
-title: "Haute Route 2015 í¢â‚¬ËœSwiss Styleí¢â‚¬â„¢ í¢â‚¬â€œ episodio 5"
+title: Haute Route 2015 í¢â‚¬ËœSwiss Styleí¢â‚¬â„¢ í¢â‚¬â€œ episodio 5
 pubDate: 2015-05-11T16:20:11Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-05-11T16:59:37Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "íƒÅ¡ltimo episodio de la serie Haute Route 2015... En las horas finales de nuestra Chamonix-Zermatt, la meteo lo decide todo: para el último día se pronostican fuertes vientos, copiosas nevadas (Riesgo de aludes) y visibilidad nula en altura, "
-category: "Esquí de travesía"
+category: Esquí de travesía
 tags:
-  - "alpes"
-  - "Esquí de travesía"
+  - alpes
+  - skimo
+  - viajes
+  - haute_route
 ---
 íƒÅ¡ltimo episodio de la serie Haute Route 2015...
 

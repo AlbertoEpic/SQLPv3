@@ -1,12 +1,16 @@
 ---
 title: "Cicloalpinismo: pico Musales (2.654m)"
-heroImage: "https://i.imgur.com/UTNJAYB.jpg"
+heroImage: https://i.imgur.com/UTNJAYB.jpg
 pubDate: 2020-06-05T17:03:53Z
 updatedDate: 2020-06-16T09:51:42Z
 draft: false
-author: "AlbertoEpic"
-description: "La semana pasada llegó el día por fin. Se alinearon los astros para que AlbertoEpic pudiera sacar tiempo para hacer una actividad algo más larga, y el avance de la desescalada por el temita del coronavirus ya le permitiera salir de su munic"
-category: "Bicicleta de montaña"
+author: AlbertoEpic
+description: La semana pasada llegó el día por fin. Se alinearon los astros para que AlbertoEpic pudiera sacar tiempo para hacer una actividad algo más larga, y el avance de la desescalada por el temita del coronavirus ya le permitiera salir de su munic
+category: Bicicleta de montaña
+tags:
+  - cicloalpinismo
+  - musales
+  - valle_de_tena
 ---
 La semana pasada llegó el día por fin. Se alinearon los astros para que AlbertoEpic pudiera sacar tiempo para hacer una actividad algo más larga, y el avance de la desescalada por el temita del coronavirus ya le permitiera salir de su municipio de Pin&Pon y moverse por la provincia. Iba a ser algo muy especial... :-)))
 Respetando todavía las medidas de distanciamiento, hizo coincidir sus coordenadas espaciotemporales (Con un desfase de +/-15m, +/-15seg) con Myriam en La Sarra, para realizar la ruta detallada a continuación:

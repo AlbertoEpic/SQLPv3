@@ -1,18 +1,17 @@
 ---
 title: "BTT enduro: cápsulas antiestrés #2"
 pubDate: 2018-09-29T23:23:12Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2018-10-01T16:15:10Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "Seguimos con la serie de 'Cápsulas antiestrés'... El otro día AlbertoEpic sacó una mañana libre para ir a Santa Elena con la furgo, y desde allí con la btt, en menos de 3h, hacer este '8' que sin duda deja un buen sabor de boca. Subida por "
-category: "Bicicleta de montaña"
+category: Bicicleta de montaña
 tags:
-  - "btt"
-  - "enduro"
-  - "panticosa"
-  - "Valle de Tena"
+  - btt
+  - enduro
+  - panticosa
+  - valle_de_tena
 ---
 Seguimos con la serie de 'Cápsulas antiestrés'...
 

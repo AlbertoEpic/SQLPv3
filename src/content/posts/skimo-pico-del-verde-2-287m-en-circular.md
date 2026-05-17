@@ -10,7 +10,7 @@ category: "Esquí de travesía"
 tags:
   - "panticosa"
   - "peña guara"
-  - "Valle de Tena"
+  - valle_de_tena
 ---
 
 ## 1 Salida Promocional Skimo de Peña Guara 2019

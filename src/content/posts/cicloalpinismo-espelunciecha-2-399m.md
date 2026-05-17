@@ -9,7 +9,7 @@ description: "Una buena alternativa para un día de meteo incierta El pasado sá
 category: "Bicicleta de montaña"
 tags:
   - "cicloalpinismo"
-  - "Valle de Tena"
+  - valle_de_tena
 ---
 
 ## Una buena alternativa para un día de meteo incierta

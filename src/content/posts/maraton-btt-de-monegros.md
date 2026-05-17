@@ -8,7 +8,7 @@ author: "AlbertoEpic"
 description: "30/04/2011 Desayunar mucho, comer mucho, beber mucho para poder pedalear durante mucho rato, la palabra mucho va a venir como complemento a todas las demás, porque este sábado hay recorrer muchos kilometros entre mucha gente y mucho polvo. "
 category: "Otros"
 tags:
-  - "btt"
+  - btt
   - "Maratón de Monegros"
 ---
 ![](attachments/fotosalidamonegros.webp)

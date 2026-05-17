@@ -1,17 +1,17 @@
 ---
-title: "Desfiladero de Las Xanas (PR AS-187)"
-heroImage: "https://i.imgur.com/u2wx3GX.jpg"
+title: Desfiladero de Las Xanas (PR AS-187)
+heroImage: https://i.imgur.com/u2wx3GX.jpg
 pubDate: 2018-08-29T15:44:55Z
 updatedDate: 2018-11-05T08:09:49Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "En circular por la Ruta de Valdolayés La idea original era recorrer la archiconocida Garganta del Cares, pero en agosto... la elevada masificación de la zona nos echa para atrás y buscamos una alternativa. Leemos por ahí que el desfiladero "
-category: "Ascensiones"
+category: Ascensiones
 tags:
-  - "Asturias"
-  - "desfiladero"
-  - "Picos de Europa"
-  - "Xanas"
+  - Asturias
+  - desfiladero
+  - Xanas
+  - picos_de_europa
 ---
 
 ## En circular por la Ruta de Valdolayés

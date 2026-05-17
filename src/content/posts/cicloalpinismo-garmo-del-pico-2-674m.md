@@ -1,16 +1,16 @@
 ---
 title: "Cicloalpinismo: Garmo del Pico (2.674m)"
-heroImage: "https://i.imgur.com/R7CPaiz.jpg"
+heroImage: https://i.imgur.com/R7CPaiz.jpg
 pubDate: 2020-10-12T17:58:15Z
 updatedDate: 2020-10-12T18:18:06Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "El otro día, AlbertoEpic partió de la base de SQLP con otra completa misión: la ascensión al Garmo del Pico para la elaboración de una foto esférica para pano360.soloquedalopeor.com y obtener unas valiosas imágenes a vista de drone desde la"
-category: "Bicicleta de montaña"
+category: Bicicleta de montaña
 tags:
-  - "cicloalpinismo"
-  - "Garmo del Pico"
-  - "Valle de Tena"
+  - cicloalpinismo
+  - valle_de_tena
+  - garmo_del_pico
 ---
 El otro día, AlbertoEpic partió de la base de SQLP con otra completa misión: la ascensión al Garmo del Pico para la elaboración de una foto esférica para [pano360.soloquedalopeor.com](http://pano360.soloquedalopeor.com) y obtener unas valiosas imágenes a vista de drone desde las alturas...
 El desarrollo de la jornada fue todo un éxito y ahora SQLP cuenta con foto esférica y vídeo espectacular.

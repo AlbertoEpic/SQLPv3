@@ -1,15 +1,14 @@
 ---
 title: "Eclectic 3.0: The Roads Less Traveled"
 pubDate: 2009-12-15T15:36:00Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:29:01Z
 draft: false
-author: "AlbertoEpic"
-description: "Con este nombre, un tal Ross Ching nos presenta uno de sus alucinantes proyectos de secuenciación de imágenes a alta velocidad (Los ingleses lo llaman 'time lapse work'). En él, Ross ha cogido unas 15.000 fotos (No las he contado yo, lo dic"
-category: "Otros"
+author: AlbertoEpic
+description: Con este nombre, un tal Ross Ching nos presenta uno de sus alucinantes proyectos de secuenciación de imágenes a alta velocidad (Los ingleses lo llaman 'time lapse work'). En él, Ross ha cogido unas 15.000 fotos (No las he contado yo, lo dic
+category: Otros
 tags:
-  - "Uncategorized"
+  - viajes
 ---
 Con este nombre, un tal Ross Ching nos presenta uno de sus alucinantes proyectos de secuenciación de imágenes a alta velocidad (Los ingleses lo llaman 'time lapse work'). En él, Ross ha cogido unas 15.000 fotos (No las he contado yo, lo dice él...) y las ha unido todas en una película de poco más de 2 minutos.
 

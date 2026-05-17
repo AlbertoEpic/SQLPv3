@@ -1,14 +1,16 @@
 ---
 title: "BTT enduro: fortalecimiento del espí­ritu..."
-heroImage: "attachments/1507469_10200619214042909_2168104592298731719_o.webp"
+heroImage: attachments/1507469_10200619214042909_2168104592298731719_o.webp
 pubDate: 2014-04-14T20:29:00Z
 updatedDate: 2015-04-06T10:28:27Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "El pasado domingo, por fin, después de mucho tiempo, los globeros Morenetti y AlbertoEpic, acompañados por el vulkanero Marco, realizaron una de esas rutas que te hacen ser consciente del verdadero significado del nombre de esta web: SóloQu"
-category: "Bicicleta de montaña"
+category: Bicicleta de montaña
 tags:
-  - "Uncategorized"
+  - btt
+  - enduro
+  - sierra_de_guara
 ---
 El pasado domingo, por fin, después de mucho tiempo, los globeros Morenetti y AlbertoEpic, acompañados por el vulkanero Marco, realizaron una de esas rutas que te hacen ser consciente del verdadero significado del nombre de esta web: SóloQuedaLoPeor.
 

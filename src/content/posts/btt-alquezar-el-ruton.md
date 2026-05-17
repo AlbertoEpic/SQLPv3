@@ -1,16 +1,17 @@
 ---
 title: "BTT Alquézar: el RUTaí¢â‚¬Å“N"
-heroImage: "attachments/borrame1-300x209.webp"
+heroImage: attachments/borrame1-300x209.webp
 pubDate: 2012-01-17T10:00:00Z
 updatedDate: 2015-04-06T10:28:43Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "El pasado domingo un nutrido grupo de globeros realizó el denominado por Morenetti como RUTaí¢â‚¬Å“N. La hora de salida en Alquézar fueron las 10.00am. Como había que amortizar los 'lupinchines', se fue a ritmo mu tranquilo para que se hiciera de "
-category: "Otros"
+category: Bicicleta de montaña
 tags:
-  - "alquézar"
-  - "btt"
-  - "globeros"
+  - alquézar
+  - btt
+  - globeros
+  - enduro
 ---
 El pasado domingo un nutrido grupo de globeros realizó el denominado por Morenetti como RUTaí¢â‚¬Å“N. La hora de salida en Alquézar fueron las 10.00am. Como había que amortizar los 'lupinchines', se fue a ritmo mu tranquilo para que se hiciera de noche en el puente de Villacantal, y realizar el porteo hasta Alquézar con las linternitas, que mola más y cansa menos porque no se ve la subida...
 

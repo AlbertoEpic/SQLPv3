@@ -1,15 +1,15 @@
 ---
-title: "BTT sierra de Las Cutas"
+title: BTT sierra de Las Cutas
 pubDate: 2009-09-01T09:37:00Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:29:03Z
 draft: false
-author: "AlbertoEpic"
-description: "El pasado domingo tuvo lugar una de las míticas quedadas globeriles para realizar una salida en btt por el Pirineo. Se echaba de menos algo así, con globeros tan ilustres juntos en la misma excursión. Salida de Fanlo, pasando por Nerín, sub"
-category: "Otros"
+author: AlbertoEpic
+description: El pasado domingo tuvo lugar una de las míticas quedadas globeriles para realizar una salida en btt por el Pirineo. Se echaba de menos algo así, con globeros tan ilustres juntos en la misma excursión. Salida de Fanlo, pasando por Nerín, sub
+category: Bicicleta de montaña
 tags:
-  - "Uncategorized"
+  - btt
+  - ordesa
 ---
 El pasado domingo tuvo lugar una de las míticas quedadas globeriles para realizar una salida en btt por el Pirineo. Se echaba de menos algo así, con globeros tan ilustres juntos en la misma excursión. 
 

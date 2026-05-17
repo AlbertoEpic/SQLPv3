@@ -1,12 +1,16 @@
 ---
 title: "Combinada BTT+Pateo: Peñas Roya&Blanca (de Sabocos)"
-heroImage: "https://i.imgur.com/rcEOImN.jpg"
+heroImage: https://i.imgur.com/rcEOImN.jpg
 pubDate: 2020-11-19T19:33:22Z
 updatedDate: 2020-11-19T19:35:48Z
 draft: false
-author: "AlbertoEpic"
-description: "Reseñamos aquí una actividad otoñal realizada por los especialistas Myriam y AlbertoEpic, probablemente la realizada a mayor altitud en zapatillas hasta la primavera que viene... El formato de la actividad fue ese que ya han convertido en h"
-category: "Otros"
+author: AlbertoEpic
+description: Reseñamos aquí una actividad otoñal realizada por los especialistas Myriam y AlbertoEpic, probablemente la realizada a mayor altitud en zapatillas hasta la primavera que viene... El formato de la actividad fue ese que ya han convertido en h
+category: BTT+Pateo
+tags:
+  - ascensiones
+  - panticosa
+  - valle_de_tena
 ---
 Reseñamos aquí una actividad otoñal realizada por los especialistas Myriam y AlbertoEpic, probablemente la realizada a mayor altitud en zapatillas hasta la primavera que viene...
 

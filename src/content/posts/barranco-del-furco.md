@@ -1,15 +1,14 @@
 ---
-title: "Barranco del Furco"
+title: Barranco del Furco
 heroImage: attachments/SQLPcomodin.jpg
 pubDate: 2017-08-12T19:42:45Z
 updatedDate: 2020-03-09T16:21:00Z
 draft: false
-author: "AlbertoEpic"
-description: "Valga este breve post para reseñar la actividad barranquil llevada a cabo por Almu, Cheles y AlbertoEpic, que el pasado 12 de agosto se desplazaron a Broto para, aprovechando el calorcito de estas fechas, darse un buen baño-tertulia en el b"
-category: "Descenso de barrancos"
+author: AlbertoEpic
+description: Valga este breve post para reseñar la actividad barranquil llevada a cabo por Almu, Cheles y AlbertoEpic, que el pasado 12 de agosto se desplazaron a Broto para, aprovechando el calorcito de estas fechas, darse un buen baño-tertulia en el b
+category: Descenso de barrancos
 tags:
-  - "Descenso de barrancos"
-  - "furco"
+  - furco
 ---
 
 Valga este breve post para reseñar la actividad barranquil llevada a cabo por Almu, Cheles y AlbertoEpic, que el pasado 12 de agosto se desplazaron a Broto para, aprovechando el calorcito de estas fechas, darse un buen baño-tertulia en el barranco del Furco.

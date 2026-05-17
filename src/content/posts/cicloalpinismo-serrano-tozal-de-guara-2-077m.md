@@ -1,16 +1,16 @@
 ---
 title: "Cicloalpinismo serrano: Tozal de Guara (2.077m)"
-heroImage: "attachments/DSC00312-300x225.webp"
+heroImage: attachments/DSC00312-300x225.webp
 pubDate: 2012-01-24T09:00:00Z
 updatedDate: 2015-04-06T10:28:42Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "Son las exigencias del guión: es necesaria una toma falsa... Seguimos esperando a que nieve, y seguimos haciendo planes con las btt. En este caso, marchamos a Nocito para desde allí­ subir al Tozal de Guara. La ruta de ascenso: Nocito - Ref."
-category: "Otros"
+category: Bicicleta de montaña
 tags:
-  - "cicloalpinismo"
-  - "nocito"
-  - "sierra guara"
+  - cicloalpinismo
+  - nocito
+  - sierra_de_guara
 ---
 ![](attachments/DSC00312.webp)Son las exigencias del guión: es necesaria una toma falsa...Seguimos esperando a que nieve, y seguimos haciendo planes con las btt. En este caso, marchamos a Nocito para desde allí­ subir al Tozal de Guara.
 

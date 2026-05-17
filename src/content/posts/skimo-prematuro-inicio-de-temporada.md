@@ -10,7 +10,7 @@ description: "La nieve llega un mes antes de lo previsto... Esta temporada comie
 category: "Esquí de travesía"
 tags:
   - "Esqu"
-  - "Valle de Tena"
+  - valle_de_tena
 ---
 La nieve llega un mes antes de lo previsto...
 Esta temporada comienza bien. Durante dos semanas a mitad de noviembre, bajas temperaturas junto a sucesivos frentes no han parado de dejar nieve en el Pirineo. En SQLP hemos aprovechado para comenzar con las incursiones en nieve a lomos de la fatbike, y para iniciar el al principio siempre duro rodaje en esto del esquí de travesía, o esquí de montaña, o skimo, o como lo queráis llamar. AlbertoEpic ya ha estado (Y todavía estamos en noviembre!!!) en el Peyreget y en Peña Blanca, con unas condiciones difíciles de olvidar... ;-).

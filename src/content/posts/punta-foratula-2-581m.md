@@ -11,7 +11,7 @@ tags:
   - "balneario de panticosa"
   - "Esquí de travesía"
   - "Foratulas"
-  - "Valle de Tena"
+  - valle_de_tena
 ---
 Nuestra actividad anterior había sido la ascensión al Peyreget. Condiciones totalmente primaverales, fusión galopante de la nieve... Todo parecía dispuesto para recibir al verano en breve. Pero... unos días después, nos encontramos en el Foratulas, disfrutando de un descenso sobre 30cm de nieve polvo y con unas condiciones totalmente invernales!
 

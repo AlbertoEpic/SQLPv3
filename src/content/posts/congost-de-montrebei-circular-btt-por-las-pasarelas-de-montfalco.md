@@ -8,7 +8,7 @@ author: "AlbertoEpic"
 description: "El pasado finde se dieron una serie de coincidencias cual singular alineación planetaria, para regocijo de SQLP... En la agenda estaba marcada una clásica ascensión a Guara en BTT. Sin embargo, la baja de última hora de Morenetti, promotor "
 category: "Bicicleta de montaña"
 tags:
-  - "btt"
+  - btt
   - "cicloalpinismo"
   - "montfalcó"
   - "montrebei"

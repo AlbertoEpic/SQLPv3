@@ -1,15 +1,15 @@
 ---
-title: "II Descenso BTT de Ayerbe"
+title: II Descenso BTT de Ayerbe
 pubDate: 2010-09-01T20:05:00Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:56Z
 draft: false
-author: "AlbertoEpic"
-description: "El pasado domingo se disputá en Ayerbe el II Descenso de BTT villa de Ayerbe. El equipo de Producciones Soloquedalopeor estuvo allá, tomando imágenes fijas y de video. Para ver el video tendráis que esperar un poco más, lo tenemos en el hor"
-category: "Otros"
+author: AlbertoEpic
+description: El pasado domingo se disputá en Ayerbe el II Descenso de BTT villa de Ayerbe. El equipo de Producciones Soloquedalopeor estuvo allá, tomando imágenes fijas y de video. Para ver el video tendráis que esperar un poco más, lo tenemos en el hor
+category: Bicicleta de montaña
 tags:
-  - "Uncategorized"
+  - btt
+  - ayerbe
 ---
 El pasado domingo se disputá en Ayerbe el II Descenso de BTT villa de Ayerbe. El equipo de Producciones Soloquedalopeor estuvo allá, tomando imágenes fijas y de video.
 

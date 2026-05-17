@@ -1,15 +1,15 @@
 ---
 title: "BTT+Pateo: pico Balsera (2.697m)"
-heroImage: "https://i.imgur.com/bvHc86Z.jpg"
+heroImage: https://i.imgur.com/bvHc86Z.jpg
 pubDate: 2022-08-09T07:48:46Z
 updatedDate: 2022-10-13T07:29:45Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "(Hombro/Hombre de Escarra) Para despedir el mes de julio, nuestros especialistas Myriam y AlbertoEpic decidieron probar con un nuevo plan BTT+pateo de incierto resultado... que resultó ser una de las mejores actividades realizadas por este "
-category: "Ascensiones"
+category: BTT+Pateo
 tags:
-  - "pico Balsera"
-  - "Valle de Tena"
+  - balsera
+  - valle_de_tena
 ---
 (Hombro/Hombre de Escarra)
 Para despedir el mes de julio, nuestros especialistas Myriam y AlbertoEpic decidieron probar con un nuevo plan BTT+pateo de incierto resultado... que resultó ser una de las mejores actividades realizadas por este equipo.

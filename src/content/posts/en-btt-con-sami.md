@@ -1,12 +1,14 @@
 ---
-title: "En BTT con Sami"
-heroImage: "https://i.imgur.com/3nmLEYv.jpg"
+title: En BTT con Sami
+heroImage: https://i.imgur.com/3nmLEYv.jpg
 pubDate: 2020-06-01T08:39:13Z
 updatedDate: 2020-07-02T22:00:31Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "BTT Alto Gállego R17: Oliván Ayer domingo, el equipo SQLP estuvo por el valle de Tena. AlbertoEpic se encargó de seguir desarrollando los superpoderes de Sami, el miembro más joven del equipo, en una ruta de BTT sencilla y con una toma de c"
-category: "SQLP-kids"
+category: SQLP-kids
+tags:
+  - btt
 ---
 
 ## BTT Alto Gállego

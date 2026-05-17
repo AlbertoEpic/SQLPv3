@@ -1,15 +1,14 @@
 ---
-title: "El tiempo es oro"
+title: El tiempo es oro
 pubDate: 2010-08-03T17:28:00Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:56Z
 draft: false
-author: "AlbertoEpic"
-description: "jR, el RaiderMan, con Marga y Laura El tiempo es oro, es limitado, sobre todo el tiempo libre... Es el origen de los raids de aventura. Hay que diversificarse, y con tantas actividades diferentes y tiempo tan limitado, no queda otra que con"
-category: "Descenso de barrancos"
+author: AlbertoEpic
+description: jR, el RaiderMan, con Marga y Laura El tiempo es oro, es limitado, sobre todo el tiempo libre... Es el origen de los raids de aventura. Hay que diversificarse, y con tantas actividades diferentes y tiempo tan limitado, no queda otra que con
+category: Descenso de barrancos
 tags:
-  - "Uncategorized"
+  - sierra_de_guara
 ---
 
 

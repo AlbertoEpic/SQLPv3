@@ -1,16 +1,16 @@
 ---
-title: "El Castell (Roques de Benet) - 1.016m"
-heroImage: "https://i.imgur.com/I3E0qv7.jpg"
+title: El Castell (Roques de Benet) - 1.016m
+heroImage: https://i.imgur.com/I3E0qv7.jpg
 pubDate: 2023-01-25T18:07:42Z
 updatedDate: 2023-01-25T18:13:25Z
 draft: false
-author: "AlbertoEpic"
-description: "Las Roques de Benet (1016 m) son un conjunto rocoso que domina una de las entradas por el norte al macizo de Els Ports de Beseit, y constituyen una de sus cimas más emblemáticas. Sus redondeadas formas de conglomerado se alzan vertiginosame"
-category: "Ascensiones"
+author: AlbertoEpic
+description: Las Roques de Benet (1016 m) son un conjunto rocoso que domina una de las entradas por el norte al macizo de Els Ports de Beseit, y constituyen una de sus cimas más emblemáticas. Sus redondeadas formas de conglomerado se alzan vertiginosame
+category: Ascensiones
 tags:
-  - "el Castell"
-  - "Matarraña"
-  - "Roques de Benet"
+  - Matarraña
+  - el_castell
+  - roques_de_benet
 ---
 
 

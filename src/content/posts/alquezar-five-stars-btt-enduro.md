@@ -8,6 +8,7 @@ description: "Alguna vez has terminado una ruta de BTT con un porteo cuesta arri
 category: Bicicleta de montaña
 tags:
   - btt
+  - alquezar
 heroImage: attachments/alquezar-five-stars-btt-enduro-4.png
 ---
 

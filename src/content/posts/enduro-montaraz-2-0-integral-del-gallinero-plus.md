@@ -9,7 +9,7 @@ description: "Una idea rondaba por la cabeza de AlbertoEpic hace tiempo: desde C
 category: "Bicicleta de montaña"
 tags:
   - "Benasque"
-  - "btt"
+  - btt
   - "cicloalpinismo"
   - "Gallinero"
 ---

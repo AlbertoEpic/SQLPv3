@@ -1,12 +1,14 @@
 ---
-title: "La Palma - pico Bejenado (1.856m)"
-heroImage: "https://i.imgur.com/99JdOBM.jpg"
+title: La Palma - pico Bejenado (1.856m)
+heroImage: https://i.imgur.com/99JdOBM.jpg
 pubDate: 2022-09-18T14:51:18Z
 updatedDate: 2022-09-19T17:53:42Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "Vacaciones en La Palma: día 6 Penúltimo día de vacaciones en La Palma, mañana tomamos el avión de regreso a Barcelona. La idea para hoy es ascender al pico Bejenado, en el borde sur de la Caldera de Taburiente. Es un excelente mirador de la"
-category: "La Palma 2022"
+category: La Palma 2022
+tags:
+  - viajes
 ---
 Vacaciones en La Palma: día 6
 Penúltimo día de vacaciones en La Palma, mañana tomamos el avión de regreso a Barcelona. La idea para hoy es ascender al pico Bejenado, en el borde sur de la Caldera de Taburiente. Es un excelente mirador de la caldera de Taburiente (Hacia el norte) y de la zona de Cumbrevieja (Al sur). Nosotros tomaremos la opción de ascenso más directa, desde el mirador de Cumbrecita. Puedes ver una representación de la ruta en 3D a continuación:https://video.relive.cc/39005922101_relive_1663512399996.mp4Por si te interesa, hemos añadido el track de la ruta a nuestra base de datos, puedes consultarlo con el mapa y descargarlo:

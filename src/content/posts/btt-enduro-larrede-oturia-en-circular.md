@@ -1,17 +1,17 @@
 ---
 title: "BTT enduro: Lárrede-Oturia en circular"
-heroImage: "https://i.imgur.com/lIsGhrh.jpg"
+heroImage: https://i.imgur.com/lIsGhrh.jpg
 pubDate: 2019-04-30T11:05:12Z
 updatedDate: 2019-05-02T18:39:37Z
 draft: false
-author: "AlbertoEpic"
-description: "Proponemos a continuacián una ruta de 'autántico muntanbai', con una subida 'larga pero dura' y una bajada trialera larga y con mucho 'flow' que nos dejará en el coche con una sonrisa de oreja a oreja para al menos una semana... El otro dáa"
-category: "Bicicleta de montaáa"
+author: AlbertoEpic
+description: Proponemos a continuacián una ruta de 'autántico muntanbai', con una subida 'larga pero dura' y una bajada trialera larga y con mucho 'flow' que nos dejará en el coche con una sonrisa de oreja a oreja para al menos una semana... El otro dáa
+category: Bicicleta de montaña
 tags:
-  - "btt"
-  - "Lárrede"
-  - "Oturia"
-  - "Valle de Tena"
+  - btt
+  - Lárrede
+  - Oturia
+  - valle_de_tena
 ---
 Proponemos a continuacián una ruta de 'autántico muntanbai', con una subida 'larga pero dura' y una bajada trialera larga y con mucho 'flow' que nos dejará en el coche con una sonrisa de oreja a oreja para al menos una semana...
 

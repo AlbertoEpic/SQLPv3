@@ -1,13 +1,14 @@
 ---
-title: "Filomena ya llegó!"
+title: Filomena ya llegó!
 pubDate: 2021-01-12T10:22:29Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2021-01-12T10:32:06Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "Hemos comenzado el 2021 con una borrasca, Filomena, que nos ha traído abundantes nevadas en toda España. El siguiente vídeo simplemente pretende dejar testimonio del estado polar en el que se encontraba la zona de Tierz. íƒÂngel y AlbertoEpic"
-category: "Bicicleta de montaña"
+category: Bicicleta de montaña
+tags:
+  - fatbike
 ---
 Hemos comenzado el 2021 con una borrasca, Filomena, que nos ha traído abundantes nevadas en toda España. El siguiente vídeo simplemente pretende dejar testimonio del estado polar en el que se encontraba la zona de Tierz.
 íƒÂngel y AlbertoEpic, dando un paseo en bici por el Saso de Tierz...

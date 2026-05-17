@@ -10,7 +10,7 @@ category: Bicicleta de montaña
 tags:
   - btt
   - enduro
-  - Valle de Tena
+  - valle_de_tena
 ---
 Una ruta para 'vagos' pero fuertes...
 Cuando te hablan de una ruta de enduro, con combinación de coches, que sale del punto más alto de la ruta para terminar en el punto más bajo... uno no puede evitar pensar "será una ruta para vagos". Craso error! Esta ruta del [Espacio BTT - Pirineo Alto Gállego](http://www.bttpirineosaltogallego.com/es/vive-la-aventura.aspx) cuenta con casi 1.000m de desnivel+ y bien pocos tramos donde relajarse y rodar tranquilo, ya sea por los trepidantes descensos o por las agónicas subidas!

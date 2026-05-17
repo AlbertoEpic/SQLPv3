@@ -1,16 +1,17 @@
 ---
 title: "Gavarnie weekend I: BTT - Gavarnie popurrí"
 pubDate: 2011-08-30T11:28:00Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:46Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "El pasado finde nos salió la vena nómada y nos fuimos a Gavarnie. La noche del viernes lluvias torrenciales, menos mal que tenemos fe en la meteo y dicen que el frente pasa esta noche... Y así fue, el sábado unas condiciones perfectas para "
-category: "Otros"
+category: Bicicleta de montaña
 tags:
-  - "cicloalpinismo"
-  - "gavarnie"
+  - cicloalpinismo
+  - gavarnie
+  - btt
+  - everest
 ---
 El pasado finde nos salió la vena nómada y nos fuimos a Gavarnie. La noche del viernes lluvias torrenciales, menos mal que tenemos fe en la meteo y dicen que el frente pasa esta noche... Y así fue, el sábado unas condiciones perfectas para una ruta de cicloalpinismo 'light', un popurrí de btt: breves porteos, tramos técnicos de subida, de bajada, a media ladera, senderos, prados, caminos, asfalto, repechos inhumanos,... de todo, pero a dosis pequeñas de manera que nunca resulta demasiado.
 

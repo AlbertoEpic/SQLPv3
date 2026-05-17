@@ -11,7 +11,7 @@ category: "Esquí de travesía"
 tags:
   - "balneario de panticosa"
   - "Esquí de travesía"
-  - "Valle de Tena"
+  - valle_de_tena
 ---
 El pasado sábado, un cuarteto de ilustres globeros (Dr. LaTrek, Morenetti, Luzia y AlbertoEpic) se juntó con un 'multitudinario' grupo de traveseros, ya conocidos de anteriores ocasiones, con la idea de ir al Balneario de Panticosa y 'ver qué pasa'.
 Lo que pasó fue que se terminó haciendo el siguiente recorrido: Balneario - Coll. Pondiellos - Pico Tebarray (2.916m) - Sallent.

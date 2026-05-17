@@ -9,7 +9,7 @@ author: "AlbertoEpic"
 description: "Este pasado finde, la meteo tan rara para esta época nos tenía despistados, y terminamos haciendo BTT los dos días. Como novedad, hoy Producciones SoloQuedaLoPeor no te ofrece videos en plan 'relato de la actividad'. En su lugar, probamos c"
 category: "Otros"
 tags:
-  - "btt"
+  - btt
   - "trialeras"
 ---
 Este pasado finde, la meteo tan rara para esta época nos tenía despistados, y terminamos haciendo BTT los dos días. Como novedad, hoy Producciones SoloQuedaLoPeor no te ofrece videos en plan 'relato de la actividad'. En su lugar, probamos con el formato 'videclip': las mejores imágenes, todo revuelto.

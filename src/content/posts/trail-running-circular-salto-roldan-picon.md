@@ -9,7 +9,7 @@ author: "AlbertoEpic"
 description: "Hoy venimos para anunciar que hemos añadido a nuestra base de datos el track de una vuelta muy apropiada para trail running. AlbertoEpic fue el otro día, quería reconocer el tramo que rodea el Picón para una posible ruta en bici (Comprobó q"
 category: "Ascensiones"
 tags:
-  - "sierra guara"
+  - "sierra_de_guara"
   - "trail running"
 ---
 Hoy venimos para anunciar que hemos añadido aí‚Â  nuestra base de datos el track de una vuelta muy apropiada para trail running.

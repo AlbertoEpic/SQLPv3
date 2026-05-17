@@ -1,15 +1,16 @@
 ---
 title: "Ibón de Estanés: circular desde Sansanet"
-heroImage: "https://i.imgur.com/D45Uq6W.jpg"
+heroImage: https://i.imgur.com/D45Uq6W.jpg
 pubDate: 2020-07-27T14:58:11Z
 updatedDate: 2020-07-27T15:04:27Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "El pasado domingo, el equipo SQLP-Kids estuvo realizando otra de sus actividades por el monte. Dados los calores estivales, se optó por buscar una ruta por la vertiente norte del Pirineo, siempre algo más fresca: partiendo de Sansanet, el i"
-category: "SQLP-kids"
+category: SQLP-kids
 tags:
-  - "Estanés"
-  - "Ibón"
+  - Estanés
+  - Ibón
+  - sansanet
 ---
 El pasado domingo, el equipo SQLP-Kids estuvo realizando otra de sus actividades por el monte. Dados los calores estivales, se optó por buscar una ruta por la vertiente norte del Pirineo, siempre algo más fresca: partiendo de Sansanet, el ibón de Estanés siempre es un buen objetivo.
 

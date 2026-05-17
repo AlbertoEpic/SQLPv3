@@ -1,14 +1,15 @@
 ---
-title: "II RAID DE AVENTURA DE LA RIBAGORZA"
-heroImage: "attachments/P1130039-300x225.webp"
+title: II RAID DE AVENTURA DE LA RIBAGORZA
+heroImage: attachments/P1130039-300x225.webp
 pubDate: 2010-09-08T09:42:00Z
 updatedDate: 2015-04-06T10:28:56Z
 draft: false
-author: "AlbertoEpic"
-description: "Durante el pasado fin de semana se disputó la 2 edición del Raid de Aventura de la Ribagorza, prueba puntuable para la Liga Española de la modalidad y que además era el Campeonato de Aragón. Hasta aquí­ se desplazaron nada menos que 5 equip"
-category: "Otros"
+author: AlbertoEpic
+description: Durante el pasado fin de semana se disputó la 2 edición del Raid de Aventura de la Ribagorza, prueba puntuable para la Liga Española de la modalidad y que además era el Campeonato de Aragón. Hasta aquí­ se desplazaron nada menos que 5 equip
+category: Otros
 tags:
-  - "Uncategorized"
+  - raid_de_aventura
+  - Ribagorza
 ---
  Durante el pasado fin de semana se disputó la 2 edición del Raid de Aventura de la Ribagorza, prueba puntuable para la Liga Española de la modalidad y que además era el Campeonato de Aragón. Hasta aquí­ se desplazaron nada menos que 5 equipos del club Peña Guara (en categorí­a Elite, Peña Guara â‚¬â€œ Oxigen, en Aventura Masculina, Peña Guara â‚¬â€œ Mastos, en Aventura Mixto, Peña Guara Aventura y Peña Guara Imagine, y en Aventura Femenino, Peña Guara Somos Nenas o Marines).
 

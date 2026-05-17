@@ -1,16 +1,16 @@
 ---
-title: "Ellos las prefieren gordas. Un poco de snowbike en Formigal..."
-heroImage: "attachments/itinerario.webp"
+title: Ellos las prefieren gordas. Un poco de snowbike en Formigal...
+heroImage: attachments/itinerario.webp
 pubDate: 2016-04-18T22:15:18Z
 updatedDate: 2016-04-18T22:15:18Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "En el equipo SQLP innovamos hoy un poco en cuanto a disciplinas/material se refiere. Vamos con una variedad de la BTT: las FatBike. cualquier parecido de una fatbike con una mountainbike es pura coincidencia... Realmente no se pueden compar"
-category: "Bicicleta de montaña"
+category: Bicicleta de montaña
 tags:
-  - "btt"
-  - "fat bike"
-  - "Valle de Tena"
+  - btt
+  - valle_de_tena
+  - fatbike
 ---
 En el equipo SQLP innovamos hoy un poco en cuanto a disciplinas/material se refiere. Vamos con una variedad de la BTT: las FatBike. cualquier parecido de una fatbike con una mountainbike es pura coincidencia... Realmente no se pueden comparar unas con otras. Es como comparar un Ferrari con un tractor. Cada uno en su campo supera al otro por goleada.
 

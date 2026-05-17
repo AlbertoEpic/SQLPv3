@@ -1,12 +1,14 @@
 ---
-title: "La Palma - Volcanes de San Antonio y Teneguía"
-heroImage: "https://i.imgur.com/pPAPeTQ.jpg"
+title: La Palma - Volcanes de San Antonio y Teneguía
+heroImage: https://i.imgur.com/pPAPeTQ.jpg
 pubDate: 2022-09-09T10:43:39Z
 updatedDate: 2022-09-09T17:31:18Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "Vacaciones en La Palma: día 4 Si el otro día estuvimos husmeando por el norte de la isla, hoy nos acercamos al extremo sur. Daremos un paseo visitando los volcanes de San Antonio y Teneguía. Es una pena, no sé si en temporada baja la cosa c"
-category: "La Palma 2022"
+category: La Palma 2022
+tags:
+  - viajes
 ---
 Vacaciones en La Palma: día 4
 Si el otro día estuvimos husmeando por el norte de la isla, hoy nos acercamos al extremo sur. Daremos un paseo visitando los volcanes de San Antonio y Teneguía. Es una pena, no sé si en temporada baja la cosa cambiará, pero en verano está todo lleno de carteles de prohibido el paso que evitan los itinerarios más imaginativos. La idea era ascender a los dos volcanes y circunvalar su cráter por el borde, pero eso y mucho más estaba prohibido. A continuación tienes el itinerario resultante:https://video.relive.cc/23640812101_relive_1662719868568.mp4(...)

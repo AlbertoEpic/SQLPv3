@@ -9,7 +9,7 @@ author: "AlbertoEpic"
 description: "Impresionante ruta de cicloalpinismo El otro día Pedro y AlbertoEpic se aliaron para realizar la que probablemente haya sido la ruta de cicloalpinismo más gozosa de la temporada para AlbertoEpic... Por aportar un poco de originalidad a la r"
 category: "Bicicleta de montaña"
 tags:
-  - "btt"
+  - btt
   - "cicloalpinismo"
   - "Petrechema"
 ---

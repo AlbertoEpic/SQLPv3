@@ -1,14 +1,15 @@
 ---
-title: "GLOBEROS POR LAPONIA"
-heroImage: "attachments/IGP0499_1-300x201.webp"
+title: GLOBEROS POR LAPONIA
+heroImage: attachments/IGP0499_1-300x201.webp
 pubDate: 2010-03-01T16:33:00Z
 updatedDate: 2015-04-06T10:28:59Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "Normal 0 21 ó ó ó MicrosoftInternetExplorer4 Ya hemos vuelto del pais donde hace mas frí­o que en el congelador de tu casa, donde la humedad precipita en forma de brillantina de cristales de hielo y donde la nieve no son bolisas "
-category: "Otros"
+category: Otros
 tags:
-  - "Uncategorized"
+  - viajes
+  - laponia
 ---
 ![](attachments/IGP0499_1.webp)
 

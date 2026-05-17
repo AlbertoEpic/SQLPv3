@@ -1,18 +1,19 @@
 ---
 title: "BTT enduro: cápsulas antiestrés #3"
-heroImage: "https://i.imgur.com/3eyGijX.jpg"
+heroImage: https://i.imgur.com/3eyGijX.jpg
 pubDate: 2018-11-19T19:30:27Z
 updatedDate: 2020-06-03T10:10:24Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "Otra mañana libre para AlbertoEpic, y otro microplan totalmente recomendable: en este caso, la ruta comienza en Búbal. Subida cómoda por asfalto hasta Lacuniacha, y luego por pista buena hasta el ibón de Piedrafita. Allí, AlbertoEpic decide"
-category: "Bicicleta de montaña"
+category: Bicicleta de montaña
 tags:
-  - "antiestrés"
-  - "btt"
-  - "cápsulas"
-  - "enduro"
-  - "Valle de Tena"
+  - antiestrés
+  - btt
+  - cápsulas
+  - enduro
+  - valle_de_tena
+  - santa_orosia
 ---
 Otra mañana libre para AlbertoEpic, y otro microplan totalmente recomendable: en este caso, la ruta comienza en Búbal.
 

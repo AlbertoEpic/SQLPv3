@@ -10,7 +10,7 @@ category: "Bicicleta de montaña"
 tags:
   - "barbaruens"
   - "basa de la mora"
-  - "btt"
+  - btt
   - "cicloalpinismo"
   - "saravillo"
 ---

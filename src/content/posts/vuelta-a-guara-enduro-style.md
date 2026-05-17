@@ -8,8 +8,8 @@ author: "AlbertoEpic"
 description: "Simplemente comentar que el otro día el grupo formado por Rafa, José, Luis, Lola y AlbertoEpic se reunieron en el parking del Formiga para aprovechar estos días fresquitos y hacer con las btt la vuelta a Guara, en su versión más endurera. U"
 category: "Bicicleta de montaña"
 tags:
-  - "btt"
-  - "sierra guara"
+  - btt
+  - "sierra_de_guara"
 ---
 Simplemente comentar que el otro día el grupo formado por Rafa, José, Luis, Lola y AlbertoEpic se reunieron en el parking del Formiga para aprovechar estos días fresquitos y hacer con las btt la vuelta a Guara, en su versión más endurera. Una jornada para recordar...
 

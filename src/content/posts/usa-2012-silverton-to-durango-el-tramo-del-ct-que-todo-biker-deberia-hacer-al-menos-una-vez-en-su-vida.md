@@ -9,7 +9,7 @@ author: "AlbertoEpic"
 description: "Volvemos al Colorado Trail. Tras interrumpir el mismo en Leadville para que AlbertoEpic se recuperara, nuestros especialistas replantean la situación, hacen sus nuevos cálculos de fechas y deciden asegurar el tramo del CT más espectacular y"
 category: "Viajes"
 tags:
-  - "btt"
+  - btt
   - "Colorado Trail"
   - "Silverton"
   - "soloquedalopeor"

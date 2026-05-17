@@ -20,7 +20,7 @@ Saltamos adelante en el tiempo, hasta la áltima semana de su viaje por USA. Los
 
 En el centro de visitantes del borde norte es difácil conseguir un permiso si le dices a la ranger que pretendes hacer en dáa y medio lo que ellos aconsejan hacer en 5... Finalmente lo consiguen y emprenden el camino:
 
-recorren el Kaibab Trail hasta el fondo del Caáán, comen algo mientras dejan pasar las horas de más calor (más de 50C!!!), remontan hacia el borde sur, a Yaki Point, para ver una mática puesta de sol y regresan al fondo. Allá, cenan, descansan 2h y retornan al coche, en el borde norte.
+recorren el Kaibab Trail hasta el fondo del Caáán, comen algo mientras dejan pasar las horas de más calor (más de 50C!!!), remontan hacia el borde sur, a Yaki Point, para ver una mática puesta_de_sol y regresan al fondo. Allá, cenan, descansan 2h y retornan al coche, en el borde norte.
 
 En cifras: 26h, 61km, 4.300m desnivel+.
 

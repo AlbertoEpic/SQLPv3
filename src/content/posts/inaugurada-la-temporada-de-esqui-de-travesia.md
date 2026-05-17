@@ -1,14 +1,14 @@
 ---
-title: "Inaugurada la temporada de esquí­ de travesí­a..."
-heroImage: "attachments/TODOS_CAMINO_DE_LA_ULTIMA_RAMPA_AL_COLL_DE_ASTUN-300x225.webp"
+title: Inaugurada la temporada de esquí­ de travesí­a...
+heroImage: attachments/TODOS_CAMINO_DE_LA_ULTIMA_RAMPA_AL_COLL_DE_ASTUN-300x225.webp
 pubDate: 2008-11-09T19:02:00Z
 updatedDate: 2015-04-06T10:29:08Z
 draft: false
-author: "AlbertoEpic"
-description: "Hoy he hecho la primera salida de esquí­ de travesí­a de la temporada (Otros ya llevan varias). El monte está impresionante, parece que sea febrero! La nieve estaba un poco de todo, a veces asquerosilla, a veces buena. El recorrido ha sido el"
-category: "Esquí­ de travesí­a"
+author: AlbertoEpic
+description: Hoy he hecho la primera salida de esquí­ de travesí­a de la temporada (Otros ya llevan varias). El monte está impresionante, parece que sea febrero! La nieve estaba un poco de todo, a veces asquerosilla, a veces buena. El recorrido ha sido el
+category: Esquí­ de travesí­a
 tags:
-  - "Esquí­ de travesí­a"
+  - skimo
 ---
 ![](attachments/TODOS_CAMINO_DE_LA_ULTIMA_RAMPA_AL_COLL_DE_ASTUN.webp)Hoy he hecho la primera salida de esquí­ de travesí­a de la temporada (Otros ya llevan varias). El monte está impresionante, parece que sea febrero! La nieve estaba un poco de todo, a veces asquerosilla, a veces buena. El recorrido ha sido el siguiente (Copio-pego de un email de Jorge):
 

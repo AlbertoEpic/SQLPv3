@@ -1,16 +1,15 @@
 ---
-title: "Acceso invernal a los refugios de la FAM"
+title: Acceso invernal a los refugios de la FAM
 pubDate: 2018-12-12T11:11:48Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2018-12-12T11:11:49Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "El otro día llegó a mí una información que pienso que puede ser útil a aquellos interesados en llegar a cualquiera de los refugios de montaña de la FAM (Federación Aragonesa de Montañismo) en condiciones invernales. Se trata de unas fichas "
-category: "Otros"
+category: Otros
 tags:
-  - "acceso invernal"
-  - "refugios"
+  - refugios
+  - acceso_invernal
 ---
 El otro día llegó a mí una información que pienso que puede ser útil a aquellos interesados en llegar a cualquiera de los refugios de montaña de la FAM (Federación Aragonesa de Montañismo) en condiciones invernales. Se trata de unas fichas extraídas de la web de la FAM, dentro de su [campaña "Montañas Seguras"](http://montanasegura.com/acceso-invernal-a-los-refugios-de-la-fam/).
 

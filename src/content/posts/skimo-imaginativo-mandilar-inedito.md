@@ -10,7 +10,7 @@ category: "Esquí de travesía"
 tags:
   - "Esquí de travesía"
   - "mandilar"
-  - "Valle de Tena"
+  - valle_de_tena
   - "yandel"
 ---
 Ayer domingo, Marta y AlbertoEpic hicieron coincidir sus coordenadas espaciotemporales para hacer algo de esquí de montaña. La sucesión de frentes locos que últimamente nos castiga había hecho que la salida de Peña Guara se suspendiera, y el éxito de cualquier empresa era muy dudoso...

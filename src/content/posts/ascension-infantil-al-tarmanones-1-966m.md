@@ -1,15 +1,16 @@
 ---
-title: "Ascensión infantil al Tarmañones (1.966m)"
-heroImage: "https://i.imgur.com/5trvLMT.jpg"
+title: Ascensión infantil al Tarmañones (1.966m)
+heroImage: https://i.imgur.com/5trvLMT.jpg
 pubDate: 2021-07-27T07:52:01Z
 updatedDate: 2021-07-27T08:47:22Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "El Tarmañones es una fantástica atalaya al norte de las sierras de la Partacua (Telera) y Tendeñera (Sabocos). En su mayoría relieves suaves cubiertos de hierba, se convierte en un apetecible objetivo con niños si pagamos los 7í¢â€šÂ¬ para subir "
-category: "SQLP-kids"
+category: SQLP-kids
 tags:
-  - "ascensiones"
-  - "Valle de Tena"
+  - ascensiones
+  - valle_de_tena
+  - tarmañones
 ---
 El Tarmañones es una fantástica atalaya al norte de las sierras de la Partacua (Telera) y Tendeñera (Sabocos). En su mayoría relieves suaves cubiertos de hierba, se convierte en un apetecible objetivo con niños si pagamos los 7í¢â€šÂ¬ para subir en coche por la pista hasta el punto de partida, en el embalse de las Paúles.
 Tanto el desnivel (325m+) como la distancia (7km) son asequibles para niños. El track, a continuación:

@@ -13,7 +13,7 @@ tags:
   - "escalada"
   - "luzia"
   - "Midi d'Ossau"
-  - "Valle de Tena"
+  - valle_de_tena
 ---
 Por fin este pasado finde hizo bueno. Marcos, Marthe, Lucía y Alberto recuperamos este plan que fue pospuesto la semana anterior. El sábado subimos a vivaquear junto al lac de Pombie, y el domingo subimos al Midi por la vira de l'EmbarradíƒÂ¨re, que cruza por la mitad toda la cara norte sin pasar de III+ (Si no te embarcas). Ya se echaba en falta una jornada de montaña completita, de sol a sol.
 Puedes ver el video a continuación:

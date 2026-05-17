@@ -1,20 +1,19 @@
 ---
 title: "HR Circo de Gavarnie: travesía Casco-Marboré"
-heroImage: "https://i.imgur.com/t9vIsiB.jpg"
+heroImage: https://i.imgur.com/t9vIsiB.jpg
 pubDate: 2016-08-11T09:49:26Z
 updatedDate: 2018-09-10T11:09:51Z
 draft: false
-author: "AlbertoEpic"
-description: "Hacía mucho tiempo que AlbertoEpic le tenía ganas a esta actividad a la que, debido a las cosas del destino y la fragilidad de ciertos ligamentos, se le iba a adelantar Luzia. Así, mientras AlbertoEpic se dedica a rehabilitar y fortalecer s"
-category: "Ascensiones"
+author: AlbertoEpic
+description: Hacía mucho tiempo que AlbertoEpic le tenía ganas a esta actividad a la que, debido a las cosas del destino y la fragilidad de ciertos ligamentos, se le iba a adelantar Luzia. Así, mientras AlbertoEpic se dedica a rehabilitar y fortalecer s
+category: Ascensiones
 tags:
-  - "alta montaña"
-  - "ascensiones"
-  - "Casco"
-  - "escalada"
-  - "gavarnie"
-  - "marboré"
-  - "ordesa"
+  - ascensiones
+  - Casco
+  - escalada
+  - gavarnie
+  - marboré
+  - ordesa
 ---
 Hacía mucho tiempo que AlbertoEpic le tenía ganas a esta actividad a la que, debido a las cosas del destino y la fragilidad de ciertos ligamentos, se le iba a adelantar Luzia. Así, mientras AlbertoEpic se dedica a rehabilitar y fortalecer su tobillo, Luzia se alió con su colega íƒâ€°dgar para realizar lo que debe ser una de las travesías de altura más grandiosas (Paisajísticamente hablando) del Pirineo: enlazar los 7 tresmiles que conforman el circo de Gavarnie. Empezando por el Casco, la Torre, la Espalda, los tres Picos de la Cascada y terminando en el Marboré.
 

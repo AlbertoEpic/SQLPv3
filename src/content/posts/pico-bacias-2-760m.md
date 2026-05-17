@@ -11,7 +11,7 @@ tags:
   - "ascensiones"
   - "balneario de panticosa"
   - "Esquí de travesía"
-  - "Valle de Tena"
+  - valle_de_tena
 ---
 El pasado domingo tocaba subir a algún monte, y si tenía que ser un plan rápido y con esquís, además de lejos de la nieve de cañón... las posibilidades quedaban bastante limitadas. í‚¿Qué tal un Bacías desde el Balneario de Panticosa? Vamosss!!! Hasta allí se escapan Luzia y AlbertoEpic, donde se juntan con Inazio y Make.
 

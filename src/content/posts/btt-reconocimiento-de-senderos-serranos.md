@@ -1,15 +1,16 @@
 ---
 title: "BTT: reconocimiento de senderos serranos..."
-heroImage: "https://i.imgur.com/a8NIOiq.jpg"
+heroImage: https://i.imgur.com/a8NIOiq.jpg
 pubDate: 2019-12-16T17:20:17Z
 updatedDate: 2020-03-02T15:57:17Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "El pasado sábado, y como había riesgo 4 de aludes, cambiamos los esquís por los pedales y salimos a reconocer el terreno para posibles futuras rutas más largas, cuando el día tenga más horas de luz. AlbertoEpic se unió al grupo de avezados "
-category: "Bicicleta de montaña"
+category: Bicicleta de montaña
 tags:
-  - "btt"
-  - "sierra guara"
+  - btt
+  - enduro
+  - sierra_de_guara
 ---
 El pasado sábado, y como había riesgo 4 de aludes, cambiamos los esquís por los pedales y salimos a reconocer el terreno para posibles futuras rutas más largas, cuando el día tenga más horas de luz.
 

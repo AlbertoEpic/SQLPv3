@@ -1,15 +1,15 @@
 ---
 title: "Aludes: lección práctica..."
-heroImage: "attachments/alud.webp"
+heroImage: attachments/alud.webp
 pubDate: 2014-02-10T11:49:00Z
 updatedDate: 2015-04-06T10:28:36Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "De la mano de Gil d'Asprer me ha llegado esto: una buena descripción, en la página del ACNA , de una avalancha que afectó a 6 personas, grupo de Albert Castellet. Debido a su interés para todos los que nos movemos por montaña en invierno, r"
-category: "Otros"
+category: Otros
 tags:
-  - "alud"
-  - "Esquí­ de travesí­a"
+  - alud
+  - skimo
 ---
 
 

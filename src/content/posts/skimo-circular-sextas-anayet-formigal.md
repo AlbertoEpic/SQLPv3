@@ -10,7 +10,7 @@ category: "Esquí de travesía"
 tags:
   - "Esquí de travesía"
   - "formigal"
-  - "Valle de Tena"
+  - valle_de_tena
 ---
 Reseñamos a continuación una actividad de esquí de montaña algo diferente a lo habitual. Había que combinar los siguientes ingredientes: estar en Formigal, en el parking de Sextas, a las 13:15h. Existía un elevado riesgo de aludes. El grupo era mínimo (2 personas, Eva y AlbertoEpic) y desentrenado, al comenzar ahora la temporada de trave...
 

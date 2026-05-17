@@ -1,15 +1,15 @@
 ---
-title: "Estreno de la temporada 2.0"
-heroImage: "attachments/astun1.webp"
+title: Estreno de la temporada 2.0
+heroImage: attachments/astun1.webp
 pubDate: 2016-01-18T23:06:37Z
 updatedDate: 2016-01-19T09:18:13Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "El pasado fin de semana el equipo SQLP dio por inaugurada (Por segunda vez, tras el parón provocado por el eterno anticiclón y la sequí­a...) la temporada de esquí­ de travesí­a. Luzia y AlbertoEpic pudieron coincidir en un mismo grupo (junto "
-category: "Esquí­ de travesí­a"
+category: Esquí­ de travesí­a
 tags:
-  - "Esquí­ de travesí­a"
-  - "valle del Aragón"
+  - valle_del_aragon
+  - skimo
 ---
 El pasado fin de semana el equipo SQLP dio por inaugurada (Por segunda vez, tras el parón provocado por el eterno anticiclón y la sequí­a...) la temporada de esquí­ de travesí­a. Luzia y AlbertoEpic pudieron coincidir en un mismo grupo (junto a Inazio, Make, Toño y Manuel) en esta ocasión en una ruta por la zona de Astún. No tiene mayor trascendencia, simplemente querí­a dejar aquí­ constancia del evento que tan buen sabor de boca nos dejó. A continuación, unas fotos:
 

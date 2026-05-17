@@ -10,7 +10,7 @@ description: "Se presentaba un finde caluroso, muy caluroso, así que en Producc
 category: "Otros"
 tags:
   - "Benasque"
-  - "btt"
+  - btt
 ---
 Se presentaba un finde caluroso, muy caluroso, así que en Producciones SoloQuedaLoPeor trasladamos nuestro campo base a Benasque. El domingo haremos un barranco acuático, y el sábado... habrá que pedalear!!!
 

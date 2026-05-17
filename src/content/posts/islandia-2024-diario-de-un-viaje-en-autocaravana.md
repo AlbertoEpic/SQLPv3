@@ -1,14 +1,15 @@
 ---
 title: "ISLANDIA 2024: diario de un viaje en autocaravana"
-heroImage: "attachments/Pasted-image-20240829193527-1024x576.webp"
+heroImage: attachments/Pasted-image-20240829193527-1024x576.webp
 pubDate: 2024-10-28T21:32:23Z
 updatedDate: 2024-10-28T21:41:53Z
 draft: false
-author: "AlbertoEpic"
-description: "Cuaderno de bitácora. Extractos del diario de AlbertoEpic... Finiquitamos el tema de las vacaciones en Islandia con este 'Especial' que contiene el vídeo resumen del viaje, un ' Cuaderno de bitácora ' confeccionado a partir de retazos del d"
-category: "Islandia 2024"
+author: AlbertoEpic
+description: Cuaderno de bitácora. Extractos del diario de AlbertoEpic... Finiquitamos el tema de las vacaciones en Islandia con este 'Especial' que contiene el vídeo resumen del viaje, un ' Cuaderno de bitácora ' confeccionado a partir de retazos del d
+category: Islandia 2024
 tags:
-  - "islandia"
+  - islandia
+  - viajes
 ---
 
 ## Cuaderno de bitácora. Extractos del diario de AlbertoEpic...

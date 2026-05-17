@@ -11,7 +11,7 @@ tags:
   - "Esquí­ de travesí­a"
   - "Peyreget"
   - "Portalet"
-  - "Valle de Tena"
+  - valle_de_tena
 ---
 ![](attachments/fotitopaborrar.webp)Hacemos un 'flashback' para retroceder al pasado (reciente) y ver un video filmado y editado por la componente del Equipo SoloQuedaLoPeor, Luzia:
 

@@ -1,15 +1,16 @@
 ---
 title: "BTT con Sami: vuelta al embalse de Lanuza"
 pubDate: 2020-07-02T21:55:53Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2020-07-02T21:57:32Z
 draft: false
-author: "AlbertoEpic"
-description: "Os proponemos en esta ocasión una breve actividad para realizar con niños que estén empezando a descubrir el mundillo de los senderos en BTT. El tramo desde la presa del embalse de Lanuza hasta Sallent de Gállego pasando por el pueblo de La"
-category: "SQLP-kids"
+author: AlbertoEpic
+description: Os proponemos en esta ocasión una breve actividad para realizar con niños que estén empezando a descubrir el mundillo de los senderos en BTT. El tramo desde la presa del embalse de Lanuza hasta Sallent de Gállego pasando por el pueblo de La
+category: SQLP-kids
 tags:
-  - "Valle de Tena"
+  - btt
+  - valle_de_tena
+  - lanuza
 ---
 Os proponemos en esta ocasión una breve actividad para realizar con niños que estén empezando a descubrir el mundillo de los senderos en BTT. El tramo desde la presa del embalse de Lanuza hasta Sallent de Gállego pasando por el pueblo de Lanuza se realiza por carretera asfaltada, pero la otra mitad del recorrido es por un precioso sendero en general muy sencillo, aunque tiene intercalados tramos muy cortos más técnicos donde los más pequeños tendrán que echar pie a tierra y empujar la bici.
 

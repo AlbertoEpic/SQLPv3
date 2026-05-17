@@ -8,7 +8,7 @@ author: "AlbertoEpic"
 description: "La ruta que proponemos hoy intenta buscar pistas con buenas vistas, por la sierra de Loarre, y sin demasiados desniveles para seguir siendo asequibles a los pequeños bikers... Ida y vuelta por el mismo camino, para mantener la curva de nive"
 category: "SQLP-kids"
 tags:
-  - "btt"
+  - btt
   - "loarre"
   - "niños"
 ---

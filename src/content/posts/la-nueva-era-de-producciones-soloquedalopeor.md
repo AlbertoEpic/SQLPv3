@@ -1,15 +1,14 @@
 ---
-title: "La Nueva Era de Producciones SoloQuedaLoPeor..."
+title: La Nueva Era de Producciones SoloQuedaLoPeor...
 pubDate: 2010-05-12T17:08:00Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:58Z
 draft: false
-author: "AlbertoEpic"
-description: "Hoy en la productora estamos de enhorabuena por la entrada en una nueva era que reportará novedosas videoproducciones a nuestro catálogo..."
-category: "Otros"
+author: AlbertoEpic
+description: Hoy en la productora estamos de enhorabuena por la entrada en una nueva era que reportará novedosas videoproducciones a nuestro catálogo...
+category: Otros
 tags:
-  - "Uncategorized"
+  - soloquedalopeor
 ---
 Hoy en la productora estamos de enhorabuena por la entrada en una nueva era que reportará novedosas videoproducciones a nuestro catálogo...
 

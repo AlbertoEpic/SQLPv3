@@ -1,13 +1,15 @@
 ---
-title: "Escapada relámpago por Bedous"
+title: Escapada relámpago por Bedous
 pubDate: 2015-07-30T10:57:50Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-07-30T10:57:50Z
 draft: false
-author: "AlbertoEpic"
-description: "El pasado finde se alinearon los astros y Luzia&AlbertoEpic tuvieron una mañana libre para la actividad que eligieran. La decisión final fue un poco de BTT por el Pirineo francés. Una ruta corta pero muy chula. Lo bueno que tiene intenné es"
-category: "Bicicleta de montaña"
+author: AlbertoEpic
+description: El pasado finde se alinearon los astros y Luzia&AlbertoEpic tuvieron una mañana libre para la actividad que eligieran. La decisión final fue un poco de BTT por el Pirineo francés. Una ruta corta pero muy chula. Lo bueno que tiene intenné es
+category: Bicicleta de montaña
+tags:
+  - btt
+  - bedous
 ---
 El pasado finde se alinearon los astros y Luzia&AlbertoEpic tuvieron una mañana libre para la actividad que eligieran. La decisión final fue un poco de BTT por el Pirineo francés. Una ruta corta pero muy chula.
 

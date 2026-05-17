@@ -1,16 +1,15 @@
 ---
 title: "Domingo barranquil II: Sarratanas"
 pubDate: 2011-06-19T15:37:00Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:47Z
 draft: false
-author: "AlbertoEpic"
-description: "Y después de un ligero refrigerio en la cuneta tras el barranco Argatín Superior, la asamblea de majaras decide ir a hacer la digestión al barranco Sarratanas, afluente del Fornocal. A continuación, el documento gráfico... De nuevo te invit"
-category: "Descenso de barrancos"
+author: AlbertoEpic
+description: Y después de un ligero refrigerio en la cuneta tras el barranco Argatín Superior, la asamblea de majaras decide ir a hacer la digestión al barranco Sarratanas, afluente del Fornocal. A continuación, el documento gráfico... De nuevo te invit
+category: Descenso de barrancos
 tags:
-  - "Descenso de barrancos"
-  - "sarratanas"
+  - sarratanas
+  - sierra_de_guara
 ---
 Y después de un ligero refrigerio en la cuneta tras el barranco Argatín Superior, la asamblea de majaras decide ir a hacer la digestión al barranco Sarratanas, afluente del Fornocal.
 

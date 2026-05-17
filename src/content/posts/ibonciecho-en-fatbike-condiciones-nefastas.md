@@ -1,18 +1,16 @@
 ---
-title: "Ibonciecho en FatBike... condiciones nefastas!"
+title: Ibonciecho en FatBike... condiciones nefastas!
 pubDate: 2016-12-19T12:35:08Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2016-12-19T12:35:08Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "No siempre las actividades novedosas resultan en experiencias memorables. El otro día, AlbertoEpic tenía un plan: con la FatBike, salir de La Sarra, subir pedaleando por la nieve hasta el Chalet del Ingeniero y desde allí portear hasta el p"
-category: "Bicicleta de montaña"
+category: Bicicleta de montaña
 tags:
-  - "fat bike"
-  - "fatbike"
-  - "Ibonciecho"
-  - "Valle de Tena"
+  - fatbike
+  - Ibonciecho
+  - valle_de_tena
 ---
 No siempre las actividades novedosas resultan en experiencias memorables. El otro día, AlbertoEpic tenía un plan: con la FatBike, salir de La Sarra, subir pedaleando por la nieve hasta el Chalet del Ingeniero y desde allí portear hasta el pico Musales. El descenso sería una memorable bajada en bici por la nieve, siguiendo siempre la línea de máxima pendiente...
 

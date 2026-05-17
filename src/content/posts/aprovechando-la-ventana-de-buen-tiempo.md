@@ -1,14 +1,14 @@
 ---
-title: "Aprovechando la ventana de buen tiempo..."
-heroImage: "attachments/SALIMOS_CON_LAS_PRIMERAS_LUCES-300x190.webp"
+title: Aprovechando la ventana de buen tiempo...
+heroImage: attachments/SALIMOS_CON_LAS_PRIMERAS_LUCES-300x190.webp
 pubDate: 2008-12-14T15:59:00Z
 updatedDate: 2015-04-06T10:29:08Z
 draft: false
-author: "AlbertoEpic"
-description: "En un fin de semana lleno de nevadas por todas partes, los globeros Morenetti y AlbertoEpic han conseguido aprovechar las escasas 3 horas de tregua que dio el tiempo en todo el fin de semana. Con Sara, fueron siguiendo de cerca a Jorge, Ale"
-category: "Otros"
+author: AlbertoEpic
+description: En un fin de semana lleno de nevadas por todas partes, los globeros Morenetti y AlbertoEpic han conseguido aprovechar las escasas 3 horas de tregua que dio el tiempo en todo el fin de semana. Con Sara, fueron siguiendo de cerca a Jorge, Ale
+category: Otros
 tags:
-  - "Esquí­ de travesí­a"
+  - skimo
 ---
 ![](attachments/SALIMOS_CON_LAS_PRIMERAS_LUCES.webp)
 

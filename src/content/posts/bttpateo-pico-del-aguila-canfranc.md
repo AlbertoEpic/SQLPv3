@@ -1,16 +1,16 @@
 ---
 title: "BTT+pateo: pico del íƒÂguila (Canfranc)"
-heroImage: "https://i.imgur.com/WHQHsc6.jpg"
+heroImage: https://i.imgur.com/WHQHsc6.jpg
 pubDate: 2021-10-13T08:55:39Z
 updatedDate: 2021-10-13T09:54:01Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "El pasado domingo 26 de septiembre, nuestros especialistas Myriam y Albertoepic estuvieron de paseo por el monte. Llevaron a cabo una de sus habituales rutas 'PECA' (pedalear+caminar): salir pedaleando de la Estación Internacional de Canfra"
-category: "Bicicleta de montaña"
+category: Bicicleta de montaña
 tags:
-  - "btt"
-  - "canfranc"
-  - "valle del Aragón"
+  - btt
+  - canfranc
+  - valle_del_aragon
 ---
 El pasado domingo 26 de septiembre, nuestros especialistas Myriam y Albertoepic estuvieron de paseo por el monte. Llevaron a cabo una de sus habituales rutas 'PECA' (pedalear+caminar): salir pedaleando de la Estación Internacional de Canfranc, subir por el sendero del margen izquierdo del barranco de Estiviellas y bajar por el derecho. Al llegar a la parte superior, dejaron las bicis y subieron caminando hasta el pico del íƒÂguila.
 

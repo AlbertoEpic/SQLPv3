@@ -10,7 +10,7 @@ category: "Esquí­ de travesí­a"
 tags:
   - "balneario de panticosa"
   - "Esquí­ de travesí­a"
-  - "Valle de Tena"
+  - valle_de_tena
 ---
 ![](attachments/PtaBila.webp)El último fin de semana de abril, en SQLP retomamos los cacharros de nieve y nos vamos al Balneario de Panticosa, a apurar la nieve antes de que haya que portear demasiado para llegar a ella. Como, ya que nos ponemos, nos ponemos bien, tocará una ruta de algo más de 2.000m de desnivel+ acumulado.
 

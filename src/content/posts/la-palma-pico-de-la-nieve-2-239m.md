@@ -1,12 +1,14 @@
 ---
-title: "La Palma - pico de la Nieve (2.239m)"
-heroImage: "https://i.imgur.com/nH1VpYj.jpg"
+title: La Palma - pico de la Nieve (2.239m)
+heroImage: https://i.imgur.com/nH1VpYj.jpg
 pubDate: 2022-09-03T10:33:06Z
 updatedDate: 2022-09-03T16:29:48Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "Vacaciones en La Palma: día 1 El primer día en la bonita isla de La Palma decidimos comenzar con una actividad breve y sencilla, para estirar las piernas y ponernos en situación tras el viaje. Lo más laborioso fue llegar en coche hasta el p"
-category: "Ascensiones"
+category: Ascensiones
+tags:
+  - viajes
 ---
 Vacaciones en La Palma: día 1
 El primer día en la bonita isla de La Palma decidimos comenzar con una actividad breve y sencilla, para estirar las piernas y ponernos en situación tras el viaje. Lo más laborioso fue llegar en coche hasta el punto de salida, pues en general las carreteras de este lugar son lentas y con muuuuuchas curvas!

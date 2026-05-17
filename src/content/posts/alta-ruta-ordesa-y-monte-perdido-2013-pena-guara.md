@@ -8,12 +8,11 @@ author: AlbertoEpic
 description: El pasado finde 20 y 21 de abril Peña Guara organizó la Alta Ruta Ordesa y Monte Perdido, ruta mítica de esquí de travesía de dos días. El primero de ellos, con condiciones 'para curtirse', se ascendió de Cuello Gordo al Marboré y se bajó a
 category: Esquí de travesía
 tags:
-  - alta ruta
-  - Esquí de travesía
   - marboré
   - ordesa
-  - peña guara
   - taillón
+  - peña_guara
+  - skimo
 ---
 El pasado finde 20 y 21 de abril Peña Guara organizó la Alta Ruta Ordesa y Monte Perdido, ruta mítica de esquí de travesía de dos días. El primero de ellos, con condiciones 'para curtirse', se ascendió de Cuello Gordo al Marboré y se bajó a dormir al refugio de Góriz.
 

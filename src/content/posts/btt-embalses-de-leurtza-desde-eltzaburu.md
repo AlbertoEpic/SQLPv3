@@ -1,15 +1,16 @@
 ---
 title: "BTT: embalses de Leurtza desde Eltzaburu"
-heroImage: "https://i.imgur.com/YDccVSL.jpg"
+heroImage: https://i.imgur.com/YDccVSL.jpg
 pubDate: 2022-11-07T17:50:20Z
 updatedDate: 2022-11-07T17:50:21Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "Paisaje Protegido de Robledales de Ultzama y Basaburua Seguimos por el norte de Navarra para reseñar otra de las actividades realizadas por los especialistas Miriam y AlbertoEpic: una ruta circular pasando por los embalses de Leurtza. Salie"
-category: "Bicicleta de montaña"
+category: Bicicleta de montaña
 tags:
-  - "btt"
-  - "Navarra"
+  - btt
+  - Navarra
+  - leurtza
 ---
 
 ## Paisaje Protegido de Robledales de Ultzama y Basaburua

@@ -1,12 +1,17 @@
 ---
 title: "BTT enduro/cicloalpinismo: pico Tarmañones"
-heroImage: "https://i.imgur.com/a3jDX7f.jpg"
+heroImage: https://i.imgur.com/a3jDX7f.jpg
 pubDate: 2020-02-26T20:06:34Z
 updatedDate: 2020-02-26T20:14:37Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "La semana pasada, y dada la meteorología primaveral, AlbertoEpic decidió olvidarse del skimo y retomar las rutas pirenaicas de BTT. Quería además añadir otra foto esférica a su colección, y de allí nació la idea de esta actividad: Se basa e"
-category: "Bicicleta de montaña"
+category: Bicicleta de montaña
+tags:
+  - btt
+  - enduro
+  - tarmañones
+  - valle_de_tena
 ---
 La semana pasada, y dada la meteorología primaveral, AlbertoEpic decidió olvidarse del skimo y retomar las rutas pirenaicas de BTT. Quería además añadir otra foto esférica a su colección, y de allí nació la idea de esta actividad:
 

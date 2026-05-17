@@ -1,16 +1,17 @@
 ---
-title: "Haute Route 2015 í¢â‚¬ËœSwiss Styleí¢â‚¬â„¢ í¢â‚¬â€œ episodio 3"
+title: Haute Route 2015 í¢â‚¬ËœSwiss Styleí¢â‚¬â„¢ í¢â‚¬â€œ episodio 3
 pubDate: 2015-04-27T11:35:56Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-27T11:35:56Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "Seguimos con los 'imaginativos ajustes' en la Haute Route forzados por el mal tiempo. Pasamos el día de peor predicción esquiando en Verbier y dormimos en el refugio de Mont-Fort. Al día siguiente, la meteo es pésima: en todos los partes nu"
-category: "Esquí de travesía"
+category: Esquí de travesía
 tags:
-  - "alpes"
-  - "Esquí de travesía"
+  - alpes
+  - skimo
+  - viajes
+  - haute_route
 ---
 Seguimos con los 'imaginativos ajustes' en la Haute Route forzados por el mal tiempo. Pasamos el día de peor predicción esquiando en Verbier y dormimos en el refugio de Mont-Fort.
 Al día siguiente, la meteo es pésima: en todos los partes nubarrones negros y lluvia. Afortunadamente, Laura tiene fe y salimos del refugio...

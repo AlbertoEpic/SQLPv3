@@ -1,15 +1,15 @@
 ---
-title: "Ascensión al Taillón (3.144m) desde Bujaruelo"
+title: Ascensión al Taillón (3.144m) desde Bujaruelo
 pubDate: 2009-04-30T23:15:00Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:29:05Z
 draft: false
-author: "AlbertoEpic"
-description: "La semana pasada estuvimos en el Taillón desde Bujaruelo. Ahora a final de temporada el motor va más fino y nos podemos atrever con estas excursioncillas... Al final del día mi reloj marcaba 2.052m de desnivel acumulado en ascenso. Puedes v"
-category: "Otros"
+author: AlbertoEpic
+description: La semana pasada estuvimos en el Taillón desde Bujaruelo. Ahora a final de temporada el motor va más fino y nos podemos atrever con estas excursioncillas... Al final del día mi reloj marcaba 2.052m de desnivel acumulado en ascenso. Puedes v
+category: Esquí de travesía
 tags:
-  - "Uncategorized"
+  - skimo
+  - taillón
 ---
 La semana pasada estuvimos en el Taillón desde Bujaruelo. Ahora a final de temporada el motor va más fino y nos podemos atrever con estas excursioncillas... Al final del día mi reloj marcaba 2.052m de desnivel acumulado en ascenso.
 

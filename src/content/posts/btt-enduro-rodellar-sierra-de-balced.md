@@ -1,16 +1,17 @@
 ---
 title: "BTT Enduro: Rodellar - sierra de Balced"
-heroImage: "attachments/marco.webp"
+heroImage: attachments/marco.webp
 pubDate: 2014-02-19T09:44:00Z
 updatedDate: 2015-04-06T10:28:27Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "Marco en acción (Foto: Koldo) El pasado fin de semana, de nuevo con tiempo revuelto entre ciclogénesis explosivas y demás, un grupo de seres singulares se hizo una ruta de BTT justo antes de que empezara a llover. El dí­a no dio para más, ig"
-category: "Bicicleta de montaña"
+category: Bicicleta de montaña
 tags:
-  - "btt"
-  - "enduro"
-  - "rodellar"
+  - btt
+  - enduro
+  - rodellar
+  - sierra_de_guara
 ---
 ![](attachments/marco.webp)
 

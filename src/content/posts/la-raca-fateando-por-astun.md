@@ -10,7 +10,7 @@ description: "AlbertoEpic sigue experimentando nuevas sensaciones en la nieve a 
 category: "Bicicleta de montaña"
 tags:
   - "fatbike"
-  - "valle del Aragón"
+  - "valle_del_aragon"
 ---
 AlbertoEpic sigue experimentando nuevas sensaciones en la nieve a bordo de una FatBike. El otro día, aprovechando la bajada de temperaturas y un buen rehielo nocturno, no dudó en plantarse en Astún. La estación está cerrada, pero todavía tiene mucha nieve, podría estar abierta perfectamente. Ideal para echar unas risas domando la FatBike!!! :-)
 

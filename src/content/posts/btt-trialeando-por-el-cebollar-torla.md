@@ -1,14 +1,17 @@
 ---
 title: "BTT: trialeando por el Cebollar, Torla."
-heroImage: "attachments/btt_Torla4.webp"
+heroImage: attachments/btt_Torla4.webp
 pubDate: 2011-05-30T09:51:00Z
 updatedDate: 2015-04-06T10:28:49Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "Interrumpimos momentaneamente la emisión de la serie 'Oberland 2011' para mostrar las actividades del último fin de semana, bastante movidito para el equipo de grabación de Soloquedalopeor. El domingo, una ruta de btt de las pirenaicas: Luz"
-category: "Otros"
+category: Bicicleta de montaña
 tags:
-  - "Uncategorized"
+  - btt
+  - enduro
+  - ordesa
+  - cebollar
 ---
 ![](attachments/btt_Torla4.webp)Interrumpimos momentaneamente la emisión de la serie 'Oberland 2011' para mostrar las actividades del último fin de semana, bastante movidito para el equipo de grabación de Soloquedalopeor.
 

@@ -1,12 +1,14 @@
 ---
-title: "Estudiando la meteorologí­a..."
+title: Estudiando la meteorologí­a...
 heroImage: attachments/SQLPcomodin.jpg
 pubDate: 2019-07-08T20:02:40Z
 updatedDate: 2019-07-08T20:02:42Z
 draft: false
-author: "AlbertoEpic"
-description: "... y la viabilidad de un nuevo proyecto! aÅ¡ltimamente en SQLP llevamos un tiempo de silencio y reclusión fuera del ciberespacio. AlbertoEpic necesita regenerar su cuerpo, y dedicarse a otras obligaciones más importantes que sus 'chorradicas"
-category: "Otros"
+author: AlbertoEpic
+description: ... y la viabilidad de un nuevo proyecto! aÅ¡ltimamente en SQLP llevamos un tiempo de silencio y reclusión fuera del ciberespacio. AlbertoEpic necesita regenerar su cuerpo, y dedicarse a otras obligaciones más importantes que sus 'chorradicas
+category: Otros
+tags:
+  - meteo
 ---
 
 ## ... y la viabilidad de un nuevo proyecto!

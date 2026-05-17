@@ -1,12 +1,15 @@
 ---
 title: "BTT-kids: circular Anzánigo-Javierrelatre"
-heroImage: "https://i.imgur.com/czRwwhB.jpg"
+heroImage: https://i.imgur.com/czRwwhB.jpg
 pubDate: 2021-05-26T07:50:00Z
 updatedDate: 2021-05-26T08:08:04Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "Siguiendo el Canal del Gállego... El bucle propuesto intenta sacar una ruta circular aprovechando la pista de servicio del Canal del Gállego, un tramo muy amigable para ir con jóvenes bikers. Se puede unir así Javierrelatre con Anzánigo de "
-category: "SQLP-kids"
+category: SQLP-kids
+tags:
+  - btt
+  - valle_de_tena
 ---
 Siguiendo el Canal del Gállego...
 El bucle propuesto intenta sacar una ruta circular aprovechando la pista de servicio del Canal del Gállego, un tramo muy amigable para ir con jóvenes bikers. Se puede unir así Javierrelatre con Anzánigo de manera muy cómoda.

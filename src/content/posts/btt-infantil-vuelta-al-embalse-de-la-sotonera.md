@@ -1,17 +1,17 @@
 ---
 title: "BTT infantil: vuelta al embalse de La Sotonera"
-heroImage: "https://i.imgur.com/asMkvMr.jpg"
+heroImage: https://i.imgur.com/asMkvMr.jpg
 pubDate: 2022-02-14T10:37:17Z
 updatedDate: 2022-02-14T11:04:03Z
 draft: false
-author: "AlbertoEpic"
-description: "Ruta sencilla pero... cuidado con el cierzo! Hoy te traemos una ruta de BTT apta para hacer con niños. Poco desnivel, pistas cómodas y carreteras de poco tráfico. Eso sí­, mucho cuidado con el viento! Una actividad sencilla se convierte a me"
-category: "SQLP-kids"
+author: AlbertoEpic
+description: Ruta sencilla pero... cuidado con el cierzo! Hoy te traemos una ruta de BTT apta para hacer con niños. Poco desnivel, pistas cómodas y carreteras de poco tráfico. Eso sí­, mucho cuidado con el viento! Una actividad sencilla se convierte a me
+category: SQLP-kids
 tags:
-  - "btt"
-  - "La Sotonera"
-  - "pantano"
-  - "Tormos"
+  - btt
+  - pantano
+  - Tormos
+  - sotonera
 ---
 ### Ruta sencilla pero... cuidado con el cierzo!
 

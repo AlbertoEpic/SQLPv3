@@ -1,15 +1,13 @@
 ---
-title: "\"A los tripulantes de nuestra hermosa nave...\""
+title: '"A los tripulantes de nuestra hermosa nave..."'
 pubDate: 2009-01-23T18:10:00Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:29:08Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "Hoy me han enviado un email con este asunto, que contenía el siguiente video:"
-category: "Otros"
+category: Otros
 tags:
-  - "Uncategorized"
 ---
 Hoy me han enviado un email con este asunto, que contenía el siguiente video:
 

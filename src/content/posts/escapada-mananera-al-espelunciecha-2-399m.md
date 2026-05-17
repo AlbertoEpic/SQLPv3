@@ -1,15 +1,14 @@
 ---
-title: "Escapada mañanera al Espelunciecha (2.399m)"
-heroImage: "attachments/espelunciecha-748x1024.webp"
+title: Escapada mañanera al Espelunciecha (2.399m)
+heroImage: attachments/espelunciecha-748x1024.webp
 pubDate: 2016-01-22T19:29:40Z
 updatedDate: 2016-01-22T19:29:40Z
 draft: false
-author: "AlbertoEpic"
-description: "El pasado jueves Luzia y AlbertoEpic hicieron una breve actividad matutina. Continúan con el rodaje de pretemporada, en una temporada que todaví­a está comenzando a pesar de irse acercando cada vez más hacia su ocaso. Esperemos que la cota d"
-category: "Esquí­ de travesí­a"
+author: AlbertoEpic
+description: El pasado jueves Luzia y AlbertoEpic hicieron una breve actividad matutina. Continúan con el rodaje de pretemporada, en una temporada que todaví­a está comenzando a pesar de irse acercando cada vez más hacia su ocaso. Esperemos que la cota d
+category: Esquí­ de travesí­a
 tags:
-  - "Esquí­ de travesí­a"
-  - "Valle de Tena"
+  - valle_de_tena
 ---
 El pasado jueves Luzia y AlbertoEpic hicieron una breve actividad matutina. Continúan con el rodaje de pretemporada, en una temporada que todaví­a está comenzando a pesar de irse acercando cada vez más hacia su ocaso. Esperemos que la cota de nieve baje algún dí­a...
 

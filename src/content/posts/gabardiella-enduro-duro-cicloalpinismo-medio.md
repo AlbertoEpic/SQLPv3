@@ -1,13 +1,16 @@
 ---
 title: "Gabardiella: enduro duro / cicloalpinismo medio"
 pubDate: 2015-08-04T10:31:53Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-08-04T10:31:53Z
 draft: false
-author: "AlbertoEpic"
-description: "El pasado finde, un grupo de seres peculiares se reunieron para sacar a pasear sus bicis... Rafa, Roberto, Susana y AlbertoEpic realizaron una ruta que en un día de agosto normal habría supuesto la muerte por deshidratación. Por suerte, jus"
-category: "Bicicleta de montaña"
+author: AlbertoEpic
+description: El pasado finde, un grupo de seres peculiares se reunieron para sacar a pasear sus bicis... Rafa, Roberto, Susana y AlbertoEpic realizaron una ruta que en un día de agosto normal habría supuesto la muerte por deshidratación. Por suerte, jus
+category: Bicicleta de montaña
+tags:
+  - btt
+  - enduro
+  - cicloalpinismo
 ---
 El pasado finde, un grupo de seres peculiares se reunieron para sacar a pasear sus bicis... Rafa, Roberto, Susana y AlbertoEpic realizaron una ruta que en un día de agosto normal habría supuesto la muerte por deshidratación.
 Por suerte, justo ese día parecía que fuera noviembre, unas persistentes nubes bajas estaban agarradas por toda la sierra; la mayoría del tiempo se fue a la sombra, y con un agradable fresquito. :-)

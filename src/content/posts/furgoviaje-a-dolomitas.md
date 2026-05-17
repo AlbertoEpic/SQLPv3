@@ -1,16 +1,17 @@
 ---
-title: "Furgoviaje a Dolomitas..."
-heroImage: "https://i.imgur.com/rW6vvMv.jpg"
+title: Furgoviaje a Dolomitas...
+heroImage: https://i.imgur.com/rW6vvMv.jpg
 pubDate: 2016-10-04T08:56:13Z
 updatedDate: 2016-10-04T08:56:13Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "Este verano, el equipo SQLP desechíƒÂ¯í‚¿í‚Â½ la idea inicial de recorrer en valle del Loira en bici (La mitad que les faltaba, ya hicieron el verano anterior su primera incursiíƒÂ¯í‚¿í‚Â½n en tierras galas: La Loire íƒÂ¯í‚¿í‚Â½ velíƒÂ¯í‚¿í‚Â½ ), debido al esguince de tobillo de "
-category: "Viajes"
+category: Viajes
 tags:
-  - "alpes"
-  - "dolomitas"
-  - "ferratas"
+  - alpes
+  - dolomitas
+  - ferratas
+  - viajes
 ---
 Este verano, el equipo SQLP desechíƒÂ¯í‚¿í‚Â½ la idea inicial de recorrer en valle del Loira en bici (La mitad que les faltaba, ya hicieron el verano anterior su primera incursiíƒÂ¯í‚¿í‚Â½n en tierras galas: [La Loire íƒÂ¯í‚¿í‚Â½ velíƒÂ¯í‚¿í‚Â½](la-loire-a-velo/)), debido al esguince de tobillo de AlbertoEpic, que no le habíƒÂ¯í‚¿í‚Â½a dejado entrenar lo suficiente.
 

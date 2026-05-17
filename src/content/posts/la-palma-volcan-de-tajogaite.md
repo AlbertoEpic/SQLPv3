@@ -1,12 +1,14 @@
 ---
-title: "La Palma - volcán de Tajogaite"
-heroImage: "https://i.imgur.com/Tthp4AX.jpg"
+title: La Palma - volcán de Tajogaite
+heroImage: https://i.imgur.com/Tthp4AX.jpg
 pubDate: 2022-09-07T15:45:33Z
 updatedDate: 2022-09-07T15:50:27Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "Vacaciones en La Palma: día 3 Y claro, si hoy en día viajas a La Palma, es imperdonable no acercarte a ver el famoso volcán 'de Cumbre Vieja' o 'de La Palma' en las noticias, bautizado como volcán de Tajogaite. Se originó en la erupción ini"
-category: "La Palma 2022"
+category: La Palma 2022
+tags:
+  - viajes
 ---
 Vacaciones en La Palma: día 3
 Y claro, si hoy en día viajas a La Palma, es imperdonable no acercarte a ver el famoso volcán 'de Cumbre Vieja' o 'de La Palma' en las noticias, bautizado como volcán de Tajogaite. Se originó en la erupción iniciada elí‚Â 19 de septiembreí‚Â deí‚Â 2021, la más reciente de la isla y de la geografía terrestre nacional. Se detuvo elí‚Â 13 de diciembreí‚Â de ese mismo año, tras 85 días de actividad, siendo la erupción histórica más larga registrada en la isla y tercera en el archipiélago.

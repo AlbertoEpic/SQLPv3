@@ -1,14 +1,15 @@
 ---
-title: "Combinada BTT Montearagón"
-heroImage: "attachments/IMG_7980-198x300.webp"
+title: Combinada BTT Montearagón
+heroImage: attachments/IMG_7980-198x300.webp
 pubDate: 2008-11-24T10:53:00Z
 updatedDate: 2015-04-06T10:29:08Z
 draft: false
-author: "AlbertoEpic"
-description: "Este fin de semana se disputó la ya tradicional prueba de BTT de Montearagón aunque este año por primera vez se hizo la prueba combinada y fueron 2 carreras en un mismo fin de semana. El sábado por la tarde se disputó la Cronoescalada por e"
-category: "Otros"
+author: AlbertoEpic
+description: Este fin de semana se disputó la ya tradicional prueba de BTT de Montearagón aunque este año por primera vez se hizo la prueba combinada y fueron 2 carreras en un mismo fin de semana. El sábado por la tarde se disputó la Cronoescalada por e
+category: Bicicleta de montaña
 tags:
-  - "Uncategorized"
+  - btt
+  - montearagon
 ---
 Este fin de semana se disputó la ya tradicional prueba de BTT de Montearagón aunque este año por primera vez se hizo la prueba combinada y fueron 2 carreras en un mismo fin de semana.
 

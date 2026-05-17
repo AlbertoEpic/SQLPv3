@@ -11,7 +11,7 @@ tags:
   - "Esquí de travesía"
   - "gabardíƒÂ¨re"
   - "Ossau"
-  - "Valle de Tena"
+  - valle_de_tena
 ---
 El pasado 15 de enero, el grupo de LaMeteoQueViene, con Jorge a la cabeza, se acercó a Caillou de Soques para realizar la ascensión al GabardíƒÂ¨re, una modesta cima que requiere ciertas condiciones determinadas de nivosidad.
 <iframe src="https://www.gpsies.com/mapOnly.do?fileId=vkezsrajzadwsxqa" width="600" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>

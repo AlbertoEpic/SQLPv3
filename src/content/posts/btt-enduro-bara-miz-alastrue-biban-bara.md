@@ -1,14 +1,17 @@
 ---
 title: "BTT enduro: Bara - Miz - Alastrué - Bibán - Bara"
-heroImage: "attachments/koldo.webp"
+heroImage: attachments/koldo.webp
 pubDate: 2014-01-09T08:49:00Z
 updatedDate: 2015-04-06T10:28:36Z
 draft: false
-author: "AlbertoEpic"
-description: "Koldo en plena escalinata Dado lo borrascoso de la meteo en el Pirineo para poder hacer una relajada actividad de esquí­ de travesí­a, el dí­a de Reyes cambiamos el chip y nos vamos a endurear con las BTT por una de las zonas más dejadas de la"
-category: "Bicicleta de montaña"
+author: AlbertoEpic
+description: Koldo en plena escalinata Dado lo borrascoso de la meteo en el Pirineo para poder hacer una relajada actividad de esquí­ de travesí­a, el dí­a de Reyes cambiamos el chip y nos vamos a endurear con las BTT por una de las zonas más dejadas de la
+category: Bicicleta de montaña
 tags:
-  - "Uncategorized"
+  - btt
+  - sierra_de_guara
+  - bara
+  - enduro
 ---
 ![](attachments/koldo.webp)
 

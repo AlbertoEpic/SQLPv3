@@ -1,17 +1,17 @@
 ---
 title: "Cicloalpinismo: Dedo de Yenefrito (1.818m)"
-heroImage: "https://i.imgur.com/jPgQwgh.jpg"
+heroImage: https://i.imgur.com/jPgQwgh.jpg
 pubDate: 2021-06-03T18:28:30Z
 updatedDate: 2021-06-03T18:53:23Z
 draft: false
-author: "AlbertoEpic"
-description: "El otro día los especialistas Myriam y AlbertoEpic realizaron otra de sus míticas actividades al atardecer (No sabemos si van a esas horas porque les gusta, o porque no pueden a otras más decentes...). Resulta que alguien le puso en canción"
-category: "Bicicleta de montaña"
+author: AlbertoEpic
+description: El otro día los especialistas Myriam y AlbertoEpic realizaron otra de sus míticas actividades al atardecer (No sabemos si van a esas horas porque les gusta, o porque no pueden a otras más decentes...). Resulta que alguien le puso en canción
+category: BTT+Pateo
 tags:
-  - "cicloalpinismo"
-  - "panticosa"
-  - "Valle de Tena"
-  - "Yenefrito"
+  - cicloalpinismo
+  - panticosa
+  - valle_de_tena
+  - Yenefrito
 ---
 El otro día los especialistas Myriam y AlbertoEpic realizaron otra de sus míticas actividades al atardecer (No sabemos si van a esas horas porque les gusta, o porque no pueden a otras más decentes...).
 

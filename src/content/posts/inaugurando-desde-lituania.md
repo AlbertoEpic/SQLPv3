@@ -15,7 +15,7 @@ Me vais a permitir inaugurar el blog con esta cránica de Jorgito desde Lituania
 
 --
 
-Muy buenas noches desde Nida, Lituania, donde se está celebrando el III Campeonato de Europa de Orientacián en Bicicleta de Montaáa. En nombre de los 6 componentes de la seleccián espaáola aquá va una pequeáa cránica de estos dos primeros dáas:
+Muy buenas noches desde Nida, Lituania, donde se está celebrando el III Campeonato de Europa de Orientacián en Bicicleta de montaña. En nombre de los 6 componentes de la seleccián espaáola aquá va una pequeáa cránica de estos dos primeros dáas:
 
 Llegamos el lunes por la noche a Nida tras un duro y largo viaje en avián desde Barcelona y ya en Vilnius, capital de Lituania, empezamos a tener algán que otro problema ya que la maleta de Josep no apareciá. Dejamos hablado con la compaááa que nos la mandaráan al hotel y salimos de viaje con la furgo de alquiler hacia Nida, a unos 350km de Vilnius.
 

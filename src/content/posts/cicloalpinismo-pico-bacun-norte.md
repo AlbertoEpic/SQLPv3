@@ -8,9 +8,9 @@ author: "AlbertoEpic"
 description: "El pasado 25 de agosto, terminando ya el verano, por fin se realizó una mini-quedada globeril para hacer una de esas rutas de cicloalpinismo que tanto nos gustan a los globeros. La ruta, por otra parte, no era nada del otro mundo. Cortita y"
 category: "Bicicleta de montaña"
 tags:
-  - "btt"
+  - btt
   - "cicloalpinismo"
-  - "valle del Aragón"
+  - "valle_del_aragon"
 ---
 El pasado 25 de agosto, terminando ya el verano, por fin se realizó una mini-quedada globeril para hacer una de esas rutas de cicloalpinismo que tanto nos gustan a los globeros.
 La ruta, por otra parte, no era nada del otro mundo. Cortita y sencilla para unos globeros en horas bajas, que entre paternidades, estudios, lesiones y demás cosas de la vida llevaban varios meses en el dique seco. Así pues, el sobo estaba asegurado! :-)

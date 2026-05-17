@@ -9,9 +9,9 @@ description: "Cruzando el Vero camino de Alquézar El pasado domingo, nueva qued
 category: "Otros"
 tags:
   - "alquézar"
-  - "btt"
+  - btt
   - "enduro"
-  - "sierra guara"
+  - "sierra_de_guara"
 ---
 ![](attachments/ruta2.webp)Cruzando el Vero camino de AlquézarEl pasado domingo, nueva quedada. En este caso, individuos de varios clanes (globeros, lentejos, ...) se dieron cita en Colungo para realizar otra de esas tí­picas rutas endureras por la sierra de Guara. ¿Tí­pica ruta por Guara? Pues sí­. Una continua lucha sin cuartel goma-mineral, mineral-goma, en la que las pulsaciones nunca bajan, ya sea por la dura subida o por la técnica bajada; un terreno perfecto para poner a punto las suspensiones, donde aprovecharemos cada mm de recorrido de los amortiguadores. 
 

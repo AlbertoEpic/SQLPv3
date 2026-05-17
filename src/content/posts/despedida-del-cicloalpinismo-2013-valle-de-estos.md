@@ -7,10 +7,10 @@ updatedDate: 2015-04-06T10:28:36Z
 draft: false
 author: "AlbertoEpic"
 description: "Es el áltimo dáa antes de las nevadas que cubrirán todo durante, esperemos, los práximos 6 meses. Las áltimas horas de luz con terreno ciclable, que hay que aprovechar para cerrar la temporada 2013 de 'cicloalpinismo' por el Pirineo... Sin "
-category: "Bicicleta de montaáa"
+category: "Bicicleta de montaña"
 tags:
   - "Benasque"
-  - "btt"
+  - btt
   - "cicloalpinismo"
   - "enduro"
 ---

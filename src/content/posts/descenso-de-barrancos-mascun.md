@@ -1,15 +1,15 @@
 ---
 title: "Descenso de barrancos: Mascún"
 pubDate: 2011-05-31T09:51:00Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:49Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "El pasado sábado quedó inaugurada definitivamente la temporada de barrancos para sqlp con el descenso del Mascún (En palabras de Marcos, 'máscun barranco'). Llevábamos alguno más, pero este por fin es uno de esos en los que tras unas horas "
-category: "Descenso de barrancos"
+category: Descenso de barrancos
 tags:
-  - "Mascún"
+  - Mascún
+  - sierra_de_guara
 ---
 El pasado sábado quedó inaugurada definitivamente la temporada de barrancos para sqlp con el descenso del Mascún (En palabras de Marcos, 'máscun barranco'). Llevábamos alguno más, pero este por fin es uno de esos en los que tras unas horas de actividad recuerdas que eres de secano y evitas el agua todo lo que puedes porque los deditos arrugados piden secarse ya!
 

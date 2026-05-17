@@ -1,15 +1,14 @@
 ---
-title: "10 Things I have learned about Mountainbiking"
-pubDate: "2011-09-26T09:57:00Z"
-
+title: 10 Things I have learned about Mountainbiking
+pubDate: 2011-09-26T09:57:00Z
 heroImage: attachments/SQLPcomodin.jpg
-updatedDate: "2015-04-06T10:28:46Z"
+updatedDate: 2015-04-06T10:28:46Z
 draft: false
-author: "AlbertoEpic"
-description: "En Soloquedalopeor estamos pasando una racha de muchos quehaceres* y no hay tiempo para edición de video, así que hoy venimos con un video de Filme von Draussen , con una producción realmente espectacular. Esperamos que te guste... 10 Thing"
-category: "Otros"
+author: AlbertoEpic
+description: En Soloquedalopeor estamos pasando una racha de muchos quehaceres* y no hay tiempo para edición de video, así que hoy venimos con un video de Filme von Draussen , con una producción realmente espectacular. Esperamos que te guste... 10 Thing
+category: Otros
 tags:
-  - "Uncategorized"
+  - btt
 ---
 En Soloquedalopeor estamos pasando una racha de muchos quehaceres* y no hay tiempo para edición de video, así que hoy venimos con un video de Filme von Draussen, con una producción realmente espectacular. Esperamos que te guste...
 

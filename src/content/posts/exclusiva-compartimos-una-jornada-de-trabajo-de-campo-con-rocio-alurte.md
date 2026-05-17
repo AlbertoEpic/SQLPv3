@@ -1,13 +1,15 @@
 ---
-title: "íEXCLUSIVA! Compartimos una jornada de trabajo de campo con Rocío (ALURTE)"
+title: íEXCLUSIVA! Compartimos una jornada de trabajo de campo con Rocío (ALURTE)
 pubDate: 2017-02-16T18:24:02Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2017-02-16T18:24:02Z
 draft: false
-author: "AlbertoEpic"
-description: "El otro día nos olvidamos de sumar metros de desnivel foqueados, de transiciones rápidas y de objetivos cimeros... Esta vez se trataba de palear! ;-) AlbertoEpic compartió una jornada de trabajo de campo con Rocío, de ALURTE (Centro pirenai"
-category: "Esquí de travesía"
+author: AlbertoEpic
+description: El otro día nos olvidamos de sumar metros de desnivel foqueados, de transiciones rápidas y de objetivos cimeros... Esta vez se trataba de palear! ;-) AlbertoEpic compartió una jornada de trabajo de campo con Rocío, de ALURTE (Centro pirenai
+category: Esquí de travesía
+tags:
+  - alurte
+  - avalanchas
 ---
 El otro día nos olvidamos de sumar metros de desnivel foqueados, de transiciones rápidas y de objetivos cimeros... Esta vez se trataba de palear! ;-)
 

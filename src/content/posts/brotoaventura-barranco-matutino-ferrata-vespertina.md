@@ -1,12 +1,15 @@
 ---
 title: "BrotoAventura: barranco matutino & ferrata vespertina"
-heroImage: "attachments/topo-barranco-sorrosal.webp"
+heroImage: attachments/topo-barranco-sorrosal.webp
 pubDate: 2022-07-16T10:30:29Z
 updatedDate: 2022-07-16T11:20:36Z
 draft: false
-author: "AlbertoEpic"
-description: "Reseñamos aquí­ la actividad realizada por Julia y AlbertoEpic, los especialistas de SQLP, a finales del mes de junio. Establecieron su base en Broto, al pie de la cascada del Sorrosal, para pasar un 'dí­a activo'. Para ganarse la comida empe"
-category: "Descenso de barrancos"
+author: AlbertoEpic
+description: Reseñamos aquí­ la actividad realizada por Julia y AlbertoEpic, los especialistas de SQLP, a finales del mes de junio. Establecieron su base en Broto, al pie de la cascada del Sorrosal, para pasar un 'dí­a activo'. Para ganarse la comida empe
+category: Descenso de barrancos
+tags:
+  - via_ferrata
+  - Broto
 ---
 Reseñamos aquí­ la actividad realizada por Julia y AlbertoEpic, los especialistas de SQLP, a finales del mes de junio. Establecieron su base en Broto, al pie de la cascada del Sorrosal, para pasar un 'dí­a activo'. Para ganarse la comida empezaron por realizar el descenso del barranco del Sorrosal. Como iba 'un pelí­n pasao' de caudal, desestimaron rapelar la última cascada y aprovecharon para salir del barranco por el final de la ví­a ferrata.
 

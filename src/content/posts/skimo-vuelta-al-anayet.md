@@ -9,7 +9,7 @@ description: "Apurando las últimas nieves de Formigal... El pasado 13 de mayo, 
 category: "Esquí de travesía"
 tags:
   - "Anayet"
-  - "Valle de Tena"
+  - valle_de_tena
 ---
 
 ## Apurando las últimas nieves de Formigal...

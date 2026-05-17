@@ -9,7 +9,7 @@ author: "AlbertoEpic"
 description: "Recogemos aqui los dos últimos días de pedaleo en el Colorado Trail. Nuestros especialistas llegan por fin a Durango. Durante este último sector del CT se experimentan sobre la BTT unas sensaciones místicas inimaginables. Se agotan los grit"
 category: "Viajes"
 tags:
-  - "btt"
+  - btt
   - "Colorado Trail"
   - "durango"
   - "Silverton"

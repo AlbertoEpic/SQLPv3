@@ -8,7 +8,7 @@ author: "AlbertoEpic"
 description: "Descubriendo los búnkers de la 'Línea P'... Otra propuesta sencilla para hacer con niños. Con abundante sombra, poco desnivel, y dos alicientes extras: 1.- Un puente tibetano para cruzar el río Gállego. 2.- Ir encontrando los búnkers de la "
 category: "SQLP-kids"
 tags:
-  - "Valle de Tena"
+  - valle_de_tena
 ---
 Descubriendo los búnkers de la 'Línea P'...
 Otra propuesta sencilla para hacer con niños. Con abundante sombra, poco desnivel, y dos alicientes extras:

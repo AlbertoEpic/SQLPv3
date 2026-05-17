@@ -1,25 +1,24 @@
 ---
-title: "Ferrata de Valdeón"
-heroImage: "https://i.imgur.com/RSwksAQ.jpg"
+title: Ferrata de Valdeón
+heroImage: https://i.imgur.com/RSwksAQ.jpg
 pubDate: 2018-09-02T17:05:40Z
 updatedDate: 2018-11-06T10:24:13Z
 draft: false
-author: "AlbertoEpic"
-description: "SQLP se despide de Picos de Europa... El día anterior, Cheles y AlbertoEpic estuvieron en el pico Tesorero. Este es su último día en Picos, y como despedida, deciden ir a Valdeón a hacer su ferrata. Han conocido de su existencia hace poco, "
-category: "Escalada"
+author: AlbertoEpic
+description: "SQLP se despide de picos_de_europa... El día anterior, Cheles y AlbertoEpic estuvieron en el pico Tesorero. Este es su último día en Picos, y como despedida, deciden ir a Valdeón a hacer su ferrata. Han conocido de su existencia hace poco, "
+category: Escalada
 tags:
-  - "Picos de Europa"
-  - "Valdeón"
-  - "vía ferrata"
+  - Valdeón
+  - via_ferrata
 ---
 
-## SQLP se despide de Picos de Europa...
+## SQLP se despide de picos_de_europa...
 
 El día anterior, Cheles y AlbertoEpic estuvieron en el pico Tesorero. Este es su último día en Picos, y como despedida, deciden ir a Valdeón a hacer su ferrata. Han conocido de su existencia hace poco, al aparecer en la TV en ['Planeta Calleja'](https://www.cuatro.com/planetacalleja/Bertin-Osborne-Jesus-Calleja-vertigo-abandono-puente-hoces-duraton-cantabrico-leon_0_2532075323.html)... En ese episodio, Bertín Osborne se negaba a hacer la ferrata por sus problemas de vértigo.
 
-[tagline_box backgroundcolor="#eded84" shadow="yes" shadowopacity="0.7" border="1px" bordercolor="#e8e8e8" highlightposition="left" link="https://deandar.com/ferratas/via-ferrata-picoseuropa-posadavaldeon" linktarget="_blank" buttoncolor="blue" button="Saber más..." title="VíƒÂA FERRATA DE VALDEíƒâ€œN" description="La primera vía ferrata de los Picos de Europa es aérea, sostenida y larga. La pasarela de entrada, una larga subida vertical y una zona desplomada son sus pasos estrella. Por méritos propios entra en la lista de imprescindibles. (+)" animation_type="flash" animation_direction="down" animation_speed="0.1"][/tagline_box]
+[tagline_box backgroundcolor="#eded84" shadow="yes" shadowopacity="0.7" border="1px" bordercolor="#e8e8e8" highlightposition="left" link="https://deandar.com/ferratas/via-ferrata-picoseuropa-posadavaldeon" linktarget="_blank" buttoncolor="blue" button="Saber más..." title="VíƒÂA FERRATA DE VALDEíƒâ€œN" description="La primera via_ferrata de los picos_de_europa es aérea, sostenida y larga. La pasarela de entrada, una larga subida vertical y una zona desplomada son sus pasos estrella. Por méritos propios entra en la lista de imprescindibles. (+)" animation_type="flash" animation_direction="down" animation_speed="0.1"][/tagline_box]
 
-Llegan al punto de inicio después de un buen rato de coche, cruzar los Picos de Europa por esas carreteras de la España profunda cuesta lo suyo. La verdad es que comenzar con el calor del mediodía, y con el cuerpo plegado en forma de asiento de coche, da bastante pereza, pero ya que están allí...
+Llegan al punto de inicio después de un buen rato de coche, cruzar los picos_de_europa por esas carreteras de la España profunda cuesta lo suyo. La verdad es que comenzar con el calor del mediodía, y con el cuerpo plegado en forma de asiento de coche, da bastante pereza, pero ya que están allí...
 ![](https://i.imgur.com/RSwksAQ.jpg)
 El puente colgante sobre el río Cares que da inicio a la vía.
 Son las 1.28pm del 22 de agosto. Cheles cae en la tentación: se hace 'un Bertín' y cambia los sudores de la ferrata por una agradable espera en una cafetería con aire acondicionado y Wifi.
@@ -48,7 +47,7 @@ Antes de descender al segundo y último collado, le puede el ansia y saca otra f
 ---
 
 
-ACTUALIZADO!!! - [Haz click aquí](https://soloquedalopeor.com/producto/via-ferrata-de-valdeon/) para ver la foto esférica desde la vía ferrata...
+ACTUALIZADO!!! - [Haz click aquí](https://soloquedalopeor.com/producto/via-ferrata-de-valdeon/) para ver la foto esférica desde la via_ferrata...
 
 ![](https://i.imgur.com/Xu3t8Rt.jpg)
 Descenso al segundo collado, con el 3er muro (40m) y la Pica del Castro.
@@ -78,7 +77,7 @@ Imagen del segundo escape de la vía, perfectamente señalizado.
 La reseña es muy clara, y los escapes, por si a alguien inexperto se le hace larga, están claramente indicados.
 
 ![](https://i.imgur.com/qNZvAJ6.jpg)
-Croquis oficial de la vía ferrata de Valdeón / Valdeón | Picos de Europa
+Croquis oficial de la via_ferrata de Valdeón / Valdeón | picos_de_europa
 Puedes ver a continuación el track de la actividad:
 <iframe width="100%" height="400" class="gpsies" src="https://www.gpsies.com/mapOnly.do?fileId=arkovoxfslzourio" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
 

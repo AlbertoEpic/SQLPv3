@@ -1,23 +1,23 @@
 ---
-title: "Picos de Europa - Escapada veraniega"
+title: "picos_de_europa - Escapada veraniega"
 heroImage: "https://i.imgur.com/eTzwT1p.jpg"
 pubDate: 2018-09-05T17:16:25Z
 updatedDate: 2018-09-05T17:16:25Z
 draft: false
 author: "AlbertoEpic"
-description: "Una semana por los Picos de Europa... A final de agosto, Cheles y AlbertoEpic arreglan sus agendas para coincidir una semana y, tras valorar varias opciones, finalmente deciden hacer una escapada a Picos de Europa. Cheles lleva una sobrecar"
+description: "Una semana por los picos_de_europa... A final de agosto, Cheles y AlbertoEpic arreglan sus agendas para coincidir una semana y, tras valorar varias opciones, finalmente deciden hacer una escapada a picos_de_europa. Cheles lleva una sobrecar"
 category: "Viajes"
 tags:
-  - "Picos de Europa"
+  - "picos_de_europa"
 ---
 
-## Una semana por los Picos de Europa...
+## Una semana por los picos_de_europa...
 
-A final de agosto, Cheles y AlbertoEpic arreglan sus agendas para coincidir una semana y, tras valorar varias opciones, finalmente deciden hacer una escapada a Picos de Europa.
+A final de agosto, Cheles y AlbertoEpic arreglan sus agendas para coincidir una semana y, tras valorar varias opciones, finalmente deciden hacer una escapada a picos_de_europa.
 
 Cheles lleva una sobrecarga de trabajo brutal, y Albertoepic un reposo también brutal (4 meses de inactividad absoluta por problemas con la ciática), por lo que deciden ir en plan totalmente 'turista'. Eso no quita para que entre turisteo y turisteo se dieran algunos garbeos por el monte.
 
-Sirva este post simplemente para 'hilvanar' esta escapada a Picos de Europa:
+Sirva este post simplemente para 'hilvanar' esta escapada a picos_de_europa:
 
 Empezaron la visita por el norte, por Llanes, con visita a Oviedo. La idea de la Garganta del Cares fue deshechada por masificación.
 

@@ -9,7 +9,7 @@ author: "AlbertoEpic"
 description: "El otro día, a AlbertoEpic no se le ocurrió otra cosa que hacer la famosa ruta ZZ-030 , pero como al llegar al punto más alto se había quedado con ganas de más, continuó subiendo para disfrutar del panorama que ofrece la Punta Acuta (2.242m"
 category: "Bicicleta de montaña"
 tags:
-  - "btt"
+  - btt
   - "cicloalpinismo"
 ---
 El otro día, a AlbertoEpic no se le ocurrió otra cosa que hacer la famosa [ruta ZZ-030](http://www.bttpirineo.com/es/rutas-btt-pirineo/zz-030-fuente-gato), pero como al llegar al punto más alto se había quedado con ganas de más, continuó subiendo para disfrutar del panorama que ofrece la Punta Acuta (2.242m). Para nuestro gusto, una de las mejores vistas del Pirineo...

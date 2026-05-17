@@ -8,10 +8,10 @@ author: "AlbertoEpic"
 description: "El pasado 31 de agosto, AlbertoEpic se alía con Jorge para una nueva salida de BTT (Podríamos catalogarla como de 'cicloalpinismo de iniciación'?) con la esperanza de ir recuperando la forma de la manera menos traumática posible... La ruta "
 category: "Bicicleta de montaña"
 tags:
-  - "btt"
-  - "Pacino"
-  - "Pazino"
-  - "Valle de Tena"
+  - btt
+  - Pacino
+  - Pazino
+  - valle_de_tena
 ---
 El pasado 31 de agosto, AlbertoEpic se alía con Jorge para una nueva salida de BTT (Podríamos catalogarla como de 'cicloalpinismo de iniciación'?) con la esperanza de ir recuperando la forma de la manera menos traumática posible...
 

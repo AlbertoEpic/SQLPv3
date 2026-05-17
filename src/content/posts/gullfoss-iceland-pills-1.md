@@ -1,12 +1,15 @@
 ---
-title: "Gullfoss [ICELAND PILLS 1]"
-heroImage: "https://live.staticflickr.com/65535/53964527622_0460d57de2_b.jpg"
+title: Gullfoss [ICELAND PILLS 1]
+heroImage: https://live.staticflickr.com/65535/53964527622_0460d57de2_b.jpg
 pubDate: 2024-09-02T11:43:09Z
 updatedDate: 2024-09-02T11:43:11Z
 draft: false
-author: "AlbertoEpic"
-description: "Una cascada con historia Gullfoss, que significa \"cataratas doradas\", es una cascada doble en Islandia que se caracteriza por una caíƒÂ¯í‚¿í‚Â½da de 32 metros que impacta contra las rocas antes de precipitarse por un barranco estrecho. Es un destino "
-category: "Islandia 2024"
+author: AlbertoEpic
+description: 'Una cascada con historia Gullfoss, que significa "cataratas doradas", es una cascada doble en Islandia que se caracteriza por una caíƒÂ¯í‚¿í‚Â½da de 32 metros que impacta contra las rocas antes de precipitarse por un barranco estrecho. Es un destino '
+category: Islandia 2024
+tags:
+  - iceland
+  - viajes
 ---
 
 ## Una cascada con historia

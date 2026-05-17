@@ -9,15 +9,15 @@ description: "Ascensión desde El Cable (Funicular Fuente Dé) Superada por Albe
 category: "Ascensiones"
 tags:
   - "ascensiones"
-  - "Picos de Europa"
+  - "picos_de_europa"
   - "Tesorero"
 ---
 
 ## Ascensión desde El Cable (Funicular Fuente Dé)
 
-Superada por AlbertoEpic la prueba inicial en Las Xanas... la apuesta ahora es mucho más ambiciosa (Siguen siendo actividades 'de turista'...). Ascensión a un pico en el corazón de los Picos de Europa, con casi 1.000m de desnivel y según lo leído en internet (No fiarse nunca) pequeña trepada final, con tramo algo confuso... í‚¿?
+Superada por AlbertoEpic la prueba inicial en Las Xanas... la apuesta ahora es mucho más ambiciosa (Siguen siendo actividades 'de turista'...). Ascensión a un pico en el corazón de los picos_de_europa, con casi 1.000m de desnivel y según lo leído en internet (No fiarse nunca) pequeña trepada final, con tramo algo confuso... í‚¿?
 
-[tagline_box backgroundcolor="#eded84" shadow="yes" shadowopacity="0.7" border="1px" bordercolor="#e8e8e8" highlightposition="left" link="https://es.wikipedia.org/wiki/Pico_Tesorero" linktarget="_blank" buttoncolor="blue" button="Saber más..." title="PICO TESORERO (2.570m)" description="Elí‚Â picoí‚Â Tesoreroí‚Â es una elevación montañosa enclavada en elí‚Â macizo Central de los Picos de Europaí‚Â oí‚Â macizo de los Urrieles, un puntoí‚Â trifinioí‚Â provincial entreí‚Â León,í‚Â Asturiasí‚Â yí‚Â Cantabria, ení‚Â España. (+)" animation_type="flash" animation_direction="down" animation_speed="0.1"][/tagline_box]
+[tagline_box backgroundcolor="#eded84" shadow="yes" shadowopacity="0.7" border="1px" bordercolor="#e8e8e8" highlightposition="left" link="https://es.wikipedia.org/wiki/Pico_Tesorero" linktarget="_blank" buttoncolor="blue" button="Saber más..." title="PICO TESORERO (2.570m)" description="Elí‚Â picoí‚Â Tesoreroí‚Â es una elevación montañosa enclavada en elí‚Â macizo Central de los picos_de_europaí‚Â oí‚Â macizo de los Urrieles, un puntoí‚Â trifinioí‚Â provincial entreí‚Â León,í‚Â Asturiasí‚Â yí‚Â Cantabria, ení‚Â España. (+)" animation_type="flash" animation_direction="down" animation_speed="0.1"][/tagline_box]
 
 Todo parecía muy bien planeado, pero como siempre en todos los viajes... algún imprevisto debía surgir: de todos es conocido lo bien que se come por estos lugares. Pero tanta orgía gastronómica, al final el estómago de AlbertoEpic dijo basta y la noche anterior a la ascensión nuestro especialista la pasó abrazado al WC, vomitando hasta su primer desayuno. Así pues, posponemos la ascensión una jornada. Para empeorar las cosas, la habitación donde AlbertoEpic convalece todo ese día, sin fuerzas para salir, no tiene Wi-fi! AAaaaaahhhhhh!!!
 
@@ -41,7 +41,7 @@ Superan el desvío al refugio Cabaña Verónica en dirección al collado de Horc
 Cheles ya con la mochila pesada. A sus espaldas, la Torre de Horcados Rojos, con el trillado sendero desde el collado.
 Cheles y AlbertoEpic se enfrentan a la parte final de la ascensión, aquella en la que las descripciones de internet eran tan confusas. Hablan de terreno expuesto, de variantes para evitar una chimenea difícil... Ahora sin peso, AlbertoEpic encabeza el grupo y dejándose llevar por el sentido común llegan hasta la cima sin ninguna dificultad. La temible trepada por chimenea... no era ni trepada ni chimenea!
 
-La cima, punto donde convergen las provincias de Cantabria, Asturias y León, es un mirador privilegiado de los Picos de Europa.
+La cima, punto donde convergen las provincias de Cantabria, Asturias y León, es un mirador privilegiado de los picos_de_europa.
 
 ![](https://i.imgur.com/xURBTOr.jpg)
 Desde la cima, vista del Urriellu con el mar Cantábrico al fondo.

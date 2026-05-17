@@ -1,15 +1,15 @@
 ---
-title: "Ferrata de La Zapatilla y Sima de Tortiellas"
+title: Ferrata de La Zapatilla y Sima de Tortiellas
 heroImage: attachments/SQLPcomodin.jpg
 pubDate: 2017-08-13T00:29:59Z
 updatedDate: 2017-08-13T00:44:01Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "El otro dí­a SQLP estuvo por fin en una actividad sencilla, pero sobre todo muy original. Hace tiempo que AlbertoEpic la tení­a en la lista de pendientes, así­ que cuando le surgió la oportunidad de ir con Eva no tuvo ninguna duda. No importa "
-category: "Escalada"
+category: Escalada
 tags:
-  - "ferratas"
-  - "tortiellas"
+  - tortiellas
+  - via_ferrata
 ---
 El otro dí­a SQLP estuvo por fin en una actividad sencilla, pero sobre todo muy original. Hace tiempo que AlbertoEpic la tení­a en la lista de pendientes, así­ que cuando le surgió la oportunidad de ir con Eva no tuvo ninguna duda. No importa que por un capricho de la meteo los tórridos dí­as de agosto se convirtieran en un dí­a con niebla, viento, lluvia y a 5C; no importa que en Huesca fuera el dí­a del Chupinazo, en las fiestas de San Lorenzo. Habí­a que aprovechar la oportunidad. Â Y su fe fue recompensada con un dí­a mí­tico!
 

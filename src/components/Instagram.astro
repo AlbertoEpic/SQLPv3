@@ -18,7 +18,7 @@ try {
   <div class="instagram-grid">
     {fotos.length > 0 ? (
       // Mostramos las últimas 6 fotos
-      fotos.slice(0, 6).map((foto) => (
+      fotos.slice(0, 6).map((foto: any) => (
         <a href={foto.permalink} target="_blank" rel="noopener noreferrer" class="instagram-tarjeta">
           <img src={foto.mediaUrl} alt={foto.caption || "Foto de Instagram"} loading="lazy" />
         </a>

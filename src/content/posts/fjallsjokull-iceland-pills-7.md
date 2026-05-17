@@ -1,16 +1,17 @@
 ---
-title: "Fjallsjökull [ICELAND PILLS 8]"
-heroImage: "https://i.imgur.com/l5n5MV7.jpg"
+title: Fjallsjökull [ICELAND PILLS 8]
+heroImage: https://i.imgur.com/l5n5MV7.jpg
 pubDate: 2024-09-17T09:36:58Z
 updatedDate: 2024-09-17T09:40:26Z
 draft: false
-author: "AlbertoEpic"
-description: "El Majestuoso Fjallsjökull: Un Gigante de Hielo en el Corazón de Islandia En el sureste de Islandia, como un titán dormido de hielo y roca, se extiende el impresionante glaciar Fjallsjökull . Esta maravilla natural, cuyo nombre significa \"g"
-category: "Islandia 2024"
+author: AlbertoEpic
+description: 'El Majestuoso Fjallsjökull: Un Gigante de Hielo en el Corazón de Islandia En el sureste de Islandia, como un titán dormido de hielo y roca, se extiende el impresionante glaciar Fjallsjökull . Esta maravilla natural, cuyo nombre significa "g'
+category: Islandia 2024
 tags:
-  - "Fjallsárlón"
-  - "Fjallsjökull"
-  - "islandia"
+  - Fjallsárlón
+  - Fjallsjökull
+  - islandia
+  - viajes
 ---
 
 ## El Majestuoso Fjallsjökull: Un Gigante de Hielo en el Corazón de Islandia

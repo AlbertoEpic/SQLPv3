@@ -11,7 +11,7 @@ category: "Esquí de travesía"
 tags:
   - "Esquí de travesía"
   - "formigal"
-  - "Valle de Tena"
+  - valle_de_tena
 ---
 El pasado 28 de febrero, y después de unos días más centrado en la btt, nuestro especialista AlbertoEpic decidió retomar el esquí de travesía... Pero todo tenía truco: lo que en realidad más le apetecía era seguir jugando con el drone!
 

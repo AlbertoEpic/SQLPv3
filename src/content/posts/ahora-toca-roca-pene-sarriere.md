@@ -1,15 +1,16 @@
 ---
 title: "Ahora toca roca: Pene Sarriere"
 pubDate: 2010-08-12T15:00:00Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:56Z
 draft: false
-author: "AlbertoEpic"
-description: "Como actividad estrella enmarcada dentro de otro fin de semana multiactividad (Escalada, barranco, ferrata), figura esta vez la llevada a cabo por AlbertoEpic y Luzia en el Pene Sarriere (Gourette). Aqui puedes ver la escalada de la cara Es"
-category: "Escalada"
+author: AlbertoEpic
+description: Como actividad estrella enmarcada dentro de otro fin de semana multiactividad (Escalada, barranco, ferrata), figura esta vez la llevada a cabo por AlbertoEpic y Luzia en el Pene Sarriere (Gourette). Aqui puedes ver la escalada de la cara Es
+category: Escalada
 tags:
-  - "escalada"
+  - escalada
+  - pene_sarriere
+  - gourette
 ---
 Como actividad estrella enmarcada dentro de otro fin de semana multiactividad (Escalada, barranco, ferrata), figura esta vez la llevada a cabo por AlbertoEpic y Luzia en el Pene Sarriere (Gourette). Aqui puedes ver la escalada de la cara Este del Pene Sarriere (vía Ravier) y el descenso por la cresta Sur.
 Una actividad tras la que puedo afirmar que aquel tiempo en el que sufrí un vértigo irracional ya ha pasado a la historia.

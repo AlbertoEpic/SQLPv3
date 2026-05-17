@@ -11,7 +11,7 @@ category: "Esquí de travesía"
 tags:
   - "Pelopín"
   - "skimo"
-  - "Valle de Tena"
+  - valle_de_tena
 ---
 El pasado 6 de enero, y en plena ola polar, Almu&AlbertoEpic sacaron a pasear a Tara y entre unas cosas y otras, el paseo se les complicó y terminaron subiendo al pico Pelopín ;-p .
 

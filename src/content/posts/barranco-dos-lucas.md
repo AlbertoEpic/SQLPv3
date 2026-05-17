@@ -1,16 +1,15 @@
 ---
-title: "Barranco d'Os Lucas"
-heroImage: "https://i.imgur.com/FzALNhk.gif"
+title: Barranco d'Os Lucas
+heroImage: https://i.imgur.com/FzALNhk.gif
 pubDate: 2018-08-04T17:54:51Z
 updatedDate: 2018-09-05T18:25:59Z
 draft: false
-author: "AlbertoEpic"
-description: "Sirva este breve post simplemente para reseñar una breve actividad realizada el 2 de agosto por el equipo SQLP. Adjuntamos la reseña y añadimos el track a nuestra base de datos."
-category: "Descenso de barrancos"
+author: AlbertoEpic
+description: Sirva este breve post simplemente para reseñar una breve actividad realizada el 2 de agosto por el equipo SQLP. Adjuntamos la reseña y añadimos el track a nuestra base de datos.
+category: Descenso de barrancos
 tags:
-  - "Descenso de barrancos"
-  - "os lucas"
-  - "Valle de Tena"
+  - os_lucas
+  - valle_de_tena
 ---
 Sirva este breve post simplemente para reseñar una breve actividad realizada el 2 de agosto por el equipo SQLP.
 Adjuntamos la reseña y añadimos el track a nuestra base de datos.

@@ -10,9 +10,8 @@ category: SQLP-kids
 tags:
   - barrancos
   - barrasil
-  - Descenso de barrancos
   - rodellar
-  - sierra guara
+  - sierra_de_guara
 ---
 Una gran opción cuando el calor aprieta...
 

@@ -1,14 +1,16 @@
 ---
-title: "BTT Panticosa - Sabocos"
-heroImage: "attachments/IMG_1756-300x225.webp"
+title: BTT Panticosa - Sabocos
+heroImage: attachments/IMG_1756-300x225.webp
 pubDate: 2008-10-05T20:24:00Z
 updatedDate: 2015-04-06T10:29:10Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "Este pasado sábado unos globeros estuvieron haciendo una ruta de btt por el Pirineo: El Pueyo de Jaca - Hoz de Jaca - Ibón de Sabocos - La Ripera - PR a Panticosa - PR a El Pueyo. Subida por pista, con fuertes rampas en la estación de Panti"
-category: "Otros"
+category: Bicicleta de montaña
 tags:
-  - "Uncategorized"
+  - btt
+  - enduro
+  - valle_de_tena
 ---
 ![](attachments/IMG_1756.webp)
 

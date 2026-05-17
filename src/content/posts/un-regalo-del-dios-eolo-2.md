@@ -10,7 +10,7 @@ category: "Bicicleta de montaña"
 tags:
   - "fatbike"
   - "mandilar"
-  - "Valle de Tena"
+  - valle_de_tena
 ---
 Corría la fecha estelar 71610.3, cumpleaños de AlbertoEpic, y decidió subir al Pirineo con la fatbike.
 

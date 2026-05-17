@@ -9,7 +9,7 @@ description: "Una ascensión fácil, breve y muy agradecida... El pasado domingo
 category: "Ascensiones"
 tags:
   - "ascensiones"
-  - "Valle de Tena"
+  - valle_de_tena
 ---
 
 ## Una ascensión fácil, breve y muy agradecida...

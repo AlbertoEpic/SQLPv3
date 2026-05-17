@@ -1,15 +1,14 @@
 ---
-title: "áááGlobero IRONMAN!!!"
+title: áááGlobero IRONMAN!!!
 pubDate: 2009-10-05T20:52:00Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:29:03Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "Los globeros nos congratulamos llenos de regocijo porque alguien de nuestro clan ha superado uno de los mayores retos deportivos en lo que a fondo se refiere: el ironman. El globero Toáo 'mecánico amateur' Garcáa Pisa ha pasado a los anales"
-category: "Otros"
+category: Otros
 tags:
-  - "Uncategorized"
+  - ironman
 ---
 Los globeros nos congratulamos llenos de regocijo porque alguien de nuestro clan ha superado uno de los mayores retos deportivos en lo que a fondo se refiere: el ironman.
 

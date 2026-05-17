@@ -9,7 +9,7 @@ description: "Ideal para un 'bautismo barranquil' Añadimos hoy a la sección SQ
 category: SQLP-kids
 tags:
   - Carruaca
-  - sierra guara
+  - sierra_de_guara
 ---
 Ideal para un 'bautismo barranquil'
 Añadimos hoy a la sección SQLP-kids una nueva actividad: descenso de barrancos. El barranco de La Carruaca, o estrechos de Lúsera, es un mini barranco de juguete con una dificultad técnica nula. Si lo pillamos con el caudal justo*, es perfecto para dejar que los pequeños aventureros descubran el mundillo y las sensaciones del descenso de barrancos.

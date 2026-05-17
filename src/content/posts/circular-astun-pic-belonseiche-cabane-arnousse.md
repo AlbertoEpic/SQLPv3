@@ -1,15 +1,16 @@
 ---
 title: "Circular Astún: Pic Belonseiche - Cabane Arnousse"
 pubDate: 2013-12-04T11:43:00Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:36Z
 draft: false
-author: "AlbertoEpic"
-description: "El otro día, unos especímenes ávidos de polvorón, sobrados de ganas y faltos de metros de desnivel acumulado esta temporada (1 salida para algunos), tuvieron la suerte de experimentar sobre unos esquís sensaciones que parecían reservadas a"
-category: "Esquí de travesía"
+author: AlbertoEpic
+description: El otro día, unos especímenes ávidos de polvorón, sobrados de ganas y faltos de metros de desnivel acumulado esta temporada (1 salida para algunos), tuvieron la suerte de experimentar sobre unos esquís sensaciones que parecían reservadas a
+category: Esquí de travesía
 tags:
-  - "Esquí de travesía"
+  - skimo
+  - valle_del_aragon
+  - astun
 ---
 El otro día, unos especímenes ávidos de polvorón, sobrados de ganas y faltos de metros de desnivel acumulado esta temporada (1 salida para algunos), tuvieron la suerte de experimentar sobre unos esquís sensaciones que parecían reservadas a otras latitudes.
 

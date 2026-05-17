@@ -1,16 +1,16 @@
 ---
-title: "Camino ¿Natural? de la Hoya de Huesca"
-heroImage: "attachments/borrame-295x300.webp"
+title: Camino ¿Natural? de la Hoya de Huesca
+heroImage: attachments/camino-natural-de-la-hoya-de-huesca.png
 pubDate: 2012-03-25T21:30:00Z
 updatedDate: 2015-04-06T10:28:41Z
 draft: false
-author: "AlbertoEpic"
-description: "Que en Huesca se quiera hacer un sendero vertebrador de la región es una iniciativa genial. Que se destine una cantidad ingente de dinero a este proyecto, con la que tenemos encima, pues bueno, más se despilfarra en otras cosas. Pero lo que"
-category: "Otros"
+author: AlbertoEpic
+description: Que en Huesca se quiera hacer un sendero vertebrador de la región es una iniciativa genial. Que se destine una cantidad ingente de dinero a este proyecto, con la que tenemos encima, pues bueno, más se despilfarra en otras cosas. Pero lo que
+category: Otros
 tags:
-  - "Uncategorized"
+  - GR-1
 ---
-![](attachments/borrame.webp)Que en Huesca se quiera hacer un sendero vertebrador de la región es una iniciativa genial. Que se destine una cantidad ingente de dinero a este proyecto, con la que tenemos encima, pues bueno, más se despilfarra en otras cosas.
+![camino-natural-de-la-hoya-de-huesca -](attachments/camino-natural-de-la-hoya-de-huesca.png)Que en Huesca se quiera hacer un sendero vertebrador de la región es una iniciativa genial. Que se destine una cantidad ingente de dinero a este proyecto, con la que tenemos encima, pues bueno, más se despilfarra en otras cosas.
 
 Pero lo que veo una INCONGRUENCIA ABSOLUTA, bestialidad, burrada, tomadura de pelo, sinsentido, destrozo natural, impacto ambiental, deberí­an rodar cabezas por ello, es lo que se está haciendo con esa partida presupuestaria.  Con el dinero de todos se están destrozando los lugares por donde pasa el supuesto camino 'natural' para convertirlos en una especie de parque temático. Con la excusa de hacerlo accesible a todo el mundo lo están 'urbanizando', de manera que los que ya no iban seguirán sin ir por allí­, y a los que ya í­bamos antes nos duele en el alma y nos pone de muy mala leche... Escalinatas que convierten suaves pendientes en fatigosas subidas, barandillas de madera sin ningún sentido, sirgas para evitar caí­das donde no hay ningún peligro...
 
@@ -20,7 +20,7 @@ De momento, el máximo exponente de este delirante proyecto sin pies ni cabeza s
 
 Pero está por todo el trazado. Acabo de regresar de dar un paseo por el Peiro, y lo que han hecho allí­ es una auténtica tomadura de pelo. Imagino que la empresa que aporte la madera y las sirgas para el equipamiento del sendero será propiedad de algún sobrino del polí­tico de turno que ha aprobado esta historia...
 
-Aqui puedes ver algunas fotos:
+Aquí puedes ver algunas fotos:
 
 ![](attachments/borrame1.webp)El maravilloso hayedo del Peiro, convertido en la atracción 'Recorre el bosque' de Port Aventura...
 

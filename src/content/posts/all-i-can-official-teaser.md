@@ -1,15 +1,14 @@
 ---
-title: "All.I.Can - Official Teaser"
+title: All.I.Can - Official Teaser
 pubDate: 2011-10-04T08:32:00Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:46Z
 draft: false
-author: "AlbertoEpic"
-description: "Hoy venimos con otro video que nos ha llegado por email (Gracias, Bati!). Para ir abriendo boca y empezar ya a pensar en nieveee..."
-category: "Otros"
+author: AlbertoEpic
+description: Hoy venimos con otro video que nos ha llegado por email (Gracias, Bati!). Para ir abriendo boca y empezar ya a pensar en nieveee...
+category: Otros
 tags:
-  - "Uncategorized"
+  - Videos
 ---
 Hoy venimos con otro video que nos ha llegado por email (Gracias, Bati!). Para ir abriendo boca y empezar ya a pensar en nieveee...
 

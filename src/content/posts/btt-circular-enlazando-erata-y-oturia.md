@@ -1,12 +1,17 @@
 ---
 title: "BTT: circular enlazando Erata y Oturia"
-heroImage: "https://i.imgur.com/0FddDVK.jpg"
+heroImage: https://i.imgur.com/0FddDVK.jpg
 pubDate: 2021-06-11T09:33:44Z
 updatedDate: 2021-06-11T20:08:58Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "Una ruta de dáa completo, sin ninguna prisa... El pasado domingo, Myriam y AlbertoEpic, los especialistas de SQLP, aprovecharon para darse un capricho enlazando dos cimas máticas del Sobrepuerto: Erata (Biescas) y Oturia (Sabiáánigo). Y ya "
-category: "Bicicleta de montaáa"
+category: Bicicleta de montaña
+tags:
+  - btt
+  - valle_de_tena
+  - Erata
+  - Oturia
 ---
 Una ruta de dáa completo, sin ninguna prisa...
 El pasado domingo, Myriam y AlbertoEpic, los especialistas de SQLP, aprovecharon para darse un capricho enlazando dos cimas máticas del Sobrepuerto: Erata (Biescas) y Oturia (Sabiáánigo). Y ya de paso, aprovecharon para visitar la despoblada localidad de [Ainielle](https://es.wikipedia.org/wiki/Ainielle), famosa porque Julio Llamazares ambientá allá su novela '[La Lluvia Amarilla](https://es.wikipedia.org/wiki/La_lluvia_amarilla)'.

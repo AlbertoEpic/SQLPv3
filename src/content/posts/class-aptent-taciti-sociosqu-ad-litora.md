@@ -1,16 +1,12 @@
 ---
-title: "Class Aptent Taciti Soci Ad Litora"
+title: Class Aptent Taciti Soci Ad Litora
 pubDate: 2012-07-31T17:24:55Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2012-07-31T17:24:55Z
 draft: false
-author: "AlbertoEpic"
-description: "Quisque ligula ipsum, euismod a vulputate a, ultricies et elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla nunc dui, tristique in semper vel, congue sed ligula. Nam dolor ligula, faucib"
+author: AlbertoEpic
+description: Quisque ligula ipsum, euismod a vulputate a, ultricies et elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla nunc dui, tristique in semper vel, congue sed ligula. Nam dolor ligula, faucib
 tags:
-  - "Design"
-  - "Photo"
-  - "Videos"
 ---
 Quisque ligula ipsum, euismod a vulputate a, ultricies et elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla nunc dui, tristique in semper vel, congue sed ligula. Nam dolor ligula, faucibus id sodales in, auctor fringilla libero. Pellentesque pellentesque tempor tellus eget hendrerit. Morbi id aliquam ligula. Aliquam id dui sem. Proin rhoncus consequat nisl, eu ornare mauris tincidunt vitae.
 

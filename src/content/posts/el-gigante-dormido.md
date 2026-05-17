@@ -1,14 +1,14 @@
 ---
-title: "El gigante dormido"
-heroImage: "attachments/el-gigante-dormido-300x98.webp"
+title: El gigante dormido
+heroImage: attachments/el-gigante-dormido-300x98.webp
 pubDate: 2008-10-08T10:14:00Z
 updatedDate: 2015-04-06T10:29:10Z
 draft: false
-author: "AlbertoEpic"
-description: "Por gentileza del ilustre globero, reconocido fotógrafo y mejor persona Rafa Moreno nos llega este perfil de la sierra de Guara que parece un gigante dormido, con la Peña de Amán por pies -¿quién dijo que los zapatos de plataforma eran un i"
-category: "Otros"
+author: AlbertoEpic
+description: Por gentileza del ilustre globero, reconocido fotógrafo y mejor persona Rafa Moreno nos llega este perfil de la sierra de Guara que parece un gigante dormido, con la Peña de Amán por pies -¿quién dijo que los zapatos de plataforma eran un i
+category: Otros
 tags:
-  - "Uncategorized"
+  - sierra_de_guara
 ---
 ![](attachments/el-gigante-dormido.webp)
 

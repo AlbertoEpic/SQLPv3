@@ -10,7 +10,7 @@ description: "El pasado sábado, y dado lo revuelto de la meteo en el Pirineo, A
 category: "Bicicleta de montaña"
 tags:
   - "Algairén"
-  - "btt"
+  - btt
   - "enduro"
 ---
 El pasado sábado, y dado lo revuelto de la meteo en el Pirineo, AlbertoEpic siguió con su proyecto 'Ampliando horizontes cercanos - mirando al Sur'. En esta ocasión la zona elegida fue la sierra de Algairén.

@@ -1,17 +1,17 @@
 ---
 title: "BTT enduro: Gésera nunca defrauda"
-heroImage: "https://i.imgur.com/HI2nUeb.jpg"
+heroImage: https://i.imgur.com/HI2nUeb.jpg
 pubDate: 2018-11-18T10:45:05Z
 updatedDate: 2018-11-18T10:45:05Z
 draft: false
-author: "AlbertoEpic"
-description: "El finde se acercaba peligrosamente. Se presentaba un sábado incierto, con meteo revuelta, pero la necesidad de hacer algo porque la previsión para el domingo era mucho peor... El viernes el globero jR prende la llama que desencadenará todo"
-category: "Bicicleta de montaña"
+author: AlbertoEpic
+description: El finde se acercaba peligrosamente. Se presentaba un sábado incierto, con meteo revuelta, pero la necesidad de hacer algo porque la previsión para el domingo era mucho peor... El viernes el globero jR prende la llama que desencadenará todo
+category: Bicicleta de montaña
 tags:
-  - "btt"
-  - "enduro"
-  - "nocito"
-  - "sierra guara"
+  - btt
+  - enduro
+  - nocito
+  - sierra_de_guara
 ---
 El finde se acercaba peligrosamente. Se presentaba un sábado incierto, con meteo revuelta, pero la necesidad de hacer algo porque la previsión para el domingo era mucho peor...
 

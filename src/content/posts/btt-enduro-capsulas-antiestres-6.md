@@ -1,16 +1,17 @@
 ---
 title: "BTT enduro: cápsulas antiestrás #6"
-heroImage: "https://i.imgur.com/PJjgYkZ.jpg"
+heroImage: https://i.imgur.com/PJjgYkZ.jpg
 pubDate: 2021-05-21T07:52:57Z
 updatedDate: 2021-05-21T08:17:19Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "La Travenosa Comenzamos hoy la temporada primavera-verano de BTT con una nueva 'Cápsula antiestrás'. Una ruta breve, de menos de 2h, que puede hacerse en una maáana/tarde si disponemos de sálo medio dáa libre. Esta ruta parte de Panticosa, "
-category: "Bicicleta de montaáa"
+category: Bicicleta de montaña
 tags:
-  - "btt"
-  - "panticosa"
-  - "Primavera"
+  - btt
+  - panticosa
+  - Primavera
+  - antiestrés
 ---
 
 ## La Travenosa

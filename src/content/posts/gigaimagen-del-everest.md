@@ -1,15 +1,14 @@
 ---
 title: "'Gigaimagen' del Everest"
 pubDate: 2012-12-27T21:13:00Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:37Z
 draft: false
-author: "AlbertoEpic"
-description: "David Breashears ha creado la imagen del Everest con mayor definición hasta ahora lograda. Usando una lente de 300 milímetros y ensamblando con un programa informático unas 400 fotos, Breashears ha conseguido una imagen de 3.800 millones de"
-category: "Otros"
+author: AlbertoEpic
+description: David Breashears ha creado la imagen del Everest con mayor definición hasta ahora lograda. Usando una lente de 300 milímetros y ensamblando con un programa informático unas 400 fotos, Breashears ha conseguido una imagen de 3.800 millones de
+category: Otros
 tags:
-  - "Uncategorized"
+  - everest
 ---
 [David Breashears](http://davidbreashears.com/speaking.html) ha creado la imagen del Everest con mayor definición hasta ahora lograda. Usando una lente de 300 milímetros y ensamblando con un programa informático unas 400 fotos, Breashears ha conseguido una imagen de 3.800 millones de píxeles.
 

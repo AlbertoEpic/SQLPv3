@@ -1,15 +1,15 @@
 ---
-title: "Pic Castérau (2.227m)"
-heroImage: "https://i.imgur.com/Gvc8AFX.jpg"
+title: Pic Castérau (2.227m)
+heroImage: https://i.imgur.com/Gvc8AFX.jpg
 pubDate: 2018-09-24T10:23:40Z
 updatedDate: 2018-09-26T11:07:40Z
 draft: false
-author: "AlbertoEpic"
-description: "El pasado domingo tocaba ruta de pateo para seguir recuperando la forma perdida... La ruta que hoy reseñamos es cómoda para caminar, incluso correr, y mantiene un desnivel acumulado justo por debajo de los 1.000m. Todo eso, unido a que pais"
-category: "Ascensiones"
+author: AlbertoEpic
+description: El pasado domingo tocaba ruta de pateo para seguir recuperando la forma perdida... La ruta que hoy reseñamos es cómoda para caminar, incluso correr, y mantiene un desnivel acumulado justo por debajo de los 1.000m. Todo eso, unido a que pais
+category: Ascensiones
 tags:
-  - "Bious-Artigues"
-  - "Pic Castérau"
+  - Bious-Artigues
+  - casterau
 ---
 El pasado domingo tocaba ruta de pateo para seguir recuperando la forma perdida... La ruta que hoy reseñamos es cómoda para caminar, incluso correr, y mantiene un desnivel acumulado justo por debajo de los 1.000m. Todo eso, unido a que paisajísticamente es 'lo más', la convierte en apuesta ganadora para una decisión tomada a última hora del día anterior, en plena lucha contra la temible pereza.
 

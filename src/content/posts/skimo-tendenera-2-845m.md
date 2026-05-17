@@ -12,7 +12,7 @@ tags:
   - "Primavera"
   - "skimo"
   - "valle de Otal"
-  - "Valle de Tena"
+  - valle_de_tena
 ---
 - Combinada BTT+porteo+Skimo -
 El pasado 18 de abril los especialistas de SQLP, Myriam y AlbertoEpic, realizaron una actividad, digamos, original (Teniendo en cuenta que hoy en dí­a cada vez más gente hace de todo). La idea no es nueva, fue una actividad ya realizada por AlbertoEpic con el mí­tico Dr. LaTrek unos 15 años atrás (Es vergonzoso cómo pasa el tiempo!!!).

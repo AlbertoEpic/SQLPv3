@@ -9,7 +9,7 @@ description: "Estos días pasados el equipo SQLP estuvo disfrutando del otoño a
 category: "Bicicleta de montaña"
 tags:
   - "Benasque"
-  - "btt"
+  - btt
   - "cicloalpinismo"
   - "enduro"
 ---

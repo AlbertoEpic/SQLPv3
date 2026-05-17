@@ -1,16 +1,16 @@
 ---
 title: "BTT-Pateo: Peña Montañesa"
-heroImage: "https://i.postimg.cc/d3LBV60S/P2040362.jpg"
+heroImage: https://i.postimg.cc/d3LBV60S/P2040362.jpg
 pubDate: 2024-02-05T18:44:39Z
 updatedDate: 2024-02-05T18:44:41Z
 draft: false
-author: "AlbertoEpic"
-description: "Una subida muy directa del coche a cima... El pasado domingo, los especialistas en actividades BTT+pateo del mí­tico Equipo SQLP, Myriam y AlbertoEpic, estuvieron en la Peña Montañesa. Realizaron una actividad que, debido a su orientación N,"
-category: "Ascensiones"
+author: AlbertoEpic
+description: Una subida muy directa del coche a cima... El pasado domingo, los especialistas en actividades BTT+pateo del mí­tico Equipo SQLP, Myriam y AlbertoEpic, estuvieron en la Peña Montañesa. Realizaron una actividad que, debido a su orientación N,
+category: BTT+Pateo
 tags:
-  - "ascensiones"
-  - "peña montañesa"
-  - "sobrarbe"
+  - ascensiones
+  - sobrarbe
+  - peña_montañesa
 ---
 
 ## Una subida muy directa del coche a cima...

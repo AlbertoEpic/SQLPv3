@@ -9,7 +9,7 @@ description: "Una clásica de cicloalpinismo... a vista de dron! Los globeros Ra
 category: "Bicicleta de montaña"
 tags:
   - "cicloalpinismo"
-  - "valle del Aragón"
+  - "valle_del_aragon"
 ---
 Una clásica de cicloalpinismo... a vista de dron!
 Los globeros Rafa 'Morenetti' y AlbertoEpic por fin han conseguido hacer coincidir sus agendas para realizar una clásica de cicloalpinismo. A pesar de lo incierto de la meteo (Subieron por la pista de La Trapa lloviendo), nuestro especialista cargó el dron en la mochila y afortunadamente no lo hizo en vano...

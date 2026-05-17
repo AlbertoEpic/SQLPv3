@@ -10,7 +10,7 @@ category: "Bicicleta de montaña"
 tags:
   - "Anayet"
   - "fatbike"
-  - "Valle de Tena"
+  - valle_de_tena
 ---
 El pasado sábado 17 de octubre, y con el Pirineo blanco por unas inusuales y tempraneras nevadas, llegó la hora de sacar a pasear a la fatbike! AlbertoEpic salió del parking Portalet de la estación de esquí de Formigal, cruzó el llano de los ibones de Anayet y se plantó justo bajo el collado de Anayet. Allí dejó la fatbike, y terminó a pie la ascensión hasta el vértice de Anayet.
 

@@ -1,18 +1,15 @@
 ---
-title: "Fateando por Astún... La Raca en FatBike!"
+title: Fateando por Astún... La Raca en FatBike!
 pubDate: 2016-12-04T23:07:49Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2016-12-04T23:07:49Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "El otro día se dieron las condiciones idóneas: la estación de Astún todavía cerrada, pero con la pista hasta lo alto de La Raca ya pisada; un día de postal, y dos fatos muy fatos dispuestos a sacar a pasear otras tantas fatbikes! Coco y Alb"
-category: "Bicicleta de montaña"
+category: Bicicleta de montaña
 tags:
-  - "Astún"
-  - "fat bike"
-  - "fatbike"
-  - "La Raca"
+  - Astún
+  - fatbike
 ---
 El otro día se dieron las condiciones idóneas: la estación de Astún todavía cerrada, pero con la pista hasta lo alto de La Raca ya pisada; un día de postal, y dos fatos muy fatos dispuestos a sacar a pasear otras tantasí‚Â fatbikes!
 Coco y AlbertoEpic se aliaron para sentir juntos el subidón de felicidad que se experimenta a bordo de una fatbike sobre la nieve. La experiencia no defraudó en absoluto, y pasaron una mañana fateando sin complejos ante la mirada de atónitos traveseros...

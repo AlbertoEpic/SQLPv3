@@ -11,7 +11,7 @@ category: "Ascensiones"
 tags:
   - "ascensiones"
   - "Foratata"
-  - "Valle de Tena"
+  - valle_de_tena
 ---
 
 ## Ruta de ascensión circular a uno de los iconos del valle de Tena

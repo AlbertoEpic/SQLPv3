@@ -1,16 +1,14 @@
 ---
-title: "La Palma - Roque de los Muchachos (2.426m)"
-heroImage: "https://i.imgur.com/sszByu2.jpg"
+title: La Palma - Roque de los Muchachos (2.426m)
+heroImage: https://i.imgur.com/sszByu2.jpg
 pubDate: 2022-09-12T16:41:23Z
 updatedDate: 2022-09-15T09:36:26Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "Vacaciones en La Palma: día 5 Hemos estado al norte, al sur,... y ahora nos toca un lugar mítico, sobre todo para los astrónomos. Es el punto más alto de la isla (2.426 metros) donde astronomía y naturaleza se dan la mano. Impresionantes vi"
-category: "La Palma 2022"
+category: La Palma 2022
 tags:
-  - "La Palma"
-  - "Roque de los Muchachos"
-  - "vía láctea"
+  - viajes
 ---
 Vacaciones en La Palma: día 5
 Hemos estado al norte, al sur,... y ahora nos toca un lugar mítico, sobre todo para los astrónomos. Es el punto más alto de la isla (2.426 metros) donde astronomía y naturaleza se dan la mano. Impresionantes vistas sobre el Parque Nacional de la Caldera de Taburiente.

@@ -1,19 +1,18 @@
 ---
 title: "BTT enDURO: vuelta al Mascún"
 pubDate: 2018-01-17T10:55:15Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2018-01-17T11:03:52Z
 draft: false
-author: "AlbertoEpic"
-description: "Estas fiestas navideñas han dado mucho de sí. Ha habido días de polvorón en el Pirineo... y también días de BTT del bueno por la sierra! Rodellar - Cheto - Saltador de las Lañas - Otín - Rodellar Era la primera semana del año. Un grupo de s"
-category: "Bicicleta de montaña"
+author: AlbertoEpic
+description: Estas fiestas navideñas han dado mucho de sí. Ha habido días de polvorón en el Pirineo... y también días de BTT del bueno por la sierra! Rodellar - Cheto - Saltador de las Lañas - Otín - Rodellar Era la primera semana del año. Un grupo de s
+category: Bicicleta de montaña
 tags:
-  - "btt"
-  - "enduro"
-  - "Mascún"
-  - "rodellar"
-  - "sierra guara"
+  - btt
+  - enduro
+  - Mascún
+  - rodellar
+  - sierra_de_guara
 ---
 Estas fiestas navideñas han dado mucho de sí. Ha habido días de polvorón en el Pirineo... y también días de BTT del bueno por la sierra!
 

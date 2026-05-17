@@ -6,10 +6,10 @@ updatedDate: 2023-01-04T18:17:30Z
 draft: false
 author: "AlbertoEpic"
 description: "A finales del aáo pasado, el equipo SQLP de skimo formado por los especialistas Miriam y AlbertoEpic realizá una concentracián de alto rendimiento de skimo en Andorra. Tenáan dos dáas, y realizaron dos ascensiones. El sábado 17 de diciembre"
-category: "Esquá de travesáa"
+category: "Esquí de travesía"
 tags:
   - "andorra"
-  - "Esquá de travesáa"
+  - "Esquí de travesía"
   - "skimo"
 ---
 

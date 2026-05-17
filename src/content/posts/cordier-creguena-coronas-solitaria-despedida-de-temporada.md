@@ -1,15 +1,15 @@
 ---
 title: "Cordier - CregaÂ¼eña - Coronas: solitaria despedida de temporada..."
-heroImage: "attachments/VueltaMaladetas1.webp"
+heroImage: attachments/VueltaMaladetas1.webp
 pubDate: 2015-05-13T09:40:15Z
 updatedDate: 2015-05-13T11:44:35Z
 draft: false
-author: "AlbertoEpic"
-description: "El pasado sábado tocaba despedir la temporada de esquí­ de travesí­a, y para seguir la tradición habí­a que ir al macizo de las Maladetas. Allí­ tenemos a AlbertoEpic, a las 4:23am, parando el despertador en Benasque y empezando la jornada. A l"
-category: "Esquí­ de travesí­a"
+author: AlbertoEpic
+description: El pasado sábado tocaba despedir la temporada de esquí­ de travesí­a, y para seguir la tradición habí­a que ir al macizo de las Maladetas. Allí­ tenemos a AlbertoEpic, a las 4:23am, parando el despertador en Benasque y empezando la jornada. A l
+category: Esquí­ de travesí­a
 tags:
-  - "Benasque"
-  - "Esquí­ de travesí­a"
+  - Benasque
+  - skimo
 ---
 El pasado sábado tocaba despedir la temporada de esquí­ de travesí­a, y para seguir la tradición habí­a que ir al macizo de las Maladetas. Allí­ tenemos a AlbertoEpic, a las 4:23am, parando el despertador en Benasque y empezando la jornada. A las 5:50am comenzaba la ruta un poco antes de plan d'Están. La 'desgracia' de tener el Aneto aqui hace que esto esté lleno de gente, y del refugio de La Renclusa hasta el Portillón Superior se sube 'en modo romerí­a'.
 

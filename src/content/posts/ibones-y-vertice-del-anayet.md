@@ -1,14 +1,16 @@
 ---
-title: "Ibones y vértice del Anayet"
-heroImage: "attachments/Anayet-002-300x225.webp"
+title: Ibones y vértice del Anayet
+heroImage: attachments/Anayet-002-300x225.webp
 pubDate: 2009-02-26T13:09:00Z
 updatedDate: 2015-04-06T10:29:05Z
 draft: false
-author: "AlbertoEpic"
-description: "Sábado 21 de febrero. Marchando otra de esquí­ de montaña. Desde el parking de Anayet (petao de coches y de \"ejquiadores\", con atasco incluido desde Biescas), excursión muy maja y asequible, con las moles de Anayet y Midi vestidas de gala po"
-category: "Otros"
+author: AlbertoEpic
+description: Sábado 21 de febrero. Marchando otra de esquí­ de montaña. Desde el parking de Anayet (petao de coches y de "ejquiadores", con atasco incluido desde Biescas), excursión muy maja y asequible, con las moles de Anayet y Midi vestidas de gala po
+category: Esquí de travesía
 tags:
-  - "Uncategorized"
+  - skimo
+  - Anayet
+  - valle_de_tena
 ---
 Sábado 21 de febrero. Marchando otra de esquí­ de montaña.
 

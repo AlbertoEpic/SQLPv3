@@ -1,16 +1,15 @@
 ---
 title: "BTTkids: puente las Pilas Xtrem"
-heroImage: "https://i.imgur.com/sTn2j5v.jpg"
+heroImage: https://i.imgur.com/sTn2j5v.jpg
 pubDate: 2020-07-31T07:51:51Z
 updatedDate: 2020-07-31T08:22:26Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "Una aventura extrema para los aprendices de superhároe... En SQLP-Kids seguimos con el programa de formacián de superhároes. En esta ocasián tocaba btt, y habiendo superado el nivel de las Rutas Fáciles del Espacio BTT-Pirineo Alto Gállego "
-category: "SQLP-kids"
+category: SQLP-kids
 tags:
-  - "btt"
-  - "Puente las Pilas"
-  - "Valle de Tena"
+  - btt
+  - valle_de_tena
 ---
 Una aventura extrema para los aprendices de superhároe...
 En SQLP-Kids seguimos con el programa de formacián de superhároes. En esta ocasián tocaba btt, y habiendo superado el nivel de las Rutas Fáciles delá[Espacio BTT-Pirineo Alto Gállego](http://www.bttpirineosaltogallego.com/), ahora tocaba ya empezar con las Rutas Medias...

@@ -1,12 +1,16 @@
 ---
 title: "BTT Enduro: Miradores de San Juan de la Peña"
-heroImage: "https://i.imgur.com/wHqbRjK.gif"
+heroImage: https://i.imgur.com/wHqbRjK.gif
 pubDate: 2018-12-23T10:05:51Z
 updatedDate: 2020-03-10T09:25:06Z
 draft: false
-author: "AlbertoEpic"
-description: "Todo comenzó el jueves anterior, cuando Quiri escribía en Facebook una de sus incendiarias entradas. AlbertoEpic navegaba por el ciberespacio valorando la meteo, las condiciones del monte y posibles actividades compatibles con los compromisos."
-category: "Bicicleta de montaña"
+author: AlbertoEpic
+description: Todo comenzó el jueves anterior, cuando Quiri escribía en Facebook una de sus incendiarias entradas. AlbertoEpic navegaba por el ciberespacio valorando la meteo, las condiciones del monte y posibles actividades compatibles con los compromisos.
+category: Bicicleta de montaña
+tags:
+  - btt
+  - enduro
+  - san_juan_de_la_peña
 ---
 
 ![Imagen](https://i.imgur.com/wHqbRjK.gif)

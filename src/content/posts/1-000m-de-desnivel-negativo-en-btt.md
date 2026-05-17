@@ -7,7 +7,7 @@ author: AlbertoEpic
 description: El pasado domingo, un nutrido grupo de globeros junto con algunos de sus semejantes de Biescas y Zaragoza se dieron cita en Jaca para dar un rulo en btt, en torno a Peña Oroel, y hacer así los 1.000m de descenso entre la cima y el coche apa
 category: Bicicleta de montaña
 tags:
-  - Uncategorized
+  - btt
 ---
 ## Intro
 El pasado domingo, un nutrido grupo de globeros junto con algunos de sus semejantes de Biescas y Zaragoza se dieron cita en Jaca para dar un rulo en btt, en torno a Peña Oroel, y hacer así los 1.000m de descenso entre la cima y el coche aparcado en Jaca.
