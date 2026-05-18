@@ -1,14 +1,15 @@
 ---
-title: "Vuelta a Punta Suelza"
-heroImage: "attachments/btt-ordiceto-300x128.webp"
+title: Vuelta a Punta Suelza
+heroImage: attachments/btt-ordiceto-300x128.webp
 pubDate: 2009-08-19T09:22:00Z
 updatedDate: 2015-04-06T10:29:03Z
 draft: false
-author: "AlbertoEpic"
-description: "El pasado sábado, Nacho, Jose y Alberto se fueron a dar un rulo por el Pirineo con las btt. El itinerario escogido fue Salinas - Bielsa - Parzán - Ordiceto - GR11 hacia Viadós - Plan - Salinas. Una ruta todosubida-todobajada... Para calenta"
-category: "Otros"
+author: AlbertoEpic
+description: El pasado sábado, Nacho, Jose y Alberto se fueron a dar un rulo por el Pirineo con las btt. El itinerario escogido fue Salinas - Bielsa - Parzán - Ordiceto - GR11 hacia Viadós - Plan - Salinas. Una ruta todosubida-todobajada... Para calenta
+category: Bicicleta de montaña
 tags:
-  - "Uncategorized"
+  - btt
+  - sobrarbe
 ---
 El pasado sábado,  Nacho, Jose y Alberto se fueron a dar un rulo por el Pirineo con las btt. El itinerario escogido fue Salinas - Bielsa - Parzán - Ordiceto - GR11 hacia Viadós - Plan - Salinas.
 

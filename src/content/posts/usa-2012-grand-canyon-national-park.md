@@ -1,18 +1,17 @@
 ---
 title: "USA 2012: Grand Canyon National Park"
 pubDate: 2012-09-13T13:29:00Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:40Z
 draft: false
-author: "AlbertoEpic"
-description: "Abrimos un pequeáo parántesis en el Colorado Trail. Rompemos el orden cronolágico de los acontecimientos para recoger en este episodio la actividad de Luzia y AlbertoEpic en el Grand Canyon National Park. Saltamos adelante en el tiempo, has"
-category: "Otros"
+author: AlbertoEpic
+description: Abrimos un pequeáo parántesis en el Colorado Trail. Rompemos el orden cronolágico de los acontecimientos para recoger en este episodio la actividad de Luzia y AlbertoEpic en el Grand Canyon National Park. Saltamos adelante en el tiempo, has
+category: Otros
 tags:
-  - "gran caáán del colorado"
-  - "Grand Canyon National Park"
-  - "kaibab trail"
-  - "usa 2012"
+  - viajes
+  - usa2012
+  - grand_canyon
+  - kaibab_trail
 ---
 Abrimos un pequeáo parántesis en el Colorado Trail. Rompemos el orden cronolágico de los acontecimientos para recoger en este episodio la actividad de Luzia y AlbertoEpic en el Grand Canyon National Park.
 

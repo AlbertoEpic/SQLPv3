@@ -1,14 +1,15 @@
 ---
-title: "L'AigaÂ¼eta de Barbaruens"
-heroImage: "attachments/P1011317-300x225.webp"
+title: L'AigaÂ¼eta de Barbaruens
+heroImage: attachments/P1011317-300x225.webp
 pubDate: 2009-07-11T08:12:00Z
 updatedDate: 2015-04-06T10:29:03Z
 draft: false
-author: "AlbertoEpic"
-description: "Otro año más, los globeros se dieron cita en Barbaruens, para hacer el barranco de l'AigaÂ¼eta. Conocedores de lo divertido que resulta, la convocatoria globeril tuvo gran éxito, una vez más. En la foto de grupo están los asistentes. Sólo fal"
-category: "Otros"
+author: AlbertoEpic
+description: Otro año más, los globeros se dieron cita en Barbaruens, para hacer el barranco de l'AigaÂ¼eta. Conocedores de lo divertido que resulta, la convocatoria globeril tuvo gran éxito, una vez más. En la foto de grupo están los asistentes. Sólo fal
+category: Descenso de barrancos
 tags:
-  - "barrancos"
+  - barrancos
+  - aigüeta_de_barbaruens
 ---
 ![](attachments/P1011317.webp)
 

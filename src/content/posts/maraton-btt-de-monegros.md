@@ -1,15 +1,15 @@
 ---
-title: "Maratón BTT de Monegros"
-heroImage: "attachments/fotosalidamonegros-300x168.webp"
+title: Maratón BTT de Monegros
+heroImage: attachments/fotosalidamonegros-300x168.webp
 pubDate: 2011-05-02T21:17:00Z
 updatedDate: 2015-04-06T10:28:49Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "30/04/2011 Desayunar mucho, comer mucho, beber mucho para poder pedalear durante mucho rato, la palabra mucho va a venir como complemento a todas las demás, porque este sábado hay recorrer muchos kilometros entre mucha gente y mucho polvo. "
-category: "Otros"
+category: Bicicleta de montaña
 tags:
   - btt
-  - "Maratón de Monegros"
+  - maraton_de_monegros
 ---
 ![](attachments/fotosalidamonegros.webp)
 

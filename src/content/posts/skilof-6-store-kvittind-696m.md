@@ -1,15 +1,17 @@
 ---
-title: "SkiLof 6 - Store Kvittind (696m)"
-heroImage: "attachments/P4051054-1024x768.webp"
+title: SkiLof 6 - Store Kvittind (696m)
+heroImage: attachments/P4051054-1024x768.webp
 pubDate: 2024-04-06T14:39:00Z
 updatedDate: 2024-05-28T15:29:12Z
 draft: false
-author: "AlbertoEpic"
-description: "Esta es nuestra última actividad en Noruega. Mañana toca avión y para casa. El grupo se deja llevar, y lleno de espí­ritu explorador, decide dejar la ascensión prevista e improvisar una ruta circular en busca de unas buenas palas de bajada ("
-category: "Esquí­ de travesí­a"
+author: AlbertoEpic
+description: Esta es nuestra última actividad en Noruega. Mañana toca avión y para casa. El grupo se deja llevar, y lleno de espí­ritu explorador, decide dejar la ascensión prevista e improvisar una ruta circular en busca de unas buenas palas de bajada (
+category: Esquí­ de travesí­a
 tags:
-  - "Esquí­ de travesí­a"
-  - "Lofoten"
+  - Lofoten
+  - store-kvittind
+  - skimo
+  - viajes
 ---
 
 Esta es nuestra última actividad en Noruega. Mañana toca avión y para casa. El grupo se deja llevar, y lleno de espí­ritu explorador, decide dejar la ascensión prevista e improvisar una ruta circular en busca de unas buenas palas de bajada (En realidad, en este lugar y en estos dí­as, la bajada siempre es espectacular en cualquier orientación y a cualquier hora!)

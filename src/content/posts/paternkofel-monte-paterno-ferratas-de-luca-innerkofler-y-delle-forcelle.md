@@ -1,3 +1,9 @@
+---
+tags:
+  - viajes
+  - via_ferrata
+  - dolomitas
+---
 
 title: "Paternkofel / Monte Paterno, ferratas De Luca-Innerkofler y delle Forcelle"
 heroImage: "attachments/paterno1-677x1024.webp"

@@ -1,12 +1,15 @@
 ---
-title: "Vía Verde Val de Zafán"
-heroImage: "https://i.imgur.com/0XJjNe7.jpg"
+title: Vía Verde Val de Zafán
+heroImage: https://i.imgur.com/0XJjNe7.jpg
 pubDate: 2022-06-03T15:34:32Z
 updatedDate: 2022-06-03T15:57:02Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "Interesante actividad para hacer con niños Nos faltaba por reseñar en el blog de SQLP esta actividad realizada por AlbertoEpic&Sami, del equipo SQLP-kids, el pasado mes de abril. Si bien el verano es una época totalmente desaconsejada para "
-category: "SQLP-kids"
+category: SQLP-kids
+tags:
+  - via_verde
+  - val_de_zafan
 ---
 Interesante actividad para hacer con niños
 Nos faltaba por reseñar en el blog de SQLP esta actividad realizada por AlbertoEpic&Sami, del equipo SQLP-kids, el pasado mes de abril. Si bien el verano es una época totalmente desaconsejada para realizar esta vía verde, debido al sofocante calor reinante, se trata de una ruta ideal para recorrerla en primavera-otoño.

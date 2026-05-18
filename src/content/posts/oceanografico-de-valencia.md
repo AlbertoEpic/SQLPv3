@@ -1,15 +1,15 @@
 ---
-title: "Oceanográfico de Valencia"
+title: Oceanográfico de Valencia
 pubDate: 2010-07-11T04:54:00Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:56Z
 draft: false
-author: "AlbertoEpic"
-description: "A mediados de junio una 'terrible' gota fría desaconsejaba actividades en altura en el Pirineo, así que el equipo de SoloQuedaLoPeor se desplazó a Valencia, a visitar la Ciudad de las Artes y las Ciencias . Desde aqui podemos decir que es u"
-category: "Otros"
+author: AlbertoEpic
+description: A mediados de junio una 'terrible' gota fría desaconsejaba actividades en altura en el Pirineo, así que el equipo de SoloQuedaLoPeor se desplazó a Valencia, a visitar la Ciudad de las Artes y las Ciencias . Desde aqui podemos decir que es u
+category: Otros
 tags:
-  - "Uncategorized"
+  - valencia
+  - oceanográfico
 ---
 A mediados de junio una 'terrible' gota fría desaconsejaba actividades en altura en el Pirineo, así que el equipo de SoloQuedaLoPeor se desplazó a Valencia, a visitar la [Ciudad de las Artes y las Ciencias](http://www.cac.es/).
 

@@ -8,8 +8,10 @@ author: AlbertoEpic
 description: Esto no hace nada más que mejorar dí­a tras dí­a... El quinto dí­a de actividad en las Lofoten nos sorprende con la mejor meteo hasta la fecha. Frí­o, para que la nieve esté perfecta todo el dí­a, y por fin un dí­a totalmente despejado y con un v
 category: Esquí­ de travesí­a
 tags:
-  - Esquí­ de travesí­a
   - Lofoten
+  - rundfjellet
+  - skimo
+  - viajes
 ---
 
 Esto no hace nada más que mejorar dí­a tras dí­a... El quinto dí­a de actividad en las Lofoten nos sorprende con la mejor meteo hasta la fecha. Frí­o, para que la nieve esté perfecta todo el dí­a, y por fin un dí­a totalmente despejado y con un viento razonablemente 'menos fuerte' como para poder volar el dron!

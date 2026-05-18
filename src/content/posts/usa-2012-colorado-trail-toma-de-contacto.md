@@ -1,15 +1,17 @@
 ---
 title: "USA 2012: Colorado Trail, toma de contacto."
 pubDate: 2012-08-13T07:18:00Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:40Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "Después de un largo viaje hasta Denver, por fin comenzamos a pedalear con todo el Colorado Trail por delante... El segundo día nos quedamos sin agua, el tercero sin comida,... Cuesta adaptarse a las nuevas condiciones: calcular distancias e"
-category: "Viajes"
+category: Viajes
 tags:
-  - "Uncategorized"
+  - btt
+  - viajes
+  - usa2012
+  - colorado_trail
 ---
 Después de un largo viaje hasta Denver, por fin comenzamos a pedalear con todo el Colorado Trail por delante... El segundo día nos quedamos sin agua, el tercero sin comida,... Cuesta adaptarse a las nuevas condiciones: calcular distancias en millas, jet lag, las enormes dimensiones del 'wilderness', todo el estado en alerta por sequía y calor extremos, incendios...
 

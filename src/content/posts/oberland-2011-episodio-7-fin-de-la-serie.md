@@ -1,19 +1,19 @@
 ---
 title: "Oberland 2011: episodio 7 -Fin de la serie-"
 pubDate: 2011-06-09T11:38:00Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:49Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "Y llegamos a la última etapa de nuestra travesía por el Oberland. La buena meteo y la aclimatación conseguida en esta semana ha hecho que en nuestra cabeza se vaya alimentando una idea: í‚¿Mont Blanc? Así que nuestra misión hoy es salir tempr"
-category: "Otros"
+category: Esquí de travesía
 tags:
-  - "alpes"
-  - "Esquí de travesía"
-  - "Fafleralp"
-  - "Konkordia"
-  - "Oberland"
+  - alpes
+  - Fafleralp
+  - Konkordia
+  - Oberland
+  - skimo
+  - viajes
 ---
 Y llegamos a la última etapa de nuestra travesía por el Oberland. La buena meteo y la aclimatación conseguida en esta semana ha hecho que en nuestra cabeza se vaya alimentando una idea: í‚¿Mont Blanc? Así que nuestra misión hoy es salir temprano del refugio de Konkordia y llegar cuanto antes a Fafleralp. Allí, pillar el coche y sin perder tiempo a Chamonix, donde cenaremos y descansaremos para el día siguiente hacer un intento expréss al Mont Blanc con esquís.
 

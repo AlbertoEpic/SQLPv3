@@ -1,17 +1,17 @@
 ---
-title: "Pic de la Font Blanca (2.903m)"
-heroImage: "https://i.imgur.com/CIn29Bh.jpg"
+title: Pic de la Font Blanca (2.903m)
+heroImage: https://i.imgur.com/CIn29Bh.jpg
 pubDate: 2018-01-26T11:55:11Z
 updatedDate: 2018-01-26T11:55:11Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "El pasado lunes, y aprovechando la festividad de San Vicente en Huesca, SQLP estuvo en Andorra para hacer actividad por lugares nuevos... La ascensión elegida fue el Pic de la Font Blanca. Hemos añadido el track a nuestra base de datos. La "
-category: "Esquí de travesía"
+category: Esquí de travesía
 tags:
-  - "andorra"
-  - "Esquí de travesía"
-  - "font blanca"
-  - "Ordino"
+  - andorra
+  - Ordino
+  - skimo
+  - font_blanca
 ---
 El pasado lunes, y aprovechando la festividad de San Vicente en Huesca, SQLP estuvo en Andorra para hacer actividad por lugares nuevos...
 

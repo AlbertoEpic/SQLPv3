@@ -1,16 +1,16 @@
 ---
 title: "Skimo Andorra: pic de La Serrera (2.913m)"
-heroImage: "https://i.imgur.com/y3TfcbE.jpg"
+heroImage: https://i.imgur.com/y3TfcbE.jpg
 pubDate: 2023-01-04T17:55:48Z
 updatedDate: 2023-01-04T18:17:30Z
 draft: false
-author: "AlbertoEpic"
-description: "A finales del aáo pasado, el equipo SQLP de skimo formado por los especialistas Miriam y AlbertoEpic realizá una concentracián de alto rendimiento de skimo en Andorra. Tenáan dos dáas, y realizaron dos ascensiones. El sábado 17 de diciembre"
-category: "Esquí de travesía"
+author: AlbertoEpic
+description: A finales del aáo pasado, el equipo SQLP de skimo formado por los especialistas Miriam y AlbertoEpic realizá una concentracián de alto rendimiento de skimo en Andorra. Tenáan dos dáas, y realizaron dos ascensiones. El sábado 17 de diciembre
+category: Esquí de travesía
 tags:
-  - "andorra"
-  - "Esquí de travesía"
-  - "skimo"
+  - andorra
+  - skimo
+  - serrera
 ---
 
 A finales del aáo pasado, el equipo SQLP de skimo formado por los especialistas Miriam y AlbertoEpic realizá una concentracián de alto rendimiento de skimo en Andorra. Tenáan dos dáas, y realizaron dos ascensiones. El sábado 17 de diciembre, como toma de contacto con las nieves del paás pirenaico, decidieron subir al Pic de La Serrera, una de las cimas más altas de Andorra, en el cordal divisorio con Francia. Puedes ver y descargarte el track de la ruta a continuacián:

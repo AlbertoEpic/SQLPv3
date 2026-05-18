@@ -1,16 +1,15 @@
 ---
-title: "Finde BTTero - í‚¿Hace un videoclip?"
+title: Finde BTTero - í‚¿Hace un videoclip?
 pubDate: 2011-07-26T15:15:00Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:47Z
 draft: false
-author: "AlbertoEpic"
-description: "Este pasado finde, la meteo tan rara para esta época nos tenía despistados, y terminamos haciendo BTT los dos días. Como novedad, hoy Producciones SoloQuedaLoPeor no te ofrece videos en plan 'relato de la actividad'. En su lugar, probamos c"
-category: "Otros"
+author: AlbertoEpic
+description: Este pasado finde, la meteo tan rara para esta época nos tenía despistados, y terminamos haciendo BTT los dos días. Como novedad, hoy Producciones SoloQuedaLoPeor no te ofrece videos en plan 'relato de la actividad'. En su lugar, probamos c
+category: Bicicleta de montaña
 tags:
   - btt
-  - "trialeras"
+  - trialeras
 ---
 Este pasado finde, la meteo tan rara para esta época nos tenía despistados, y terminamos haciendo BTT los dos días. Como novedad, hoy Producciones SoloQuedaLoPeor no te ofrece videos en plan 'relato de la actividad'. En su lugar, probamos con el formato 'videclip': las mejores imágenes, todo revuelto.
 

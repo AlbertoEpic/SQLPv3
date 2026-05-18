@@ -1,12 +1,16 @@
 ---
-title: "Ví­a Ferrata de la Croqueta de Obarra (K4)"
-heroImage: "attachments/croquisCroqueta-1024x768.webp"
+title: Ví­a Ferrata de la Croqueta de Obarra (K4)
+heroImage: attachments/croquisCroqueta-1024x768.webp
 pubDate: 2024-01-29T11:01:16Z
 updatedDate: 2024-01-29T11:05:18Z
 draft: false
-author: "AlbertoEpic"
-description: "Una ferrata larga y mantenida... El pasado 11 de enero, y para comenzar sus actividades del 2024 por todo lo alto, el equipo SQLP TeRReXtrem formado por los especialistas July y AlbertoEpic decide ir a recorrer la ví­a ferrata de 'La Croquet"
-category: "Escalada"
+author: AlbertoEpic
+description: Una ferrata larga y mantenida... El pasado 11 de enero, y para comenzar sus actividades del 2024 por todo lo alto, el equipo SQLP TeRReXtrem formado por los especialistas July y AlbertoEpic decide ir a recorrer la ví­a ferrata de 'La Croquet
+category: Escalada
+tags:
+  - via_ferrata
+  - obarra
+  - Ribagorza
 ---
 
 ## Una ferrata larga y mantenida...

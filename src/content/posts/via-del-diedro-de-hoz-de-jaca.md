@@ -1,14 +1,14 @@
 ---
-title: "Ví­a del Diedro de Hoz de Jaca"
-heroImage: "attachments/Diedro-de-Hoz-218x300.webp"
+title: Ví­a del Diedro de Hoz de Jaca
+heroImage: attachments/Diedro-de-Hoz-218x300.webp
 pubDate: 2010-08-24T12:16:00Z
 updatedDate: 2015-04-06T10:28:56Z
 draft: false
-author: "AlbertoEpic"
-description: "El pasado domingo estuvimos en la ví­a del Diedro de Hoz de Jaca. Nos habí­an hablado tanto de la dificultad oculta de los quintos de allí­, que una vez en harina la cosa resultó más sencilla de lo esperado. Por supuesto, la ví­a fue liberada e"
-category: "Escalada"
+author: AlbertoEpic
+description: El pasado domingo estuvimos en la ví­a del Diedro de Hoz de Jaca. Nos habí­an hablado tanto de la dificultad oculta de los quintos de allí­, que una vez en harina la cosa resultó más sencilla de lo esperado. Por supuesto, la ví­a fue liberada e
+category: Escalada
 tags:
-  - "Uncategorized"
+  - valle_de_tena
 ---
 ![](attachments/Diedro-de-Hoz.webp)El pasado domingo estuvimos en la ví­a del Diedro de Hoz de Jaca. Nos habí­an hablado tanto de la dificultad oculta de los quintos de allí­, que una vez en harina la cosa resultó más sencilla de lo esperado.
 

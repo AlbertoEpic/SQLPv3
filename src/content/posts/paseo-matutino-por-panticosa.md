@@ -1,16 +1,15 @@
 ---
-title: "Paseo matutino por Panticosa"
+title: Paseo matutino por Panticosa
 pubDate: 2013-02-11T10:57:00Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:37Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "Es sábado, y subimos a foquear por lo blanco, que esta temporada abunda bastante... Pero el fuerte viento, que esta temporada también abunda, nos hace recurrir al comodín de Panticosa. Incluso allí el huracán es de escándalo. Los de Aramón "
-category: "Esquí de travesía"
+category: Esquí de travesía
 tags:
-  - "Esquí de travesía"
   - valle_de_tena
+  - skimo
 ---
 Es sábado, y subimos a foquear por lo blanco, que esta temporada abunda bastante... Pero el fuerte viento, que esta temporada también abunda, nos hace recurrir al comodín de Panticosa. Incluso allí el huracán es de escándalo.
 

@@ -1,13 +1,15 @@
 ---
-title: "MontearagonFjord"
+title: MontearagonFjord
 pubDate: 2021-01-06T18:35:55Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2021-01-07T07:55:25Z
 draft: false
-author: "AlbertoEpic"
-description: "Otra ruta realizada por el ya mítico grupo Iván&Chus+Sami&AlbertoEpic, en esta ocasión en BTT y para recibir bien el año 2021. Cuando decimos 'MontearagonFjord', o 'fiordo de Montearagón', nos referimos a un nuevo sendero que recorre el fil"
-category: "SQLP-kids"
+author: AlbertoEpic
+description: Otra ruta realizada por el ya mítico grupo Iván&Chus+Sami&AlbertoEpic, en esta ocasión en BTT y para recibir bien el año 2021. Cuando decimos 'MontearagonFjord', o 'fiordo de Montearagón', nos referimos a un nuevo sendero que recorre el fil
+category: SQLP-kids
+tags:
+  - btt
+  - montearagon
 ---
 Otra ruta realizada por el ya mítico grupo Iván&Chus+Sami&AlbertoEpic, en esta ocasión en BTT y para recibir bien el año 2021. Cuando decimos 'MontearagonFjord', o 'fiordo de Montearagón', nos referimos a un nuevo sendero que recorre el filo de una arista, la cual divide en dos brazos el embalse de Montearagón. í‚¿Quién quiere viajar a Noruega, teniendo fiordos al lado de casa? ;-p
 

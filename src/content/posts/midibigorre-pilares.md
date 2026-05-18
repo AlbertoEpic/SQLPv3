@@ -1,16 +1,15 @@
 ---
-title: "Puente del Pilar entre piñones..."
-heroImage: "attachments/autor.webp"
+title: Puente del Pilar entre piñones...
+heroImage: attachments/autor.webp
 pubDate: 2018-11-05T12:36:14Z
 updatedDate: 2018-11-06T08:57:54Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "Por más resacas como esta! (Crónica de un puente ciclo-alpiní­stico que pretendí­a ser endureroâ‚¬Â¦ 12/13 octubre 2018) José Orte aâ€°l es el autor de esta mí­tica crónica... Brindo por más resacas como esta, brindo por resacas que dejan pequeñas a "
-category: "Bicicleta de montaña"
+category: Bicicleta de montaña
 tags:
-  - "cicloalpinismo"
-  - "Midi de Bigorre"
-  - "Puente del Pilar"
+  - cicloalpinismo
+  - midi_de_bigorre
 ---
 
 ##

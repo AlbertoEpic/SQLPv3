@@ -1,14 +1,15 @@
 ---
-title: "webcams.soloquedalopeor.com"
-heroImage: "attachments/imagenPromo.webp"
+title: webcams.soloquedalopeor.com
+heroImage: attachments/imagenPromo.webp
 pubDate: 2014-02-07T12:36:00Z
 updatedDate: 2015-04-06T10:28:36Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "Hoy queremos presentar el nuevo mini-site de webcams de SQLP. Se trata de una web en fase 'Beta', todaví­a en desarrollo, así­ que son bienvenidas todo tipo de sugerencias y crí­ticas constructivas. Puedes sugerirnos esa webcam que tú siempre "
-category: "Otros"
+category: Otros
 tags:
-  - "Uncategorized"
+  - webcams
+  - soloquedalopeor
 ---
 
 

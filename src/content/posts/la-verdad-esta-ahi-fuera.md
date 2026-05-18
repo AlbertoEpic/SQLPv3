@@ -1,14 +1,14 @@
 ---
-title: "La verdad está ahí fuera..."
-heroImage: "http://drewhyslop.com/assets/images/Nepal/Annapurna%20Range%20PanoramaII.jpg"
+title: La verdad está ahí fuera...
+heroImage: http://drewhyslop.com/assets/images/Nepal/Annapurna%20Range%20PanoramaII.jpg
 pubDate: 2010-05-04T10:15:00Z
 updatedDate: 2015-04-06T10:28:59Z
 draft: false
-author: "AlbertoEpic"
-description: "... ya lo decían Mudler y Scully. Hoy en soloquedalopeor no vamos a contar ninguna actividad nuestra, hoy estamos en plan reflexivo... Y es que, hay que ver, hay que ver, cómo está degenerando esto! Por naturaleza, el ser humano es malo, mu"
-category: "Otros"
+author: AlbertoEpic
+description: ... ya lo decían Mudler y Scully. Hoy en soloquedalopeor no vamos a contar ninguna actividad nuestra, hoy estamos en plan reflexivo... Y es que, hay que ver, hay que ver, cómo está degenerando esto! Por naturaleza, el ser humano es malo, mu
+category: Otros
 tags:
-  - "Uncategorized"
+  - Videos
 ---
 [http://drewhyslop.com/assets/images/Nepal/Annapurna%20Range%20PanoramaII.jpg](http://drewhyslop.com/assets/images/Nepal/Annapurna%20Range%20PanoramaII.jpg)
 

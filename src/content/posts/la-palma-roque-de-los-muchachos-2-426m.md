@@ -9,6 +9,8 @@ description: "Vacaciones en La Palma: día 5 Hemos estado al norte, al sur,... y
 category: La Palma 2022
 tags:
   - viajes
+  - roque_de_los_muchachos
+  - la_palma
 ---
 Vacaciones en La Palma: día 5
 Hemos estado al norte, al sur,... y ahora nos toca un lugar mítico, sobre todo para los astrónomos. Es el punto más alto de la isla (2.426 metros) donde astronomía y naturaleza se dan la mano. Impresionantes vistas sobre el Parque Nacional de la Caldera de Taburiente.

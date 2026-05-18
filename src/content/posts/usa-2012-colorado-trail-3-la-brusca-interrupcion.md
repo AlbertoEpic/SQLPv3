@@ -1,16 +1,17 @@
 ---
 title: "USA 2012: Colorado Trail (3), la brusca interrupcián!"
 pubDate: 2012-08-27T06:50:00Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:40Z
 draft: false
-author: "AlbertoEpic"
-description: "La noche en Breckenridge supone un 'renacer' para nuestros especialistas. Recuperadas las fuerzas tras dormir y alimentarse bien, emprenden con la moral a tope un cada vez más alpino CT, que ahora los mantiene a alturas entre 3.000m y 4.000"
-category: "Otros"
+author: AlbertoEpic
+description: La noche en Breckenridge supone un 'renacer' para nuestros especialistas. Recuperadas las fuerzas tras dormir y alimentarse bien, emprenden con la moral a tope un cada vez más alpino CT, que ahora los mantiene a alturas entre 3.000m y 4.000
+category: Otros
 tags:
   - btt
-  - "Colorado Trail"
+  - colorado_trail
+  - usa2012
+  - viajes
 ---
 La noche en Breckenridge supone un 'renacer' para nuestros especialistas. Recuperadas las fuerzas tras dormir y alimentarse bien, emprenden con la moral a tope un cada vez más alpino CT, que ahora los mantiene a alturas entre 3.000m y 4.000m, y cruza enclaves tan máticos como la estacián alpina de Copper Mountain.
 

@@ -1,16 +1,16 @@
 ---
-title: "Vuelta al Mall Pintrat"
-heroImage: "attachments/vueltaMPin1.webp"
+title: Vuelta al Mall Pintrat
+heroImage: attachments/vueltaMPin1.webp
 pubDate: 2016-02-23T10:33:16Z
 updatedDate: 2016-02-23T10:33:16Z
 draft: false
-author: "AlbertoEpic"
-description: "El pasado finde, los globeros jR&Marga&Alejandra y AlbertoEpic&Luzia&Sami&Tai estuvieron concentrados en Benasque para aprovechar las últimas nevadas. Se recurrió a la afamada técnica 'turno de padres'/'turno de madres' para alternar activi"
-category: "Esquí­ de travesí­a"
+author: AlbertoEpic
+description: El pasado finde, los globeros jR&Marga&Alejandra y AlbertoEpic&Luzia&Sami&Tai estuvieron concentrados en Benasque para aprovechar las últimas nevadas. Se recurrió a la afamada técnica 'turno de padres'/'turno de madres' para alternar activi
+category: Esquí­ de travesí­a
 tags:
-  - "Benasque"
-  - "Esquí­ de travesí­a"
-  - "Mall Pintrat"
+  - skimo
+  - mall_pintrat
+  - valle_de_benasque
 ---
 El pasado finde, los globeros jR&Marga&Alejandra y AlbertoEpic&Luzia&Sami&Tai estuvieron concentrados en Benasque para aprovechar las últimas nevadas.
 

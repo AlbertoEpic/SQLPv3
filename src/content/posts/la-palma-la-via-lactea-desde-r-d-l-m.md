@@ -9,6 +9,7 @@ description: "Vacaciones en La Palma: día 5bis La idea era ver las estrellas de
 category: La Palma 2022
 tags:
   - viajes
+  - la_palma
 ---
 Vacaciones en La Palma: día 5bis
 La idea era ver las estrellas desde el mismo Roque de los Muchachos, pero resulta que toda el área es clausurada por la noche, para uso y disfrute de los astrónomos 'de verdad', sin las posibles molestias causadas por los ruidosos e incautos turistas. Debido a ello, tuvimos que regresar un poco por carretera hasta encontrar el primer lugar donde aparcar al otro lado de la barrera. Te lo mostramos en el mapa:

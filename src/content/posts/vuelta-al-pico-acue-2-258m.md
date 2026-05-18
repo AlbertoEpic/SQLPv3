@@ -1,15 +1,15 @@
 ---
-title: "Vuelta al pico Acué (2.258m)"
+title: Vuelta al pico Acué (2.258m)
 pubDate: 2015-01-26T16:58:00Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:22Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "El pasado sábado, y después de que por fin se haya blanqueado nuestro trocito de Pirineo, pudimos empezar con la temporada de esquí de travesía de este año. La ruta elegida: vuelta circular al pico Acué (2.258m). AlbertoEpic, nuestro especi"
-category: "Esquí de travesía"
+category: Esquí de travesía
 tags:
-  - "Esquí de travesía"
+  - skimo
+  - Acué
 ---
 
 [attachments/acue.webp](attachments/acue.webp)

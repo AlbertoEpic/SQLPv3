@@ -10,6 +10,7 @@ category: Ascensiones
 tags:
   - Bious-Artigues
   - casterau
+  - bious_artigues
 ---
 El pasado domingo tocaba ruta de pateo para seguir recuperando la forma perdida... La ruta que hoy reseñamos es cómoda para caminar, incluso correr, y mantiene un desnivel acumulado justo por debajo de los 1.000m. Todo eso, unido a que paisajísticamente es 'lo más', la convierte en apuesta ganadora para una decisión tomada a última hora del día anterior, en plena lucha contra la temible pereza.
 

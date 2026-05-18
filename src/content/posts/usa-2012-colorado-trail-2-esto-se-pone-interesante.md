@@ -1,15 +1,17 @@
 ---
 title: "USA 2012: Colorado Trail (2), esto se pone interesante"
 pubDate: 2012-08-22T08:08:00Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:40Z
 draft: false
-author: "AlbertoEpic"
-description: "Este 2 episodio recoge otras dos etapas del viaje de Luzia y AlbertoEpic por el Colorado Trail en BTT. Tras 4 vivacs consecutivos, y casi sin posibilidad de repostar comida ni agua, por fin el 5 día llegan a Breckenridge, donde podrán dor"
-category: "Otros"
+author: AlbertoEpic
+description: Este 2 episodio recoge otras dos etapas del viaje de Luzia y AlbertoEpic por el Colorado Trail en BTT. Tras 4 vivacs consecutivos, y casi sin posibilidad de repostar comida ni agua, por fin el 5 día llegan a Breckenridge, donde podrán dor
+category: Otros
 tags:
-  - "Colorado Trail"
+  - usa2012
+  - btt
+  - colorado_trail
+  - viajes
 ---
 Este 2 episodio recoge otras dos etapas del viaje de Luzia y AlbertoEpic por el Colorado Trail en BTT. Tras 4 vivacs consecutivos, y casi sin posibilidad de repostar comida ni agua, por fin el 5 día llegan a Breckenridge, donde podrán dormir en cama, hacer la colada, comprar comida,... y prepararse para continuar.
 

@@ -1,14 +1,16 @@
 ---
-title: "Maladeta Oriental (3.308m)"
-heroImage: "attachments/MaladetaOriental-225x300.webp"
+title: Maladeta Oriental (3.308m)
+heroImage: attachments/MaladetaOriental-225x300.webp
 pubDate: 2012-03-13T18:36:00Z
 updatedDate: 2015-04-06T10:28:41Z
 draft: false
-author: "AlbertoEpic"
-description: "En la canal del collado de la Rimaya. El pasado sábado, llegamos por la mañana a Benasque, dejamos los bártulos en el apartamento, y nos vamos a dar un garbeo con los esquí­s, a ver qué tal está el monte. Tenemos que entrenar mucho si querem"
-category: "Otros"
+author: AlbertoEpic
+description: En la canal del collado de la Rimaya. El pasado sábado, llegamos por la mañana a Benasque, dejamos los bártulos en el apartamento, y nos vamos a dar un garbeo con los esquí­s, a ver qué tal está el monte. Tenemos que entrenar mucho si querem
+category: Esquí de travesía
 tags:
-  - "Uncategorized"
+  - skimo
+  - valle_de_benasque
+  - maladeta
 ---
 ![](attachments/MaladetaOriental.webp)En la canal del collado de la Rimaya.El pasado sábado, llegamos por la mañana a Benasque, dejamos los bártulos en el apartamento, y nos vamos a dar un garbeo con los esquí­s, a ver qué tal está el monte. Tenemos que entrenar mucho si queremos ir a los Alpes...
 

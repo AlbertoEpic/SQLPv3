@@ -1,16 +1,17 @@
 ---
-title: "SkiLof 1 - Varden (700m)"
-heroImage: "attachments/P3310023-1024x768.webp"
+title: SkiLof 1 - Varden (700m)
+heroImage: attachments/P3310023-1024x768.webp
 pubDate: 2024-03-31T15:37:34Z
 updatedDate: 2024-05-28T15:31:01Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "El primer dí­a ascendemos al Varden (700m). Toma de contacto, adaptación a la meteo y la nieve de aquí­. Una actividad sencilla fí­sica y técnicamente. Por si te interesa, tienes disponible el track de la actividad a continuación: Y puedes ver"
-category: "Esquí­ de travesí­a"
+category: Esquí­ de travesí­a
 tags:
-  - "Esquí­ de travesí­a"
-  - "Lofoten"
-  - "varden"
+  - Lofoten
+  - varden
+  - skimo
+  - viajes
 ---
 
 El primer dí­a ascendemos al Varden (700m). Toma de contacto, adaptación a la meteo y la nieve de aquí­. Una actividad sencilla fí­sica y técnicamente. Por si te interesa, tienes disponible el track de la actividad a continuación:

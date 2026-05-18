@@ -1,17 +1,18 @@
 ---
-title: "Pico Bacías (2.760m)"
-heroImage: "attachments/qr_bacias.webp"
+title: Pico Bacías (2.760m)
+heroImage: attachments/qr_bacias.webp
 pubDate: 2016-01-25T10:55:58Z
 updatedDate: 2016-01-25T10:55:58Z
 draft: false
-author: "AlbertoEpic"
-description: "El pasado domingo tocaba subir a algún monte, y si tenía que ser un plan rápido y con esquís, además de lejos de la nieve de cañón... las posibilidades quedaban bastante limitadas. í‚¿Qué tal un Bacías desde el Balneario de Panticosa? Vamosss"
-category: "Esquí de travesía"
+author: AlbertoEpic
+description: El pasado domingo tocaba subir a algún monte, y si tenía que ser un plan rápido y con esquís, además de lejos de la nieve de cañón... las posibilidades quedaban bastante limitadas. í‚¿Qué tal un Bacías desde el Balneario de Panticosa? Vamosss
+category: Esquí de travesía
 tags:
-  - "ascensiones"
-  - "balneario de panticosa"
-  - "Esquí de travesía"
+  - ascensiones
   - valle_de_tena
+  - skimo
+  - balneario_de_panticosa
+  - bacias
 ---
 El pasado domingo tocaba subir a algún monte, y si tenía que ser un plan rápido y con esquís, además de lejos de la nieve de cañón... las posibilidades quedaban bastante limitadas. í‚¿Qué tal un Bacías desde el Balneario de Panticosa? Vamosss!!! Hasta allí se escapan Luzia y AlbertoEpic, donde se juntan con Inazio y Make.
 

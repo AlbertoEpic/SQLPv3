@@ -1,17 +1,21 @@
 ---
 title: "Oberland 2011: episodio 5"
 pubDate: 2011-05-26T09:45:00Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:49Z
 draft: false
-author: "AlbertoEpic"
-description: "Esta es nuestra 5 etapa en el Oberland. Hoy toca madrugar para salir bajando del MíƒÂ¶nchsjoch-híƒÂ¼tte, cruzar el collado Obers MíƒÂ¶nchsjoch y esquiar a lo largo del EmigschneefíƒÂ¤ld hasta la altura de los Fiescherhorn, donde giramos a la izquierda"
-category: "Esquí de travesía"
+author: AlbertoEpic
+description: Esta es nuestra 5 etapa en el Oberland. Hoy toca madrugar para salir bajando del Mönchsjoch-hutte, cruzar el collado Obers Mönchsjoch y esquiar a lo largo del EmigschneefíƒÂ¤ld hasta la altura de los Fiescherhorn, donde giramos a la izquierda
+category: Esquí de travesía
 tags:
-  - "Uncategorized"
+  - grosses-fiescherhorn
+  - viajes
+  - skimo
+  - alpes
+  - Oberland
+  - haute_route
 ---
-Esta es nuestra 5 etapa en el Oberland. Hoy toca madrugar para salir bajando del MíƒÂ¶nchsjoch-híƒÂ¼tte, cruzar el collado Obers MíƒÂ¶nchsjoch y esquiar a lo largo del EmigschneefíƒÂ¤ld hasta la altura de los Fiescherhorn, donde giramos a la izquierda y ascendemos al Fieschersattel. Toda esta subida por cara oeste está a la sombra por la mañana, por lo que hace mucho frío.
+Esta es nuestra 5 etapa en el Oberland. Hoy toca madrugar para salir bajando del Mönchsjoch-hutte, cruzar el collado Obers Mönchsjoch y esquiar a lo largo del EmigschneefíƒÂ¤ld hasta la altura de los Fiescherhorn, donde giramos a la izquierda y ascendemos al Fieschersattel. Toda esta subida por cara oeste está a la sombra por la mañana, por lo que hace mucho frío.
 
 En los últimos metros de ascensión al collado la pendiente se empina bastante, y hay que sustituir esquís y bastones por crampones y piolet. En algún corto tramo escasea la nieve y la cosa se complica un poco.
 

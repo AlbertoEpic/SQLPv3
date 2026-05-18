@@ -1,14 +1,15 @@
 ---
-title: "Transpirenaica Aragonesa en BTT"
-heroImage: "attachments/Etapa-1-En-el-collado-de-Cullibert-2-300x225.webp"
+title: Transpirenaica Aragonesa en BTT
+heroImage: attachments/Etapa-1-En-el-collado-de-Cullibert-2-300x225.webp
 pubDate: 2010-08-29T20:07:00Z
 updatedDate: 2015-04-06T10:28:56Z
 draft: false
-author: "AlbertoEpic"
-description: "Buenas buenas! Me estreno en este blog con una mini crónica del viajecito que he hecho esta semana pasada con 2 amigos de Madrid cruzando el Pirineo Aragonés. Han sido un total de 5 etapas, unos 300km aproximadamente, una media de 7-8 horas"
-category: "Bicicleta de montaña"
+author: AlbertoEpic
+description: Buenas buenas! Me estreno en este blog con una mini crónica del viajecito que he hecho esta semana pasada con 2 amigos de Madrid cruzando el Pirineo Aragonés. Han sido un total de 5 etapas, unos 300km aproximadamente, una media de 7-8 horas
+category: Bicicleta de montaña
 tags:
-  - "Uncategorized"
+  - btt
+  - transpirenaica
 ---
 Buenas buenas! Me estreno en este blog con una mini crónica del viajecito que he hecho esta semana pasada con 2 amigos de Madrid cruzando el Pirineo Aragonés.
 

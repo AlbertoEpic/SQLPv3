@@ -9,6 +9,7 @@ description: "Vacaciones en La Palma: día 2 Y llega nuestro segundo día en la 
 category: La Palma 2022
 tags:
   - viajes
+  - la_palma
 ---
 Vacaciones en La Palma: día 2
 Y llega nuestro segundo día en la isla. Hoy lo vamos a plantear más en plan turístico, intentando escapar de las terribles carreteras sinuosas del día anterior... Queremos conocer la zona norte de La Palma. Subiremos viendo cosas sin prisa, y nos acercamos a la zona del Parque Natural de las Nieves í¢â‚¬â€œ Bosque de los Tilos.

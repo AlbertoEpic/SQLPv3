@@ -1,18 +1,16 @@
 ---
-title: "Paris - Brest - Paris 2011"
+title: Paris - Brest - Paris 2011
 pubDate: 2011-08-19T10:33:00Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:46Z
 draft: false
-author: "AlbertoEpic"
-description: "Desde aquí queremos animar a Angelito, el globero más fondista, en su nueva participación en la PBP 2011 . Podrás seguirlo a partir del lunes a las 5 de la mañana con el dorsal 8554 en http://www.paris-brest-paris.org/pbp2011/index2.php?lan"
-category: "Otros"
+author: AlbertoEpic
+description: Desde aquí queremos animar a Angelito, el globero más fondista, en su nueva participación en la PBP 2011 . Podrás seguirlo a partir del lunes a las 5 de la mañana con el dorsal 8554 en http://www.paris-brest-paris.org/pbp2011/index2.php?lan
+category: Otros
 tags:
-  - "brest"
-  - "ciclismo de carretera"
-  - "paris"
-  - "varios"
+  - brest
+  - paris
+  - varios
 ---
 Desde aquí queremos animar a Angelito, el globero más fondista, en su nueva participación en la [PBP 2011](http://www.paris-brest-paris.org/pbp2011/index.php). Podrás seguirlo a partir del lunes a las 5 de la mañana con el dorsal 8554 en
 

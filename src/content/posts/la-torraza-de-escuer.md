@@ -1,12 +1,15 @@
 ---
-title: "La Torraza de Escuer"
-heroImage: "https://i.imgur.com/Nv2rATz.jpg"
+title: La Torraza de Escuer
+heroImage: https://i.imgur.com/Nv2rATz.jpg
 pubDate: 2023-06-23T17:32:39Z
 updatedDate: 2023-06-23T19:18:14Z
 draft: false
-author: "AlbertoEpic"
-description: "Paseo circular con niáos Hace ya casi un mes, el nácleo duro de la seccián SQLPkids, formado por Sami&AlbertoEpic, se desplazaron hasta Escuer con la idea de hacer una ruta circular sencilla para ir a conocer la Torraza de Escuer. Te detall"
-category: "SQLP-kids"
+author: AlbertoEpic
+description: Paseo circular con niáos Hace ya casi un mes, el nácleo duro de la seccián SQLPkids, formado por Sami&AlbertoEpic, se desplazaron hasta Escuer con la idea de hacer una ruta circular sencilla para ir a conocer la Torraza de Escuer. Te detall
+category: SQLP-kids
+tags:
+  - escuer
+  - valle_de_tena
 ---
 
 ## Paseo circular con niáos

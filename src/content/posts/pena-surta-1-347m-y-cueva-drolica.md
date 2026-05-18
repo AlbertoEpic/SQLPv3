@@ -1,12 +1,14 @@
 ---
-title: "Peña Surta (1.347m) y cueva Drólica"
-heroImage: "https://i.imgur.com/oGCcyoT.jpg"
+title: Peña Surta (1.347m) y cueva Drólica
+heroImage: https://i.imgur.com/oGCcyoT.jpg
 pubDate: 2021-12-13T17:55:55Z
 updatedDate: 2021-12-13T18:50:28Z
 draft: false
-author: "AlbertoEpic"
-description: "El pasado fin de semana, por fin con buena meteo... ísubir al Pirineo es tentador! Pero lo desestimamos para intentar escapar de las hordas de esquiadores ansiosos que convierten nuestras tranquilas montañas en hervideros estresantes. Optam"
-category: "SQLP-kids"
+author: AlbertoEpic
+description: El pasado fin de semana, por fin con buena meteo... ísubir al Pirineo es tentador! Pero lo desestimamos para intentar escapar de las hordas de esquiadores ansiosos que convierten nuestras tranquilas montañas en hervideros estresantes. Optam
+category: SQLP-kids
+tags:
+  - sierra_de_guara
 ---
 El pasado fin de semana, por fin con buena meteo... ísubir al Pirineo es tentador! Pero lo desestimamos para intentar escapar de las hordas de esquiadores ansiosos que convierten nuestras tranquilas montañas en hervideros estresantes. Optamos por buscar un rincón olvidado del mundo, al que llegamos por esas míticas carreteras 'de la España profunda': Sarsa de Surta.
 

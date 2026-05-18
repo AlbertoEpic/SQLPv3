@@ -1,14 +1,15 @@
 ---
-title: "Vuelta a Guara"
-heroImage: "attachments/2008-04-09-Vuelta-a-Guara-01b-02b_peq-300x150.webp"
+title: Vuelta a Guara
+heroImage: attachments/2008-04-09-Vuelta-a-Guara-01b-02b_peq-300x150.webp
 pubDate: 2009-04-10T16:14:00Z
 updatedDate: 2015-04-06T10:29:05Z
 draft: false
-author: "AlbertoEpic"
-description: "Subimos tranquilamente a Cuello Bail por una pista en buen estado. Las vistas son muy chulas. Bajada cómoda al Mesón de Sescún con parada para fotear. Después ruta trialera (p'arriba y p'abajo) hasta el rí­o Guatizalema que cruzamos en cuatr"
-category: "Otros"
+author: AlbertoEpic
+description: Subimos tranquilamente a Cuello Bail por una pista en buen estado. Las vistas son muy chulas. Bajada cómoda al Mesón de Sescún con parada para fotear. Después ruta trialera (p'arriba y p'abajo) hasta el rí­o Guatizalema que cruzamos en cuatr
+category: Bicicleta de montaña
 tags:
-  - "Uncategorized"
+  - btt
+  - sierra_de_guara
 ---
 Subimos tranquilamente a Cuello Bail por una pista en buen estado. Las vistas son muy chulas.
 

@@ -9,6 +9,7 @@ description: "Vacaciones en La Palma: día 1 El primer día en la bonita isla de
 category: Ascensiones
 tags:
   - viajes
+  - la_palma
 ---
 Vacaciones en La Palma: día 1
 El primer día en la bonita isla de La Palma decidimos comenzar con una actividad breve y sencilla, para estirar las piernas y ponernos en situación tras el viaje. Lo más laborioso fue llegar en coche hasta el punto de salida, pues en general las carreteras de este lugar son lentas y con muuuuuchas curvas!

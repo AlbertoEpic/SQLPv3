@@ -9,6 +9,7 @@ description: Y el domingo la idea era hacer un barranco, pero como las temperatu
 category: Ascensiones
 tags:
   - gavarnie
+  - pimene
 ---
 Y el domingo la idea era hacer un barranco, pero como las temperaturas cayeron en picado, se nos quitaron las ganas de remojo y lo cambiamos por la ascensión al pico Piméné (2.801), a ritmo caco (caminar-correr).
 

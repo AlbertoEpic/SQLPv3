@@ -1,6 +1,6 @@
 ---
 title: SKIMO en las LOFOTEN
-heroImage: attachments/P4051062-1024x768.webp
+heroImage: attachments/P4051062.webp
 pubDate: 2024-05-28T14:48:03Z
 updatedDate: 2024-05-28T15:45:12Z
 draft: false
@@ -8,7 +8,6 @@ author: AlbertoEpic
 description: 'SkiLof24 Con esta entrada pretendemos unificar una serie de información acerca del viaje de nuestro especialista AlbertoEpic a Noruega, a las islas Lofoten, para salvar la temporada de skimo. Comenzamos con su escalofriante testimonio: "La '
 category: Esquí­ de travesí­a
 tags:
-  - Esquí­ de travesí­a
   - Lofoten
 ---
 
@@ -23,10 +22,12 @@ Era un plan más turí­stico que deportivo, lo cual me permitirí­a moverme si
 Como habí­a predicho Almu, era un grupo de gente encantadora y la convivencia no pudo haber sido más fácil. Fue, en definitiva, un exitazo de viaje en todos los sentidos!" :-)
 AlbertoEpic
 
+## El vídeo
 Y bueno, tras sus palabras, aquí­ va un ví­deo resumen de la semana, con imágenes del dron y la cámara:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1A2mVnLzIYE" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+## El índice
 A continuación detallamos brevemente las actividades, dí­a a dí­a. En una serie que vamos a llamar 'SkiLof' (Skimo en las Lofoten):
 
 - [SkiLof 1 - Varden (700m)](skilof-1-varden-700m/)
@@ -40,6 +41,8 @@ A continuación detallamos brevemente las actividades, dí­a a dí­a. En una s
 - [SkiLof 5 - Rundfjellet (803m)](skilof-5-rundfjellet-803m/)
 
 - [SkiLof 6 - Store Kvittind (696m)](skilof-6-store-kvittind-696m/)
+
+## Las fotos
 
 ![Allí­ lo más normal son las casas de madera. A saber qué tipo de barnices utilizan para que eso aguante...](attachments/P4051062-1024x768.webp)
 

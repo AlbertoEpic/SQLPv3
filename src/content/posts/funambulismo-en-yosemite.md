@@ -1,16 +1,16 @@
 ---
-title: "Funambulismo en Yosemite"
+title: Funambulismo en Yosemite
 pubDate: 2013-01-22T10:04:00Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:37Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "He encontrado este video curioso: un poco de funambulismo en el Cathedral Peak, en Yosemite. El mítico Dean Potter se la juega para conseguir unas imágenes de esas que quitan el hipo... La caída no es una opción!"
-category: "Otros"
+category: Otros
 tags:
-  - "funambulismo"
-  - "yosemite"
+  - funambulismo
+  - yosemite
+  - Videos
 ---
 He encontrado este video curioso: un poco de funambulismo en el Cathedral Peak, en Yosemite. El mítico Dean Potter se la juega para conseguir unas imágenes de esas que quitan el hipo...
 

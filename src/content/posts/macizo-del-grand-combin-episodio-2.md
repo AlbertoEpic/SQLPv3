@@ -1,17 +1,18 @@
 ---
-title: "Macizo del Grand Combin í¢â‚¬â€œ episodio 2"
-heroImage: "https://www.gpsies.com/images/linkus.png"
+title: Macizo del Grand Combin í¢â‚¬â€œ episodio 2
+heroImage: https://www.gpsies.com/images/linkus.png
 pubDate: 2017-06-14T20:14:01Z
 updatedDate: 2017-06-14T20:14:01Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "Recordemos: el equipo internacional hispano-suizo, formado por Laura y AlbertoEpic, se encuentran en plena alta ruta de esquí de travesía por el macizo del Grand Combin. Los planes eran muchos, pero en este caso -Como dicen unos que yo me s"
-category: "Esquí de travesía"
+category: Esquí de travesía
 tags:
-  - "alpes"
-  - "Esquí de travesía"
-  - "Grand Combin"
-  - "Tournelon Blanc"
+  - alpes
+  - skimo
+  - grand_combin
+  - tournelon_blanc
+  - viajes
 ---
 Recordemos: el equipo internacional hispano-suizo, formado por Laura y AlbertoEpic, se encuentran en plena alta ruta de esquí de travesía por el macizo del Grand Combin. Los planes eran muchos, pero en este caso -Como dicen unos que yo me sé ;-)- la montaña decidió por nosotros!
 Ya han consumido dos días, y la meteo sólo garantiza unas mínimas condiciones para un día más de actividad. La elección sería fácil: al Grand Combin de Grafeneire, máxima altitud del macizo. Pero para ascender allí es necesario a estas alturas de la temporada superar unos 80m de escalada en hielo del duro. Obligatorio llevar material 'del de verdad', y no sólo el de seguridad en terreno glaciar, que es el que llevan.

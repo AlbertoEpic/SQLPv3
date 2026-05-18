@@ -1,12 +1,16 @@
 ---
 title: "Noruega 2019: Cabo Norte"
-heroImage: "attachments/nw_6-150x150.webp"
+heroImage: attachments/nw_6-150x150.webp
 pubDate: 2019-09-02T08:38:20Z
 updatedDate: 2020-03-29T09:22:41Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "- Capí­tulo 1 - El equipo SQLP comienza su viaje por Noruega el 17 de agosto, aterrizando en TromsaÂ¸ . Allí­ alquilan un coche, y comienzan a subir hacia el norte. Primera noche en TromsaÂ¸, y segunda en Alta, en el 'Holmen Husky Lodge', donde d"
-category: "Norway2019"
+category: Norway2019
+tags:
+  - viajes
+  - cabo_norte
+  - Noruega
 ---
 - Capí­tulo 1 -
 El equipo SQLP comienza su viaje por Noruega el 17 de agosto, aterrizando en [TromsaÂ¸](https://es.wikipedia.org/wiki/Troms%C3%B8). Allí­ alquilan un coche, y comienzan a subir hacia el norte. Primera noche en TromsaÂ¸, y segunda en Alta, en el 'Holmen Husky Lodge', donde duermen en un 'tipi' sami y conocen a un montón de perros de trineo que entrenan allí­.

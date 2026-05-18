@@ -1,13 +1,15 @@
 ---
-title: "Vía Verde del Bidasoa"
+title: Vía Verde del Bidasoa
 pubDate: 2019-10-04T07:40:01Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2025-02-04T08:33:33Z
 draft: false
-author: "AlbertoEpic"
-description: "Un finde, una vía verde, dos globeros y dos globeritos... El pasado finde, Chus y AlbertoEpic hicieron coincidir por fin sus coordenadas espaciotemporales y marcharon con Iván y Sami a hacer la Vía Verde del Bidasoa . Tras el éxito de la de"
-category: "SQLP-kids"
+author: AlbertoEpic
+description: Un finde, una vía verde, dos globeros y dos globeritos... El pasado finde, Chus y AlbertoEpic hicieron coincidir por fin sus coordenadas espaciotemporales y marcharon con Iván y Sami a hacer la Vía Verde del Bidasoa . Tras el éxito de la de
+category: SQLP-kids
+tags:
+  - via_verde
+  - val_de_zafan
 ---
 Un finde, una vía verde, dos globeros y dos globeritos...
 El pasado finde, Chus y AlbertoEpic hicieron coincidir por fin sus coordenadas espaciotemporales y marcharon con Iván y Sami a hacer la [Vía Verde del Bidasoa](http://www.viasverdes.com/itinerarios/itinerario.asp?id=92). Tras el éxito de [la del Plazaola](via-verde-del-plazaola/), Sami ya estaba 'enganchao' a esto de las vías verdes, y parece que ahora se ha unido también Iván! :-)

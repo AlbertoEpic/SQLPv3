@@ -10,7 +10,7 @@ category: Bicicleta de montaña
 tags:
   - btt
   - enduro
-  - cicloalpinismo
+  - sierra_de_guara
 ---
 El pasado finde, un grupo de seres peculiares se reunieron para sacar a pasear sus bicis... Rafa, Roberto, Susana y AlbertoEpic realizaron una ruta que en un día de agosto normal habría supuesto la muerte por deshidratación.
 Por suerte, justo ese día parecía que fuera noviembre, unas persistentes nubes bajas estaban agarradas por toda la sierra; la mayoría del tiempo se fue a la sombra, y con un agradable fresquito. :-)

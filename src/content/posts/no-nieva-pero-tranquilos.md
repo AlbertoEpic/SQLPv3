@@ -1,14 +1,14 @@
 ---
-title: "No nieva... pero tranquilos!"
-heroImage: "attachments/glaciarAneto-300x275.webp"
+title: No nieva... pero tranquilos!
+heroImage: attachments/glaciarAneto-300x275.webp
 pubDate: 2012-03-04T18:53:00Z
 updatedDate: 2015-04-06T10:28:42Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "El otro dí­a me regalaron un libro de Jordi Camins donde salen imágenes de la regresión del glaciar del Aneto. A continuación, dos fotos del mismo: Viendo la evolución que lleva, su extinción definitiva y la de todos los glaciares pirenaicos"
-category: "Otros"
+category: Esquí de travesía
 tags:
-  - "Uncategorized"
+  - skimo
 ---
 El otro dí­a me regalaron un libro de Jordi Camins donde salen imágenes de la regresión del glaciar del Aneto. A continuación, dos fotos del mismo:
 

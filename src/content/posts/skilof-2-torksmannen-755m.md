@@ -1,16 +1,17 @@
 ---
-title: "SkiLof 2 - Torksmannen (755m)"
-heroImage: "attachments/P4010148-1024x768.webp"
+title: SkiLof 2 - Torksmannen (755m)
+heroImage: attachments/P4010148-1024x768.webp
 pubDate: 2024-04-01T14:39:00Z
 updatedDate: 2024-05-28T15:34:27Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "El segundo dí­a tal vez fuera el de meteo más dura. Un fuerte viento imposibilitaba volar el dron y daba más pereza sacar la cámara para las fotos... A continuación tienes el track de la actividad. En el siguiente Reel puedes ver brevemente "
-category: "Esquí­ de travesí­a"
+category: Esquí­ de travesí­a
 tags:
-  - "Esquí­ de travesí­a"
-  - "Lofoten"
-  - "torksmannen"
+  - Lofoten
+  - torksmannen
+  - skimo
+  - viajes
 ---
 
 El segundo dí­a tal vez fuera el de meteo más dura. Un fuerte viento imposibilitaba volar el dron y daba más pereza sacar la cámara para las fotos... A continuación tienes el track de la actividad.

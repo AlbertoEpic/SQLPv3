@@ -1,14 +1,14 @@
 ---
-title: "Pedals d'Occitania"
-heroImage: "attachments/Pedals-d-27Occitania-086-300x225.webp"
+title: Pedals d'Occitania
+heroImage: attachments/Pedals-d-27Occitania-086-300x225.webp
 pubDate: 2008-10-03T10:47:00Z
 updatedDate: 2015-04-06T10:29:10Z
 draft: false
-author: "AlbertoEpic"
-description: "Hola globeros! Los 4 últimos dí­as de septiembre, sqlp estuvo haciendo la Pedals d'Occitania (Bueno, una pequeña variante, debido a la falta de tiempo). Salida y llegada a Bossost, en lugar de Vielha, para reducir en unos 50km los 220km tota"
-category: "Otros"
+author: AlbertoEpic
+description: Hola globeros! Los 4 últimos dí­as de septiembre, sqlp estuvo haciendo la Pedals d'Occitania (Bueno, una pequeña variante, debido a la falta de tiempo). Salida y llegada a Bossost, en lugar de Vielha, para reducir en unos 50km los 220km tota
+category: Bicicleta de montaña
 tags:
-  - "Uncategorized"
+  - Occitania
 ---
 ![](attachments/Pedals-d-27Occitania-086.webp)
 

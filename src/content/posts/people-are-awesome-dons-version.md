@@ -1,15 +1,14 @@
 ---
-title: "PEOPLE ARE AWESOME (DON'S VERSION)"
+title: PEOPLE ARE AWESOME (DON'S VERSION)
 pubDate: 2011-12-19T12:15:00Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:43Z
 draft: false
-author: "AlbertoEpic"
-description: "Recojo aqui otro de esos videos que merece la pena ver. Realmente es alucinante lo que la gente puede llegar a hacer..."
-category: "Otros"
+author: AlbertoEpic
+description: Recojo aqui otro de esos videos que merece la pena ver. Realmente es alucinante lo que la gente puede llegar a hacer...
+category: Otros
 tags:
-  - "Uncategorized"
+  - Videos
 ---
 Recojo aqui otro de esos videos que merece la pena ver. Realmente es alucinante lo que la gente puede llegar a hacer...
 

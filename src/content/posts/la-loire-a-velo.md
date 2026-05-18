@@ -1,16 +1,16 @@
 ---
-title: "La Loire aÂ  Vélo"
-heroImage: "attachments/QR-Loire.webp"
+title: La Loire aÂ  Vélo
+heroImage: attachments/QR-Loire.webp
 pubDate: 2015-09-13T11:02:26Z
 updatedDate: 2015-09-13T11:03:39Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "Dicen que más vale tarde que nunca... Así­ que os presentamos unas breves imágenes de la actividad realizada a principios de julio por el Equipo SQLP al completo: Tai, Sami, Luzia y AlbertoEpic. No ha habido tiempo para editar todo el materi"
-category: "Viajes"
+category: Viajes
 tags:
-  - "cicloturismo"
-  - "EV6"
-  - "La loire aÂ  vélo"
+  - cicloturismo
+  - EV6
+  - la_loire_a_velo
 ---
 Dicen que más vale tarde que nunca... Así­ que os presentamos unas breves imágenes de la actividad realizada a principios de julio por el Equipo SQLP al completo: Tai, Sami, Luzia y AlbertoEpic.
 

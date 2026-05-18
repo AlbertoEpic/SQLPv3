@@ -1,15 +1,17 @@
 ---
 title: "Uttarakhand 2011: episodio 2"
 pubDate: 2011-11-14T19:55:00Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:43Z
 draft: false
-author: "AlbertoEpic"
-description: "Sale a la luz el segundo episodio de la serie que relata el viaje en bici de Luzia y AlbertoEpic por el Himalaya indio. Un primer día en Uttarkashi, para descanso y replanteamiento de la situación, y los dos días posteriores para llegar a G"
-category: "Viajes"
+author: AlbertoEpic
+description: Sale a la luz el segundo episodio de la serie que relata el viaje en bici de Luzia y AlbertoEpic por el Himalaya indio. Un primer día en Uttarkashi, para descanso y replanteamiento de la situación, y los dos días posteriores para llegar a G
+category: Viajes
 tags:
-  - "Uncategorized"
+  - viajes
+  - cicloturismo
+  - uttarakhand
+  - india
 ---
 Sale a la luz el segundo episodio de la serie que relata el viaje en bici de Luzia y AlbertoEpic por el Himalaya indio. Un primer día en Uttarkashi, para descanso y replanteamiento de la situación, y los dos días posteriores para llegar a Gangotri. Seguimos remontando el Ganges en busca de su nacimiento...
 

@@ -1,14 +1,14 @@
 ---
-title: "Novedades en SoloQuedaLoPeor..."
-heroImage: "attachments/borrame-300x247.webp"
+title: Novedades en SoloQuedaLoPeor...
+heroImage: attachments/borrame-300x247.webp
 pubDate: 2012-01-20T08:56:00Z
 updatedDate: 2015-04-06T10:28:43Z
 draft: false
-author: "AlbertoEpic"
-description: "Hola cibernautas. Os comunicamos que en SoloQuedaLoPeor estrenamos diseño/concepto/organización/ llámalo como quieras... SQLP se habí­a ido extendiendo por la red en diferentes vertientes, que ahora han sido unificadas. Si ahora tecleas en t"
-category: "Otros"
+author: AlbertoEpic
+description: Hola cibernautas. Os comunicamos que en SoloQuedaLoPeor estrenamos diseño/concepto/organización/ llámalo como quieras... SQLP se habí­a ido extendiendo por la red en diferentes vertientes, que ahora han sido unificadas. Si ahora tecleas en t
+category: Otros
 tags:
-  - "Uncategorized"
+  - soloquedalopeor
 ---
 Hola cibernautas. Os comunicamos que en SoloQuedaLoPeor estrenamos diseño/concepto/organización/ llámalo como quieras...
 

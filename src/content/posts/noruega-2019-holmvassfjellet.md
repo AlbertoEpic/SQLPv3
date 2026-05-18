@@ -1,15 +1,16 @@
 ---
 title: "Noruega 2019: Holmvassfjellet"
-heroImage: "https://i.imgur.com/HrOfs73.jpg"
+heroImage: https://i.imgur.com/HrOfs73.jpg
 pubDate: 2019-09-11T15:00:01Z
 updatedDate: 2020-03-02T17:11:48Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "- capítulo 3 - Al pie de los Alpes de Lyngen... Seguimos con el viaje por Noruega del equipo SQLP. Hoy despiertan en Gildetun, y salen con el coche en un lluvioso día con idea de llegar hasta Narvik. Los kilómetros pasan lentos en las carre"
-category: "Ascensiones"
+category: Ascensiones
 tags:
-  - "Holmvassfjellet"
-  - "Noruega"
+  - Holmvassfjellet
+  - Noruega
+  - viajes
 ---
 - capítulo 3 -
 Al pie de los Alpes de Lyngen...

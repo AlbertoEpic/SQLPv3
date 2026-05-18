@@ -1,17 +1,16 @@
 ---
-title: "Mesa de los Tres Reyes"
+title: Mesa de los Tres Reyes
 pubDate: 2010-02-11T22:43:00Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:29:00Z
 draft: false
-author: "AlbertoEpic"
-description: "El pasado domingo algunos globeros estuvieron infiltrados en el grupito del evento más mediático de los últimos tiempos. La famosa subida a la Mesa de los Tres Reyes desde Sanchese (Lescun), al 'encuentro' de un alud que hizo darse la vuelt"
-category: "Otros"
+author: AlbertoEpic
+description: El pasado domingo algunos globeros estuvieron infiltrados en el grupito del evento más mediático de los últimos tiempos. La famosa subida a la Mesa de los Tres Reyes desde Sanchese (Lescun), al 'encuentro' de un alud que hizo darse la vuelt
+category: Esquí de travesía
 tags:
-  - "alud"
-  - "avalanchas"
-  - "Esquí de travesía"
+  - alud
+  - avalanchas
+  - skimo
 ---
 El pasado domingo algunos globeros estuvieron infiltrados en el grupito del evento más mediático de los últimos tiempos. La famosa subida a la Mesa de los Tres Reyes desde Sanchese (Lescun), al 'encuentro' de un alud que hizo darse la vuelta a todo el que había por aquellos lares...
 

@@ -1,18 +1,17 @@
 ---
-title: "Pico Bacías (2.760m)"
+title: Pico Bacías (2.760m)
 pubDate: 2018-01-12T12:25:18Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2018-01-12T12:28:28Z
 draft: false
-author: "AlbertoEpic"
-description: "El otro día AlbertoEpic se unió al grupo de LaMeteoQueViene, con Jorge a la cabeza, y se dirigieron al Balneario de Panticosa. Desde allí realizaron la ascensión con esquís de montaña al pico Bacías, comenzando por la variante del GR. La no"
-category: "Esquí de travesía"
+author: AlbertoEpic
+description: El otro día AlbertoEpic se unió al grupo de LaMeteoQueViene, con Jorge a la cabeza, y se dirigieron al Balneario de Panticosa. Desde allí realizaron la ascensión con esquís de montaña al pico Bacías, comenzando por la variante del GR. La no
+category: Esquí de travesía
 tags:
-  - "Bacías"
-  - "balneario de panticosa"
-  - "Esquí de travesía"
   - valle_de_tena
+  - balneario_de_panticosa
+  - bacias
+  - skimo
 ---
 El otro día AlbertoEpic se unió al grupo de LaMeteoQueViene, con Jorge a la cabeza, y se dirigieron al Balneario de Panticosa. Desde allí realizaron la ascensión con esquís de montaña al pico Bacías, comenzando por la variante del GR.
 

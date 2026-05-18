@@ -1,19 +1,19 @@
 ---
 title: "USA 2012: Yosemite National Park"
 pubDate: 2012-09-19T06:30:00Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:40Z
 draft: false
-author: "AlbertoEpic"
-description: "Damos otro salto en el tiempo para asistir a la última actividad 'física' de Luzia y AlbertoEpic en su viaje por USA. Siguen en 'modo raid', apurando el tiempo al máximo. Tras visitar San Francisco, cogen el coche para ir a Glacier Point, e"
-category: "Otros"
+author: AlbertoEpic
+description: Damos otro salto en el tiempo para asistir a la última actividad 'física' de Luzia y AlbertoEpic en su viaje por USA. Siguen en 'modo raid', apurando el tiempo al máximo. Tras visitar San Francisco, cogen el coche para ir a Glacier Point, e
+category: Viajes
 tags:
-  - "half dome"
-  - "soloquedalopeor"
-  - "trekking"
-  - "usa 2012"
-  - "yosemite"
+  - soloquedalopeor
+  - trekking
+  - yosemite
+  - half_dome
+  - viajes
+  - usa2012
 ---
 Damos otro salto en el tiempo para asistir a la última actividad 'física' de Luzia y AlbertoEpic en su viaje por USA. Siguen en  'modo raid', apurando el tiempo al máximo. Tras visitar San Francisco, cogen el coche para ir a Glacier Point, en el Yosemite National Park, a donde llegan pasada la media noche.
 

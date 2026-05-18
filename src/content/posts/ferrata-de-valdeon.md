@@ -10,6 +10,7 @@ category: Escalada
 tags:
   - Valdeón
   - via_ferrata
+  - picos_de_europa
 ---
 
 ## SQLP se despide de picos_de_europa...

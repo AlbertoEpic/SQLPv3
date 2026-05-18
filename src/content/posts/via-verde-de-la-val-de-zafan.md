@@ -9,10 +9,9 @@ description: "Desde Bot hasta la desembocadura del Ebro Llega Semana Santa, abri
 category: SQLP-kids
 tags:
   - Bot
-  - delta del ebro
-  - val de zafán
-  - vía verde
   - xerta
+  - via_verde
+  - val_de_zafan
 ---
 
 ## Desde Bot hasta la desembocadura del Ebro

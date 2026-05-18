@@ -1,19 +1,19 @@
 ---
-title: "Vira de l'EmbarradíƒÂ¨re al Midi d'Ossau (2.884m)"
+title: Vira de l'EmbarradíƒÂ¨re al Midi d'Ossau (2.884m)
 pubDate: 2011-08-03T13:33:00Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:46Z
 draft: false
-author: "AlbertoEpic"
-description: "Por fin este pasado finde hizo bueno. Marcos, Marthe, Lucía y Alberto recuperamos este plan que fue pospuesto la semana anterior. El sábado subimos a vivaquear junto al lac de Pombie, y el domingo subimos al Midi por la vira de l'EmbarradíƒÂ¨r"
-category: "Escalada"
+author: AlbertoEpic
+description: Por fin este pasado finde hizo bueno. Marcos, Marthe, Lucía y Alberto recuperamos este plan que fue pospuesto la semana anterior. El sábado subimos a vivaquear junto al lac de Pombie, y el domingo subimos al Midi por la vira de l'EmbarradíƒÂ¨r
+category: Escalada
 tags:
-  - "ascensiones"
-  - "escalada"
-  - "luzia"
-  - "Midi d'Ossau"
+  - ascensiones
+  - escalada
+  - luzia
   - valle_de_tena
+  - Portalet
+  - midi_d_ossau
 ---
 Por fin este pasado finde hizo bueno. Marcos, Marthe, Lucía y Alberto recuperamos este plan que fue pospuesto la semana anterior. El sábado subimos a vivaquear junto al lac de Pombie, y el domingo subimos al Midi por la vira de l'EmbarradíƒÂ¨re, que cruza por la mitad toda la cara norte sin pasar de III+ (Si no te embarcas). Ya se echaba en falta una jornada de montaña completita, de sol a sol.
 Puedes ver el video a continuación:

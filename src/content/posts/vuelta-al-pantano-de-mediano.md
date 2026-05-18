@@ -1,15 +1,17 @@
 ---
-title: "Vuelta al pantano de Mediano"
+title: Vuelta al pantano de Mediano
 pubDate: 2010-06-23T10:53:00Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:56Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "Y con esta comienza la temporada de rutas globeras míticas en BTT. Una salida a la antigua usanza: 9 participantes, todo el día por delante, mucha trialera, averías, petaciones totales y feliz llegada de vuelta al coche poco antes de poners"
-category: "Otros"
+category: Bicicleta de montaña
 tags:
-  - "Uncategorized"
+  - btt
+  - zona-zero
+  - mediano
+  - sobrarbe
 ---
 Y con esta comienza la temporada de rutas globeras míticas en BTT. Una salida a la antigua usanza: 9 participantes, todo el día por delante, mucha trialera, averías, petaciones totales y feliz llegada de vuelta al coche poco antes de ponerse el sol...
 

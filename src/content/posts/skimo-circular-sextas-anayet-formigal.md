@@ -1,15 +1,14 @@
 ---
 title: "Skimo: circular Sextas-Anayet, Formigal."
-heroImage: "https://i.imgur.com/iuuFbzd.jpg"
+heroImage: https://i.imgur.com/iuuFbzd.jpg
 pubDate: 2019-01-28T11:57:36Z
 updatedDate: 2019-01-28T12:02:06Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "Reseñamos a continuación una actividad de esquí de montaña algo diferente a lo habitual. Había que combinar los siguientes ingredientes: estar en Formigal, en el parking de Sextas, a las 13:15h. Existía un elevado riesgo de aludes. El grupo"
-category: "Esquí de travesía"
+category: Esquí de travesía
 tags:
-  - "Esquí de travesía"
-  - "formigal"
+  - formigal
   - valle_de_tena
 ---
 Reseñamos a continuación una actividad de esquí de montaña algo diferente a lo habitual. Había que combinar los siguientes ingredientes: estar en Formigal, en el parking de Sextas, a las 13:15h. Existía un elevado riesgo de aludes. El grupo era mínimo (2 personas, Eva y AlbertoEpic) y desentrenado, al comenzar ahora la temporada de trave...

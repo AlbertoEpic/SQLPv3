@@ -1,15 +1,17 @@
 ---
 title: "Oberland 2011: episodio 1"
 pubDate: 2011-05-04T14:10:00Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:49Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "Primer episodio de la serie 'Oberland 2011'. Llegamos por la tarde al aparcamiento de Fafleralp (Blatten, Suiza) y nos acercamos a dormir al refugio de AnnenhíƒÂ¼tte: caro como un hotel de 5 estrellas, aunque luego en realidad es de 6. Primera"
-category: "Esquí de travesía"
+category: Esquí de travesía
 tags:
-  - "Uncategorized"
+  - skimo
+  - Oberland
+  - haute_route
+  - viajes
 ---
 Primer episodio de la serie 'Oberland 2011'. Llegamos por la tarde al aparcamiento de Fafleralp (Blatten, Suiza) y nos acercamos a dormir al refugio de AnnenhíƒÂ¼tte: caro como un hotel de 5 estrellas, aunque luego en realidad es de 6. Primera toma de contacto, después de 1.000km de coche non-stop.
 

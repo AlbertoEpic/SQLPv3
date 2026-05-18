@@ -1,15 +1,14 @@
 ---
-title: "Oda al Planeta Tierra"
+title: Oda al Planeta Tierra
 pubDate: 2009-06-08T11:30:00Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:29:03Z
 draft: false
-author: "AlbertoEpic"
-description: "Este video es una oda a la belleza de nuestro planeta y su delicada armonía. A través de imágenes aéreas, Yann Arthus-Bertrand nos lleva a un viaje único alrededor del planeta, para contemplarlo y comprenderlo. No se trata simplemente de un"
-category: "Otros"
+author: AlbertoEpic
+description: Este video es una oda a la belleza de nuestro planeta y su delicada armonía. A través de imágenes aéreas, Yann Arthus-Bertrand nos lleva a un viaje único alrededor del planeta, para contemplarlo y comprenderlo. No se trata simplemente de un
+category: Otros
 tags:
-  - "Uncategorized"
+  - Videos
 ---
 Este video es una oda a la belleza de nuestro planeta y su delicada armonía. A través de imágenes aéreas, Yann Arthus-Bertrand nos lleva a un viaje único alrededor del planeta, para contemplarlo y comprenderlo. No se trata simplemente de un documental que explica la armonía y el equilibrio de todas las cosas en nuestro planeta, sino que además es una recopilación de imágenes fascinantes.
 

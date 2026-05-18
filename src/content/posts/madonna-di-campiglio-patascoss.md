@@ -1,17 +1,16 @@
 ---
-title: "Madonna di Campiglio - Patascoss"
-heroImage: "https://i.imgur.com/hGb5ls2.jpg"
+title: Madonna di Campiglio - Patascoss
+heroImage: https://i.imgur.com/dmdQHp1.jpg
 pubDate: 2016-09-18T14:34:50Z
 updatedDate: 2016-09-18T14:34:50Z
 draft: false
-author: "AlbertoEpic"
-description: "Añadimos este post simplemente para reseñar que se ha añadido a la base de datos de tracks gps de SQLP el correspondiente a la actividad realizada allí por el equipo SQLP. El día de llegada a Madonna di Campiglio, toca visita turística y po"
-category: "Otros"
+author: AlbertoEpic
+description: Añadimos este post simplemente para reseñar que se ha añadido a la base de datos de tracks gps de SQLP el correspondiente a la actividad realizada allí por el equipo SQLP. El día de llegada a Madonna di Campiglio, toca visita turística y po
+category: Viajes
 tags:
-  - "dolomitas"
-  - "madonna di campiglio"
-  - "patascoss"
-  - "trail running"
+  - dolomitas
+  - patascoss
+  - madonna_di_campiglio
 ---
 Añadimos este post simplemente para reseñar que se ha añadido a la base de datos de tracks gps de SQLP el correspondiente a la actividad realizada allí por el equipo SQLP.
 
@@ -20,8 +19,8 @@ El día de llegada a Madonna di Campiglio, toca visita turística y posterior su
 
 A continuación, algunas fotos:
 
-[https://i.imgur.com/hGb5ls2.jpg](https://i.imgur.com/hGb5ls2.jpg) Las Dolomiti di Brenta, desde el Rifugio di Patascoss.
+![https://i.imgur.com/hGb5ls2.jpg](https://i.imgur.com/hGb5ls2.jpg) Las Dolomiti di Brenta, desde el Rifugio di Patascoss.
 
-[https://i.imgur.com/SSEM8CO.jpg](https://i.imgur.com/SSEM8CO.jpg) Las vistas desde el Lago Ritort.
+![https://i.imgur.com/SSEM8CO.jpg](https://i.imgur.com/SSEM8CO.jpg) Las vistas desde el Lago Ritort.
 
-[https://i.imgur.com/dmdQHp1.jpg](https://i.imgur.com/dmdQHp1.jpg) Rifugio Lago di Nambino.
+![https://i.imgur.com/dmdQHp1.jpg](https://i.imgur.com/dmdQHp1.jpg) Rifugio Lago di Nambino.

@@ -1,15 +1,19 @@
 ---
 title: "Oberland 2011: episodio 6"
 pubDate: 2011-06-03T11:36:00Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:49Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "Hoy es nuestro sexto día en el Oberland. Hasta ahora, todo han sido picos 'alpinos', donde los esquís sólo sirven para la aproximación. Hay que remediarlo: hoy elegimos el Wyssnollen. Digamos que es el 'Peyreget' del Oberland :-) y gracias "
-category: "Esquí de travesía"
+category: Esquí de travesía
 tags:
-  - "Uncategorized"
+  - wyssnollen
+  - viajes
+  - skimo
+  - alpes
+  - haute_route
+  - Oberland
 ---
 Hoy es nuestro sexto día en el Oberland. Hasta ahora, todo han sido picos 'alpinos', donde los esquís sólo sirven para la aproximación. Hay que remediarlo: hoy elegimos el Wyssnollen. Digamos que es el 'Peyreget' del Oberland :-) y gracias a que todo nos acompaña gozamos de la mejor esquiada de toda la travesía por el Oberland. Una subida cómoda desde el FinsteraarhornhíƒÂ¼tten con esquís hasta la cima y con poco peso, ya que hacemos un depósito de material en una piedra característica sobre el glaciar.
 

@@ -1,16 +1,17 @@
 ---
-title: "SkiLof 3 - Un garbeo desde el Trollfjord"
-heroImage: "attachments/P4020253-1024x768.webp"
+title: SkiLof 3 - Un garbeo desde el Trollfjord
+heroImage: attachments/P4020253-1024x768.webp
 pubDate: 2024-04-03T14:39:00Z
 updatedDate: 2024-05-28T15:32:58Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "El tercer dí­a la meteo mejora y todo empieza a ser espectacular. Las tarjetas de memoria van que echan humo, acumulando material gráfico para varios meses... De nuevo AlbertoEpic sale con todo: cámara y dron. El peso extra es lo de menos. L"
-category: "Esquí­ de travesí­a"
+category: Esquí­ de travesí­a
 tags:
-  - "Esquí­ de travesí­a"
-  - "Lofoten"
-  - "trollfjord"
+  - Lofoten
+  - trollfjord
+  - skimo
+  - viajes
 ---
 
 El tercer dí­a la meteo mejora y todo empieza a ser espectacular. Las tarjetas de memoria van que echan humo, acumulando material gráfico para varios meses... De nuevo AlbertoEpic sale con todo: cámara y dron. El peso extra es lo de menos.

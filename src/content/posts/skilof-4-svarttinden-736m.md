@@ -1,16 +1,17 @@
 ---
-title: "SkiLof 4 - Svarttinden (736m)"
-heroImage: "attachments/P4030396-1024x768.webp"
+title: SkiLof 4 - Svarttinden (736m)
+heroImage: attachments/P4030396-1024x768.webp
 pubDate: 2024-04-04T14:39:00Z
 updatedDate: 2024-05-28T15:34:02Z
 draft: false
-author: "AlbertoEpic"
-description: "El cuarto dí­a de skimo en las islas Lofoten, subimos al Svarttinden, al principio nevando, viento, sin muchas esperanzas... Pero una vez arriba, de repente se despejó. Una cima espectacular!!! A ratos se abrí­a un poco, dando ánimos para seg"
-category: "Esquí­ de travesí­a"
+author: AlbertoEpic
+description: El cuarto dí­a de skimo en las islas Lofoten, subimos al Svarttinden, al principio nevando, viento, sin muchas esperanzas... Pero una vez arriba, de repente se despejó. Una cima espectacular!!! A ratos se abrí­a un poco, dando ánimos para seg
+category: Esquí­ de travesí­a
 tags:
-  - "Esquí­ de travesí­a"
-  - "Lofoten"
-  - "Svarttinden"
+  - Lofoten
+  - Svarttinden
+  - skimo
+  - viajes
 ---
 
 El cuarto dí­a de skimo en las islas Lofoten, subimos al Svarttinden, al principio nevando, viento, sin muchas esperanzas... Pero una vez arriba, de repente se despejó. Una cima espectacular!!!

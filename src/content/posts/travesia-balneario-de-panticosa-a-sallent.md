@@ -1,17 +1,16 @@
 ---
-title: "Travesía Balneario de Panticosa a Sallent"
+title: Travesía Balneario de Panticosa a Sallent
 pubDate: 2010-03-16T17:47:00Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2016-01-26T09:34:46Z
 draft: false
-author: "AlbertoEpic"
-description: "El pasado sábado, un cuarteto de ilustres globeros (Dr. LaTrek, Morenetti, Luzia y AlbertoEpic) se juntó con un 'multitudinario' grupo de traveseros, ya conocidos de anteriores ocasiones, con la idea de ir al Balneario de Panticosa y 'ver q"
-category: "Esquí de travesía"
+author: AlbertoEpic
+description: El pasado sábado, un cuarteto de ilustres globeros (Dr. LaTrek, Morenetti, Luzia y AlbertoEpic) se juntó con un 'multitudinario' grupo de traveseros, ya conocidos de anteriores ocasiones, con la idea de ir al Balneario de Panticosa y 'ver q
+category: Esquí de travesía
 tags:
-  - "balneario de panticosa"
-  - "Esquí de travesía"
   - valle_de_tena
+  - skimo
+  - balneario_de_panticosa
 ---
 El pasado sábado, un cuarteto de ilustres globeros (Dr. LaTrek, Morenetti, Luzia y AlbertoEpic) se juntó con un 'multitudinario' grupo de traveseros, ya conocidos de anteriores ocasiones, con la idea de ir al Balneario de Panticosa y 'ver qué pasa'.
 Lo que pasó fue que se terminó haciendo el siguiente recorrido: Balneario - Coll. Pondiellos - Pico Tebarray (2.916m) - Sallent.

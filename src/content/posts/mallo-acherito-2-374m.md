@@ -1,15 +1,15 @@
 ---
-title: "Mallo Acherito (2.374m)"
-heroImage: "https://i.imgur.com/0Azbc7C.jpg"
+title: Mallo Acherito (2.374m)
+heroImage: https://i.imgur.com/0Azbc7C.jpg
 pubDate: 2018-09-12T05:00:21Z
 updatedDate: 2018-09-14T09:02:38Z
 draft: false
-author: "AlbertoEpic"
-description: "El pasado domingo, y desafiando a las tormentas anunciadas, Cheles y AlbertoEpic quedaron con Sonia y Chira en el refugio de Linza para subirse a algún sitio alto... AlbertoEpic propuso el mallo Acherito, que le faltaba por tachar de su lis"
-category: "Ascensiones"
+author: AlbertoEpic
+description: El pasado domingo, y desafiando a las tormentas anunciadas, Cheles y AlbertoEpic quedaron con Sonia y Chira en el refugio de Linza para subirse a algún sitio alto... AlbertoEpic propuso el mallo Acherito, que le faltaba por tachar de su lis
+category: Ascensiones
 tags:
-  - "Acherito"
-  - "valle de Ansó"
+  - Acherito
+  - valles_occidentales
 ---
 El pasado domingo, y desafiando a las tormentas anunciadas, Cheles y AlbertoEpic quedaron con Sonia y Chira en el refugio de Linza para subirse a algún sitio alto...
 AlbertoEpic propuso el mallo Acherito, que le faltaba por tachar de su lista, y para allí que se fueron. Como siempre queda mucho más elegante, deciden hacer la ruta circular. Para comenzar, salen del refugio, cruzan el barranco de Petrechema y ascienden al Paso del Oso.

@@ -1,15 +1,16 @@
 ---
-title: "Vuelta al macizo de Bernera"
+title: Vuelta al macizo de Bernera
 pubDate: 2010-03-03T14:01:00Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:59Z
 draft: false
-author: "AlbertoEpic"
-description: "El pasado domingo asistimos a un congreso sobre 'las montañas, los huevos fritos y el colesterol'. Las jornadas comenzaron con un desayuno en Puente La Reina. A destacar el gran éxito de afluencia, con unos 20 participantes. Posteriormente,"
-category: "Otros"
+author: AlbertoEpic
+description: El pasado domingo asistimos a un congreso sobre 'las montañas, los huevos fritos y el colesterol'. Las jornadas comenzaron con un desayuno en Puente La Reina. A destacar el gran éxito de afluencia, con unos 20 participantes. Posteriormente,
+category: Esquí de travesía
 tags:
-  - "Esquí de travesía"
+  - skimo
+  - bernera
+  - valles_occidentales
 ---
 El pasado domingo asistimos a un congreso sobre 'las montañas, los huevos fritos y el colesterol'. Las jornadas comenzaron con un desayuno en Puente La Reina. A destacar el gran éxito de afluencia, con unos 20 participantes.
 

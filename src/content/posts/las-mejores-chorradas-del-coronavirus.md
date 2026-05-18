@@ -1,13 +1,15 @@
 ---
-title: "Las mejores chorradas del coronavirus..."
+title: Las mejores chorradas del coronavirus...
 pubDate: 2020-03-20T17:39:07Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2020-04-15T10:39:44Z
 draft: false
-author: "AlbertoEpic"
-description: "Participa en la eleccián del más gracioso!!! Estamos en tiempos de confinamiento por el coronavirus. Eso ha disparado la imaginacián de la gente y andamos todo el dáa con el whatsapp echando humo entre mensajes apocalápticos, en un extremo,"
-category: "Otros"
+author: AlbertoEpic
+description: Participa en la eleccián del más gracioso!!! Estamos en tiempos de confinamiento por el coronavirus. Eso ha disparado la imaginacián de la gente y andamos todo el dáa con el whatsapp echando humo entre mensajes apocalápticos, en un extremo,
+category: Otros
+tags:
+  - coronavirus
+  - humor
 ---
 
 ## Participa en la eleccián del más gracioso!!!
