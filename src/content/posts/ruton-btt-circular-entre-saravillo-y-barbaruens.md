@@ -6,7 +6,7 @@ updatedDate: 2017-10-17T11:32:51Z
 draft: false
 author: "AlbertoEpic"
 description: "El pasado domingo, y como colofón al anticiclónico puente del Pilar, Jorge, Israel y AlbertoEpic decidieron gastar las pocas fuerzas que les quedaban en una ruta épica: algo más de 50km, más de 2.000m de desnivel, un porteo, dos descensos a"
-category: "Bicicleta de montaña"
+category: Bicicleta de montaña
 tags:
   - "barbaruens"
   - "basa de la mora"

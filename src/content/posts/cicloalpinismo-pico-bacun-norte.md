@@ -6,7 +6,7 @@ updatedDate: 2018-10-10T10:14:51Z
 draft: false
 author: "AlbertoEpic"
 description: "El pasado 25 de agosto, terminando ya el verano, por fin se realizó una mini-quedada globeril para hacer una de esas rutas de cicloalpinismo que tanto nos gustan a los globeros. La ruta, por otra parte, no era nada del otro mundo. Cortita y"
-category: "Bicicleta de montaña"
+category: Bicicleta de montaña
 tags:
   - btt
   - "cicloalpinismo"

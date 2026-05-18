@@ -7,7 +7,7 @@ updatedDate: 2016-04-29T16:28:34Z
 draft: false
 author: "AlbertoEpic"
 description: "AlbertoEpic sigue experimentando nuevas sensaciones en la nieve a bordo de una FatBike. El otro día, aprovechando la bajada de temperaturas y un buen rehielo nocturno, no dudó en plantarse en Astún. La estación está cerrada, pero todavía ti"
-category: "Bicicleta de montaña"
+category: Bicicleta de montaña
 tags:
   - "fatbike"
   - "valle_del_aragon"

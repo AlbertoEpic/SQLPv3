@@ -6,7 +6,7 @@ updatedDate: 2018-12-28T18:45:06Z
 draft: false
 author: "AlbertoEpic"
 description: "Días antes de Nochebuena, las oportunidades se terminaban. Formigal había comunicado sus intenciones de abrir la estación después del día de Navidad. Así que la última fecha posible para AlbertoEpic para rular a sus anchas era el 24 por la mañana."
-category: "Bicicleta de montaña"
+category: Bicicleta de montaña
 tags:
   - "fatbike"
   - "formigal"

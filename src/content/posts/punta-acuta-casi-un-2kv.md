@@ -7,7 +7,7 @@ updatedDate: 2015-08-18T18:43:17Z
 draft: false
 author: "AlbertoEpic"
 description: "El otro día, a AlbertoEpic no se le ocurrió otra cosa que hacer la famosa ruta ZZ-030 , pero como al llegar al punto más alto se había quedado con ganas de más, continuó subiendo para disfrutar del panorama que ofrece la Punta Acuta (2.242m"
-category: "Bicicleta de montaña"
+category: Bicicleta de montaña
 tags:
   - btt
   - "cicloalpinismo"

@@ -7,7 +7,7 @@ updatedDate: 2015-09-28T11:09:43Z
 draft: false
 author: "AlbertoEpic"
 description: "El pasado finde se celebraba en Aánsa la 7 prueba de las Enduro World Series. Aprovechando la ocasián, algunos globeros con globeritos pasaron las ya habituales jornadas de convivencia realizando actividad el sábado y flipando con la calid"
-category: "Bicicleta de montaña"
+category: Bicicleta de montaña
 tags:
   - "ainsa"
   - btt

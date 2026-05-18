@@ -119,6 +119,10 @@ if (isLocal) {
       .normalize(path.join("/public", basePath, cleanSrc))
       .replace(/\\/g, "/");
     
+    // Ensure the base path includes the correct prefix
+    const normalizedBasePath = withBase(basePath);
+    const normalizedSrc = withBase(cleanSrc);
+    
     // Ensure the path starts with /public
     if (!normalizedPath.startsWith("/public")) {
       normalizedPath = `/public${normalizedPath}`;

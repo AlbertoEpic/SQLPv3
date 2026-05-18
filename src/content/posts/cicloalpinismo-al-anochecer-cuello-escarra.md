@@ -7,7 +7,7 @@ updatedDate: 2020-08-15T20:48:45Z
 draft: false
 author: "AlbertoEpic"
 description: "Con nocturnidad y alevosía... Esta semana, Producciones SQLP encargó a AlbertoEpic otra nueva y arriesgada misión sólo apta para superhéroes: la filmación con el drone de unas imágenes de la puesta_de_sol desde el cuello de Escarra. Y hasta"
-category: "Bicicleta de montaña"
+category: Bicicleta de montaña
 tags:
   - "Escarra"
   - "puesta_de_sol"

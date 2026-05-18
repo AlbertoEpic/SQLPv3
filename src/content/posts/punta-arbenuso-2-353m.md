@@ -6,7 +6,7 @@ updatedDate: 2021-09-14T10:01:16Z
 draft: false
 author: "AlbertoEpic"
 description: "Combinada BTT + pateo Pasado el verano, en SQLP vamos recuperando la normalidad y el ritmo de nuestras actividades. El otro día AlbertoEpic salió pedaleando del parking de La Cuniacha y apuró hasta las cercanías de la Canal de Arbenuso. All"
-category: "Bicicleta de montaña"
+category: Bicicleta de montaña
 ---
 
 ## Combinada BTT + pateo

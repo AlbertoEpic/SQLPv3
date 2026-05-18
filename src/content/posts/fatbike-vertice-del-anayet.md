@@ -6,7 +6,7 @@ updatedDate: 2020-10-28T10:43:15Z
 draft: false
 author: "AlbertoEpic"
 description: "El pasado sábado 17 de octubre, y con el Pirineo blanco por unas inusuales y tempraneras nevadas, llegó la hora de sacar a pasear a la fatbike! AlbertoEpic salió del parking Portalet de la estación de esquí de Formigal, cruzó el llano de lo"
-category: "Bicicleta de montaña"
+category: Bicicleta de montaña
 tags:
   - "Anayet"
   - "fatbike"

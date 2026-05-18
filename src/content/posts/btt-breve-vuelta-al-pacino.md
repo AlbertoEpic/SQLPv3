@@ -6,7 +6,7 @@ updatedDate: 2018-09-10T09:14:25Z
 draft: false
 author: "AlbertoEpic"
 description: "El pasado 31 de agosto, AlbertoEpic se alía con Jorge para una nueva salida de BTT (Podríamos catalogarla como de 'cicloalpinismo de iniciación'?) con la esperanza de ir recuperando la forma de la manera menos traumática posible... La ruta "
-category: "Bicicleta de montaña"
+category: Bicicleta de montaña
 tags:
   - btt
   - Pacino

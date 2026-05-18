@@ -6,7 +6,7 @@ updatedDate: 2015-11-16T12:45:09Z
 draft: false
 author: "AlbertoEpic"
 description: "Una idea rondaba por la cabeza de AlbertoEpic hace tiempo: desde Castejón de Sos (PuroPirineo) está marcada la ruta ní‚Âº 15 'Integral del Gallinero'. OK, pero siempre que oye Gallinero le viene a la mente la estación de esquí de Cerler y el A"
-category: "Bicicleta de montaña"
+category: Bicicleta de montaña
 tags:
   - "Benasque"
   - btt

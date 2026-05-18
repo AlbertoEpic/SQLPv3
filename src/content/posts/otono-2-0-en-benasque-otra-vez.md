@@ -6,7 +6,7 @@ updatedDate: 2015-11-03T11:41:26Z
 draft: false
 author: "AlbertoEpic"
 description: "Estaba tan bonito Benasque la semana pasada, que este finde el equipo SQLP al completo ha vuelto otra vez. En esta ocasión, y gracias a la presencia de más globeros (Toño&Esme, Fernando&Nuria), de nuevo se recurrió a la modalidad de 1er y 2"
-category: "Bicicleta de montaña"
+category: Bicicleta de montaña
 tags:
   - "Benasque"
   - btt

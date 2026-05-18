@@ -6,7 +6,7 @@ updatedDate: 2015-12-20T23:59:23Z
 draft: false
 author: "AlbertoEpic"
 description: "El otro dí­a, de buenas a primeras se formó un buen grupeto de seres singulares que, con la bici y el enduro como nexo de unión, y alentados por un post incendiario en Facebook de Koldo (EnduroMaster de la Jacetania), acudieron a Jaca como m"
-category: "Bicicleta de montaña"
+category: Bicicleta de montaña
 tags:
   - btt
   - "enduro"

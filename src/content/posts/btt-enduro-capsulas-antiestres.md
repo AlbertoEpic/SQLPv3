@@ -7,7 +7,7 @@ updatedDate: 2017-06-30T09:38:20Z
 draft: false
 author: "AlbertoEpic"
 description: "Ahora que la temporada de nieve terminó por fin, en SQLP van tomando más protagonismo las actividades veraniegas: alpinismo, btt, barrancos,... Hoy simplemente proponemos dos actividades en btt. Todos conocemos las propiedades terapéuticas "
-category: "Bicicleta de montaña"
+category: Bicicleta de montaña
 tags:
   - btt
   - "enduro"

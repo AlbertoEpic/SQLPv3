@@ -7,7 +7,7 @@ updatedDate: 2018-03-01T17:00:57Z
 draft: false
 author: "AlbertoEpic"
 description: "El otro día, una singular conjunción de sucesos meteorológicos produjo en Tierz una nevada histórica. Una intensa y larga nevada combinada con fuertes vientos, capaz de cortar el tráfico en el Estrecho Quinto, dejó blanca a casi toda España"
-category: "Bicicleta de montaña"
+category: Bicicleta de montaña
 tags:
   - "fatbike"
   - "tierz"

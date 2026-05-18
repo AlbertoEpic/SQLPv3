@@ -416,6 +416,41 @@ function parseMarkdownFile(content, slug, sourcePath = "") {
 }
 
 /**
+ * Normalize category frontmatter values into a clean string array.
+ * Supports: categoria, category, categorias, categories.
+ */
+function normalizeCategories(data) {
+  const rawValues = [];
+
+  const collect = (value) => {
+    if (!value) return;
+    if (Array.isArray(value)) {
+      for (const item of value) {
+        if (item !== null && item !== undefined) {
+          rawValues.push(String(item));
+        }
+      }
+      return;
+    }
+    rawValues.push(String(value));
+  };
+
+  collect(data.categoria);
+  collect(data.category);
+  collect(data.categorias);
+  collect(data.categories);
+
+  return Array.from(
+    new Set(
+      rawValues
+        .flatMap((value) => value.split(","))
+        .map((value) => value.trim())
+        .filter(Boolean)
+    )
+  );
+}
+
+/**
  * Generate graph data from posts
  */
 async function generateGraphData() {
@@ -449,6 +484,7 @@ async function generateGraphData() {
         : typeof post.data.tags === "string"
           ? [post.data.tags.trim()].filter(Boolean)
           : [];
+      const normalizedCategories = normalizeCategories(post.data);
 
       const folder = (() => {
         if (!post.sourcePath) return "";
@@ -465,6 +501,7 @@ async function generateGraphData() {
         title: post.data.title,
         slug: post.id,
         tags: normalizedTags,
+        categories: normalizedCategories,
         folder,
         sourcePath: post.sourcePath || `posts/${post.id}.md`,
         date: post.data.date

@@ -6,7 +6,7 @@ updatedDate: 2016-10-10T10:23:36Z
 draft: false
 author: "AlbertoEpic"
 description: "El otro dí­a Luzia y AlbertoEpic gozaron de un permiso paterno perfecto para hacer una incursión rápida en los senderos de Canfranc con sus btt's... Les habrí­a gustado subir hasta el Carretón de Ip y de allí­ al embalse del mismo nombre, pero"
-category: "Bicicleta de montaña"
+category: Bicicleta de montaña
 tags:
   - btt
   - "canfranc"

@@ -6,7 +6,7 @@ updatedDate: 2017-12-20T14:29:02Z
 draft: false
 author: "AlbertoEpic"
 description: "Este invierno, en SQLP todavía no habíamos sacado la fatbike a rodar por nieve. Ya tocaba... Y el otro día se dieron las condiciones! Para variar, AlbertoEpic eligió un nuevo escenario para estrenar bajo las ruedas de su fatbike. Hacía tiem"
-category: "Bicicleta de montaña"
+category: Bicicleta de montaña
 tags:
   - "fatbike"
   - "panticosa"

@@ -6,7 +6,7 @@ updatedDate: 2021-07-06T18:52:01Z
 draft: false
 author: "AlbertoEpic"
 description: "Una clásica de cicloalpinismo... a vista de dron! Los globeros Rafa 'Morenetti' y AlbertoEpic por fin han conseguido hacer coincidir sus agendas para realizar una clásica de cicloalpinismo. A pesar de lo incierto de la meteo (Subieron por l"
-category: "Bicicleta de montaña"
+category: Bicicleta de montaña
 tags:
   - "cicloalpinismo"
   - "valle_del_aragon"

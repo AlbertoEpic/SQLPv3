@@ -6,7 +6,7 @@ updatedDate: 2018-12-03T12:04:44Z
 draft: false
 author: "AlbertoEpic"
 description: "A finales de abril del 2016, AlbertoEpic inició la era de 'fatear por la nieve' para SQLP con su primer ascenso en fatbike a La Raca, en Astún. Desde entonces, cuando se dan las condiciones, la fatbike sobre nieve se ha convertido en una de"
-category: "Bicicleta de montaña"
+category: Bicicleta de montaña
 tags:
   - "Astún"
   - "fatbike"

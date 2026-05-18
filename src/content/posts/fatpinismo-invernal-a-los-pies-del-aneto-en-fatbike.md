@@ -6,7 +6,7 @@ updatedDate: 2019-03-18T20:50:09Z
 draft: false
 author: "AlbertoEpic"
 description: "Reseñamos a continuación la última actividad de Fatpinismo (Alpinismo en fatbike) de AlbertoEpic. Se encontraba en Benasque y tení­a que llegar a una comida familiar en Huesca. Pero antes querí­a 'homologar' el prototipo de cadenas de nieve p"
-category: "Bicicleta de montaña"
+category: Bicicleta de montaña
 tags:
   - "Aneto"
   - "fatbike"

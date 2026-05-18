@@ -6,7 +6,7 @@ updatedDate: 2016-11-02T11:16:06Z
 draft: false
 author: "AlbertoEpic"
 description: "Estos días pasados el equipo SQLP estuvo disfrutando del otoño anticiclónico en Benasque. Aparte de otras actividades, reseñamos aquí las principales actividades btteras realizadas: Marga y AlbertoEpic estuvieron conociendo la ruta de 'La C"
-category: "Bicicleta de montaña"
+category: Bicicleta de montaña
 tags:
   - "Benasque"
   - btt

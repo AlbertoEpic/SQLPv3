@@ -7,7 +7,7 @@ updatedDate: 2015-04-06T10:28:56Z
 draft: false
 author: "AlbertoEpic"
 description: "Hace unos días, una delegación de globeros se trasladó a Pont de Suert a realizar, en dos etapas, la famosa Turbón Tour (Vuelta al Turbón en BTT organizada por AramonBike) Primera etapa: Pont de Suert - Bonansa - Gabás - Vilas del Turbón. S"
-category: "Bicicleta de montaña"
+category: Bicicleta de montaña
 tags:
   - "Uncategorized"
 ---

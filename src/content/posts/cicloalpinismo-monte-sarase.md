@@ -7,7 +7,7 @@ updatedDate: 2020-09-20T10:24:45Z
 draft: false
 author: "AlbertoEpic"
 description: "í‚¿Sabes la última del mítico dúo formado por Myriam y AlbertoEpic? Se subieron a merendar a la cima del monte Sarasé (Entre Gavín y Sabocos) para jugar un poco con el drone... Puedes ver a continuación el vídeo resultante de la jornada vespe"
-category: "Bicicleta de montaña"
+category: Bicicleta de montaña
 tags:
   - "cicloalpinismo"
   - "Sarasé"

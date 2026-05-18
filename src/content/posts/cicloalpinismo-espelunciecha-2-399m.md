@@ -6,7 +6,7 @@ updatedDate: 2020-02-07T17:39:09Z
 draft: false
 author: "AlbertoEpic"
 description: "Una buena alternativa para un día de meteo incierta El pasado sábado, Morenetti y AlbertoEpic parten hacia el Pirineo con idea de hacer alguna ruta chula... Pero la meteo es peor de lo esperado, y tras deliberar en torno a un pincho de tort"
-category: "Bicicleta de montaña"
+category: Bicicleta de montaña
 tags:
   - "cicloalpinismo"
   - valle_de_tena

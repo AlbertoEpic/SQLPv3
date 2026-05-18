@@ -6,7 +6,7 @@ updatedDate: 2019-03-25T12:32:03Z
 draft: false
 author: "AlbertoEpic"
 description: "Corría la fecha estelar 71610.3, cumpleaños de AlbertoEpic, y decidió subir al Pirineo con la fatbike. Lo que él no se imaginaba era que los dioses le iban a hacer el mejor de los regalos imaginables: fue nada menos que el dios Eolo; tuvo e"
-category: "Bicicleta de montaña"
+category: Bicicleta de montaña
 tags:
   - "fatbike"
   - "mandilar"

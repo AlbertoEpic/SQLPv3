@@ -7,7 +7,7 @@ updatedDate: 2020-09-09T08:14:56Z
 draft: false
 author: "AlbertoEpic"
 description: "Compartiendo el campo de juego con avionetas, planeadores y alas delta... El pasado fin de semana, el ya mítico duo formado por Myriam y AlbertoEpic unió sus fuerzas para realizar una nueva actividad en su peculiar estilo. Como resultado, u"
-category: "Bicicleta de montaña"
+category: Bicicleta de montaña
 tags:
   - "cicloalpinismo"
   - "Magdalena"

@@ -6,7 +6,7 @@ updatedDate: 2020-06-29T16:15:08Z
 draft: false
 author: "AlbertoEpic"
 description: "Una semana más, Myriam y AlbertoEpic siguen a lo suyo y realizan otra actividad consistente en ascensión a cima desde la carretera apurando al máximo la aproximación en BTT. En este caso, el pico elegido fue el Tozal de las Comas. Ascendier"
-category: "Bicicleta de montaña"
+category: Bicicleta de montaña
 tags:
   - "cicloalpinismo"
   - "ordesa"

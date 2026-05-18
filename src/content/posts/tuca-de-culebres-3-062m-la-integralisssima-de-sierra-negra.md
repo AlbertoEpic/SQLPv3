@@ -6,7 +6,7 @@ updatedDate: 2020-08-01T08:25:55Z
 draft: false
 author: "AlbertoEpic"
 description: "Hace un año realizamos con Morenetti la mí­tica Integral de Sierra Negra . Entonces me quedé con ganas de acercarme a los picos Culebres y Vallibierna, dos tresmiles que parecen más cerca de lo que en realidad estánâ‚¬Â¦ El pasado sábado tuve la"
-category: "Bicicleta de montaña"
+category: Bicicleta de montaña
 tags:
   - "cicloalpinismo"
   - "Tuca de Culebres"

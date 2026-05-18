@@ -7,7 +7,7 @@ updatedDate: 2016-05-17T11:31:50Z
 draft: false
 author: "AlbertoEpic"
 description: "El pasado sábado, y dado lo revuelto de la meteo en el Pirineo, AlbertoEpic siguió con su proyecto 'Ampliando horizontes cercanos - mirando al Sur'. En esta ocasión la zona elegida fue la sierra de Algairén. Nuevamente se formó un equipo de"
-category: "Bicicleta de montaña"
+category: Bicicleta de montaña
 tags:
   - "Algairén"
   - btt

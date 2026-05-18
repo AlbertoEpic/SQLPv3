@@ -7,7 +7,7 @@ updatedDate: 2015-04-06T10:28:22Z
 draft: false
 author: "AlbertoEpic"
 description: "Pedaleando por el lomo de la Sierra Negra. Foto: Rafa Moreno Era un 16 de agosto de 2014, y los astros se alinearon para que en las atareadas vidas de los globeros Morenetti y AlbertoEpic hubiera un hueco libre para juntarse y acercarse a B"
-category: "Bicicleta de montaña"
+category: Bicicleta de montaña
 tags:
   - "Benasque"
   - "cicloalpinismo"

@@ -6,7 +6,7 @@ updatedDate: 2020-08-01T09:35:25Z
 draft: false
 author: "AlbertoEpic"
 description: "Con un poco de retraso, añadimos hoy una nueva ruta de cicloalpinismo, realizada por nuestro especialista para subir al Mondiciero a sacar la foto esférica etiquetada desde la misma cumbre. La ruta comienza el ascenso por la pista del Cebol"
-category: "Bicicleta de montaña"
+category: Bicicleta de montaña
 tags:
   - "cicloalpinismo"
   - "ordesa"
