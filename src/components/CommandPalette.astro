@@ -1226,23 +1226,29 @@ import Icon from './Icon.astro';
           }, 10);
           break;
         case 'open-graph':
-          // Open graph modal
-          if ((window as any).openGraphModal) {
-            (window as any).openGraphModal();
-          } else {
-            // Try to initialize GraphModal if it's not available
-            if ((window as any).initializeGraphModal) {
-              (window as any).initializeGraphModal();
-              // Try again after initialization
-              setTimeout(() => {
-                if ((window as any).openGraphModal) {
-                  (window as any).openGraphModal();
-                }
-              }, 100);
-            } else {
-            }
+          // Use the same action as the HomeGraph fullscreen toggle button on index.
+          const graphFullscreenToggle = document.getElementById('graph-fullscreen-toggle') as HTMLButtonElement | null;
+          if (graphFullscreenToggle) {
+            graphFullscreenToggle.click();
+            this.close();
+            return;
           }
-          // Close palette after action
+
+          // Fallback: navigate to home graph section if we are on another page.
+          // Mark a pending fullscreen attempt so HomeGraph can trigger it after navigation.
+          try {
+            sessionStorage.setItem('homeGraphPendingFullscreen', '1');
+          } catch {
+            // No-op: sessionStorage can be blocked in some contexts.
+          }
+          const baseUrl = document.documentElement.getAttribute('data-base-url') || '/';
+          const normalizedBase = baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`;
+          const graphUrl = `${normalizedBase}#home-graph-container`;
+          if ((window as any).swup?.navigate) {
+            (window as any).swup.navigate(graphUrl);
+          } else {
+            window.location.href = graphUrl;
+          }
           this.close();
           break;
         // Add more actions here as needed

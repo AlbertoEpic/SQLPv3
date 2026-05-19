@@ -91,9 +91,11 @@ const shouldShowTOC = filteredHeadings.length > 1;
   
   // Global function to initialize table of contents
   function initializeTableOfContents() {
-    const tocLinks = document.querySelectorAll('.toc-link');
-    const tocContainer = document.querySelector('.toc-container') as HTMLElement;
-    tocContent = document.querySelector('.toc-content') as HTMLElement;
+    const swupContainer = document.getElementById('swup-container');
+    const tocRoot = (swupContainer?.querySelector('.toc-container') || document.querySelector('.toc-container')) as HTMLElement | null;
+    const tocLinks = tocRoot?.querySelectorAll('.toc-link') || [];
+    const tocContainer = tocRoot;
+    tocContent = (tocRoot?.querySelector('.toc-content') || null) as HTMLElement | null;
     
     // Get maxDepth from data attribute
     const maxDepth = tocContainer ? parseInt(tocContainer.dataset.maxDepth || '6', 10) : 6;
@@ -117,20 +119,21 @@ const shouldShowTOC = filteredHeadings.length > 1;
     ];
     
     let headings: NodeListOf<HTMLElement> | null = null;
+    const queryRoot: ParentNode = swupContainer || document;
     for (const container of contentContainers) {
       const selector = `${container} ${headingSelector}`;
-      const found = document.querySelectorAll<HTMLElement>(selector);
+      const found = queryRoot.querySelectorAll<HTMLElement>(selector);
       if (found.length > 0) {
         headings = found;
         break;
       }
     }
     
-    const tocToggle = document.querySelector('.toc-toggle') as HTMLButtonElement;
-    const tocList = document.querySelector('.toc-list') as HTMLElement;
-    const tocChevron = document.querySelector('.toc-chevron') as HTMLElement;
+    const tocToggle = tocRoot?.querySelector('.toc-toggle') as HTMLButtonElement | null;
+    const tocList = tocRoot?.querySelector('.toc-list') as HTMLElement | null;
+    const tocChevron = tocRoot?.querySelector('.toc-chevron') as HTMLElement | null;
 
-    if (!tocLinks.length || !headings || headings.length === 0) return;
+    if (!tocRoot || !tocLinks.length || !headings || headings.length === 0) return;
 
     // Calculate initial TOC height immediately
     updateTOCHeight();
@@ -142,9 +145,9 @@ const shouldShowTOC = filteredHeadings.length > 1;
     }
     
     // Get fresh references after cloning
-    const freshTocToggle = document.querySelector('.toc-toggle') as HTMLButtonElement;
-    const freshTocList = document.querySelector('.toc-list') as HTMLElement;
-    const freshTocChevron = document.querySelector('.toc-chevron') as HTMLElement;
+    const freshTocToggle = tocRoot.querySelector('.toc-toggle') as HTMLButtonElement | null;
+    const freshTocList = tocRoot.querySelector('.toc-list') as HTMLElement | null;
+    const freshTocChevron = tocRoot.querySelector('.toc-chevron') as HTMLElement | null;
     
     // TOC Toggle functionality
     if (freshTocToggle && freshTocList && freshTocChevron) {
@@ -259,7 +262,7 @@ const shouldShowTOC = filteredHeadings.length > 1;
     highlightTOC();
     
     // Force scrollbar style refresh
-    const tocNav = document.querySelector('.toc-container') as HTMLElement;
+    const tocNav = tocRoot;
     if (tocNav) {
       // Trigger a reflow to force style recalculation
       tocNav.style.display = 'none';
