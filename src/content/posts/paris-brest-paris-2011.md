@@ -32,7 +32,7 @@ de sus guerreros a la conquista de Las Galias.
 
 Nos vemos a la vuelta
 
-íƒÂngel.
+Ángel.
 
 ACTUALIZACIíƒâ€œN 24/8/2011
 

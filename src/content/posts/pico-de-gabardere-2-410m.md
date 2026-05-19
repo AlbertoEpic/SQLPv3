@@ -31,6 +31,6 @@ Cazar al grupo fue muy sencillo.í‚Â Seguir la huella era tres veces más r�
 
 
 
-Fotos de Jorge y íƒÂngel Moraga.
+Fotos de Jorge y Ángel Moraga.
 Puedes ver la [crónica de Jorge aquí](http://lameteoqueviene.blogspot.com.es/2018/01/gabardere-valle-de-arrius-sector-ossau.html).
 

@@ -22,4 +22,4 @@ Gracias al [Cuarteto Sibelius](http://www.cuartetosibelius.com/) por deleitarnos
 
 Al violín y al coro que entró en acción, y por sorpresa, en la cima.
 
-Y una mención especial a Inazio y Make, Loren e Isa, íƒÂlvaro, Pablo y todos aquellos que echaron una mano con la logística de este evento.
+Y una mención especial a Inazio y Make, Loren e Isa, Álvaro, Pablo y todos aquellos que echaron una mano con la logística de este evento.

@@ -71,7 +71,7 @@ Tanto en este Plan como en el de Desarrollo Sostenible que regulan las Subvencio
 
 Con la elección de este proyecto megalómano se perdería quizás la mejor ocasión histórica que ha tenido el territorio aragonés para adaptarse a los nuevos desafíos de Desarrollo Turístico Sostenible y con futuro.
 
-VECINAS Y VECINOS DE LAS COMARCAS DE LA JACETANIA, ALTO GíƒÂLLEGO, SOBRARBE Y RIBAGORZA
+VECINAS Y VECINOS DE LAS COMARCAS DE LA JACETANIA, ALTO GÁLLEGO, SOBRARBE Y RIBAGORZA
 MONTAíƒâ€˜ERAS Y MONTAíƒâ€˜ESES
 El Manifiesto
 
@@ -81,7 +81,7 @@ Este manifiesto lo hemos obtenido del blog [La Meteo Que Viene](http://lameteoqu
 -í‚Â [En 30 años, la mitad de nieve y más calor:](https://elpais.com/clima-y-medio-ambiente/2023-02-26/en-30-anos-la-mitad-de-nieve-y-mas-calor-asi-afectara-el-cambio-climatico-al-esqui-en-los-pirineos.html)í‚Â así afectará el cambio climático al esquí en los Pirineos (El País)
 -í‚Â [Aragón se vuelca en el turismo de nieve pese a la amenaza del cambio climático](https://elpais.com/clima-y-medio-ambiente/2023-01-21/aragon-se-vuelca-en-el-turismo-de-nieve-pese-a-la-amenaza-del-cambio-climatico.html#?rel=mas)í‚Â (El País)
 -í‚Â Glacial valley cable car will í¢â‚¬Ëœdestroy jewel in Spanish Pyrenees crown ([The Times](https://www.thetimes.co.uk/article/glacial-valley-cable-car-destroy-jewel-spanish-pyrenees-crown-lgz9622lb))
--í‚Â Sebastián íƒÂlvaro #SalvemosCanalRoya ([En Youtube](https://youtu.be/N1SVZQGP9zw))
+-í‚Â Sebastián Álvaro #SalvemosCanalRoya ([En Youtube](https://youtu.be/N1SVZQGP9zw))
 -í‚Â Adaptación al Cambio Climático:í‚Â La unión de las estaciones de esquí por la Canal Roya no debe realizarse ([Enlace](https://ecodes.org/hacemos/cambio-climatico/adaptacion/no-la-union-de-las-estaciones-de-esqui-por-la-canal-roya-no-debe-realizarse?fbclid=IwAR1uILa2K8gN27ow9Xm8-uCKxzo6cdednkeJlnE0iB2G_WEmX6e1BJl_TL0)).
 -í‚Â La FEDME muestra su oposición a la unión de estaciones por Canal Roya ([enlace](https://fedme.es/la-fedme-muestra-su-oposicion-a-la-union-de-estaciones-por-canal-roya/))
 - Kilian Jornet ([enlace](https://twitter.com/kilianj/status/1614333106504486914?s=48&t=WBDodXt_8dfUDIExxsiaHA))

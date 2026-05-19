@@ -229,3 +229,6 @@ views:
       - file.name
       - category
       - tags
+    sort:
+      - property: category
+        direction: ASC

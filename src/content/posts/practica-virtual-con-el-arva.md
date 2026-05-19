@@ -19,5 +19,5 @@ Así que ya sabes, ahora no necesitas a un compañero que te esconda su ARVA y p
 
 Puedes ir a la simulación haciendo [click aqui](http://www.esquidemuntanya.com/seguretat/recerca_creu/index.htm).
 
-íƒÂnimo, a ver si puedes mejorar tus registros de tiempo y distancia con la práctica... Y no olvides luego practicar en el mundo real!
+Ánimo, a ver si puedes mejorar tus registros de tiempo y distancia con la práctica... Y no olvides luego practicar en el mundo real!
 

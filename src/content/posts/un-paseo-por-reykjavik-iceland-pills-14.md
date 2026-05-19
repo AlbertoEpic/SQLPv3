@@ -24,7 +24,7 @@ Más allá de su belleza, Reykjavík es un centro neurálgico de arte, música y
 
 ![](https://i.imgur.com/iEKmonM.jpg)"Partnership" es una de las dos esculturas que el artista Pétur Bjarnason realizó con motivo del 50 aniversario del establecimiento de relaciones políticas entre Islandia y Estados Unidos. La primera escultura fue inaugurada el 4 de julio de 1991 en Reykjavík y la segunda en Miami, Florida, en 1992. Las esculturas son las más grandes que se han fundido y terminado en bronce en este país. Las obras muestran una especie de punta de flecha compuesta por dos partes simétricas, que puede leerse como un símbolo de cooperación entre dos partes para mirar hacia adelante.
 
-![](https://i.imgur.com/zFRx6rN.jpg)Sami y Cheles en la obra 'The Sun Voyager'. 'El Viajero del Sol' es una escultura de Jón Gunnar íƒÂrnason. Es un bote de los sueños, una oda al sol. Evoca un territorio por descubrir, un sueño de esperanza, el progreso y la libertad. Está ubicada en Saebraut, junto al mar, en el centro de Reykjavík, Islandia.
+![](https://i.imgur.com/zFRx6rN.jpg)Sami y Cheles en la obra 'The Sun Voyager'. 'El Viajero del Sol' es una escultura de Jón Gunnar Árnason. Es un bote de los sueños, una oda al sol. Evoca un territorio por descubrir, un sueño de esperanza, el progreso y la libertad. Está ubicada en Saebraut, junto al mar, en el centro de Reykjavík, Islandia.
 
 ![](https://i.imgur.com/g72y3Nb.jpg)Paseando por la calle Frakkastígur, llegamos a una de las panaderías/pastelerías más míticas de Reykjavík, la 'BrauíƒÂ° & Co', todo un icono del arte callejero.
 

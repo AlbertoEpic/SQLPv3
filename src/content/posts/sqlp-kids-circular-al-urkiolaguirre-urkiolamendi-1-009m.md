@@ -5,14 +5,14 @@ pubDate: 2020-09-02T16:13:22Z
 updatedDate: 2020-09-02T16:18:36Z
 draft: false
 author: "AlbertoEpic"
-description: "Hoy os traemos otra actividad sencilla para hacer con niños, y en esta ocasión vamos a ampliar el radio de acción de SQLP-kids hasta el Parque Natural de Urkiola , situado en el extremo sur oriental de Vizcaya y norte de íƒÂlava. La ruta comi"
+description: "Hoy os traemos otra actividad sencilla para hacer con niños, y en esta ocasión vamos a ampliar el radio de acción de SQLP-kids hasta el Parque Natural de Urkiola , situado en el extremo sur oriental de Vizcaya y norte de Álava. La ruta comi"
 category: "SQLP-kids"
 tags:
   - "Urkiola"
   - "Urkiolaguirre"
   - "Urkiolamendi"
 ---
-Hoy os traemos otra actividad sencilla para hacer con niños, y en esta ocasión vamos a ampliar el radio de acción de SQLP-kids hasta elí‚Â [Parque Natural de Urkiola](http://www.urkiola.net/Castellano/), situado en el extremo sur oriental deí‚Â Vizcayaí‚Â y norte deí‚Â íƒÂlava.
+Hoy os traemos otra actividad sencilla para hacer con niños, y en esta ocasión vamos a ampliar el radio de acción de SQLP-kids hasta elí‚Â [Parque Natural de Urkiola](http://www.urkiola.net/Castellano/), situado en el extremo sur oriental deí‚Â Vizcayaí‚Â y norte deí‚Â Álava.
 
 La ruta comienza en el santuario de Urkiola, y desde allí, en aproximadamente una hora, se llega directamente a la cima del Urkiolaguirre por un agradable sendero muy ancho y claro sobre hierba. Para la vuelta, tenemos dos opciones: regresar sobre nuestros pasos, o bien realizar una ruta circular: continuamos el cordal hasta el collado entre el Urkiolamendi y el Anboto. Allí visitaremos la fuente ferruginosa de tres caños de Pol-Pol, para después regresar al santuario por una pista en perfecto estado.
 

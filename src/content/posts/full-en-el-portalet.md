@@ -19,5 +19,5 @@ A continuación, el testimonio gráfico:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rK1bI9HVznU" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-También puedes ver las [fotos de Miguel íƒÂngel aqui](http://picasaweb.google.com/miquixs/IntegralDAneou?feat=email#slideshow/5550309119606838962).
+También puedes ver las [fotos de Miguel Ángel aqui](http://picasaweb.google.com/miquixs/IntegralDAneou?feat=email#slideshow/5550309119606838962).
 
