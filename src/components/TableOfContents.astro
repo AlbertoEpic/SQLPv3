@@ -236,6 +236,30 @@ const shouldShowTOC = filteredHeadings.length > 1;
         }
       });
     }
+
+    // Intercept TOC link clicks for smooth scroll and Swup compatibility
+    tocLinks.forEach(link => {
+      link.addEventListener('click', function (e) {
+        const hash = link.getAttribute('href');
+        if (hash && hash.startsWith('#')) {
+          const targetId = hash.slice(1);
+          const target = document.getElementById(targetId);
+          if (target) {
+            e.preventDefault();
+            // Ajusta el offset si hay header fijo (ajusta 100 según tu header)
+            const yOffset = -100;
+            const y = target.getBoundingClientRect().top + window.pageYOffset + yOffset;
+            window.scrollTo({ top: y, behavior: 'smooth' });
+            // Actualiza el hash en la URL sin recargar
+            if (history.replaceState) {
+              history.replaceState(null, '', hash);
+            } else {
+              window.location.hash = hash;
+            }
+          }
+        }
+      });
+    });
     
     // Clean up old scroll listener if exists
     if (scrollListener) {

@@ -75,7 +75,7 @@ Después del huracán, pudimos llegar al camping de Vik.
 
 
 Salimos de Vik y retrocedemos un poco a ver lo que no pudimos el día anterior por el viento: [Dyrhólaey](dyrholaey-iceland-pills-4/), con los frailecillos, y la Black Beach junto a las columnas de Basalto. Impresionantes las [Agujas de Reynisdrangar](agujas-de-reynisdrangar/), con leyenda y todo...
-Me deja un poco decepcionado, está todo absolutamente masificado, demasiada gente comparado con cuando estuve con la bici hace unos años. íƒÂ°í…Â¸í‹Å“í‚Â£
+Me deja un poco decepcionado, está todo absolutamente masificado, demasiada gente comparado con cuando estuve con la bici hace unos años.
 Y luego continuamos camino hasta Skaftafell.
 
 ![El equipo SQLP haciendo el canelo con las Agujas de Reynisdrangar al fondo.](attachments/Pasted-image-20240829201716-1024x577.webp)
@@ -88,11 +88,11 @@ Y luego continuamos camino hasta Skaftafell.
 ---
 
 
-Nos levantamos en el camping de Skaftafell que con tan buen criterio eligió Cheles, y nos vamos primero a dar un paseo hasta la lengua del glaciar [Skaftafellsjaí‚Â¶kull](skaftafellsjokull-iceland-pills-6/). Espectacular, una pena que no se pudiera volar el droníƒÂ¢í¢â€šÂ¬í‚Â¦
+Nos levantamos en el camping de Skaftafell que con tan buen criterio eligió Cheles, y nos vamos primero a dar un paseo hasta la lengua del glaciar [Skaftafellsjökull](skaftafellsjokull-iceland-pills-6/). Espectacular, una pena que no se pudiera volar el dron!
 
-![Sami y AlbertoEpic con el Skaftafellsjaí‚Â¶kull al fondo.](attachments/Pasted-image-20240829202047-1024x576.webp)
+![Sami y AlbertoEpic con el Skaftafellsjökull al fondo.](attachments/Pasted-image-20240829202047-1024x576.webp)
 
-*Sami y AlbertoEpic con el Skaftafellsjaí‚Â¶kull al fondo.*
+*Sami y AlbertoEpic con el Skaftafellsjökull al fondo.*
 
 Terminamos ese bucle y lo enlazamos con otro que se acerca a visitar la cercana cascada de [Svartifoss](svartifoss-iceland-pills-7/). Esta zona empieza a estar un poco menos masificada, con un ambiente más montañero y menos turista de masas.
 
@@ -106,16 +106,16 @@ Terminamos ese bucle y lo enlazamos con otro que se acerca a visitar la cercana 
 ---
 
 
-Hoy ha sido el mejor día hasta la fecha!!! Hemos salido de Skaftafell a visitar [Jaí‚Â¶kullsárlón](jokullsarlon-iceland-pills-9/), pero antes de llegar hemos parado en otra lengua glaciar ([Fjallsjaí‚Â¶kull](fjallsjokull-iceland-pills-7/)) con su laguna llena de pequeños icebergs: Fjallsárlón.
+Hoy ha sido el mejor día hasta la fecha!!! Hemos salido de Skaftafell a visitar [Jökullsárlón](jokullsarlon-iceland-pills-9/), pero antes de llegar hemos parado en otra lengua glaciar ([Fjallsjökull](fjallsjokull-iceland-pills-7/)) con su laguna llena de pequeños icebergs: Fjallsárlón.
 
-![Flipando con la laguna glaciar del Fjallsjaí‚Â¶kull.](attachments/Pasted-image-20240830114502-1024x576.webp)
+![Flipando con la laguna glaciar del Fjallsjökull.](attachments/Pasted-image-20240830114502-1024x576.webp)
 
-*Flipando con la laguna glaciar del Fjallsjaí‚Â¶kull.*
+*Flipando con la laguna glaciar del Fjallsjökull.*
 
-Luego hemos seguido a [Jaí‚Â¶kullsárlón](jokullsarlon-iceland-pills-9/): simplemente brutal. Glaciar, icebergs, focas, muuuuuchos turistas, y pocos diamantes en la [Diamond Beach](diamond-beach-iceland-pills-10/).
+Luego hemos seguido a [Jökullsárlón](jokullsarlon-iceland-pills-9/): simplemente brutal. Glaciar, icebergs, focas, muuuuuchos turistas, y pocos diamantes en la [Diamond Beach](diamond-beach-iceland-pills-10/).
 
-Ya de vuelta, hemos parado en otra lengua glaciar ([Svínafellsjaí‚Â¶kull](svinafellsjokull/)) con laguna, chulísima, con poca gente, y he podido volar el dron sin problemas. Además, no hacía viento.
-Después, nos hemos animado y hemos vuelto hasta el camping de [Vík í Maí‚Â½rdal](vik-i-myrdal-iceland-pills-12/).
+Ya de vuelta, hemos parado en otra lengua glaciar ([Svínafellsjökull](svinafellsjokull/)) con laguna, chulísima, con poca gente, y he podido volar el dron sin problemas. Además, no hacía viento.
+Después, nos hemos animado y hemos vuelto hasta el camping de [Vík í Mýrdal](vik-i-myrdal-iceland-pills-12/).
 
 25 agosto 2024
 
@@ -123,7 +123,7 @@ Después, nos hemos animado y hemos vuelto hasta el camping de [Vík í Maí‚�
 ---
 
 
-Hoy nos hemos levantado en el camping de [Vík í Maí‚Â½rdal](vik-i-myrdal-iceland-pills-12/). Hemos subido andando desde Vik hasta el acantilado que separa Vik de la playa Black Beach. La idea era conseguir fotos de cerca de frailecillos, pero no ha habido suerte. Había muchos, pero anidaban en un acantilado inaccesible y sólo nos pegaban pasadas por delante a toda velocidad. Muy chulos de ver, pero imposibles de fotografiar sin un potente teleobjetivo!!!
+Hoy nos hemos levantado en el camping de [Vík í Mýrdal](vik-i-myrdal-iceland-pills-12/). Hemos subido andando desde Vik hasta el acantilado que separa Vik de la playa Black Beach. La idea era conseguir fotos de cerca de frailecillos, pero no ha habido suerte. Había muchos, pero anidaban en un acantilado inaccesible y sólo nos pegaban pasadas por delante a toda velocidad. Muy chulos de ver, pero imposibles de fotografiar sin un potente teleobjetivo!!!
 
 A la vuelta del paseo el cansancio acumulado de los mayores unido al 'aburrimiento' de los pequeños hacen peligrar la agenda marcada! Pero no hay tregua. Comemos un bocata con cuatro cosas del supermercado, un café en el mítico Schoolbus de los Simpsons y como nuevos!
 
@@ -169,11 +169,11 @@ Antes de abandonar el camping hemos dejado en las "Estanterías de compartir" al
 Y por la tarde, hemos partido hacia Keflavík, pero de caminoíƒÂ¢í¢â€šÂ¬í‚Â¦ Tocaba parada a ver el famoso volcán en erupción (Sundhnúkur) de Grindavík, que tiene el pueblo y el famoso Blue Lagoon evacuados!!!
 Toda la zona está aislada, no dejan acercarse, pero simplemente verlo de lejos es espectacular!!!
 
-He mandado el dron para verlo más de cerca, y casi lo perdemosíƒÂ¢í¢â€šÂ¬í‚Â¦ Inexplicablemente, a una distancia de 2km, en terreno totalmente despejado, de repente se perdía la señal, supongo que por los calores o gases emanados por el volcáníƒÂ¢í¢â€šÂ¬í‚Â¦ Menos mal que había programado el dron para RPO en caso de pérdida de señal, je je!
+He mandado el dron para verlo más de cerca, y casi lo perdemos! Inexplicablemente, a una distancia de 2km, en terreno totalmente despejado, de repente se perdía la señal, supongo que por los calores o gases emanados por el volcán! Menos mal que había programado el dron para RPO en caso de pérdida de señal, je je!
 Mañana a las 5.15 am despertador.
 A las 6am nos llevan al aeropuerto y a las 8.25 am despegamos rumbo a BCN.
 
-Después de escribir las líneas anteriores, salgo a mirar si aparecía alguna aurora, y un resplandor rojo tremendo en el cielo me ha hecho pasear unos 10min hasta salir a las afueras del lugar, ya sin farolas, para admirar la grandeza del volcán íƒÂ°í…Â¸í‹Å“í‚Â².
+Después de escribir las líneas anteriores, salgo a mirar si aparecía alguna aurora, y un resplandor rojo tremendo en el cielo me ha hecho pasear unos 10min hasta salir a las afueras del lugar, ya sin farolas, para admirar la grandeza del volcán.
 
 ![El volcán de Sundhnúkur en la noche...](attachments/Pasted-image-20240830121713-1024x576.webp)
 
@@ -186,9 +186,9 @@ Después de escribir las líneas anteriores, salgo a mirar si aparecía alguna a
 
 
 Nos levantamos a las 5.15am. Todo según lo previsto, como previsible era que Johann nos fallara, y aparece a las 6.30am.
-Nada está siendo fácil en este viajeíƒÂ¢í¢â€šÂ¬í‚Â¦
+Nada está siendo fácil en este viaje!
 Luego en el aeropuerto, problemas con el auto check-in y varias cosas más... y terminamos cruzando el aeropuerto a la carrera para llegar a embarcar.
-El vuelo se me ha hecho largo e incómodo, y desde BCN a Tierz en la furgo ha sido una penitencia. Al menos el tema de la furgo con Aparca&Go ha ido fino como la seda. íƒÂ°í…Â¸í‹Å“í…Â 
+El vuelo se me ha hecho largo e incómodo, y desde BCN a Tierz en la furgo ha sido una penitencia. Al menos el tema de la furgo con Aparca&Go ha ido fino como la seda. 
 
 ![Una que yo me sé, contenta de volver a casa... ;-)](attachments/Pasted-image-20240830123151-1024x576.webp)
 
