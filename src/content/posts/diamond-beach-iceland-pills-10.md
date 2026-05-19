@@ -19,7 +19,7 @@ En el sur de Islandia, junto a la famosa laguna glacial de [Jökulsárlón](joku
 
 Origen y Formación
 
-La Diamond Beach es parte de la gran llanura glacial de BreiíƒÂ°amerkursandur, que se extiende a lo largo de 18 kilómetros a lo largo de la costa sur de Islandia. Los icebergs que adornan esta playa provienen de la laguna glacial de Jökulsárlón, donde se desprenden del glaciar BreiíƒÂ°amerkurjíƒÂ¶kull, una de las lenguas glaciares del vasto campo de hielo VatnajíƒÂ¶kull, el más grande de Europa.
+La Diamond Beach es parte de la gran llanura glacial de BreiíƒÂ°amerkursandur, que se extiende a lo largo de 18 kilómetros a lo largo de la costa sur de Islandia. Los icebergs que adornan esta playa provienen de la laguna glacial de Jökulsárlón, donde se desprenden del glaciar BreiíƒÂ°amerkurjökull, una de las lenguas glaciares del vasto campo de hielo Vatnajökull, el más grande de Europa.
 
 ![](https://i.imgur.com/A1XIA2F.jpg)Icebergs en la salida de Jökulsárlón hacia el cercano océano.
 

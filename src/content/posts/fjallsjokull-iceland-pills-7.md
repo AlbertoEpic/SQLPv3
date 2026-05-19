@@ -16,9 +16,9 @@ tags:
 
 ## El Majestuoso Fjallsjökull: Un Gigante de Hielo en el Corazón de Islandia
 
-En el sureste de Islandia, como un titán dormido de hielo y roca, se extiende el impresionante glaciar Fjallsjökull. Esta maravilla natural, cuyo nombre significa "glaciar de montaña" en islandés, es una de las lenguas glaciares más espectaculares que descienden del vasto campo de hielo VatnajíƒÂ¶kull, el más grande de Europa.
+En el sureste de Islandia, como un titán dormido de hielo y roca, se extiende el impresionante glaciar Fjallsjökull. Esta maravilla natural, cuyo nombre significa "glaciar de montaña" en islandés, es una de las lenguas glaciares más espectaculares que descienden del vasto campo de hielo Vatnajökull, el más grande de Europa.
 
-![](https://i.imgur.com/l5n5MV7.jpg)Estos glaciares son simplemente lenguas del gran campo de hielo VatnajíƒÂ¶kull.
+![](https://i.imgur.com/l5n5MV7.jpg)Estos glaciares son simplemente lenguas del gran campo de hielo Vatnajökull.
 
 El Fjallsjökull es un testimonio vivo de la fuerza de la naturaleza y el paso del tiempo. Sus imponentes masas de hielo, formadas a lo largo de milenios, se deslizan lentamente entre montañas escarpadas, creando un paisaje de belleza sobrecogedora. El contraste entre el blanco inmaculado del hielo y el negro volcánico de las rocas circundantes ofrece una vista que quita el aliento a cualquier visitante.
 
