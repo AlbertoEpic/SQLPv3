@@ -96,10 +96,11 @@ const shouldShowGraph = true;
 
   function filterLocalGraphData(data: any, currentSlug: string): GraphData {
     if (!currentSlug) return { nodes: [], links: [] };
-    
+
     const currentNode = data.nodes.find((node: any) => node.id === currentSlug);
     if (!currentNode) return { nodes: [], links: [] };
-    
+
+    // 1. Encuentra nodos conectados directamente (posts)
     const directlyConnectedNodeIds = new Set([currentSlug]);
     data.connections.forEach((conn: any) => {
       if (conn.source === currentSlug || conn.target === currentSlug) {
@@ -107,25 +108,80 @@ const shouldShowGraph = true;
         directlyConnectedNodeIds.add(conn.target);
       }
     });
-    
-    const relevantNodes = data.nodes.filter((node: any) => directlyConnectedNodeIds.has(node.id));
-    const relevantConnections = data.connections.filter((conn: any) => 
-      directlyConnectedNodeIds.has(conn.source) && directlyConnectedNodeIds.has(conn.target)
+
+    // 2. Añade los tags del post actual como nodos
+    const tagNodes: any[] = [];
+    const tagLinks: any[] = [];
+    const tagSet = new Set<string>();
+    if (Array.isArray(currentNode.tags)) {
+      currentNode.tags.forEach((tag: string) => {
+        const tagId = `tag:${tag}`;
+        tagSet.add(tagId);
+        tagNodes.push({
+          id: tagId,
+          name: tag,
+          group: 'tag',
+          radius: 7,
+        });
+        tagLinks.push({
+          source: currentNode.id,
+          target: tagId,
+          value: 1,
+        });
+      });
+    }
+
+    // 3. Busca otros posts en el grafo local que compartan tag y enlázalos al mismo nodo tag
+    const relevantNodes = data.nodes.filter((node: any) => directlyConnectedNodeIds.has(node.id) || node.id === currentSlug);
+    relevantNodes.forEach((node: any) => {
+      if (node.id === currentSlug) return; // Ya enlazado arriba
+      if (!Array.isArray(node.tags)) return;
+      node.tags.forEach((tag: string) => {
+        const tagId = `tag:${tag}`;
+        if (tagSet.has(tagId)) {
+          // Añadir el nodo tag si no existe
+          if (!tagNodes.find(t => t.id === tagId)) {
+            tagNodes.push({
+              id: tagId,
+              name: tag,
+              group: 'tag',
+              radius: 7,
+            });
+          }
+          tagLinks.push({
+            source: node.id,
+            target: tagId,
+            value: 1,
+          });
+        }
+      });
+    });
+
+    // 4. Filtra conexiones solo entre los nodos relevantes
+    const relevantConnections = data.connections.filter((conn: any) =>
+      (directlyConnectedNodeIds.has(conn.source) && directlyConnectedNodeIds.has(conn.target))
     );
-    
+
+    // 5. Construye el grafo final
     return {
-      nodes: relevantNodes.map((node: any) => ({
-        id: node.id,
-        name: node.title || node.name,
-        slug: node.slug,
-        radius: Math.max(3, Math.min(8, (node.connections || 0) + 3)),
-        group: node.type
-      })),
-      links: relevantConnections.map((conn: any) => ({
-        source: conn.source,
-        target: conn.target,
-        value: 1
-      }))
+      nodes: [
+        ...relevantNodes.map((node: any) => ({
+          id: node.id,
+          name: node.title || node.name,
+          slug: node.slug,
+          radius: Math.max(3, Math.min(8, (node.connections || 0) + 3)),
+          group: node.type
+        })),
+        ...tagNodes
+      ],
+      links: [
+        ...relevantConnections.map((conn: any) => ({
+          source: conn.source,
+          target: conn.target,
+          value: 1
+        })),
+        ...tagLinks
+      ]
     };
   }
 
@@ -320,13 +376,15 @@ const shouldShowGraph = true;
           .style("opacity", currentTransform.k < 0.8 ? 0 : 0.6);
       });
 
-    // Create circles
+    // Create circles (diferenciar color/forma para tags)
     const node = nodeGroup
       .append("circle")
       .attr("r", (d) => d.radius)
       .attr("cursor", "pointer")
       .attr("fill-opacity", 1)
-      .attr("fill", colors.linkStroke)
+      .attr("fill", (d) => d.group === 'tag' ? colors.tagFill : colors.linkStroke)
+      .attr("stroke", (d) => d.group === 'tag' ? colors.tagStroke : colors.postStroke)
+      .attr("stroke-width", (d) => d.group === 'tag' ? 2 : 1)
       .attr("data-id", (d) => d.id);
 
     node.append("title").text((d) => d.name ?? d.id);

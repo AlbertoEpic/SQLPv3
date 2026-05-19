@@ -318,11 +318,16 @@ if (siteConfig.postOptions.graphView.enabled && siteConfig.postOptions.graphView
         </div>
       </article>
 
-      <!-- Desktop Left Sidebar - Graph (top left) -->
+      <!-- Desktop Left Sidebar - Graph (nuevo recuadro similar al TOC) -->
       {hasLocalGraphConnections && (
         <div class="hidden xl:block absolute top-0 right-full mr-1 w-[280px] h-full">
-          <div class="sticky top-24 pb-6" id="graph-sidebar">
-            <LocalGraph currentSlug={post.id} />
+          <div class="sticky top-24 pb-6 bg-white dark:bg-primary-900 rounded-xl border border-primary-200 dark:border-primary-700 shadow-lg backdrop-blur-sm bg-opacity-95 dark:bg-opacity-95 flex flex-col items-stretch" id="graph-sidebar">
+            <div class="font-semibold text-primary-900 dark:text-primary-50 mb-3 flex items-center justify-between text-sm px-4 pt-4 pb-2">
+              <span>Relaciones</span>
+            </div>
+            <div class="flex-1 flex items-center justify-center px-2 pb-4">
+              <LocalGraph currentSlug={post.id} />
+            </div>
           </div>
         </div>
       )}

@@ -20,11 +20,9 @@ Finiquitamos el tema de las vacaciones en Islandia con este 'Especial' que conti
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Wg7myAJ0qbI" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-19 agosto 2024
 
-
+## 19 agosto 2024
 ---
-
 
 Son las 6:30pm, estamos en el avión, volando camino de Islandia. Serán unas 4h y pico de vuelo, se hace un poco largo, pero bueno. Había venido preparado con los cascos para ir escuchando música, pero mejor se los he dejado a Sami para que viera una peli (Tenemos pantalla en cada asiento).
 Y así comienzan nuestras vacaciones en Islandia!!!
@@ -33,11 +31,8 @@ Y así comienzan nuestras vacaciones en Islandia!!!
 
 *En el aeropuerto de Barcelona.*
 
-20 agosto 2024
-
-
+## 20 agosto 2024
 ---
-
 
 La jornada comienza con una noche movidita: nos han dado una AC (AutoCaravana) con la batería de servicio muerta, y se apaga la calefacción, así que pasamos algo de frío por la noche. A la mañana toca volver a las oficinas de alquiler a negociar para que nos cambien la batería. Total, que pasamos allí la mañana, y así perdemos un poco de tiempo para el plan previsto.
 
@@ -53,11 +48,8 @@ Terminamos la jornada durmiendo en el parking de un supermercado en Selfoss.
 
 *Gullfoss, una bestialidad para los que venimos del secano... ;-p*
 
-21 agosto 2024
-
-
+## 21 agosto 2024
 ---
-
 
 12.26 am, estamos en la AC tomando un picoteo antes de seguir. Hoy toca día de mala meteo, típica de Islandia: viento y llovizna. Llegando a Vik nos ha atrapado un viento huracanado que amenazaba con volcar la AC (Tuvimos que buscar refugio y esperar 4h parados, esperando que pasara el temporal). La meteo da alerta roja por vientos fuertes, con ráfagas de hasta 100 km/h.
 Lo de ver frailecillos habrá que dejarlo para mañana...
@@ -68,11 +60,8 @@ Después del huracán, pudimos llegar al camping de Vik.
 
 *Sami y Cheles después de cruzar tras la cascada de Seljalandfoss...*
 
-22 agosto 2024
-
-
+## 22 agosto 2024
 ---
-
 
 Salimos de Vik y retrocedemos un poco a ver lo que no pudimos el día anterior por el viento: [Dyrhólaey](dyrholaey-iceland-pills-4/), con los frailecillos, y la Black Beach junto a las columnas de Basalto. Impresionantes las [Agujas de Reynisdrangar](agujas-de-reynisdrangar/), con leyenda y todo...
 Me deja un poco decepcionado, está todo absolutamente masificado, demasiada gente comparado con cuando estuve con la bici hace unos años.
@@ -82,11 +71,8 @@ Y luego continuamos camino hasta Skaftafell.
 
 *El equipo SQLP haciendo el canelo con las Agujas de Reynisdrangar al fondo.*
 
-23 agosto 2024
-
-
+## 23 agosto 2024
 ---
-
 
 Nos levantamos en el camping de Skaftafell que con tan buen criterio eligió Cheles, y nos vamos primero a dar un paseo hasta la lengua del glaciar [Skaftafellsjökull](skaftafellsjokull-iceland-pills-6/). Espectacular, una pena que no se pudiera volar el dron!
 
@@ -100,11 +86,8 @@ Terminamos ese bucle y lo enlazamos con otro que se acerca a visitar la cercana 
 
 *Svartifoss.*
 
-24 agosto 2024
-
-
+## 24 agosto 2024
 ---
-
 
 Hoy ha sido el mejor día hasta la fecha!!! Hemos salido de Skaftafell a visitar [Jökullsárlón](jokullsarlon-iceland-pills-9/), pero antes de llegar hemos parado en otra lengua glaciar ([Fjallsjökull](fjallsjokull-iceland-pills-7/)) con su laguna llena de pequeños icebergs: Fjallsárlón.
 
@@ -117,11 +100,8 @@ Luego hemos seguido a [Jökullsárlón](jokullsarlon-iceland-pills-9/): simpleme
 Ya de vuelta, hemos parado en otra lengua glaciar ([Svínafellsjökull](svinafellsjokull/)) con laguna, chulísima, con poca gente, y he podido volar el dron sin problemas. Además, no hacía viento.
 Después, nos hemos animado y hemos vuelto hasta el camping de [Vík í Mýrdal](vik-i-myrdal-iceland-pills-12/).
 
-25 agosto 2024
-
-
+## 25 agosto 2024
 ---
-
 
 Hoy nos hemos levantado en el camping de [Vík í Mýrdal](vik-i-myrdal-iceland-pills-12/). Hemos subido andando desde Vik hasta el acantilado que separa Vik de la playa Black Beach. La idea era conseguir fotos de cerca de frailecillos, pero no ha habido suerte. Había muchos, pero anidaban en un acantilado inaccesible y sólo nos pegaban pasadas por delante a toda velocidad. Muy chulos de ver, pero imposibles de fotografiar sin un potente teleobjetivo!!!
 
@@ -138,11 +118,8 @@ Nos ha gustado mucho y nos ha levantado el ánimo. Luego ya hemos seguido para t
 
 *Skógafoss, un caudal de agua sólo superado por el caudal de turistas!*
 
-26 agosto 2024
-
-
+## 26 agosto 2024
 ---
-
 
 Hoy hemos pasado el día en [Reykjavik](un-paseo-por-reykjavik-iceland-pills-14/). Un revival de mi anterior viajeíƒÂ¢í¢â€šÂ¬í‚Â¦ Mismo camping, paseo por el parque botánico, por las calles de Reykjavik, su iglesia, etc.
 La nota curiosa: paseando por un parque, de repente llega un dron gigante y entrega un paquete a una señora! Le he preguntado y resulta que era la madre de un tío que se está montando una empresa de entrega de comida mediante drones. He estado hablando con ella, y al final nos ha hecho un pedido de tres fajitas y botellines de zumo.
@@ -157,11 +134,8 @@ Puedes ver a continuación la prueba irrefutable de que lo del 'drone-delivery' 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wqBKjJGhJms" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 Nuestra primera experiencia con el reparto vía dron...
 
-27 agosto 2024
-
-
+## 27 agosto 2024
 ---
-
 
 Son las 10.20pm, terminamos de cenar en Keflavík, dentro de la AC, en el punto de 'Drop-off' de la AC.
 Hemos pasado la mañana en el camping municipal de Reykjavik, recogiendo y limpiando la AC. Hemos dado un paseo por el fondo del camping, hasta el jardín botánico.
@@ -179,11 +153,8 @@ Después de escribir las líneas anteriores, salgo a mirar si aparecía alguna a
 
 *El volcán de Sundhnúkur en la noche...*
 
-28 agosto 2024
-
-
+## 28 agosto 2024
 ---
-
 
 Nos levantamos a las 5.15am. Todo según lo previsto, como previsible era que Johann nos fallara, y aparece a las 6.30am.
 Nada está siendo fácil en este viaje!
