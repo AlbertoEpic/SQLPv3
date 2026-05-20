@@ -1,0 +1,89 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "title": {
+      "default": "Untitled Documentation",
+      "type": "string"
+    },
+    "description": {
+      "default": "No description provided",
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "category": {
+      "default": "General",
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "order": {
+      "default": 0,
+      "type": "number"
+    },
+    "lastModified": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "version": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "image": {
+      "anyOf": [
+        {},
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "imageAlt": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "hideCoverImage": {
+      "type": "boolean"
+    },
+    "hideTOC": {
+      "type": "boolean"
+    },
+    "draft": {
+      "type": "boolean"
+    },
+    "noIndex": {
+      "type": "boolean"
+    },
+    "showTOC": {
+      "type": "boolean"
+    },
+    "featured": {
+      "type": "boolean"
+    },
+    "$schema": {
+      "type": "string"
+    }
+  }
+}

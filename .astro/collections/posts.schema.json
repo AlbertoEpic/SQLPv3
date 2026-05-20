@@ -1,0 +1,106 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "title": {
+      "default": "Untitled Post",
+      "type": "string"
+    },
+    "description": {
+      "default": "No description provided",
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "date": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "pubDate": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "tags": {
+      "anyOf": [
+        {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "draft": {
+      "type": "boolean"
+    },
+    "image": {
+      "anyOf": [
+        {},
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "heroImage": {
+      "anyOf": [
+        {},
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "imageOG": {
+      "type": "boolean"
+    },
+    "imageAlt": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "hideCoverImage": {
+      "type": "boolean"
+    },
+    "hideTOC": {
+      "type": "boolean"
+    },
+    "showTOC": {
+      "type": "boolean"
+    },
+    "targetKeyword": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "author": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "noIndex": {
+      "type": "boolean"
+    }
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "title": {
+      "default": "Untitled Project",
+      "type": "string"
+    },
+    "description": {
+      "default": "No description provided",
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "date": {
+      "default": "2026-05-20T11:18:50.934Z",
+      "type": "string",
+      "format": "date-time"
+    },
+    "categories": {
+      "default": [],
+      "anyOf": [
+        {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "repositoryUrl": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        },
+        {}
+      ]
+    },
+    "projectUrl": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        },
+        {}
+      ]
+    },
+    "demoUrl": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        },
+        {}
+      ]
+    },
+    "demoURL": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        },
+        {}
+      ]
+    },
+    "status": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "image": {
+      "anyOf": [
+        {},
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "imageAlt": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "hideCoverImage": {
+      "type": "boolean"
+    },
+    "hideTOC": {
+      "type": "boolean"
+    },
+    "showTOC": {
+      "type": "boolean"
+    },
+    "draft": {
+      "type": "boolean"
+    },
+    "noIndex": {
+      "type": "boolean"
+    },
+    "featured": {
+      "type": "boolean"
+    },
+    "$schema": {
+      "type": "string"
+    }
+  }
+}

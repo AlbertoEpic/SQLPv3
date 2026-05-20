@@ -1,0 +1,220 @@
+{
+  "main": {
+    "id": "5324373015726ba8",
+    "type": "split",
+    "children": [
+      {
+        "id": "4509724f8bf84da7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "68adf343a37edda6",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nueva pestaña"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8af18eba91853c32",
+    "type": "split",
+    "children": [
+      {
+        "id": "fab237a570428354",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0233e9c0ed2f5e92",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "6579d93cd55c5258",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "formatting",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "85b4ccc8335dd3a7",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7065469e8c6b6f55",
+    "type": "split",
+    "children": [
+      {
+        "id": "657024a6dd36d0af",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "00a530b2411caeed",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes"
+            }
+          },
+          {
+            "id": "b5922a3133f16ad8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes"
+            }
+          },
+          {
+            "id": "2874f99490f3c25e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "19d9c789f91f5db5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false,
+      "astro-modular-settings:Open wizard": false,
+      "seo:Open SEO audit panel": false,
+      "astro-composer:Open project terminal": false,
+      "astro-composer:Edit Astro config": false,
+      "home-base:Open home base": false,
+      "zenmode:Toggle zen mode": false,
+      "obsidian42-brat:BRAT": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "68adf343a37edda6",
+  "lastOpenFiles": [
+    "special/projects.md",
+    "special/posts.md",
+    "special/home.md",
+    "special/docs.md",
+    "special/404.md",
+    "special",
+    "projects/vault-cms/index.md",
+    "projects/vault-cms/glacier.png",
+    "projects/attachments/rock.png",
+    "projects/vault-cms",
+    "projects/astro-composer.md",
+    "projects/attachments",
+    "projects",
+    "posts/zz-040-el-sarrau-del-tuerto.md",
+    "posts/via-verde-del-bidasoa.md",
+    "posts/via-verde-de-la-val-de-zafan.md",
+    "posts/via-mosquitos-la-visera-mallos-de-riglos.md",
+    "posts/via-ferrata-regina.md",
+    "posts/via-ferrata-el-escuacho-k4.md",
+    "posts/via-ferrata-de-la-croqueta-de-obarra-k4.md",
+    "posts/un-mito-viviente.md",
+    "posts/un-finde-movidito-entre-nocito-y-caldearenas.md",
+    "posts/un-antes-y-un-despues.md",
+    "posts/ultra-trail-guara-somontano.md",
+    "posts/ultimo-peyreget-de-la-temporada.md",
+    "posts/tutorial-fabrica-tu-propio-porta-gps.md",
+    "posts/tutorial-determinar-inclinacion-de-la-pendiente.md",
+    "posts/subida-a-pena-oroel.md",
+    "posts/strokkur-iceland-pills-2.md",
+    "posts/sqlp-te-desea-feliz-ano-2016.md",
+    "posts/sqlp-kids-circular-al-urkiolaguirre-urkiolamendi-1-009m.md",
+    "posts/sos-la-sierra-de-guara-te-necesita.md",
+    "posts/attachments/winter-landscape.jpg",
+    "posts/attachments/vueltaMPin5.webp",
+    "posts/attachments/vueltaMPin4.webp",
+    "posts/attachments/vueltaMPin3.webp",
+    "posts/attachments/vueltaMPin2.webp",
+    "posts/attachments/vueltaMPin1.webp",
+    "posts/attachments/video.mp4",
+    "posts/attachments/via-verde-de-la-val-de-zafan.png",
+    "posts/attachments/via-ferrata-de-la-croqueta-de-obarra-k4.png",
+    "posts/attachments/sound.wav",
+    "pages/attachments",
+    "pages",
+    "docs/sourcetree-and-git-setup",
+    "docs/attachments"
+  ]
+}
