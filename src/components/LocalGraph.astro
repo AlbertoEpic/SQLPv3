@@ -109,7 +109,7 @@ const shouldShowGraph = true;
       }
     });
 
-    // 2. Añade los tags del post actual como nodos
+    // 2. Crea nodos de tags para los tags del post actual
     const tagNodes: any[] = [];
     const tagLinks: any[] = [];
     const tagSet = new Set<string>();
@@ -122,6 +122,7 @@ const shouldShowGraph = true;
           name: tag,
           group: 'tag',
           radius: 7,
+          isDirectlyConnected: true,
         });
         tagLinks.push({
           source: currentNode.id,
@@ -131,23 +132,45 @@ const shouldShowGraph = true;
       });
     }
 
-    // 3. Busca otros posts en el grafo local que compartan tag y enlázalos al mismo nodo tag
-    const relevantNodes = data.nodes.filter((node: any) => directlyConnectedNodeIds.has(node.id) || node.id === currentSlug);
+    // 3. Encuentra TODOS los posts (directos o no) que compartan tags con el post actual
+    const tagsOfCurrentPost = new Set(currentNode.tags || []);
+    const relevantNodes: any[] = [currentNode];
+    
+    data.nodes.forEach((node: any) => {
+      if (node.id === currentSlug) return; // Ya incluido
+      
+      // Incluir si está directamente conectado
+      if (directlyConnectedNodeIds.has(node.id)) {
+        relevantNodes.push(node);
+      } 
+      // O si comparte un tag con el post actual
+      else if (Array.isArray(node.tags)) {
+        const sharedTags = node.tags.filter((tag: string) => tagsOfCurrentPost.has(tag));
+        if (sharedTags.length > 0) {
+          relevantNodes.push(node);
+        }
+      }
+    });
+
+    // 4. Conecta todos los posts relevantes a sus tags compartidos
     relevantNodes.forEach((node: any) => {
       if (node.id === currentSlug) return; // Ya enlazado arriba
       if (!Array.isArray(node.tags)) return;
+      
       node.tags.forEach((tag: string) => {
         const tagId = `tag:${tag}`;
         if (tagSet.has(tagId)) {
-          // Añadir el nodo tag si no existe
+          // Asegurar que el nodo tag existe
           if (!tagNodes.find(t => t.id === tagId)) {
             tagNodes.push({
               id: tagId,
               name: tag,
               group: 'tag',
               radius: 7,
+              isDirectlyConnected: true,
             });
           }
+          // Conectar este post al tag
           tagLinks.push({
             source: node.id,
             target: tagId,
@@ -157,21 +180,34 @@ const shouldShowGraph = true;
       });
     });
 
-    // 4. Filtra conexiones solo entre los nodos relevantes
+    // 5. Filtra conexiones solo entre los nodos relevantes
+    const relevantNodeIds = new Set(relevantNodes.map((n: any) => n.id));
     const relevantConnections = data.connections.filter((conn: any) =>
-      (directlyConnectedNodeIds.has(conn.source) && directlyConnectedNodeIds.has(conn.target))
+      relevantNodeIds.has(conn.source) && relevantNodeIds.has(conn.target)
     );
 
-    // 5. Construye el grafo final
+    // 6. Construye el grafo final - marca nodos como conectados directamente
     return {
       nodes: [
-        ...relevantNodes.map((node: any) => ({
-          id: node.id,
-          name: node.title || node.name,
-          slug: node.slug,
-          radius: Math.max(3, Math.min(8, (node.connections || 0) + 3)),
-          group: node.type
-        })),
+        {
+          id: currentNode.id,
+          name: currentNode.title || currentNode.name,
+          slug: currentSlug,
+          radius: 10,
+          group: currentNode.type,
+          isCenter: true,
+          isDirectlyConnected: true,
+        },
+        ...relevantNodes
+          .filter((n: any) => n.id !== currentSlug)
+          .map((node: any) => ({
+            id: node.id,
+            name: node.title || node.name,
+            slug: node.slug,
+            radius: Math.max(3, Math.min(8, (node.connections || 0) + 3)),
+            group: node.type,
+            isDirectlyConnected: directlyConnectedNodeIds.has(node.id),
+          })),
         ...tagNodes
       ],
       links: [
@@ -219,6 +255,13 @@ const shouldShowGraph = true;
       .force("radial", d3.forceRadial(radiusForce))
       .force("x", d3.forceX(0).strength(0.05))
       .force("y", d3.forceY(0).strength(0.05));
+
+    // Fix the center node position
+    const centerNode = nodes.find((n) => (n as any).isCenter);
+    if (centerNode) {
+      centerNode.fx = 0;
+      centerNode.fy = 0;
+    }
 
     // Create SVG
     svg = d3
@@ -350,17 +393,24 @@ const shouldShowGraph = true;
           .attr("stroke", (l) =>
             (typeof l.source === 'object' ? l.source.id : l.source) === d.id ||
             (typeof l.target === 'object' ? l.target.id : l.target) === d.id
-              ? colors.tagFill : colors.linkStroke)
+              ? colors.highlight : colors.linkStroke)
           .attr("stroke-opacity", (l) =>
             (typeof l.source === 'object' ? l.source.id : l.source) === d.id ||
             (typeof l.target === 'object' ? l.target.id : l.target) === d.id ? 0.8 : 0.1);
 
         nodeGroup.selectAll<SVGCircleElement, GraphNode>("circle")
-          .attr("fill-opacity", (n) => connected.has(n.id) ? 1 : 0.3)
-          .attr("fill", (n) => n.id === d.id ? colors.tagFill : colors.linkStroke);
+          .attr("fill-opacity", (n) => connected.has(n.id) ? 1 : 0.15)
+          .attr("fill", (n) => {
+            if (connected.has(n.id)) {
+              if ((n as any).isCenter) return colors.highlight;
+              if ((n as any).group === 'tag') return colors.tagFill;
+              return colors.postFill;
+            }
+            return colors.linkStroke;
+          });
 
         labels.transition().duration(150)
-          .style("opacity", (n) => connected.has(n.id) ? 1 : 0.1);
+          .style("opacity", (n) => connected.has(n.id) ? 1 : 0.05);
       })
       .on("mouseout", function () {
         link.transition().duration(150)
@@ -368,8 +418,12 @@ const shouldShowGraph = true;
           .attr("stroke-opacity", 0.3);
 
         nodeGroup.selectAll<SVGCircleElement, GraphNode>("circle")
-          .attr("fill", colors.linkStroke)
-          .attr("fill-opacity", 1);
+          .attr("fill-opacity", (d: any) => d.isCenter ? 1 : d.isDirectlyConnected ? 0.8 : 0.3)
+          .attr("fill", (d: any) => {
+            if (d.isCenter) return colors.highlight;
+            if (d.group === 'tag') return colors.tagFill;
+            return colors.linkStroke;
+          });
 
         const currentTransform = svg ? d3.zoomTransform(svg.node() as Element) : d3.zoomIdentity;
         labels.transition().duration(150)
@@ -379,12 +433,20 @@ const shouldShowGraph = true;
     // Create circles (diferenciar color/forma para tags)
     const node = nodeGroup
       .append("circle")
-      .attr("r", (d) => d.radius)
+      .attr("r", (d: any) => d.radius)
       .attr("cursor", "pointer")
-      .attr("fill-opacity", 1)
-      .attr("fill", (d) => d.group === 'tag' ? colors.tagFill : colors.linkStroke)
-      .attr("stroke", (d) => d.group === 'tag' ? colors.tagStroke : colors.postStroke)
-      .attr("stroke-width", (d) => d.group === 'tag' ? 2 : 1)
+      .attr("fill-opacity", (d: any) => d.isCenter ? 1 : d.isDirectlyConnected ? 0.8 : 0.3)
+      .attr("fill", (d: any) => {
+        if (d.isCenter) return colors.highlight;
+        if (d.group === 'tag') return colors.tagFill;
+        return colors.linkStroke;
+      })
+      .attr("stroke", (d: any) => {
+        if (d.isCenter) return colors.tagStroke;
+        if (d.group === 'tag') return colors.tagStroke;
+        return colors.postStroke;
+      })
+      .attr("stroke-width", (d: any) => d.isCenter ? 3 : (d.group === 'tag' ? 2 : 1))
       .attr("data-id", (d) => d.id);
 
     node.append("title").text((d) => d.name ?? d.id);
@@ -398,7 +460,7 @@ const shouldShowGraph = true;
       .style("font-size", "8px")
       .style("fill", colors.postText)
       .style("pointer-events", "none")
-      .style("opacity", 0.6); // Start with slightly faded labels
+      .style("opacity", (d: any) => d.isCenter ? 1 : d.isDirectlyConnected ? 0.8 : 0.3);
 
     // Run simulation
     for (let i = 0; i < 200; ++i) simulation.tick();
@@ -485,8 +547,13 @@ const shouldShowGraph = true;
         currentSlug = segments[1];
       }
     }
-    
-      fetch('/graph/graph-data.json')
+
+    // Get base URL for proper path resolution
+    const baseUrl = document.documentElement.getAttribute('data-base-url') || '/';
+    const normalizedBase = baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`;
+    const graphDataUrl = `${normalizedBase}graph/graph-data.json`;
+
+      fetch(graphDataUrl)
         .then(response => response.json())
         .then((data) => {
         

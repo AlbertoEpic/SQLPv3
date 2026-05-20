@@ -7,6 +7,8 @@ declare global {
 interface ImportMetaEnv {
   readonly GOOGLE_ANALYTICS_ID: string;
   readonly API_KEY: string;
+  readonly INSTAFEED_ACCESS_TOKEN: string;
+  readonly INSTAGRAM_ACCESS_TOKEN: string;
 }
 
 interface ImportMeta {

@@ -11,7 +11,6 @@ import faviconLogo from '@/content/favicon.png';
 import logoMiniPlanetas from '@/content/logoMiniPlanetas.png';
 import pano360Favicon from '@/content/pano360 favicon-1-180x180.png';
 import { withBase } from '@/utils/base-url';
-import Instagram from '@/components/Instagram.astro';
 import HomeGraph from '@/components/HomeGraph.astro';
 
 const allPosts = await getCollection('posts');
@@ -234,62 +233,8 @@ try {
 const instagramLink = siteConfig.navigation.social.find(
   social => /instagram/i.test(social.title)
 )?.url || '#';
-const beholdFeedUrl = 'https://feeds.behold.so/2Ru3wNoVDy0rJKYYZ4O0';
-
-type InstagramPost = {
-  id: string;
-  title: string;
-  url: string;
-  thumbnail: string;
-};
-
-let latestInstagramPosts: InstagramPost[] = [];
-
-try {
-  const beholdRes = await fetch(beholdFeedUrl, {
-    headers: {
-      'User-Agent': 'Mozilla/5.0 (compatible; SQLP-Astro-Bot/1.0; +https://soloquedalopeor.com)',
-      Accept: 'application/json,text/plain,*/*',
-    },
-  });
-
-  if (beholdRes.ok) {
-    const beholdJson = await beholdRes.json() as {
-      posts?: Array<{
-        id?: string;
-        permalink?: string;
-        prunedCaption?: string;
-        caption?: string;
-        mediaUrl?: string;
-        thumbnailUrl?: string;
-        sizes?: {
-          small?: { mediaUrl?: string };
-          medium?: { mediaUrl?: string };
-        };
-      }>;
-    };
-
-    latestInstagramPosts = (beholdJson.posts || [])
-      .slice(0, 5)
-      .map((post) => {
-        const thumbnail = post.sizes?.small?.mediaUrl
-          || post.sizes?.medium?.mediaUrl
-          || post.thumbnailUrl
-          || post.mediaUrl
-          || '';
-
-        return {
-          id: post.id || '',
-          title: (post.prunedCaption || post.caption || 'Publicacion de Instagram').trim(),
-          url: post.permalink || instagramLink,
-          thumbnail,
-        };
-      })
-      .filter((post) => post.id && post.thumbnail && post.url);
-  }
-} catch {
-  latestInstagramPosts = [];
-}
+const instagramAccessToken = import.meta.env.INSTAFEED_ACCESS_TOKEN || import.meta.env.INSTAGRAM_ACCESS_TOKEN || '';
+const instafeedScriptUrl = 'https://unpkg.com/instafeed.js@2.1.0/dist/instafeed.min.js';
 
 const youtubeLink = siteConfig.navigation.social.find(
   social => /youtube/i.test(social.title)
@@ -390,58 +335,80 @@ const structuredData = {
 
 <BaseLayout seoData={seoData}>
   <Fragment slot="head">
-    <script is:inline>
+    <script is:inline define:vars={{ instagramAccessToken, instafeedScriptUrl }}>
       (() => {
+        const instagramToken = (instagramAccessToken || '').trim();
+        const loadInstafeedScript = () => new Promise((resolve, reject) => {
+          if (window.Instafeed) {
+            resolve(window.Instafeed);
+            return;
+          }
+
+          const existingScript = document.querySelector('[data-instafeed-script]');
+          if (existingScript) {
+            existingScript.addEventListener('load', () => resolve(window.Instafeed));
+            existingScript.addEventListener('error', reject, { once: true });
+            return;
+          }
+
+          const script = document.createElement('script');
+          script.src = instafeedScriptUrl;
+          script.async = true;
+          script.defer = true;
+          script.dataset.instafeedScript = 'true';
+          script.onload = () => resolve(window.Instafeed);
+          script.onerror = () => reject(new Error('No se pudo cargar Instafeed.js'));
+          document.head.appendChild(script);
+        });
+
         const renderInstagramFeed = async () => {
           const feed = document.querySelector('[data-instagram-feed]');
           if (!feed) return;
 
-          const feedUrl = feed.getAttribute('data-feed-url');
-          const profileUrl = feed.getAttribute('data-instagram-link') || '#';
+          const animateInstagramFeed = () => {
+            const posts = feed.querySelectorAll('.instagram-post');
+            posts.forEach((post, index) => {
+              post.classList.remove('instagram-post-enter');
+              post.style.animationDelay = `${index * 70}ms`;
+            });
+
+            requestAnimationFrame(() => {
+              posts.forEach((post) => post.classList.add('instagram-post-enter'));
+            });
+          };
+
           const fallback = document.querySelector('[data-instagram-fallback]');
-
-          if (!feedUrl) return;
-
-          // Si ya hay contenido SSR, solo ocultamos fallback.
-          if (feed.querySelector('a.instagram-post')) {
-            if (fallback) fallback.classList.add('hidden');
+          if (!instagramToken) {
+            if (fallback) fallback.classList.remove('hidden');
             return;
           }
 
           try {
-            const response = await fetch(feedUrl, {
-              headers: { Accept: 'application/json,text/plain,*/*' },
-            });
-            if (!response.ok) return;
+            const Instafeed = await loadInstafeedScript();
+            if (!Instafeed) return;
 
-            const data = await response.json();
-            const posts = Array.isArray(data?.posts) ? data.posts.slice(0, 5) : [];
-            if (!posts.length) return;
-
-            const html = posts.map((post) => {
-              const thumbnail =
-                post?.sizes?.small?.mediaUrl
-                || post?.sizes?.medium?.mediaUrl
-                || post?.thumbnailUrl
-                || post?.mediaUrl
-                || '';
-              const url = post?.permalink || profileUrl;
-              const title = (post?.prunedCaption || post?.caption || 'Publicacion de Instagram').trim();
-
-              if (!thumbnail || !url) return '';
-
-              return `
-                <a href="${url}" target="_blank" rel="noopener noreferrer" class="instagram-post" role="listitem" aria-label="Ver ${title}">
-                  <img src="${thumbnail}" alt="${title}" loading="lazy" decoding="async" class="instagram-post-thumb" width="400" height="400" />
+            feed.innerHTML = '';
+            const instafeed = new Instafeed({
+              accessToken: instagramToken,
+              limit: 5,
+              target: 'home-instafeed',
+              template: `
+                <a href="{{link}}" target="_blank" rel="noopener noreferrer" class="instagram-post" role="listitem" aria-label="Ver {{caption}}">
+                  <img src="{{image}}" alt="{{caption}}" loading="lazy" decoding="async" class="instagram-post-thumb" width="400" height="400" />
                 </a>
-              `;
-            }).join('');
+              `,
+              after: () => {
+                animateInstagramFeed();
+                if (fallback) fallback.classList.add('hidden');
+              },
+              error: () => {
+                if (fallback) fallback.classList.remove('hidden');
+              },
+            });
 
-            if (!html) return;
-            feed.innerHTML = html;
-            if (fallback) fallback.classList.add('hidden');
+            instafeed.run();
           } catch {
-            // Sin acciones: se mantiene fallback a Instagram.
+            if (fallback) fallback.classList.remove('hidden');
           }
         };
 
@@ -450,9 +417,10 @@ const structuredData = {
           document.addEventListener('DOMContentLoaded', renderInstagramFeed);
         }
 
-        if (window.swup?.hooks) {
+        if (!window.__homeInstagramHooksBound && window.swup?.hooks) {
           window.swup.hooks.on('page:view', () => window.initializeHomeInstagramFeed?.());
           window.swup.hooks.on('visit:end', () => window.initializeHomeInstagramFeed?.());
+          window.__homeInstagramHooksBound = true;
         }
       })();
     </script>
@@ -653,39 +621,19 @@ const structuredData = {
           </div>
           <p>¿Prefieres el Instagram? Fotos y Reels de Albertroid...</p>
           <div
+            id="home-instafeed"
             class="instagram-row"
             role="list"
             aria-label="Ultimas publicaciones de Instagram"
             data-instagram-feed
-            data-feed-url={beholdFeedUrl}
-            data-instagram-link={instagramLink}
           >
-            {latestInstagramPosts.map((post) => (
-              <a
-                href={post.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                class="instagram-post"
-                role="listitem"
-                aria-label={`Ver ${post.title}`}
-              >
-                <img
-                  src={post.thumbnail}
-                  alt={post.title}
-                  loading="lazy"
-                  decoding="async"
-                  class="instagram-post-thumb"
-                  width="400"
-                  height="400"
-                />
-              </a>
-            ))}
+            <p class="instagram-loading">Cargando las últimas publicaciones...</p>
           </div>
           <a
             href={instagramLink}
             target="_blank"
             rel="noopener noreferrer"
-            class={`island-link ${latestInstagramPosts.length > 0 ? 'hidden' : ''}`}
+            class="island-link"
             data-instagram-fallback
           >
             <span class="island-cta">Ir a Instagram</span>
@@ -1069,25 +1017,70 @@ const structuredData = {
     margin-top: 0.75rem;
     display: grid;
     grid-template-columns: repeat(5, minmax(0, 1fr));
+    grid-auto-rows: 1fr;
     gap: 0.55rem;
   }
 
-  .instagram-post {
+  .instagram-loading {
+    grid-column: 1 / -1;
+    margin: 0;
+    padding: 0.85rem 0.9rem;
+    border-radius: 0.75rem;
+    border: 1px dashed rgb(var(--color-primary-300));
+    color: rgb(var(--color-primary-700));
+    background: rgb(var(--color-primary-100) / 0.45);
+    font-size: 0.92rem;
+  }
+
+  :global(.instagram-post) {
+    position: relative;
     display: block;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 1rem;
+    border: 1px solid rgb(var(--color-primary-300));
     text-decoration: none;
   }
 
-  .instagram-post-thumb {
+  :global(.instagram-post)::before {
+    content: '';
+    display: block;
+    padding-top: 100%;
+  }
+
+  :global(.instagram-post-thumb) {
+    position: absolute;
+    inset: 0;
     width: 100%;
-    aspect-ratio: 1 / 1;
+    height: 100%;
     object-fit: cover;
-    border-radius: 0.6rem;
-    border: 1px solid rgb(var(--color-primary-300));
+    object-position: center;
     transition: transform 180ms ease;
   }
 
-  .instagram-post:hover .instagram-post-thumb {
+  :global(.instagram-post:hover .instagram-post-thumb) {
     transform: translateY(-1px);
+  }
+
+  :global(.instagram-post-enter) {
+    animation: instagramCardReveal 420ms cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+
+  @keyframes instagramCardReveal {
+    from {
+      opacity: 0;
+      transform: translateY(8px) scale(0.97);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    :global(.instagram-post-enter) {
+      animation: none;
+    }
   }
 
   .youtube-video {
@@ -1124,7 +1117,7 @@ const structuredData = {
     border-color: rgb(var(--color-primary-600));
   }
 
-  :global(.dark) .instagram-post-thumb {
+  :global(.dark .instagram-post) {
     border-color: rgb(var(--color-primary-600));
   }
 
