@@ -1,6 +1,0 @@
-views:
-  - type: table
-    name: Tabla
-    filters:
-      and:
-        - category == "Bicicleta de montaña"
