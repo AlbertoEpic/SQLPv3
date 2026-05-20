@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "1ae86a917dd9b84b",
         "type": "tabs",
         "children": [
           {
-            "id": "68adf343a37edda6",
+            "id": "619b038988bb0881",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "formatting",
+                "query": "islandia",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -168,7 +168,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "68adf343a37edda6",
+  "active": "6579d93cd55c5258",
   "lastOpenFiles": [
     "special/projects.md",
     "special/posts.md",
@@ -180,28 +180,29 @@
     "projects/vault-cms/glacier.png",
     "projects/attachments/rock.png",
     "projects/vault-cms",
-    "projects/astro-composer.md",
     "projects/attachments",
+    "projects/astro-composer.md",
     "projects",
     "posts/zz-040-el-sarrau-del-tuerto.md",
-    "posts/via-verde-del-bidasoa.md",
-    "posts/via-verde-de-la-val-de-zafan.md",
-    "posts/via-mosquitos-la-visera-mallos-de-riglos.md",
-    "posts/via-ferrata-regina.md",
-    "posts/via-ferrata-el-escuacho-k4.md",
-    "posts/via-ferrata-de-la-croqueta-de-obarra-k4.md",
-    "posts/un-mito-viviente.md",
-    "posts/un-finde-movidito-entre-nocito-y-caldearenas.md",
-    "posts/un-antes-y-un-despues.md",
-    "posts/ultra-trail-guara-somontano.md",
-    "posts/ultimo-peyreget-de-la-temporada.md",
-    "posts/tutorial-fabrica-tu-propio-porta-gps.md",
-    "posts/tutorial-determinar-inclinacion-de-la-pendiente.md",
-    "posts/subida-a-pena-oroel.md",
-    "posts/strokkur-iceland-pills-2.md",
-    "posts/sqlp-te-desea-feliz-ano-2016.md",
-    "posts/sqlp-kids-circular-al-urkiolaguirre-urkiolamendi-1-009m.md",
-    "posts/sos-la-sierra-de-guara-te-necesita.md",
+    "posts/y-la-nieve-se-convirtio-en-cristal.md",
+    "posts/xxxi-travesia-altos-pirineos.md",
+    "posts/women-are-awesome-hot-edition-2013-hd.md",
+    "posts/utah-esta-a-una-hora-en-coche-de-zaragoza.md",
+    "posts/usa-2012-yosemite-national-park.md",
+    "posts/usa-2012-silverton-to-durango-el-tramo-del-ct-que-todo-biker-deberia-hacer-al-menos-una-vez-en-su-vida.md",
+    "posts/usa-2012-silverton-to-durango-3-el-tramo-del-ct-que-todo-biker-deberia-hacer-al-menos-una-vez-en-su-vida.md",
+    "posts/usa-2012-silverton-to-durango-2-el-tramo-del-ct-que-todo-biker-deberia-hacer-al-menos-una-vez-en-su-vida.md",
+    "posts/usa-2012-la-serie.md",
+    "posts/usa-2012-grand-canyon-national-park.md",
+    "posts/usa-2012-colorado-trail-toma-de-contacto.md",
+    "posts/skimo-pico-bisaurin-2-670m.md",
+    "posts/skimo-pico-bataillence-2-604m.md",
+    "posts/skimo-pico-arroyetas-2-556m.md",
+    "posts/skimo-pic-de-neouvielle-3-091m.md",
+    "posts/skimo-pic-de-campbieil-3-173m.md",
+    "posts/skimo-pena-telera.md",
+    "posts/skimo-pena-sabocos-2-754m.md",
+    "posts/attachments/winter-landscape.webp",
     "posts/attachments/winter-landscape.jpg",
     "posts/attachments/vueltaMPin5.webp",
     "posts/attachments/vueltaMPin4.webp",
@@ -210,11 +211,10 @@
     "posts/attachments/vueltaMPin1.webp",
     "posts/attachments/video.mp4",
     "posts/attachments/via-verde-de-la-val-de-zafan.png",
-    "posts/attachments/via-ferrata-de-la-croqueta-de-obarra-k4.png",
     "posts/attachments/sound.wav",
-    "pages/attachments",
-    "pages",
-    "docs/sourcetree-and-git-setup",
-    "docs/attachments"
+    "posts/Sin título.base",
+    "posts/attachments",
+    "posts",
+    "bases/Home.base"
   ]
 }
