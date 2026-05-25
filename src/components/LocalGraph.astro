@@ -563,43 +563,51 @@ const shouldShowGraph = true;
             // Check if there are actually connections to show
             if (filteredData.nodes.length <= 1) {
               // Hide the entire graph container if no connections
-              outerContainer.style.display = 'none';
+              if (outerContainer) {
+                outerContainer.style.display = 'none';
+              }
               return;
             }
             // Show the graph since we have connections
-            outerContainer.style.display = 'block';
-            container.innerHTML = '';
-            renderLocalGraph(container, filteredData);
-            // Track initial dimensions for resize detection
-            lastContainerWidth = container.offsetWidth;
-            lastContainerHeight = container.offsetHeight;
+            if (outerContainer) {
+              outerContainer.style.display = 'block';
+            }
+            if (container) {
+              container.innerHTML = '';
+              renderLocalGraph(container, filteredData);
+              // Track initial dimensions for resize detection
+              lastContainerWidth = container.offsetWidth;
+              lastContainerHeight = container.offsetHeight;
+            }
           })
           .catch(error => {
             console.warn('Could not load local graph data:', error);
             if (retryCount < 3) {
               setTimeout(() => fetchLocalGraphDataWithRetry(retryCount + 1), 1000 * (retryCount + 1));
             } else {
-              container.innerHTML = `
-                <div class=\"flex items-center justify-center h-full text-primary-500 dark:text-primary-400\">
-                  <div class=\"text-center\">
-                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"w-6 h-6 mx-auto mb-2 opacity-50\">
-                      <path d=\"M15 3h4a2 2 0 0 1 2 2v4\"/>
-                      <path d=\"M10 21H6a2 2 0 0 1-2-2v-4\"/>
-                      <path d=\"M21 15v4a2 2 0 0 1-2 2h-4\"/>
-                      <path d=\"M3 9V5a2 2 0 0 1 2-2h4\"/>
-                      <path d=\"M9 9h6v6H9z\"/>
-                    </svg>
-                    <p class=\"text-xs\">Graph data not available</p>
-                    <button id=\"retry-local-graph-btn\" style=\"margin-top:1rem;padding:0.5rem 1.2rem;border-radius:6px;background:#3b82f6;color:white;font-weight:600;cursor:pointer;\">Reintentar</button>
+              if (container) {
+                container.innerHTML = `
+                  <div class=\"flex items-center justify-center h-full text-primary-500 dark:text-primary-400\">
+                    <div class=\"text-center\">
+                      <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"w-6 h-6 mx-auto mb-2 opacity-50\">
+                        <path d=\"M15 3h4a2 2 0 0 1 2 2v4\"/>
+                        <path d=\"M10 21H6a2 2 0 0 1-2-2v-4\"/>
+                        <path d=\"M21 15v4a2 2 0 0 1-2 2h-4\"/>
+                        <path d=\"M3 9V5a2 2 0 0 1 2-2h4\"/>
+                        <path d=\"M9 9h6v6H9z\"/>
+                      </svg>
+                      <p class=\"text-xs\">Graph data not available</p>
+                      <button id=\"retry-local-graph-btn\" style=\"margin-top:1rem;padding:0.5rem 1.2rem;border-radius:6px;background:#3b82f6;color:white;font-weight:600;cursor:pointer;\">Reintentar</button>
+                    </div>
                   </div>
-                </div>
-              `;
-              setTimeout(() => {
-                const retryBtn = document.getElementById('retry-local-graph-btn');
-                if (retryBtn) {
-                  retryBtn.addEventListener('click', () => fetchLocalGraphDataWithRetry(0));
-                }
-              }, 100);
+                `;
+                setTimeout(() => {
+                  const retryBtn = document.getElementById('retry-local-graph-btn');
+                  if (retryBtn) {
+                    retryBtn.addEventListener('click', () => fetchLocalGraphDataWithRetry(0));
+                  }
+                }, 100);
+              }
             }
           });
       }

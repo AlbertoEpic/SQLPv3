@@ -226,17 +226,17 @@ import Icon from './Icon.astro';
 
     fetch('/graph/graph-data.json')
       .then(response => response.json())
-      .then((data) => {
+      .then((data: { nodes: any[]; connections: any[] }) => {
         // Transform data to match D3 format
-        const graphData = {
-          nodes: data.nodes.map((node) => ({
+        const graphData: GraphData = {
+          nodes: data.nodes.map((node: any) => ({
             id: node.id,
             name: node.title || node.name,
             slug: node.slug,
             radius: Math.max(5, Math.min(15, (node.connections || 0) + 5)),
             group: node.type
           })),
-          links: data.connections.map((conn) => ({
+          links: data.connections.map((conn: any) => ({
             source: conn.source,
             target: conn.target,
             value: 1
@@ -325,27 +325,34 @@ import Icon from './Icon.astro';
       }
 
       // Añadir nodos y enlaces al batch
-      simulation.nodes(simulation.nodes().concat(currentBatch));
-      const batchLinks = links.filter(l => {
-        const src = typeof l.source === 'object' ? l.source.id : l.source;
-        const tgt = typeof l.target === 'object' ? l.target.id : l.target;
-        return currentBatch.some(n => n.id === src || n.id === tgt);
-      });
-      simulation.force<d3.ForceLink<GraphNode, any>>("link")?.links(simulation.force<d3.ForceLink<GraphNode, any>>("link")?.links().concat(batchLinks));
+      if (simulation) {
+        simulation.nodes(simulation.nodes().concat(currentBatch));
+        const batchLinks = links.filter(l => {
+          const src = typeof l.source === 'object' ? l.source.id : l.source;
+          const tgt = typeof l.target === 'object' ? l.target.id : l.target;
+          return currentBatch.some(n => n.id === src || n.id === tgt);
+        });
+        const linkForce = simulation.force<d3.ForceLink<GraphNode, any>>("link");
+        if (linkForce) {
+          const currentLinks = linkForce.links() || [];
+          linkForce.links([...currentLinks, ...batchLinks]);
+        }
 
-      // Renderizar nodos y enlaces del batch
-      containerGroup.selectAll("g")
-        .data(simulation.nodes(), (d: any) => d.id)
-        .enter()
-        .append("g")
-        .attr("data-id", (d: any) => d.id);
-      containerGroup.selectAll("line")
-        .data(simulation.force<d3.ForceLink<GraphNode, any>>("link")?.links() || [])
-        .enter()
-        .append("line")
-        .attr("stroke", colors.linkStroke)
-        .attr("stroke-width", 2)
-        .attr("stroke-opacity", 0.6);
+        // Renderizar nodos y enlaces del batch
+        containerGroup.selectAll("g")
+          .data(simulation.nodes(), (d: any) => d.id)
+          .enter()
+          .append("g")
+          .attr("data-id", (d: any) => d.id);
+        const linkForce2 = simulation.force<d3.ForceLink<GraphNode, any>>("link");
+        containerGroup.selectAll("line")
+          .data((linkForce2 && linkForce2.links()) ? linkForce2.links() : [])
+          .enter()
+          .append("line")
+          .attr("stroke", colors.linkStroke)
+          .attr("stroke-width", 2)
+          .attr("stroke-opacity", 0.6);
+      }
 
       // Continuar con el siguiente batch si quedan nodos
       if (batchEnd < nodes.length) {
@@ -378,7 +385,7 @@ import Icon from './Icon.astro';
       .attr("height", height)
       .style("background", colors.background);
 
-    const containerGroup = svg.append("g");
+    let containerGroup = svg.append("g");
 
     // Create zoom behavior
     const zoom = d3.zoom<SVGSVGElement, unknown>()

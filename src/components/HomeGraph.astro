@@ -198,6 +198,23 @@ const postsBaseUrl = withBase('/posts');
   let cleanup: (() => void) | null = null;
   let fullGraphData: GraphData | null = null;
   let currentSearchValue = '';
+
+  // Nueva función para limpiar el gráfico y estado
+  function cleanupHomeGraph() {
+    const container = document.getElementById('home-graph-container');
+    if (container) {
+      container.innerHTML = '';
+    }
+    if (cleanup) {
+      try { cleanup(); } catch {}
+      cleanup = null;
+    }
+    svg = null;
+    simulation = null;
+    fullGraphData = null;
+    currentSearchValue = '';
+    homeGraphInitialized = false;
+  }
   let currentExcludeFolders = '';
   let filterDebounce: number | null = null;
   let progressiveRenderTimer: number | null = null;
@@ -1000,7 +1017,8 @@ const postsBaseUrl = withBase('/posts');
 
   if (!(window as any).initializeHomeGraph) {
     (window as any).initializeHomeGraph = () => {
-      // Solo inicializa si el contenedor existe
+      // Siempre limpia y re-inicializa el gráfico
+      cleanupHomeGraph();
       if (!document.getElementById('home-graph-container')) return;
       initializeHomeGraph();
       setupGraphFullscreenToggle();
@@ -1011,29 +1029,16 @@ const postsBaseUrl = withBase('/posts');
     window.addEventListener('themechange', handleThemeChange);
   }
 
-  // resetHomeGraph permite que BaseLayout lo llame en cada navegación Swup,
-  // reseteando homeGraphInitialized para forzar re-fetch y re-render.
-  (window as any).resetHomeGraph = (() => {
-    let retryCount = 0;
-    const maxRetries = 20; // 2 segundos
-    function tryInit() {
-      const container = document.getElementById('home-graph-container');
-      if (container) {
-        console.log('[SQLP] init HomeGraph (SPA)');
-        homeGraphInitialized = false;
-        (window as any).initializeHomeGraph?.();
-        retryCount = 0;
-        return;
-      }
-      retryCount++;
-      if (retryCount < maxRetries) {
-        setTimeout(tryInit, 100);
-      } else {
-        retryCount = 0;
-      }
+  // resetHomeGraph permite que BaseLayout lo llame en cada navegación Swup
+  (window as any).resetHomeGraph = () => {
+    // Limpia SIEMPRE, aunque no exista el contenedor (por si se re-crea tras SPA)
+    cleanupHomeGraph();
+    // Vuelve a inicializar si el contenedor existe
+    if (document.getElementById('home-graph-container')) {
+      console.log('[SQLP] init HomeGraph (SPA)');
+      (window as any).initializeHomeGraph?.();
     }
-    return tryInit;
-  })();
+  };
 </script>
 
 <style>

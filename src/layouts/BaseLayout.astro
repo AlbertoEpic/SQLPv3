@@ -1,4 +1,8 @@
 ---
+
+// ...existing code...
+
+
 import { siteConfig, getFontFamily, getGoogleFontsUrl, shouldLoadLocalFonts, shouldLoadCdnFonts, getFontDisplay, getThemeDisplayName } from '@/config';
 import type { SEOData } from '@/types';
 import Header from '@/components/Header.astro';
@@ -1364,19 +1368,39 @@ const scrollbarClass = siteConfig.hideScrollBar ? '' : 'show-scrollbars';
 
         window.swup.hooks.on('page:view', () => {
           // ...existing code...
-          setTimeout(() => {
-            // ...existing code...
-            // Reset and initialize local graph
-            if (window.resetGraph) window.resetGraph();
-            if (window.initializeGraph) window.initializeGraph();
-            if (window.setupGraphButtons) window.setupGraphButtons();
-            // Inicializa HomeGraph e Instagram tras asegurar que el DOM está montado
-            setTimeout(() => {
-              if (window.resetHomeGraph) window.resetHomeGraph();
-              if (window.initializeHomeInstagramFeed) window.initializeHomeInstagramFeed();
-            }, 50);
-            // ...existing code...
-          }, 100);
+          // Refuerzo estructural: sincroniza theme y modo dark/light tras cada navegación SPA
+          (function syncThemeAndMode() {
+            // 1. Sincroniza dark/light
+            const storedMode = localStorage.getItem('theme');
+            const systemMode = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+            const mode = storedMode || systemMode;
+            document.documentElement.classList.remove('light', 'dark');
+            document.documentElement.classList.add(mode);
+
+            // 2. Sincroniza data-theme
+            const theme = window.getThemeWithoutClearing ? window.getThemeWithoutClearing() : (window.siteConfig?.theme || 'oxygen');
+            document.documentElement.setAttribute('data-theme', theme);
+
+            // 3. Reaplica variables CSS
+            if (window.updateThemeCSSVariables) {
+              window.updateThemeCSSVariables(theme).catch?.(console.error);
+            }
+
+            // 4. Dispara evento global para que todos los widgets reactiven su lógica
+            window.dispatchEvent(new CustomEvent('themechange', { detail: { mode, theme } }));
+          })();
+
+          // Re-inicialización de widgets tras navegación SPA (Swup)
+          if (window.resetGraph) window.resetGraph();
+          if (window.initializeGraph) window.initializeGraph();
+          if (window.setupGraphButtons) window.setupGraphButtons();
+          if (window.resetHomeGraph) window.resetHomeGraph();
+          if (window.initializeHomeInstagramFeed) window.initializeHomeInstagramFeed();
+          if (window.initializeImageGalleries) window.initializeImageGalleries();
+          if (window.initializeImagePreloader) window.initializeImagePreloader();
+          if (window.initializeGraphModal) window.initializeGraphModal();
+          if (window.initializeLinkedMentions) window.initializeLinkedMentions();
+          // ...otros widgets que expongan inicializador global
         });
       } else if (swupRetryCount < maxSwupRetries) {
         swupRetryCount++;

@@ -11,9 +11,10 @@
 const token = import.meta.env.PUBLIC_INSTAGRAM_ACCESS_TOKEN || '';
 ---
 
+
 <script src="https://cdn.jsdelivr.net/npm/instafeed.js@2/dist/instafeed.min.js"></script>
 <script is:inline>
-  window.addEventListener('DOMContentLoaded', function() {
+  function initializeHomeInstagramFeed() {
     const instagramToken = `${token}`;
     const feed = document.getElementById('instafeed');
     if (feed && instagramToken) {
@@ -30,7 +31,18 @@ const token = import.meta.env.PUBLIC_INSTAGRAM_ACCESS_TOKEN || '';
       });
       instafeed.run();
     }
-  });
+  }
+
+  // Exponer función global para SPA y primer load
+  if (!(window.initializeHomeInstagramFeed)) {
+    window.initializeHomeInstagramFeed = initializeHomeInstagramFeed;
+    // Llamar en primer load
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initializeHomeInstagramFeed);
+    } else {
+      initializeHomeInstagramFeed();
+    }
+  }
 </script>
 
 <!-- --- SECCIÓN DE ESTILOS CSS --- -->
