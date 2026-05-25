@@ -6,7 +6,7 @@ updatedDate: 2015-04-06T10:28:49Z
 draft: false
 author: AlbertoEpic
 description: "Primer episodio de la serie 'Oberland 2011'. Llegamos por la tarde al aparcamiento de Fafleralp (Blatten, Suiza) y nos acercamos a dormir al refugio de AnnenhíƒÂ¼tte: caro como un hotel de 5 estrellas, aunque luego en realidad es de 6. Primera"
-category: Esquí de travesía
+category: Viajes
 tags:
   - skimo
   - Oberland

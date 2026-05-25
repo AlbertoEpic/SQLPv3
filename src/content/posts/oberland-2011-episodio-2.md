@@ -6,7 +6,7 @@ updatedDate: 2015-04-06T10:28:49Z
 draft: false
 author: AlbertoEpic
 description: "Segundo día en el Oberland. Tras la toma de contacto del primer día, hoy nos toca la primera jornada completa: de refugio a refugio pasando por una cima. Partimos de AnnenhíƒÂ¼tte, superamos los seracs del Anungletscher y hacemos cima en el Mi"
-category: Esquí de travesía
+category: Viajes
 tags:
   - alpes
   - Mittaghorn

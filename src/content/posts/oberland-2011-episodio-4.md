@@ -6,7 +6,7 @@ updatedDate: 2015-04-06T10:28:49Z
 draft: false
 author: AlbertoEpic
 description: "Llegamos al ecuador de nuestra travesía por el Oberland. Hoy nos toca día de descanso, pero por supuesto, descanso activo: nos levantamos los últimos, desayunamos y sin ninguna prisa abandonamos el Mönchsjoch para realizar la ascensión al "
-category: Esquí de travesía
+category: Viajes
 tags:
   - alpes
   - Mönch

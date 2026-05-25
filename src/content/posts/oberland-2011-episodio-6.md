@@ -6,7 +6,7 @@ updatedDate: 2015-04-06T10:28:49Z
 draft: false
 author: AlbertoEpic
 description: "Hoy es nuestro sexto día en el Oberland. Hasta ahora, todo han sido picos 'alpinos', donde los esquís sólo sirven para la aproximación. Hay que remediarlo: hoy elegimos el Wyssnollen. Digamos que es el 'Peyreget' del Oberland :-) y gracias "
-category: Esquí de travesía
+category: Viajes
 tags:
   - wyssnollen
   - viajes

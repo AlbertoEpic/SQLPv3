@@ -6,7 +6,7 @@ updatedDate: 2015-04-06T10:28:49Z
 draft: false
 author: AlbertoEpic
 description: "Y llegamos a la última etapa de nuestra travesía por el Oberland. La buena meteo y la aclimatación conseguida en esta semana ha hecho que en nuestra cabeza se vaya alimentando una idea: ¿Mont Blanc? Así que nuestra misión hoy es salir tempr"
-category: Esquí de travesía
+category: Viajes
 tags:
   - alpes
   - Fafleralp

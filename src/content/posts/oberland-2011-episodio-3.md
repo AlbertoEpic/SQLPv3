@@ -6,7 +6,7 @@ updatedDate: 2015-04-06T10:28:49Z
 draft: false
 author: AlbertoEpic
 description: El tercer día en el Oberland acometemos la etapa más larga. Salimos al amanecer desde HollandiahíƒÂ¼tte y nos deslizamos hasta KonkordiaPlatz. Allí, ponemos pieles y comenzamos a remontar el glaciar Jungfraufirn con idea de ascender al Jungfra
-category: Esquí de travesía
+category: Viajes
 tags:
   - Oberland
   - viajes

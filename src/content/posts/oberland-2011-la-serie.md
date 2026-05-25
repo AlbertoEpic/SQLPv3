@@ -6,7 +6,7 @@ updatedDate: 2015-04-06T10:28:49Z
 draft: false
 author: AlbertoEpic
 description: La factoría de Producciones SoloQuedaLoPeor está que arde. Recién regresados de una travesía de 7 días por el Oberland Bernés, tenemos 12Gb de material grabado en FullHD para procesar. Suficiente para la realización de una serie de varios e
-category: Esquí de travesía
+category: Viajes
 tags:
   - alpes
   - Oberland

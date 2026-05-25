@@ -6,7 +6,7 @@ updatedDate: 2015-04-06T10:28:49Z
 draft: false
 author: AlbertoEpic
 description: Esta es nuestra 5 etapa en el Oberland. Hoy toca madrugar para salir bajando del Mönchsjoch-hutte, cruzar el collado Obers Mönchsjoch y esquiar a lo largo del EmigschneefíƒÂ¤ld hasta la altura de los Fiescherhorn, donde giramos a la izquierda
-category: Esquí de travesía
+category: Viajes
 tags:
   - grosses-fiescherhorn
   - viajes
