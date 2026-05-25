@@ -11,6 +11,7 @@ tags:
   - islandia
   - vik
   - viajes
+  - iceland
 ---
 
 ## Un paseo fotográfico...
