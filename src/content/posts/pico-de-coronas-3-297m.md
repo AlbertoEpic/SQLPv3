@@ -1,0 +1,63 @@
+---
+title: Pico de Coronas (3.297m)
+heroImage: attachments/Sin-titulo_1.7.3-1024x576.webp
+pubDate: 2025-05-22T10:11:04Z
+updatedDate: 2025-05-22T10:16:21Z
+draft: false
+author: AlbertoEpic
+description: Un relajado fin de temporada de skimo... El pasado sábado, y sin estar muy convencidos, en SQLP decidimos dar por concluída la temporada de skimo '24/25. Por arriba sigue quedando mucha nieve, sí... pero las temperaturas en el llano hacen q
+category: Esquí de travesía
+tags:
+  - coronas
+  - Primavera
+  - skimo
+  - valle_de_benasque
+---
+
+## Un relajado fin de temporada de skimo...
+
+El pasado sábado, y sin estar muy convencidos, en SQLP decidimos dar por concluída la temporada de skimo '24/25. Por arriba sigue quedando mucha nieve, sí... pero las temperaturas en el llano hacen que la bici nos mire con ojitos cada vez que pasamos por su lado en el garage ;-)
+
+Y en este caso se daban las condiciones para realizar una actividad que nos deje buen sabor de boca hasta el próximo invierno: porteo breve, hasta La Renclusa, buena meteo y mejor compañía. Se reunieron [tres históricos de SQLP](skimo-pic-de-neouvielle-3-091m/) (Miriam, Silvia y AlbertoEpic) junto con un nuevo y prometedor fichaje, Elena.
+
+## El vídeo
+A continuación puedes ver el vídeo de la actividad, gracias a Producciones SQLP:
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MMnusdXUTIs" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+## El track
+Si te ha gustado el vídeo y te apetece repetir la actividad, a continuación tienes el track.
+
+<iframe class="alltrails" src="https://www.alltrails.com/es/widget/map/map-be4e02a-19?scrollZoom=ó&u=m&sh=w4k06q" width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="AllTrails: Trail Guides and Maps for Hiking, Camping, and Running"></iframe>
+
+Al amanecer, el objetivo todavía no estaba muy claro: Aneto? Coronas? Maladeta Oriental? Con la desconfiguración multiorgánica que provoca el despertador a las 5am, nuestros protagonistas fueron ganando altura en modo 'zombie', cada uno luchando contra sus demonios...
+
+Tras el paso del Portillón Superior, la cosa quedaba bastante clara. Habiendo llegado hasta allí constantemente rodeados de una multitud de gente en pleno 'asalto' al Aneto, el grupo decide desmarcarse y fijar un objetivo algo más modesto y muuuucho menos concurrido: pico de Coronas! También había gente, sí, pero era posible estar solos disfrutando de la cima.
+
+## Las fotos
+Te dejamos con algunas fotos.
+
+![Silvia poco después de cruzar el Portillón Superior.](attachments/Sin-titulo_1.7.3-1024x576.webp)
+
+*Silvia poco después de cruzar el Portillón Superior.*
+
+![Huyendo de la masificación absoluta en el Aneto, Elena subiendo hacia el collado del Medio.](attachments/Sin-titulo_1.12.1-1024x576.webp)
+
+*Huyendo de la masificación absoluta en el Aneto, Elena subiendo hacia el collado del Medio.*
+
+![Miriam en la arista cimera del Coronas, con el masificado Aneto al fondo.](attachments/Sin-titulo_1.14.1-1024x576.webp)
+
+*Miriam en la arista cimera del Coronas, con el masificado Aneto al fondo.*
+
+![Elena, AlbertoEpic y Miriam. Selfie de cima, con una meteo fantabulosa... (Foto: Miriam)](attachments/WhatsApp-Image-2025-05-17-at-21.49.57-1024x768.webp)
+
+*Elena, AlbertoEpic y Miriam. Selfie de cima, con una meteo fantabulosa... (Foto: Miriam)*
+
+![Miriam y Elena regresando al collado del Medio, con el elegante pico del Medio al fondo.](attachments/Sin-titulo_1.18.1-1024x576.webp)
+
+*Miriam y Elena regresando al collado del Medio, con el elegante pico del Medio al fondo.*
+
+
+

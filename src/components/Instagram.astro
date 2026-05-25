@@ -1,0 +1,64 @@
+---
+
+
+<section class="instagram-contenedor">
+
+  <h2>Sígueme en Instagram</h2>
+  <div id="instafeed" class="instagram-grid"></div>
+</section>
+
+---
+const token = import.meta.env.PUBLIC_INSTAGRAM_ACCESS_TOKEN || '';
+---
+
+<script src="https://cdn.jsdelivr.net/npm/instafeed.js@2/dist/instafeed.min.js"></script>
+<script is:inline>
+  window.addEventListener('DOMContentLoaded', function() {
+    const instagramToken = `${token}`;
+    const feed = document.getElementById('instafeed');
+    if (feed && instagramToken) {
+      feed.innerHTML = '';
+      const instafeed = new Instafeed({
+        accessToken: instagramToken,
+        limit: 6,
+        target: 'instafeed',
+        template: `
+          <a href="{{link}}" target="_blank" rel="noopener noreferrer" class="instagram-tarjeta" role="listitem" aria-label="Ver {{caption}}">
+            <img src="{{image}}" alt="{{caption}}" loading="lazy" decoding="async" class="instagram-tarjeta" width="400" height="400" />
+          </a>
+        `
+      });
+      instafeed.run();
+    }
+  });
+</script>
+
+<!-- --- SECCIÓN DE ESTILOS CSS --- -->
+<style>
+  .instagram-contenedor {
+    margin: 40px auto;
+    max-width: 1000px;
+    padding: 0 20px;
+  }
+  .instagram-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 16px;
+    margin-top: 20px;
+  }
+  .instagram-tarjeta {
+    overflow: hidden;
+    border-radius: 8px;
+    aspect-ratio: 1 / 1;
+    display: block;
+  }
+  .instagram-tarjeta img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  .instagram-tarjeta:hover img {
+    transform: scale(1.05);
+  }
+</style>

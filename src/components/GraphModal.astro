@@ -1,0 +1,795 @@
+---
+import { siteConfig } from '@/config';
+import Icon from './Icon.astro';
+---
+
+<!-- Graph Modal Overlay -->
+<div 
+  id="graph-modal-overlay" 
+  class="fixed inset-0 z-50 hidden bg-black/50 backdrop-blur-sm animate-fade-in"
+  role="dialog"
+  aria-modal="true"
+>
+  <div class="flex min-h-full items-center justify-center p-4">
+    <div class="relative w-full max-w-6xl h-[80vh] bg-white dark:bg-primary-900 rounded-xl shadow-2xl border border-primary-200 dark:border-primary-700 animate-scale-in">
+
+      <!-- Close Button -->
+      <button 
+        id="graph-modal-close"
+        class="absolute top-4 right-4 z-10 p-2 text-primary-500 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-200 transition-colors rounded-lg hover:bg-primary-100 dark:hover:bg-primary-800"
+        aria-label="Close graph modal"
+      >
+        <Icon name="x" class="w-5 h-5" />
+      </button>
+
+      <!-- Graph Container -->
+      <div id="graph-modal-container" class="w-full h-full bg-primary-50 dark:bg-primary-800 rounded-xl overflow-hidden" style="touch-action: none;">
+        <!-- Graph will be rendered here -->
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  import * as d3 from "d3";
+  import { getGraphThemeColors } from '@/utils/graph-theme-colors';
+  
+  // Graph Modal Functionality
+  let graphModalInitialized = false;
+  let svg: d3.Selection<SVGSVGElement, undefined, null, undefined> | null = null;
+  let simulation: d3.Simulation<any, any> | null = null;
+  let cleanup: (() => void) | null = null;
+  let hasFittedToGraph = false; // Prevent multiple fitToGraph calls
+  
+  interface GraphNode {
+    id: string;
+    name: string;
+    slug?: string;
+    radius: number;
+    group?: string;
+    x?: number;
+    y?: number;
+    fx?: number | null;
+    fy?: number | null;
+  }
+
+  interface GraphLink {
+    source: string | GraphNode;
+    target: string | GraphNode;
+    value: number;
+  }
+
+  interface GraphData {
+    nodes: GraphNode[];
+    links: GraphLink[];
+  }
+  
+  function createGraphModalHTML() {
+    // Check if modal already exists
+    if (document.getElementById('graph-modal-overlay')) {
+      return;
+    }
+    
+    const modal = document.createElement('div');
+    modal.id = 'graph-modal-overlay';
+    modal.className = 'fixed inset-0 z-50 bg-black/50 backdrop-blur-sm animate-fade-in hidden';
+    modal.innerHTML = `
+      <div class="flex min-h-full items-center justify-center p-4">
+        <div class="relative w-full max-w-7xl h-[90vh] bg-primary-50 dark:bg-primary-800 rounded-xl shadow-2xl border border-primary-200 dark:border-primary-700 animate-scale-in">
+          <button 
+            id="graph-modal-close"
+            class="absolute top-4 right-4 z-10 p-2 text-primary-500 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-200 transition-colors rounded-lg hover:bg-primary-100 dark:hover:bg-primary-700"
+            aria-label="Close"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M18 6L6 18"/>
+              <path d="M6 6l12 12"/>
+            </svg>
+          </button>
+          <div id="graph-modal-container" class="w-full h-full bg-primary-50 dark:bg-primary-800 rounded-xl overflow-hidden" style="touch-action: none;">
+            <div class="flex items-center justify-center h-full text-primary-500 dark:text-primary-400">
+              <div class="text-center">
+                <div class="animate-spin w-8 h-8 mx-auto mb-4 opacity-50">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 12a9 9 0 11-6.219-8.56"/>
+                  </svg>
+                </div>
+                <p class="text-sm">Loading graph...</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    `;
+    document.body.appendChild(modal);
+  }
+  
+  // Global modal functions that can be called from anywhere
+  function openModal() {
+    const overlay = document.getElementById('graph-modal-overlay') as HTMLElement;
+    if (!overlay) {
+      createGraphModalHTML();
+      // Try again after creating the HTML
+      setTimeout(() => {
+        openModal();
+      }, 100);
+      return;
+    }
+    
+    overlay.classList.remove('hidden');
+    overlay.style.display = 'block';
+    overlay.style.visibility = 'visible';
+    overlay.style.opacity = '1';
+    overlay.style.zIndex = '9999';
+    overlay.style.position = 'fixed';
+    overlay.style.top = '0';
+    overlay.style.left = '0';
+    overlay.style.width = '100vw';
+    overlay.style.height = '100vh';
+    overlay.style.backgroundColor = 'rgba(0, 0, 0, 0.5)';
+    document.body.style.overflow = 'hidden';
+    
+    // Reset the fitToGraph flag when opening
+    hasFittedToGraph = false;
+    
+    loadGraphData();
+  }
+
+  function closeModal() {
+    const overlay = document.getElementById('graph-modal-overlay') as HTMLElement;
+    if (!overlay) return;
+    
+    overlay.classList.add('hidden');
+    // Reset all inline styles
+    overlay.style.display = '';
+    overlay.style.visibility = '';
+    overlay.style.opacity = '';
+    overlay.style.zIndex = '';
+    overlay.style.position = '';
+    overlay.style.top = '';
+    overlay.style.left = '';
+    overlay.style.width = '';
+    overlay.style.height = '';
+    overlay.style.backgroundColor = '';
+    document.body.style.overflow = '';
+    
+    // Reset fitToGraph flag
+    hasFittedToGraph = false;
+    
+    // Clean up D3 graph
+    if (cleanup) {
+      cleanup();
+      cleanup = null;
+    }
+  }
+
+  function handleGraphContainerClick(e: Event) {
+    // Prevent clicks on the graph container from bubbling up to the overlay
+    e.stopPropagation();
+  }
+
+  function attachEventListeners() {
+    // Remove existing listeners to prevent duplicates
+    const closeButton = document.getElementById('graph-modal-close') as HTMLButtonElement;
+    const overlay = document.getElementById('graph-modal-overlay') as HTMLElement;
+    const graphContainer = document.getElementById('graph-modal-container') as HTMLElement;
+    
+    if (closeButton) {
+      // Remove existing listeners by removing and re-adding the event listener
+      closeButton.removeEventListener('click', closeModal);
+      closeButton.addEventListener('click', closeModal);
+    }
+    
+    if (overlay) {
+      // Remove existing listeners by removing and re-adding the event listener
+      overlay.removeEventListener('click', handleOverlayClick);
+      overlay.addEventListener('click', handleOverlayClick);
+    }
+    
+    if (graphContainer) {
+      // Prevent clicks on the graph container from bubbling up to the overlay
+      graphContainer.removeEventListener('click', handleGraphContainerClick);
+      graphContainer.addEventListener('click', handleGraphContainerClick);
+    }
+  }
+
+  function handleOverlayClick(e: Event) {
+    const overlay = e.target as HTMLElement;
+    const modalContent = overlay.querySelector('.relative');
+    const graphContainer = overlay.querySelector('#graph-modal-container');
+    
+    // Only close if clicking on the overlay itself, not on the modal content or graph
+    if (e.target === overlay && !modalContent?.contains(e.target as Node) && !graphContainer?.contains(e.target as Node)) {
+      closeModal();
+    }
+  }
+
+  function loadGraphData(retryCount = 0) {
+    const container = document.getElementById('graph-modal-container') as HTMLElement;
+    if (!container) {
+      return;
+    }
+
+    // Show loading state immediately
+    container.innerHTML = `
+      <div style="display:flex;align-items:center;justify-content:center;height:100%;text-align:center;" class="text-primary-500 dark:text-primary-400">
+        <div>
+          <div class="animate-spin" style="width:2rem;height:2rem;margin:0 auto 1rem;opacity:0.5;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 12a9 9 0 11-6.219-8.56"/>
+            </svg>
+          </div>
+          <p style="font-size:0.875rem;">Cargando grafo...</p>
+        </div>
+      </div>
+    `;
+
+    fetch('/graph/graph-data.json')
+      .then(response => response.json())
+      .then((data) => {
+        // Transform data to match D3 format
+        const graphData = {
+          nodes: data.nodes.map((node) => ({
+            id: node.id,
+            name: node.title || node.name,
+            slug: node.slug,
+            radius: Math.max(5, Math.min(15, (node.connections || 0) + 5)),
+            group: node.type
+          })),
+          links: data.connections.map((conn) => ({
+            source: conn.source,
+            target: conn.target,
+            value: 1
+          }))
+        };
+        renderGraph(container, graphData);
+      })
+      .catch(error => {
+        console.warn('No se pudo cargar el grafo:', error);
+        if (retryCount < 3) {
+          setTimeout(() => loadGraphData(retryCount + 1), 1000 * (retryCount + 1));
+        } else {
+          container.innerHTML = `
+            <div style="display:flex;align-items:center;justify-content:center;height:100%;text-align:center;" class="text-primary-500 dark:text-primary-400">
+              <div>
+                <svg style="width:3rem;height:3rem;margin:0 auto 1rem;opacity:0.5;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"/>
+                </svg>
+                <p style="font-size:1.125rem;font-weight:500;">No se pudo cargar el grafo</p>
+                <p style="font-size:0.875rem;margin-top:0.5rem;">Verifica que el proceso de build ha generado el archivo o reintenta.</p>
+                <button id="retry-graph-btn" style="margin-top:1rem;padding:0.5rem 1.2rem;border-radius:6px;background:#3b82f6;color:white;font-weight:600;cursor:pointer;">Reintentar</button>
+              </div>
+            </div>
+          `;
+          setTimeout(() => {
+            const retryBtn = document.getElementById('retry-graph-btn');
+            if (retryBtn) {
+              retryBtn.addEventListener('click', () => loadGraphData(0));
+            }
+          }, 100);
+        }
+      });
+  }
+
+  function renderGraph(container: HTMLElement, data: GraphData) {
+    const colors = getGraphThemeColors();
+    const isDarkMode = document.documentElement.classList.contains('dark');
+    const width = container.offsetWidth;
+    const height = container.offsetHeight;
+    const radiusForce = 300;
+    let dragStartX = 0;
+    let dragStartY = 0;
+    const CLICK_DISTANCE = 5; // px threshold to distinguish click from drag
+    let isDraggingNode = false;
+
+    // Clear container
+    container.innerHTML = '';
+    
+
+    // Limitar a 600 nodos y filtrar enlaces relacionados
+    const MAX_NODES = 600;
+    const batchSize = 50;
+    const allNodes = data.nodes.map((d) => ({ ...d }));
+    const allLinks = data.links.map((d) => ({ ...d }));
+    const nodes = allNodes.slice(0, MAX_NODES);
+    const nodeIds = new Set(nodes.map(n => n.id));
+    const links = allLinks.filter(l => nodeIds.has(typeof l.source === 'object' ? l.source.id : l.source) && nodeIds.has(typeof l.target === 'object' ? l.target.id : l.target));
+
+    // Renderizado progresivo
+    function progressiveRender(batchStart = 0) {
+      const batchEnd = Math.min(batchStart + batchSize, nodes.length);
+      const currentBatch = nodes.slice(batchStart, batchEnd);
+      // Añadir nodos y enlaces del batch actual
+      if (batchStart === 0) {
+        // Primer batch: crear simulación y SVG
+        simulation = d3
+          .forceSimulation<GraphNode>([])
+          .force(
+            "link",
+            d3.forceLink([]).id((d: any) => d.id).distance(100)
+          )
+          .force("charge", d3.forceManyBody().strength(-radiusForce))
+          .force("x", d3.forceX(width / 2).strength(0.1))
+          .force("y", d3.forceY(height / 2).strength(0.1))
+          .force("collision", d3.forceCollide().radius((d: any) => d.radius + 5));
+
+        svg = d3
+          .select(container)
+          .append("svg")
+          .attr("width", width)
+          .attr("height", height)
+          .style("background", colors.background);
+        containerGroup = svg.append("g");
+        svg.call(zoom as any);
+        if (svg) svg.style('cursor', 'default');
+      }
+
+      // Añadir nodos y enlaces al batch
+      simulation.nodes(simulation.nodes().concat(currentBatch));
+      const batchLinks = links.filter(l => {
+        const src = typeof l.source === 'object' ? l.source.id : l.source;
+        const tgt = typeof l.target === 'object' ? l.target.id : l.target;
+        return currentBatch.some(n => n.id === src || n.id === tgt);
+      });
+      simulation.force<d3.ForceLink<GraphNode, any>>("link")?.links(simulation.force<d3.ForceLink<GraphNode, any>>("link")?.links().concat(batchLinks));
+
+      // Renderizar nodos y enlaces del batch
+      containerGroup.selectAll("g")
+        .data(simulation.nodes(), (d: any) => d.id)
+        .enter()
+        .append("g")
+        .attr("data-id", (d: any) => d.id);
+      containerGroup.selectAll("line")
+        .data(simulation.force<d3.ForceLink<GraphNode, any>>("link")?.links() || [])
+        .enter()
+        .append("line")
+        .attr("stroke", colors.linkStroke)
+        .attr("stroke-width", 2)
+        .attr("stroke-opacity", 0.6);
+
+      // Continuar con el siguiente batch si quedan nodos
+      if (batchEnd < nodes.length) {
+        requestAnimationFrame(() => progressiveRender(batchEnd));
+      } else {
+        // Cuando termina, continuar con el resto del renderizado (labels, eventos, etc.)
+        // ...existing code...
+      }
+    }
+
+    progressiveRender(0);
+
+    // Create force simulation
+    simulation = d3
+      .forceSimulation<GraphNode>(nodes)
+      .force(
+        "link",
+        d3.forceLink(links).id((d: any) => d.id).distance(100)
+      )
+      .force("charge", d3.forceManyBody().strength(-radiusForce))
+      .force("x", d3.forceX(width / 2).strength(0.1))
+      .force("y", d3.forceY(height / 2).strength(0.1))
+      .force("collision", d3.forceCollide().radius((d: any) => d.radius + 5));
+
+    // Create SVG
+    let svg = d3
+      .select(container)
+      .append("svg")
+      .attr("width", width)
+      .attr("height", height)
+      .style("background", colors.background);
+
+    const containerGroup = svg.append("g");
+
+    // Create zoom behavior
+    const zoom = d3.zoom<SVGSVGElement, unknown>()
+      .scaleExtent([0.1, 8]) // Extended zoom range for more flexibility
+      .wheelDelta((event) => {
+        // Conservative wheel delta
+        return -event.deltaY * 0.001;
+      })
+      .filter((event) => {
+        if (isDraggingNode) return false;
+        if (event.type === 'wheel') return true;
+        if (event.type === 'mousedown') {
+          return !event.target.closest('g[data-id]');
+        }
+        if (event.type === 'touchstart' || event.type === 'touchmove') {
+          if (event.touches && event.touches.length >= 2) return true;
+          return !event.target.closest('g[data-id]');
+        }
+        return false;
+      })
+      .on("start", function(event) {
+        // Show grabbing cursor only when starting to pan on empty space
+        if (event.sourceEvent && event.sourceEvent.type === 'mousedown') {
+          const isOnNode = !!(event.sourceEvent.target as Element)?.closest('g[data-id]');
+          if (!isOnNode && svg) svg.style('cursor', 'grabbing');
+        }
+      })
+      .on("end", function(event) {
+        // Always restore default cursor when zoom behavior ends
+        if (svg) svg.style('cursor', 'default');
+      })
+      .on("zoom", (event) => {
+        // Direct transform - no throttling or delays
+        containerGroup.attr("transform", event.transform);
+        
+        // Hide/show labels based on zoom level
+        const scale = event.transform.k;
+        const labelThreshold = 0.6; // Hide labels when zoomed out beyond this threshold
+        
+        if (scale < labelThreshold) {
+          // Hide all labels when zoomed out
+          labels.style("opacity", 0);
+        } else {
+          // Show all labels when zoomed in
+          labels.style("opacity", 1);
+        }
+      });
+
+    svg.call(zoom as any);
+    if (svg) svg.style('cursor', 'default');
+
+      // Create links
+      const link = containerGroup
+        .selectAll("line")
+        .data(links)
+        .enter()
+        .append("line")
+        .attr("stroke", colors.linkStroke)
+        .attr("stroke-width", 2)
+        .attr("stroke-opacity", 0.6);
+
+      // Create node groups
+      const nodeGroup = containerGroup
+        .selectAll("g")
+        .data(nodes)
+        .enter()
+        .append("g")
+        .attr("data-id", (d) => d.id)
+        .call(
+          d3
+            .drag<SVGGElement, GraphNode>()
+            .on("start", function (event) {
+              dragStartX = event.x;
+              dragStartY = event.y;
+              isDraggingNode = true;
+              if (svg) svg.style('cursor', 'default');
+              if (!event.active) simulation!.alphaTarget(0.1).restart();
+              event.subject.fx = event.subject.x;
+              event.subject.fy = event.subject.y;
+            })
+            .on("drag", function (event, d) {
+              d.fx = event.x;
+              d.fy = event.y;
+            })
+            .on("end", function (event, d) {
+              isDraggingNode = false;
+              if (svg) svg.style('cursor', 'default');
+              if (!event.active) simulation!.alphaTarget(0);
+              event.subject.fx = null;
+              event.subject.fy = null;
+
+              // Navigate on click (no drag movement). Uses distance threshold
+              // because D3 drag fires for even 1px of movement. Handled here
+              // instead of a "click" listener because D3 drag calls
+              // stopImmediatePropagation on mouseup in Chrome.
+              const dx = event.x - dragStartX;
+              const dy = event.y - dragStartY;
+              const dist = Math.sqrt(dx * dx + dy * dy);
+              if (dist < CLICK_DISTANCE && d.slug) {
+                closeModal();
+
+                if ((window as any).swup) {
+                  if ((window as any).resetLocalGraph) {
+                    (window as any).resetLocalGraph();
+                  }
+                  (window as any).swup.navigate(`/posts/${d.slug}`);
+                } else {
+                  window.location.href = `/posts/${d.slug}`;
+                }
+              }
+            }) as any,
+        );
+        
+      // Build neighbor map for hover effects
+      const neighbors = new Map<string, Set<string>>();
+      for (const link of links) {
+        const src = typeof link.source === "object" ? link.source.id : link.source;
+        const tgt = typeof link.target === "object" ? link.target.id : link.target;
+        if (!neighbors.has(src)) neighbors.set(src, new Set());
+        if (!neighbors.has(tgt)) neighbors.set(tgt, new Set());
+
+        neighbors.get(src)!.add(tgt);
+        neighbors.get(tgt)!.add(src);
+      }
+
+      // Add hover effects
+      nodeGroup
+        .on("mouseover", function (_event: any, d: GraphNode) {
+          const connected = neighbors.get(d.id) ?? new Set<string>();
+          connected.add(d.id);
+
+          link.transition().duration(180)
+            .attr("stroke", (l: any) =>
+              (typeof l.source === 'object' ? l.source.id : l.source) === d.id ||
+              (typeof l.target === 'object' ? l.target.id : l.target) === d.id
+                ? colors.tagFill : colors.linkStroke)
+            .attr("stroke-width", (l: any) =>
+              (typeof l.source === 'object' ? l.source.id : l.source) === d.id ||
+              (typeof l.target === 'object' ? l.target.id : l.target) === d.id ? 3 : 1.5)
+            .attr("stroke-opacity", (l: any) =>
+              (typeof l.source === 'object' ? l.source.id : l.source) === d.id ||
+              (typeof l.target === 'object' ? l.target.id : l.target) === d.id ? 0.9 : 0.08);
+
+          nodeGroup.selectAll<SVGCircleElement, GraphNode>("circle")
+            .attr("fill-opacity", (n: GraphNode) => connected.has(n.id) ? 1 : 0.18)
+            .attr("fill", (n: GraphNode) => n.id === d.id ? colors.tagFill : colors.postFill)
+            .attr("stroke", (n: GraphNode) => n.id === d.id ? colors.tagStroke : colors.postStroke)
+            .attr("stroke-width", (n: GraphNode) => n.id === d.id ? 3 : 2)
+            .attr("filter", (n: GraphNode) => n.id === d.id ? "url(#node-shadow)" : null);
+
+          labels.transition().duration(180)
+            .style("opacity", (n: any) => connected.has(n.id) ? 1 : 0.08);
+        })
+        .on("mouseout", function () {
+          link.transition().duration(180)
+            .attr("stroke", colors.linkStroke)
+            .attr("stroke-width", 2)
+            .attr("stroke-opacity", 0.6);
+
+          nodeGroup.selectAll<SVGCircleElement, GraphNode>("circle")
+            .attr("fill", colors.postFill)
+            .attr("fill-opacity", 1)
+            .attr("stroke", colors.postStroke)
+            .attr("stroke-width", 2)
+            .attr("filter", "url(#node-shadow)");
+
+          const currentTransform = svg ? d3.zoomTransform(svg.node() as Element) : { k: 1 };
+          labels.transition().duration(180)
+            .style("opacity", (n: any) => currentTransform.k < 0.6 ? 0 : 0.6);
+        });
+
+      // Create circles
+      const node = nodeGroup
+        .append("circle")
+        .attr("r", (d) => d.radius)
+        .attr("fill", colors.postFill)
+        .attr("stroke", colors.postStroke)
+        .attr("stroke-width", 2)
+        .attr("filter", "url(#node-shadow)")
+        .attr("cursor", "pointer")
+        .style("transition", "fill 0.2s, stroke 0.2s, filter 0.2s");
+
+      // Definir filtro SVG para sombra
+      svg.append("defs").html(`
+        <filter id="node-shadow" x="-30%" y="-30%" width="160%" height="160%">
+          <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="${colors.linkStroke}" flood-opacity="0.18"/>
+        </filter>
+      `);
+
+      // Create labels
+      const labels = nodeGroup
+        .append("g")
+        .attr("class", "graph-label-group")
+        .style("pointer-events", "none")
+        .style("opacity", 0.6);
+
+      labels.append("rect")
+        .attr("x", (d) => -d.name.length * 3.5)
+        .attr("y", (d) => d.radius + 1)
+        .attr("width", (d) => d.name.length * 7 + 10)
+        .attr("height", 22)
+        .attr("rx", 8)
+        .attr("fill", isDarkMode ? "rgba(30,41,59,0.85)" : "rgba(255,255,255,0.85)")
+        .attr("stroke", colors.backgroundSecondary)
+        .attr("stroke-width", 1);
+
+      labels.append("text")
+        .text((d) => d.name)
+        .attr("x", 0)
+        .attr("y", (d) => d.radius + 16)
+        .attr("text-anchor", "middle")
+        .attr("font-size", "13px")
+        .attr("font-weight", "500")
+        .attr("fill", colors.postText)
+        .style("user-select", "none");
+
+      // Update positions on simulation tick
+      simulation.on("tick", () => {
+        link
+          .attr("x1", (d: any) => d.source.x)
+          .attr("y1", (d: any) => d.source.y)
+          .attr("x2", (d: any) => d.target.x)
+          .attr("y2", (d: any) => d.target.y);
+
+        nodeGroup.attr("transform", (d: any) => `translate(${d.x},${d.y})`);
+      });
+
+      simulation.alpha(1).restart();
+
+      // Don't auto-fit to graph - let user control the view
+      // Only fit if explicitly requested via keyboard shortcut
+
+      // Set up cleanup function
+      cleanup = () => {
+        if (simulation) {
+          simulation.stop();
+          simulation = null;
+        }
+        if (svg) {
+          svg.remove();
+        }
+      };
+
+      // Add keyboard shortcuts
+      const handleKeyDown = (e: KeyboardEvent) => {
+        const overlay = document.getElementById('graph-modal-overlay') as HTMLElement;
+        if (overlay && !overlay.classList.contains('hidden')) {
+          switch (e.key) {
+            case 'r':
+              if (svg) {
+                svg.transition().duration(300).call(
+                  zoom.transform as any,
+                  d3.zoomIdentity.scale(1).translate(0, 0)
+                );
+              }
+              break;
+            case 'c':
+              if (svg) {
+                // Get the SVG dimensions
+                const svgNode = svg.node();
+                if (!svgNode) return;
+                const svgRect = svgNode.getBoundingClientRect();
+                const width = svgRect.width;
+                const height = svgRect.height;
+                
+                // Get all nodes to calculate bounds
+                const nodes = svg.selectAll('g[data-id]').nodes();
+                if (nodes.length === 0) return;
+                
+                // Calculate bounding box of all nodes
+                let minX = Infinity, maxX = -Infinity, minY = Infinity, maxY = -Infinity;
+                nodes.forEach((node) => {
+                  if (node && node instanceof Element) {
+                    const transform = node.getAttribute('transform');
+                    if (transform) {
+                      const match = transform.match(/translate\(([^,]+),\s*([^)]+)\)/);
+                      if (match) {
+                        const x = parseFloat(match[1]);
+                        const y = parseFloat(match[2]);
+                        minX = Math.min(minX, x);
+                        maxX = Math.max(maxX, x);
+                        minY = Math.min(minY, y);
+                        maxY = Math.max(maxY, y);
+                      }
+                    }
+                  }
+                });
+                
+                // Add padding
+                const padding = 50;
+                const boundsWidth = maxX - minX + padding * 2;
+                const boundsHeight = maxY - minY + padding * 2;
+                
+                // Calculate scale to fit viewport
+                const scaleX = width / boundsWidth;
+                const scaleY = height / boundsHeight;
+                const scale = Math.min(scaleX, scaleY); // Allow zoom out (scale < 1)
+                
+                // Constrain scale to reasonable bounds (0.1 to 3)
+                const constrainedScale = Math.max(0.1, Math.min(3, scale));
+                
+                // Calculate translation to center
+                const graphCenterX = (minX + maxX) / 2;
+                const graphCenterY = (minY + maxY) / 2;
+                const centerX = (width / 2) / constrainedScale - graphCenterX;
+                const centerY = (height / 2) / constrainedScale - graphCenterY;
+                
+                svg.transition().duration(300).call(
+                  zoom.transform as any,
+                  d3.zoomIdentity.scale(constrainedScale).translate(centerX, centerY)
+                );
+              }
+              break;
+          }
+        }
+      };
+      
+      document.addEventListener('keydown', handleKeyDown);
+      
+      // Update cleanup function
+      const originalCleanup = cleanup;
+      cleanup = () => {
+        document.removeEventListener('keydown', handleKeyDown);
+        if (originalCleanup) originalCleanup();
+      };
+    }
+
+      function fitToGraph(svgElement: any, nodes: GraphNode[], width: number, height: number, zoomBehavior: any) {
+        if (!svgElement) {
+          return;
+        }
+        
+        // Instead of fitting nodes, zoom OUT to show the entire graph area
+        // Use a small scale to zoom OUT and show everything
+        const scale = 0.3; // Zoom OUT to 30% (much smaller)
+        
+        // Center the graph in the viewport
+        const x = (width / 2) - (width / 2 * scale);
+        const y = (height / 2) - (height / 2 * scale);
+
+        // Use the existing zoom behavior instead of creating a new one
+        svgElement
+          .transition()
+          .duration(750)
+          .call(
+            zoomBehavior.transform as any,
+            d3.zoomIdentity.scale(scale).translate(x, y),
+          );
+      }
+
+    function getGraphBounds(nodes: GraphNode[]) {
+      let x0 = Infinity, y0 = Infinity, x1 = -Infinity, y1 = -Infinity;
+      for (const n of nodes) {
+        if (n.x !== undefined && n.y !== undefined) {
+          x0 = Math.min(x0, n.x);
+          y0 = Math.min(y0, n.y);
+          x1 = Math.max(x1, n.x);
+          y1 = Math.max(y1, n.y);
+        }
+      }
+      return { x0, y0, x1, y1 };
+    }
+
+  function initializeGraphModal() {
+    const overlay = document.getElementById('graph-modal-overlay') as HTMLElement;
+    const closeButton = document.getElementById('graph-modal-close') as HTMLButtonElement;
+    const container = document.getElementById('graph-modal-container') as HTMLElement;
+    
+    if (!overlay || !closeButton || !container) {
+      // Create the modal HTML if it doesn't exist
+      createGraphModalHTML();
+      // Try again after creating the HTML
+      setTimeout(() => {
+        initializeGraphModal();
+      }, 100);
+      return;
+    }
+    
+    // Always ensure the modal functions are available, even if already initialized
+    if (graphModalInitialized) {
+      // Make sure the functions are still available
+      (window as any).openGraphModal = openModal;
+      (window as any).closeGraphModal = closeModal;
+      // Re-attach event listeners to ensure they work
+      attachEventListeners();
+      return;
+    }
+    
+    graphModalInitialized = true;
+
+    // Attach event listeners
+    attachEventListeners();
+
+    function getGraphBounds(nodes: GraphNode[]) {
+      let x0 = Infinity, y0 = Infinity, x1 = -Infinity, y1 = -Infinity;
+      for (const n of nodes) {
+        if (!isNaN(n.x!) && !isNaN(n.y!)) {
+          x0 = Math.min(x0, n.x!);
+          y0 = Math.min(y0, n.y!);
+          x1 = Math.max(x1, n.x!);
+          y1 = Math.max(y1, n.y!);
+        }
+      }
+      return { x0, y0, x1, y1 };
+    }
+
+    // Escape key to close
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && !overlay.classList.contains('hidden')) {
+        closeModal();
+      }
+    });
+  }
+</script>

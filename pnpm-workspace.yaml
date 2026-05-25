@@ -1,0 +1,13 @@
+packages:
+  - cli
+
+onlyBuiltDependencies:
+  - a
+  - esbuild
+  - h
+  - p
+  - r
+  - s
+  - sharp
+  - swup
+  - workerd

@@ -1,0 +1,259 @@
+{
+  "runWizardOnStartup": true,
+  "currentTemplate": "standard",
+  "currentTheme": "oxygen",
+  "customThemeFile": "custom",
+  "contentOrganization": "file-based",
+  "themeColors": {
+    "mode": "simple",
+    "simpleColors": {
+      "accent": "#5865f2",
+      "background": "#1e1e1e"
+    }
+  },
+  "siteInfo": {
+    "site": "https://albertoepic.github.io/SQLPv3/",
+    "title": ".::: SQLP :::.",
+    "description": "La versión más puntera de SQLP...",
+    "author": "AlbertoEpic",
+    "language": "es",
+    "faviconThemeAdaptive": true,
+    "defaultOgImageAlt": "SQLP",
+    "homepageTitle": ".::: SQLP :::."
+  },
+  "layout": {
+    "contentWidth": "75rem"
+  },
+  "tableOfContents": {
+    "enabled": true,
+    "depth": 4
+  },
+  "footer": {
+    "enabled": true,
+    "content": "© 2026 SQLP by {author}. Built with ❤️ in Tierz for the entire Universe...",
+    "showSocialIconsInFooter": true
+  },
+  "seo": {
+    "defaultOgImageAlt": "SQLP"
+  },
+  "navigation": {
+    "showNavigation": true,
+    "style": "traditional",
+    "showMobileMenu": true,
+    "pages": [
+      {
+        "title": "Rutipedia",
+        "url": "/posts/"
+      },
+      {
+        "title": "Pano360",
+        "url": "https://pano360.soloquedalopeor.com/"
+      },
+      {
+        "title": "Miniplanetas",
+        "url": "https://miniplanetas.soloquedalopeor.com/"
+      },
+      {
+        "title": "Sobre mí",
+        "url": "/about/"
+      }
+    ],
+    "social": [
+      {
+        "title": "X",
+        "url": "https://x.com/soloquedalopeor",
+        "icon": "x-twitter"
+      },
+      {
+        "title": "Facebook",
+        "url": "https://www.facebook.com/AlbertoEpic",
+        "icon": "facebook"
+      },
+      {
+        "title": "Instagram",
+        "url": "https://www.instagram.com/albertroid/",
+        "icon": "instagram"
+      },
+      {
+        "title": "YouTube",
+        "url": "https://www.youtube.com/@AlbertoEpic",
+        "icon": "youtube"
+      },
+      {
+        "title": "500px",
+        "url": "https://500px.com/p/albertolafarga?view=photos",
+        "icon": "500px"
+      }
+    ]
+  },
+  "commandPalette": {
+    "enabled": true,
+    "shortcut": "ctrl+K",
+    "placeholder": "Buscar contenidos...",
+    "search": {
+      "posts": true,
+      "pages": false,
+      "projects": false,
+      "docs": false
+    },
+    "sections": {
+      "quickActions": true,
+      "pages": true,
+      "social": true
+    },
+    "quickActions": {
+      "enabled": true,
+      "toggleMode": true,
+      "graphView": true,
+      "changeTheme": true
+    }
+  },
+  "homeOptions": {
+    "featuredPost": {
+      "enabled": true,
+      "type": "latest",
+      "slug": "getting-started"
+    },
+    "recentPosts": {
+      "enabled": true,
+      "count": 7
+    },
+    "projects": {
+      "enabled": false,
+      "count": 2
+    },
+    "docs": {
+      "enabled": false,
+      "count": 3
+    },
+    "blurb": {
+      "placement": "none"
+    }
+  },
+  "postOptions": {
+    "postsPerPage": 6,
+    "readingTime": true,
+    "wordCount": true,
+    "tags": true,
+    "linkedMentions": {
+      "enabled": true,
+      "linkedMentionsCompact": false
+    },
+    "graphView": {
+      "enabled": true,
+      "showInSidebar": true,
+      "maxNodes": 100,
+      "showOrphanedPosts": true
+    },
+    "postNavigation": true,
+    "showPostCardCoverImages": "featured-and-posts",
+    "postCardAspectRatio": "og",
+    "customPostCardAspectRatio": "2.5/1",
+    "comments": {
+      "enabled": false,
+      "provider": "giscus",
+      "rawScript": "",
+      "repo": "",
+      "repoId": "",
+      "category": "",
+      "categoryId": "",
+      "mapping": "",
+      "strict": "",
+      "reactions": "",
+      "metadata": "",
+      "inputPosition": "",
+      "theme": "",
+      "lang": "",
+      "loading": ""
+    }
+  },
+  "features": {
+    "commandPalette": true,
+    "readingTime": true,
+    "linkedMentions": true,
+    "linkedMentionsCompact": false,
+    "graphView": true,
+    "postNavigation": true,
+    "hideScrollBar": false,
+    "scrollToTop": true,
+    "showSocialIconsInFooter": true,
+    "profilePicture": false,
+    "comments": false,
+    "featureButton": "mode",
+    "showPostCardCoverImages": "featured-and-posts",
+    "postCardAspectRatio": "og",
+    "customPostCardAspectRatio": "2.5/1",
+    "quickActions": {
+      "enabled": true,
+      "toggleMode": true,
+      "graphView": true,
+      "changeTheme": true
+    }
+  },
+  "typography": {
+    "headingFont": "Inter",
+    "proseFont": "Inter",
+    "monoFont": "JetBrains Mono",
+    "fontSource": "local",
+    "fontDisplay": "swap",
+    "customFonts": {
+      "heading": "",
+      "prose": "",
+      "mono": "",
+      "urls": ""
+    }
+  },
+  "optionalFeatures": {
+    "profilePicture": {
+      "enabled": false,
+      "image": "/profile.jpg",
+      "alt": "Profile picture",
+      "size": "md",
+      "url": "",
+      "placement": "footer",
+      "style": "circle"
+    },
+    "comments": {
+      "enabled": false,
+      "provider": "giscus",
+      "rawScript": "",
+      "repo": "",
+      "repoId": "",
+      "category": "",
+      "categoryId": "",
+      "mapping": "",
+      "strict": "",
+      "reactions": "",
+      "metadata": "",
+      "inputPosition": "",
+      "theme": "",
+      "lang": "",
+      "loading": ""
+    }
+  },
+  "deployment": {
+    "platform": "github-pages"
+  },
+  "pluginConfig": {
+    "obsidianSettings": {
+      "attachmentLocation": "subfolder",
+      "subfolderName": "attachments"
+    },
+    "astroComposerSettings": {
+      "creationMode": "file",
+      "indexFileName": "index"
+    },
+    "imageInserterSettings": {
+      "valueFormat": "[[attachments/{image-url}]]",
+      "insertFormat": "[[attachments/{image-url}]]"
+    }
+  },
+  "optionalContentTypes": {
+    "projects": true,
+    "docs": true
+  },
+  "availableThemes": "default",
+  "customThemes": "",
+  "customThemeGenerationEnabled": false,
+  "removeRibbonIcon": false
+}

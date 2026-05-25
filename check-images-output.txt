@@ -1,0 +1,1901 @@
+
+> astro-modular@0.8.9 check-images C:\Users\USER\Desktop\SQLP
+> node scripts/check-missing-images.js
+
+­ƒöì Checking for missing images...
+
+­ƒôè Summary:
+   Total images: 1062
+   Missing images: 471
+   Found images: 591
+
+ÔØî Missing images:
+   src\content\pages\about.md:44 (markdown)
+     attachments/water.png
+     Expected: attachments/water.png
+
+   src\content\posts\1a-suboda-tozal-de-guara.md:16 (markdown)
+     attachments/suboda-globeros.jpg
+     Expected: attachments/suboda-globeros.jpg
+
+   src\content\posts\1er-tri-neu-gore-tex-valle-de-benasque-cerler.md:13 (markdown)
+     attachments/trineu1.webp
+     Expected: attachments/trineu1.webp
+
+   src\content\posts\1er-tri-neu-gore-tex-valle-de-benasque-cerler.md:21 (markdown)
+     attachments/trineu2.webp
+     Expected: attachments/trineu2.webp
+
+   src\content\posts\1er-tri-neu-gore-tex-valle-de-benasque-cerler.md:33 (markdown)
+     attachments/trineu3.webp
+     Expected: attachments/trineu3.webp
+
+   src\content\posts\1er-tri-neu-gore-tex-valle-de-benasque-cerler.md:45 (markdown)
+     attachments/DSC_0091.webp
+     Expected: attachments/DSC_0091.webp
+
+   src\content\posts\alquezar-five-stars-btt-enduro.md:24 (markdown)
+     attachments/alquezar-five-stars-btt-enduro.png
+     Expected: attachments/alquezar-five-stars-btt-enduro.png
+
+   src\content\posts\alquezar-five-stars-btt-enduro.md:31 (markdown)
+     attachments/alquezar-five-stars-btt-enduro-1.png
+     Expected: attachments/alquezar-five-stars-btt-enduro-1.png
+
+   src\content\posts\alquezar-five-stars-btt-enduro.md:35 (markdown)
+     attachments/alquezar-five-stars-btt-enduro-2.png
+     Expected: attachments/alquezar-five-stars-btt-enduro-2.png
+
+   src\content\posts\alquezar-five-stars-btt-enduro.md:39 (markdown)
+     attachments/alquezar-five-stars-btt-enduro-3.png
+     Expected: attachments/alquezar-five-stars-btt-enduro-3.png
+
+   src\content\posts\alquezar-five-stars-btt-enduro.md:43 (markdown)
+     attachments/alquezar-five-stars-btt-enduro-4.png
+     Expected: attachments/alquezar-five-stars-btt-enduro-4.png
+
+   src\content\posts\alquezar-five-stars-btt-enduro.md:47 (markdown)
+     attachments/alquezar-five-stars-btt-enduro-5.png
+     Expected: attachments/alquezar-five-stars-btt-enduro-5.png
+
+   src\content\posts\alquezar-five-stars-btt-enduro.md:51 (markdown)
+     attachments/alquezar-five-stars-btt-enduro-6.png
+     Expected: attachments/alquezar-five-stars-btt-enduro-6.png
+
+   src\content\posts\alquezar-five-stars-btt-enduro.md:55 (markdown)
+     attachments/alquezar-five-stars-btt-enduro-7.png
+     Expected: attachments/alquezar-five-stars-btt-enduro-7.png
+
+   src\content\posts\alquezar-five-stars-btt-enduro.md:59 (markdown)
+     attachments/alquezar-five-stars-btt-enduro-8.png
+     Expected: attachments/alquezar-five-stars-btt-enduro-8.png
+
+   src\content\posts\aludes-leccion-practica.md:16 (markdown)
+     attachments/alud.webp
+     Expected: attachments/alud.webp
+
+   src\content\posts\aludes-leccion-practica.md:70 (markdown)
+     attachments/div>![](attachments/div>Lugar donde se produjo la avalanchaDetalle con los itinerarios trazados y la cartograf├¡┬¡a de la avalanchaLa avalanchaEntro en una nueva placa y vuelvo a hacer un peque├▒o bote y entonces s├¡┬¡, WOOOM!, El t├¡┬¡pico ruido de las placas de viento, pero muy, muy fuerte. Miro r├ípido por encima de m├¡┬¡, por las piedras y m├ís arriba toda la pala y no veo ninguna fractura ni movimiento. Enseguida, sin embargo, sentimos un ruido y 300 metros a la derecha empieza a estallar por arriba la pala la placa. La avalancha se desencadenante de derecha a izquierda hacia nosotros. Me da la sensaci├│n de que no llegar├í hasta donde estamos, hay como una hondonada en medio. Alguien grita que qu├® hacemos. Contesto que bajamos hacia la izquierda en direcci├│n a las piedras para alejarnos de la avalancha. Hago una vuelta mar├¡┬¡a, comienzo a tirar un poco atr├ís y de repente veo como comienza a romperse la pala 200 metros por encima nuestro. S├ílvese quien pueda! Mientras veo las olas de nieve que bajan r├ípidamente hacia nosotros consigo llegar por los pelos a una roca que desploma un poquito. Una ├║ltima mirada a la nieve que baja feroz y cuando ya casi la tengo encima me agacho bajo la piedra e intento que la avalancha no me lleve. Noto su fuerza a los esqu├¡┬¡s y mochila que sobresalen, pero consigo aguantarme. Se hace oscuro e instintivamente me hago espacio con las manos por si quedo enterrado poder respirar. Poco despu├®s todo se detiene.Estoy bien y puedo salir r├ípidamente. Siento gritos y veo F├®lix con el ABS abierto y s├│lo con las piernas enterradas que llama que est├í bien.Andrea abajo del todo est├í fuera de la avalancha. A la izquierda veo a Maria medio enterrada y Laia que s├│lo le sale la cabeza. Esqu├¡┬¡o r├ípidamente hacia ellas y me dicen que est├ín bien. Falta Jordi y observo m├ís abajo algo que se mueve. Bajo all├¡┬¡, est├í casi totalmente enterrado y tiene la cara medio tapada de nieve, pero me dice que est├í bien.Le digo a Andrea que est├í abajo que no suba y haga de vig├¡┬¡a para avisar si hay una segunda avalancha. Comienzo a desenterrar el Jordi con la pala mientras F├®lix consigue salir ├®l solo y va a ayudar a desenterrar Mar├¡┬¡a y Laia. A ninguno de los que han quedado enterrados saltan los esqu├¡┬¡s y Jordi que llevaba los palos con las dragoneras no se puede mover nada. 15 minutos m├ís tarde estamos todos fuera, nadie ha tomado mal. Conseguimos encontrar todos los esqu├¡┬¡s, pero perdemos dos palos.Bajamos sin demasiado dilaciones hacia el coche. Alguien queda tocado por el susto, otros mucho menos. Pero todos sacamos una experiencia importante que nos permitir├í valorar mucho mejor el riesgo en el futuro.[http://www.acna.cat/accidents/relatsaccidents/140201_Accident_Campcardos/3%20Campcard%C3%B3s_m.jpg](http://www.acna.cat/accidents/relatsaccidents/140201_Accident_Campcardos/3%20Campcard%C3%B3s_m.jpg
+     Expected: attachments/div>![](attachments/div>Lugar donde se produjo la avalanchaDetalle con los itinerarios trazados y la cartograf├¡┬¡a de la avalanchaLa avalanchaEntro en una nueva placa y vuelvo a hacer un peque├▒o bote y entonces s├¡┬¡, WOOOM!, El t├¡┬¡pico ruido de las placas de viento, pero muy, muy fuerte. Miro r├ípido por encima de m├¡┬¡, por las piedras y m├ís arriba toda la pala y no veo ninguna fractura ni movimiento. Enseguida, sin embargo, sentimos un ruido y 300 metros a la derecha empieza a estallar por arriba la pala la placa. La avalancha se desencadenante de derecha a izquierda hacia nosotros. Me da la sensaci├│n de que no llegar├í hasta donde estamos, hay como una hondonada en medio. Alguien grita que qu├® hacemos. Contesto que bajamos hacia la izquierda en direcci├│n a las piedras para alejarnos de la avalancha. Hago una vuelta mar├¡┬¡a, comienzo a tirar un poco atr├ís y de repente veo como comienza a romperse la pala 200 metros por encima nuestro. S├ílvese quien pueda! Mientras veo las olas de nieve que bajan r├ípidamente hacia nosotros consigo llegar por los pelos a una roca que desploma un poquito. Una ├║ltima mirada a la nieve que baja feroz y cuando ya casi la tengo encima me agacho bajo la piedra e intento que la avalancha no me lleve. Noto su fuerza a los esqu├¡┬¡s y mochila que sobresalen, pero consigo aguantarme. Se hace oscuro e instintivamente me hago espacio con las manos por si quedo enterrado poder respirar. Poco despu├®s todo se detiene.Estoy bien y puedo salir r├ípidamente. Siento gritos y veo F├®lix con el ABS abierto y s├│lo con las piernas enterradas que llama que est├í bien.Andrea abajo del todo est├í fuera de la avalancha. A la izquierda veo a Maria medio enterrada y Laia que s├│lo le sale la cabeza. Esqu├¡┬¡o r├ípidamente hacia ellas y me dicen que est├ín bien. Falta Jordi y observo m├ís abajo algo que se mueve. Bajo all├¡┬¡, est├í casi totalmente enterrado y tiene la cara medio tapada de nieve, pero me dice que est├í bien.Le digo a Andrea que est├í abajo que no suba y haga de vig├¡┬¡a para avisar si hay una segunda avalancha. Comienzo a desenterrar el Jordi con la pala mientras F├®lix consigue salir ├®l solo y va a ayudar a desenterrar Mar├¡┬¡a y Laia. A ninguno de los que han quedado enterrados saltan los esqu├¡┬¡s y Jordi que llevaba los palos con las dragoneras no se puede mover nada. 15 minutos m├ís tarde estamos todos fuera, nadie ha tomado mal. Conseguimos encontrar todos los esqu├¡┬¡s, pero perdemos dos palos.Bajamos sin demasiado dilaciones hacia el coche. Alguien queda tocado por el susto, otros mucho menos. Pero todos sacamos una experiencia importante que nos permitir├í valorar mucho mejor el riesgo en el futuro.[http://www.acna.cat/accidents/relatsaccidents/140201_Accident_Campcardos/3%20Campcard%C3%B3s_m.jpg](http://www.acna.cat/accidents/relatsaccidents/140201_Accident_Campcardos/3%20Campcard%C3%B3s_m.jpg
+
+   src\content\posts\aludes-leccion-practica.md:74 (markdown)
+     attachments/td>![x](http://www.acna.cat/accidents/relatsaccidents/140201_Accident_Campcardos/Campcard%C3%B3s.jpg
+     Expected: attachments/td>![x](http://www.acna.cat/accidents/relatsaccidents/140201_Accident_Campcardos/Campcard%C3%B3s.jpg
+
+   src\content\posts\aprovechando-la-ventana-de-buen-tiempo.md:13 (markdown)
+     attachments/SALIMOS_CON_LAS_PRIMERAS_LUCES.webp
+     Expected: attachments/SALIMOS_CON_LAS_PRIMERAS_LUCES.webp
+
+   src\content\posts\aprovechando-la-ventana-de-buen-tiempo.md:21 (markdown)
+     attachments/SOLOS_EN_EL_PORTALET.webp
+     Expected: attachments/SOLOS_EN_EL_PORTALET.webp
+
+   src\content\posts\aprovechando-la-ventana-de-buen-tiempo.md:25 (markdown)
+     attachments/SOL_POR_EL_ESTE_Y_FRENTE_ENTRANDO_POR_EL_OESTE.webp
+     Expected: attachments/SOL_POR_EL_ESTE_Y_FRENTE_ENTRANDO_POR_EL_OESTE.webp
+
+   src\content\posts\aprovechando-la-ventana-de-buen-tiempo.md:31 (markdown)
+     attachments/EL_FRENTE_YA_LLEGA_POR_EL_OESTE_NOS_QUEDAN_10_MINUTOS_DE_SOL.webp
+     Expected: attachments/EL_FRENTE_YA_LLEGA_POR_EL_OESTE_NOS_QUEDAN_10_MINUTOS_DE_SOL.webp
+
+   src\content\posts\ascension-infantil-la-cristallere-1-874m.md:29 (markdown)
+     attachments/IMG_20210912_114510-scaled-e1632561104763.webp
+     Expected: attachments/IMG_20210912_114510-scaled-e1632561104763.webp
+
+   src\content\posts\ascension-infantil-la-cristallere-1-874m.md:32 (markdown)
+     attachments/LaCristallere12-e1632560122785.webp
+     Expected: attachments/LaCristallere12-e1632560122785.webp
+
+   src\content\posts\ascension-infantil-la-cristallere-1-874m.md:35 (markdown)
+     attachments/LaCristallere04-e1632560470830.webp
+     Expected: attachments/LaCristallere04-e1632560470830.webp
+
+   src\content\posts\ascensiones.md:17 (wikilink)
+     posts/Sin t├¡tulo.base
+     Expected: posts/Sin t├¡tulo.base
+
+   src\content\posts\atasco-computacional-necesario-mecenazgo.md:16 (markdown)
+     attachments/fotitosgp-300x126.webp
+     Expected: attachments/fotitosgp-300x126.webp
+
+   src\content\posts\barranco-de-gorgol.md:18 (markdown)
+     attachments/barranco_gorgol.webp
+     Expected: attachments/barranco_gorgol.webp
+
+   src\content\posts\barranco-de-lumos.md:19 (markdown)
+     attachments/lumos3.webp
+     Expected: attachments/lumos3.webp
+
+   src\content\posts\barranco-de-lumos.md:21 (markdown)
+     attachments/lumos1.webp
+     Expected: attachments/lumos1.webp
+
+   src\content\posts\barranco-de-lumos.md:23 (markdown)
+     attachments/lumos2.webp
+     Expected: attachments/lumos2.webp
+
+   src\content\posts\barranco-de-portiacha.md:23 (markdown)
+     attachments/portiacha_topo.webp
+     Expected: attachments/portiacha_topo.webp
+
+   src\content\posts\barranco-del-furco.md:15 (markdown)
+     attachments/topoFurco.webp
+     Expected: attachments/topoFurco.webp
+
+   src\content\posts\barrasil-inferior-con-ninos.md:35 (markdown)
+     ../../..attachments/croquis-del-barrasil.png
+     Expected: ../../..attachments/croquis-del-barrasil.png
+
+   src\content\posts\brotoaventura-barranco-matutino-ferrata-vespertina.md:20 (markdown)
+     attachments/topo-barranco-sorrosal.webp
+     Expected: attachments/topo-barranco-sorrosal.webp
+
+   src\content\posts\btt-alquezar-el-ruton.md:18 (markdown)
+     attachments/borrame1.webp
+     Expected: attachments/borrame1.webp
+
+   src\content\posts\btt-alquezar-el-ruton.md:24 (markdown)
+     attachments/DSC00181.webp
+     Expected: attachments/DSC00181.webp
+
+   src\content\posts\btt-alquezar-el-ruton.md:28 (markdown)
+     attachments/DSC00197.webp
+     Expected: attachments/DSC00197.webp
+
+   src\content\posts\btt-enduro-bara-miz-alastrue-biban-bara.md:16 (markdown)
+     attachments/koldo.webp
+     Expected: attachments/koldo.webp
+
+   src\content\posts\btt-enduro-fortalecimiento-del-espiritu.md:17 (markdown)
+     attachments/1507469_10200619214042909_2168104592298731719_o.webp
+     Expected: attachments/1507469_10200619214042909_2168104592298731719_o.webp
+
+   src\content\posts\btt-enduro-fortalecimiento-del-espiritu.md:31 (markdown)
+     attachments/10152590_10203639102685977_7419658044717238575_n.webp
+     Expected: attachments/10152590_10203639102685977_7419658044717238575_n.webp
+
+   src\content\posts\btt-enduro-fortalecimiento-del-espiritu.md:39 (markdown)
+     attachments/65361_10203639104846031_422016590280071103_n.webp
+     Expected: attachments/65361_10203639104846031_422016590280071103_n.webp
+
+   src\content\posts\btt-enduro-rodellar-sierra-de-balced.md:16 (markdown)
+     attachments/marco.webp
+     Expected: attachments/marco.webp
+
+   src\content\posts\btt-infantil-vuelta-al-embalse-de-la-sotonera.md:36 (markdown)
+     attachments/2026/Pasted%20image%2020260501185237.webp
+     Expected: attachments/2026/Pasted%20image%2020260501185237.webp
+
+   src\content\posts\btt-la-solana-de-sase-zz-027.md:26 (markdown)
+     attachments/LuziaSaseGIF.webp
+     Expected: attachments/LuziaSaseGIF.webp
+
+   src\content\posts\btt-la-solana-de-sase-zz-027.md:30 (markdown)
+     attachments/QRsase.webp
+     Expected: attachments/QRsase.webp
+
+   src\content\posts\btt-panticosa-sabocos.md:15 (markdown)
+     attachments/IMG_1756.webp
+     Expected: attachments/IMG_1756.webp
+
+   src\content\posts\btt-panticosa-sabocos.md:25 (markdown)
+     attachments/IMG_1742.webp
+     Expected: attachments/IMG_1742.webp
+
+   src\content\posts\btt-panticosa-sabocos.md:27 (markdown)
+     attachments/IMG_1763.webp
+     Expected: attachments/IMG_1763.webp
+
+   src\content\posts\btt-panticosa-sabocos.md:29 (markdown)
+     attachments/IMG_1767.webp
+     Expected: attachments/IMG_1767.webp
+
+   src\content\posts\btt-pateo-pena-montanesa.md:42 (markdown)
+     attachments/penamontanesa-1024x768.webp
+     Expected: attachments/penamontanesa-1024x768.webp
+
+   src\content\posts\btt-pico-del-verde-2-287m.md:31 (markdown)
+     attachments/logo_Pano360_600x150-300x80.webp
+     Expected: attachments/logo_Pano360_600x150-300x80.webp
+
+   src\content\posts\btt-trialeando-por-el-cebollar-torla.md:16 (markdown)
+     attachments/btt_Torla4.webp
+     Expected: attachments/btt_Torla4.webp
+
+   src\content\posts\btt-trialeando-por-el-cebollar-torla.md:28 (markdown)
+     attachments/btt_Torla1.webp
+     Expected: attachments/btt_Torla1.webp
+
+   src\content\posts\btt-trialeando-por-el-cebollar-torla.md:30 (markdown)
+     attachments/btt_Torla2.webp
+     Expected: attachments/btt_Torla2.webp
+
+   src\content\posts\btt-trialeando-por-el-cebollar-torla.md:32 (markdown)
+     attachments/btt_Torla3.webp
+     Expected: attachments/btt_Torla3.webp
+
+   src\content\posts\btt.md:15 (wikilink)
+     posts/Sin t├¡tulo.base
+     Expected: posts/Sin t├¡tulo.base
+
+   src\content\posts\bttpateo-pico-porron-sunset.md:38 (markdown)
+     attachments/DJI_0087-Mejorado-NR-1024x768.webp
+     Expected: attachments/DJI_0087-Mejorado-NR-1024x768.webp
+
+   src\content\posts\bttpateo-pico-porron-sunset.md:42 (markdown)
+     attachments/DJI_0106-Mejorado-NR-1024x768.webp
+     Expected: attachments/DJI_0106-Mejorado-NR-1024x768.webp
+
+   src\content\posts\bttpateo-pico-porron-sunset.md:46 (markdown)
+     attachments/DJI_0105-Mejorado-NR-1024x768.webp
+     Expected: attachments/DJI_0105-Mejorado-NR-1024x768.webp
+
+   src\content\posts\camino-al-cielo.md:13 (markdown)
+     attachments/CAMINO-AL-CIELO.webp
+     Expected: attachments/CAMINO-AL-CIELO.webp
+
+   src\content\posts\camino-natural-de-la-hoya-de-huesca.md:13 (markdown)
+     attachments/camino-natural-de-la-hoya-de-huesca.png
+     Expected: attachments/camino-natural-de-la-hoya-de-huesca.png
+
+   src\content\posts\camino-natural-de-la-hoya-de-huesca.md:25 (markdown)
+     attachments/borrame1.webp
+     Expected: attachments/borrame1.webp
+
+   src\content\posts\camino-natural-de-la-hoya-de-huesca.md:27 (markdown)
+     attachments/borrame2.webp
+     Expected: attachments/borrame2.webp
+
+   src\content\posts\camino-natural-de-la-hoya-de-huesca.md:29 (markdown)
+     attachments/borrame3.webp
+     Expected: attachments/borrame3.webp
+
+   src\content\posts\camino-natural-de-la-hoya-de-huesca.md:31 (markdown)
+     attachments/borrame4.webp
+     Expected: attachments/borrame4.webp
+
+   src\content\posts\camino-natural-de-la-hoya-de-huesca.md:33 (markdown)
+     attachments/borrame5.webp
+     Expected: attachments/borrame5.webp
+
+   src\content\posts\camino-natural-de-la-hoya-de-huesca.md:35 (markdown)
+     attachments/borrame6.webp
+     Expected: attachments/borrame6.webp
+
+   src\content\posts\camino-natural-de-la-hoya-de-huesca.md:37 (markdown)
+     attachments/borrame7.webp
+     Expected: attachments/borrame7.webp
+
+   src\content\posts\camino-natural-de-la-hoya-de-huesca.md:39 (markdown)
+     attachments/borrame8.webp
+     Expected: attachments/borrame8.webp
+
+   src\content\posts\camino-natural-de-la-hoya-de-huesca.md:41 (markdown)
+     attachments/borrame9.webp
+     Expected: attachments/borrame9.webp
+
+   src\content\posts\cantabria-de-campo-y-playa.md:19 (markdown)
+     attachments/QRcode-candina.webp
+     Expected: attachments/QRcode-candina.webp
+
+   src\content\posts\cantabria-de-campo-y-playa.md:22 (markdown)
+     attachments/QRcode-la-pe├▒a.webp
+     Expected: attachments/QRcode-la-pe├▒a.webp
+
+   src\content\posts\capsulas-alpes-2012-countdown.md:14 (markdown)
+     attachments/borrame.webp
+     Expected: attachments/borrame.webp
+
+   src\content\posts\cicloalpinismo-esperando-a-que-nieve.md:15 (markdown)
+     attachments/ruta.webp
+     Expected: attachments/ruta.webp
+
+   src\content\posts\cicloalpinismo-pic-de-laiguillette-2-508m.md:32 (markdown)
+     attachments/lAiguillette-1-1024x768.webp
+     Expected: attachments/lAiguillette-1-1024x768.webp
+
+   src\content\posts\cicloalpinismo-pico-mondiciero-2-295m.md:17 (markdown)
+     attachments/logo_Pano360_600x150.webp
+     Expected: attachments/logo_Pano360_600x150.webp
+
+   src\content\posts\cicloalpinismo-por-bielsa.md:15 (markdown)
+     attachments/fotito.webp
+     Expected: attachments/fotito.webp
+
+   src\content\posts\cicloalpinismo-por-bielsa.md:27 (markdown)
+     attachments/10486563_393790867426857_7888707560763484283_o.webp
+     Expected: attachments/10486563_393790867426857_7888707560763484283_o.webp
+
+   src\content\posts\cicloalpinismo-por-bielsa.md:29 (markdown)
+     attachments/10333441_393790934093517_6978008660920027892_o.webp
+     Expected: attachments/10333441_393790934093517_6978008660920027892_o.webp
+
+   src\content\posts\cicloalpinismo-por-bielsa.md:31 (markdown)
+     attachments/1932768_393790947426849_1817447597910364421_o.webp
+     Expected: attachments/1932768_393790947426849_1817447597910364421_o.webp
+
+   src\content\posts\cicloalpinismo-por-bielsa.md:33 (markdown)
+     attachments/10383876_393790997426844_2426037069155864327_o.webp
+     Expected: attachments/10383876_393790997426844_2426037069155864327_o.webp
+
+   src\content\posts\cicloalpinismo-por-bielsa.md:35 (markdown)
+     attachments/10355434_393791050760172_8602940642898572475_o.webp
+     Expected: attachments/10355434_393791050760172_8602940642898572475_o.webp
+
+   src\content\posts\cicloalpinismo-por-bielsa.md:37 (markdown)
+     attachments/10380411_393791367426807_7731102403591942962_o.webp
+     Expected: attachments/10380411_393791367426807_7731102403591942962_o.webp
+
+   src\content\posts\cicloalpinismo-por-bielsa.md:39 (markdown)
+     attachments/10496968_393791397426804_6447472449273508167_o.webp
+     Expected: attachments/10496968_393791397426804_6447472449273508167_o.webp
+
+   src\content\posts\cicloalpinismo-romantico-lacs-de-consaterre.md:14 (markdown)
+     attachments/Consaterre1.webp
+     Expected: attachments/Consaterre1.webp
+
+   src\content\posts\cicloalpinismo-romantico-lacs-de-consaterre.md:20 (markdown)
+     attachments/Consaterre21.webp
+     Expected: attachments/Consaterre21.webp
+
+   src\content\posts\cicloalpinismo-romantico-lacs-de-consaterre.md:22 (markdown)
+     attachments/Consaterre31.webp
+     Expected: attachments/Consaterre31.webp
+
+   src\content\posts\cicloalpinismo-romantico-lacs-de-consaterre.md:41 (markdown)
+     attachments/QRconsaterre.webp
+     Expected: attachments/QRconsaterre.webp
+
+   src\content\posts\cicloalpinismo-serrano-tozal-de-guara-2-077m.md:15 (markdown)
+     attachments/DSC00312.webp
+     Expected: attachments/DSC00312.webp
+
+   src\content\posts\cicloalpinismo-tozal-de-las-comas-2-342m.md:27 (markdown)
+     attachments/logo_Pano360_600x150-300x80.webp
+     Expected: attachments/logo_Pano360_600x150-300x80.webp
+
+   src\content\posts\collarada-sin-comida.md:19 (markdown)
+     attachments/collarada-sin-comida.png
+     Expected: attachments/collarada-sin-comida.png
+
+   src\content\posts\collarada-sin-comida.md:25 (markdown)
+     attachments/Pico-Collarada-282.876m-29-005.webp
+     Expected: attachments/Pico-Collarada-282.876m-29-005.webp
+
+   src\content\posts\collarada-sin-comida.md:27 (markdown)
+     attachments/Pico-Collarada-282.876m-29-021.webp
+     Expected: attachments/Pico-Collarada-282.876m-29-021.webp
+
+   src\content\posts\combinada-btt-montearagon.md:34 (markdown)
+     attachments/IMG_7980.webp
+     Expected: attachments/IMG_7980.webp
+
+   src\content\posts\combinada-btt-montearagon.md:36 (markdown)
+     attachments/IMG_7973.webp
+     Expected: attachments/IMG_7973.webp
+
+   src\content\posts\combinada-btt-montearagon.md:38 (markdown)
+     attachments/IMG_7978.webp
+     Expected: attachments/IMG_7978.webp
+
+   src\content\posts\combinada-btt-montearagon.md:40 (markdown)
+     attachments/IMG_7970.webp
+     Expected: attachments/IMG_7970.webp
+
+   src\content\posts\combinada-btt-montearagon.md:42 (markdown)
+     attachments/IMG_7969.webp
+     Expected: attachments/IMG_7969.webp
+
+   src\content\posts\con-otro-famoso.md:13 (markdown)
+     attachments/415.webp
+     Expected: attachments/415.webp
+
+   src\content\posts\con-otro-ilustre.md:13 (markdown)
+     attachments/1011371.webp
+     Expected: attachments/1011371.webp
+
+   src\content\posts\cordier-creguena-coronas-solitaria-despedida-de-temporada.md:18 (markdown)
+     attachments/VueltaMaladetas1.webp
+     Expected: attachments/VueltaMaladetas1.webp
+
+   src\content\posts\cordier-creguena-coronas-solitaria-despedida-de-temporada.md:22 (markdown)
+     attachments/VueltaMaladetas2.webp
+     Expected: attachments/VueltaMaladetas2.webp
+
+   src\content\posts\cordier-creguena-coronas-solitaria-despedida-de-temporada.md:27 (markdown)
+     attachments/VueltaMaladetas3.webp
+     Expected: attachments/VueltaMaladetas3.webp
+
+   src\content\posts\cordier-creguena-coronas-solitaria-despedida-de-temporada.md:31 (markdown)
+     attachments/VueltaMaladetas4.webp
+     Expected: attachments/VueltaMaladetas4.webp
+
+   src\content\posts\dakar-en-btt.md:25 (markdown)
+     attachments/chile-11.webp
+     Expected: attachments/chile-11.webp
+
+   src\content\posts\danny-macaskill-the-ridge.md:13 (markdown)
+     attachments/dmsqlp.webp
+     Expected: attachments/dmsqlp.webp
+
+   src\content\posts\dias-de-unas-largas-y-culos-prietos-cronica-de-dos-dias-de-esqui-de-travesia-con-pena-guara.md:14 (markdown)
+     attachments/borrame.webp
+     Expected: attachments/borrame.webp
+
+   src\content\posts\diente-de-batanes-occidental.md:36 (markdown)
+     attachments/diente-de-batanes-occidental.png
+     Expected: attachments/diente-de-batanes-occidental.png
+
+   src\content\posts\el-8-de-rodellar.md:17 (markdown)
+     attachments/8rodellar.webp
+     Expected: attachments/8rodellar.webp
+
+   src\content\posts\el-gigante-dormido.md:13 (markdown)
+     attachments/el-gigante-dormido.webp
+     Expected: attachments/el-gigante-dormido.webp
+
+   src\content\posts\el-gigante-dormido.md:25 (markdown)
+     attachments/el-gigante-dormido-2.webp
+     Expected: attachments/el-gigante-dormido-2.webp
+
+   src\content\posts\el-mundo-al-verres.md:13 (markdown)
+     attachments/3257221819_aa1e6c1653_o.webp
+     Expected: attachments/3257221819_aa1e6c1653_o.webp
+
+   src\content\posts\ellos-las-prefieren-gordas-un-poco-de-snowbike-en-formigal.md:25 (markdown)
+     attachments/itinerario.webp
+     Expected: attachments/itinerario.webp
+
+   src\content\posts\ellos-las-prefieren-gordas-un-poco-de-snowbike-en-formigal.md:29 (markdown)
+     attachments/snowbike2.webp
+     Expected: attachments/snowbike2.webp
+
+   src\content\posts\ellos-las-prefieren-gordas-un-poco-de-snowbike-en-formigal.md:31 (markdown)
+     attachments/snowbike3.webp
+     Expected: attachments/snowbike3.webp
+
+   src\content\posts\en-avioneta-por-el-pirineo-oscense.md:15 (markdown)
+     attachments/avioneta.webp
+     Expected: attachments/avioneta.webp
+
+   src\content\posts\enduro-montaraz-2-0-integral-del-gallinero-plus.md:19 (markdown)
+     attachments/Ampriu_Gallinero_Integral_11.webp
+     Expected: attachments/Ampriu_Gallinero_Integral_11.webp
+
+   src\content\posts\enduro-montaraz-2-0-integral-del-gallinero-plus.md:21 (markdown)
+     attachments/Ampriu_Gallinero_Integral_21.webp
+     Expected: attachments/Ampriu_Gallinero_Integral_21.webp
+
+   src\content\posts\enduro-montaraz-2-0-integral-del-gallinero-plus.md:23 (markdown)
+     attachments/Ampriu_Gallinero_Integral_31.webp
+     Expected: attachments/Ampriu_Gallinero_Integral_31.webp
+
+   src\content\posts\enduro-montaraz-2-0-integral-del-gallinero-plus.md:25 (markdown)
+     attachments/Ampriu_Gallinero_Integral_41.webp
+     Expected: attachments/Ampriu_Gallinero_Integral_41.webp
+
+   src\content\posts\enduro-montaraz-2-0-integral-del-gallinero-plus.md:27 (markdown)
+     attachments/Ampriu_Gallinero_Integral_51.webp
+     Expected: attachments/Ampriu_Gallinero_Integral_51.webp
+
+   src\content\posts\enduro-montaraz-2-0-integral-del-gallinero-plus.md:29 (markdown)
+     attachments/Ampriu_Gallinero_Integral_61.webp
+     Expected: attachments/Ampriu_Gallinero_Integral_61.webp
+
+   src\content\posts\enduro-montaraz-2-0-integral-del-gallinero-plus.md:31 (markdown)
+     attachments/Ampriu_Gallinero_Integral_71.webp
+     Expected: attachments/Ampriu_Gallinero_Integral_71.webp
+
+   src\content\posts\enlace-globero.md:14 (markdown)
+     attachments/PA310063.webp
+     Expected: attachments/PA310063.webp
+
+   src\content\posts\entrenando-por-la-sierra-de-guadarrama.md:16 (markdown)
+     attachments/entrenando-por-la-sierra-de-guadarrama.png
+     Expected: attachments/entrenando-por-la-sierra-de-guadarrama.png
+
+   src\content\posts\entrenando-por-la-sierra-de-guadarrama.md:25 (markdown)
+     attachments/Foto0012.webp
+     Expected: attachments/Foto0012.webp
+
+   src\content\posts\entrenando-por-la-sierra-de-guadarrama.md:29 (markdown)
+     attachments/Foto0013.webp
+     Expected: attachments/Foto0013.webp
+
+   src\content\posts\entrenando-por-la-sierra-de-guadarrama.md:33 (markdown)
+     attachments/Foto0021.webp
+     Expected: attachments/Foto0021.webp
+
+   src\content\posts\entrenando-por-la-sierra-de-guadarrama.md:37 (markdown)
+     attachments/Foto0022.webp
+     Expected: attachments/Foto0022.webp
+
+   src\content\posts\escalada-j-a-sanz-riglos.md:14 (markdown)
+     attachments/Copia-de-DSC06957.webp
+     Expected: attachments/Copia-de-DSC06957.webp
+
+   src\content\posts\escalada-j-a-sanz-riglos.md:24 (markdown)
+     attachments/4frechin.webp
+     Expected: attachments/4frechin.webp
+
+   src\content\posts\escalada-j-a-sanz-riglos.md:26 (markdown)
+     attachments/Copia-de-DSC06985.webp
+     Expected: attachments/Copia-de-DSC06985.webp
+
+   src\content\posts\escalada-j-a-sanz-riglos.md:28 (markdown)
+     attachments/Copia-de-DSC06994.webp
+     Expected: attachments/Copia-de-DSC06994.webp
+
+   src\content\posts\escapada-mananera-al-espelunciecha-2-399m.md:18 (markdown)
+     attachments/espelunciecha.webp
+     Expected: attachments/espelunciecha.webp
+
+   src\content\posts\escapada-mananera-al-espelunciecha-2-399m.md:20 (markdown)
+     attachments/IMG_20160121_141555-01.webp
+     Expected: attachments/IMG_20160121_141555-01.webp
+
+   src\content\posts\escapada-mananera-al-espelunciecha-2-399m.md:22 (markdown)
+     attachments/IMG_20160121_142750_020-01.webp
+     Expected: attachments/IMG_20160121_142750_020-01.webp
+
+   src\content\posts\escapada-playera-activa.md:13 (markdown)
+     attachments/borrame.webp
+     Expected: attachments/borrame.webp
+
+   src\content\posts\estacion-meteorologica-en-arascues.md:17 (markdown)
+     attachments/meteo.webp
+     Expected: attachments/meteo.webp
+
+   src\content\posts\este-es-el-t├¡tulo-guay.md:21 (markdown)
+     attachments/este-es-el-ttulo-guay-test-image.png
+     Expected: attachments/este-es-el-ttulo-guay-test-image.png
+
+   src\content\posts\este-es-el-t├¡tulo-guay.md:23 (markdown)
+     attachments/suboda-globeros.jpg
+     Expected: attachments/suboda-globeros.jpg
+
+   src\content\posts\estrello-mi-drone.md:21 (markdown)
+     attachments/AlbertoEpicDrone.webp
+     Expected: attachments/AlbertoEpicDrone.webp
+
+   src\content\posts\estreno-de-la-temporada-2-0.md:16 (markdown)
+     attachments/astun1.webp
+     Expected: attachments/astun1.webp
+
+   src\content\posts\estreno-de-la-temporada-2-0.md:18 (markdown)
+     attachments/astun2.webp
+     Expected: attachments/astun2.webp
+
+   src\content\posts\estreno-de-la-temporada-2-0.md:20 (markdown)
+     attachments/astun3.webp
+     Expected: attachments/astun3.webp
+
+   src\content\posts\estudiando-la-meteorologia.md:21 (markdown)
+     attachments/AlbertoEpic-o4pqb8rsz7703rb7axfv82qoegc2qodykj9599nqw8.webp
+     Expected: attachments/AlbertoEpic-o4pqb8rsz7703rb7axfv82qoegc2qodykj9599nqw8.webp
+
+   src\content\posts\fatpinismo-invernal-a-los-pies-del-aneto-en-fatbike.md:42 (markdown)
+     attachments/AlbertoEpic.webp
+     Expected: attachments/AlbertoEpic.webp
+
+   src\content\posts\feliz-navidad-2.md:12 (markdown)
+     attachments/FN2012.webp
+     Expected: attachments/FN2012.webp
+
+   src\content\posts\ferrata-de-la-zapatilla-y-sima-de-tortiellas.md:27 (markdown)
+     attachments/rese├▒a.webp
+     Expected: attachments/rese├▒a.webp
+
+   src\content\posts\final-de-la-liga-aragonesa-o-btt-en-used.md:13 (markdown)
+     attachments/used08-66.webp
+     Expected: attachments/used08-66.webp
+
+   src\content\posts\final-de-la-liga-aragonesa-o-btt-en-used.md:19 (markdown)
+     attachments/used08-121.webp
+     Expected: attachments/used08-121.webp
+
+   src\content\posts\formatting-reference.md:120 (markdown)
+     /postsattachments/mountains.png
+     Expected: /postsattachments/mountains.png
+
+   src\content\posts\formatting-reference.md:129 (markdown)
+     attachments/mountain-landscape.jpg
+     Expected: attachments/mountain-landscape.jpg
+
+   src\content\posts\formatting-reference.md:130 (markdown)
+     attachments/ocean-view.jpg
+     Expected: attachments/ocean-view.jpg
+
+   src\content\posts\formatting-reference.md:134 (markdown)
+     attachments/forest-path.jpg
+     Expected: attachments/forest-path.jpg
+
+   src\content\posts\formatting-reference.md:135 (markdown)
+     attachments/desert-sunset.jpg
+     Expected: attachments/desert-sunset.jpg
+
+   src\content\posts\formatting-reference.md:136 (markdown)
+     attachments/city-skyline.jpg
+     Expected: attachments/city-skyline.jpg
+
+   src\content\posts\formatting-reference.md:140 (markdown)
+     attachments/winter-landscape.jpg
+     Expected: attachments/winter-landscape.jpg
+
+   src\content\posts\formatting-reference.md:141 (markdown)
+     attachments/spring-flowers.jpg
+     Expected: attachments/spring-flowers.jpg
+
+   src\content\posts\formatting-reference.md:142 (markdown)
+     attachments/summer-beach.jpg
+     Expected: attachments/summer-beach.jpg
+
+   src\content\posts\formatting-reference.md:143 (markdown)
+     attachments/autumn-leaves.jpg
+     Expected: attachments/autumn-leaves.jpg
+
+   src\content\posts\formatting-reference.md:150 (markdown)
+     image1.jpg
+     Expected: image1.jpg
+
+   src\content\posts\formatting-reference.md:151 (markdown)
+     image2.jpg
+     Expected: image2.jpg
+
+   src\content\posts\formatting-reference.md:152 (markdown)
+     image3.jpg
+     Expected: image3.jpg
+
+   src\content\posts\formatting-reference.md:120 (markdown)
+     /postsattachments/mountains.png
+     Expected: /postsattachments/mountains.png
+
+   src\content\posts\formatting-reference.md:120 (markdown)
+     /postsattachments/mountains.png
+     Expected: /postsattachments/mountains.png
+
+   src\content\posts\formatting-reference.md:408 (markdown)
+     url
+     Expected: url
+
+   src\content\posts\foto-con-famoso.md:14 (markdown)
+     attachments/foto-con-famoso-kilian.png
+     Expected: attachments/foto-con-famoso-kilian.png
+
+   src\content\posts\globeros-por-laponia.md:14 (markdown)
+     attachments/IGP0499_1.webp
+     Expected: attachments/IGP0499_1.webp
+
+   src\content\posts\grecia-una-vision-atipica.md:13 (markdown)
+     attachments/meteora.webp
+     Expected: attachments/meteora.webp
+
+   src\content\posts\ibones-y-vertice-del-anayet.md:21 (markdown)
+     attachments/Anayet-002.webp
+     Expected: attachments/Anayet-002.webp
+
+   src\content\posts\ibones-y-vertice-del-anayet.md:21 (markdown)
+     attachments/Anayet-008.webp
+     Expected: attachments/Anayet-008.webp
+
+   src\content\posts\ibones-y-vertice-del-anayet.md:21 (markdown)
+     attachments/Anayet-005.webp
+     Expected: attachments/Anayet-005.webp
+
+   src\content\posts\ibones-y-vertice-del-anayet.md:21 (markdown)
+     attachments/Anayet-006.webp
+     Expected: attachments/Anayet-006.webp
+
+   src\content\posts\ibones-y-vertice-del-anayet.md:21 (markdown)
+     attachments/Anayet-015.webp
+     Expected: attachments/Anayet-015.webp
+
+   src\content\posts\ibones-y-vertice-del-anayet.md:23 (markdown)
+     attachments/Anayet-018.webp
+     Expected: attachments/Anayet-018.webp
+
+   src\content\posts\ii-raid-de-aventura-de-la-ribagorza.md:18 (markdown)
+     attachments/P1130039.webp
+     Expected: attachments/P1130039.webp
+
+   src\content\posts\ii-raid-de-aventura-de-la-ribagorza.md:24 (markdown)
+     attachments/P1130059.webp
+     Expected: attachments/P1130059.webp
+
+   src\content\posts\ii-raid-de-aventura-de-la-ribagorza.md:32 (markdown)
+     attachments/P1130056.webp
+     Expected: attachments/P1130056.webp
+
+   src\content\posts\ii-raid-de-aventura-de-la-ribagorza.md:42 (markdown)
+     attachments/DSCF4874.webp
+     Expected: attachments/DSCF4874.webp
+
+   src\content\posts\ii-raid-de-aventura-de-la-ribagorza.md:48 (markdown)
+     attachments/P1130096.webp
+     Expected: attachments/P1130096.webp
+
+   src\content\posts\ii-travesia-altos-pirineos-1978.md:14 (markdown)
+     attachments/SILVRETA.webp
+     Expected: attachments/SILVRETA.webp
+
+   src\content\posts\iii-raid-rioja-alavesa.md:14 (markdown)
+     attachments/borrame1.webp
+     Expected: attachments/borrame1.webp
+
+   src\content\posts\iii-triatlon-cros-mar-de-aragon-caspe.md:18 (markdown)
+     attachments/Lucitri.webp
+     Expected: attachments/Lucitri.webp
+
+   src\content\posts\inaugurada-la-temporada-de-esqui-de-travesia.md:13 (markdown)
+     attachments/TODOS_CAMINO_DE_LA_ULTIMA_RAMPA_AL_COLL_DE_ASTUN.webp
+     Expected: attachments/TODOS_CAMINO_DE_LA_ULTIMA_RAMPA_AL_COLL_DE_ASTUN.webp
+
+   src\content\posts\inaugurada-la-temporada-de-esqui-de-travesia.md:25 (markdown)
+     attachments/TEXTURAS_EN_LA_NIEVE_ALBERTO_Y_ALEX.webp
+     Expected: attachments/TEXTURAS_EN_LA_NIEVE_ALBERTO_Y_ALEX.webp
+
+   src\content\posts\inaugurada-la-temporada-de-esqui-de-travesia.md:27 (markdown)
+     attachments/SURCANDO_UN_BONITO_LLANO_A_1900m.webp
+     Expected: attachments/SURCANDO_UN_BONITO_LLANO_A_1900m.webp
+
+   src\content\posts\inaugurada-la-temporada-de-esqui-de-travesia.md:29 (markdown)
+     attachments/SILUETAS_EN_UN_PAISAJE_DE_ENSUE-C3-91O.webp
+     Expected: attachments/SILUETAS_EN_UN_PAISAJE_DE_ENSUE-C3-91O.webp
+
+   src\content\posts\inaugurada-la-temporada-de-esqui-de-travesia.md:31 (markdown)
+     attachments/PRIMER_DESCENSO_EN_FRANCIA_AL_FONDO_MIDI_DOSSAU.webp
+     Expected: attachments/PRIMER_DESCENSO_EN_FRANCIA_AL_FONDO_MIDI_DOSSAU.webp
+
+   src\content\posts\inaugurada-la-temporada-de-esqui-de-travesia.md:33 (markdown)
+     attachments/JM_Y_DIEGO_BALAITUS_FRONDIELLAS.webp
+     Expected: attachments/JM_Y_DIEGO_BALAITUS_FRONDIELLAS.webp
+
+   src\content\posts\inaugurada-la-temporada-de-esqui-de-travesia.md:35 (markdown)
+     attachments/FLANQUEANDO_LOS_BARRANCOS_AL_FONDO_NUESTRO_COLLADO.webp
+     Expected: attachments/FLANQUEANDO_LOS_BARRANCOS_AL_FONDO_NUESTRO_COLLADO.webp
+
+   src\content\posts\inaugurada-la-temporada-de-esqui-de-travesia.md:37 (markdown)
+     attachments/DIEGO_ALEX_Y_JM_SOBRE_COLL_MONJES.webp
+     Expected: attachments/DIEGO_ALEX_Y_JM_SOBRE_COLL_MONJES.webp
+
+   src\content\posts\inaugurada-la-temporada-de-esqui-de-travesia.md:39 (markdown)
+     attachments/AZULES_Y_BLANCOS_TEXTURAS.webp
+     Expected: attachments/AZULES_Y_BLANCOS_TEXTURAS.webp
+
+   src\content\posts\inaugurada-la-temporada-de-esqui-de-travesia.md:41 (markdown)
+     attachments/ALBERTO_Y_ALEX_SOBRE_UN_MAR_BLANCO.webp
+     Expected: attachments/ALBERTO_Y_ALEX_SOBRE_UN_MAR_BLANCO.webp
+
+   src\content\posts\ironman-de-regensburg.md:13 (markdown)
+     attachments/to-C3-B1oiron2.webp
+     Expected: attachments/to-C3-B1oiron2.webp
+
+   src\content\posts\ironman-de-regensburg.md:17 (markdown)
+     attachments/to-C3-B1oiron.webp
+     Expected: attachments/to-C3-B1oiron.webp
+
+   src\content\posts\ironman-de-zurich.md:14 (markdown)
+     attachments/grupo.webp
+     Expected: attachments/grupo.webp
+
+   src\content\posts\ironman-de-zurich.md:22 (markdown)
+     attachments/DSC00004.webp
+     Expected: attachments/DSC00004.webp
+
+   src\content\posts\ironman-de-zurich.md:24 (markdown)
+     attachments/salida.webp
+     Expected: attachments/salida.webp
+
+   src\content\posts\islandia-2024-diario-de-un-viaje-en-autocaravana.md:30 (markdown)
+     attachments/Pasted-image-20240829193527-1024x576.webp
+     Expected: attachments/Pasted-image-20240829193527-1024x576.webp
+
+   src\content\posts\islandia-2024-diario-de-un-viaje-en-autocaravana.md:39 (markdown)
+     attachments/IMG20240820093911.webp
+     Expected: attachments/IMG20240820093911.webp
+
+   src\content\posts\islandia-2024-diario-de-un-viaje-en-autocaravana.md:47 (markdown)
+     attachments/Pasted-image-20240829194723-1024x653.webp
+     Expected: attachments/Pasted-image-20240829194723-1024x653.webp
+
+   src\content\posts\islandia-2024-diario-de-un-viaje-en-autocaravana.md:59 (markdown)
+     attachments/Pasted-image-20240829200907-1024x576.webp
+     Expected: attachments/Pasted-image-20240829200907-1024x576.webp
+
+   src\content\posts\islandia-2024-diario-de-un-viaje-en-autocaravana.md:70 (markdown)
+     attachments/Pasted-image-20240829201716-1024x577.webp
+     Expected: attachments/Pasted-image-20240829201716-1024x577.webp
+
+   src\content\posts\islandia-2024-diario-de-un-viaje-en-autocaravana.md:79 (markdown)
+     attachments/Pasted-image-20240829202047-1024x576.webp
+     Expected: attachments/Pasted-image-20240829202047-1024x576.webp
+
+   src\content\posts\islandia-2024-diario-de-un-viaje-en-autocaravana.md:85 (markdown)
+     attachments/Pasted-image-20240830113323-1024x577.webp
+     Expected: attachments/Pasted-image-20240830113323-1024x577.webp
+
+   src\content\posts\islandia-2024-diario-de-un-viaje-en-autocaravana.md:94 (markdown)
+     attachments/Pasted-image-20240830114502-1024x576.webp
+     Expected: attachments/Pasted-image-20240830114502-1024x576.webp
+
+   src\content\posts\islandia-2024-diario-de-un-viaje-en-autocaravana.md:110 (markdown)
+     attachments/Pasted-image-20240830120419-1024x577.webp
+     Expected: attachments/Pasted-image-20240830120419-1024x577.webp
+
+   src\content\posts\islandia-2024-diario-de-un-viaje-en-autocaravana.md:117 (markdown)
+     attachments/Pasted-image-20240830120535-1024x576.webp
+     Expected: attachments/Pasted-image-20240830120535-1024x576.webp
+
+   src\content\posts\islandia-2024-diario-de-un-viaje-en-autocaravana.md:127 (markdown)
+     attachments/Pasted-image-20240830121448-1024x577.webp
+     Expected: attachments/Pasted-image-20240830121448-1024x577.webp
+
+   src\content\posts\islandia-2024-diario-de-un-viaje-en-autocaravana.md:152 (markdown)
+     attachments/Pasted-image-20240830121713-1024x576.webp
+     Expected: attachments/Pasted-image-20240830121713-1024x576.webp
+
+   src\content\posts\islandia-2024-diario-de-un-viaje-en-autocaravana.md:164 (markdown)
+     attachments/Pasted-image-20240830123151-1024x576.webp
+     Expected: attachments/Pasted-image-20240830123151-1024x576.webp
+
+   src\content\posts\la-loire-a-velo.md:19 (markdown)
+     attachments/QR-Loire.webp
+     Expected: attachments/QR-Loire.webp
+
+   src\content\posts\la-primavera-la-savia-altera.md:15 (markdown)
+     attachments/20090621_Lizara_0033.webp
+     Expected: attachments/20090621_Lizara_0033.webp
+
+   src\content\posts\la-primavera-la-savia-altera.md:17 (markdown)
+     attachments/20090621_Lizara_0032.webp
+     Expected: attachments/20090621_Lizara_0032.webp
+
+   src\content\posts\la-primavera-la-savia-altera.md:19 (markdown)
+     attachments/20090621_Lizara_0016.webp
+     Expected: attachments/20090621_Lizara_0016.webp
+
+   src\content\posts\la-primavera-la-savia-altera.md:21 (markdown)
+     attachments/20090621_Lizara_0015.webp
+     Expected: attachments/20090621_Lizara_0015.webp
+
+   src\content\posts\la-primavera-la-savia-altera.md:23 (markdown)
+     attachments/20090621_Lizara_0011.webp
+     Expected: attachments/20090621_Lizara_0011.webp
+
+   src\content\posts\la-primavera-la-savia-altera.md:25 (markdown)
+     attachments/20090621_Lizara_0009.webp
+     Expected: attachments/20090621_Lizara_0009.webp
+
+   src\content\posts\la-primavera-la-savia-altera.md:27 (markdown)
+     attachments/20090621_Lizara_0006.webp
+     Expected: attachments/20090621_Lizara_0006.webp
+
+   src\content\posts\la-primavera-la-savia-altera.md:29 (markdown)
+     attachments/20090614_Atxerito_flores_0152.webp
+     Expected: attachments/20090614_Atxerito_flores_0152.webp
+
+   src\content\posts\la-primavera-la-savia-altera.md:31 (markdown)
+     attachments/20090614_Atxerito_flores_0143.webp
+     Expected: attachments/20090614_Atxerito_flores_0143.webp
+
+   src\content\posts\la-primavera-la-savia-altera.md:33 (markdown)
+     attachments/20090614_Atxerito_flores_0134.webp
+     Expected: attachments/20090614_Atxerito_flores_0134.webp
+
+   src\content\posts\la-primavera-la-savia-altera.md:35 (markdown)
+     attachments/20090614_Atxerito_flores_0130.webp
+     Expected: attachments/20090614_Atxerito_flores_0130.webp
+
+   src\content\posts\la-primavera-la-savia-altera.md:37 (markdown)
+     attachments/20090531_Picos-Coronas-26delMedio_0120.webp
+     Expected: attachments/20090531_Picos-Coronas-26delMedio_0120.webp
+
+   src\content\posts\laigueta-de-barbaruens.md:14 (markdown)
+     attachments/P1011317.webp
+     Expected: attachments/P1011317.webp
+
+   src\content\posts\latrek-trail-loop-manana-vintage.md:18 (markdown)
+     attachments/LaTrekTrail22.webp
+     Expected: attachments/LaTrekTrail22.webp
+
+   src\content\posts\llega-el-otono-al-pirineo.md:17 (markdown)
+     attachments/Puente-Pilar-en-Gistain-009.webp
+     Expected: attachments/Puente-Pilar-en-Gistain-009.webp
+
+   src\content\posts\llega-el-otono-al-pirineo.md:17 (markdown)
+     attachments/Puente-Pilar-en-Gistain-016.webp
+     Expected: attachments/Puente-Pilar-en-Gistain-016.webp
+
+   src\content\posts\llega-el-otono-al-pirineo.md:17 (markdown)
+     attachments/Puente-Pilar-en-Gistain-018.webp
+     Expected: attachments/Puente-Pilar-en-Gistain-018.webp
+
+   src\content\posts\llega-el-otono-al-pirineo.md:19 (markdown)
+     attachments/Puente-Pilar-en-Gistain-037.webp
+     Expected: attachments/Puente-Pilar-en-Gistain-037.webp
+
+   src\content\posts\llega-el-otono-al-pirineo.md:19 (markdown)
+     attachments/Puente-Pilar-en-Gistain-040.webp
+     Expected: attachments/Puente-Pilar-en-Gistain-040.webp
+
+   src\content\posts\los-globeros-bajan-barrancos.md:15 (markdown)
+     attachments/barranco.webp
+     Expected: attachments/barranco.webp
+
+   src\content\posts\maladeta-oriental-3-308m.md:15 (markdown)
+     attachments/MaladetaOriental.webp
+     Expected: attachments/MaladetaOriental.webp
+
+   src\content\posts\maraton-btt-de-monegros.md:14 (markdown)
+     attachments/fotosalidamonegros.webp
+     Expected: attachments/fotosalidamonegros.webp
+
+   src\content\posts\maraton-btt-de-monegros.md:84 (markdown)
+     attachments/podiumLuci.webp
+     Expected: attachments/podiumLuci.webp
+
+   src\content\posts\midibigorre-pilares.md:20 (markdown)
+     attachments/autor.webp
+     Expected: attachments/autor.webp
+
+   src\content\posts\no-nieva-pero-tranquilos.md:15 (markdown)
+     attachments/glaciarAneto.webp
+     Expected: attachments/glaciarAneto.webp
+
+   src\content\posts\noruega-2019-cabo-norte.md:17 (markdown)
+     attachments/nw_6.webp
+     Expected: attachments/nw_6.webp
+
+   src\content\posts\noruega-2019-cabo-norte.md:17 (markdown)
+     attachments/nw_7.webp
+     Expected: attachments/nw_7.webp
+
+   src\content\posts\noruega-2019-cabo-norte.md:17 (markdown)
+     attachments/nw_8.webp
+     Expected: attachments/nw_8.webp
+
+   src\content\posts\noruega-2019-cabo-norte.md:17 (markdown)
+     attachments/nw_2.webp
+     Expected: attachments/nw_2.webp
+
+   src\content\posts\noruega-2019-cabo-norte.md:17 (markdown)
+     attachments/nw_3.webp
+     Expected: attachments/nw_3.webp
+
+   src\content\posts\noruega-2019-cabo-norte.md:17 (markdown)
+     attachments/nw_4.webp
+     Expected: attachments/nw_4.webp
+
+   src\content\posts\noruega-2019-cabo-norte.md:17 (markdown)
+     attachments/nw_5.webp
+     Expected: attachments/nw_5.webp
+
+   src\content\posts\novedades-en-soloquedalopeor.md:17 (markdown)
+     attachments/borrame.webp
+     Expected: attachments/borrame.webp
+
+   src\content\posts\oferta-de-trabajo.md:14 (markdown)
+     attachments/anuncio.webp
+     Expected: attachments/anuncio.webp
+
+   src\content\posts\otono-2-0-en-benasque-otra-vez.md:18 (markdown)
+     attachments/otono20_33-1024x576.webp
+     Expected: attachments/otono20_33-1024x576.webp
+
+   src\content\posts\otono-2-0-en-benasque-otra-vez.md:20 (markdown)
+     attachments/otono20_2-1024x576.webp
+     Expected: attachments/otono20_2-1024x576.webp
+
+   src\content\posts\paternkofel-monte-paterno-ferratas-de-luca-innerkofler-y-delle-forcelle.md:31 (markdown)
+     attachments/paterno1-677x1024.webp
+     Expected: attachments/paterno1-677x1024.webp
+
+   src\content\posts\paternkofel-monte-paterno-ferratas-de-luca-innerkofler-y-delle-forcelle.md:42 (markdown)
+     attachments/paterno3.webp
+     Expected: attachments/paterno3.webp
+
+   src\content\posts\pedaleando-por-la-spanish-utah.md:33 (markdown)
+     attachments/IMG_20160423_110229_2-01.webp
+     Expected: attachments/IMG_20160423_110229_2-01.webp
+
+   src\content\posts\pedaleando-por-la-spanish-utah.md:35 (markdown)
+     attachments/IMG_20160423_124202-01.webp
+     Expected: attachments/IMG_20160423_124202-01.webp
+
+   src\content\posts\pedaleando-por-la-spanish-utah.md:37 (markdown)
+     attachments/IMG_20160423_124808-01.webp
+     Expected: attachments/IMG_20160423_124808-01.webp
+
+   src\content\posts\pedaleando-por-la-spanish-utah.md:39 (markdown)
+     attachments/Spanish-Utah-Postureando1.webp
+     Expected: attachments/Spanish-Utah-Postureando1.webp
+
+   src\content\posts\pedals-doccitania.md:13 (markdown)
+     attachments/Pedals-d-27Occitania-086.webp
+     Expected: attachments/Pedals-d-27Occitania-086.webp
+
+   src\content\posts\pedals-doccitania.md:19 (markdown)
+     attachments/Pedals-d-27Occitania-025.webp
+     Expected: attachments/Pedals-d-27Occitania-025.webp
+
+   src\content\posts\pedals-doccitania.md:21 (markdown)
+     attachments/Pedals-d-27Occitania-039.webp
+     Expected: attachments/Pedals-d-27Occitania-039.webp
+
+   src\content\posts\pedals-doccitania.md:23 (markdown)
+     attachments/Pedals-d-27Occitania-064.webp
+     Expected: attachments/Pedals-d-27Occitania-064.webp
+
+   src\content\posts\pedals-doccitania.md:25 (markdown)
+     attachments/Pedals-d-27Occitania-080.webp
+     Expected: attachments/Pedals-d-27Occitania-080.webp
+
+   src\content\posts\pedals-doccitania.md:27 (markdown)
+     attachments/Pedals-d-27Occitania-084.webp
+     Expected: attachments/Pedals-d-27Occitania-084.webp
+
+   src\content\posts\pico-bacias-2-760m.md:24 (markdown)
+     attachments/qr_bacias.webp
+     Expected: attachments/qr_bacias.webp
+
+   src\content\posts\pico-barrosa-2-742m.md:13 (markdown)
+     attachments/P1200163.webp
+     Expected: attachments/P1200163.webp
+
+   src\content\posts\pico-de-coronas-3-297m.md:39 (markdown)
+     attachments/Sin-titulo_1.7.3-1024x576.webp
+     Expected: attachments/Sin-titulo_1.7.3-1024x576.webp
+
+   src\content\posts\pico-de-coronas-3-297m.md:43 (markdown)
+     attachments/Sin-titulo_1.12.1-1024x576.webp
+     Expected: attachments/Sin-titulo_1.12.1-1024x576.webp
+
+   src\content\posts\pico-de-coronas-3-297m.md:47 (markdown)
+     attachments/Sin-titulo_1.14.1-1024x576.webp
+     Expected: attachments/Sin-titulo_1.14.1-1024x576.webp
+
+   src\content\posts\pico-de-coronas-3-297m.md:51 (markdown)
+     attachments/WhatsApp-Image-2025-05-17-at-21.49.57-1024x768.webp
+     Expected: attachments/WhatsApp-Image-2025-05-17-at-21.49.57-1024x768.webp
+
+   src\content\posts\pico-de-coronas-3-297m.md:55 (markdown)
+     attachments/Sin-titulo_1.18.1-1024x576.webp
+     Expected: attachments/Sin-titulo_1.18.1-1024x576.webp
+
+   src\content\posts\pico-del-cuello-de-soba-2-612m.md:15 (markdown)
+     attachments/soba1.webp
+     Expected: attachments/soba1.webp
+
+   src\content\posts\pico-del-cuello-de-soba-2-612m.md:23 (markdown)
+     attachments/soba2.webp
+     Expected: attachments/soba2.webp
+
+   src\content\posts\pico-foratulas-i-2-510m.md:27 (markdown)
+     attachments/foratulas.webp
+     Expected: attachments/foratulas.webp
+
+   src\content\posts\pico-foratulas-ii-2-585m.md:13 (markdown)
+     attachments/IGP9862_2.webp
+     Expected: attachments/IGP9862_2.webp
+
+   src\content\posts\pico-foratulas-ii-2-585m.md:15 (markdown)
+     attachments/IGP9889_1.webp
+     Expected: attachments/IGP9889_1.webp
+
+   src\content\posts\pico-foratulas-ii-2-585m.md:17 (markdown)
+     attachments/IGP9885_1.webp
+     Expected: attachments/IGP9885_1.webp
+
+   src\content\posts\pico-lariste-2-168m.md:15 (markdown)
+     attachments/fotaza.webp
+     Expected: attachments/fotaza.webp
+
+   src\content\posts\pico-petrechema.md:13 (markdown)
+     attachments/Chus-Petrechema3.webp
+     Expected: attachments/Chus-Petrechema3.webp
+
+   src\content\posts\pico-petrechema.md:21 (markdown)
+     attachments/Chus-Petrechema.webp
+     Expected: attachments/Chus-Petrechema.webp
+
+   src\content\posts\pico-petrechema.md:21 (markdown)
+     attachments/Chus-Petrechema2.webp
+     Expected: attachments/Chus-Petrechema2.webp
+
+   src\content\posts\pico-tendenera-2-853m-intento.md:23 (markdown)
+     attachments/pico-tendenera-2-853m-intento.png
+     Expected: attachments/pico-tendenera-2-853m-intento.png
+
+   src\content\posts\pico-tendenera-2-853m.md:15 (markdown)
+     attachments/Tende5.webp
+     Expected: attachments/Tende5.webp
+
+   src\content\posts\pico-tendenera-2-853m.md:25 (markdown)
+     attachments/Tende1.webp
+     Expected: attachments/Tende1.webp
+
+   src\content\posts\pico-tendenera-2-853m.md:26 (markdown)
+     attachments/Tende2.webp
+     Expected: attachments/Tende2.webp
+
+   src\content\posts\pico-tendenera-2-853m.md:27 (markdown)
+     attachments/Tende3.webp
+     Expected: attachments/Tende3.webp
+
+   src\content\posts\pico-tendenera-2-853m.md:29 (markdown)
+     attachments/Tende4.webp
+     Expected: attachments/Tende4.webp
+
+   src\content\posts\pico-tendenera-2-853m.md:30 (markdown)
+     attachments/Tende6.webp
+     Expected: attachments/Tende6.webp
+
+   src\content\posts\poligono-industrial-desalojado-en-ayerbe.md:19 (markdown)
+     attachments/NidoAyerbe.webp
+     Expected: attachments/NidoAyerbe.webp
+
+   src\content\posts\punta-bila-2-581m.md:15 (markdown)
+     attachments/PtaBila.webp
+     Expected: attachments/PtaBila.webp
+
+   src\content\posts\raid-la-pineda-cronica-de-jara.md:15 (markdown)
+     attachments/20090425_Raid-la-Pineda_0036.webp
+     Expected: attachments/20090425_Raid-la-Pineda_0036.webp
+
+   src\content\posts\raid-la-pineda-cronica-de-jara.md:69 (markdown)
+     attachments/20090425_Raid-la-Pineda_0038.webp
+     Expected: attachments/20090425_Raid-la-Pineda_0038.webp
+
+   src\content\posts\raid-la-pineda-cronica-de-jara.md:161 (markdown)
+     attachments/20090426_Raid-la-Pineda_0021.webp
+     Expected: attachments/20090426_Raid-la-Pineda_0021.webp
+
+   src\content\posts\ruta-del-agua.md:30 (markdown)
+     attachments/RutAgua6-1536x1152.webp
+     Expected: attachments/RutAgua6-1536x1152.webp
+
+   src\content\posts\ruta-del-agua.md:33 (markdown)
+     attachments/RutAgua5-1536x1152.webp
+     Expected: attachments/RutAgua5-1536x1152.webp
+
+   src\content\posts\ruta-del-agua.md:36 (markdown)
+     attachments/RutAgua4-1536x1152.webp
+     Expected: attachments/RutAgua4-1536x1152.webp
+
+   src\content\posts\ruta-del-agua.md:39 (markdown)
+     attachments/RutAgua3-1536x1152.webp
+     Expected: attachments/RutAgua3-1536x1152.webp
+
+   src\content\posts\ruta-del-agua.md:42 (markdown)
+     attachments/RutAgua2-1536x1152.webp
+     Expected: attachments/RutAgua2-1536x1152.webp
+
+   src\content\posts\ruta-del-agua.md:45 (markdown)
+     attachments/RutAgua1-1536x1152.webp
+     Expected: attachments/RutAgua1-1536x1152.webp
+
+   src\content\posts\sacando-partido-a-cada-mm-de-suspension.md:16 (markdown)
+     attachments/ruta2.webp
+     Expected: attachments/ruta2.webp
+
+   src\content\posts\sacando-partido-a-cada-mm-de-suspension.md:18 (markdown)
+     attachments/ruta1.webp
+     Expected: attachments/ruta1.webp
+
+   src\content\posts\salida-promocional-pena-guara-travesia-portalet-astun.md:17 (markdown)
+     attachments/fotito.webp
+     Expected: attachments/fotito.webp
+
+   src\content\posts\se-puede-comprar-la-meteo.md:17 (markdown)
+     attachments/formi.webp
+     Expected: attachments/formi.webp
+
+   src\content\posts\se-puede-comprar-la-meteo.md:19 (markdown)
+     attachments/salle.webp
+     Expected: attachments/salle.webp
+
+   src\content\posts\se-puede-comprar-la-meteo.md:19 (markdown)
+     attachments/1012051412010405G.webp
+     Expected: attachments/1012051412010405G.webp
+
+   src\content\posts\se-puede-comprar-la-meteo.md:21 (markdown)
+     attachments/1012051412010102G.webp
+     Expected: attachments/1012051412010102G.webp
+
+   src\content\posts\senderos-de-canfranc-ladera-w.md:17 (markdown)
+     attachments/canfrancBTT-1024x576.webp
+     Expected: attachments/canfrancBTT-1024x576.webp
+
+   src\content\posts\sevilla-y-ole.md:13 (markdown)
+     attachments/Sevilla-004.webp
+     Expected: attachments/Sevilla-004.webp
+
+   src\content\posts\skilof-1-varden-700m.md:25 (markdown)
+     attachments/P3310023-1024x768.webp
+     Expected: attachments/P3310023-1024x768.webp
+
+   src\content\posts\skilof-1-varden-700m.md:29 (markdown)
+     attachments/P3310043-1024x768.webp
+     Expected: attachments/P3310043-1024x768.webp
+
+   src\content\posts\skilof-1-varden-700m.md:33 (markdown)
+     attachments/P3310044-1024x768.webp
+     Expected: attachments/P3310044-1024x768.webp
+
+   src\content\posts\skilof-1-varden-700m.md:37 (markdown)
+     attachments/P3310065-1024x768.webp
+     Expected: attachments/P3310065-1024x768.webp
+
+   src\content\posts\skilof-2-torksmannen-755m.md:25 (markdown)
+     attachments/P4010148-1024x768.webp
+     Expected: attachments/P4010148-1024x768.webp
+
+   src\content\posts\skilof-3-un-garbeo-desde-el-trollfjord.md:42 (markdown)
+     attachments/P4020253-1024x768.webp
+     Expected: attachments/P4020253-1024x768.webp
+
+   src\content\posts\skilof-3-un-garbeo-desde-el-trollfjord.md:46 (markdown)
+     attachments/P4020258-1024x768.webp
+     Expected: attachments/P4020258-1024x768.webp
+
+   src\content\posts\skilof-3-un-garbeo-desde-el-trollfjord.md:50 (markdown)
+     attachments/P4020285-1024x768.webp
+     Expected: attachments/P4020285-1024x768.webp
+
+   src\content\posts\skilof-3-un-garbeo-desde-el-trollfjord.md:54 (markdown)
+     attachments/P4020292-1024x768.webp
+     Expected: attachments/P4020292-1024x768.webp
+
+   src\content\posts\skilof-3-un-garbeo-desde-el-trollfjord.md:58 (markdown)
+     attachments/P4020326-1024x768.webp
+     Expected: attachments/P4020326-1024x768.webp
+
+   src\content\posts\skilof-3-un-garbeo-desde-el-trollfjord.md:62 (markdown)
+     attachments/P4020333-1024x768.webp
+     Expected: attachments/P4020333-1024x768.webp
+
+   src\content\posts\skilof-4-svarttinden-736m.md:21 (markdown)
+     attachments/P4030396-1024x768.webp
+     Expected: attachments/P4030396-1024x768.webp
+
+   src\content\posts\skilof-4-svarttinden-736m.md:25 (markdown)
+     attachments/P4030402-1024x768.webp
+     Expected: attachments/P4030402-1024x768.webp
+
+   src\content\posts\skilof-4-svarttinden-736m.md:29 (markdown)
+     attachments/P4030424-1024x768.webp
+     Expected: attachments/P4030424-1024x768.webp
+
+   src\content\posts\skilof-4-svarttinden-736m.md:33 (markdown)
+     attachments/P4030435-1024x768.webp
+     Expected: attachments/P4030435-1024x768.webp
+
+   src\content\posts\skilof-4-svarttinden-736m.md:37 (markdown)
+     attachments/P4030443-1024x768.webp
+     Expected: attachments/P4030443-1024x768.webp
+
+   src\content\posts\skilof-4-svarttinden-736m.md:41 (markdown)
+     attachments/P4030452-1024x768.webp
+     Expected: attachments/P4030452-1024x768.webp
+
+   src\content\posts\skilof-4-svarttinden-736m.md:45 (markdown)
+     attachments/P4030455-1024x768.webp
+     Expected: attachments/P4030455-1024x768.webp
+
+   src\content\posts\skilof-4-svarttinden-736m.md:49 (markdown)
+     attachments/P4030487-1024x768.webp
+     Expected: attachments/P4030487-1024x768.webp
+
+   src\content\posts\skilof-4-svarttinden-736m.md:53 (markdown)
+     attachments/P4030481-1024x768.webp
+     Expected: attachments/P4030481-1024x768.webp
+
+   src\content\posts\skilof-5-rundfjellet-803m.md:23 (markdown)
+     attachments/P4040548-1024x768.webp
+     Expected: attachments/P4040548-1024x768.webp
+
+   src\content\posts\skilof-5-rundfjellet-803m.md:27 (markdown)
+     attachments/P4040557-1024x768.webp
+     Expected: attachments/P4040557-1024x768.webp
+
+   src\content\posts\skilof-5-rundfjellet-803m.md:31 (markdown)
+     attachments/P4040562-1024x768.webp
+     Expected: attachments/P4040562-1024x768.webp
+
+   src\content\posts\skilof-5-rundfjellet-803m.md:35 (markdown)
+     attachments/P4040582-1024x768.webp
+     Expected: attachments/P4040582-1024x768.webp
+
+   src\content\posts\skilof-5-rundfjellet-803m.md:39 (markdown)
+     attachments/P4040586-1024x768.webp
+     Expected: attachments/P4040586-1024x768.webp
+
+   src\content\posts\skilof-5-rundfjellet-803m.md:43 (markdown)
+     attachments/P4040589-1024x768.webp
+     Expected: attachments/P4040589-1024x768.webp
+
+   src\content\posts\skilof-5-rundfjellet-803m.md:47 (markdown)
+     attachments/P4040608-1024x768.webp
+     Expected: attachments/P4040608-1024x768.webp
+
+   src\content\posts\skilof-5-rundfjellet-803m.md:51 (markdown)
+     attachments/WhatsApp-Image-2024-04-07-at-20.50.33-1024x602.webp
+     Expected: attachments/WhatsApp-Image-2024-04-07-at-20.50.33-1024x602.webp
+
+   src\content\posts\skilof-6-store-kvittind-696m.md:23 (markdown)
+     attachments/P4051054-1024x768.webp
+     Expected: attachments/P4051054-1024x768.webp
+
+   src\content\posts\skilof-6-store-kvittind-696m.md:27 (markdown)
+     attachments/P4051077-1024x768.webp
+     Expected: attachments/P4051077-1024x768.webp
+
+   src\content\posts\skilof-6-store-kvittind-696m.md:31 (markdown)
+     attachments/P4051086-1024x768.webp
+     Expected: attachments/P4051086-1024x768.webp
+
+   src\content\posts\skilof-6-store-kvittind-696m.md:35 (markdown)
+     attachments/P4051089-1024x768.webp
+     Expected: attachments/P4051089-1024x768.webp
+
+   src\content\posts\skilof-6-store-kvittind-696m.md:39 (markdown)
+     attachments/P4051092-1024x768.webp
+     Expected: attachments/P4051092-1024x768.webp
+
+   src\content\posts\skilof-6-store-kvittind-696m.md:43 (markdown)
+     attachments/P4051108-1024x768.webp
+     Expected: attachments/P4051108-1024x768.webp
+
+   src\content\posts\skilof-6-store-kvittind-696m.md:47 (markdown)
+     attachments/P4051110-1024x768.webp
+     Expected: attachments/P4051110-1024x768.webp
+
+   src\content\posts\skilof-6-store-kvittind-696m.md:51 (markdown)
+     attachments/P4051123-1024x768.webp
+     Expected: attachments/P4051123-1024x768.webp
+
+   src\content\posts\skimo-en-las-lofoten.md:47 (markdown)
+     attachments/P4051062-1024x768.webp
+     Expected: attachments/P4051062-1024x768.webp
+
+   src\content\posts\skimo-en-las-lofoten.md:51 (markdown)
+     attachments/P4041038-1024x768.webp
+     Expected: attachments/P4041038-1024x768.webp
+
+   src\content\posts\skimo-en-las-lofoten.md:55 (markdown)
+     attachments/P4030508-1024x768.webp
+     Expected: attachments/P4030508-1024x768.webp
+
+   src\content\posts\skimo-en-las-lofoten.md:59 (markdown)
+     attachments/P4030495-1024x768.webp
+     Expected: attachments/P4030495-1024x768.webp
+
+   src\content\posts\skimo-en-las-lofoten.md:63 (markdown)
+     attachments/P3310118-1024x768.webp
+     Expected: attachments/P3310118-1024x768.webp
+
+   src\content\posts\skimo-en-las-lofoten.md:67 (markdown)
+     attachments/P3310117-1024x768.webp
+     Expected: attachments/P3310117-1024x768.webp
+
+   src\content\posts\skimo-en-las-lofoten.md:71 (markdown)
+     attachments/P3310101-1024x768.webp
+     Expected: attachments/P3310101-1024x768.webp
+
+   src\content\posts\skimo-pic-de-neouvielle-3-091m.md:23 (markdown)
+     attachments/Neouvielle-300x300.webp
+     Expected: attachments/Neouvielle-300x300.webp
+
+   src\content\posts\skimo-pico-bataillence-2-604m.md:22 (markdown)
+     attachments/cheles.webp
+     Expected: attachments/cheles.webp
+
+   src\content\posts\skimo-pico-bataillence-2-604m.md:37 (markdown)
+     attachments/AlbertoEpic.webp
+     Expected: attachments/AlbertoEpic.webp
+
+   src\content\posts\skimo-tendenera-2-845m.md:25 (markdown)
+     attachments/Tendenera_planeta2-150x150.webp
+     Expected: attachments/Tendenera_planeta2-150x150.webp
+
+   src\content\posts\skimo-vertice-del-anayet-y-espelunciecha.md:19 (markdown)
+     attachments/NoticiaPeriodico.webp
+     Expected: attachments/NoticiaPeriodico.webp
+
+   src\content\posts\sociedad-general-de-fabricantes-de-mesas.md:15 (markdown)
+     attachments/ramoncin.webp
+     Expected: attachments/ramoncin.webp
+
+   src\content\posts\strokkur-iceland-pills-2.md:34 (markdown)
+     attachments/SamiGeysir-1024x768.webp
+     Expected: attachments/SamiGeysir-1024x768.webp
+
+   src\content\posts\the-wild-boar-rogaining-lespluga-calba.md:13 (markdown)
+     attachments/Copia-de-Rogainning-L-C3-A9rida-2710.jpg-16-_resize.webp
+     Expected: attachments/Copia-de-Rogainning-L-C3-A9rida-2710.jpg-16-_resize.webp
+
+   src\content\posts\tozal-de-guara.md:15 (markdown)
+     attachments/2938570853_6d3b607154_s.webp
+     Expected: attachments/2938570853_6d3b607154_s.webp
+
+   src\content\posts\tozal-del-bason-2-132m.md:35 (markdown)
+     attachments/P6210005-Mejorado-NR-1024x768.webp
+     Expected: attachments/P6210005-Mejorado-NR-1024x768.webp
+
+   src\content\posts\tozal-del-bason-2-132m.md:39 (markdown)
+     attachments/P6210104-Mejorado-NR-1024x768.webp
+     Expected: attachments/P6210104-Mejorado-NR-1024x768.webp
+
+   src\content\posts\tozal-del-bason-2-132m.md:43 (markdown)
+     attachments/P6210022-Mejorado-NR-1024x768.webp
+     Expected: attachments/P6210022-Mejorado-NR-1024x768.webp
+
+   src\content\posts\tozal-del-bason-2-132m.md:47 (markdown)
+     attachments/P6210056-Mejorado-NR-1024x768.webp
+     Expected: attachments/P6210056-Mejorado-NR-1024x768.webp
+
+   src\content\posts\tozal-del-bason-2-132m.md:51 (markdown)
+     attachments/P6210130-Mejorado-NR-1024x768.webp
+     Expected: attachments/P6210130-Mejorado-NR-1024x768.webp
+
+   src\content\posts\tozal-del-mallo-faja-de-las-flores.md:34 (markdown)
+     attachments/WhatsApp-Image-2024-06-20-at-13.24.13-4-768x1024.webp
+     Expected: attachments/WhatsApp-Image-2024-06-20-at-13.24.13-4-768x1024.webp
+
+   src\content\posts\tozal-del-mallo-faja-de-las-flores.md:38 (markdown)
+     attachments/P6190028-Mejorado-NR-1024x768.webp
+     Expected: attachments/P6190028-Mejorado-NR-1024x768.webp
+
+   src\content\posts\tozal-del-mallo-faja-de-las-flores.md:42 (markdown)
+     attachments/P6190034-Mejorado-NR-1024x768.webp
+     Expected: attachments/P6190034-Mejorado-NR-1024x768.webp
+
+   src\content\posts\tozal-del-mallo-faja-de-las-flores.md:46 (markdown)
+     attachments/P6190035-Mejorado-NR-1024x768.webp
+     Expected: attachments/P6190035-Mejorado-NR-1024x768.webp
+
+   src\content\posts\tozal-del-mallo-faja-de-las-flores.md:50 (markdown)
+     attachments/P6190045-Mejorado-NR-1024x768.webp
+     Expected: attachments/P6190045-Mejorado-NR-1024x768.webp
+
+   src\content\posts\tozal-del-mallo-faja-de-las-flores.md:54 (markdown)
+     attachments/WhatsApp-Image-2024-06-20-at-13.24.12-2-768x1024.webp
+     Expected: attachments/WhatsApp-Image-2024-06-20-at-13.24.12-2-768x1024.webp
+
+   src\content\posts\tozal-del-mallo-faja-de-las-flores.md:64 (markdown)
+     attachments/P6190060-Mejorado-NR-1024x768.webp
+     Expected: attachments/P6190060-Mejorado-NR-1024x768.webp
+
+   src\content\posts\tozal-del-mallo-faja-de-las-flores.md:68 (markdown)
+     attachments/P6190073-Mejorado-NR-1024x768.webp
+     Expected: attachments/P6190073-Mejorado-NR-1024x768.webp
+
+   src\content\posts\tozal-del-mallo-faja-de-las-flores.md:76 (markdown)
+     attachments/P6190074-1024x768.webp
+     Expected: attachments/P6190074-1024x768.webp
+
+   src\content\posts\tozal-del-mallo-faja-de-las-flores.md:80 (markdown)
+     attachments/P6190076-Mejorado-NR-1024x768.webp
+     Expected: attachments/P6190076-Mejorado-NR-1024x768.webp
+
+   src\content\posts\tozal-del-mallo-faja-de-las-flores.md:84 (markdown)
+     attachments/P6190116-Mejorado-NR-1024x768.webp
+     Expected: attachments/P6190116-Mejorado-NR-1024x768.webp
+
+   src\content\posts\tozal-del-mallo-faja-de-las-flores.md:88 (markdown)
+     attachments/P6190159-Mejorado-NR-1024x768.webp
+     Expected: attachments/P6190159-Mejorado-NR-1024x768.webp
+
+   src\content\posts\tozal-del-mallo-faja-de-las-flores.md:92 (markdown)
+     attachments/P6190169-Mejorado-NR-1024x768.webp
+     Expected: attachments/P6190169-Mejorado-NR-1024x768.webp
+
+   src\content\posts\tozal-del-mallo-faja-de-las-flores.md:98 (markdown)
+     attachments/WhatsApp-Image-2024-06-20-at-18.58.09-768x1024.webp
+     Expected: attachments/WhatsApp-Image-2024-06-20-at-18.58.09-768x1024.webp
+
+   src\content\posts\tozal-del-mallo-faja-de-las-flores.md:102 (markdown)
+     attachments/P6190178-Mejorado-NR-768x1024.webp
+     Expected: attachments/P6190178-Mejorado-NR-768x1024.webp
+
+   src\content\posts\trans-suiza-2014-mittelland-route-episodio-1.md:16 (markdown)
+     attachments/fotito.webp
+     Expected: attachments/fotito.webp
+
+   src\content\posts\trans-suiza-2014-mittelland-route-episodio-3.md:17 (markdown)
+     attachments/fotito.webp
+     Expected: attachments/fotito.webp
+
+   src\content\posts\transpirenaica-aragonesa-en-btt.md:20 (markdown)
+     attachments/Etapa-1-En-el-collado-de-Cullibert-2.webp
+     Expected: attachments/Etapa-1-En-el-collado-de-Cullibert-2.webp
+
+   src\content\posts\transpirenaica-aragonesa-en-btt.md:24 (markdown)
+     attachments/Etapa-2-Ordesa.webp
+     Expected: attachments/Etapa-2-Ordesa.webp
+
+   src\content\posts\transpirenaica-aragonesa-en-btt.md:28 (markdown)
+     attachments/Etapa-3-Valle-de-la-Ripera.webp
+     Expected: attachments/Etapa-3-Valle-de-la-Ripera.webp
+
+   src\content\posts\transpirenaica-aragonesa-en-btt.md:32 (markdown)
+     attachments/Etapa-4-Ibones-de-Anayet.webp
+     Expected: attachments/Etapa-4-Ibones-de-Anayet.webp
+
+   src\content\posts\transpirenaica-aragonesa-en-btt.md:36 (markdown)
+     attachments/Etapa-5-Aguas-Tuertas.webp
+     Expected: attachments/Etapa-5-Aguas-Tuertas.webp
+
+   src\content\posts\tuc-de-baciver-2-645m-el-espelunciecha-de-baqueira.md:17 (markdown)
+     attachments/TucdeBaciver.webp
+     Expected: attachments/TucdeBaciver.webp
+
+   src\content\posts\tuca-de-culebres-3-062m-la-integralisssima-de-sierra-negra.md:19 (markdown)
+     attachments/foto1.webp
+     Expected: attachments/foto1.webp
+
+   src\content\posts\tuca-de-culebres-3-062m-la-integralisssima-de-sierra-negra.md:27 (markdown)
+     attachments/foto2-1024x576.webp
+     Expected: attachments/foto2-1024x576.webp
+
+   src\content\posts\tuca-de-culebres-3-062m-la-integralisssima-de-sierra-negra.md:31 (markdown)
+     attachments/foto3-1024x576.webp
+     Expected: attachments/foto3-1024x576.webp
+
+   src\content\posts\tuca-de-culebres-3-062m-la-integralisssima-de-sierra-negra.md:35 (markdown)
+     attachments/foto4-1024x577.webp
+     Expected: attachments/foto4-1024x577.webp
+
+   src\content\posts\tuca-de-culebres-3-062m-la-integralisssima-de-sierra-negra.md:39 (markdown)
+     attachments/foto5-1024x576.webp
+     Expected: attachments/foto5-1024x576.webp
+
+   src\content\posts\tuca-de-culebres-3-062m-la-integralisssima-de-sierra-negra.md:45 (markdown)
+     attachments/foto6-1024x576.webp
+     Expected: attachments/foto6-1024x576.webp
+
+   src\content\posts\tuca-de-culebres-3-062m-la-integralisssima-de-sierra-negra.md:51 (markdown)
+     attachments/foto7-1024x347.webp
+     Expected: attachments/foto7-1024x347.webp
+
+   src\content\posts\tuca-de-culebres-3-062m-la-integralisssima-de-sierra-negra.md:55 (markdown)
+     attachments/foto81.webp
+     Expected: attachments/foto81.webp
+
+   src\content\posts\tuca-de-culebres-3-062m-la-integralisssima-de-sierra-negra.md:61 (markdown)
+     attachments/QR-Culebres4.webp
+     Expected: attachments/QR-Culebres4.webp
+
+   src\content\posts\tutorial-como-fabricar-tu-propio-guardabarros-para-horquilla-de-suspension.md:20 (markdown)
+     attachments/gb11-227x300.webp
+     Expected: attachments/gb11-227x300.webp
+
+   src\content\posts\tutorial-como-fabricar-tu-propio-guardabarros-para-horquilla-de-suspension.md:22 (markdown)
+     attachments/GuardabarrosSQLP.webp
+     Expected: attachments/GuardabarrosSQLP.webp
+
+   src\content\posts\tutorial-como-fabricar-tu-propio-guardabarros-para-horquilla-de-suspension.md:24 (markdown)
+     attachments/gb21.webp
+     Expected: attachments/gb21.webp
+
+   src\content\posts\tutorial-como-fabricar-tu-propio-guardabarros-para-horquilla-de-suspension.md:26 (markdown)
+     attachments/gb31.webp
+     Expected: attachments/gb31.webp
+
+   src\content\posts\tutorial-como-fabricar-tu-propio-guardabarros-para-horquilla-de-suspension.md:28 (markdown)
+     attachments/gb41.webp
+     Expected: attachments/gb41.webp
+
+   src\content\posts\tutorial-como-fabricar-tu-propio-guardabarros-para-horquilla-de-suspension.md:30 (markdown)
+     attachments/gb5.webp
+     Expected: attachments/gb5.webp
+
+   src\content\posts\tutorial-determinar-inclinacion-de-la-pendiente.md:34 (markdown)
+     attachments/test-pendiente-bastones.webp
+     Expected: attachments/test-pendiente-bastones.webp
+
+   src\content\posts\tutorial-fabrica-tu-propio-porta-gps.md:19 (markdown)
+     attachments/IMG_4867.webp
+     Expected: attachments/IMG_4867.webp
+
+   src\content\posts\tutorial-fabrica-tu-propio-porta-gps.md:21 (markdown)
+     attachments/IMG_4869.webp
+     Expected: attachments/IMG_4869.webp
+
+   src\content\posts\tutorial-fabrica-tu-propio-porta-gps.md:25 (markdown)
+     attachments/IMG_4872.webp
+     Expected: attachments/IMG_4872.webp
+
+   src\content\posts\tutorial-fabrica-tu-propio-porta-gps.md:29 (markdown)
+     attachments/IMG_4875.webp
+     Expected: attachments/IMG_4875.webp
+
+   src\content\posts\ultra-trail-guara-somontano.md:13 (markdown)
+     attachments/javichus.webp
+     Expected: attachments/javichus.webp
+
+   src\content\posts\ultra-trail-guara-somontano.md:13 (markdown)
+     attachments/carlos.webp
+     Expected: attachments/carlos.webp
+
+   src\content\posts\ultra-trail-guara-somontano.md:13 (markdown)
+     attachments/0marga.webp
+     Expected: attachments/0marga.webp
+
+   src\content\posts\ultra-trail-guara-somontano.md:13 (markdown)
+     attachments/0natachus.webp
+     Expected: attachments/0natachus.webp
+
+   src\content\posts\ultra-trail-guara-somontano.md:13 (markdown)
+     attachments/0jr.webp
+     Expected: attachments/0jr.webp
+
+   src\content\posts\ultra-trail-guara-somontano.md:51 (markdown)
+     attachments/0monrasin.webp
+     Expected: attachments/0monrasin.webp
+
+   src\content\posts\un-antes-y-un-despues.md:13 (markdown)
+     attachments/216.webp
+     Expected: attachments/216.webp
+
+   src\content\posts\un-antes-y-un-despues.md:15 (markdown)
+     attachments/215.webp
+     Expected: attachments/215.webp
+
+   src\content\posts\un-antes-y-un-despues.md:17 (markdown)
+     attachments/214.webp
+     Expected: attachments/214.webp
+
+   src\content\posts\un-antes-y-un-despues.md:19 (markdown)
+     attachments/213.webp
+     Expected: attachments/213.webp
+
+   src\content\posts\un-antes-y-un-despues.md:21 (markdown)
+     attachments/212.webp
+     Expected: attachments/212.webp
+
+   src\content\posts\un-antes-y-un-despues.md:23 (markdown)
+     attachments/211.webp
+     Expected: attachments/211.webp
+
+   src\content\posts\un-finde-movidito-entre-nocito-y-caldearenas.md:17 (markdown)
+     attachments/18-10-2008-20144.webp
+     Expected: attachments/18-10-2008-20144.webp
+
+   src\content\posts\un-finde-movidito-entre-nocito-y-caldearenas.md:19 (markdown)
+     attachments/18-10-2008-20183.webp
+     Expected: attachments/18-10-2008-20183.webp
+
+   src\content\posts\un-finde-movidito-entre-nocito-y-caldearenas.md:21 (markdown)
+     attachments/18-10-2008-20300.webp
+     Expected: attachments/18-10-2008-20300.webp
+
+   src\content\posts\un-mito-viviente.md:13 (markdown)
+     attachments/EmmaRoca.webp
+     Expected: attachments/EmmaRoca.webp
+
+   src\content\posts\una-inmensa-minoria.md:14 (markdown)
+     attachments/IMG_0001.webp
+     Expected: attachments/IMG_0001.webp
+
+   src\content\posts\una-inmensa-minoria.md:20 (markdown)
+     attachments/IMG_0003.webp
+     Expected: attachments/IMG_0003.webp
+
+   src\content\posts\una-inmensa-minoria.md:20 (markdown)
+     attachments/IMG_0006.webp
+     Expected: attachments/IMG_0006.webp
+
+   src\content\posts\una-inmensa-minoria.md:22 (markdown)
+     attachments/IMG_0007.webp
+     Expected: attachments/IMG_0007.webp
+
+   src\content\posts\una-inmensa-minoria.md:22 (markdown)
+     attachments/IMG_0019.webp
+     Expected: attachments/IMG_0019.webp
+
+   src\content\posts\una-inmensa-minoria.md:22 (markdown)
+     attachments/IMG_0022.webp
+     Expected: attachments/IMG_0022.webp
+
+   src\content\posts\una-inmensa-minoria.md:22 (markdown)
+     attachments/IMG_0027.webp
+     Expected: attachments/IMG_0027.webp
+
+   src\content\posts\una-inmensa-minoria.md:22 (markdown)
+     attachments/IMG_0024.webp
+     Expected: attachments/IMG_0024.webp
+
+   src\content\posts\una-inmensa-minoria.md:22 (markdown)
+     attachments/IMG_0028.webp
+     Expected: attachments/IMG_0028.webp
+
+   src\content\posts\una-inmensa-minoria.md:22 (markdown)
+     attachments/IMG_0033.webp
+     Expected: attachments/IMG_0033.webp
+
+   src\content\posts\una-inmensa-minoria.md:22 (markdown)
+     attachments/IMG_0034.webp
+     Expected: attachments/IMG_0034.webp
+
+   src\content\posts\uno-de-los-libros-que-no-quieren-que-leamos.md:13 (markdown)
+     attachments/hay-alternativas-portada-250x374.webp
+     Expected: attachments/hay-alternativas-portada-250x374.webp
+
+   src\content\posts\utah-esta-a-una-hora-en-coche-de-zaragoza.md:19 (markdown)
+     attachments/joseortefly.webp
+     Expected: attachments/joseortefly.webp
+
+   src\content\posts\via-del-diedro-de-hoz-de-jaca.md:13 (markdown)
+     attachments/Diedro-de-Hoz.webp
+     Expected: attachments/Diedro-de-Hoz.webp
+
+   src\content\posts\via-ferrata-cala-del-moli.md:19 (markdown)
+     attachments/moli1.webp
+     Expected: attachments/moli1.webp
+
+   src\content\posts\via-ferrata-de-la-croqueta-de-obarra-k4.md:18 (markdown)
+     attachments/via-ferrata-de-la-croqueta-de-obarra-k4-1.png
+     Expected: attachments/via-ferrata-de-la-croqueta-de-obarra-k4-1.png
+
+   src\content\posts\via-ferrata-de-la-croqueta-de-obarra-k4.md:22 (markdown)
+     attachments/via-ferrata-de-la-croqueta-de-obarra-k4.png
+     Expected: attachments/via-ferrata-de-la-croqueta-de-obarra-k4.png
+
+   src\content\posts\via-ferrata-de-la-croqueta-de-obarra-k4.md:36 (markdown)
+     attachments/WhatsApp-Image-2024-01-11-at-21.16.43-1024x770.webp
+     Expected: attachments/WhatsApp-Image-2024-01-11-at-21.16.43-1024x770.webp
+
+   src\content\posts\via-ferrata-de-la-croqueta-de-obarra-k4.md:38 (markdown)
+     attachments/WhatsApp-Image-2024-01-11-at-20.10.40-1-461x1024.webp
+     Expected: attachments/WhatsApp-Image-2024-01-11-at-20.10.40-1-461x1024.webp
+
+   src\content\posts\via-verde-de-la-val-de-zafan.md:21 (markdown)
+     attachments/via-verde-de-la-val-de-zafan.png
+     Expected: attachments/via-verde-de-la-val-de-zafan.png
+
+   src\content\posts\visita-al-muladar-del-tiacuto.md:27 (markdown)
+     attachments/P3160067-Mejorado-NR-1024x768.webp
+     Expected: attachments/P3160067-Mejorado-NR-1024x768.webp
+
+   src\content\posts\visita-al-muladar-del-tiacuto.md:31 (markdown)
+     attachments/P3160752-Mejorado-NR-1024x768.webp
+     Expected: attachments/P3160752-Mejorado-NR-1024x768.webp
+
+   src\content\posts\visita-al-muladar-del-tiacuto.md:35 (markdown)
+     attachments/P3160349-Mejorado-NR-1024x768.webp
+     Expected: attachments/P3160349-Mejorado-NR-1024x768.webp
+
+   src\content\posts\visita-al-muladar-del-tiacuto.md:39 (markdown)
+     attachments/P3160435-Mejorado-NR-1024x768.webp
+     Expected: attachments/P3160435-Mejorado-NR-1024x768.webp
+
+   src\content\posts\visita-al-muladar-del-tiacuto.md:43 (markdown)
+     attachments/P3160572-Mejorado-NR-1024x768.webp
+     Expected: attachments/P3160572-Mejorado-NR-1024x768.webp
+
+   src\content\posts\visita-al-muladar-del-tiacuto.md:47 (markdown)
+     attachments/P3160313-Mejorado-NR-1024x768.webp
+     Expected: attachments/P3160313-Mejorado-NR-1024x768.webp
+
+   src\content\posts\visita-al-muladar-del-tiacuto.md:51 (markdown)
+     attachments/P3160568-Mejorado-NR-1024x768.webp
+     Expected: attachments/P3160568-Mejorado-NR-1024x768.webp
+
+   src\content\posts\visita-al-muladar-del-tiacuto.md:55 (markdown)
+     attachments/P3160389-Mejorado-NR-1024x768.webp
+     Expected: attachments/P3160389-Mejorado-NR-1024x768.webp
+
+   src\content\posts\vuelta-a-guara.md:18 (markdown)
+     attachments/2008-04-09-Vuelta-a-Guara-01b-02b_peq.webp
+     Expected: attachments/2008-04-09-Vuelta-a-Guara-01b-02b_peq.webp
+
+   src\content\posts\vuelta-a-guara.md:20 (markdown)
+     attachments/2008-04-09-Vuelta-a-Guara-06-07_peq-300x245.webp
+     Expected: attachments/2008-04-09-Vuelta-a-Guara-06-07_peq-300x245.webp
+
+   src\content\posts\vuelta-a-guara.md:23 (markdown)
+     attachments/2008-04-09-Vuelta-a-Guara-08b_peq-225x300.webp
+     Expected: attachments/2008-04-09-Vuelta-a-Guara-08b_peq-225x300.webp
+
+   src\content\posts\vuelta-a-guara.md:25 (markdown)
+     attachments/2008-04-09-Vuelta-a-Guara-11b_peq-300x225.webp
+     Expected: attachments/2008-04-09-Vuelta-a-Guara-11b_peq-300x225.webp
+
+   src\content\posts\vuelta-a-guara.md:31 (markdown)
+     attachments/2008-04-09-Vuelta-a-Guara-15b_peq-300x225.webp
+     Expected: attachments/2008-04-09-Vuelta-a-Guara-15b_peq-300x225.webp
+
+   src\content\posts\vuelta-a-guara.md:37 (markdown)
+     attachments/2008-04-09-Vuelta-a-Guara-18b_peq-300x225.webp
+     Expected: attachments/2008-04-09-Vuelta-a-Guara-18b_peq-300x225.webp
+
+   src\content\posts\vuelta-a-punta-suelza.md:16 (markdown)
+     attachments/btt-ordiceto.webp
+     Expected: attachments/btt-ordiceto.webp
+
+   src\content\posts\vuelta-al-mall-pintrat.md:29 (markdown)
+     attachments/vueltaMPin1.webp
+     Expected: attachments/vueltaMPin1.webp
+
+   src\content\posts\vuelta-al-mall-pintrat.md:32 (markdown)
+     attachments/vueltaMPin2.webp
+     Expected: attachments/vueltaMPin2.webp
+
+   src\content\posts\vuelta-al-mall-pintrat.md:36 (markdown)
+     attachments/vueltaMPin3.webp
+     Expected: attachments/vueltaMPin3.webp
+
+   src\content\posts\vuelta-al-mall-pintrat.md:40 (markdown)
+     attachments/vueltaMPin4.webp
+     Expected: attachments/vueltaMPin4.webp
+
+   src\content\posts\vuelta-al-mall-pintrat.md:45 (markdown)
+     attachments/vueltaMPin5.webp
+     Expected: attachments/vueltaMPin5.webp
+
+   src\content\posts\vuelta-al-peyreget-2-483m.md:16 (markdown)
+     attachments/fotitopaborrar.webp
+     Expected: attachments/fotitopaborrar.webp
+
+   src\content\posts\vuelta-endurera-a-pena-oroel.md:15 (markdown)
+     attachments/face.webp
+     Expected: attachments/face.webp
+
+   src\content\posts\vuelta-endurera-a-pena-oroel.md:30 (markdown)
+     attachments/12377951_986341174755757_8398773719295276380_o.webp
+     Expected: attachments/12377951_986341174755757_8398773719295276380_o.webp
+
+   src\content\posts\vuelta-endurera-a-pena-oroel.md:32 (markdown)
+     attachments/12366154_986340864755788_1299248356621258513_o.webp
+     Expected: attachments/12366154_986340864755788_1299248356621258513_o.webp
+
+   src\content\posts\vuelta-endurera-a-pena-oroel.md:34 (markdown)
+     attachments/12357224_986372874752587_3295353302192959453_o.webp
+     Expected: attachments/12357224_986372874752587_3295353302192959453_o.webp
+
+   src\content\posts\vuelta-endurera-a-pena-oroel.md:36 (markdown)
+     attachments/1501224_986341331422408_8889154768519006461_o.webp
+     Expected: attachments/1501224_986341331422408_8889154768519006461_o.webp
+
+   src\content\posts\webcams-soloquedalopeor-com.md:16 (markdown)
+     attachments/imagenPromo.webp
+     Expected: attachments/imagenPromo.webp
+
+   src\content\posts\zz-040-el-sarrau-del-tuerto.md:38 (markdown)
+     attachments/SarrauTu1.webp
+     Expected: attachments/SarrauTu1.webp
+
+   src\content\posts\zz-040-el-sarrau-del-tuerto.md:42 (markdown)
+     attachments/SarrauTu2.webp
+     Expected: attachments/SarrauTu2.webp
+
+   src\content\posts\zz-040-el-sarrau-del-tuerto.md:46 (markdown)
+     attachments/SarrauTu3.webp
+     Expected: attachments/SarrauTu3.webp
+
+­ƒÆí Tips:
+   - In development mode, missing images will show placeholder images
+   - Check if images are in the correct folder for folder-based posts
+   - Verify image paths match exactly (case-sensitive)
+   - For Obsidian wikilinks, ensure the image exists in the same folder
