@@ -1083,6 +1083,10 @@ const scrollbarClass = siteConfig.hideScrollBar ? '' : 'show-scrollbars';
   <slot name="head" />
 
 
+
+  <!-- D3.js global para HomeGraph y otros componentes D3 -->
+  <script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
+
   <!-- Twitter Widgets Script -->
   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -1395,6 +1399,8 @@ const scrollbarClass = siteConfig.hideScrollBar ? '' : 'show-scrollbars';
           if (window.initializeGraph) window.initializeGraph();
           if (window.setupGraphButtons) window.setupGraphButtons();
           if (window.resetHomeGraph) window.resetHomeGraph();
+          // Inicialización robusta del grafo HomeGraph tras SPA
+          if (window.initializeHomeGraph) window.initializeHomeGraph();
           if (window.initializeHomeInstagramFeed) window.initializeHomeInstagramFeed();
           if (window.initializeImageGalleries) window.initializeImageGalleries();
           if (window.initializeImagePreloader) window.initializeImagePreloader();

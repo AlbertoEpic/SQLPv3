@@ -344,12 +344,14 @@ const structuredData = {
             resolve(window.Instafeed);
             return;
           }
+
           const existingScript = document.querySelector('[data-instafeed-script]');
           if (existingScript) {
             existingScript.addEventListener('load', () => resolve(window.Instafeed));
             existingScript.addEventListener('error', reject, { once: true });
             return;
           }
+
           const script = document.createElement('script');
           script.src = instafeedScriptUrl;
           script.async = true;
@@ -363,24 +365,29 @@ const structuredData = {
         const renderInstagramFeed = async () => {
           const feed = document.querySelector('[data-instagram-feed]');
           if (!feed) return;
+
           const animateInstagramFeed = () => {
             const posts = feed.querySelectorAll('.instagram-post');
             posts.forEach((post, index) => {
               post.classList.remove('instagram-post-enter');
               post.style.animationDelay = `${index * 70}ms`;
             });
+
             requestAnimationFrame(() => {
               posts.forEach((post) => post.classList.add('instagram-post-enter'));
             });
           };
+
           const fallback = document.querySelector('[data-instagram-fallback]');
           if (!instagramToken) {
             if (fallback) fallback.classList.remove('hidden');
             return;
           }
+
           try {
             const Instafeed = await loadInstafeedScript();
             if (!Instafeed) return;
+
             feed.innerHTML = '';
             const instafeed = new Instafeed({
               accessToken: instagramToken,
@@ -399,27 +406,36 @@ const structuredData = {
                 if (fallback) fallback.classList.remove('hidden');
               },
             });
+
             instafeed.run();
           } catch {
             if (fallback) fallback.classList.remove('hidden');
           }
         };
 
-        // Hook para SPA: Swup
-        function tryInitInstagram() {
-          const feed = document.querySelector('[data-instagram-feed]');
-          if (feed) {
-            console.log('[SQLP] init Instagram (SPA)');
-            renderInstagramFeed();
-            return;
+        if (!window.initializeHomeInstagramFeed) {
+          let retryCount = 0;
+          const maxRetries = 20; // 2 segundos
+          function tryInitInstagram() {
+            const feed = document.querySelector('[data-instagram-feed]');
+            if (feed) {
+              console.log('[SQLP] init Instagram (SPA)');
+              renderInstagramFeed();
+              retryCount = 0;
+              return;
+            }
+            retryCount++;
+            if (retryCount < maxRetries) {
+              setTimeout(tryInitInstagram, 100);
+            } else {
+              retryCount = 0;
+            }
           }
+          window.initializeHomeInstagramFeed = tryInitInstagram;
+          document.addEventListener('DOMContentLoaded', tryInitInstagram);
         }
-        // DOMContentLoaded (primera carga)
-        document.addEventListener('DOMContentLoaded', tryInitInstagram);
-        // Swup navigation (cada cambio de página)
-        if (window.swup && window.swup.hooks) {
-          window.swup.hooks.on('page:view', tryInitInstagram);
-        }
+
+        // El binding Swup se hace solo en BaseLayout. Aquí solo función global y DOMContentLoaded.
       })();
     </script>
     <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />
@@ -599,7 +615,16 @@ const structuredData = {
       </div>
     </section>
 
+    <section class="content-row px-4 sm:px-6 lg:px-10 mt-8">
+      <article class="island-card island-wide">
+        <header class="island-head">
+          <h3>Gráfico de conexiones</h3>
+          <Icon name="network" class="w-4 h-4" />
+        </header>
 
+        <HomeGraph />
+      </article>
+    </section>
 
     <section class="content-row px-4 sm:px-6 lg:px-10 mt-8">
       <div class="social-column">
