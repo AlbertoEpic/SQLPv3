@@ -101,107 +101,92 @@ const pagination = {
     })()}
   </Fragment>
 
-  <div class="py-8 relative">
-    <div class="mx-auto px-4 sm:px-6 lg:px-8 mb-12" style={`max-width: ${siteConfig.layout.contentWidth}`}>
-      <!-- Header -->
-      <header class="mb-8">
-        <div class="flex items-start justify-between mb-3">
-          <h1 class="text-lg font-bold text-primary-900 dark:text-primary-50">
-            {pageTitle}
-          </h1>
-          <div class="flex items-center space-x-2">
-            <a
-              href={withBase('/rss.xml')}
-              class="inline-flex items-center px-3 py-2 text-sm font-medium text-highlight-600 dark:text-highlight-400 bg-highlight-50 dark:bg-highlight-900/20 rounded-lg border border-highlight-200 dark:border-highlight-700 hover:bg-highlight-100 dark:hover:bg-highlight-900/40 hover:text-highlight-700 dark:hover:text-highlight-300 transition-all duration-200"
-              title="Subscribe to RSS feed"
-              data-no-swup
-            >
-              <Icon name="rss" class="w-4 h-4 mr-1.5" />
-              RSS Feed
-            </a>
-            <a
-              href={withBase('/feed.xml')}
-              class="inline-flex items-center px-3 py-2 text-sm font-medium text-highlight-600 dark:text-highlight-400 bg-highlight-50 dark:bg-highlight-900/20 rounded-lg border border-highlight-200 dark:border-highlight-700 hover:bg-highlight-100 dark:hover:bg-highlight-900/40 hover:text-highlight-700 dark:hover:text-highlight-300 transition-all duration-200"
-              title="Subscribe to Atom feed"
-              data-no-swup
-            >
-              <Icon name="atom" class="w-4 h-4 mr-1.5" />
-              Atom Feed
-            </a>
-          </div>
-        </div>
-        <p class="text-base text-primary-600 dark:text-primary-300">
-          {selectedTag ? (
-            <>
-              Showing <strong>{filteredPosts.length}</strong> posts tagged with
-              <span class="inline-flex items-center px-2 py-1 bg-highlight-100 dark:bg-highlight-900/30 text-highlight-800 dark:text-highlight-200 rounded text-sm font-medium ml-1">
-                #{selectedTag}
-              </span>
-            </>
-          ) : (
-            <>Explore all <strong>{totalPosts}</strong> posts</>
-          )}
-        </p>
 
+  <section
+    class="hero-row hero-fullbleed w-full max-w-full relative overflow-hidden border-b border-primary-200/80 dark:border-primary-700/70 mb-12"
+    style={`background-image: url('${withBase('/posts/attachments/LaCristallere12-e1632560122785.webp')}'); background-size: cover; background-position: center; width: 100vw; max-width: 100vw; margin-left: -50vw; margin-right: -50vw; left: 50%; right: 50%;`}
+  >
+    <div class="hero-overlay absolute inset-0" aria-hidden="true"></div>
+    <div class="relative px-4 sm:px-6 lg:px-10 py-12 md:py-16 lg:py-20">
+      <div class="hero-copy max-w-2xl bg-primary-950/10 dark:bg-primary-900/10 rounded-xl p-6 shadow-lg backdrop-blur-md">
+        <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight text-white">
+          Rutipedia: SQLP blog
+        </h1>
+        <p class="mt-4 text-base sm:text-lg text-white/90 max-w-xl">
+          El blog de SQLP, con rutas, relatos, vídeos y fotos que buscan más la estética que la utilidad...
+        </p>
+        <div class="mt-6 flex flex-wrap gap-3">
+          <a href={withBase('/rss.xml')} class="hero-btn hero-btn-primary" data-no-swup>
+            RSS Feed
+            <Icon name="rss" class="w-4 h-4" />
+          </a>
+          <a href={withBase('/feed.xml')} class="hero-btn hero-btn-secondary" data-no-swup>
+            Atom Feed
+            <Icon name="atom" class="w-4 h-4" />
+          </a>
+        </div>
         {selectedTag && (
-          <div class="mt-4">
+          <div class="mt-8">
             <a
               href={withBase('/posts')}
-              class="inline-flex items-center text-sm text-primary-600 dark:text-primary-300 hover:text-primary-800 dark:hover:text-primary-200 transition-colors"
+              class="inline-flex items-center text-sm text-primary-100/90 hover:text-white transition-colors"
             >
               <Icon name="arrow-left" class="w-4 h-4 mr-1" />
-              Show all posts
+              Mostrar todas las entradas
             </a>
           </div>
         )}
-      </header>
+      </div>
+    </div>
+  </section>
 
       <div class="relative">
         <!-- Main content -->
         <div class="max-w-none">
-          {paginatedPosts.length > 0 ? (
-            <>
-              <!-- Posts list -->
-              <div class="space-y-4 mb-12">
-                {paginatedPosts.map((post, index) => (
-                  <PostCard post={post} eager={index < 2} context="posts" />
-                ))}
-              </div>
-
-              <!-- Pagination -->
-              <Pagination pagination={pagination} baseUrl={baseUrl} />
-            </>
-          ) : selectedTag ? (
-            <!-- No posts for selected tag -->
-            <div class="text-center py-16">
-              <Icon name="tag" class="w-16 h-16 text-primary-400 dark:text-primary-500 mx-auto mb-6" />
-              <h2 class="font-semibold text-primary-900 dark:text-primary-50 mb-4">
-                No posts found
-              </h2>
-              <p class="text-primary-600 dark:text-primary-300 mb-8 max-w-md mx-auto">
-                There are no posts tagged with "{selectedTag}". Try browsing other tags or
-                <a href={withBase('/posts')} class="text-primary-600 dark:text-primary-300 hover:underline">view all posts</a>.
-              </p>
-            </div>
-          ) : (
-            <!-- No posts at all -->
-            <div class="text-center py-16">
-              <Icon name="file-text" class="w-16 h-16 text-primary-400 dark:text-primary-500 mx-auto mb-6" />
-              <h2 class="text-2xl font-semibold text-primary-900 dark:text-primary-50 mb-4">
-                No posts yet
-              </h2>
-              <p class="text-primary-600 dark:text-primary-300 mb-8">
-                This blog is just getting started. Check back soon for new content!
-              </p>
-              {isDev && (
-                <div class="max-w-md mx-auto p-4 bg-blue-50 dark:bg-blue-950 rounded-lg border border-blue-200 dark:border-blue-800">
-                  <p class="text-sm text-blue-800 dark:text-blue-200">
-                    <strong>Dev Mode:</strong> Add some posts to the <code>content/posts/</code> directory to see them here.
-                  </p>
-                </div>
-              )}
-            </div>
-          )}
+          {/* ISLAS POR CATEGORÍA */}
+          {(() => {
+            const categoriesSet = new Set();
+            sortedPosts.forEach(post => {
+              const cat = post.data?.category;
+              if (cat) categoriesSet.add(cat);
+            });
+            const categories = Array.from(categoriesSet);
+            if (categories.length === 0) {
+              return <div class="text-center text-red-600 font-bold my-12">No se detectaron categorías en los posts.</div>;
+            }
+            let rendered = false;
+            const blocks = categories.map(category => {
+              const postsByCat = sortedPosts.filter(post => {
+                const cat = post.data?.category;
+                return cat === category;
+              });
+              if (postsByCat.length === 0) return null;
+              rendered = true;
+              return (
+                <section class="mb-14">
+                  <h2 class="text-2xl font-bold mb-6 text-primary-900 dark:text-primary-100 border-l-4 border-highlight-500 pl-3">{category}</h2>
+                  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                    {postsByCat.map(post => (
+                      <a href={withBase(`/posts/${post.id}`)} class="block group rounded-xl overflow-hidden shadow-lg bg-primary-50 dark:bg-primary-900/60 hover:bg-primary-100 dark:hover:bg-primary-800/80 transition">
+                        {post.data?.image && (
+                          <img src={optimizePostImagePath(post.data.image, '480', post.id)} alt={post.data.imageAlt || post.data.title} class="w-full h-40 object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
+                        )}
+                        <div class="p-4">
+                          <h3 class="text-lg font-semibold text-primary-900 dark:text-primary-50 group-hover:text-highlight-600 mb-2">{post.data?.title || post.title}</h3>
+                          <p class="text-sm text-primary-700 dark:text-primary-200 line-clamp-3 mb-2">{post.data?.description || post.description}</p>
+                          <span class="text-xs text-primary-500 dark:text-primary-300">{new Date((post.data?.date || post.date)).toLocaleDateString('es-ES', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
+                        </div>
+                      </a>
+                    ))}
+                  </div>
+                </section>
+              );
+            });
+            if (!rendered) {
+              return <div class="text-center text-red-600 font-bold my-12">No hay posts con categoría para mostrar.</div>;
+            }
+            return blocks;
+          })()}
         </div>
 
         <!-- Mobile sidebar - appears below content on mobile/tablet -->

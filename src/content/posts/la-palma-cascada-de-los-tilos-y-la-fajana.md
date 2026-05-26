@@ -26,7 +26,7 @@ Abajo puedes ver algunas fotos del Bosque de los Tilos y de la puesta_de_sol.
 
 ![](https://i.imgur.com/OD17liA.jpg)											La cascada de los Tilos (En su parte superior).
 
-![](https://i.imgur.com/22U2uB5.jpg)											íƒÅ¡ltimos instantes de sol en La Fajana de Barlovento.
+![](https://i.imgur.com/22U2uB5.jpg)											Últimos instantes de sol en La Fajana de Barlovento.
 
 ![](https://i.imgur.com/X7fLTdy.jpg)											Y otra. El sol se ponía algunos grados al NW, por lo que, pese a estar nosotros al NE de La Palma, lo hacía sobre el océano.
 

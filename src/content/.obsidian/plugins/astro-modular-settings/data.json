@@ -116,7 +116,7 @@
     },
     "recentPosts": {
       "enabled": true,
-      "count": 7
+      "count": 6
     },
     "projects": {
       "enabled": false,
@@ -142,7 +142,7 @@
     "graphView": {
       "enabled": true,
       "showInSidebar": true,
-      "maxNodes": 100,
+      "maxNodes": 300,
       "showOrphanedPosts": true
     },
     "postNavigation": true,
@@ -249,8 +249,8 @@
     }
   },
   "optionalContentTypes": {
-    "projects": true,
-    "docs": true
+    "projects": false,
+    "docs": false
   },
   "availableThemes": "default",
   "customThemes": "",

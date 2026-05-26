@@ -68,7 +68,7 @@ Subiendo por la pista desde La Sarra
 
 [https://i.imgur.com/UviUW6r.jpg](https://i.imgur.com/UviUW6r.jpg)
 
-íƒÅ¡ltimo tramo de la ascensión a Ibonciecho, ya por sendero.
+Último tramo de la ascensión a Ibonciecho, ya por sendero.
 
 [https://i.imgur.com/lwcvIWF.jpg](https://i.imgur.com/lwcvIWF.jpg)
 
@@ -80,7 +80,7 @@ Los neveros del fondo obligaron a dejar la bici abajo.
 
 [https://i.imgur.com/YhXTuky.jpg](https://i.imgur.com/YhXTuky.jpg)
 
-íƒÅ¡ltimos metros a la cima del Musales.
+Últimos metros a la cima del Musales.
 
 [https://i.imgur.com/xArKshG.jpg](https://i.imgur.com/xArKshG.jpg)
 

@@ -19,7 +19,7 @@ El viernes el globero jR prende la llama que desencadenará todo, con un mensaje
 
 ![Imagen](https://i.imgur.com/HI2nUeb.jpg)
 
-El maestro Morenetti, experto ruteador, enseguida traza la combinación perfecta. Los globeros saldrán de Gésera, por sendero hasta Lasaosa y de allí subir por la pista asfaltada hasta cuello Bail. Luego, breve tramo de pista tras unos metros de descenso hacia Nocito, y de nuevo sendero recién limpiado hacia la Pardina de La Torre. Sigue el sendero con sube-bajas hasta San íƒÅ¡rbez, y de allí, en lugar de bajar a Nocito, siguen al Dr. LaTrek por un sendero menos marcado que enlaza con la pista asfaltada que sube de Nocito a cuello Bail.
+El maestro Morenetti, experto ruteador, enseguida traza la combinación perfecta. Los globeros saldrán de Gésera, por sendero hasta Lasaosa y de allí subir por la pista asfaltada hasta cuello Bail. Luego, breve tramo de pista tras unos metros de descenso hacia Nocito, y de nuevo sendero recién limpiado hacia la Pardina de La Torre. Sigue el sendero con sube-bajas hasta San Úrbez, y de allí, en lugar de bajar a Nocito, siguen al Dr. LaTrek por un sendero menos marcado que enlaza con la pista asfaltada que sube de Nocito a cuello Bail.
 
 Ascienden por ella, y luego viene un tramo de pista, dolmen de Ibirque hasta las proximidades de Ibirque, donde toca un corto tramo de subida por sendero hasta lo alto de la sierra, donde es menester prepararse para uno de los descensos antológicos de la sierra: y es que la bajada hasta Gésera nunca defrauda!
 

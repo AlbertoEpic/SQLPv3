@@ -353,9 +353,9 @@ export const siteConfig: SiteConfig = {
   // Optional Content Types - Enable/disable optional content sections (takes priority over homeOptions)
   optionalContentTypes: {
     // [CONFIG:OPTIONAL_CONTENT_TYPES_PROJECTS]
-    projects: true, // Enable projects section
+    projects: false, // Enable projects section
     // [CONFIG:OPTIONAL_CONTENT_TYPES_DOCS]
-    docs: true, // Enable documentation section
+    docs: false, // Enable documentation section
   },
 
   // Home Options
@@ -372,7 +372,7 @@ export const siteConfig: SiteConfig = {
       // [CONFIG:HOME_OPTIONS_RECENT_POSTS_ENABLED]
       enabled: true, // Show recent posts on homepage
       // [CONFIG:HOME_OPTIONS_RECENT_POSTS_COUNT]
-      count: 7, // Number of recent posts to show
+      count: 6, // Number of recent posts to show
     },
     projects: {
       // [CONFIG:HOME_OPTIONS_PROJECTS_ENABLED]
@@ -414,7 +414,7 @@ export const siteConfig: SiteConfig = {
       // [CONFIG:POST_OPTIONS_GRAPH_VIEW_SHOW_IN_SIDEBAR]
       showInSidebar: true,
       // [CONFIG:POST_OPTIONS_GRAPH_VIEW_MAX_NODES]
-      maxNodes: 100,
+      maxNodes: 300,
       // [CONFIG:POST_OPTIONS_GRAPH_VIEW_SHOW_ORPHANED_POSTS]
       showOrphanedPosts: true,
     },

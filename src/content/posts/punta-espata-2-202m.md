@@ -5,13 +5,13 @@ heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2023-10-17T09:26:27Z
 draft: false
 author: AlbertoEpic
-description: Desayuno al amanecer... en la cima! íƒÅ¡ltimamente, a nuestro especialista le ha dado por llevar a cabo algunos de sus planes un tanto excéntricos... En una sola jugada reúne varios de sus 'juguetes' y aficiones. Y ¿qué pasa si juntamos montañ
+description: Desayuno al amanecer... en la cima! Últimamente, a nuestro especialista le ha dado por llevar a cabo algunos de sus planes un tanto excéntricos... En una sola jugada reúne varios de sus 'juguetes' y aficiones. Y ¿qué pasa si juntamos montañ
 category: BTT+Pateo
 ---
 
 ## Desayuno al amanecer... en la cima!
 
-íƒÅ¡ltimamente, a nuestro especialista le ha dado por llevar a cabo algunos de sus planes un tanto excéntricos... En una sola jugada reúne varios de sus 'juguetes' y aficiones. Y ¿qué pasa si juntamos montañas, bicis, cámaras de fotos, drones, y amaneceres? Pues salen cosas como esta: todo está milimétricamente calculado!
+Últimamente, a nuestro especialista le ha dado por llevar a cabo algunos de sus planes un tanto excéntricos... En una sola jugada reúne varios de sus 'juguetes' y aficiones. Y ¿qué pasa si juntamos montañas, bicis, cámaras de fotos, drones, y amaneceres? Pues salen cosas como esta: todo está milimétricamente calculado!
 La cosa comienza buscando una cima en la que esté permitido volar el dron, algo exageradamente restringido en casi todas partes. Localizada esta, toca buscar una vía de ascensión (Si el primer tramo es en BTT mucho mejor), y luego calcular horarios para estar en casa a mediodía como tarde.
 
 En el siguiente vídeo verás cómo recibimos en SQLP al otoño...

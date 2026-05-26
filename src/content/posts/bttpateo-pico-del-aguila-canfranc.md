@@ -19,7 +19,7 @@ Puedes ver un vídeo de la actividad a continuación:https://youtu.be/VgKMzidBar
 
 [Ver fotografía esférica](https://bit.ly/PicoDelAguila)
 
-En esta web siempre nos basamos en los datos del mapa online Iberpix, del Instituto Geográfico Nacional, pero en este caso hemos encontrado un error/imprecisión/discordancia con la toponimia de la cartelería local y demás mapas: Según el IGN, lo que en todas partes denominamos í¢â‚¬ËœPico del Águila (1.972m)í¢â‚¬â„¢ es una cota 1.972m sin nombre, y otorga el nombre de í¢â‚¬ËœPico del Águilaí¢â‚¬â„¢ a la cota 2.096m que en todas partes denominamos í¢â‚¬ËœBorreguil de la Cucaí¢â‚¬â„¢.
+En esta web siempre nos basamos en los datos del mapa online Iberpix, del Instituto Geográfico Nacional, pero en este caso hemos encontrado un error/imprecisión/discordancia con la toponimia de la cartelería local y demás mapas: Según el IGN, lo que en todas partes denominamos 'Pico del Águila (1.972m)í¢â‚¬â„¢ es una cota 1.972m sin nombre, y otorga el nombre de 'Pico del Águilaí¢â‚¬â„¢ a la cota 2.096m que en todas partes denominamos 'Borreguil de la Cucaí¢â‚¬â„¢.
 
 Si te ha gustado la ruta y te apetece repetirla, hemos añadido el track a nuestra base de datos. Para descargarlo, sólo tienes que entrar en AllTrails haciendo click en el enlace de laí‚Â [parte superior derecha del mapa](https://www.alltrails.com/es/explore/map/map-0373773--33?), registrarte (Puedes entrar directamente con tu cuenta de google o facebook) y descargarlo.
 <iframe src="https://www.alltrails.com/es/widget/map/map-0373773--33?scrollZoom=ó&hideName=true&u=m" width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="AllTrails: Trail Guides and Maps for Hiking, Camping, and Running"></iframe>

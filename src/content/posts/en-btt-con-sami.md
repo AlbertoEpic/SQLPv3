@@ -32,7 +32,7 @@ Regreso del picnic de Oliván a Biescas.
 
 ![R17_2](https://i.imgur.com/QsBUh8y.jpg)
 
-íƒÅ¡ltimos kilómetros a Biescas
+Últimos kilómetros a Biescas
 
 ![R17_3](https://i.imgur.com/IskZEY8.jpg)
 
