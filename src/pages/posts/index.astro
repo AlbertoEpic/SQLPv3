@@ -150,27 +150,39 @@ const pagination = {
               const cat = post.data?.category;
               if (cat) categoriesSet.add(cat);
             });
-            const categories = Array.from(categoriesSet);
+            // Excluir categorías 'otros' y 'orientación'
+            const categories = Array.from(categoriesSet).filter(cat => {
+              if (!cat) return false;
+              const lower = cat.toLowerCase();
+              return lower !== 'otros' && lower !== 'orientación';
+            });
             if (categories.length === 0) {
               return <div class="text-center text-red-600 font-bold my-12">No se detectaron categorías en los posts.</div>;
             }
             let rendered = false;
             const blocks = categories.map(category => {
+              // Filtrar posts de la categoría que tengan imagen
               const postsByCat = sortedPosts.filter(post => {
                 const cat = post.data?.category;
-                return cat === category;
+                return cat === category && post.data?.image;
               });
               if (postsByCat.length === 0) return null;
+              // Ordenar por fecha descendente (más reciente primero)
+              const postsSorted = [...postsByCat].sort((a, b) => {
+                const dateA = new Date(a.data?.date || a.date).getTime();
+                const dateB = new Date(b.data?.date || b.date).getTime();
+                return dateB - dateA;
+              });
+              // Solo los 3 más recientes
+              const top3 = postsSorted.slice(0, 3);
               rendered = true;
               return (
                 <section class="mb-14">
                   <h2 class="text-2xl font-bold mb-6 text-primary-900 dark:text-primary-100 border-l-4 border-highlight-500 pl-3">{category}</h2>
                   <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                    {postsByCat.map(post => (
+                    {top3.map(post => (
                       <a href={withBase(`/posts/${post.id}`)} class="block group rounded-xl overflow-hidden shadow-lg bg-primary-50 dark:bg-primary-900/60 hover:bg-primary-100 dark:hover:bg-primary-800/80 transition">
-                        {post.data?.image && (
-                          <img src={optimizePostImagePath(post.data.image, '480', post.id)} alt={post.data.imageAlt || post.data.title} class="w-full h-40 object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
-                        )}
+                        <img src={optimizePostImagePath(post.data.image, '480', post.id)} alt={post.data.imageAlt || post.data.title} class="w-full h-40 object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
                         <div class="p-4">
                           <h3 class="text-lg font-semibold text-primary-900 dark:text-primary-50 group-hover:text-highlight-600 mb-2">{post.data?.title || post.title}</h3>
                           <p class="text-sm text-primary-700 dark:text-primary-200 line-clamp-3 mb-2">{post.data?.description || post.description}</p>
@@ -179,6 +191,11 @@ const pagination = {
                       </a>
                     ))}
                   </div>
+                  {postsByCat.length > 3 && (
+                    <div class="mt-6 flex justify-end">
+                      <a href={withBase(`/posts/filtroposts?category=${encodeURIComponent(category)}`)} class="inline-block px-5 py-2 rounded-lg bg-highlight-500 text-white font-semibold shadow hover:bg-highlight-600 transition">Ver todos</a>
+                    </div>
+                  )}
                 </section>
               );
             });
