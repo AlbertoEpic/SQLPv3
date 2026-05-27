@@ -32,8 +32,10 @@ Y bueno, tras sus palabras, aquí­ va un ví­deo resumen de la semana, con im�
 A continuación detallamos brevemente las actividades, dí­a a dí­a. En una serie que vamos a llamar 'SkiLof' (Skimo en las Lofoten):
 
 - [SkiLof 1 - Varden (700m)](skilof-1-varden-700m/)
+- [skilof-1-varden-700m](skilof-1-varden-700m.md)
 
 - [SkiLof 2 - Torksmannen (755m)](skilof-2-torksmannen-755m/)
+- [SkiLof 2 - Torksmannen (755m)](posts/skilof-2-torksmannen-755m.md)
 
 - [SkiLof 3 - Paseo desde el Trollfjord](skilof-3-un-garbeo-desde-el-trollfjord/)
 
