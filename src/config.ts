@@ -222,7 +222,7 @@ export const siteConfig: SiteConfig = {
   },
   layout: {
     // [CONFIG:LAYOUT_CONTENT_WIDTH]
-    contentWidth: "45rem",
+    contentWidth: "75rem",
   },
   tableOfContents: {
     // [CONFIG:TABLE_OF_CONTENTS_ENABLED]
@@ -256,7 +256,7 @@ export const siteConfig: SiteConfig = {
     // [CONFIG:COMMAND_PALETTE_SHORTCUT]
     shortcut: "ctrl+K",
     // [CONFIG:COMMAND_PALETTE_PLACEHOLDER]
-    placeholder: "Search posts",
+    placeholder: "Buscar contenidos...",
     search: {
       // [CONFIG:COMMAND_PALETTE_SEARCH_POSTS]
       posts: true,
@@ -372,23 +372,23 @@ export const siteConfig: SiteConfig = {
       // [CONFIG:HOME_OPTIONS_RECENT_POSTS_ENABLED]
       enabled: true, // Show recent posts on homepage
       // [CONFIG:HOME_OPTIONS_RECENT_POSTS_COUNT]
-      count: 7, // Number of recent posts to show
+      count: 6, // Number of recent posts to show
     },
     projects: {
       // [CONFIG:HOME_OPTIONS_PROJECTS_ENABLED]
-      enabled: true, // Show featured projects on homepage
+      enabled: false, // Show featured projects on homepage
       // [CONFIG:HOME_OPTIONS_PROJECTS_COUNT]
       count: 2, // Number of projects to show
     },
     docs: {
       // [CONFIG:HOME_OPTIONS_DOCS_ENABLED]
-      enabled: true, // Show featured docs on homepage
+      enabled: false, // Show featured docs on homepage
       // [CONFIG:HOME_OPTIONS_DOCS_COUNT]
       count: 3, // Number of docs to show
     },
     blurb: {
       // [CONFIG:HOME_OPTIONS_BLURB_PLACEMENT]
-      placement: "below", // 'above' (at the top), 'below' (after content), or 'none' (disabled)
+      placement: "none", // 'above' (at the top), 'below' (after content), or 'none' (disabled)
     },
   },
 
@@ -414,7 +414,7 @@ export const siteConfig: SiteConfig = {
       // [CONFIG:POST_OPTIONS_GRAPH_VIEW_SHOW_IN_SIDEBAR]
       showInSidebar: true,
       // [CONFIG:POST_OPTIONS_GRAPH_VIEW_MAX_NODES]
-      maxNodes: 100,
+      maxNodes: 300,
       // [CONFIG:POST_OPTIONS_GRAPH_VIEW_SHOW_ORPHANED_POSTS]
       showOrphanedPosts: true,
     },

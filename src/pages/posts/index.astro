@@ -212,9 +212,9 @@ const pagination = {
                   class="my-12 w-screen relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] px-0"
                   style={`background-image: url('${withBase('/posts/attachments/LaCristallere12-e1632560122785.webp')}'); background-size: cover; background-position: center;`}
                 >
-                  <div class="absolute inset-0 bg-primary-900/70 dark:bg-primary-950/80 pointer-events-none" aria-hidden="true"></div>
+                  {/* Sin overlay, fondo 100% transparente */}
                   <div class="w-full relative z-10 py-8 flex justify-center">
-                    <div class="w-full">
+                    <div class="w-[94vw] max-w-none">
                       <Tags tags={allTags} />
                     </div>
                   </div>
