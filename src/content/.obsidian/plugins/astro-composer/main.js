@@ -1255,6 +1255,7 @@ var TitleModal = class extends import_obsidian4.Modal {
     this.type = type;
     this.isRename = isRename;
     this.isNewNote = isNewNote;
+    this.modalEl.addClass("astro-composer-title-modal");
     const settings = plugin.settings;
     this.fileOps = new FileOperations(app, settings, plugin);
     this.templateParser = new TemplateParser(app, settings);
@@ -3828,26 +3829,31 @@ var CreateEventService = class {
       if (!matchedContentTypeId) {
         return;
       }
+      const suppressor = this.installRenameModalSuppressor();
       const fileName = file.basename;
       const isUntitled = /^Untitled(\s\d+)?$/.test(fileName);
       if (!isUntitled) {
         if (!this.plugin.settings.processBackgroundFileChanges) {
+          suppressor.dispose();
           return;
         }
         const stat = await this.app.vault.adapter.stat(file.path);
         const isRecent = (stat == null ? void 0 : stat.mtime) && now - stat.mtime < CONSTANTS.STAT_MTIME_THRESHOLD;
         if (!isRecent) {
+          suppressor.dispose();
           return;
         }
         let content;
         try {
           content = await this.app.vault.read(file);
         } catch (e) {
+          suppressor.dispose();
           return;
         }
         if (content.trim().length > 0) {
           const contentWithoutFrontmatter = content.startsWith("---") ? content.slice(content.indexOf("\n---", 3) + 4).trim() : content.trim();
           if (contentWithoutFrontmatter.length > 0) {
+            suppressor.dispose();
             return;
           }
         }
@@ -3859,6 +3865,49 @@ var CreateEventService = class {
       }, CONSTANTS.DEBOUNCE_MS + 100);
       new TitleModal(this.app, file, this.plugin, matchedContentTypeId, false, true).open();
     })();
+  }
+  /**
+   * Install a MutationObserver that intercepts and removes any
+   * `.modal-container` added to the document body, *except* our own
+   * TitleModal (identified by the `astro-composer-title-modal` class on its
+   * inner modalEl). Used to suppress Obsidian's auto-rename modal that
+   * fires when both inline title and tab title bar are disabled in
+   * Appearance settings.
+   *
+   * The observer runs synchronously during DOM mutation, so a colliding
+   * modal is yanked before the browser paints — no visible flash.
+   *
+   * Returns a `dispose` hook for early returns; on the happy path the
+   * observer self-disconnects after our modal is seen, with a 2s safety
+   * timer as a backstop.
+   */
+  installRenameModalSuppressor() {
+    let acModalSeen = false;
+    const observer = new MutationObserver((muts) => {
+      for (const m of muts) {
+        m.addedNodes.forEach((node) => {
+          if (!node.instanceOf(HTMLElement)) return;
+          if (!node.matches(".modal-container")) return;
+          const isOurs = node.querySelector(".astro-composer-title-modal") !== null;
+          if (isOurs) {
+            acModalSeen = true;
+            observer.disconnect();
+            window.clearTimeout(timeoutId);
+            return;
+          }
+          if (acModalSeen) return;
+          node.remove();
+        });
+      }
+    });
+    observer.observe(activeDocument.body, { childList: true });
+    const timeoutId = window.setTimeout(() => observer.disconnect(), 2e3);
+    return {
+      dispose: () => {
+        observer.disconnect();
+        window.clearTimeout(timeoutId);
+      }
+    };
   }
 };
 

@@ -1,7 +1,7 @@
 ---
 title: Punta Espata (2.202m)
 pubDate: 2023-10-17T09:26:25Z
-heroImage: attachments/SQLPcomodin.jpg
+heroImage: attachments/punta-espata.png
 updatedDate: 2023-10-17T09:26:27Z
 draft: false
 author: AlbertoEpic
@@ -12,6 +12,7 @@ category: BTT+Pateo
 ## Desayuno al amanecer... en la cima!
 
 Últimamente, a nuestro especialista le ha dado por llevar a cabo algunos de sus planes un tanto excéntricos... En una sola jugada reúne varios de sus 'juguetes' y aficiones. Y ¿qué pasa si juntamos montañas, bicis, cámaras de fotos, drones, y amaneceres? Pues salen cosas como esta: todo está milimétricamente calculado!
+![punta-espata](attachments/punta-espata.png)
 La cosa comienza buscando una cima en la que esté permitido volar el dron, algo exageradamente restringido en casi todas partes. Localizada esta, toca buscar una vía de ascensión (Si el primer tramo es en BTT mucho mejor), y luego calcular horarios para estar en casa a mediodía como tarde.
 
 En el siguiente vídeo verás cómo recibimos en SQLP al otoño...
