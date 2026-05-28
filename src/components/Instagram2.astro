@@ -12,6 +12,42 @@ const token = import.meta.env.PUBLIC_INSTAGRAM_ACCESS_TOKEN || '';
 ---
 
 
+
+
+
+
+<script is:inline src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0/dist/instafeed.min.js"></script>
+
+<script is:inline>
+  function loadInstagram() {
+    // 1. Control de seguridad: Si el contenedor no existe en esta página, no hacemos nada
+    const feedContainer = document.getElementById('instafeed');
+    if (!feedContainer) return;
+
+    // 2. Limpiamos el contenedor por si acaso Astro ha dejado restos de una navegación previa
+    feedContainer.innerHTML = '';
+
+    // 3. Inicializamos Instafeed
+    const instagramToken = `${token}`;
+    const feed = new Instafeed({
+      accessToken: instagramToken,
+      limit: 6,
+      template: '<a href="{{link}}" target="_blank"><img src="{{image}}" alt="{{caption}}" /></a>',
+      // ... el resto de tus opciones de configuración
+    });
+
+    feed.run();
+  }
+
+  // Ejecutar cuando la página se carga de manera tradicional (F5)
+  document.addEventListener('DOMContentLoaded', loadInstagram);
+
+  // Ejecutar cada vez que Astro cambia de página dinámicamente
+  document.addEventListener('astro:after-swap', loadInstagram);
+</script>
+
+
+<!--
 <script src="https://cdn.jsdelivr.net/npm/instafeed.js@2/dist/instafeed.min.js"></script>
 <script is:inline>
   function initializeHomeInstagramFeed() {
@@ -33,6 +69,8 @@ const token = import.meta.env.PUBLIC_INSTAGRAM_ACCESS_TOKEN || '';
     }
   }
 
+
+
   // Exponer función global para SPA y primer load
   if (!(window.initializeHomeInstagramFeed)) {
     window.initializeHomeInstagramFeed = initializeHomeInstagramFeed;
@@ -43,7 +81,9 @@ const token = import.meta.env.PUBLIC_INSTAGRAM_ACCESS_TOKEN || '';
       initializeHomeInstagramFeed();
     }
   }
-</script>
+ -->
+
+  </script>
 
 <!-- --- SECCIÓN DE ESTILOS CSS --- -->
 <style>
