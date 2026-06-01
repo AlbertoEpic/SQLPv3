@@ -2,6 +2,12 @@
 
 declare global {
   const __SITE_CONFIG__: any;
+
+  interface Window {
+    initializeDocsSidebar?: () => void;
+    initializeImageGalleries?: () => void;
+    initializeImageGrids?: () => void;
+  }
 }
 
 interface ImportMetaEnv {

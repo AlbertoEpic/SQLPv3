@@ -1,6 +1,7 @@
 ---
 import type { ImageInfo } from '@/types';
 import { processImageLayout } from '@/utils/images';
+import { withBase } from '@/utils/base-url';
 import Icon from './Icon.astro';
 import ImageWrapper from './ImageWrapper.astro';
 
@@ -37,13 +38,6 @@ const { layout: finalLayout, images: finalImages } = processedLayout;
             quality={85}
             loading="lazy"
           />
-          // Utilidad para añadir el BASE_URL a rutas relativas
-          const withBase = (path: string) => {
-            const normalizedBase = import.meta.env.BASE_URL.endsWith('/')
-              ? import.meta.env.BASE_URL
-              : `${import.meta.env.BASE_URL}/`;
-            return `${normalizedBase}${path.replace(/^\/+/,'')}`;
-          };
           <div class="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-300 rounded-lg flex items-center justify-center">
             <Icon name="zoom-in" class="w-6 h-6 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
           </div>

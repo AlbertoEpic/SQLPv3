@@ -365,8 +365,8 @@ const structuredData = {
       initializeImageGrids();
 
       // Initialize docs sidebar
-      if (window.initializeDocsSidebar) {
-        window.initializeDocsSidebar();
+      if ((window as any).initializeDocsSidebar) {
+        (window as any).initializeDocsSidebar();
       }
 
         // Process all external links in content to open in new tabs (including reference links)

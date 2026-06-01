@@ -2,14 +2,9 @@
 // Página de filtro de posts por categoría (similar a index.astro)
 import { getCollection } from 'astro:content';
 import { siteConfig } from '@/config';
-import { generatePageSEO } from '@/utils/seo';
 import { shouldShowPost, sortPostsByDate, extractTags } from '@/utils/markdown';
 import { optimizePostImagePath } from '@/utils/images';
 import BaseLayout from '@/layouts/BaseLayout.astro';
-import PostCard from '@/components/PostCard.astro';
-import Tags from '@/components/Tags.astro';
-import Pagination from '@/components/Pagination.astro';
-import Icon from '@/components/Icon.astro';
 import { withBase } from '@/utils/base-url';
 
 // Get query parameters
@@ -28,30 +23,13 @@ const visiblePosts = allPosts.filter(post => shouldShowPost(post, isDev));
 // Sort posts by date (newest first)
 const sortedPosts = sortPostsByDate(visiblePosts);
 
-// Filtrar por nombre, categoría y tag si están seleccionados
-let filteredPosts = sortedPosts;
-if (searchQuery) {
-  const q = searchQuery.toLowerCase();
-  filteredPosts = filteredPosts.filter(post =>
-    (post.data.title || post.title || '').toLowerCase().includes(q)
-    || (post.data.description || post.description || '').toLowerCase().includes(q)
-  );
-}
-if (selectedCategory) {
-  filteredPosts = filteredPosts.filter(post => (post.data.category || '').toLowerCase() === selectedCategory.toLowerCase());
-}
-if (selectedTag) {
-  filteredPosts = filteredPosts.filter(post => (post.data.tags || []).map(t => t.toLowerCase()).includes(selectedTag.toLowerCase()));
-}
-
-// Pagination
-const postsPerPage = siteConfig.postOptions.postsPerPage;
-const totalPosts = filteredPosts.length;
-const totalPages = Math.ceil(totalPosts / postsPerPage);
-const currentPage = 1; // Solo primera página
-const startIndex = 0;
-const endIndex = Math.min(postsPerPage, totalPosts);
-const paginatedPosts = filteredPosts.slice(startIndex, endIndex);
+const categories = Array.from(
+  new Set(
+    sortedPosts
+      .map(post => post.data.category)
+      .filter((category): category is string => typeof category === 'string' && category.trim() !== '')
+  )
+);
 
 // Extract all unique tags
 const allTags = extractTags(sortedPosts);
@@ -90,7 +68,7 @@ const seoData = {
   <div class="relative">
     {/* Filtros de búsqueda */}
     <div class="mb-10 p-6 bg-primary-50 dark:bg-primary-900/60 rounded-xl shadow flex flex-col md:flex-row gap-4 items-center justify-between w-full max-w-none">
-      <form method="GET" class="w-full flex flex-col md:flex-row gap-4 items-center justify-between">
+      <form id="posts-filter-form" method="GET" class="w-full flex flex-col md:flex-row gap-4 items-center justify-between" data-no-swup>
         {/* Filtro por nombre */}
         <input
           type="text"
@@ -105,7 +83,7 @@ const seoData = {
           class="w-full md:w-1/2 lg:w-1/3 px-4 py-2 rounded-lg border border-primary-300 dark:border-primary-700 bg-white dark:bg-primary-950 text-primary-900 dark:text-primary-100 focus:outline-none focus:ring-2 focus:ring-highlight-500 transition-all"
         >
           <option value="" selected={!selectedCategory}>Todas las categorías</option>
-          {Array.from(new Set(sortedPosts.map(post => post.data.category).filter(Boolean))).map(cat => (
+          {categories.map(cat => (
             <option value={cat} selected={selectedCategory === cat}>{cat}</option>
           ))}
         </select>
@@ -125,15 +103,23 @@ const seoData = {
 
     {/* Listado de posts filtrados según los filtros activos */}
     <section class="mt-8">
-      <h2 class="text-xl font-bold mb-4 text-primary-900 dark:text-primary-100">Resultados ({filteredPosts.length})</h2>
-      {filteredPosts.length === 0 ? (
-        <div class="text-center text-red-600 font-bold my-8">No hay posts que coincidan con los filtros.</div>
-      ) : (
-        <ul class="divide-y divide-primary-200 dark:divide-primary-700">
-          {filteredPosts.map(post => (
+      <h2 class="text-xl font-bold mb-4 text-primary-900 dark:text-primary-100">Resultados (<span id="filter-results-count">{sortedPosts.length}</span>)</h2>
+      <div id="filter-empty-state" class="text-center text-red-600 font-bold my-8 hidden">No hay posts que coincidan con los filtros.</div>
+      <ul class="divide-y divide-primary-200 dark:divide-primary-700">
+          {sortedPosts.map(post => (
             <li>
-              <a href={withBase(`/posts/${post.id}`)} class="flex items-center gap-4 py-3 hover:bg-primary-100 dark:hover:bg-primary-900/40 rounded transition">
-                <img src={optimizePostImagePath(post.data.image, '100', post.id)} alt={post.data.imageAlt || post.data.title} class="w-[50px] h-[50px] object-cover rounded shadow-sm flex-shrink-0" loading="lazy" />
+              <a
+                href={withBase(`/posts/${post.id}`)}
+                class="flex items-center gap-4 py-3 hover:bg-primary-100 dark:hover:bg-primary-900/40 rounded transition"
+                data-filter-item
+                data-filter-title={post.data.title.toLowerCase()}
+                data-filter-description={(post.data.description || '').toLowerCase()}
+                data-filter-category={(post.data.category || '').toLowerCase()}
+                data-filter-tags={Array.isArray(post.data.tags) ? post.data.tags.map(tag => tag.toLowerCase()).join('|') : ''}
+              >
+                {post.data.image && (
+                  <img src={optimizePostImagePath(post.data.image, '100', post.id)} alt={post.data.imageAlt || post.data.title} class="w-[50px] h-[50px] object-cover rounded shadow-sm flex-shrink-0" loading="lazy" />
+                )}
                 <div>
                   <h3 class="text-base font-semibold text-primary-900 dark:text-primary-50 group-hover:text-highlight-600 mb-0">{post.data.title}</h3>
                   <span class="text-xs text-primary-500 dark:text-primary-300">{new Date(post.data.date).toLocaleDateString('es-ES', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
@@ -141,12 +127,10 @@ const seoData = {
               </a>
             </li>
           ))}
-        </ul>
-      )}
+      </ul>
     </section>
 
     </div>
-  </div>
 </BaseLayout>
 
 <style>
@@ -160,3 +144,122 @@ const seoData = {
     }
   }
 </style>
+
+<Fragment slot="scripts">
+  <script>
+    function initializePostFilters() {
+      const form = document.querySelector('#posts-filter-form');
+      if (!form || form instanceof HTMLFormElement === false) return;
+      if (form.dataset.filtersBound === 'true') {
+        applyFiltersFromUrl();
+        return;
+      }
+
+      form.dataset.filtersBound = 'true';
+
+      const searchInput = form.querySelector('input[name="q"]');
+      const categorySelect = form.querySelector('select[name="category"]');
+      const tagSelect = form.querySelector('select[name="tag"]');
+      const filterItems = Array.from(document.querySelectorAll('[data-filter-item]'));
+      const resultsCount = document.querySelector('#filter-results-count');
+      const emptyState = document.querySelector('#filter-empty-state');
+      const title = document.querySelector('h1');
+      const description = document.querySelector('.hero-copy p');
+
+      const normalize = (value: string) => value.trim().toLowerCase();
+
+      function updateHero(category: string) {
+        if (!title || !description) return;
+
+        if (category) {
+          title.textContent = `Categoría: ${category}`;
+          description.textContent = `Mostrando los posts de la categoría "${category}".`;
+          return;
+        }
+
+        title.textContent = 'Filtrar posts por categoría';
+        description.textContent = 'Selecciona una categoría para ver los posts correspondientes.';
+      }
+
+      function syncFormWithUrl() {
+        const params = new URLSearchParams(window.location.search);
+        if (searchInput instanceof HTMLInputElement) {
+          searchInput.value = params.get('q') || '';
+        }
+        if (categorySelect instanceof HTMLSelectElement) {
+          categorySelect.value = params.get('category') || '';
+        }
+        if (tagSelect instanceof HTMLSelectElement) {
+          tagSelect.value = params.get('tag') || '';
+        }
+      }
+
+      function updateUrl() {
+        const params = new URLSearchParams();
+        const query = searchInput instanceof HTMLInputElement ? searchInput.value.trim() : '';
+        const category = categorySelect instanceof HTMLSelectElement ? categorySelect.value.trim() : '';
+        const tag = tagSelect instanceof HTMLSelectElement ? tagSelect.value.trim() : '';
+
+        if (query) params.set('q', query);
+        if (category) params.set('category', category);
+        if (tag) params.set('tag', tag);
+
+        const nextUrl = `${window.location.pathname}${params.toString() ? `?${params.toString()}` : ''}`;
+        window.history.replaceState({}, '', nextUrl);
+      }
+
+      function applyFiltersFromUrl() {
+        syncFormWithUrl();
+
+        const params = new URLSearchParams(window.location.search);
+        const query = normalize(params.get('q') || '');
+        const category = normalize(params.get('category') || '');
+        const tag = normalize(params.get('tag') || '');
+
+        let visibleCount = 0;
+        filterItems.forEach((item) => {
+          if (!(item instanceof HTMLAnchorElement)) return;
+
+          const titleMatch = (item.dataset.filterTitle || '').includes(query);
+          const descriptionMatch = (item.dataset.filterDescription || '').includes(query);
+          const categoryMatch = !category || (item.dataset.filterCategory || '') === category;
+          const tagMatch = !tag || (item.dataset.filterTags || '').split('|').includes(tag);
+          const queryMatch = !query || titleMatch || descriptionMatch;
+          const isVisible = queryMatch && categoryMatch && tagMatch;
+
+          const parent = item.closest('li');
+          if (parent instanceof HTMLElement) {
+            parent.classList.toggle('hidden', !isVisible);
+          }
+
+          if (isVisible) visibleCount += 1;
+        });
+
+        if (resultsCount) {
+          resultsCount.textContent = String(visibleCount);
+        }
+
+        if (emptyState instanceof HTMLElement) {
+          emptyState.classList.toggle('hidden', visibleCount > 0);
+        }
+
+        updateHero(categorySelect instanceof HTMLSelectElement ? categorySelect.value.trim() : '');
+      }
+
+      form.addEventListener('submit', (event) => {
+        event.preventDefault();
+        updateUrl();
+        applyFiltersFromUrl();
+      });
+
+      applyFiltersFromUrl();
+    }
+
+    (window as any).initializePostFilters = initializePostFilters;
+    document.addEventListener('DOMContentLoaded', initializePostFilters);
+    if ((window as any).swup?.hooks?.on) {
+      (window as any).swup.hooks.on('page:view', initializePostFilters);
+      (window as any).swup.hooks.on('visit:end', initializePostFilters);
+    }
+  </script>
+</Fragment>

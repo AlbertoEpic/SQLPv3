@@ -638,72 +638,7 @@ const structuredData = {
           </a>
         </div>
 
-<!-- CÓDIGO PROPUESTO POR GEMINI -->
-
-<!-- 1. Aseguramos la librería en el documento -->
-<script is:inline src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0/dist/instafeed.min.js"></script>
-
-<!-- 2. La lógica con la directiva de reejecución de Astro -->
-<script is:inline data-astro-rerun>
-  (function() {
-    const feedContainer = document.getElementById('home-instafeed');
     
-    // Si no estamos en la página con el feed, salimos inmediatamente
-    if (!feedContainer) return;
-
-    // Colocamos el texto de carga inicial
-    feedContainer.innerHTML = '<p class="instagram-loading">Cargando las últimas publicaciones...</p>';
-
-    // Si por algún motivo la navegación dinámica tarda en reconocer la librería global
-    if (typeof Instafeed === 'undefined') {
-      console.warn("Instafeed no definido todavía, reintentando en 100ms...");
-      setTimeout(initFeed, 100);
-      return;
-    }
-
-    initFeed();
-    const instagramToken = `${token}`;
-    function initFeed() {
-      const feed = new Instafeed({
-        target: 'home-instafeed',
-        accessToken: instagramToken, // Pon aquí tu token real
-        limit: 3,
-        template: `
-          <div class="instagram-item" role="listitem">
-            <a href="{{link}}" target="_blank" rel="noopener noreferrer">
-              <img src="{{image}}" alt="{{caption}}" loading="lazy" />
-            </a>
-          </div>
-        `,
-        mock: true,
-        success: function(data) {
-          // Limpiamos el contenedor por completo (adiós al texto "Cargando...")
-          feedContainer.innerHTML = '';
-          
-          if (!data || !data.data || data.data.length === 0) {
-            feedContainer.innerHTML = '<p class="instagram-error">No hay publicaciones disponibles.</p>';
-            return;
-          }
-
-          // Inyectamos las imágenes
-          const items = data.data.slice(0, 3);
-          items.forEach(item => {
-            let html = feed._template(feed.options.template, item);
-            feedContainer.insertAdjacentHTML('beforeend', html);
-          });
-        },
-        error: function(err) {
-          console.error("Error en Instafeed:", err);
-          feedContainer.innerHTML = '<p class="instagram-error">No se pudieron cargar las publicaciones.</p>';
-        }
-      });
-
-      feed.run();
-    }
-  })();
-</script>
-  
-<!-- /CÓDIGO PROPUESTO POR GEMINI -->
 
 
 
