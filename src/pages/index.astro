@@ -405,20 +405,21 @@ const structuredData = {
           }
         };
 
-        // Hook para SPA: Swup
-        function tryInitInstagram() {
+        // Expose a global initializer so BaseLayout can re-run this widget on SPA navigations.
+        function initializeHomeInstagramFeed() {
           const feed = document.querySelector('[data-instagram-feed]');
           if (feed) {
-            console.log('[SQLP] init Instagram (SPA)');
             renderInstagramFeed();
-            return;
           }
         }
+
+        window.initializeHomeInstagramFeed = initializeHomeInstagramFeed;
+
         // DOMContentLoaded (primera carga)
-        document.addEventListener('DOMContentLoaded', tryInitInstagram);
-        // Swup navigation (cada cambio de página)
-        if (window.swup && window.swup.hooks) {
-          window.swup.hooks.on('page:view', tryInitInstagram);
+        if (document.readyState === 'loading') {
+          document.addEventListener('DOMContentLoaded', initializeHomeInstagramFeed);
+        } else {
+          initializeHomeInstagramFeed();
         }
       })();
     </script>
