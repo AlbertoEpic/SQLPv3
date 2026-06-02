@@ -66,11 +66,11 @@ jobs:
                 throw new Error(err);
               }
 
-              fs.appendFileSync(githubEnv, `PUBLIC_INSTAGRAM_ACCESS_TOKEN=${refreshed}\n`);
+              fs.appendFileSync(githubEnv, 'PUBLIC_INSTAGRAM_ACCESS_TOKEN=' + refreshed + '\n');
               console.log('Instagram token refreshed for this build.');
             } catch (error) {
-              fs.appendFileSync(githubEnv, `PUBLIC_INSTAGRAM_ACCESS_TOKEN=${current}\n`);
-              console.log([Instagram token refresh failed. Using existing token for this build. ${error.message}](http://_vscodecontentref_/0));
+              fs.appendFileSync(githubEnv, 'PUBLIC_INSTAGRAM_ACCESS_TOKEN=' + current + '\n');
+              console.log('Instagram token refresh failed. Using existing token for this build. ' + error.message);
             }
           }
 
@@ -79,7 +79,7 @@ jobs:
             process.exit(1);
           });
           NODE
-
+    
       - name: Build project
         run: pnpm run build
 
