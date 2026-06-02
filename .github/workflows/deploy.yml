@@ -2,7 +2,10 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [main] # Asegúrate de que tu rama se llame main
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    - cron: '0 4 */20 * *'
 
 permissions:
   contents: read
@@ -18,26 +21,72 @@ jobs:
 
       - name: Install pnpm
         uses: pnpm/action-setup@v4
-        # Hemos quitado la línea "version: 10" para que no haya conflicto          
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '22' # Esto arregla el error "Node.js v20 is not supported"
-          cache: 'pnpm'
+          node-version: '22'
+          cache: pnpm
 
       - name: Install dependencies
         run: pnpm install
 
-      - name: Build project
-        env: 
+      - name: Refresh Instagram token for this build
+        env:
           PUBLIC_INSTAGRAM_ACCESS_TOKEN: ${{ secrets.PUBLIC_INSTAGRAM_ACCESS_TOKEN }}
+        run: |
+          node <<'NODE'
+          const fs = require('node:fs');
+
+          const current = (process.env.PUBLIC_INSTAGRAM_ACCESS_TOKEN || '').trim();
+          const githubEnv = process.env.GITHUB_ENV;
+
+          async function main() {
+            if (!githubEnv) {
+              throw new Error('GITHUB_ENV is not available');
+            }
+
+            if (!current) {
+              fs.appendFileSync(githubEnv, 'PUBLIC_INSTAGRAM_ACCESS_TOKEN=\n');
+              console.log('PUBLIC_INSTAGRAM_ACCESS_TOKEN is empty. Build will continue without Instagram feed.');
+              return;
+            }
+
+            try {
+              const url = new URL('https://graph.instagram.com/refresh_access_token');
+              url.searchParams.set('grant_type', 'ig_refresh_token');
+              url.searchParams.set('access_token', current);
+
+              const response = await fetch(url);
+              const data = await response.json().catch(() => ({}));
+              const refreshed = (data?.access_token || '').trim();
+
+              if (!response.ok || !refreshed) {
+                const err = data?.error?.message || 'Invalid refresh response';
+                throw new Error(err);
+              }
+
+              fs.appendFileSync(githubEnv, `PUBLIC_INSTAGRAM_ACCESS_TOKEN=${refreshed}\n`);
+              console.log('Instagram token refreshed for this build.');
+            } catch (error) {
+              fs.appendFileSync(githubEnv, `PUBLIC_INSTAGRAM_ACCESS_TOKEN=${current}\n`);
+              console.log([Instagram token refresh failed. Using existing token for this build. ${error.message}](http://_vscodecontentref_/0));
+            }
+          }
+
+          main().catch((error) => {
+            console.error(error.message);
+            process.exit(1);
+          });
+          NODE
+
+      - name: Build project
         run: pnpm run build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist # Astro guarda el resultado aquí
+          path: ./dist
 
   deploy:
     needs: build
