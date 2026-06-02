@@ -30,7 +30,8 @@ jobs:
         run: pnpm install
 
       - name: Build project
-        env: PUBLIC_INSTAGRAM_ACCESS_TOKEN: ${{ secrets.PUBLIC_INSTAGRAM_ACCESS_TOKEN }}
+        env: 
+          PUBLIC_INSTAGRAM_ACCESS_TOKEN: ${{ secrets.PUBLIC_INSTAGRAM_ACCESS_TOKEN }}
         run: pnpm run build
 
       - name: Upload artifact
