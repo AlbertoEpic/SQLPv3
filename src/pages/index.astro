@@ -363,6 +363,7 @@ const structuredData = {
         const renderInstagramFeed = async () => {
           const feed = document.querySelector('[data-instagram-feed]');
           if (!feed) return;
+          const loadingState = feed.querySelector('[data-instagram-loading]');
           const animateInstagramFeed = () => {
             const posts = feed.querySelectorAll('.instagram-post');
             posts.forEach((post, index) => {
@@ -375,6 +376,7 @@ const structuredData = {
           };
           const fallback = document.querySelector('[data-instagram-fallback]');
           if (!instagramToken) {
+            if (loadingState) loadingState.classList.add('hidden');
             if (fallback) fallback.classList.remove('hidden');
             return;
           }
@@ -393,14 +395,17 @@ const structuredData = {
               `,
               after: () => {
                 animateInstagramFeed();
+                if (loadingState) loadingState.classList.add('hidden');
                 if (fallback) fallback.classList.add('hidden');
               },
               error: () => {
+                if (loadingState) loadingState.classList.add('hidden');
                 if (fallback) fallback.classList.remove('hidden');
               },
             });
             instafeed.run();
           } catch {
+            if (loadingState) loadingState.classList.add('hidden');
             if (fallback) fallback.classList.remove('hidden');
           }
         };
@@ -626,7 +631,7 @@ const structuredData = {
             aria-label="Ultimas publicaciones de Instagram"
             data-instagram-feed
           >
-            <p class="instagram-loading">Cargando las últimas publicaciones...</p>
+            <p class="instagram-loading" data-instagram-loading>Cargando las últimas publicaciones...</p>
           </div>
           <a
             href={instagramLink}
