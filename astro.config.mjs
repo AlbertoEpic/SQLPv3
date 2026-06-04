@@ -85,6 +85,8 @@ export default defineConfig({
   '/contact-me': '/contact',
   '/contact-us': '/contact',
   '/privacy': '/privacy-policy',
+  '/posts/skilof-1-varden-700m': '/posts/skilof-1-varden-700m 1',
+  '/posts/skilof-2-torksmannen-755m': '/posts/skilof-2-torksmannen-755m 1',
   '/projects/obsidian-astro-composer': '/projects/astro-composer',
   '/projects/obsidian-astro-suite': '/projects/vault-cms',
   '/docs/api-reference': '/docs/api',
@@ -176,7 +178,7 @@ image: {
     }
   },
   vite: {
-    assetsInclude: ['**/*.base', '**/*.home', '**/*.base'],
+    assetsInclude: ['**/*.base', '**/*.home', '**/*.base', '**/*.gpx'],
     resolve: {
       alias: {
         '@': fileURLToPath(new URL('./src', import.meta.url)),
