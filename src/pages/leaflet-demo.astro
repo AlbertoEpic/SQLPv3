@@ -1,0 +1,48 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import LeafletMap from '@/components/LeafletMap.astro';
+
+const seoData = {
+  title: 'Leaflet Demo',
+  description: 'Pagina de prueba para Leaflet en Astro Modular',
+  canonical: new URL('/leaflet-demo', Astro.site ?? 'http://localhost:5000').toString(),
+  ogType: 'website' as const,
+};
+---
+
+<BaseLayout seoData={seoData}>
+  <div class="py-10">
+    <div class="mx-auto px-4 sm:px-6 lg:px-8" style="max-width: 960px;">
+      <article class="rounded-xl border border-primary-200 dark:border-primary-700 bg-primary-50 dark:bg-primary-900 shadow-sm p-6 sm:p-8">
+        <h1 class="text-2xl font-bold text-primary-900 dark:text-primary-50 mb-4">Leaflet Demo</h1>
+        <p class="text-primary-600 dark:text-primary-300 mb-6">
+          Esta pagina verifica el componente LeafletMap. Para probar el mapa GPX automatico, abre el post demo en /posts/demo-leaflet-gpx.
+        </p>
+
+        <LeafletMap
+          center={[42.145, -0.401]}
+          zoom={12}
+          height="460px"
+          tiles="auto"
+          markers={[
+            { lat: 42.145, lng: -0.401, title: 'Inicio', popup: '<strong>Inicio</strong>' },
+            { lat: 42.1555, lng: -0.3865, title: 'Final', popup: '<strong>Final</strong>' },
+          ]}
+          polylines={[
+            {
+              points: [
+                [42.14, -0.408],
+                [42.145, -0.401],
+                [42.150, -0.395],
+                [42.1555, -0.3865],
+              ],
+              color: '#ef4444',
+              weight: 4,
+              opacity: 0.95,
+            },
+          ]}
+        />
+      </article>
+    </div>
+  </div>
+</BaseLayout>

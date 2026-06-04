@@ -11,7 +11,6 @@ tags:
   - Lofoten
   - trollfjord
   - skimo
-  - viajes
 ---
 
 El tercer dí­a la meteo mejora y todo empieza a ser espectacular. Las tarjetas de memoria van que echan humo, acumulando material gráfico para varios meses... De nuevo AlbertoEpic sale con todo: cámara y dron. El peso extra es lo de menos.

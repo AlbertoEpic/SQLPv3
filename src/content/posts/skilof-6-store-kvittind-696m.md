@@ -11,7 +11,6 @@ tags:
   - Lofoten
   - store-kvittind
   - skimo
-  - viajes
 ---
 
 Esta es nuestra última actividad en Noruega. Mañana toca avión y para casa. El grupo se deja llevar, y lleno de espí­ritu explorador, decide dejar la ascensión prevista e improvisar una ruta circular en busca de unas buenas palas de bajada (En realidad, en este lugar y en estos dí­as, la bajada siempre es espectacular en cualquier orientación y a cualquier hora!)

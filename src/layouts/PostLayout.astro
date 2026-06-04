@@ -11,6 +11,7 @@ import TableOfContents from '@/components/TableOfContents.astro';
 import LinkedMentions from '@/components/LinkedMentions.astro';
 import LocalGraph from '@/components/LocalGraph.astro';
 import GiscusComments from '@/components/GiscusComments.astro';
+import StravaRouteMap from '@/components/StravaRouteMap.astro';
 import Lightbox from '@/components/Lightbox.astro';
 import Icon from '@/components/Icon.astro';
 import ImageWrapper from '@/components/ImageWrapper.astro';
@@ -71,6 +72,7 @@ const readingTime = calculateReadingTime(post.body || '');
 const hideTOC = post.data.hideTOC === true;
 const shouldShowTOC = !hideTOC && siteConfig.tableOfContents.enabled && headings.length > 0;
 const toc = shouldShowTOC ? await generateTOC(headings) : [];
+const shouldShowGpxMap = post.data.gpxMap === true;
 
 // Get adjacent posts for navigation
 const { prev: prevPost, next: nextPost } = getAdjacentPosts(visiblePosts, post.id);
@@ -285,6 +287,14 @@ const showLocalGraph = siteConfig.postOptions.graphView.enabled && siteConfig.po
               )}
             </div>
           </nav>
+        )}
+
+        {shouldShowGpxMap && (
+          <StravaRouteMap
+            postTitle={post.data.title}
+            postSlug={post.id}
+            publishDate={post.data.date.toISOString()}
+          />
         )}
 
         <!-- Giscus Comments -->

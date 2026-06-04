@@ -46,45 +46,6 @@ const token = import.meta.env.PUBLIC_INSTAGRAM_ACCESS_TOKEN || '';
   document.addEventListener('astro:after-swap', loadInstagram);
 </script>
 
-
-<!--
-<script src="https://cdn.jsdelivr.net/npm/instafeed.js@2/dist/instafeed.min.js"></script>
-<script is:inline>
-  function initializeHomeInstagramFeed() {
-    const instagramToken = `${token}`;
-    const feed = document.getElementById('instafeed');
-    if (feed && instagramToken) {
-      feed.innerHTML = '';
-      const instafeed = new Instafeed({
-        accessToken: instagramToken,
-        limit: 6,
-        target: 'instafeed',
-        template: `
-          <a href="{{link}}" target="_blank" rel="noopener noreferrer" class="instagram-tarjeta" role="listitem" aria-label="Ver {{caption}}">
-            <img src="{{image}}" alt="{{caption}}" loading="lazy" decoding="async" class="instagram-tarjeta" width="400" height="400" />
-          </a>
-        `
-      });
-      instafeed.run();
-    }
-  }
-
-
-
-  // Exponer función global para SPA y primer load
-  if (!(window.initializeHomeInstagramFeed)) {
-    window.initializeHomeInstagramFeed = initializeHomeInstagramFeed;
-    // Llamar en primer load
-    if (document.readyState === 'loading') {
-      document.addEventListener('DOMContentLoaded', initializeHomeInstagramFeed);
-    } else {
-      initializeHomeInstagramFeed();
-    }
-  }
- -->
-
-  </script>
-
 <!-- --- SECCIÓN DE ESTILOS CSS --- -->
 <style>
   .instagram-contenedor {

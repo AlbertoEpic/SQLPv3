@@ -1135,6 +1135,9 @@ const scrollbarClass = siteConfig.hideScrollBar ? '' : 'show-scrollbars';
     <script>
       try { await import('../scripts/mermaid-client.ts'); } catch (_) {}
     </script>
+    <script>
+      try { await import('../scripts/leaflet-client.ts'); } catch (_) {}
+    </script>
 
   <!-- Global scripts - Defer non-critical JavaScript -->
   <script define:vars={{ commentsEnabled: siteConfig.postOptions.comments.enabled, baseUrl: import.meta.env.BASE_URL }} defer>

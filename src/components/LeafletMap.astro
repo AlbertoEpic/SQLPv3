@@ -1,0 +1,56 @@
+---
+export interface MarkerConfig {
+  lat: number;
+  lng: number;
+  popup?: string;
+  title?: string;
+}
+
+export interface PolylineConfig {
+  points: [number, number][];
+  color?: string;
+  weight?: number;
+  opacity?: number;
+}
+
+export interface PolygonConfig {
+  points: [number, number][];
+  color?: string;
+  fillColor?: string;
+  fillOpacity?: number;
+}
+
+export interface Props {
+  center: [number, number];
+  zoom?: number;
+  height?: string;
+  tiles?: 'osm' | 'carto-light' | 'carto-dark' | 'auto';
+  markers?: MarkerConfig[];
+  polylines?: PolylineConfig[];
+  polygons?: PolygonConfig[];
+  class?: string;
+}
+
+const {
+  center,
+  zoom = 12,
+  height = '400px',
+  tiles = 'auto',
+  markers = [],
+  polylines = [],
+  polygons = [],
+  class: className = '',
+} = Astro.props;
+
+const mapId = `leaflet-map-${Math.random().toString(36).slice(2, 11)}`;
+const config = { center, zoom, height, tiles, markers, polylines, polygons };
+const encoded = encodeURIComponent(JSON.stringify(config));
+---
+
+<div
+  id={mapId}
+  class={`leaflet-map-container not-prose ${className}`}
+  data-map-config={encoded}
+  style={`height:${height};width:100%;border-radius:0.5rem;overflow:hidden;position:relative;`}
+  aria-label="Mapa interactivo"
+></div>

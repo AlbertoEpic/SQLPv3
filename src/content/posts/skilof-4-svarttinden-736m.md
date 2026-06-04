@@ -11,7 +11,6 @@ tags:
   - Lofoten
   - Svarttinden
   - skimo
-  - viajes
 ---
 
 El cuarto dí­a de skimo en las islas Lofoten, subimos al Svarttinden, al principio nevando, viento, sin muchas esperanzas... Pero una vez arriba, de repente se despejó. Una cima espectacular!!!
