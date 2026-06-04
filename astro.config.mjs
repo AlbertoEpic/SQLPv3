@@ -6,6 +6,7 @@ import { remarkInternalLinks, remarkFolderImages, remarkImageCaptions } from './
 import remarkCallouts from './src/utils/remark-callouts.ts';
 import remarkImageGrids from './src/utils/remark-image-grids.ts';
 import remarkMermaid from './src/utils/remark-mermaid.ts';
+import remarkLeaflet from './src/utils/remark-leaflet.ts';
 import { remarkObsidianEmbeds } from './src/utils/remark-obsidian-embeds.ts';
 import remarkBases from './src/utils/remark-bases.ts';
 import remarkInlineTags from './src/utils/remark-inline-tags.ts';
@@ -143,6 +144,7 @@ image: {
       remarkBreaks,
       remarkImageGrids,
       remarkMermaid,
+      remarkLeaflet,
       [remarkReadingTime, {}],
       [remarkToc, {
         tight: true,

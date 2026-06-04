@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="AstroModularDemo" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata>
+    <name>Demo Leaflet Route</name>
+    <time>2026-06-04T08:00:00Z</time>
+  </metadata>
+  <trk>
+    <name>Demo Leaflet Route</name>
+    <trkseg>
+      <trkpt lat="42.1400" lon="-0.4080"><ele>680</ele><time>2026-06-04T08:00:00Z</time></trkpt>
+      <trkpt lat="42.1420" lon="-0.4040"><ele>702</ele><time>2026-06-04T08:05:00Z</time></trkpt>
+      <trkpt lat="42.1450" lon="-0.4010"><ele>730</ele><time>2026-06-04T08:10:00Z</time></trkpt>
+      <trkpt lat="42.1480" lon="-0.3980"><ele>760</ele><time>2026-06-04T08:15:00Z</time></trkpt>
+      <trkpt lat="42.1500" lon="-0.3950"><ele>782</ele><time>2026-06-04T08:20:00Z</time></trkpt>
+      <trkpt lat="42.1520" lon="-0.3920"><ele>800</ele><time>2026-06-04T08:25:00Z</time></trkpt>
+      <trkpt lat="42.1540" lon="-0.3890"><ele>815</ele><time>2026-06-04T08:30:00Z</time></trkpt>
+      <trkpt lat="42.1555" lon="-0.3865"><ele>824</ele><time>2026-06-04T08:35:00Z</time></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

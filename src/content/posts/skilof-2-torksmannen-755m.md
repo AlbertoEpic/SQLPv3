@@ -11,7 +11,6 @@ tags:
   - Lofoten
   - torksmannen
   - skimo
-  - viajes
 ---
 
 El segundo dí­a tal vez fuera el de meteo más dura. Un fuerte viento imposibilitaba volar el dron y daba más pereza sacar la cámara para las fotos... A continuación tienes el track de la actividad.

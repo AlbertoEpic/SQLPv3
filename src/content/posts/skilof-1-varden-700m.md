@@ -11,7 +11,6 @@ tags:
   - Lofoten
   - varden
   - skimo
-  - viajes
 ---
 
 El primer dí­a ascendemos al Varden (700m). Toma de contacto, adaptación a la meteo y la nieve de aquí­. Una actividad sencilla fí­sica y técnicamente. Por si te interesa, tienes disponible el track de la actividad a continuación:
