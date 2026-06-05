@@ -11,7 +11,7 @@ const cyan = (s) => `\x1b[36m${s}\x1b[39m`;
 const red = (s) => `\x1b[31m${s}\x1b[39m`;
 const dim = (s) => `\x1b[2m${s}\x1b[22m`;
 
-const TEMPLATE = 'gh:davidvkimball/astro-modular#master';
+const TEMPLATE = 'gh:davidvkimball/astro-modular#main';
 
 const CLEANUP = [
   'cli',
