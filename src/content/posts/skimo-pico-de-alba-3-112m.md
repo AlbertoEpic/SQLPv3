@@ -1,13 +1,13 @@
 ---
 title: "Skimo: pico de Alba (3.112m)"
 pubDate: 2023-04-09T09:02:45Z
-
-heroImage: attachments/SQLPcomodin.jpg
+heroImage: "[[attachments/skimo-pico-de-alba-3-112m.png]]"
 updatedDate: 2023-05-17T09:13:44Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "El sábado 8 de abril de 2023, y aguantando el tirón de su reciente Campbieil dos días antes , los especialistas de SQLP Miriam y AlbertoEpic se decidieron ahora por el Pico de Alba, en Benasque. Les había quedado pendiente unos días atrás, "
 category: Esquí de travesía
+heroimage: "[[attachments/skimo-pico-de-alba-3-112m.png]]"
 ---
 
 El sábado 8 de abril de 2023, y aguantando el tirón de [su reciente Campbieil dos días antes](skimo-pic-de-campbieil-3-173m/), los especialistas de SQLP Miriam y AlbertoEpic se decidieron ahora por el Pico de Alba, en Benasque. Les había quedado pendiente unos días atrás, cuando la mala meteo les obligó a retirarse, y querían resarcirse!
