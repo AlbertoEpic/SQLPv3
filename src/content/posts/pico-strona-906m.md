@@ -1,5 +1,5 @@
 ---
-title: "Noruega 2019: pico StríƒÂ¸na (906m)"
+title: "Noruega 2019: pico Strøna (906m)"
 heroImage: https://i.imgur.com/R5yROJX.jpg
 pubDate: 2019-09-16T15:08:12Z
 updatedDate: 2020-03-02T17:06:59Z
@@ -14,13 +14,13 @@ tags:
   - Ströna
   - ascensiones
 ---
-- capítulo 4 -
-Por fin las islas Lofoten!!!
+ -capítulo 4-
+### Por fin las islas Lofoten!!!
 El viaje por Noruega del equipo SQLP se está poniendo cada vez más interesante!
 
-Tras la increíble ruta del Holmvassfjellet el listón ha quedado muy alto, pero... De Narvik pasan a la isla de HadselíƒÂ¸ya, en el archipiélago de las islasí‚Â [VesteríƒÂ¥len](https://es.wikipedia.org/wiki/Vester%C3%A5len). Allí se reúnen con sus amigos Nico y Cris, dos peculiares personas de esas que merece la pena conocer! Duermen en su casa y al día siguiente pasan en el ferry a FiskebíƒÂ¸l para poner pie en el archipiélago de lasí‚Â [islas Lofoten](https://es.wikipedia.org/wiki/Islas_Lofoten).
+Tras la increíble ruta del Holmvassfjellet el listón ha quedado muy alto, pero... De Narvik pasan a la isla de Hadseløya, en el archipiélago de las islas [**Vesterålen**](https://es.wikipedia.org/wiki/Vester%C3%A5len). Allí se reúnen con sus amigos Nico y Cris, dos peculiares personas de esas que merece la pena conocer! Duermen en su casa y al día siguiente pasan en el ferry a Fiskebøl para poner pie en el archipiélago de las [islas Lofoten](https://es.wikipedia.org/wiki/Islas_Lofoten).
 
-Desde el ferry, el StríƒÂ¸na destaca como un triángulo perfecto ya desde la línea de la costa. Será una buena ascensión para empezar!
+Desde el ferry, el Strøna destaca como un triángulo perfecto ya desde la línea de la costa. Será una buena ascensión para empezar!
 
 Ya por la tarde, se reúnen con Nico&Cris y éstos les llevan a una playa donde pasar una mítica noche: fuego de campamento, barbacoa y acampada!
 
