@@ -14,9 +14,10 @@ tags:
   - ascensiones
   - la_partacua
   - sunset
+gpxMap: true
 ---
 
-## puesta_de_sol desde esta magní­fica atalaya...
+## Puesta_de_sol desde esta magní­fica atalaya...
 
 El pasado 9 de julio, los especialistas de SQLP Myriam&AlbertoEpic buscaban un lugar elevado desde donde disfrutar de una mí­tica puesta_de_sol. Barajadas posibles opciones, y siendo la condición indispensable que estuviera permitido volar el Alberdrón, al final se decidieron por contemplar el atardecer desde la cima del pico Porrón.
 
