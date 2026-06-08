@@ -5,5 +5,12 @@
     "file": "demo-route.gpx",
     "start_date": "2026-06-04T08:00:00Z",
     "status": "ok"
+  },
+  {
+    "id": "gpx-0002",
+    "name": "Skimo - Peña Sabocos",
+    "file": "Peña_Sabocos-skimo.gpx",
+    "start_date": "2026-06-03T06:02:49.000Z",
+    "status": "ok"
   }
 ]

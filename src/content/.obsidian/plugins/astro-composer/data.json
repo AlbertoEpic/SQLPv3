@@ -17,14 +17,15 @@
     {
       "id": "posts-1765432337485",
       "name": "Posts",
-      "folder": "/SQLPv3/posts/",
-      "linkBasePath": "/SQLPv3/posts/",
-      "template": "---\ntitle: \"{{title}}\"\ndate: {{date}}\ndescription: \"\"\ntags: []\nheroImage: \"\"\nimageAlt: \"\"\nimageOG: false\nhideCoverImage: false\nhideTOC: false\ntargetKeyword: \"\"\ndraft: false\n---\n",
+      "folder": "/posts/",
+      "linkBasePath": "/posts/",
+      "template": "---\ntitle: \"{{title}}\"\nheroImage: \"\"\ndescription: \"\"\npubDate: {{date}}\nauthor: \"\"\ncategory: \"\"\ntags: []\ngpxMap: true\ndraft: false\n---",
       "enabled": true,
       "creationMode": "file",
       "indexFileName": "index",
       "ignoreSubfolders": false,
-      "enableUnderscorePrefix": false
+      "enableUnderscorePrefix": false,
+      "modifiedDateField": "Modified"
     },
     {
       "id": "pages-1765432337485",
@@ -67,7 +68,7 @@
   "migrationCompleted": true,
   "helpButtonReplacement": {
     "enabled": true,
-    "commandId": "app:open-settings",
+    "commandId": "astro-composer:create-content-type-posts-1765432337485",
     "iconId": "rocket"
   },
   "showMdxFilesInExplorer": false,
