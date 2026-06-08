@@ -250,6 +250,14 @@ const showLocalGraph = siteConfig.postOptions.graphView.enabled && siteConfig.po
           <LinkedMentions currentSlug={post.id} />
         )}
 
+        {shouldShowGpxMap && (
+          <StravaRouteMap
+            postTitle={post.data.title}
+            postSlug={post.id}
+            publishDate={post.data.date.toISOString()}
+          />
+        )}
+
         <!-- Post navigation -->
         {siteConfig.postOptions.postNavigation && (prevPost || nextPost) && (
           <nav class={`mt-8 pt-8 ${siteConfig.postOptions.linkedMentions.enabled ? '' : 'border-t border-primary-200 dark:border-primary-700'}`}>
@@ -287,14 +295,6 @@ const showLocalGraph = siteConfig.postOptions.graphView.enabled && siteConfig.po
               )}
             </div>
           </nav>
-        )}
-
-        {shouldShowGpxMap && (
-          <StravaRouteMap
-            postTitle={post.data.title}
-            postSlug={post.id}
-            publishDate={post.data.date.toISOString()}
-          />
         )}
 
         <!-- Giscus Comments -->
