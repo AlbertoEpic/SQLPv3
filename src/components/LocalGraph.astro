@@ -555,7 +555,7 @@ const shouldShowGraph = true;
     }
 
     // Get base URL for proper path resolution
-      fetch(graphDataUrl)
+    fetch(getGraphDataUrl())
         .then(response => response.json())
         .then((data) => {
         
