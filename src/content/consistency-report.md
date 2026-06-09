@@ -1,3 +1,6 @@
+---
+draft: true
+---
 # Bad links (42 files)
 [aludes-mapa-ates-del-macizo-de-infiernos](posts/aludes-mapa-ates-del-macizo-de-infiernos.md):
 - (line 15): `aludes-mapa-ates-del-macizo-de-maladetas-aneto/`

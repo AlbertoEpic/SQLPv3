@@ -3,6 +3,6 @@ title: Thank You
 description: Thank you for your submission.
 hideTOC: true
 noIndex: true
-draft: false
+draft: true
 ---
 Your submission has been sent. Expect a response soon!

@@ -1,13 +1,16 @@
 ---
 title: "Skimo: Tuca del Posolobino (2.778m)"
 pubDate: 2020-01-29T10:44:58Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2020-03-02T16:05:29Z
 draft: false
-author: "AlbertoEpic"
-description: "https://youtu.be/9dT8hHh_5LE El pasado domingo 26 de enero, Cheles y AlbertoEpic pudieron vivir una experiencia religiosa. Prevenidos ante la nieve de los últimos días, donde experiencias varias hablaban de nieve húmeda tipo 'engrudo' total"
+author: AlbertoEpic
+description: https://youtu.be/9dT8hHh_5LE El pasado domingo 26 de enero, Cheles y AlbertoEpic pudieron vivir una experiencia religiosa. Prevenidos ante la nieve de los últimos días, donde experiencias varias hablaban de nieve húmeda tipo 'engrudo' total
 category: Esquí de travesía
+tags:
+  - skimo
+  - valle_de_benasque
+  - posolobino
 ---
 https://youtu.be/9dT8hHh_5LEEl pasado domingo 26 de enero, Cheles y AlbertoEpic pudieron vivir una experiencia religiosa. Prevenidos ante la nieve de los últimos días, donde experiencias varias hablaban de nieve húmeda tipo 'engrudo' totalmente inesquiable, se lanzaron a la ascensión de la Tuca de Posolobino desde el parking del Ampriu (Cerler, Benasque).
 

@@ -1,18 +1,18 @@
 ---
 title: "Salida Promocional Peña Guara: travesí­a Portalet-Astún"
-heroImage: "attachments/fotito.webp"
+heroImage: attachments/fotito.webp
 pubDate: 2014-02-26T09:00:00Z
 updatedDate: 2015-04-06T10:28:27Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "Luis en las rampas finales al Peyreget. El pasado domingo tuvo lugar esta salida promocional de esquí­ de travesí­a de Peña Guara. Habí­a que aprovechar y apuntarse: pocas veces un autobús te lleva a Portalet y te recoge en Astún! El video rec"
 category: Esquí de travesía
 tags:
-  - "Astún"
-  - "Esquí­ de travesí­a"
-  - "Portalet"
+  - Astún
+  - Portalet
   - valle_de_tena
-  - "valle_del_aragon"
+  - valle_del_aragon
+  - skimo
 ---
 ![](attachments/fotito.webp)Luis en las rampas finales al Peyreget.El pasado domingo tuvo lugar esta salida promocional de esquí­ de travesí­a de Peña Guara. Habí­a que aprovechar y apuntarse: pocas veces un autobús te lleva a Portalet y te recoge en Astún!
 

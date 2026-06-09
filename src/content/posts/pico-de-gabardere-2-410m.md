@@ -1,17 +1,16 @@
 ---
-title: "Pico de GabardíƒÂ¨re (2.410m)"
-heroImage: "https://i.imgur.com/7V5UgnT.jpg"
+title: Pico de GabardíƒÂ¨re (2.410m)
+heroImage: https://i.imgur.com/7V5UgnT.jpg
 pubDate: 2018-01-23T12:13:54Z
 updatedDate: 2018-01-23T12:13:54Z
 draft: false
-author: "AlbertoEpic"
-description: "El pasado 15 de enero, el grupo de LaMeteoQueViene, con Jorge a la cabeza, se acercó a Caillou de Soques para realizar la ascensión al GabardíƒÂ¨re, una modesta cima que requiere ciertas condiciones determinadas de nivosidad. En su persecución"
+author: AlbertoEpic
+description: El pasado 15 de enero, el grupo de LaMeteoQueViene, con Jorge a la cabeza, se acercó a Caillou de Soques para realizar la ascensión al GabardíƒÂ¨re, una modesta cima que requiere ciertas condiciones determinadas de nivosidad. En su persecución
 category: Esquí de travesía
 tags:
-  - "Esquí de travesía"
-  - "gabardíƒÂ¨re"
-  - "Ossau"
+  - Ossau
   - valle_de_tena
+  - Gabardère
 ---
 El pasado 15 de enero, el grupo de LaMeteoQueViene, con Jorge a la cabeza, se acercó a Caillou de Soques para realizar la ascensión al GabardíƒÂ¨re, una modesta cima que requiere ciertas condiciones determinadas de nivosidad.
 <iframe src="https://www.gpsies.com/mapOnly.do?fileId=vkezsrajzadwsxqa" width="600" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>

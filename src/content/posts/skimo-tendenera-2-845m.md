@@ -1,18 +1,18 @@
 ---
 title: "Skimo: Tendeñera (2.845m)"
-heroImage: "attachments/Tendenera_planeta2-150x150.webp"
+heroImage: attachments/Tendenera_planeta2-150x150.webp
 pubDate: 2021-04-27T17:34:10Z
 updatedDate: 2021-04-28T08:09:45Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "- Combinada BTT+porteo+Skimo - El pasado 18 de abril los especialistas de SQLP, Myriam y AlbertoEpic, realizaron una actividad, digamos, original (Teniendo en cuenta que hoy en dí­a cada vez más gente hace de todo). La idea no es nueva, fue "
 category: Esquí de travesía
 tags:
-  - "Bujaruelo"
-  - "Primavera"
-  - "skimo"
-  - "valle de Otal"
+  - Bujaruelo
+  - Primavera
+  - skimo
   - valle_de_tena
+  - tendeñera
 ---
 - Combinada BTT+porteo+Skimo -
 El pasado 18 de abril los especialistas de SQLP, Myriam y AlbertoEpic, realizaron una actividad, digamos, original (Teniendo en cuenta que hoy en dí­a cada vez más gente hace de todo). La idea no es nueva, fue una actividad ya realizada por AlbertoEpic con el mí­tico Dr. LaTrek unos 15 años atrás (Es vergonzoso cómo pasa el tiempo!!!).

@@ -5,6 +5,18 @@
       "ctime": 1755331588238,
       "path": "_formatting-reference.md",
       "title": "Formatting Reference"
+    },
+    {
+      "type": "file",
+      "ctime": 1781022728476,
+      "path": "docs/api.md",
+      "title": "API - Chuletas"
+    },
+    {
+      "type": "file",
+      "ctime": 1781022830701,
+      "path": "docs/configuration.md",
+      "title": "Vault CMS"
     }
   ]
 }

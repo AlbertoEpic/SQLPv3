@@ -1,16 +1,16 @@
 ---
 title: "Skimo: Peña Telera"
-heroImage: "https://i.imgur.com/lYlHWIT.jpg"
+heroImage: https://i.imgur.com/lYlHWIT.jpg
 pubDate: 2021-03-28T17:50:43Z
 updatedDate: 2021-03-28T17:53:20Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "íLa solución al laberinto de la cara Sur! El pasado sábado 13 de marzo, por fin se alinearon los planetas y el equipo SQLP pudo realizar una actividad mítica, bastante complicada logísticamente hablando. Myriam y AlbertoEpic disponían (Mil "
 category: Esquí de travesía
 tags:
-  - "Peña Telera"
-  - "skimo"
+  - skimo
   - valle_de_tena
+  - peña_telera
 ---
 íLa solución al laberinto de la cara Sur!
 El pasado sábado 13 de marzo, por fin se alinearon los planetas y el equipo SQLP pudo realizar una actividad mítica, bastante complicada logísticamente hablando.

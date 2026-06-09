@@ -1,16 +1,17 @@
 ---
 title: "Skimo: Garmo Negro (3.064m)"
-heroImage: "https://i.imgur.com/D4hYEZn.jpg"
+heroImage: https://i.imgur.com/D4hYEZn.jpg
 pubDate: 2021-04-16T07:23:55Z
 updatedDate: 2021-04-16T07:40:03Z
 draft: false
-author: "AlbertoEpic"
-description: "Un clásico entre los clásicos... El pasado 29 de marzo, los especialistas de SQLP Myriam y AlbertoEpic se limitaron a rellenar el expediente con la ascensión anual de rigor al Gamo Negro, desde el Balneario de Panticosa. Todo un clásico del"
+author: AlbertoEpic
+description: Un clásico entre los clásicos... El pasado 29 de marzo, los especialistas de SQLP Myriam y AlbertoEpic se limitaron a rellenar el expediente con la ascensión anual de rigor al Gamo Negro, desde el Balneario de Panticosa. Todo un clásico del
 category: Esquí de travesía
 tags:
-  - "balneario de panticosa"
-  - "skimo"
+  - skimo
   - valle_de_tena
+  - balneario_de_panticosa
+  - garmo_negro
 ---
 Un clásico entre los clásicos...
 El pasado 29 de marzo, los especialistas de SQLP Myriam y AlbertoEpic se limitaron a rellenar el expediente con la ascensión anual de rigor al Gamo Negro, desde el Balneario de Panticosa. Todo un clásico del esquí de montaña en el valle de Tena.

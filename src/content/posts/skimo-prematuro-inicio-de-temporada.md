@@ -1,16 +1,15 @@
 ---
 title: "Skimo: prematuro inicio de temporada!"
 pubDate: 2019-11-29T07:42:51Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2019-11-29T07:46:34Z
 draft: false
-author: "AlbertoEpic"
-description: "La nieve llega un mes antes de lo previsto... Esta temporada comienza bien. Durante dos semanas a mitad de noviembre, bajas temperaturas junto a sucesivos frentes no han parado de dejar nieve en el Pirineo. En SQLP hemos aprovechado para co"
+author: AlbertoEpic
+description: La nieve llega un mes antes de lo previsto... Esta temporada comienza bien. Durante dos semanas a mitad de noviembre, bajas temperaturas junto a sucesivos frentes no han parado de dejar nieve en el Pirineo. En SQLP hemos aprovechado para co
 category: Esquí de travesía
 tags:
-  - "Esqu"
   - valle_de_tena
+  - skimo
 ---
 La nieve llega un mes antes de lo previsto...
 Esta temporada comienza bien. Durante dos semanas a mitad de noviembre, bajas temperaturas junto a sucesivos frentes no han parado de dejar nieve en el Pirineo. En SQLP hemos aprovechado para comenzar con las incursiones en nieve a lomos de la fatbike, y para iniciar el al principio siempre duro rodaje en esto del esquí de travesía, o esquí de montaña, o skimo, o como lo queráis llamar. AlbertoEpic ya ha estado (Y todavía estamos en noviembre!!!) en el Peyreget y en Peña Blanca, con unas condiciones difíciles de olvidar... ;-).

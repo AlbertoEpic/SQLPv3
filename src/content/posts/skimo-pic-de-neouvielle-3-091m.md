@@ -1,15 +1,15 @@
 ---
 title: "Skimo: pic de Néouvielle (3.091m)"
-heroImage: "attachments/Neouvielle-300x300.webp"
+heroImage: attachments/Neouvielle-300x300.webp
 pubDate: 2023-05-11T09:17:15Z
 updatedDate: 2023-05-11T09:17:16Z
 draft: false
-author: "AlbertoEpic"
-description: "Despidiendo la temporada de esquí­ de travesí­a con un BTT+Skimo... El pasado sábado, los especialistas de SQLP Silvia, Miriam y AlbertoEpic se hallaban en el Lac d'Oredon, en la Reserva Natural del Néouvielle, para dar por finiquitada la tem"
+author: AlbertoEpic
+description: Despidiendo la temporada de esquí­ de travesí­a con un BTT+Skimo... El pasado sábado, los especialistas de SQLP Silvia, Miriam y AlbertoEpic se hallaban en el Lac d'Oredon, en la Reserva Natural del Néouvielle, para dar por finiquitada la tem
 category: Esquí de travesía
 tags:
-  - "Esquí­ de travesí­a"
-  - "Néouvielle"
+  - Néouvielle
+  - skimo
 ---
 
 ## Despidiendo la temporada de esquí­ de travesí­a con un BTT+Skimo...

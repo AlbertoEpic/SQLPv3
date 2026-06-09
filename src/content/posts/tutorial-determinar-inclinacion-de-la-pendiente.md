@@ -4,16 +4,15 @@ heroImage: attachments/SQLPcomodin.jpg
 pubDate: 2016-02-15T23:22:02Z
 updatedDate: 2016-02-15T23:22:02Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "Si estamos metidos en el mundillo del esquí­ de travesí­a, ya deberí­amos estar familiarizados con los partes de riesgo de avalanchas y conocer la importancia de una pendiente concreta: 30. Muy a menudo nos interesa saber si una ladera tiene "
 category: Esquí de travesía
 tags:
-  - "30"
-  - "aludes"
-  - "Esquí­ de travesí­a"
-  - "inclinación"
-  - "pendiente"
-  - "tutoriales"
+  - aludes
+  - inclinación
+  - pendiente
+  - tutoriales
+  - skimo
 ---
 Si estamos metidos en el mundillo del esquí­ de travesí­a, ya deberí­amos estar familiarizados con los partes de riesgo de avalanchas y conocer la importancia de una pendiente concreta: 30.
 

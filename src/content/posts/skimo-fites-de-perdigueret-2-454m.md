@@ -1,14 +1,16 @@
 ---
 title: "Skimo: Fites de Perdigueret (2.454m)"
-heroImage: "https://i.imgur.com/iD2IOQJ.jpg"
+heroImage: https://i.imgur.com/iD2IOQJ.jpg
 pubDate: 2019-02-25T19:43:32Z
 updatedDate: 2019-02-27T10:32:58Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "En esta ocasión tocaba relax por Benasque, y como parte de la terapia, qué mejor que una ascensión sencilla sin complicaciones, sin prisas y sin madrugar para no tener que utilizar toda clase de pinchos, dado el estado pétreo de la nieve a "
 category: Esquí de travesía
 tags:
-  - "valle de Benasque"
+  - skimo
+  - valle_de_benasque
+  - perdigueret
 ---
 En esta ocasión tocaba relax por Benasque, y como parte de la terapia, qué mejor que una ascensión sencilla sin complicaciones, sin prisas y sin madrugar para no tener que utilizar toda clase de pinchos, dado el estado pétreo de la nieve a primera hora!
 

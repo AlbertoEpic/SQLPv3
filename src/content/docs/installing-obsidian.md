@@ -9,7 +9,7 @@ image: "[[attachments/obsidian-cover.png]]"
 imageAlt: Obsidian logo with a black background.
 hideCoverImage: false
 hideTOC: false
-draft: false
+draft: true
 featured: true
 ---
 This guide shows you how to install Obsidian for use with your Astro Modular blog. 

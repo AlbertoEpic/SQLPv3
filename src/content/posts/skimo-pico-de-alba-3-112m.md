@@ -8,6 +8,11 @@ author: AlbertoEpic
 description: "El sábado 8 de abril de 2023, y aguantando el tirón de su reciente Campbieil dos días antes , los especialistas de SQLP Miriam y AlbertoEpic se decidieron ahora por el Pico de Alba, en Benasque. Les había quedado pendiente unos días atrás, "
 category: Esquí de travesía
 heroimage: "[[attachments/skimo-pico-de-alba-3-112m.png]]"
+tags:
+  - skimo
+  - alba
+  - valle_de_benasque
+  - Benasque
 ---
 
 El sábado 8 de abril de 2023, y aguantando el tirón de [su reciente Campbieil dos días antes](skimo-pic-de-campbieil-3-173m/), los especialistas de SQLP Miriam y AlbertoEpic se decidieron ahora por el Pico de Alba, en Benasque. Les había quedado pendiente unos días atrás, cuando la mala meteo les obligó a retirarse, y querían resarcirse!

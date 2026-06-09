@@ -1,14 +1,15 @@
 ---
 title: "Skimo: pic de Campbieil (3.173m)"
-heroImage: "https://pano360.soloquedalopeor.com/wp-content/uploads/2023/04/Campbieil.jpg"
+heroImage: https://pano360.soloquedalopeor.com/wp-content/uploads/2023/04/Campbieil.jpg
 pubDate: 2023-04-06T09:07:01Z
 updatedDate: 2023-05-12T09:10:26Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "El 6 de abril de 2023, Los especialistas Xavi, Miriam y AlbertoEpic realizaron la ascensión al Campbieil desde la estación de Piau-Engaly. Te dejamos a continuación con un montaje de fotos de la actividad: https://youtu.be/B88uEx1W5CQ Nuest"
 category: Esquí de travesía
 tags:
-  - "Campbieil"
+  - Campbieil
+  - skimo
 ---
 
 El 6 de abril de 2023, Los especialistas Xavi, Miriam y AlbertoEpic realizaron la ascensión al Campbieil desde la estación de Piau-Engaly. Te dejamos a continuación con un montaje de fotos de la actividad:

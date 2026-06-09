@@ -1,16 +1,16 @@
 ---
-title: "Punta Bila (2.581m)"
-heroImage: "attachments/PtaBila.webp"
+title: Punta Bila (2.581m)
+heroImage: attachments/PtaBila.webp
 pubDate: 2014-05-06T07:56:00Z
 updatedDate: 2015-04-06T10:28:27Z
 draft: false
-author: "AlbertoEpic"
-description: "El último fin de semana de abril, en SQLP retomamos los cacharros de nieve y nos vamos al Balneario de Panticosa, a apurar la nieve antes de que haya que portear demasiado para llegar a ella. Como, ya que nos ponemos, nos ponemos bien, toca"
+author: AlbertoEpic
+description: El último fin de semana de abril, en SQLP retomamos los cacharros de nieve y nos vamos al Balneario de Panticosa, a apurar la nieve antes de que haya que portear demasiado para llegar a ella. Como, ya que nos ponemos, nos ponemos bien, toca
 category: Esquí de travesía
 tags:
-  - "balneario de panticosa"
-  - "Esquí­ de travesí­a"
   - valle_de_tena
+  - skimo
+  - balneario_de_panticosa
 ---
 ![](attachments/PtaBila.webp)El último fin de semana de abril, en SQLP retomamos los cacharros de nieve y nos vamos al Balneario de Panticosa, a apurar la nieve antes de que haya que portear demasiado para llegar a ella. Como, ya que nos ponemos, nos ponemos bien, tocará una ruta de algo más de 2.000m de desnivel+ acumulado.
 

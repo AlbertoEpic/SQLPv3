@@ -1,15 +1,17 @@
 ---
-title: "Último Peyreget de la temporada?"
-heroImage: "https://i.imgur.com/eDngSlw.jpg"
+title: Último Peyreget de la temporada?
+heroImage: https://i.imgur.com/eDngSlw.jpg
 pubDate: 2018-04-29T10:53:20Z
 updatedDate: 2018-04-29T11:08:54Z
 draft: false
-author: "AlbertoEpic"
-description: "Aunque todavía queda muuucha nieve en el Pirineo, sobre todo en cotas bajas está desapareciendo a marchas forzadas, como es normal en primavera... El otro día Eva y AlbertoEpic realizaron la que probablemente sea una de las últimas ascensio"
+author: AlbertoEpic
+description: Aunque todavía queda muuucha nieve en el Pirineo, sobre todo en cotas bajas está desapareciendo a marchas forzadas, como es normal en primavera... El otro día Eva y AlbertoEpic realizaron la que probablemente sea una de las últimas ascensio
 category: Esquí de travesía
 tags:
-  - "Peyreget"
+  - Peyreget
   - valle_de_tena
+  - skimo
+  - Portalet
 ---
 Aunque todavía queda muuucha nieve en el Pirineo, sobre todo en cotas bajas está desapareciendo a marchas forzadas, como es normal en primavera...
 El otro día Eva y AlbertoEpic realizaron la que probablemente sea una de las últimas ascensiones de la temporada al Peyreget con los esquís puestos de coche a coche, pasando por la cima (Vale, vale, el puente que se cruza a la salida ya no tiene nieve).

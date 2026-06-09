@@ -9,7 +9,7 @@ image: "[[sourcetree.png]]"
 imageAlt: SourceTree logo with a blue background.
 hideCoverImage: false
 hideTOC: false
-draft: false
+draft: true
 featured: false
 aliases:
   - sourcetree-and-git

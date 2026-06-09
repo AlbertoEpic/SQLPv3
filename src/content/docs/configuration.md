@@ -9,7 +9,7 @@ image: "[[attachments/astro-modular-configuration.png]]"
 imageAlt: Astro Modular preview, showing different theme and layout options.
 hideCoverImage: false
 hideTOC: false
-draft: false
+draft: true
 featured: true
 aliases:
   - astro-modular-configuration

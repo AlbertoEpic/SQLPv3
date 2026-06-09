@@ -3,7 +3,7 @@ title: Privacy Policy
 description: This privacy policy explains how your information is collected, used, and protected when you visit this website.
 noIndex: true
 hideTOC: false
-draft: false
+draft: true
 aliases:
   - privacy
 ---

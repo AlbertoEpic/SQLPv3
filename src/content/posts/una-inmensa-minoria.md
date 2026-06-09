@@ -8,6 +8,7 @@ author: AlbertoEpic
 description: ¿Quién dijo que el esquí­ de montaña era un deporte minoritario? Nada más y nada menos que 35 personas del cursillo provincial organizado por Peña Guara , foqueamos el domingo desde el refugio de La Renclusa al accesible pico Paderna. El tie
 category: Esquí de travesía
 tags:
+  - skimo
 ---
 ¿Quién dijo que el esquí­ de montaña era un deporte minoritario?
 

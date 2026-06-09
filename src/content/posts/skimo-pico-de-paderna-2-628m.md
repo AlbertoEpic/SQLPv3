@@ -1,12 +1,17 @@
 ---
 title: "Skimo: pico de Paderna (2.628m)"
-heroImage: "https://i.imgur.com/B1bYCym.jpg"
+heroImage: https://i.imgur.com/B1bYCym.jpg
 pubDate: 2019-04-24T08:16:48Z
 updatedDate: 2019-04-24T08:19:13Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "El pasado sábado, tentando a la meteo incierta, Cheles y AlbertoEpic ascendieron con esquís de travesía al pico de Paderna. Puedes ver el recorrido seguido a continuación, en una animación 3D: https://video.relive.cc/1520084032_strava_15559"
 category: Esquí de travesía
+tags:
+  - skimo
+  - paderna
+  - valle_de_benasque
+  - Benasque
 ---
 El pasado sábado, tentando a la meteo incierta, Cheles y AlbertoEpic ascendieron con esquís de travesía al pico de Paderna.
 

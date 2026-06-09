@@ -1,16 +1,17 @@
 ---
 title: "Skimo imaginativo: Mandilar inédito"
-heroImage: "https://i.imgur.com/oXXq4Lh.jpg"
+heroImage: https://i.imgur.com/oXXq4Lh.jpg
 pubDate: 2018-03-19T21:04:32Z
 updatedDate: 2018-03-19T21:04:32Z
 draft: false
-author: "AlbertoEpic"
-description: "Ayer domingo, Marta y AlbertoEpic hicieron coincidir sus coordenadas espaciotemporales para hacer algo de esquí de montaña. La sucesión de frentes locos que últimamente nos castiga había hecho que la salida de Peña Guara se suspendiera, y e"
+author: AlbertoEpic
+description: Ayer domingo, Marta y AlbertoEpic hicieron coincidir sus coordenadas espaciotemporales para hacer algo de esquí de montaña. La sucesión de frentes locos que últimamente nos castiga había hecho que la salida de Peña Guara se suspendiera, y e
 category: Esquí de travesía
 tags:
-  - "mandilar"
+  - mandilar
   - valle_de_tena
-  - "yandel"
+  - yandel
+  - skimo
 ---
 Ayer domingo, Marta y AlbertoEpic hicieron coincidir sus coordenadas espaciotemporales para hacer algo de esquí de montaña. La sucesión de frentes locos que últimamente nos castiga había hecho que la salida de Peña Guara se suspendiera, y el éxito de cualquier empresa era muy dudoso...
 

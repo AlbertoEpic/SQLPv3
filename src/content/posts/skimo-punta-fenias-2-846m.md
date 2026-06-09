@@ -1,17 +1,17 @@
 ---
 title: "Skimo: Punta Feniás (2.846m)"
-heroImage: "https://i.imgur.com/wVr4SFV.jpg"
+heroImage: https://i.imgur.com/wVr4SFV.jpg
 pubDate: 2021-02-09T17:36:43Z
 updatedDate: 2021-02-09T17:58:25Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "Aprovechamos que el domingo estuvo AlbertoEpic realizando un encargo de Producciones SQLP (La grabación con el drone de la arista cimera del Feniás) para realizar esta entrada donde unificar toda la información obtenida: vídeo, track gps de"
 category: Esquí de travesía
 tags:
-  - "balneario de panticosa"
-  - "Feniás"
-  - "skimo"
+  - Feniás
+  - skimo
   - valle_de_tena
+  - balneario_de_panticosa
 ---
 Aprovechamos que el domingo estuvo AlbertoEpic realizando un encargo de Producciones SQLP (La grabación con el drone de la arista cimera del Feniás) para realizar esta entrada donde unificar toda la información obtenida: vídeo, track gps de la ruta y fotos.
 

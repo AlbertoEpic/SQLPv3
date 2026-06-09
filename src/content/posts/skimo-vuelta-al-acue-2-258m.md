@@ -1,15 +1,16 @@
 ---
 title: "Skimo: vuelta al Acué (2.258m)"
-heroImage: "https://i.imgur.com/NCsEXfC.jpg"
+heroImage: https://i.imgur.com/NCsEXfC.jpg
 pubDate: 2019-02-19T09:23:57Z
 updatedDate: 2019-02-19T09:36:09Z
 draft: false
-author: "AlbertoEpic"
-description: "El pasado 9 de febrero se formó un grupo de singulares personajes para hacer algo de esquí de travesía por el monte, intentando escapar de la masificación de las estaciones de esquí alpino de la zona. La ruta elegida fue la vuelta al pico d"
+author: AlbertoEpic
+description: El pasado 9 de febrero se formó un grupo de singulares personajes para hacer algo de esquí de travesía por el monte, intentando escapar de la masificación de las estaciones de esquí alpino de la zona. La ruta elegida fue la vuelta al pico d
 category: Esquí de travesía
 tags:
-  - "Acué"
-  - "Forges d'Abel"
+  - Acué
+  - skimo
+  - forges_d_abel
 ---
 El pasado 9 de febrero se formó un grupo de singulares personajes para hacer algo de esquí de travesía por el monte, intentando escapar de la masificación de las estaciones de esquí alpino de la zona. La ruta elegida fue la vuelta al pico de Acué, algo sin mayores complicaciones y con un descenso franco en cara sur para encontrar una fantástica nieve primavera.
 

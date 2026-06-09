@@ -1,16 +1,16 @@
 ---
-title: "Punta Foratula (2.581m)"
-heroImage: "https://i.imgur.com/u53sI0i.jpg"
+title: Punta Foratula (2.581m)
+heroImage: https://i.imgur.com/u53sI0i.jpg
 pubDate: 2018-05-02T17:52:17Z
 updatedDate: 2018-05-04T12:00:28Z
 draft: false
-author: "AlbertoEpic"
-description: "Nuestra actividad anterior había sido la ascensión al Peyreget. Condiciones totalmente primaverales, fusión galopante de la nieve... Todo parecía dispuesto para recibir al verano en breve. Pero... unos días después, nos encontramos en el Fo"
+author: AlbertoEpic
+description: Nuestra actividad anterior había sido la ascensión al Peyreget. Condiciones totalmente primaverales, fusión galopante de la nieve... Todo parecía dispuesto para recibir al verano en breve. Pero... unos días después, nos encontramos en el Fo
 category: Esquí de travesía
 tags:
-  - "balneario de panticosa"
-  - "Foratulas"
+  - Foratulas
   - valle_de_tena
+  - balneario_de_panticosa
 ---
 Nuestra actividad anterior había sido la ascensión al Peyreget. Condiciones totalmente primaverales, fusión galopante de la nieve... Todo parecía dispuesto para recibir al verano en breve. Pero... unos días después, nos encontramos en el Foratulas, disfrutando de un descenso sobre 30cm de nieve polvo y con unas condiciones totalmente invernales!
 
