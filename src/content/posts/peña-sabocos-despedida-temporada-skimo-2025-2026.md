@@ -9,6 +9,7 @@ tags:
   - peña_sabocos
   - panticosa
   - valle_de_tena
+  - skimo
 gpxMap: true
 draft: false
 ---
