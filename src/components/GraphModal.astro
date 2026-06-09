@@ -210,6 +210,10 @@ import Icon from './Icon.astro';
       return;
     }
 
+    const baseUrl = document.documentElement.getAttribute('data-base-url') || '/';
+    const normalizedBase = baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`;
+    const graphDataUrl = `${normalizedBase}graph/graph-data.json`;
+
     // Show loading state immediately
     container.innerHTML = `
       <div style="display:flex;align-items:center;justify-content:center;height:100%;text-align:center;" class="text-primary-500 dark:text-primary-400">
@@ -224,7 +228,7 @@ import Icon from './Icon.astro';
       </div>
     `;
 
-    fetch('/graph/graph-data.json')
+    fetch(graphDataUrl)
       .then(response => response.json())
       .then((data: { nodes: any[]; connections: any[] }) => {
         // Transform data to match D3 format

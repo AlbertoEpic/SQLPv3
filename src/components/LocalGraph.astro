@@ -94,6 +94,12 @@ const shouldShowGraph = true;
     return getGraphThemeColors();
   }
 
+  function getGraphDataUrl() {
+    const baseUrl = document.documentElement.getAttribute('data-base-url') || '/';
+    const normalizedBase = baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`;
+    return `${normalizedBase}graph/graph-data.json`;
+  }
+
   function filterLocalGraphData(data: any, currentSlug: string): GraphData {
     if (!currentSlug) return { nodes: [], links: [] };
 
@@ -549,84 +555,56 @@ const shouldShowGraph = true;
     }
 
     // Get base URL for proper path resolution
-    const baseUrl = document.documentElement.getAttribute('data-base-url') || '/';
-    const normalizedBase = baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`;
-    const graphDataUrl = `${normalizedBase}graph/graph-data.json`;
-
-      function fetchLocalGraphDataWithRetry(retryCount = 0) {
-        fetch(graphDataUrl)
-          .then(response => response.json())
-          .then((data) => {
-            const filteredData = filterLocalGraphData(data, currentSlug);
-            (window as any).localGraphData = data; // Store full data
-            (window as any).localGraphFilteredData = filteredData; // Store filtered data
-            // Check if there are actually connections to show
-            if (filteredData.nodes.length <= 1) {
-              // Hide the entire graph container if no connections
-              if (outerContainer) {
-                outerContainer.style.display = 'none';
-              }
-              return;
-            }
-            // Show the graph since we have connections
-            if (outerContainer) {
-              outerContainer.style.display = 'block';
-            }
-            if (container) {
-              container.innerHTML = '';
-              renderLocalGraph(container, filteredData);
-              // Track initial dimensions for resize detection
-              lastContainerWidth = container.offsetWidth;
-              lastContainerHeight = container.offsetHeight;
-            }
-          })
-          .catch(error => {
-            console.warn('Could not load local graph data:', error);
-            if (retryCount < 3) {
-              setTimeout(() => fetchLocalGraphDataWithRetry(retryCount + 1), 1000 * (retryCount + 1));
-            } else {
-              if (container) {
-                container.innerHTML = `
-                  <div class=\"flex items-center justify-center h-full text-primary-500 dark:text-primary-400\">
-                    <div class=\"text-center\">
-                      <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"w-6 h-6 mx-auto mb-2 opacity-50\">
-                        <path d=\"M15 3h4a2 2 0 0 1 2 2v4\"/>
-                        <path d=\"M10 21H6a2 2 0 0 1-2-2v-4\"/>
-                        <path d=\"M21 15v4a2 2 0 0 1-2 2h-4\"/>
-                        <path d=\"M3 9V5a2 2 0 0 1 2-2h4\"/>
-                        <path d=\"M9 9h6v6H9z\"/>
-                      </svg>
-                      <p class=\"text-xs\">Graph data not available</p>
-                      <button id=\"retry-local-graph-btn\" style=\"margin-top:1rem;padding:0.5rem 1.2rem;border-radius:6px;background:#3b82f6;color:white;font-weight:600;cursor:pointer;\">Reintentar</button>
-                    </div>
-                  </div>
-                `;
-                setTimeout(() => {
-                  const retryBtn = document.getElementById('retry-local-graph-btn');
-                  if (retryBtn) {
-                    retryBtn.addEventListener('click', () => fetchLocalGraphDataWithRetry(0));
-                  }
-                }, 100);
-              }
-            }
-          });
-      }
-      fetchLocalGraphDataWithRetry();
+      fetch(graphDataUrl)
+        .then(response => response.json())
+        .then((data) => {
+        
+          const filteredData = filterLocalGraphData(data, currentSlug);
+          
+        (window as any).localGraphData = data; // Store full data
+        (window as any).localGraphFilteredData = filteredData; // Store filtered data
+          
+          // Check if there are actually connections to show
+          if (filteredData.nodes.length <= 1) {
+            // Hide the entire graph container if no connections
+            outerContainer.style.display = 'none';
+            return;
+          }
+          
+          // Show the graph since we have connections
+          outerContainer.style.display = 'block';
+          container.innerHTML = '';
+          renderLocalGraph(container, filteredData);
+          
+          // Track initial dimensions for resize detection
+          lastContainerWidth = container.offsetWidth;
+          lastContainerHeight = container.offsetHeight;
+        })
+        .catch(error => {
+          console.warn('Could not load local graph data:', error);
+          container.innerHTML = `
+            <div class="flex items-center justify-center h-full text-primary-500 dark:text-primary-400">
+              <div class="text-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 mx-auto mb-2 opacity-50">
+                  <path d="M15 3h4a2 2 0 0 1 2 2v4"/>
+                  <path d="M10 21H6a2 2 0 0 1-2-2v-4"/>
+                  <path d="M21 15v4a2 2 0 0 1-2 2h-4"/>
+                  <path d="M3 9V5a2 2 0 0 1 2-2h4"/>
+                  <path d="M9 9h6v6H9z"/>
+                </svg>
+                <p class="text-xs">Graph data not available</p>
+              </div>
+            </div>
+          `;
+        });
   }
 
   function setupLocalGraphButtons() {
-    // Forzar la inicialización del modal global en cada navegación
-    const ensureGraphModalReady = () => {
-      if (!(window as any).openGraphModal && (window as any).initializeGraphModal) {
-        (window as any).initializeGraphModal();
-      }
-    };
-    ensureGraphModalReady();
-    // Además, volver a intentar tras un pequeño retardo por si Swup tarda en hidratar el DOM
-    setTimeout(ensureGraphModalReady, 100);
-    setTimeout(ensureGraphModalReady, 300);
-    setTimeout(ensureGraphModalReady, 600);
-
+    // Proactively ensure GlobalGraph is available
+    if (!(window as any).openGraphModal && (window as any).initializeGraphModal) {
+      (window as any).initializeGraphModal();
+    }
+    
     // Remove existing listeners to prevent duplicates
     const modalBtn = document.getElementById('local-graph-modal-btn');
     if (modalBtn) {
@@ -634,20 +612,36 @@ const shouldShowGraph = true;
       const newModalBtn = document.getElementById('local-graph-modal-btn');
       if (newModalBtn) {
         newModalBtn.addEventListener('click', () => {
-          // Siempre forzar la inicialización antes de abrir
-          ensureGraphModalReady();
-          setTimeout(() => {
+          
+          // Ensure GlobalGraph is available before trying to open it
+          const ensureGlobalGraph = () => {
             if ((window as any).openGraphModal) {
               (window as any).openGraphModal();
-            } else if ((window as any).initializeGraphModal) {
-              (window as any).initializeGraphModal();
-              setTimeout(() => {
-                if ((window as any).openGraphModal) {
-                  (window as any).openGraphModal();
-                }
-              }, 150);
+              return true;
             }
-          }, 50);
+            return false;
+          };
+          
+          if (ensureGlobalGraph()) {
+            return;
+          }
+          
+          if ((window as any).initializeGraphModal) {
+            (window as any).initializeGraphModal();
+            
+            // Try multiple times with increasing delays
+            const attempts = [50, 100, 200, 500];
+            attempts.forEach((delay, index) => {
+              setTimeout(() => {
+                if (ensureGlobalGraph()) {
+                  return;
+                }
+                if (index === attempts.length - 1) {
+                }
+              }, delay);
+            });
+          } else {
+          }
         });
       }
     }
@@ -795,65 +789,60 @@ const shouldShowGraph = true;
     setupLocalGraphButtons();
   }
 
-  // Bucle de reintentos para registrar hooks Swup de forma robusta
-  (function setupSwupHooksLocalGraph(retryCount = 0) {
-    const maxRetries = 30;
-    const swup = (window as any).swup;
-    if (swup && swup.hooks && typeof swup.hooks.on === 'function') {
-      swup.hooks.on('visit:start', () => {
-        const fullscreenModals = document.querySelectorAll('.fixed.inset-0.z-50:not(#command-palette-overlay):not(#graph-modal-overlay)');
-        fullscreenModals.forEach(modal => {
-          if (modal.id !== 'graph-modal-overlay' && modal.id !== 'command-palette-overlay') {
-            modal.remove();
-          }
-        });
-        document.body.style.overflow = '';
-        fullscreenModalOpen = false;
+  if ((window as any).swup) {
+    (window as any).swup.hooks.on('visit:start', () => {
+      const fullscreenModals = document.querySelectorAll('.fixed.inset-0.z-50:not(#command-palette-overlay):not(#graph-modal-overlay)');
+      fullscreenModals.forEach(modal => {
+        if (modal.id !== 'graph-modal-overlay' && modal.id !== 'command-palette-overlay') {
+          modal.remove();
+        }
       });
-
-      swup.hooks.on('page:view', () => {
-        // Reset and re-initialize local graph after page transition
-        resetLocalGraph();
-        localGraphInitialized = false;
-
-        // Wait for DOM to be ready and then reinitialize
+      document.body.style.overflow = '';
+      fullscreenModalOpen = false;
+    });
+    
+    (window as any).swup.hooks.on('page:view', () => {
+      // Reset and re-initialize local graph after page transition
+      resetLocalGraph();
+      localGraphInitialized = false;
+      
+      // Wait for DOM to be ready and then reinitialize
+      setTimeout(() => {
+        const outerContainer = document.getElementById('local-graph-container');
+        const innerContainer = document.getElementById('local-graph-content');
+        
+        if (outerContainer && innerContainer) {
+          initializeLocalGraph();
+          setupLocalGraphButtons();
+        } else {
+          setTimeout(() => {
+            const retryOuterContainer = document.getElementById('local-graph-container');
+            const retryInnerContainer = document.getElementById('local-graph-content');
+            if (retryOuterContainer && retryInnerContainer) {
+              initializeLocalGraph();
+              setupLocalGraphButtons();
+            } else {
+            }
+          }, 500);
+        }
+      }, 100); // Reduced timeout for faster reinitialization
+    });
+    
+    (window as any).swup.hooks.on('visit:end', () => {
+      // Also reinitialize on visit:end as a backup
+      if (!localGraphInitialized) {
         setTimeout(() => {
           const outerContainer = document.getElementById('local-graph-container');
           const innerContainer = document.getElementById('local-graph-content');
-
           if (outerContainer && innerContainer) {
             initializeLocalGraph();
             setupLocalGraphButtons();
           } else {
-            setTimeout(() => {
-              const retryOuterContainer = document.getElementById('local-graph-container');
-              const retryInnerContainer = document.getElementById('local-graph-content');
-              if (retryOuterContainer && retryInnerContainer) {
-                initializeLocalGraph();
-                setupLocalGraphButtons();
-              }
-            }, 500);
           }
-        }, 100); // Reduced timeout for faster reinitialization
-      });
-
-      swup.hooks.on('visit:end', () => {
-        // Also reinitialize on visit:end as a backup
-        if (!localGraphInitialized) {
-          setTimeout(() => {
-            const outerContainer = document.getElementById('local-graph-container');
-            const innerContainer = document.getElementById('local-graph-content');
-            if (outerContainer && innerContainer) {
-              initializeLocalGraph();
-              setupLocalGraphButtons();
-            }
-          }, 200);
-        }
-      });
-    } else if (retryCount < maxRetries) {
-      setTimeout(() => setupSwupHooksLocalGraph(retryCount + 1), 100);
-    }
-  })();
+        }, 200);
+      }
+    });
+  }
 
   // Listen for theme changes to update graph colors
   window.addEventListener('themechange', () => {
@@ -861,7 +850,7 @@ const shouldShowGraph = true;
     const container = document.getElementById('local-graph-content');
     if (container && localGraphInitialized) {
       // Get fresh data and re-render
-      fetch('/graph/graph-data.json')
+      fetch(getGraphDataUrl())
         .then(response => response.json())
         .then(data => {
           const currentPath = window.location.pathname;
@@ -939,7 +928,7 @@ const shouldShowGraph = true;
           }
         }
 
-        fetch('/graph/graph-data.json')
+        fetch(getGraphDataUrl())
           .then(response => response.json())
           .then(data => {
             const filteredData = filterLocalGraphData(data, currentSlug);
