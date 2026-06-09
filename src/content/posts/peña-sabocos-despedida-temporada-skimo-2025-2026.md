@@ -30,7 +30,7 @@ Por supuesto nuestro especialista no marchó de la cima sin antes recabar materi
 
 Puedes ver el resultado [**haciendo click aquí**](https://miniplanetas.soloquedalopeor.com/planetas/planeta-pe%C3%B1a-sabocos/)
 
-![peña-sabocos-tinyplanet](attachments/pea-sabocos-tinyplanet.png)
+![Peña Sabocos - tinyplanet](attachments/pea-sabocos-tinyplanet.png)
 
 ## Las Fotos
 
