@@ -37,9 +37,14 @@ const visiblePosts = allPosts.filter(post => shouldShowPost(post, isDev));
 const sortedPosts = sortPostsByDate(visiblePosts);
 
 // Extraer categorías únicas (excluyendo 'otros' y 'orientación')
-const categories = Array.from(new Set(sortedPosts.map(post => post.data?.category).filter(Boolean)))
-  .filter(cat => {
-    const lower = cat.toLowerCase();
+const categories = Array.from(
+  new Set(
+    sortedPosts
+      .map((post) => post.data?.category)
+      .filter((category): category is string => typeof category === 'string' && category.trim() !== '')
+  )
+).filter((category) => {
+    const lower = category.toLowerCase();
     return lower !== 'otros' && lower !== 'orientación';
   });
 
@@ -165,8 +170,8 @@ const pagination = {
                 const categoryAccentClass = categoryAccentClasses[categoryIndex % categoryAccentClasses.length];
                 // Ordenar por fecha descendente (más reciente primero)
                 const postsSorted = [...postsByCat].sort((a, b) => {
-                  const dateA = new Date(a.data?.date || a.date).getTime();
-                  const dateB = new Date(b.data?.date || b.date).getTime();
+                  const dateA = new Date(a.data.date).getTime();
+                  const dateB = new Date(b.data.date).getTime();
                   return dateB - dateA;
                 });
                 // Solo los 5 más recientes
@@ -246,7 +251,7 @@ const pagination = {
                 {categories.map((cat, catIndex) => {
                   const categoryPillToneClass = categoryPillToneClasses[catIndex % categoryPillToneClasses.length];
                   return (
-                  <li key={cat} class="relative z-10">
+                  <li class="relative z-10">
                     <a
                       href={`#cat-${cat.replace(/\s+/g, '-').toLowerCase()}`}
                       data-pill-tone={categoryPillToneClass}
@@ -440,6 +445,7 @@ const pagination = {
     const BOTTOM_SPACING = 96; // 6rem = 96px - fixed spacing from bottom of viewport
     const MIN_SIDEBAR_HEIGHT = 200; // Minimum height for sidebar to be useful
     const CATEGORY_ANCHOR_EXTRA_OFFSET = 12; // Small breathing room under sticky header
+    const CATEGORY_ANCHOR_TARGET_GAP = 8; // Gap below header where category title should land
     const CATEGORY_SCROLL_MIN_DURATION_MS = 980;
     const CATEGORY_SCROLL_MAX_DURATION_MS = 1650;
     const CATEGORY_STABILIZE_DELAY_MS = 520;
@@ -497,8 +503,10 @@ const pagination = {
 
       const header = document.querySelector('#main-header') as HTMLElement | null;
       const headerHeight = header ? header.getBoundingClientRect().height : 0;
-      const targetTop = target.getBoundingClientRect().top + window.scrollY;
-      return Math.max(0, targetTop - headerHeight - CATEGORY_ANCHOR_EXTRA_OFFSET);
+      const targetRect = target.getBoundingClientRect();
+      const desiredViewportTop = headerHeight + CATEGORY_ANCHOR_TARGET_GAP;
+      const deltaToDesired = targetRect.top - desiredViewportTop;
+      return Math.max(0, window.scrollY + deltaToDesired);
     }
 
     function easeInOutCubic(t: number) {
@@ -585,27 +593,46 @@ const pagination = {
       const sidebar = document.querySelector('#tags-sidebar');
       if (!sidebar) return;
 
-      const links = sidebar.querySelectorAll('a[href^="#cat-"]');
-      links.forEach((link) => {
-        const anchorLink = link as HTMLAnchorElement;
-        if (anchorLink.dataset.anchorBound === 'true') return;
+      const previousCleanup = (window as any).__categoryAnchorCleanup;
+      if (typeof previousCleanup === 'function') {
+        previousCleanup();
+      }
 
-        anchorLink.dataset.anchorBound = 'true';
-        anchorLink.addEventListener('click', (event) => {
-          const href = anchorLink.getAttribute('href');
-          if (!href) return;
+      const delegatedClickHandler = (event: Event) => {
+        const target = event.target as HTMLElement | null;
+        if (!target) return;
 
-          const target = getCategoryAnchorTarget(href);
-          if (!target) return;
+        const anchorLink = target.closest('a[href^="#cat-"]') as HTMLAnchorElement | null;
+        if (!anchorLink || !sidebar.contains(anchorLink)) return;
 
-          event.preventDefault();
-          event.stopPropagation();
-          event.stopImmediatePropagation();
-          history.replaceState(null, '', href);
-          scrollToCategoryAnchor(href, 'smooth');
-          stabilizeCategoryAnchor(href);
-        }, { capture: true });
-      });
+        const href = anchorLink.getAttribute('href');
+        if (!href) return;
+
+        const sectionTarget = getCategoryAnchorTarget(href);
+        if (!sectionTarget) return;
+
+        event.preventDefault();
+        event.stopPropagation();
+        event.stopImmediatePropagation();
+
+        history.replaceState(null, '', href);
+        scrollToCategoryAnchor(href, 'smooth');
+        stabilizeCategoryAnchor(href);
+      };
+
+      const hashChangeHandler = () => {
+        if (!window.location.hash.startsWith('#cat-')) return;
+        scrollToCategoryAnchor(window.location.hash, 'auto');
+        stabilizeCategoryAnchor(window.location.hash);
+      };
+
+      sidebar.addEventListener('click', delegatedClickHandler, { capture: true });
+      window.addEventListener('hashchange', hashChangeHandler);
+
+      (window as any).__categoryAnchorCleanup = () => {
+        sidebar.removeEventListener('click', delegatedClickHandler, { capture: true });
+        window.removeEventListener('hashchange', hashChangeHandler);
+      };
 
       // If page loads with hash, correct native anchor position with header offset
       if (window.location.hash.startsWith('#cat-')) {
