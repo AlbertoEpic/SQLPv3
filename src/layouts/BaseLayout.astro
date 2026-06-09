@@ -14,6 +14,7 @@ import ScrollToTop from '@/components/ScrollToTop.astro';
 import Lightbox from '@/components/Lightbox.astro';
 import ImageGalleryManager from '@/components/ImageGalleryManager.astro';
 import CategoryFilter from '@/components/CategoryFilter.astro';
+import { withBase } from '@/utils/base-url';
 import '@/styles/global.css';
 
 // Import local fonts if configured
@@ -43,6 +44,7 @@ export interface Props {
 }
 
 const { seoData, bodyClass = '' } = Astro.props;
+const defaultOgImageUrl = withBase('/open-graph.png');
 
 // Determine scrollbar class based on configuration
 const scrollbarClass = siteConfig.hideScrollBar ? '' : 'show-scrollbars';
@@ -80,7 +82,7 @@ const scrollbarClass = siteConfig.hideScrollBar ? '' : 'show-scrollbars';
     </>
   ) : (
     <>
-      <meta property="og:image" content="/open-graph.png">
+      <meta property="og:image" content={defaultOgImageUrl}>
       <meta property="og:image:alt" content={siteConfig.defaultOgImageAlt}>
       {/* Assuming default image dimensions, adjust if known */}
       <meta property="og:image:width" content="1200">
@@ -99,7 +101,7 @@ const scrollbarClass = siteConfig.hideScrollBar ? '' : 'show-scrollbars';
     </>
   ) : (
     <>
-      <meta name="twitter:image" content="/open-graph.png">
+      <meta name="twitter:image" content={defaultOgImageUrl}>
       <meta name="twitter:image:alt" content={siteConfig.defaultOgImageAlt}>
     </>
   )}

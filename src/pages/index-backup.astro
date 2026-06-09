@@ -22,6 +22,7 @@ const processedPosts = await Promise.all(
 ) as any[];
 
 const latestPost = processedPosts[0] || null;
+const defaultOgImageSrc = withBase('/open-graph.png');
 
 const latestPostImage = (() => {
   if (!latestPost) {
@@ -30,9 +31,9 @@ const latestPostImage = (() => {
 
   if (!latestPost.data?.image) {
     return {
-      src: '/open-graph.png',
+      src: defaultOgImageSrc,
       basePath: '',
-      preloadHref: '/open-graph.png',
+      preloadHref: defaultOgImageSrc,
     };
   }
 
@@ -42,18 +43,18 @@ const latestPostImage = (() => {
 
   if (!rawImage || typeof rawImage !== 'string') {
     return {
-      src: '/open-graph.png',
+      src: defaultOgImageSrc,
       basePath: '',
-      preloadHref: '/open-graph.png',
+      preloadHref: defaultOgImageSrc,
     };
   }
 
   const cleanImagePath = stripObsidianBrackets(rawImage.trim());
   if (!cleanImagePath) {
     return {
-      src: '/open-graph.png',
+      src: defaultOgImageSrc,
       basePath: '',
-      preloadHref: '/open-graph.png',
+      preloadHref: defaultOgImageSrc,
     };
   }
 

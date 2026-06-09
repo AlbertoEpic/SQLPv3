@@ -1,5 +1,6 @@
 import type { ImageInfo, OpenGraphImage } from "@/types";
 import { siteConfig } from "@/config";
+import { withBase } from "./base-url";
 
 // Process images for responsive layouts
 export function processImageLayout(images: ImageInfo[]): {
@@ -350,7 +351,7 @@ export async function getImageDimensions(
 // Get the default OG image
 export function getDefaultOGImage(): OpenGraphImage {
   return {
-    url: "/open-graph.png",
+    url: withBase("/open-graph.png"),
     alt: siteConfig.defaultOgImageAlt,
     width: 1200,
     height: 630,
@@ -364,9 +365,9 @@ export function isExternalImage(imagePath: string): boolean {
 
 // Get fallback OG image
 export function getFallbackOGImage(site?: URL): OpenGraphImage {
-  const baseUrl = site ? site.toString() : siteConfig.site;
+  const baseUrl = (site ? site.toString() : siteConfig.site).replace(/\/$/, "");
   return {
-    url: `${baseUrl}/open-graph.png`,
+    url: `${baseUrl}${withBase("/open-graph.png")}`,
     alt: siteConfig.defaultOgImageAlt,
     width: 1200,
     height: 630,
