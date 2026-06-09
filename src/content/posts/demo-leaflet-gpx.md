@@ -1,12 +1,12 @@
 ---
 title: Demo Leaflet + GPX
 description: Post de prueba para validar mapa Leaflet y ruta GPX con StravaRouteMap
-date: 2026-06-04
+date: 2025-06-04
 tags:
   - leaflet
   - gpx
   - demo
-draft: false
+draft: true
 gpxMap: true
 hideTOC: false
 ---
