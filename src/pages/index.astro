@@ -22,6 +22,7 @@ const processedPosts = await Promise.all(
 ) as any[];
 
 const latestPost = processedPosts[0] || null;
+const defaultOgImageSrc = withBase('/open-graph.png');
 
 const latestPostImage = (() => {
   if (!latestPost) {
@@ -30,9 +31,9 @@ const latestPostImage = (() => {
 
   if (!latestPost.data?.image) {
     return {
-      src: '/open-graph.png',
+      src: defaultOgImageSrc,
       basePath: '',
-      preloadHref: '/open-graph.png',
+      preloadHref: defaultOgImageSrc,
     };
   }
 
@@ -42,18 +43,18 @@ const latestPostImage = (() => {
 
   if (!rawImage || typeof rawImage !== 'string') {
     return {
-      src: '/open-graph.png',
+      src: defaultOgImageSrc,
       basePath: '',
-      preloadHref: '/open-graph.png',
+      preloadHref: defaultOgImageSrc,
     };
   }
 
   const cleanImagePath = stripObsidianBrackets(rawImage.trim());
   if (!cleanImagePath) {
     return {
-      src: '/open-graph.png',
+      src: defaultOgImageSrc,
       basePath: '',
-      preloadHref: '/open-graph.png',
+      preloadHref: defaultOgImageSrc,
     };
   }
 
@@ -233,7 +234,7 @@ try {
 const instagramLink = siteConfig.navigation.social.find(
   social => /instagram/i.test(social.title)
 )?.url || '#';
-const instagramAccessToken = import.meta.env.INSTAFEED_ACCESS_TOKEN || import.meta.env.INSTAGRAM_ACCESS_TOKEN || '';
+const instagramAccessToken = import.meta.env.PUBLIC_INSTAGRAM_ACCESS_TOKEN || '';
 const instafeedScriptUrl = 'https://unpkg.com/instafeed.js@2.1.0/dist/instafeed.min.js';
 
 const youtubeLink = siteConfig.navigation.social.find(
@@ -334,22 +335,22 @@ const structuredData = {
 ---
 
 <BaseLayout seoData={seoData}>
+
   <Fragment slot="head">
-    <script is:inline>
+    <script is:inline define:vars={{ instagramAccessToken, instafeedScriptUrl }}>
       (() => {
+        const instagramToken = (instagramAccessToken || '').trim();
         const loadInstafeedScript = () => new Promise((resolve, reject) => {
           if (window.Instafeed) {
             resolve(window.Instafeed);
             return;
           }
-
           const existingScript = document.querySelector('[data-instafeed-script]');
           if (existingScript) {
             existingScript.addEventListener('load', () => resolve(window.Instafeed));
             existingScript.addEventListener('error', reject, { once: true });
             return;
           }
-
           const script = document.createElement('script');
           script.src = instafeedScriptUrl;
           script.async = true;
@@ -363,50 +364,68 @@ const structuredData = {
         const renderInstagramFeed = async () => {
           const feed = document.querySelector('[data-instagram-feed]');
           if (!feed) return;
-
+          const loadingState = feed.querySelector('[data-instagram-loading]');
+          const animateInstagramFeed = () => {
+            const posts = feed.querySelectorAll('.instagram-post');
+            posts.forEach((post, index) => {
+              post.classList.remove('instagram-post-enter');
+              post.style.animationDelay = `${index * 70}ms`;
+            });
+            requestAnimationFrame(() => {
+              posts.forEach((post) => post.classList.add('instagram-post-enter'));
+            });
+          };
           const fallback = document.querySelector('[data-instagram-fallback]');
-          if (!instagramAccessToken) {
+          if (!instagramToken) {
+            if (loadingState) loadingState.classList.add('hidden');
             if (fallback) fallback.classList.remove('hidden');
             return;
           }
-
           try {
             const Instafeed = await loadInstafeedScript();
             if (!Instafeed) return;
-
             feed.innerHTML = '';
             const instafeed = new Instafeed({
-              accessToken: instagramAccessToken,
+              accessToken: instagramToken,
               limit: 5,
-              target: feed,
+              target: 'home-instafeed',
               template: `
                 <a href="{{link}}" target="_blank" rel="noopener noreferrer" class="instagram-post" role="listitem" aria-label="Ver {{caption}}">
                   <img src="{{image}}" alt="{{caption}}" loading="lazy" decoding="async" class="instagram-post-thumb" width="400" height="400" />
                 </a>
               `,
               after: () => {
+                animateInstagramFeed();
+                if (loadingState) loadingState.classList.add('hidden');
                 if (fallback) fallback.classList.add('hidden');
               },
               error: () => {
+                if (loadingState) loadingState.classList.add('hidden');
                 if (fallback) fallback.classList.remove('hidden');
               },
             });
-
             instafeed.run();
           } catch {
+            if (loadingState) loadingState.classList.add('hidden');
             if (fallback) fallback.classList.remove('hidden');
           }
         };
 
-        if (!window.initializeHomeInstagramFeed) {
-          window.initializeHomeInstagramFeed = renderInstagramFeed;
-          document.addEventListener('DOMContentLoaded', renderInstagramFeed);
+        // Expose a global initializer so BaseLayout can re-run this widget on SPA navigations.
+        function initializeHomeInstagramFeed() {
+          const feed = document.querySelector('[data-instagram-feed]');
+          if (feed) {
+            renderInstagramFeed();
+          }
         }
 
-        if (!window.__homeInstagramHooksBound && window.swup?.hooks) {
-          window.swup.hooks.on('page:view', () => window.initializeHomeInstagramFeed?.());
-          window.swup.hooks.on('visit:end', () => window.initializeHomeInstagramFeed?.());
-          window.__homeInstagramHooksBound = true;
+        window.initializeHomeInstagramFeed = initializeHomeInstagramFeed;
+
+        // DOMContentLoaded (primera carga)
+        if (document.readyState === 'loading') {
+          document.addEventListener('DOMContentLoaded', initializeHomeInstagramFeed);
+        } else {
+          initializeHomeInstagramFeed();
         }
       })();
     </script>
@@ -588,31 +607,21 @@ const structuredData = {
     </section>
 
     <section class="content-row px-4 sm:px-6 lg:px-10 mt-8">
-      <article class="island-card island-wide">
-        <header class="island-head">
-          <h3>Gráfico de conexiones</h3>
-          <Icon name="network" class="w-4 h-4" />
-        </header>
-
-        <HomeGraph />
-      </article>
-    </section>
-
-    <section class="content-row px-4 sm:px-6 lg:px-10 mt-8">
       <div class="social-column">
         <div class="social-island instagram-widget" data-no-swup>
           <div class="social-head">
             <Icon name="instagram" class="w-5 h-5" />
             <h3>Instagram</h3>
           </div>
-          <p>Últimas publicaciones de Instagram sincronizadas con Instafeed.js.</p>
+          <p>¿Prefieres el Instagram? Fotos y Reels de Albertroid...</p>
           <div
+            id="home-instafeed"
             class="instagram-row"
             role="list"
             aria-label="Ultimas publicaciones de Instagram"
             data-instagram-feed
           >
-            <p class="instagram-loading">Cargando las últimas publicaciones...</p>
+            <p class="instagram-loading" data-instagram-loading>Cargando las últimas publicaciones...</p>
           </div>
           <a
             href={instagramLink}
@@ -624,7 +633,6 @@ const structuredData = {
             <span class="island-cta">Ir a Instagram</span>
           </a>
         </div>
-
 
         <div class="social-island youtube-widget" data-no-swup>
           <div class="social-head">
@@ -1002,6 +1010,7 @@ const structuredData = {
     margin-top: 0.75rem;
     display: grid;
     grid-template-columns: repeat(5, minmax(0, 1fr));
+    grid-auto-rows: 1fr;
     gap: 0.55rem;
   }
 
@@ -1016,22 +1025,55 @@ const structuredData = {
     font-size: 0.92rem;
   }
 
-  .instagram-post {
+  :global(.instagram-post) {
+    position: relative;
     display: block;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 1rem;
+    border: 1px solid rgb(var(--color-primary-300));
     text-decoration: none;
   }
 
-  .instagram-post-thumb {
+  :global(.instagram-post)::before {
+    content: '';
+    display: block;
+    padding-top: 100%;
+  }
+
+  :global(.instagram-post-thumb) {
+    position: absolute;
+    inset: 0;
     width: 100%;
-    aspect-ratio: 1 / 1;
+    height: 100%;
     object-fit: cover;
-    border-radius: 0.6rem;
-    border: 1px solid rgb(var(--color-primary-300));
+    object-position: center;
     transition: transform 180ms ease;
   }
 
-  .instagram-post:hover .instagram-post-thumb {
+  :global(.instagram-post:hover .instagram-post-thumb) {
     transform: translateY(-1px);
+  }
+
+  :global(.instagram-post-enter) {
+    animation: instagramCardReveal 420ms cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+
+  @keyframes instagramCardReveal {
+    from {
+      opacity: 0;
+      transform: translateY(8px) scale(0.97);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    :global(.instagram-post-enter) {
+      animation: none;
+    }
   }
 
   .youtube-video {
@@ -1068,7 +1110,7 @@ const structuredData = {
     border-color: rgb(var(--color-primary-600));
   }
 
-  :global(.dark) .instagram-post-thumb {
+  :global(.dark .instagram-post) {
     border-color: rgb(var(--color-primary-600));
   }
 
