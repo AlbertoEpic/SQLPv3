@@ -1,13 +1,16 @@
 ---
-title: "Pico Tortiellas (2.358m)"
+title: Pico Tortiellas (2.358m)
 pubDate: 2017-02-21T10:05:18Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2017-02-22T14:01:17Z
 draft: false
-author: "AlbertoEpic"
-description: "El otro día Producciones SQLP estuvo por primera vez en el pico Tortiellas. Saliendo del pueblo de Canfranc, pequeño porteo por el bosque y luego, pasando por la Gruta Helada de Lecherín, hasta la cima del Tortiellas por un entorno mágico.."
+author: AlbertoEpic
+description: El otro día Producciones SQLP estuvo por primera vez en el pico Tortiellas. Saliendo del pueblo de Canfranc, pequeño porteo por el bosque y luego, pasando por la Gruta Helada de Lecherín, hasta la cima del Tortiellas por un entorno mágico..
 category: Esquí de travesía
+tags:
+  - tortiellas
+  - skimo
+  - valle_del_aragon
 ---
 El otro día Producciones SQLP estuvo por primera vez en el pico Tortiellas. Saliendo del pueblo de Canfranc, pequeño porteo por el bosque y luego, pasando por la Gruta Helada de Lecherín, hasta la cima del Tortiellas por un entorno mágico... Adjuntamos los datos con el track:
 

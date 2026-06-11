@@ -1,15 +1,15 @@
 ---
-title: "Por las ferratas de Peña Rueba"
-heroImage: "https://i.imgur.com/smDdPcZ.jpg"
+title: Por las ferratas de Peña Rueba
+heroImage: https://i.imgur.com/smDdPcZ.jpg
 pubDate: 2023-01-21T10:58:03Z
 updatedDate: 2023-01-21T10:58:04Z
 draft: false
-author: "AlbertoEpic"
-description: "Días antes de todas las nevadas que por fin nos han blanqueado el Pirineo, tres curiosos individuos hicieron coincidir sus coordenadas espaciotemporales para darse un garbeo por Peña Rueba. July y AlbertoEpic, del mítico equipo SQLP-TerreXt"
+author: AlbertoEpic
+description: Días antes de todas las nevadas que por fin nos han blanqueado el Pirineo, tres curiosos individuos hicieron coincidir sus coordenadas espaciotemporales para darse un garbeo por Peña Rueba. July y AlbertoEpic, del mítico equipo SQLP-TerreXt
 category: Escalada
 tags:
-  - "peña rueba"
-  - "via_ferrata"
+  - via_ferrata
+  - peña_rueba
 ---
 
 Días antes de todas las nevadas que por fin nos han blanqueado el Pirineo, tres curiosos individuos hicieron coincidir sus coordenadas espaciotemporales para darse un garbeo por Peña Rueba. July y AlbertoEpic, del mítico equipo SQLP-TerreXtream, con Josan de estrella invitada, recorrieron las ferratas de Varela-Portillo (Ascenso) y de La Mora (Descenso), en un día casi veraniego.

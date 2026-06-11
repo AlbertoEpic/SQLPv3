@@ -8,7 +8,9 @@ author: AlbertoEpic
 description: "El segundo día de la nueva década, tras un día 1 en el que no dejamos nieve virgen en la estación de Cerler, nos fuimos con Marta, Fabrice y Lucía al pico Castanesa, accediendo por el valle d'Ubago. Si el día de estación fue chulo, este ya "
 category: Esquí de travesía
 tags:
-  - Uncategorized
+  - skimo
+  - castanesa
+  - valle_de_benasque
 ---
 El segundo día de la nueva década, tras un día 1 en el que no dejamos nieve virgen en la estación de Cerler, nos fuimos con Marta, Fabrice y Lucía al pico Castanesa, accediendo por el valle d'Ubago. Si el día de estación fue chulo, este ya fue apoteósico, sobre todo sabiendo que a la vuelta, los sufridos esquiadores alpinos tardaban varias horas en bajar con el coche de Cerler a Benasque, debido a un brutal atasco (Récord de afluencia a la estación, ese día)...
 

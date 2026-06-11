@@ -9,15 +9,9 @@ description: Matterhorn (4.478m) Esta Semana Santa, Luzia y AlbertoEpic marcharo
 category: Esquí de travesía
 tags:
   - skimo
+  - alpes
 ---
 
-
-
-
-[attachments/cervino.webp](attachments/cervino.webp)
-
-
-Matterhorn (4.478m)
 
 
 

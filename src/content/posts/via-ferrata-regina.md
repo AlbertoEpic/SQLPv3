@@ -9,6 +9,7 @@ description: En el término de Peramola, frente al pantano de Oliana, se encuent
 category: Escalada
 tags:
   - ferratas
+  - regina
 ---
 En el término de Peramola, frente al pantano de Oliana, se encuentra esta super ferrata por la que ascendieron ayer el trío calavera formado por Miren, Lucía y Alberto.
 

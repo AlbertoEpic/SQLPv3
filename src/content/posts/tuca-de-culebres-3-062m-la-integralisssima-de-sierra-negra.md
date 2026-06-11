@@ -1,16 +1,17 @@
 ---
 title: "Tuca de Culebres (3.062m): la Integralí­sssima de Sierra Negra"
-heroImage: "attachments/foto1.webp"
+heroImage: attachments/foto1.webp
 pubDate: 2015-09-08T11:04:05Z
 updatedDate: 2020-08-01T08:25:55Z
 draft: false
-author: "AlbertoEpic"
-description: "Hace un año realizamos con Morenetti la mí­tica Integral de Sierra Negra . Entonces me quedé con ganas de acercarme a los picos Culebres y Vallibierna, dos tresmiles que parecen más cerca de lo que en realidad estánâ‚¬Â¦ El pasado sábado tuve la"
+author: AlbertoEpic
+description: Hace un año realizamos con Morenetti la mí­tica Integral de Sierra Negra . Entonces me quedé con ganas de acercarme a los picos Culebres y Vallibierna, dos tresmiles que parecen más cerca de lo que en realidad estánâ‚¬Â¦ El pasado sábado tuve la
 category: Bicicleta de montaña
 tags:
-  - "cicloalpinismo"
-  - "Tuca de Culebres"
-  - "Vallibierna"
+  - cicloalpinismo
+  - Vallibierna
+  - culebres
+  - valle_de_benasque
 ---
 Hace un año realizamos con Morenetti la mí­tica [Integral de Sierra Negra](cicloalpinismo-integral-de-sierra-negra/). Entonces me quedé con ganas de acercarme a los picos Culebres y Vallibierna, dos tresmiles que parecen más cerca de lo que en realidad estánâ‚¬Â¦
 

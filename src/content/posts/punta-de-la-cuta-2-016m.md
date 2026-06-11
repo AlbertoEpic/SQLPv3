@@ -1,15 +1,15 @@
 ---
-title: "Punta de la Cuta (2.016m)"
-heroImage: "https://i.imgur.com/eCdepa1.jpg"
+title: Punta de la Cuta (2.016m)
+heroImage: https://i.imgur.com/eCdepa1.jpg
 pubDate: 2021-04-02T16:56:05Z
 updatedDate: 2021-04-06T09:07:16Z
 draft: false
-author: "AlbertoEpic"
-description: "En circular desde el refugio de Gabardito En SQLP-kids seguimos con las propuestas de actividades fáciles con niños, y poco a poco vamos aumentando la dificultad de las rutas... En Semana Santa se reunieron los ya habituales en esta sección"
+author: AlbertoEpic
+description: En circular desde el refugio de Gabardito En SQLP-kids seguimos con las propuestas de actividades fáciles con niños, y poco a poco vamos aumentando la dificultad de las rutas... En Semana Santa se reunieron los ya habituales en esta sección
 category: SQLP-kids
 tags:
-  - "Punta de la Cuta"
-  - "valle de Hecho"
+  - valles_occidentales
+  - punta_de_la_cuta
 ---
 En circular desde el refugio de Gabardito
 En SQLP-kids seguimos con las propuestas de actividades fáciles con niños, y poco a poco vamos aumentando la dificultad de las rutas...

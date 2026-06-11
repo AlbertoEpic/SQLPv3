@@ -1,16 +1,16 @@
 ---
-title: "Ví­a ferrata Cala del Molí­"
-heroImage: "attachments/moli1.webp"
+title: Ví­a ferrata Cala del Molí­
+heroImage: attachments/moli1.webp
 pubDate: 2016-09-05T18:34:49Z
 updatedDate: 2016-09-05T18:37:40Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "El otro dí­a, AlbertoEpic estuvo conociendo por fin esta curiosa ví­a ferrata. Muy chula y original, desde luego un aliciente perfecto para los que no les gusta demasiado la playa... El único 'pero' es la masificación: acostumbrados a moverno"
 category: Escalada
 tags:
-  - "cala del molí­"
-  - "ferratas"
-  - "girona"
+  - ferratas
+  - girona
+  - cala_del_molí
 ---
 El otro dí­a, AlbertoEpic estuvo conociendo por fin esta curiosa ví­a ferrata. Muy chula y original, desde luego un aliciente perfecto para los que no les gusta demasiado la playa...
 

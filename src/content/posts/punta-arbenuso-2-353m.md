@@ -1,12 +1,16 @@
 ---
 title: "BTT+pateo: Punta Arbenuso (2.353m)"
-heroImage: "https://i.imgur.com/6LBBPT0.jpg"
+heroImage: https://i.imgur.com/6LBBPT0.jpg
 pubDate: 2021-09-14T09:21:38Z
 updatedDate: 2021-09-14T10:01:16Z
 draft: false
-author: "AlbertoEpic"
-description: "Combinada BTT + pateo Pasado el verano, en SQLP vamos recuperando la normalidad y el ritmo de nuestras actividades. El otro día AlbertoEpic salió pedaleando del parking de La Cuniacha y apuró hasta las cercanías de la Canal de Arbenuso. All"
+author: AlbertoEpic
+description: Combinada BTT + pateo Pasado el verano, en SQLP vamos recuperando la normalidad y el ritmo de nuestras actividades. El otro día AlbertoEpic salió pedaleando del parking de La Cuniacha y apuró hasta las cercanías de la Canal de Arbenuso. All
 category: Bicicleta de montaña
+tags:
+  - btt
+  - ascensiones
+  - valle_de_tena
 ---
 
 ## Combinada BTT + pateo
@@ -45,7 +49,7 @@ Momento ZEN contemplando el ibón de Bucuesa
 
 'Aeroselfie' en la Punta Arbenuso, desde el dron
 
-[https://i.imgur.com/VAAUWOX.jpg](https://i.imgur.com/VAAUWOX.jpg)
+![https://i.imgur.com/VAAUWOX.jpg](https://i.imgur.com/VAAUWOX.jpg)
 
 Foto aérea con el croquis del recorrido
 

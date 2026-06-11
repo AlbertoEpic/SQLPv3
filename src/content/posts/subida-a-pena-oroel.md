@@ -1,12 +1,15 @@
 ---
-title: "Subida a Peña Oroel"
-heroImage: "https://i.imgur.com/FY0nsnD.jpg"
+title: Subida a Peña Oroel
+heroImage: https://i.imgur.com/FY0nsnD.jpg
 pubDate: 2020-07-13T07:45:37Z
 updatedDate: 2020-07-13T07:59:44Z
 draft: false
-author: "AlbertoEpic"
-description: "Una cómoda ascensión para pequeños aventureros... El pasado domingo los globeros realizamos una nueva actividad con nuestros incipientes globeritos... Se trata de la ascensión a Peña Oroel desde el Parador del mismo nombre. Si se le puede p"
+author: AlbertoEpic
+description: Una cómoda ascensión para pequeños aventureros... El pasado domingo los globeros realizamos una nueva actividad con nuestros incipientes globeritos... Se trata de la ascensión a Peña Oroel desde el Parador del mismo nombre. Si se le puede p
 category: SQLP-kids
+tags:
+  - peña_oroel
+  - valle_del_aragon
 ---
 
 ## Una cómoda ascensión para pequeños aventureros...

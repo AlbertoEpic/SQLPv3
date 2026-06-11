@@ -1,17 +1,17 @@
 ---
 title: "EWS Round 7: Aánsa"
 pubDate: 2015-09-28T11:09:43Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-09-28T11:09:43Z
 draft: false
-author: "AlbertoEpic"
-description: "El pasado finde se celebraba en Aánsa la 7 prueba de las Enduro World Series. Aprovechando la ocasián, algunos globeros con globeritos pasaron las ya habituales jornadas de convivencia realizando actividad el sábado y flipando con la calid"
+author: AlbertoEpic
+description: El pasado finde se celebraba en Aánsa la 7 prueba de las Enduro World Series. Aprovechando la ocasián, algunos globeros con globeritos pasaron las ya habituales jornadas de convivencia realizando actividad el sábado y flipando con la calid
 category: Bicicleta de montaña
 tags:
-  - "ainsa"
+  - ainsa
   - btt
-  - "enduro"
+  - enduro
+  - sobrarbe
 ---
 El pasado finde se celebraba en Aánsa la 7 prueba de las Enduro World Series. Aprovechando la ocasián, algunos globeros con globeritos pasaron las ya habituales jornadas de convivencia realizando actividad el sábado y flipando con la calidad de los participantes el domingo.
 

@@ -6,9 +6,10 @@ updatedDate: 2024-05-28T15:45:12Z
 draft: false
 author: AlbertoEpic
 description: 'SkiLof24 Con esta entrada pretendemos unificar una serie de información acerca del viaje de nuestro especialista AlbertoEpic a Noruega, a las islas Lofoten, para salvar la temporada de skimo. Comenzamos con su escalofriante testimonio: "La '
-category: Esquí de travesía
+category: Viajes
 tags:
   - Lofoten
+  - skimo
 ---
 
 ## SkiLof24

@@ -10,6 +10,7 @@ category: Bicicleta de montaña
 tags:
   - trialeras
   - madrid
+  - btt
 ---
 Seguimos con la serie "conozca las trialeras de Madrid con Sergio 'TunIn'"... Hoy he estado con Sergio e Iñaki por el fantástico parque de atraccionesí‚Â para la btt que tienen en Hoyo de Manzanares.Como es habitual, abajo puedes ver el vídeo de Sergio donde se ve parte del recorrido...
 

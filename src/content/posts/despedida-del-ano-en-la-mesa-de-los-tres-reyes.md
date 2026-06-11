@@ -9,6 +9,7 @@ description: Para terminar el 2008 con alegría, nada mejor que un poco de esqu�
 category: Esquí de travesía
 tags:
   - skimo
+  - valles_occidentales
 ---
 Para terminar el 2008 con alegría, nada mejor que un poco de esquí de travesía... Una vez más, despierto en Huesca lloviendo. Todo el camino de ida estaba con el cielo encapotado, pero una vez más, la fe en Jorge y sus meteos ha dado sus frutos: al cruzar el túnel de Somport... cielo azul!
 

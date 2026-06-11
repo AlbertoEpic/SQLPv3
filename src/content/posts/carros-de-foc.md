@@ -9,6 +9,7 @@ description: La semana del 4 al 10 de mayo fue realizado un intento de recorrer 
 category: Esquí de travesía
 tags:
   - carros_de_foc
+  - skimo
 ---
 La semana del 4 al 10 de mayo fue realizado un intento de recorrer la Carros de Fuego (travesía del Parque Nacional dí¢â‚¬â„¢AigíƒÂ¼es Tortes i Estany de Sant Maurici) con esquís de travesía y en autonomía total.
 

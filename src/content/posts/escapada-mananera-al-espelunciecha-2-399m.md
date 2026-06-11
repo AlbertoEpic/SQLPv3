@@ -9,6 +9,8 @@ description: El pasado jueves Luzia y AlbertoEpic hicieron una breve actividad m
 category: Esquí de travesía
 tags:
   - valle_de_tena
+  - skimo
+  - espelunciecha
 ---
 El pasado jueves Luzia y AlbertoEpic hicieron una breve actividad matutina. Continúan con el rodaje de pretemporada, en una temporada que todaví­a está comenzando a pesar de irse acercando cada vez más hacia su ocaso. Esperemos que la cota de nieve baje algún dí­a...
 

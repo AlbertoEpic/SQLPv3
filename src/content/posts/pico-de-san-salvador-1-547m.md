@@ -1,14 +1,14 @@
 ---
-title: "Pico de San Salvador (1.547m)"
-heroImage: "https://i.imgur.com/ioCSGJV.jpg"
+title: Pico de San Salvador (1.547m)
+heroImage: https://i.imgur.com/ioCSGJV.jpg
 pubDate: 2021-02-15T10:34:45Z
 updatedDate: 2021-02-15T11:21:58Z
 draft: false
-author: "AlbertoEpic"
-description: "Una cómoda y panorámica excursión infantil... Lo de hacer excursiones con los peques cuando el Pirineo está a tope de nieve se complica un poco, y debemos mirar algo más al sur de los Pirineos. Un punto de partida ideal es el monasterio nue"
+author: AlbertoEpic
+description: Una cómoda y panorámica excursión infantil... Lo de hacer excursiones con los peques cuando el Pirineo está a tope de nieve se complica un poco, y debemos mirar algo más al sur de los Pirineos. Un punto de partida ideal es el monasterio nue
 category: SQLP-kids
 tags:
-  - "San Juan de La Peña"
+  - san_juan_de_la_peña
 ---
 Una cómoda y panorámica excursión infantil...
 Lo de hacer excursiones con los peques cuando el Pirineo está a tope de nieve se complica un poco, y debemos mirar algo más al sur de los Pirineos. Un punto de partida ideal es el monasterio nuevo de San Juan de La Peña. En su explanada tenemos un magnífico parque infantil con el que el éxito de la jugada está garantizado...

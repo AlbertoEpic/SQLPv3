@@ -10,6 +10,7 @@ category: Descenso de barrancos
 tags:
   - formiga
   - peonera
+  - sierra_de_guara
 ---
 Vaya esta entrada simplemente para dejar constancia de las últimas actividades del equipo SQLP... Es tiempo de mucho calor, vacaciones para algunos y tardes todavía largas para los que no.
 

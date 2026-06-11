@@ -1,13 +1,16 @@
 ---
-title: "Picos de Algas (3.036m) y Garmo Negro (3.061m)"
+title: Picos de Algas (3.036m) y Garmo Negro (3.061m)
 pubDate: 2016-04-28T10:02:22Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2016-04-28T10:15:23Z
 draft: false
-author: "AlbertoEpic"
-description: "Simplemente un breve apunte para reseñar la ascensión del otro dí­a. Muy raras veces se juntan todas las condiciones necesarias, pero por fin la buena meteo, un buen rehielo y una exquisita nieve primavera posterior permitieron coincidir a L"
+author: AlbertoEpic
+description: Simplemente un breve apunte para reseñar la ascensión del otro dí­a. Muy raras veces se juntan todas las condiciones necesarias, pero por fin la buena meteo, un buen rehielo y una exquisita nieve primavera posterior permitieron coincidir a L
 category: Esquí de travesía
+tags:
+  - skimo
+  - balneario_de_panticosa
+  - valle_de_tena
 ---
 Simplemente un breve apunte para reseñar la ascensión del otro dí­a. Muy raras veces se juntan todas las condiciones necesarias, pero por fin la buena meteo, un buen rehielo y una exquisita nieve primavera posterior permitieron coincidir a Luzia y AlbertoEpic para disfrutar del entorno del Garmo Negro con unas condiciones tí­picas de final de temporada.
 

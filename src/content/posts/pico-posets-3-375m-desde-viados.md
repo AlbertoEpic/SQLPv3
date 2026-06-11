@@ -1,15 +1,16 @@
 ---
-title: "Pico Posets (3.375m) desde Viadós"
+title: Pico Posets (3.375m) desde Viadós
 pubDate: 2017-05-11T12:00:18Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2017-05-11T12:00:18Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "El pasado fin de semana llegó el turno de hacer una de esas rutas típicas de fin de temporada, donde desnivel, orientación y estado de forma se conjugan para crear un cóctel perfecto. En esta ocasión disfrutamos de uno de los descensos más "
 category: Esquí de travesía
 tags:
-  - "posets"
+  - posets
+  - skimo
+  - sobrarbe
 ---
 El pasado fin de semana llegó el turno de hacer una de esas rutas típicas de fin de temporada, donde desnivel, orientación y estado de forma se conjugan para crear un cóctel perfecto. En esta ocasión disfrutamos de uno de los descensos más míticos del Pirineo: los más de 1.000m (Bastante más, jeje) de bajada a plomo desde el Posets hacia el refugio de Viadós.
 

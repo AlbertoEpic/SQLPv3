@@ -10,6 +10,7 @@ category: Esquí de travesía
 tags:
   - refugios
   - acceso_invernal
+  - skimo
 ---
 El otro día llegó a mí una información que pienso que puede ser útil a aquellos interesados en llegar a cualquiera de los refugios de montaña de la FAM (Federación Aragonesa de Montañismo) en condiciones invernales. Se trata de unas fichas extraídas de la web de la FAM, dentro de su [campaña "Montañas Seguras"](http://montanasegura.com/acceso-invernal-a-los-refugios-de-la-fam/).
 

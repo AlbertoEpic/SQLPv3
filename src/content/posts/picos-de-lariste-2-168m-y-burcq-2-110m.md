@@ -1,17 +1,16 @@
 ---
-title: "Picos de Lariste (2.168m) y Burcq (2.110m)"
+title: Picos de Lariste (2.168m) y Burcq (2.110m)
 pubDate: 2013-03-06T19:56:00Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:37Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "El año pasado SoloQuedaLoPeor ya estuvo en el Lariste , por aquel entonces uno de los últimos reductos con un poco de nieve para esquiar... Por fortuna, este año es diferente, lo que nos permitió subir con esquís puestos hasta la cima... y "
 category: Esquí de travesía
 tags:
-  - "burcq"
-  - "Lariste"
-  - "valle de Hecho"
+  - burcq
+  - Lariste
+  - valles_occidentales
 ---
 El año pasado SoloQuedaLoPeor ya estuvo en el [Lariste](pico-lariste-2-168m/), por aquel entonces uno de los últimos reductos con un poco de nieve para esquiar...
 

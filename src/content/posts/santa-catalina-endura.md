@@ -1,15 +1,15 @@
 ---
-title: "Santa Catalina Endura"
+title: Santa Catalina Endura
 pubDate: 2011-03-03T10:09:00Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:51Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "Enmarcado dentro de los fastos por la celebración de mi cumpleaños, no podía faltar una ruta de BTT. Nos acercamos con Lucía y Tai hasta Aínsa, a realizar una ruta propuesta con muy buen criterio por GPSpirineo.com y que, como viene siendo "
 category: Bicicleta de montaña
 tags:
-  - "Uncategorized"
+  - btt
+  - sobrarbe
 ---
 Enmarcado dentro de los fastos por la celebración de mi cumpleaños, no podía faltar una ruta de BTT. Nos acercamos con Lucía y Tai hasta Aínsa, a realizar una ruta propuesta con muy buen criterio por GPSpirineo.com y que, como viene siendo habitual, no defraudó en absoluto.
 

@@ -1,17 +1,18 @@
 ---
-title: "Pico del Aspe (2.645m)"
+title: Pico del Aspe (2.645m)
 pubDate: 2010-04-01T20:00:00Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:59Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "El pasado domingo tuvo lugar la Salida Promocional de Esquí de Montaña de Peña Guara. Nada menos que 45 extraños especímenes -entre los que se infiltraron algunos seres de varias tribus blogueras: globeros, focas majaras,...- se dieron cita"
 category: Esquí de travesía
 tags:
-  - "globeros"
+  - aspe
+  - valle_del_aragon
+  - peña_guara
 ---
-El pasado domingo tuvo lugar la Salida Promocional de Esquí de Montaña de Peña Guara. Nada menos que 45 extraños especímenes -entre los que se infiltraron algunos seres de varias tribus blogueras: globeros, focas majaras,...- se dieron cita en Aísa para subir al Aspe por el Cubilar de RigíƒÂ¼elo, Llanas de RigíƒÂ¼elo y Pico Aspe.
+El pasado domingo tuvo lugar la Salida Promocional de Esquí de Montaña de Peña Guara. Nada menos que 45 extraños especímenes -entre los que se infiltraron algunos seres de varias tribus blogueras: globeros, focas majaras,...- se dieron cita en Aísa para subir al Aspe por el Cubilar de Rigüelo, Llanas de Rigüelo y Pico Aspe.
 
 Un éxito de día, buena meteo, buena nieve, llegada a cima masiva: Desafío Extremo conseguido!!!
 

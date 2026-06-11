@@ -1,15 +1,14 @@
 ---
 title: "'Powder' en el Pirineo: ¿mito o realidad?"
 pubDate: 2010-12-07T08:32:00Z
-
 heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:53Z
 draft: false
-author: "AlbertoEpic"
-description: "En Producciones Soloquedalopeor estábamos cansados de ver videos de esquí por las Montañas Rocosas con una nieve polvo espectacular. Resignados a que esa nieve ideal no la probaríamos sin comprar un billete de avión, y que aqui nos tendríam"
+author: AlbertoEpic
+description: En Producciones Soloquedalopeor estábamos cansados de ver videos de esquí por las Montañas Rocosas con una nieve polvo espectacular. Resignados a que esa nieve ideal no la probaríamos sin comprar un billete de avión, y que aqui nos tendríam
 category: Esquí de travesía
 tags:
-  - "Uncategorized"
+  - skimo
 ---
 En Producciones Soloquedalopeor estábamos cansados de ver videos de esquí por las Montañas Rocosas con una nieve polvo espectacular. Resignados a que esa nieve ideal no la probaríamos sin comprar un billete de avión, y que aqui nos tendríamos que conformar con las maravillosas nieves costra-cambiantes del Pirineo.
 

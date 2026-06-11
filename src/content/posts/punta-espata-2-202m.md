@@ -7,6 +7,12 @@ draft: false
 author: AlbertoEpic
 description: Desayuno al amanecer... en la cima! Últimamente, a nuestro especialista le ha dado por llevar a cabo algunos de sus planes un tanto excéntricos... En una sola jugada reúne varios de sus 'juguetes' y aficiones. Y ¿qué pasa si juntamos montañ
 category: BTT+Pateo
+tags:
+  - btt
+  - ascensiones
+  - punta_espata
+  - valle_del_aragon
+  - villanua
 ---
 
 ## Desayuno al amanecer... en la cima!

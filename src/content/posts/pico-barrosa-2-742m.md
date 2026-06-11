@@ -8,7 +8,9 @@ author: AlbertoEpic
 description: "El pasado dí­a 22, y por la gloria de Brad Pitt (y también un poco por la de San Vicente), un pequeño grupo de globeros se apuntó a la indecente proposición de Jorge: ascensión al pico Barrosa, en ruta circular. Ida por el circo de Pinarra y"
 category: Esquí de travesía
 tags:
-  - Esquí­ de travesí­a
+  - skimo
+  - barrosa
+  - sobrarbe
 ---
 ![](attachments/P1200163.webp)
 

@@ -1,14 +1,17 @@
 ---
-title: "Vallnord, si al final sabía que lo probaría"
-heroImage: "http://lh4.ggpht.com/_7YhMCQHkDgI/TFb3DOl9IFI/AAAAAAAAB1Q/LNxiDYi92xY/s200/100801%20Vallnord_0008.JPG"
+title: Vallnord, si al final sabía que lo probaría
+heroImage: http://lh4.ggpht.com/_7YhMCQHkDgI/TFb3DOl9IFI/AAAAAAAAB1Q/LNxiDYi92xY/s200/100801%20Vallnord_0008.JPG
 pubDate: 2010-08-03T21:01:00Z
 updatedDate: 2015-04-06T10:28:56Z
 draft: false
-author: "AlbertoEpic"
-description: "José Orte Hay cosas que el destino reserva a los globeros sí o sí... Tarde o temprano, algún globero dejaría de deambular por el Pirineo con la bici al hombro en busca del sendero perfecto, para acudir a alguno de los 'parques de atraccione"
+author: AlbertoEpic
+description: José Orte Hay cosas que el destino reserva a los globeros sí o sí... Tarde o temprano, algún globero dejaría de deambular por el Pirineo con la bici al hombro en busca del sendero perfecto, para acudir a alguno de los 'parques de atraccione
 category: Bicicleta de montaña
 tags:
-  - "Uncategorized"
+  - btt
+  - downhill
+  - andorra
+  - vallnord
 ---
 [http://lh4.ggpht.com/_7YhMCQHkDgI/TFb3DOl9IFI/AAAAAAAAB1Q/LNxiDYi92xY/s1600/100801%20Vallnord_0008.JPG](http://lh4.ggpht.com/_7YhMCQHkDgI/TFb3DOl9IFI/AAAAAAAAB1Q/LNxiDYi92xY/s1600/100801%20Vallnord_0008.JPG)José Orte
 
