@@ -176,18 +176,6 @@
   force = true
 
 [[redirects]]
-  from = "/posts/skilof-1-varden-700m"
-  to = "/posts/skilof-1-varden-700m 1"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/posts/skilof-2-torksmannen-755m"
-  to = "/posts/skilof-2-torksmannen-755m 1"
-  status = 301
-  force = true
-
-[[redirects]]
   from = "/projects/obsidian-astro-composer"
   to = "/projects/astro-composer"
   status = 301
