@@ -12,5 +12,26 @@
     "file": "Peña_Sabocos-skimo.gpx",
     "start_date": "2026-06-03T06:02:49.000Z",
     "status": "ok"
+  },
+  {
+    "id": "gpx-0002",
+    "name": "Skimo - Feniás",
+    "file": "Fenias-skimo.gpx",
+    "start_date": "2026-06-03T06:02:49.000Z",
+    "status": "ok"
+  },
+  {
+    "id": "gpx-0002",
+    "name": "Skimo - Collarada",
+    "file": "Collarada-skimo.gpx",
+    "start_date": "2026-06-03T06:02:49.000Z",
+    "status": "ok"
+  },
+  {
+    "id": "gpx-0002",
+    "name": "Skimo - Aspe",
+    "file": "Aspe-skimo.gpx",
+    "start_date": "2026-06-03T06:02:49.000Z",
+    "status": "ok"
   }
 ]
