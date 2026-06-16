@@ -17,6 +17,8 @@ import ImageWrapper from '@/components/ImageWrapper.astro';
 import { devConfig } from '@/config/dev';
 import { readFileSync } from 'fs';
 import { join } from 'path';
+import LeafletMap from '@/components/LeafletMap.astro';
+import { parseGPXString, calculateCenterAndZoom } from '@/utils/gpx-parser';
 
 export interface Props {
   post: Post;
@@ -30,6 +32,39 @@ const isDev = import.meta.env.DEV;
 
 // Generate SEO data
 const seoData = generatePostSEO(post, import.meta.env.SITE || '');
+
+// Load GPX map data if enabled
+let gpxMapData: { center: [number, number]; zoom: number; polylines: any[] } | null = null;
+if (post.data.gpxMap) {
+  try {
+    // Read manual-links.json
+    const manualLinksPath = join(process.cwd(), 'public/gpx/strava/manual-links.json');
+    const manualLinksContent = readFileSync(manualLinksPath, 'utf-8');
+    const manualLinks: Record<string, string> = JSON.parse(manualLinksContent);
+
+    // Get GPX filename for this post
+    const gpxFilename = manualLinks[post.id];
+    if (gpxFilename) {
+      const gpxPath = join(process.cwd(), `public/gpx/strava/${gpxFilename}`);
+      const gpxContent = readFileSync(gpxPath, 'utf-8');
+      const parsed = parseGPXString(gpxContent);
+
+      if (parsed.points.length > 0) {
+        const { center, zoom } = calculateCenterAndZoom(parsed.bounds);
+        const polylines = parsed.tracks.map(track => ({
+          points: track.points.map(p => [p.lat, p.lon] as [number, number]),
+          color: '#ef4444',
+          weight: 3,
+          opacity: 0.9,
+        }));
+
+        gpxMapData = { center, zoom, polylines };
+      }
+    }
+  } catch (error) {
+    // Silently fail if GPX loading fails
+  }
+}
 
 
 
@@ -243,6 +278,19 @@ const showLocalGraph = siteConfig.postOptions.graphView.enabled && siteConfig.po
         <div class="prose dark:prose-dark max-w-none" id="post-content">
           <Content />
         </div>
+
+        <!-- GPX Map -->
+        {gpxMapData && (
+          <div class="my-8">
+            <LeafletMap
+              center={gpxMapData.center}
+              zoom={gpxMapData.zoom}
+              height="500px"
+              tiles="auto"
+              polylines={gpxMapData.polylines}
+            />
+          </div>
+        )}
 
         {siteConfig.postOptions.linkedMentions.enabled && (
           <LinkedMentions currentSlug={post.id} />
