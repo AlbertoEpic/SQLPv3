@@ -160,7 +160,8 @@ async function initLeafletMaps(): Promise<void> {
           button.onmouseout = () => { button.style.background = 'white'; };
           L.DomEvent.on(button, 'click', () => {
             const filename = config.gpxFileName;
-            const url = `/gpx/strava/${filename}`;
+            const baseUrl = document.documentElement.getAttribute('data-base-url') || '';
+            const url = `${baseUrl}gpx/strava/${filename}`;
             const link = document.createElement('a');
             link.href = url;
             link.download = filename;
