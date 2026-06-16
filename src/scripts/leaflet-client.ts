@@ -27,6 +27,7 @@ interface MapConfig {
   markers?: MarkerConfig[];
   polylines?: PolylineConfig[];
   polygons?: PolygonConfig[];
+  gpxFileName?: string;
 }
 
 const TILE_PROVIDERS = {
@@ -133,6 +134,44 @@ async function initLeafletMaps(): Promise<void> {
         fillOpacity: pg.fillOpacity ?? 0.2,
       }).addTo(map);
     });
+
+    // Add GPX download control if gpxFileName is provided
+    if (config.gpxFileName) {
+      const DownloadControl = L.Control.extend({
+        onAdd(map) {
+          const container = L.DomUtil.create('div', 'leaflet-control leaflet-bar');
+          const button = L.DomUtil.create('button', '', container);
+          button.innerHTML = '⬇️ Descargar GPX';
+          button.title = 'Descargar track GPX';
+          button.style.cssText = `
+            padding: 8px 12px;
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: 600;
+            background: white;
+            border: none;
+            border-radius: 4px;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+            color: #333;
+            white-space: nowrap;
+            transition: background 0.2s;
+          `;
+          button.onmouseover = () => { button.style.background = '#f0f0f0'; };
+          button.onmouseout = () => { button.style.background = 'white'; };
+          L.DomEvent.on(button, 'click', () => {
+            const filename = config.gpxFileName;
+            const url = `/gpx/strava/${filename}`;
+            const link = document.createElement('a');
+            link.href = url;
+            link.download = filename;
+            link.click();
+          });
+          L.DomEvent.disableClickPropagation(button);
+          return container;
+        },
+      });
+      new DownloadControl({ position: 'topright' }).addTo(map);
+    }
   });
 }
 

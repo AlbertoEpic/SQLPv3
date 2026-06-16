@@ -34,7 +34,7 @@ const isDev = import.meta.env.DEV;
 const seoData = generatePostSEO(post, import.meta.env.SITE || '');
 
 // Load GPX map data if enabled
-let gpxMapData: { center: [number, number]; zoom: number; polylines: any[] } | null = null;
+let gpxMapData: { center: [number, number]; zoom: number; polylines: any[]; gpxFileName?: string } | null = null;
 if (post.data.gpxMap) {
   try {
     // Read manual-links.json
@@ -58,7 +58,7 @@ if (post.data.gpxMap) {
           opacity: 0.9,
         }));
 
-        gpxMapData = { center, zoom, polylines };
+        gpxMapData = { center, zoom, polylines, gpxFileName: gpxFilename };
       }
     }
   } catch (error) {
@@ -288,6 +288,7 @@ const showLocalGraph = siteConfig.postOptions.graphView.enabled && siteConfig.po
               height="500px"
               tiles="auto"
               polylines={gpxMapData.polylines}
+              gpxFileName={gpxMapData.gpxFileName}
             />
           </div>
         )}

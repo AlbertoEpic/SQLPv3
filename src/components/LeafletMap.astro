@@ -28,6 +28,7 @@ export interface Props {
   markers?: MarkerConfig[];
   polylines?: PolylineConfig[];
   polygons?: PolygonConfig[];
+  gpxFileName?: string;
   class?: string;
 }
 
@@ -39,11 +40,12 @@ const {
   markers = [],
   polylines = [],
   polygons = [],
+  gpxFileName,
   class: className = '',
 } = Astro.props;
 
 const mapId = `leaflet-map-${Math.random().toString(36).slice(2, 11)}`;
-const config = { center, zoom, height, tiles, markers, polylines, polygons };
+const config = { center, zoom, height, tiles, markers, polylines, polygons, gpxFileName };
 const encoded = encodeURIComponent(JSON.stringify(config));
 ---
 
