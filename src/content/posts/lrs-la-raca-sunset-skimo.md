@@ -15,6 +15,7 @@ draft: false
 heroimage: "[[attachments/lrs-la-raca-sunset-skimo.png]]"
 ---
 Un prueba de los mapas...
+![[attachments/lrs-la-raca-sunset-skimo.png]]
 
 {{< leaflet-map center="[40.4168, -3.7038]" zoom="12" gpxFileName="La_Raca_Sunset.gpx" >}}
 
