@@ -50,6 +50,7 @@
     "fuse.js": "^7.1.0",
     "katex": "^0.16.38",
     "leaflet": "^1.9.4",
+    "leaflet-gpx": "^2.2.0",
     "lucide": "^0.542.0",
     "mermaid": "^11.13.0",
     "rehype-autolink-headings": "^7.1.0",

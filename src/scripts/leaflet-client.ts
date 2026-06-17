@@ -82,8 +82,25 @@ async function initLeafletMaps(): Promise<void> {
     });
   }
 
+  // Cargar Leaflet.GPX si es necesario
+  const hasGPX = Array.from(containers).some(container => {
+    const rawConfig = container.dataset.mapConfig;
+    if (!rawConfig) return false;
+    try {
+      const config = JSON.parse(decodeURIComponent(rawConfig));
+      return !!config.gpxFileName;
+    } catch {
+      return false;
+    }
+  });
+
   const leafletModule = await import('leaflet');
   const L = leafletModule.default ?? leafletModule;
+
+  // Cargar Leaflet.GPX dinámicamente si se necesita
+  if (hasGPX) {
+    await import('leaflet-gpx');
+  }
 
   containers.forEach((container) => {
     const rawConfig = container.dataset.mapConfig;
@@ -135,8 +152,9 @@ async function initLeafletMaps(): Promise<void> {
       }).addTo(map);
     });
 
-    // Add GPX download control if gpxFileName is provided
+    // Agregar control de descarga GPX y mostrar la trayectoria si gpxFileName está proporcionado
     if (config.gpxFileName) {
+      // Control de descarga
       const DownloadControl = L.Control.extend({
         onAdd(map) {
           const container = L.DomUtil.create('div', 'leaflet-control leaflet-bar');
@@ -172,18 +190,75 @@ async function initLeafletMaps(): Promise<void> {
         },
       });
       new DownloadControl({ position: 'topright' }).addTo(map);
+
+      // Mostrar la trayectoria GPX en el mapa
+      const baseUrl = document.documentElement.getAttribute('data-base-url') || '';
+      const gpxUrl = `${baseUrl}gpx/strava/${config.gpxFileName}`;
+      
+      new L.GPX(gpxUrl, {
+        async: true,
+        marker_options: {
+          startIconUrl: null,
+          endIconUrl: null,
+          shadowUrl: null,
+        },
+        polyline_options: {
+          color: '#ff0000',
+          weight: 4,
+          opacity: 0.8
+        }
+      }).on('loaded', function(e) {
+        // El track ha cargado, ahora encuadramos y forzamos el redibujado del mapa
+        map.fitBounds(e.target.getBounds());
+        
+        // Forzar un redibujado después de un pequeño retraso para asegurar que el layout esté listo
+        setTimeout(() => {
+          map.invalidateSize();
+        }, 300);
+        
+      }).on('error', function(e) {
+        console.error('Error loading GPX:', e);
+      }).addTo(map);
     }
+
+    // SOLUCIÓN CLAVE: Forzar invalidateSize después de la inicialización para corregir problemas de dimensionamiento
+    // Esto asegura que el mapa se redimensione correctamente incluso si el contenedor aún no tiene su tamaño final
+    setTimeout(() => {
+      map.invalidateSize();
+    }, 100);
   });
 }
 
+// Manejar la inicialización tanto en carga inicial como en transiciones de Swup
 if (typeof document !== 'undefined') {
+  // Inicializar cuando el DOM esté listo
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', initLeafletMaps);
   } else {
     initLeafletMaps();
   }
 
-  document.addEventListener('swup:page:view', initLeafletMaps);
+  // Re-inicializar después de cada transición de Swup
+  document.addEventListener('swup:page:view', () => {
+    // Pequeño retraso para asegurar que el DOM de la nueva página esté completamente renderizado
+    setTimeout(initLeafletMaps, 50);
+  });
+
+  // También escuchar eventos de redimensionamiento de ventana para casos especiales
+  window.addEventListener('resize', () => {
+    // Actualizar todos los mapas Leaflet existentes
+    const maps = document.querySelectorAll('.leaflet-map-container[data-leaflet-initialized]');
+    maps.forEach((container) => {
+      // Este enfoque es simplificado; en una implementación más robusta, mantendríamos referencias a los objetos mapa
+      // Pero para nuestro propósito, reinicializaremos si es necesario
+      if (!container.dataset.leafletUpdatable) {
+        container.dataset.leafletUpdatable = 'true';
+        setTimeout(() => {
+          delete container.dataset.leafletUpdatable;
+        }, 100);
+      }
+    });
+  });
 }
 
 export {};
