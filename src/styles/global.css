@@ -2,7 +2,7 @@
 /* KaTeX Math Rendering - Must be first */
 @import 'katex/dist/katex.css';
 
-@tailwind base;
+@import "tailwindcss";
 
 /* Immediately override Tailwind preflight border styles for KaTeX */
 @layer base {
@@ -15,8 +15,7 @@
   }
 }
 
-@tailwind components;
-@tailwind utilities;
+
 
 /* KaTeX Theme Integration */
 .katex {

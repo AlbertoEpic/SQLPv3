@@ -7,6 +7,7 @@ declare global {
     initializeDocsSidebar?: () => void;
     initializeImageGalleries?: () => void;
     initializeImageGrids?: () => void;
+    initializeLeafletMaps?: () => void;
   }
 }
 

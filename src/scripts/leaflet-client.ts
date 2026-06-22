@@ -30,6 +30,11 @@ interface MapConfig {
   gpxFileName?: string;
 }
 
+type LeafletMap = {
+  invalidateSize: (options?: { animate?: boolean }) => void;
+  fitBounds: (bounds: unknown) => void;
+};
+
 const TILE_PROVIDERS = {
   osm: {
     url: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
@@ -50,6 +55,14 @@ const TILE_PROVIDERS = {
   },
 } as const;
 
+const mapInstances = new WeakMap<HTMLElement, LeafletMap>();
+
+function getSiteBasePath(): string {
+  const raw = document.documentElement.getAttribute('data-base-url') || '/';
+  if (raw === '/') return '/';
+  return raw.endsWith('/') ? raw : `${raw}/`;
+}
+
 function getCurrentTheme(): 'light' | 'dark' {
   if (typeof document === 'undefined') return 'light';
   return document.documentElement.classList.contains('dark') ? 'dark' : 'light';
@@ -62,10 +75,19 @@ function resolveTiles(tiles: MapConfig['tiles']): (typeof TILE_PROVIDERS)[keyof 
   return TILE_PROVIDERS[tiles] ?? TILE_PROVIDERS.osm;
 }
 
-async function initLeafletMaps(): Promise<void> {
-  const containers = document.querySelectorAll<HTMLElement>('.leaflet-map-container:not([data-leaflet-initialized])');
-  if (containers.length === 0) return;
+function invalidateAllLeafletMaps(): void {
+  document.querySelectorAll<HTMLElement>('.leaflet-map-container[data-leaflet-initialized]').forEach((container) => {
+    mapInstances.get(container)?.invalidateSize();
+  });
+}
 
+function scheduleMapResize(map: LeafletMap): void {
+  [0, 100, 300, 600].forEach((delay) => {
+    setTimeout(() => map.invalidateSize(), delay);
+  });
+}
+
+async function ensureLeafletAssets(needsGpx: boolean): Promise<{ L: any }> {
   if (!document.getElementById('leaflet-css')) {
     const link = document.createElement('link');
     link.id = 'leaflet-css';
@@ -82,25 +104,32 @@ async function initLeafletMaps(): Promise<void> {
     });
   }
 
-  // Cargar Leaflet.GPX si es necesario
-  const hasGPX = Array.from(containers).some(container => {
+  const leafletModule = await import('leaflet');
+  const L = leafletModule.default ?? leafletModule;
+
+  if (needsGpx) {
+    await import('leaflet-gpx');
+  }
+
+  return { L };
+}
+
+async function initLeafletMaps(): Promise<void> {
+  const containers = document.querySelectorAll<HTMLElement>('.leaflet-map-container:not([data-leaflet-initialized])');
+  if (containers.length === 0) return;
+
+  const needsGpx = Array.from(containers).some((container) => {
     const rawConfig = container.dataset.mapConfig;
     if (!rawConfig) return false;
     try {
-      const config = JSON.parse(decodeURIComponent(rawConfig));
+      const config = JSON.parse(decodeURIComponent(rawConfig)) as MapConfig;
       return !!config.gpxFileName;
     } catch {
       return false;
     }
   });
 
-  const leafletModule = await import('leaflet');
-  const L = leafletModule.default ?? leafletModule;
-
-  // Cargar Leaflet.GPX dinámicamente si se necesita
-  if (hasGPX) {
-    await import('leaflet-gpx');
-  }
+  const { L } = await ensureLeafletAssets(needsGpx);
 
   containers.forEach((container) => {
     const rawConfig = container.dataset.mapConfig;
@@ -124,7 +153,9 @@ async function initLeafletMaps(): Promise<void> {
       center: config.center,
       zoom,
       scrollWheelZoom: false,
-    });
+    }) as LeafletMap;
+
+    mapInstances.set(container, map);
 
     L.tileLayer(tileConfig.url, {
       attribution: tileConfig.attribution,
@@ -152,13 +183,11 @@ async function initLeafletMaps(): Promise<void> {
       }).addTo(map);
     });
 
-    // Agregar control de descarga GPX y mostrar la trayectoria si gpxFileName está proporcionado
     if (config.gpxFileName) {
-      // Control de descarga
       const DownloadControl = L.Control.extend({
-        onAdd(map) {
-          const container = L.DomUtil.create('div', 'leaflet-control leaflet-bar');
-          const button = L.DomUtil.create('button', '', container);
+        onAdd() {
+          const controlContainer = L.DomUtil.create('div', 'leaflet-control leaflet-bar');
+          const button = L.DomUtil.create('button', '', controlContainer);
           button.innerHTML = '⬇️ Descargar GPX';
           button.title = 'Descargar track GPX';
           button.style.cssText = `
@@ -178,23 +207,20 @@ async function initLeafletMaps(): Promise<void> {
           button.onmouseout = () => { button.style.background = 'white'; };
           L.DomEvent.on(button, 'click', () => {
             const filename = config.gpxFileName;
-            const baseUrl = document.documentElement.getAttribute('data-base-url') || '';
-            const url = `${baseUrl}gpx/strava/${filename}`;
+            const url = `${getSiteBasePath()}gpx/strava/${filename}`;
             const link = document.createElement('a');
             link.href = url;
-            link.download = filename;
+            link.download = filename ?? 'track.gpx';
             link.click();
           });
           L.DomEvent.disableClickPropagation(button);
-          return container;
+          return controlContainer;
         },
       });
       new DownloadControl({ position: 'topright' }).addTo(map);
 
-      // Mostrar la trayectoria GPX en el mapa
-      const baseUrl = document.documentElement.getAttribute('data-base-url') || '';
-      const gpxUrl = `${baseUrl}gpx/strava/${config.gpxFileName}`;
-      
+      const gpxUrl = `${getSiteBasePath()}gpx/strava/${config.gpxFileName}`;
+
       new L.GPX(gpxUrl, {
         async: true,
         marker_options: {
@@ -205,59 +231,52 @@ async function initLeafletMaps(): Promise<void> {
         polyline_options: {
           color: '#ff0000',
           weight: 4,
-          opacity: 0.8
-        }
-      }).on('loaded', function(e) {
-        // El track ha cargado, ahora encuadramos y forzamos el redibujado del mapa
-        map.fitBounds(e.target.getBounds());
-        
-        // Forzar un redibujado después de un pequeño retraso para asegurar que el layout esté listo
-        setTimeout(() => {
-          map.invalidateSize();
-        }, 300);
-        
-      }).on('error', function(e) {
-        console.error('Error loading GPX:', e);
-      }).addTo(map);
+          opacity: 0.8,
+        },
+      })
+        .on('loaded', function loaded(this: { getBounds: () => unknown }) {
+          map.fitBounds(this.getBounds());
+          scheduleMapResize(map);
+        })
+        .on('error', function error() {
+          scheduleMapResize(map);
+        })
+        .addTo(map);
     }
 
-    // SOLUCIÓN CLAVE: Forzar invalidateSize después de la inicialización para corregir problemas de dimensionamiento
-    // Esto asegura que el mapa se redimensione correctamente incluso si el contenedor aún no tiene su tamaño final
-    setTimeout(() => {
-      map.invalidateSize();
-    }, 100);
+    scheduleMapResize(map);
   });
 }
 
-// Manejar la inicialización tanto en carga inicial como en transiciones de Swup
-if (typeof document !== 'undefined') {
-  // Inicializar cuando el DOM esté listo
+function initializeLeafletMaps(): void {
+  requestAnimationFrame(() => {
+    void initLeafletMaps().then(() => {
+      invalidateAllLeafletMaps();
+    });
+  });
+}
+
+if (typeof window !== 'undefined') {
+  window.initializeLeafletMaps = initializeLeafletMaps;
+
   if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', initLeafletMaps);
+    document.addEventListener('DOMContentLoaded', initializeLeafletMaps);
   } else {
-    initLeafletMaps();
+    initializeLeafletMaps();
   }
 
-  // Re-inicializar después de cada transición de Swup
-  document.addEventListener('swup:page:view', () => {
-    // Pequeño retraso para asegurar que el DOM de la nueva página esté completamente renderizado
-    setTimeout(initLeafletMaps, 50);
+  window.addEventListener('load', () => {
+    initializeLeafletMaps();
+    invalidateAllLeafletMaps();
   });
 
-  // También escuchar eventos de redimensionamiento de ventana para casos especiales
+  window.addEventListener('hashchange', () => {
+    setTimeout(invalidateAllLeafletMaps, 50);
+    setTimeout(invalidateAllLeafletMaps, 300);
+  });
+
   window.addEventListener('resize', () => {
-    // Actualizar todos los mapas Leaflet existentes
-    const maps = document.querySelectorAll('.leaflet-map-container[data-leaflet-initialized]');
-    maps.forEach((container) => {
-      // Este enfoque es simplificado; en una implementación más robusta, mantendríamos referencias a los objetos mapa
-      // Pero para nuestro propósito, reinicializaremos si es necesario
-      if (!container.dataset.leafletUpdatable) {
-        container.dataset.leafletUpdatable = 'true';
-        setTimeout(() => {
-          delete container.dataset.leafletUpdatable;
-        }, 100);
-      }
-    });
+    invalidateAllLeafletMaps();
   });
 }
 

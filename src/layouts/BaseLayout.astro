@@ -1291,11 +1291,19 @@ const scrollbarClass = siteConfig.hideScrollBar ? '' : 'show-scrollbars';
         window.initializeLinkedMentions();
       }
 
+      if (window.initializeLeafletMaps) {
+        window.initializeLeafletMaps();
+      }
+
       // Setup smooth scrolling for anchor links
       setupSmoothScrolling();
 
-      // Handle initial hash scroll (if URL has hash)
+      // Handle initial hash scroll (if URL has hash), then refresh maps after layout settles
       handleInitialHashScroll();
+      if (window.initializeLeafletMaps) {
+        setTimeout(() => window.initializeLeafletMaps?.(), 300);
+        setTimeout(() => window.initializeLeafletMaps?.(), 900);
+      }
     });
 
     // Command Palette Keyboard Shortcut Handler
@@ -1411,7 +1419,14 @@ const scrollbarClass = siteConfig.hideScrollBar ? '' : 'show-scrollbars';
           if (window.initializeImagePreloader) window.initializeImagePreloader();
           if (window.initializeGraphModal) window.initializeGraphModal();
           if (window.initializeLinkedMentions) window.initializeLinkedMentions();
+          if (window.initializeLeafletMaps) window.initializeLeafletMaps();
           // ...otros widgets que expongan inicializador global
+        });
+
+        window.swup.hooks.on('visit:end', () => {
+          if (window.initializeLeafletMaps) {
+            setTimeout(() => window.initializeLeafletMaps?.(), 100);
+          }
         });
       } else if (swupRetryCount < maxSwupRetries) {
         swupRetryCount++;

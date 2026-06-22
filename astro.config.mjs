@@ -1,5 +1,4 @@
 import { defineConfig } from 'astro/config';
-import tailwind from '@astrojs/tailwind';
 import sitemap from '@astrojs/sitemap';
 import mdx from '@astrojs/mdx';
 import { remarkInternalLinks, remarkFolderImages, remarkImageCaptions } from './src/utils/internallinks.ts';
@@ -14,6 +13,7 @@ import { remarkObsidianComments } from './src/utils/remark-obsidian-comments.ts'
 import remarkObsidianImageSize from './src/utils/remark-obsidian-image-size.ts';
 import remarkMath from 'remark-math';
 import remarkReadingTime from 'remark-reading-time';
+import tailwindcss from '@tailwindcss/vite';
 import remarkToc from 'remark-toc';
 import remarkBreaks from 'remark-breaks';
 import rehypeKatex from 'rehype-katex';
@@ -104,7 +104,7 @@ image: {
   },
   integrations: [
     refreshContentOnChange(),
-    tailwind(),
+
     sitemap(),
     mdx(),
     swup({
@@ -211,7 +211,8 @@ image: {
     optimizeDeps: {
       exclude: ['astro:content']
     },
-    exclude: ['**/_redirects']
+
+      plugins: [tailwindcss()],
   },
   build: {
     assets: '_assets'

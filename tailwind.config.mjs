@@ -1,5 +1,6 @@
 
 import { siteConfig, getFontFamily } from './src/config.ts';
+import typography from '@tailwindcss/typography';
 
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -151,7 +152,7 @@ export default {
     },
   },
   plugins: [
-    require('@tailwindcss/typography'),
+      typography,
     function({ addUtilities }) {
       addUtilities({
         '.scrollbar-hide': {

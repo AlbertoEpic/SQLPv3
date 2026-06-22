@@ -29,44 +29,16 @@
   },
   {
     "id": "gpx-0005",
-    "name": "Skimo - Peña Sabocos",
-    "file": "Peña_Sabocos-skimo.gpx",
-    "start_date": "2026-06-03T06:02:49.000Z",
+    "name": "La Raca Sunset",
+    "file": "La_Raca_Sunset.gpx",
+    "start_date": "2026-03-18T15:55:09Z",
     "status": "ok"
   },
   {
     "id": "gpx-0006",
-    "name": "Skimo: Aspe 2645m por la cara sur",
-    "file": "Aspe-skimo.gpx",
-    "start_date": "2026-03-24T07:30:16Z",
-    "status": "ok"
-  },
-  {
-    "id": "gpx-0007",
-    "name": "Skimo: Collarada 2883m, debimos subir antes...",
-    "file": "Collarada-skimo.gpx",
-    "start_date": "2026-04-10T05:50:01Z",
-    "status": "ok"
-  },
-  {
-    "id": "gpx-0008",
-    "name": "Skimo: Feniás 2846m primaveral",
-    "file": "Feniás-skimo.gpx",
-    "start_date": "2026-04-17T05:07:38Z",
-    "status": "ok"
-  },
-  {
-    "id": "gpx-0009",
-    "name": "Skimo: Peña Sabocos despedida temporada skimo 2025/2026",
+    "name": "Skimo - Peña Sabocos",
     "file": "Peña_Sabocos-skimo.gpx",
     "start_date": "2026-06-03T06:02:49.000Z",
     "status": "ok"
-  },
-  {
-    "id": "gpx-0010",
-    "name": "LRS: La Raca Sunset - Skimo",
-    "file": "La_Raca_Sunset.gpx",
-    "start_date": null,
-    "status": null
   }
 ]
