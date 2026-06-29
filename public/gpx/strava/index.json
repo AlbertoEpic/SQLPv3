@@ -8,34 +8,41 @@
   },
   {
     "id": "gpx-0002",
+    "name": "Barranco Forcos",
+    "file": "Barranco_Forcos.gpx",
+    "start_date": "2026-06-28T08:51:33Z",
+    "status": "ok"
+  },
+  {
+    "id": "gpx-0003",
     "name": "Skimo: Collarada al tran-trán...",
     "file": "Collarada-skimo.gpx",
     "start_date": "2026-04-10T05:50:01Z",
     "status": "ok"
   },
   {
-    "id": "gpx-0003",
+    "id": "gpx-0004",
     "name": "Demo Leaflet Route",
     "file": "demo-route.gpx",
     "start_date": "2026-06-04T08:00:00Z",
     "status": "ok"
   },
   {
-    "id": "gpx-0004",
+    "id": "gpx-0005",
     "name": "Skimo: Feniás con Myriam...",
     "file": "Feniás-skimo.gpx",
     "start_date": "2026-04-17T05:07:38Z",
     "status": "ok"
   },
   {
-    "id": "gpx-0005",
+    "id": "gpx-0006",
     "name": "La Raca Sunset",
     "file": "La_Raca_Sunset.gpx",
     "start_date": "2026-03-18T15:55:09Z",
     "status": "ok"
   },
   {
-    "id": "gpx-0006",
+    "id": "gpx-0007",
     "name": "Skimo - Peña Sabocos",
     "file": "Peña_Sabocos-skimo.gpx",
     "start_date": "2026-06-03T06:02:49.000Z",
