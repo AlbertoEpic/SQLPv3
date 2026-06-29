@@ -85,6 +85,7 @@ export default defineConfig({
   '/contact-me': '/contact',
   '/contact-us': '/contact',
   '/privacy': '/privacy-policy',
+  '/posts/barranco-del-forcos': '/posts/barranco-forcos',
   '/projects/obsidian-astro-composer': '/projects/astro-composer',
   '/projects/obsidian-astro-suite': '/projects/vault-cms',
   '/docs/api-reference': '/docs/api',

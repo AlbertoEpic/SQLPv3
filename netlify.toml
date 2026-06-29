@@ -176,6 +176,12 @@
   force = true
 
 [[redirects]]
+  from = "/posts/barranco-del-forcos"
+  to = "/posts/barranco-forcos"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/projects/obsidian-astro-composer"
   to = "/projects/astro-composer"
   status = 301
