@@ -383,7 +383,7 @@ a:hover {
 }
 
 .wikilink-broken {
-  @apply text-red-500 cursor-not-allowed line-through no-underline;
+  @apply text-red-500 cursor-not-allowed line-through;
 }
 
 /* Code Styles - Working with Tailwind prose plugin */

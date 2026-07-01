@@ -157,15 +157,6 @@ if (existsSync(indexPath)) {
       <h2 class="text-lg font-semibold text-primary-900 dark:text-primary-50">
         Ruta <span id="strava-map-status" class="text-base font-normal text-primary-500 dark:text-primary-400">Buscando GPX asociado...</span>
       </h2>
-      <a
-        id="strava-map-download"
-        class="hidden text-sm font-medium text-highlight-600 dark:text-highlight-400 hover:underline"
-        href="#"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Descargar GPX
-      </a>
     </div>
 
     <div id="strava-map-stats" class="mb-3 hidden">
@@ -189,13 +180,13 @@ if (existsSync(indexPath)) {
       </div>
     </div>
 
-    <div id="strava-map-fullscreen-shell">
+    <div id="strava-map-fullscreen-shell" class="relative">
       <div
         id="strava-map-canvas"
         data-gpx-file={matchedEntry.file}
         data-gpx-name={matchedEntry.name || matchedEntry.file}
         data-base-url={import.meta.env.BASE_URL}
-        class="aspect-[2/1] w-full overflow-hidden rounded-lg bg-primary-100 dark:bg-primary-800"
+        class="aspect-2/1 w-full overflow-hidden rounded-lg bg-primary-100 dark:bg-primary-800"
       ></div>
 
       <div id="strava-elevation-wrap" class="relative mt-2 hidden">
@@ -517,17 +508,42 @@ if (existsSync(indexPath)) {
     new FullscreenControl().addTo(map);
   }
 
+  function addDownloadControl(map, gpxUrl) {
+    const DownloadControl = window.L.Control.extend({
+      options: { position: 'topright' },
+      onAdd() {
+        const container = window.L.DomUtil.create('div', 'leaflet-bar leaflet-control');
+        const link = window.L.DomUtil.create('a', '', container);
+        link.href = gpxUrl;
+        link.target = '_blank';
+        link.rel = 'noopener noreferrer';
+        link.title = 'Descargar GPX';
+        link.setAttribute('role', 'button');
+        link.setAttribute('aria-label', 'Descargar GPX');
+        link.textContent = 'Descargar GPX';
+        link.style.cssText = 'display:flex;align-items:center;justify-content:center;padding:0 12px;height:30px;color:#fff;text-decoration:none;font-size:12px;font-weight:600;white-space:nowrap;';
+
+        window.L.DomEvent.on(link, 'click', (e) => {
+          window.L.DomEvent.stopPropagation(e);
+        });
+
+        return container;
+      },
+    });
+
+    new DownloadControl().addTo(map);
+  }
+
   // ---------- Main mount ----------
 
   async function mountStravaMap() {
     const canvas = document.getElementById('strava-map-canvas');
     const status = document.getElementById('strava-map-status');
-    const download = document.getElementById('strava-map-download');
     const statsEl = document.getElementById('strava-map-stats');
     const elevWrap = document.getElementById('strava-elevation-wrap');
     const fullscreenShell = document.getElementById('strava-map-fullscreen-shell');
 
-    if (!canvas || !status || !download) return;
+    if (!canvas || !status) return;
 
     if (statsEl) statsEl.classList.add('hidden');
     if (elevWrap) elevWrap.classList.add('hidden');
@@ -546,8 +562,6 @@ if (existsSync(indexPath)) {
       if (!gpxFile) return;
 
       const gpxUrl = withBase(`gpx/strava/${gpxFile}`);
-      download.href = gpxUrl;
-      download.classList.remove('hidden');
       status.textContent = gpxName;
 
       await ensureLeafletAssets();
@@ -562,10 +576,6 @@ if (existsSync(indexPath)) {
         maxZoom: 17,
         attribution: '&copy; <a href="https://opentopomap.org" target="_blank">OpenTopoMap</a> &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a>',
       });
-      const layerOSM = window.L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        maxZoom: 19,
-        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a>',
-      });
       const layerSatellite = window.L.tileLayer(
         'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
           maxZoom: 19,
@@ -574,8 +584,9 @@ if (existsSync(indexPath)) {
       );
 
       layerTopo.addTo(map);
+      addDownloadControl(map, gpxUrl);
       window.L.control.layers(
-        { 'Topográfico': layerTopo, 'Estándar': layerOSM, 'Satélite': layerSatellite },
+        { 'Topográfico': layerTopo, 'Satélite': layerSatellite },
         {}, { position: 'topright', collapsed: true }
       ).addTo(map);
 

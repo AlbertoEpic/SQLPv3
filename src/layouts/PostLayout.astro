@@ -351,7 +351,7 @@ const showLocalGraph = siteConfig.postOptions.graphView.enabled && siteConfig.po
 
       <!-- Desktop Left Sidebar - Graph (nuevo recuadro similar al TOC) -->
       {showLocalGraph && (
-        <div class="hidden xl:block absolute top-0 right-full mr-1 w-[280px] h-full">
+        <div class="hidden xl:block absolute top-0 right-full mr-1 w-70 h-full">
           <div class="sticky top-24 pb-6 bg-white dark:bg-primary-900 rounded-xl border border-primary-200 dark:border-primary-700 shadow-lg backdrop-blur-sm bg-opacity-95 dark:bg-opacity-95 flex flex-col items-stretch" id="graph-sidebar">
             <div class="font-semibold text-primary-900 dark:text-primary-50 mb-3 flex items-center justify-between text-sm px-4 pt-4 pb-2">
               <span>Relaciones neuronales...</span>
@@ -365,7 +365,7 @@ const showLocalGraph = siteConfig.postOptions.graphView.enabled && siteConfig.po
 
       <!-- Desktop Right Sidebar - TOC -->
       {shouldShowTOC && (
-        <div class="hidden xl:block absolute top-0 left-full ml-1 w-[280px] h-full">
+        <div class="hidden xl:block absolute top-0 left-full ml-1 w-70 h-full">
           <div class="sticky top-24 pb-6" id="toc-sidebar">
             <TableOfContents headings={toc} />
           </div>

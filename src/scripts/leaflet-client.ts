@@ -23,7 +23,7 @@ interface MapConfig {
   center: [number, number];
   zoom?: number;
   height?: string;
-  tiles?: 'osm' | 'carto-light' | 'carto-dark' | 'auto';
+  tiles?: 'topo' | 'esri' | 'auto';
   markers?: MarkerConfig[];
   polylines?: PolylineConfig[];
   polygons?: PolygonConfig[];
@@ -35,23 +35,20 @@ type LeafletMap = {
   fitBounds: (bounds: unknown) => void;
 };
 
+type LeafletControl = {
+  addTo: (map: LeafletMap) => void;
+};
+
 const TILE_PROVIDERS = {
-  osm: {
-    url: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
-    attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+  topo: {
+    url: 'https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png',
+    attribution: '&copy; <a href="https://opentopomap.org" target="_blank" rel="noreferrer">OpenTopoMap</a> &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noreferrer">OpenStreetMap</a>',
+    maxZoom: 17,
+  },
+  esri: {
+    url: 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
+    attribution: '&copy; <a href="https://www.esri.com" target="_blank" rel="noreferrer">Esri</a>',
     maxZoom: 19,
-  },
-  'carto-light': {
-    url: 'https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',
-    attribution:
-      '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors © <a href="https://carto.com/attributions">CARTO</a>',
-    maxZoom: 20,
-  },
-  'carto-dark': {
-    url: 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',
-    attribution:
-      '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors © <a href="https://carto.com/attributions">CARTO</a>',
-    maxZoom: 20,
   },
 } as const;
 
@@ -70,9 +67,9 @@ function getCurrentTheme(): 'light' | 'dark' {
 
 function resolveTiles(tiles: MapConfig['tiles']): (typeof TILE_PROVIDERS)[keyof typeof TILE_PROVIDERS] {
   if (!tiles || tiles === 'auto') {
-    return getCurrentTheme() === 'dark' ? TILE_PROVIDERS['carto-dark'] : TILE_PROVIDERS['carto-light'];
+    return TILE_PROVIDERS.topo;
   }
-  return TILE_PROVIDERS[tiles] ?? TILE_PROVIDERS.osm;
+  return TILE_PROVIDERS[tiles] ?? TILE_PROVIDERS.topo;
 }
 
 function invalidateAllLeafletMaps(): void {
@@ -85,6 +82,68 @@ function scheduleMapResize(map: LeafletMap): void {
   [0, 100, 300, 600].forEach((delay) => {
     setTimeout(() => map.invalidateSize(), delay);
   });
+}
+
+function addFullscreenControl(L: any, map: LeafletMap, container: HTMLElement): void {
+  const FullscreenControl = L.Control.extend({
+    onAdd() {
+      const controlContainer = L.DomUtil.create('div', 'leaflet-control leaflet-bar');
+      const button = L.DomUtil.create('button', '', controlContainer);
+
+      button.type = 'button';
+      button.innerHTML = '⛶';
+      button.title = 'Pantalla completa';
+      button.setAttribute('aria-label', 'Pantalla completa');
+      button.style.cssText = `
+        width: 32px;
+        height: 32px;
+        display: grid;
+        place-items: center;
+        cursor: pointer;
+        font-size: 16px;
+        line-height: 1;
+        font-weight: 700;
+        background: white;
+        border: none;
+        border-radius: 4px;
+        box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+        color: #333;
+      `;
+
+      const updateButtonState = () => {
+        const isFullscreen = document.fullscreenElement === container || (document as any).webkitFullscreenElement === container;
+        button.innerHTML = isFullscreen ? '⤡' : '⛶';
+        button.title = isFullscreen ? 'Salir de pantalla completa' : 'Pantalla completa';
+        button.setAttribute('aria-label', button.title);
+      };
+
+      button.addEventListener('click', () => {
+        const isFullscreen = document.fullscreenElement === container || (document as any).webkitFullscreenElement === container;
+        if (!isFullscreen) {
+          (container.requestFullscreen || (container as any).webkitRequestFullscreen || (() => {})).call(container);
+        } else {
+          (document.exitFullscreen || (document as any).webkitExitFullscreen || (() => {})).call(document);
+        }
+      });
+
+      L.DomEvent.disableClickPropagation(button);
+      L.DomEvent.disableScrollPropagation(button);
+
+      document.addEventListener('fullscreenchange', () => {
+        updateButtonState();
+        map.invalidateSize();
+      });
+      document.addEventListener('webkitfullscreenchange', () => {
+        updateButtonState();
+        map.invalidateSize();
+      });
+
+      updateButtonState();
+      return controlContainer;
+    },
+  });
+
+  new FullscreenControl().addTo(map);
 }
 
 async function ensureLeafletAssets(needsGpx: boolean): Promise<{ L: any }> {
@@ -157,10 +216,18 @@ async function initLeafletMaps(): Promise<void> {
 
     mapInstances.set(container, map);
 
-    L.tileLayer(tileConfig.url, {
-      attribution: tileConfig.attribution,
-      maxZoom: tileConfig.maxZoom,
-    }).addTo(map);
+    const topoLayer = L.tileLayer(TILE_PROVIDERS.topo.url, {
+      attribution: TILE_PROVIDERS.topo.attribution,
+      maxZoom: TILE_PROVIDERS.topo.maxZoom,
+    });
+    const esriLayer = L.tileLayer(TILE_PROVIDERS.esri.url, {
+      attribution: TILE_PROVIDERS.esri.attribution,
+      maxZoom: TILE_PROVIDERS.esri.maxZoom,
+    });
+
+    const activeLayer = tileConfig === TILE_PROVIDERS.esri ? esriLayer : topoLayer;
+
+    activeLayer.addTo(map);
 
     (config.markers ?? []).forEach((m) => {
       const marker = L.marker([m.lat, m.lng], { title: m.title ?? '' }).addTo(map);
@@ -243,6 +310,14 @@ async function initLeafletMaps(): Promise<void> {
         })
         .addTo(map);
     }
+
+    L.control.layers(
+      { 'Topográfico': topoLayer, 'Satélite': esriLayer },
+      {},
+      { position: 'topright', collapsed: true }
+    ).addTo(map);
+
+    addFullscreenControl(L, map, container);
 
     scheduleMapResize(map);
   });
