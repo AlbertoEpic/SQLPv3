@@ -28,6 +28,7 @@ interface MapConfig {
   polylines?: PolylineConfig[];
   polygons?: PolygonConfig[];
   gpxFileName?: string;
+  elevationTargetId?: string;
 }
 
 type LeafletMap = {
@@ -53,6 +54,47 @@ const TILE_PROVIDERS = {
 } as const;
 
 const mapInstances = new WeakMap<HTMLElement, LeafletMap>();
+
+function ensureStylesheet(id: string, href: string): Promise<void> {
+  const existing = document.getElementById(id) as HTMLLinkElement | null;
+  if (existing) return Promise.resolve();
+
+  return new Promise((resolve) => {
+    const link = document.createElement('link');
+    link.id = id;
+    link.rel = 'stylesheet';
+    link.href = href;
+    link.onload = () => resolve();
+    link.onerror = () => resolve();
+    document.head.appendChild(link);
+    setTimeout(resolve, 2000);
+  });
+}
+
+function loadScript(src: string): Promise<void> {
+  return new Promise((resolve, reject) => {
+    const script = document.createElement('script');
+    script.src = src;
+    script.async = true;
+    script.onload = () => resolve();
+    script.onerror = () => reject(new Error(`No se pudo cargar ${src}`));
+    document.head.appendChild(script);
+  });
+}
+
+async function loadScriptWithFallback(sources: string[]): Promise<void> {
+  let lastError: unknown = null;
+  for (const src of sources) {
+    try {
+      await loadScript(src);
+      return;
+    } catch (error) {
+      lastError = error;
+    }
+  }
+
+  throw lastError instanceof Error ? lastError : new Error('No se pudo cargar el script requerido.');
+}
 
 function getSiteBasePath(): string {
   const raw = document.documentElement.getAttribute('data-base-url') || '/';
@@ -84,7 +126,56 @@ function scheduleMapResize(map: LeafletMap): void {
   });
 }
 
-function addFullscreenControl(L: any, map: LeafletMap, container: HTMLElement): void {
+function addFullscreenControl(L: any, map: LeafletMap, container: HTMLElement, config: MapConfig): void {
+  const fullscreenTarget = container.closest<HTMLElement>('.leaflet-map-shell') ?? container;
+  const elevationTarget = config.elevationTargetId
+    ? document.getElementById(config.elevationTargetId)
+    : null;
+
+  function getFullscreenRows(): string {
+    if (typeof window === 'undefined') return '3fr 1fr';
+    const mobileViewport = window.matchMedia('(max-width: 768px), (max-height: 800px)').matches;
+    return mobileViewport ? '7fr 3fr' : '3fr 1fr';
+  }
+
+  function applyFullscreenLayout(isFullscreen: boolean): void {
+    if (fullscreenTarget !== container) {
+      if (isFullscreen) {
+        fullscreenTarget.style.display = 'grid';
+        fullscreenTarget.style.gridTemplateRows = getFullscreenRows();
+        fullscreenTarget.style.gap = '0.5rem';
+        fullscreenTarget.style.padding = '0.75rem';
+        fullscreenTarget.style.boxSizing = 'border-box';
+        fullscreenTarget.style.height = '100dvh';
+        fullscreenTarget.style.width = '100vw';
+        fullscreenTarget.style.overflow = 'hidden';
+      } else {
+        fullscreenTarget.style.removeProperty('display');
+        fullscreenTarget.style.removeProperty('grid-template-rows');
+        fullscreenTarget.style.removeProperty('gap');
+        fullscreenTarget.style.removeProperty('padding');
+        fullscreenTarget.style.removeProperty('box-sizing');
+        fullscreenTarget.style.removeProperty('height');
+        fullscreenTarget.style.removeProperty('width');
+        fullscreenTarget.style.removeProperty('overflow');
+      }
+    }
+
+    if (isFullscreen) {
+      container.style.height = '100%';
+      if (elevationTarget) {
+        elevationTarget.style.height = '100%';
+        elevationTarget.style.minHeight = '0';
+      }
+    } else {
+      container.style.height = config.height ?? '400px';
+      if (elevationTarget) {
+        elevationTarget.style.removeProperty('height');
+        elevationTarget.style.removeProperty('min-height');
+      }
+    }
+  }
+
   const FullscreenControl = L.Control.extend({
     onAdd() {
       const controlContainer = L.DomUtil.create('div', 'leaflet-control leaflet-bar');
@@ -111,16 +202,17 @@ function addFullscreenControl(L: any, map: LeafletMap, container: HTMLElement): 
       `;
 
       const updateButtonState = () => {
-        const isFullscreen = document.fullscreenElement === container || (document as any).webkitFullscreenElement === container;
+        const isFullscreen = document.fullscreenElement === fullscreenTarget || (document as any).webkitFullscreenElement === fullscreenTarget;
+        applyFullscreenLayout(isFullscreen);
         button.innerHTML = isFullscreen ? '⤡' : '⛶';
         button.title = isFullscreen ? 'Salir de pantalla completa' : 'Pantalla completa';
         button.setAttribute('aria-label', button.title);
       };
 
       button.addEventListener('click', () => {
-        const isFullscreen = document.fullscreenElement === container || (document as any).webkitFullscreenElement === container;
+        const isFullscreen = document.fullscreenElement === fullscreenTarget || (document as any).webkitFullscreenElement === fullscreenTarget;
         if (!isFullscreen) {
-          (container.requestFullscreen || (container as any).webkitRequestFullscreen || (() => {})).call(container);
+          (fullscreenTarget.requestFullscreen || (fullscreenTarget as any).webkitRequestFullscreen || (() => {})).call(fullscreenTarget);
         } else {
           (document.exitFullscreen || (document as any).webkitExitFullscreen || (() => {})).call(document);
         }
@@ -147,27 +239,30 @@ function addFullscreenControl(L: any, map: LeafletMap, container: HTMLElement): 
 }
 
 async function ensureLeafletAssets(needsGpx: boolean): Promise<{ L: any }> {
-  if (!document.getElementById('leaflet-css')) {
-    const link = document.createElement('link');
-    link.id = 'leaflet-css';
-    link.rel = 'stylesheet';
-    link.href = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css';
-    link.integrity = 'sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=';
-    link.crossOrigin = '';
-    document.head.appendChild(link);
-
-    await new Promise<void>((resolve) => {
-      link.onload = () => resolve();
-      link.onerror = () => resolve();
-      setTimeout(resolve, 2000);
-    });
-  }
+  await ensureStylesheet('leaflet-css', 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css');
 
   const leafletModule = await import('leaflet');
   const L = leafletModule.default ?? leafletModule;
 
   if (needsGpx) {
     await import('leaflet-gpx');
+
+    await ensureStylesheet(
+      'leaflet-elevation-css',
+      'https://unpkg.com/@raruto/leaflet-elevation@2.5.2/dist/leaflet-elevation.min.css'
+    );
+
+    const elevationReady = typeof L?.control?.elevation === 'function';
+    if (!elevationReady) {
+      await loadScriptWithFallback([
+        'https://unpkg.com/d3@7.9.0/dist/d3.min.js',
+        'https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js',
+      ]);
+      await loadScriptWithFallback([
+        'https://unpkg.com/@raruto/leaflet-elevation@2.5.2/dist/leaflet-elevation.min.js',
+        'https://cdn.jsdelivr.net/npm/@raruto/leaflet-elevation@2.5.2/dist/leaflet-elevation.min.js',
+      ]);
+    }
   }
 
   return { L };
@@ -287,6 +382,7 @@ async function initLeafletMaps(): Promise<void> {
       new DownloadControl({ position: 'topright' }).addTo(map);
 
       const gpxUrl = `${getSiteBasePath()}gpx/strava/${config.gpxFileName}`;
+      const elevationTargetSelector = config.elevationTargetId ? `#${config.elevationTargetId}` : null;
 
       new L.GPX(gpxUrl, {
         async: true,
@@ -302,6 +398,35 @@ async function initLeafletMaps(): Promise<void> {
         },
       })
         .on('loaded', function loaded(this: { getBounds: () => unknown }) {
+          if (elevationTargetSelector && typeof L?.control?.elevation === 'function') {
+            const elevationTarget = document.querySelector<HTMLElement>(elevationTargetSelector);
+            if (elevationTarget) {
+              const theme = getCurrentTheme() === 'dark' ? 'magenta-theme' : 'lightblue-theme';
+              elevationTarget.classList.remove('hidden');
+
+              const elevationControl = L.control.elevation({
+                detached: true,
+                elevationDiv: elevationTargetSelector,
+                theme,
+                followMarker: true,
+                autohide: false,
+                collapsed: false,
+                summary: 'inline',
+                slope: false,
+                speed: false,
+                acceleration: false,
+                waypoints: false,
+                distanceMarkers: false,
+                gpxOptions: {
+                  async: true,
+                },
+              });
+
+              elevationControl.addTo(map);
+              elevationControl.load(gpxUrl);
+            }
+          }
+
           map.fitBounds(this.getBounds());
           scheduleMapResize(map);
         })
@@ -317,7 +442,7 @@ async function initLeafletMaps(): Promise<void> {
       { position: 'topright', collapsed: true }
     ).addTo(map);
 
-    addFullscreenControl(L, map, container);
+    addFullscreenControl(L, map, container, config);
 
     scheduleMapResize(map);
   });

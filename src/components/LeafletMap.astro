@@ -45,14 +45,69 @@ const {
 } = Astro.props;
 
 const mapId = `leaflet-map-${Math.random().toString(36).slice(2, 11)}`;
-const config = { center, zoom, height, tiles, markers, polylines, polygons, gpxFileName };
+const elevationTargetId = gpxFileName ? `${mapId}-elevation` : undefined;
+const config = { center, zoom, height, tiles, markers, polylines, polygons, gpxFileName, elevationTargetId };
 const encoded = encodeURIComponent(JSON.stringify(config));
 ---
 
-<div
-  id={mapId}
-  class={`leaflet-map-container not-prose ${className}`}
-  data-map-config={encoded}
-  style={`height:${height};width:100%;border-radius:0.5rem;overflow:hidden;position:relative;`}
-  aria-label="Mapa interactivo"
-></div>
+<div class={`leaflet-map-shell not-prose ${className}`}>
+  <div
+    id={mapId}
+    class="leaflet-map-container"
+    data-map-config={encoded}
+    style={`height:${height};width:100%;border-radius:0.5rem;overflow:hidden;position:relative;`}
+    aria-label="Mapa interactivo"
+  ></div>
+
+  {elevationTargetId && (
+    <div
+      id={elevationTargetId}
+      class="leaflet-elevation-profile hidden mt-2 h-80 w-full rounded-lg border border-primary-200 bg-primary-50 dark:border-primary-700 dark:bg-primary-900"
+      aria-label="Perfil de elevacion"
+    ></div>
+  )}
+</div>
+
+<style is:global>
+  .leaflet-map-shell:fullscreen,
+  .leaflet-map-shell:-webkit-full-screen,
+  .leaflet-map-shell:-moz-full-screen {
+    height: 100vh !important;
+    width: 100vw !important;
+    background: rgb(var(--color-primary-900));
+    padding: 0.75rem;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+    gap: 0.5rem;
+    align-items: stretch;
+    justify-items: stretch;
+    overflow: hidden;
+  }
+
+  .leaflet-map-shell:fullscreen .leaflet-map-container,
+  .leaflet-map-shell:-webkit-full-screen .leaflet-map-container,
+  .leaflet-map-shell:-moz-full-screen .leaflet-map-container {
+    grid-row: 1;
+    min-height: 0;
+    height: 100% !important;
+    border-radius: 0 !important;
+  }
+
+  .leaflet-map-shell:fullscreen .leaflet-elevation-profile,
+  .leaflet-map-shell:-webkit-full-screen .leaflet-elevation-profile,
+  .leaflet-map-shell:-moz-full-screen .leaflet-elevation-profile {
+    grid-row: 2;
+    margin-top: 0 !important;
+    min-height: 0;
+    height: 100% !important;
+  }
+
+  @media (max-width: 768px), (max-height: 800px) {
+    .leaflet-map-shell:fullscreen,
+    .leaflet-map-shell:-webkit-full-screen,
+    .leaflet-map-shell:-moz-full-screen {
+      grid-template-rows: 7fr 3fr;
+    }
+  }
+</style>

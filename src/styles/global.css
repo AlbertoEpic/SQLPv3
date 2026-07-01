@@ -1529,3 +1529,18 @@ svg:has(text:contains("mermaid version")) {
     @apply my-6;
   }
 }
+
+/* Leaflet elevation profile sizing */
+.leaflet-elevation-profile {
+  min-height: 20rem;
+}
+
+.leaflet-elevation-profile .elevation-control {
+  height: 100% !important;
+  min-height: 100% !important;
+  margin: 0 !important;
+}
+
+.leaflet-elevation-profile .elevation-control svg {
+  height: 100% !important;
+}

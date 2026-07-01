@@ -10,7 +10,7 @@
     "semantic_hash": ""
   },
   "astro.config.mjs": {
-    "mtime": 1782894459.4255092,
+    "mtime": 1782925269.5262249,
     "ast_hash": "d437fc2556e9edf3bf3fe25599a629a7",
     "semantic_hash": ""
   },
@@ -50,12 +50,12 @@
     "semantic_hash": ""
   },
   "public/gpx/strava/index.json": {
-    "mtime": 1782894459.2774737,
+    "mtime": 1782925269.3787043,
     "ast_hash": "71e3df0da7013cba49ceda82d4e9e17c",
     "semantic_hash": ""
   },
   "public/gpx/strava/manual-links.json": {
-    "mtime": 1782894459.2784739,
+    "mtime": 1782925269.3797033,
     "ast_hash": "697ba76302d0804b796af22be49fd7de",
     "semantic_hash": ""
   },
@@ -65,7 +65,7 @@
     "semantic_hash": ""
   },
   "public/scripts/home-graph-client.js": {
-    "mtime": 1782894363.967532,
+    "mtime": 1782894663.3918316,
     "ast_hash": "c5b437708cf7a642bd609a388a3b1430",
     "semantic_hash": ""
   },
@@ -140,7 +140,7 @@
     "semantic_hash": ""
   },
   "src/components/CategoryFilter.astro": {
-    "mtime": 1782894358.760456,
+    "mtime": 1782894663.3918316,
     "ast_hash": "f7d7112b461c99067b4d7220d6d22e57",
     "semantic_hash": ""
   },
@@ -180,7 +180,7 @@
     "semantic_hash": ""
   },
   "src/components/HomeGraph.astro": {
-    "mtime": 1782894350.4583466,
+    "mtime": 1782894663.3869402,
     "ast_hash": "2abb344792b7eabaac190ba679aeff18",
     "semantic_hash": ""
   },
@@ -210,8 +210,8 @@
     "semantic_hash": ""
   },
   "src/components/LeafletMap.astro": {
-    "mtime": 1781602695.6815886,
-    "ast_hash": "c013c0236a7d9ad94a7a745cd7f80c8b",
+    "mtime": 1782926743.2575562,
+    "ast_hash": "5a2b7aa063cb6fa66fd9384aa99e6067",
     "semantic_hash": ""
   },
   "src/components/Lightbox.astro": {
@@ -235,8 +235,8 @@
     "semantic_hash": ""
   },
   "src/components/Pagination.astro": {
-    "mtime": 1779290939.7071068,
-    "ast_hash": "923aaf0bf23cde50add7bf17d9e6ab4a",
+    "mtime": 1782895864.5884085,
+    "ast_hash": "03f5e18c8567ae408720c16a6bf1fc07",
     "semantic_hash": ""
   },
   "src/components/PostCard.astro": {
@@ -250,13 +250,13 @@
     "semantic_hash": ""
   },
   "src/components/ProjectCard.astro": {
-    "mtime": 1779290939.709107,
-    "ast_hash": "43d915beeb619f884b435d6e921474c8",
+    "mtime": 1782899283.9007266,
+    "ast_hash": "4e5c88fe8f2f1dde90b93a7799db91c8",
     "semantic_hash": ""
   },
   "src/components/ProjectCategories.astro": {
-    "mtime": 1782756007.2038815,
-    "ast_hash": "e4ab76fac9af8b1d893d19daa570d0d6",
+    "mtime": 1782896585.0724494,
+    "ast_hash": "a8f58671f06a46fa44215e56fa06aa32",
     "semantic_hash": ""
   },
   "src/components/ScrollToTop.astro": {
@@ -270,18 +270,18 @@
     "semantic_hash": ""
   },
   "src/components/StravaRouteMap.astro": {
-    "mtime": 1780658973.8039927,
-    "ast_hash": "e7aaf88fed434475668caaa6433e2d48",
+    "mtime": 1782900103.7871163,
+    "ast_hash": "45ece6433b11790cdb3fb7f016a3d354",
     "semantic_hash": ""
   },
   "src/components/TableOfContents.astro": {
-    "mtime": 1779290939.7111068,
-    "ast_hash": "a3f7c7794173bb4d531e6856c0ce7cbc",
+    "mtime": 1782895175.941468,
+    "ast_hash": "c5cb833daf2b4d4cf1f0ae24cebac712",
     "semantic_hash": ""
   },
   "src/components/Tags.astro": {
-    "mtime": 1779290939.71211,
-    "ast_hash": "25b106b469db5b8b89aa1c2a316dda20",
+    "mtime": 1782896585.0724494,
+    "ast_hash": "ca86324f1095ede2b29fc607be269e06",
     "semantic_hash": ""
   },
   "src/components/ThemeSelector.astro": {
@@ -770,8 +770,8 @@
     "semantic_hash": ""
   },
   "src/layouts/PostLayout.astro": {
-    "mtime": 1782894354.1635025,
-    "ast_hash": "4b8160c8ded0c638c5f5843e7c2d2018",
+    "mtime": 1782899286.0363522,
+    "ast_hash": "825fd814d192cfdd09a37d2d0b1c824b",
     "semantic_hash": ""
   },
   "src/layouts/ProjectLayout.astro": {
@@ -780,13 +780,13 @@
     "semantic_hash": ""
   },
   "src/middleware.ts": {
-    "mtime": 1782894347.2269318,
+    "mtime": 1782894663.3869402,
     "ast_hash": "faf6f9f8c02049ebd2106aae7c93e4c3",
     "semantic_hash": ""
   },
   "src/pages/404.astro": {
-    "mtime": 1782894396.7246802,
-    "ast_hash": "b19cd6826147b70b6cc7c13f2f56d60c",
+    "mtime": 1782895175.9371357,
+    "ast_hash": "bf61afa6d9eb6a570e675b8fd5308496",
     "semantic_hash": ""
   },
   "src/pages/[...slug].astro": {
@@ -850,8 +850,8 @@
     "semantic_hash": ""
   },
   "src/pages/index.astro": {
-    "mtime": 1782753466.375532,
-    "ast_hash": "0c8c55ece37f2f1625b8cb479e25b53a",
+    "mtime": 1782899289.2839496,
+    "ast_hash": "6b7e96236ec82d6cfff50aa0afd2f42d",
     "semantic_hash": ""
   },
   "src/pages/leaflet-demo.astro": {
@@ -870,7 +870,7 @@
     "semantic_hash": ""
   },
   "src/pages/posts/[page].astro": {
-    "mtime": 1782894455.1215448,
+    "mtime": 1782894663.3938355,
     "ast_hash": "7eadf6d1762b5c330910829c50f0f88a",
     "semantic_hash": ""
   },
@@ -880,13 +880,13 @@
     "semantic_hash": ""
   },
   "src/pages/posts/index.astro": {
-    "mtime": 1782894440.100001,
-    "ast_hash": "fbd1a4e616346f353e376570d9a1b9d6",
+    "mtime": 1782899292.7479732,
+    "ast_hash": "8347dfbd854d1186111e6c1469f756db",
     "semantic_hash": ""
   },
   "src/pages/posts/tag/[...tag].astro": {
-    "mtime": 1782894417.0075283,
-    "ast_hash": "14d10a699a0b0674bbd918773cdefe0b",
+    "mtime": 1782895175.9371357,
+    "ast_hash": "e122feea5d2ef18fb461520153c7b25f",
     "semantic_hash": ""
   },
   "src/pages/posts/tag/[...tag]/[page].astro": {
@@ -930,8 +930,8 @@
     "semantic_hash": ""
   },
   "src/scripts/leaflet-client.ts": {
-    "mtime": 1782140978.616283,
-    "ast_hash": "ba46ec585851d6ae4a9c324f8a5dd86b",
+    "mtime": 1782926743.2575562,
+    "ast_hash": "3ca55c62ba3677dd9d8bc1feada65cd8",
     "semantic_hash": ""
   },
   "src/scripts/mermaid-client.ts": {
@@ -1085,7 +1085,7 @@
     "semantic_hash": ""
   },
   "vite.config.mjs": {
-    "mtime": 1782894371.766662,
+    "mtime": 1782894663.3918316,
     "ast_hash": "22ed6bf3c18690662420fac1ef880d46",
     "semantic_hash": ""
   },
