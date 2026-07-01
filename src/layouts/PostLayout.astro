@@ -378,11 +378,12 @@ const showLocalGraph = siteConfig.postOptions.graphView.enabled && siteConfig.po
     <script define:vars={{ posts: visiblePosts, commentsEnabled: siteConfig.postOptions.comments.enabled, postTitle: post.data.title, postSlug: post.id, siteBaseUrl: import.meta.env.BASE_URL }}>
 
       function fixPostAttachmentImageUrls() {
+        const normalizedBase = (siteBaseUrl || '/').replace(/\/$/, '');
         const images = document.querySelectorAll('img');
         images.forEach((img) => {
           const src = img.getAttribute('src');
-          if (src && src.startsWith('/posts/attachments/') && !src.startsWith('/SQLPv3/')) {
-            img.setAttribute('src', `/SQLPv3${src}`);
+          if (src && src.startsWith('/posts/attachments/') && !src.startsWith(`${normalizedBase}/`)) {
+            img.setAttribute('src', `${normalizedBase}${src}`);
           }
         });
       }

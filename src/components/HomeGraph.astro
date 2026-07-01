@@ -1,6 +1,7 @@
 ---
 // Tu frontmatter actual (recogida de datos de Obsidian, etc.)
 // const { nodes, links } = Astro.props;
+import { withBase } from '@/utils/base-url';
 ---
 
 
@@ -14,7 +15,7 @@
 
 <!-- Carga robusta del inicializador desde public/scripts (no desde src/) -->
 <!-- Asegúrate de que d3.js está incluido globalmente en tu layout/base -->
-<script type="module" src="/SQLPv3/scripts/home-graph-client.js"></script>
+<script type="module" src={withBase('/scripts/home-graph-client.js')}></script>
 
 <style>
   /* Tus estilos actuales */

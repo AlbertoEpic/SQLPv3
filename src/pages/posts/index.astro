@@ -267,11 +267,11 @@ const pagination = {
           </div>
         </div>
       </div>
-    </div>
-  </div>
 </BaseLayout>
 
 <style>
+  @reference "tailwindcss";
+
   /* Enhanced posts page styles */
   .posts-grid {
     display: grid;
@@ -282,11 +282,6 @@ const pagination = {
     .posts-grid {
       grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     }
-  }
-
-  /* Tag highlight in header */
-  .tag-highlight {
-    @apply bg-gradient-to-r from-highlight-500 to-highlight-600 text-white;
   }
 
   .category-anchor {

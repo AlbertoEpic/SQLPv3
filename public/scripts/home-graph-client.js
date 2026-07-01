@@ -22,15 +22,9 @@
     // Cargar datos del grafo
     let data;
     try {
-      // Detectar basePath automáticamente
-      let base = '/';
-      const pathParts = window.location.pathname.split('/');
-      if (pathParts.includes('SQLPv3')) {
-        // Busca la posición de SQLPv3 y arma la base
-        const idx = pathParts.indexOf('SQLPv3');
-        base = '/' + pathParts.slice(1, idx + 1).join('/') + '/';
-      }
-      const res = await fetch(`${base}graph/graph-data.json`);
+      const configuredBase = document.documentElement.getAttribute('data-base-url') || '/';
+      const normalizedBase = configuredBase.endsWith('/') ? configuredBase : `${configuredBase}/`;
+      const res = await fetch(`${normalizedBase}graph/graph-data.json`);
       data = await res.json();
     } catch (e) {
       svgElement.append('text').attr('x', 20).attr('y', 40).text('Error cargando el grafo');
@@ -127,8 +121,6 @@
         // Opcional: puedes hacer algo al salir de fullscreen
       }
     });
-
-    console.log("Grafo de D3 inicializado con controles y zoom (public/js).");
   }
 
   // Siempre idempotente: limpia y reinicializa

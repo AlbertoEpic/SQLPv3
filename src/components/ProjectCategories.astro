@@ -1,5 +1,4 @@
 ---
-import { siteConfig } from '@/config';
 import Icon from './Icon.astro';
 
 export interface Props {
@@ -9,7 +8,7 @@ export interface Props {
   variant?: 'default' | 'outline' | 'minimal';
 }
 
-const { categories, currentCategory, showCount = false, variant = 'default' } = Astro.props;
+const { categories, currentCategory, showCount = false } = Astro.props;
 
 // Sort categories alphabetically
 const sortedCategories = [...categories].sort();
@@ -45,42 +44,20 @@ const sortedCategories = [...categories].sort();
 )}
 
 <style>
-  @reference "tailwindcss";
-  
-  .category-item {
-    @apply inline-flex items-center gap-2 px-3 py-1.5 text-sm font-medium rounded-full transition-all duration-200;
-  }
-
-  .category-default {
-    @apply bg-primary-100 dark:bg-primary-800 text-primary-800 dark:text-primary-200 hover:bg-primary-200 dark:hover:bg-primary-700 hover:text-primary-900 dark:hover:text-primary-100;
-  }
-
-  .category-outline {
-    @apply border border-primary-300 dark:border-primary-600 text-primary-600 dark:text-primary-300 hover:border-highlight-500 hover:text-highlight-600 dark:hover:text-highlight-400 hover:bg-highlight-50 dark:hover:bg-highlight-900/20;
-  }
-
-  .category-minimal {
-    @apply text-primary-600 dark:text-primary-300 hover:text-highlight-600 dark:hover:text-highlight-400 hover:bg-primary-100 dark:hover:bg-primary-800;
-  }
-
-  .category-active {
-    @apply bg-highlight-600 text-white shadow-lg;
-  }
-
-  .category-active:hover {
-    @apply bg-highlight-700;
-  }
-
   .category-count {
-    @apply text-xs opacity-75 bg-white/20 px-1.5 py-0.5 rounded-full;
-  }
-
-  .category-item:hover {
-    /* No scale effect - removed for cleaner look */
+    font-size: 0.75rem;
+    opacity: 0.75;
+    background: rgb(255 255 255 / 0.2);
+    padding: 0.125rem 0.375rem;
+    border-radius: 9999px;
   }
 
   .category-text {
-    @apply truncate max-w-32;
+    display: inline-block;
+    max-width: 8rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
 
   /* Hide project cards - display: none works fine with CSS Grid */
@@ -91,14 +68,10 @@ const sortedCategories = [...categories].sort();
 
   /* Responsive adjustments */
   @media (max-width: 640px) {
-    .category-item {
-      @apply text-xs px-2 py-1;
+    .category-text {
+      max-width: 6rem;
     }
-
-  .category-text {
-    @apply max-w-24;
   }
-}
 </style>
 
 <script>

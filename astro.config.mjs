@@ -177,7 +177,7 @@ image: {
     }
   },
   vite: {
-    assetsInclude: ['**/*.base', '**/*.home', '**/*.base', '**/*.gpx'],
+    assetsInclude: ['**/*.base', '**/*.home', '**/*.gpx'],
     resolve: {
       alias: {
         '@': fileURLToPath(new URL('./src', import.meta.url)),

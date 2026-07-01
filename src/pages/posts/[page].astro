@@ -157,18 +157,15 @@ const pagination = {
         <div class="max-w-none">
           {paginatedPosts.length > 0 ? (
             <>
-              <!-- Posts list -->
               <div class="space-y-6 mb-12">
                 {paginatedPosts.map((post, index) => (
                   <PostCard post={post} eager={index < 2} context="posts" />
                 ))}
               </div>
 
-              <!-- Pagination -->
               <Pagination pagination={pagination} baseUrl="/posts" />
             </>
           ) : (
-            <!-- No posts found -->
             <div class="text-center py-16">
               <Icon name="search-x" class="w-16 h-16 text-primary-400 dark:text-primary-500 mx-auto mb-6" />
               <h2 class="text-2xl font-semibold text-primary-900 dark:text-primary-50 mb-4">

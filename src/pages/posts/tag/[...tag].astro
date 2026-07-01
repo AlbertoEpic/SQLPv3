@@ -157,18 +157,15 @@ const pagination = {
         <div class="max-w-none">
           {paginatedPosts.length > 0 ? (
             <>
-              <!-- Posts list -->
               <div class="space-y-6 mb-12">
                 {paginatedPosts.map((post, index) => (
                   <PostCard post={post} context="tags" eager={index < 2} />
                 ))}
               </div>
 
-              <!-- Pagination -->
               <Pagination pagination={pagination} baseUrl={baseUrl} />
             </>
           ) : (
-            <!-- No posts for selected tag -->
             <div class="text-center py-16">
               <Icon name="tag" class="w-16 h-16 text-primary-400 dark:text-primary-500 mx-auto mb-6" />
               <h2 class="text-2xl font-semibold text-primary-900 dark:text-primary-50 mb-4">
@@ -205,6 +202,8 @@ const pagination = {
 </BaseLayout>
 
 <style>
+  @reference "tailwindcss";
+
   /* Enhanced posts page styles */
   .posts-grid {
     display: grid;
@@ -217,8 +216,4 @@ const pagination = {
     }
   }
 
-  /* Tag highlight in header */
-  .tag-highlight {
-    @apply bg-gradient-to-r from-highlight-500 to-highlight-600 text-white;
-  }
 </style>
