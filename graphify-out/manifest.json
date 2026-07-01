@@ -10,8 +10,8 @@
     "semantic_hash": ""
   },
   "astro.config.mjs": {
-    "mtime": 1781898853.407777,
-    "ast_hash": "ec8f636578709166bfc1e99e9f31c7a1",
+    "mtime": 1782894459.4255092,
+    "ast_hash": "d437fc2556e9edf3bf3fe25599a629a7",
     "semantic_hash": ""
   },
   "cli/bin/create-astro-modular.mjs": {
@@ -45,18 +45,18 @@
     "semantic_hash": ""
   },
   "package.json": {
-    "mtime": 1781895926.4009397,
-    "ast_hash": "b2a8c573f29a05559ad71f9f61b430f1",
+    "mtime": 1782893563.0017853,
+    "ast_hash": "a864430221c71c5a113a5e72246e2963",
     "semantic_hash": ""
   },
   "public/gpx/strava/index.json": {
-    "mtime": 1781898853.2513995,
-    "ast_hash": "f2b5185e98e42aec1a29f7528aa9f6e0",
+    "mtime": 1782894459.2774737,
+    "ast_hash": "71e3df0da7013cba49ceda82d4e9e17c",
     "semantic_hash": ""
   },
   "public/gpx/strava/manual-links.json": {
-    "mtime": 1781898853.2523985,
-    "ast_hash": "c0521690f1fb0fd988891a6ae9b6a950",
+    "mtime": 1782894459.2784739,
+    "ast_hash": "697ba76302d0804b796af22be49fd7de",
     "semantic_hash": ""
   },
   "public/scripts/category-filtering.js": {
@@ -65,8 +65,8 @@
     "semantic_hash": ""
   },
   "public/scripts/home-graph-client.js": {
-    "mtime": 1779788631.1852334,
-    "ast_hash": "abf2dfcdc19f61329346781656238740",
+    "mtime": 1782894363.967532,
+    "ast_hash": "c5b437708cf7a642bd609a388a3b1430",
     "semantic_hash": ""
   },
   "scripts/check-missing-images.js": {
@@ -140,8 +140,8 @@
     "semantic_hash": ""
   },
   "src/components/CategoryFilter.astro": {
-    "mtime": 1779290939.6961064,
-    "ast_hash": "63105e7bf1c9cc29c462c9bed7eb6c4e",
+    "mtime": 1782894358.760456,
+    "ast_hash": "f7d7112b461c99067b4d7220d6d22e57",
     "semantic_hash": ""
   },
   "src/components/CommandPalette.astro": {
@@ -180,8 +180,8 @@
     "semantic_hash": ""
   },
   "src/components/HomeGraph.astro": {
-    "mtime": 1781026201.2888591,
-    "ast_hash": "9649fdd79801bf8bac71f14fda04aa5c",
+    "mtime": 1782894350.4583466,
+    "ast_hash": "2abb344792b7eabaac190ba679aeff18",
     "semantic_hash": ""
   },
   "src/components/Icon.astro": {
@@ -255,8 +255,8 @@
     "semantic_hash": ""
   },
   "src/components/ProjectCategories.astro": {
-    "mtime": 1779290939.7101102,
-    "ast_hash": "d19ca372d4449dbc0ded7cabaab705b6",
+    "mtime": 1782756007.2038815,
+    "ast_hash": "e4ab76fac9af8b1d893d19daa570d0d6",
     "semantic_hash": ""
   },
   "src/components/ScrollToTop.astro": {
@@ -310,12 +310,12 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/app.json": {
-    "mtime": 1781712683.0996633,
+    "mtime": 1782748781.1859512,
     "ast_hash": "ded516c585290a7de233be611476c7fa",
     "semantic_hash": ""
   },
   "src/content/.obsidian/appearance.json": {
-    "mtime": 1781712683.1046627,
+    "mtime": 1782748781.340468,
     "ast_hash": "1aad267d29936122e7bb65c819410bdc",
     "semantic_hash": ""
   },
@@ -330,12 +330,12 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/community-plugins.json": {
-    "mtime": 1781712683.3350565,
+    "mtime": 1782748780.823134,
     "ast_hash": "5bbe65981dfbb542f5258967752adb64",
     "semantic_hash": ""
   },
   "src/content/.obsidian/core-plugins.json": {
-    "mtime": 1781712682.7631547,
+    "mtime": 1782748780.282432,
     "ast_hash": "db29479913624ef3dc8b0036639d2854",
     "semantic_hash": ""
   },
@@ -395,7 +395,7 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/consistent-attachments-and-links/data.json": {
-    "mtime": 1781712682.312,
+    "mtime": 1782748779.532,
     "ast_hash": "8437410eb6cccad442f9a5b5414c403e",
     "semantic_hash": ""
   },
@@ -440,7 +440,7 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/editing-toolbar/data.json": {
-    "mtime": 1781712682.086,
+    "mtime": 1782748779.33,
     "ast_hash": "eb0d237aa2244036f55114b6012aa606",
     "semantic_hash": ""
   },
@@ -545,13 +545,13 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/nested-properties/main.js": {
-    "mtime": 1781508359.7993667,
-    "ast_hash": "627609fdfeee7030687533dc747fd9dd",
+    "mtime": 1782723607.8968787,
+    "ast_hash": "1d40e89f3c1c30a5e0eb04b4a6c4f245",
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/nested-properties/manifest.json": {
-    "mtime": 1781508359.8013666,
-    "ast_hash": "3f1ba65ae51ace74dbfbe61eb95f2db3",
+    "mtime": 1782723607.897879,
+    "ast_hash": "a20ec185545f4ae21850e01a5c5fe4ba",
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/obsidian-git/data.json": {
@@ -590,7 +590,7 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/omnisearch/data.json": {
-    "mtime": 1781712682.964,
+    "mtime": 1782748781.748,
     "ast_hash": "c8f315bcb8888e08c3461f22885addf4",
     "semantic_hash": ""
   },
@@ -625,13 +625,13 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/property-over-file-name/main.js": {
-    "mtime": 1780384602.1113162,
-    "ast_hash": "32a88314fda1e769295e14b713e36426",
+    "mtime": 1782723610.0711567,
+    "ast_hash": "65e933ec858c12cdd0e8a4fef8a3cc85",
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/property-over-file-name/manifest.json": {
-    "mtime": 1780384602.1127744,
-    "ast_hash": "f882b940095ab0976d4293c4a87fce32",
+    "mtime": 1782723610.072157,
+    "ast_hash": "1172e161df75af71d17ecbb47166437d",
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/seo/data.json": {
@@ -770,8 +770,8 @@
     "semantic_hash": ""
   },
   "src/layouts/PostLayout.astro": {
-    "mtime": 1781602713.9576235,
-    "ast_hash": "ccfa7bcc80a0066b64bf5d24768c649c",
+    "mtime": 1782894354.1635025,
+    "ast_hash": "4b8160c8ded0c638c5f5843e7c2d2018",
     "semantic_hash": ""
   },
   "src/layouts/ProjectLayout.astro": {
@@ -780,13 +780,13 @@
     "semantic_hash": ""
   },
   "src/middleware.ts": {
-    "mtime": 1779904472.5655048,
-    "ast_hash": "7a3367a3d3df37373eb459022e4321dd",
+    "mtime": 1782894347.2269318,
+    "ast_hash": "faf6f9f8c02049ebd2106aae7c93e4c3",
     "semantic_hash": ""
   },
   "src/pages/404.astro": {
-    "mtime": 1779290940.6672764,
-    "ast_hash": "d7d115f6d67752cf256680f6fe68410c",
+    "mtime": 1782894396.7246802,
+    "ast_hash": "b19cd6826147b70b6cc7c13f2f56d60c",
     "semantic_hash": ""
   },
   "src/pages/[...slug].astro": {
@@ -850,8 +850,8 @@
     "semantic_hash": ""
   },
   "src/pages/index.astro": {
-    "mtime": 1781168133.0690532,
-    "ast_hash": "3ccb1bd97190f9fa653d99d5f0bc06ab",
+    "mtime": 1782753466.375532,
+    "ast_hash": "0c8c55ece37f2f1625b8cb479e25b53a",
     "semantic_hash": ""
   },
   "src/pages/leaflet-demo.astro": {
@@ -870,8 +870,8 @@
     "semantic_hash": ""
   },
   "src/pages/posts/[page].astro": {
-    "mtime": 1779290940.674277,
-    "ast_hash": "dd5f1f19774e53306fde23fa3431f489",
+    "mtime": 1782894455.1215448,
+    "ast_hash": "7eadf6d1762b5c330910829c50f0f88a",
     "semantic_hash": ""
   },
   "src/pages/posts/filtroposts.astro": {
@@ -880,13 +880,13 @@
     "semantic_hash": ""
   },
   "src/pages/posts/index.astro": {
-    "mtime": 1781024444.451746,
-    "ast_hash": "03b1de9a4052d80aa2d6ab270c81fe7d",
+    "mtime": 1782894440.100001,
+    "ast_hash": "fbd1a4e616346f353e376570d9a1b9d6",
     "semantic_hash": ""
   },
   "src/pages/posts/tag/[...tag].astro": {
-    "mtime": 1779290940.6752787,
-    "ast_hash": "37a2ea7ac0fc54e03c05f85d4b2f3305",
+    "mtime": 1782894417.0075283,
+    "ast_hash": "14d10a699a0b0674bbd918773cdefe0b",
     "semantic_hash": ""
   },
   "src/pages/posts/tag/[...tag]/[page].astro": {
@@ -1085,8 +1085,8 @@
     "semantic_hash": ""
   },
   "vite.config.mjs": {
-    "mtime": 1779290940.6977894,
-    "ast_hash": "7883f378d4701bb729282e8c22cab708",
+    "mtime": 1782894371.766662,
+    "ast_hash": "22ed6bf3c18690662420fac1ef880d46",
     "semantic_hash": ""
   },
   ".codex/skills/graphify/SKILL.md": {
@@ -6697,6 +6697,51 @@
   "src/content/posts/attachments/pea-sabocos-tinyplanet.png": {
     "mtime": 1781002201.2488968,
     "ast_hash": "10e12ae3deba5292e120cb2a3c000aab",
+    "semantic_hash": ""
+  },
+  "src/content/posts/barranco-forcos.md": {
+    "mtime": 1782751762.2081733,
+    "ast_hash": "9a1fe6d28d6d1a0a3d2ceb476356d599",
+    "semantic_hash": ""
+  },
+  "src/content/posts/attachments/barranco-forcos-1.jpg": {
+    "mtime": 1782723689.1919053,
+    "ast_hash": "90fa8029633d7ce7ae051b45d276cd1b",
+    "semantic_hash": ""
+  },
+  "src/content/posts/attachments/barranco-forcos-1.png": {
+    "mtime": 1782725812.498835,
+    "ast_hash": "e8caf9e49d1b36f45b7f8024c197cce7",
+    "semantic_hash": ""
+  },
+  "src/content/posts/attachments/barranco-forcos-2.png": {
+    "mtime": 1782725922.8255901,
+    "ast_hash": "46cb7a945e062fd01d2a42f76e3fd381",
+    "semantic_hash": ""
+  },
+  "src/content/posts/attachments/barranco-forcos-3.png": {
+    "mtime": 1782725960.0779748,
+    "ast_hash": "b13cad5affce8286a19b6ae624885497",
+    "semantic_hash": ""
+  },
+  "src/content/posts/attachments/barranco-forcos-4.png": {
+    "mtime": 1782725997.4094496,
+    "ast_hash": "b13cad5affce8286a19b6ae624885497",
+    "semantic_hash": ""
+  },
+  "src/content/posts/attachments/barranco-forcos-5.png": {
+    "mtime": 1782726062.7762341,
+    "ast_hash": "bb944a1cb6347612eb514d1f23eaa046",
+    "semantic_hash": ""
+  },
+  "src/content/posts/attachments/barranco-forcos-6.png": {
+    "mtime": 1782726152.6149728,
+    "ast_hash": "d13063c128c650688ebe6eaf00c1f108",
+    "semantic_hash": ""
+  },
+  "src/content/posts/attachments/barranco-forcos-resea.png": {
+    "mtime": 1782725609.2561567,
+    "ast_hash": "fc57a3e61e676826156db174153ed45a",
     "semantic_hash": ""
   }
 }
