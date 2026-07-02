@@ -318,7 +318,7 @@ export const siteConfig: SiteConfig = {
       { title: "Rutipedia", url: "/posts/" },
       { title: "Pano360", url: "https://pano360.soloquedalopeor.com/" },
       { title: "Miniplanetas", url: "https://miniplanetas.soloquedalopeor.com/" },
-      { title: "Sobre mí", url: "/about/" }
+      { title: "Sobre mí", url: "/sobre-mí/" }
     ],
     // [CONFIG:NAVIGATION_SOCIAL]
     social: [

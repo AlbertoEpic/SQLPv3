@@ -9,9 +9,7 @@ aliases:
   - about-us
   - about
 ---
-
-![sobre-mí - 1](attachments/sobre-m-1.png)
-
+<img src="attachments/sobre-m-1.png" align="left" width="400" alt="AlbertoEpic" style="margin-right: 20px; margin-bottom: 10px;">
 **AlbertoEpic** es un *superhéroe de todo a cien*, siempre haciendo superheroicidades aquí y allá, velando para que el bien triunfe sobre el mal. 😜
 
 Amante de los *gadgets*, quizá algún día te lo encuentres por el monte, en su hábitat natural, cargado de **cámaras, drones y demás artilugios tecnológicos**. En ese caso, mantén la calma, no es agresivo si actúas con naturalidad. Nunca dice que no a una buena charla.
@@ -22,6 +20,6 @@ Como todo superhéroe, tiene su kriptonita: los pedales y los esquís!
 **BTT** y **Skimo** son sus principales medios de desplazamiento por el monte.
 
 
+<img src="attachments/signature.png" align="right" width="170" alt="AlbertoEpic Signature">
 
-![sobre-mí - firma|150](attachments/sobre-m-firma.png)
 																							

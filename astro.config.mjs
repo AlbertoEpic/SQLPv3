@@ -80,11 +80,12 @@ export default defineConfig({
     enabled: true
   },
   redirects: (process.env.NODE_ENV !== 'production' && process.env.NODE_ENV !== 'build') ? {
-  '/about-me': '/about',
-  '/about-us': '/about',
   '/contact-me': '/contact',
   '/contact-us': '/contact',
   '/privacy': '/privacy-policy',
+  '/about-me': '/sobre-mí',
+  '/about-us': '/sobre-mí',
+  '/about': '/sobre-mí',
   '/posts/barranco-del-forcos': '/posts/barranco-forcos',
   '/projects/obsidian-astro-composer': '/projects/astro-composer',
   '/projects/obsidian-astro-suite': '/projects/vault-cms',

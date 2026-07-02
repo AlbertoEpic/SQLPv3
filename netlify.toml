@@ -146,18 +146,6 @@
 # Generated redirects from content aliases
 
 [[redirects]]
-  from = "/about-me"
-  to = "/about"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/about-us"
-  to = "/about"
-  status = 301
-  force = true
-
-[[redirects]]
   from = "/contact-me"
   to = "/contact"
   status = 301
@@ -172,6 +160,24 @@
 [[redirects]]
   from = "/privacy"
   to = "/privacy-policy"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/about-me"
+  to = "/sobre-mí"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/about-us"
+  to = "/sobre-mí"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/about"
+  to = "/sobre-mí"
   status = 301
   force = true
 
