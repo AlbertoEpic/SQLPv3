@@ -12,12 +12,29 @@ function getDeploymentPlatform() {
   try {
     const configPath = join(process.cwd(), 'src', 'config.ts');
     const configContent = readFileSync(configPath, 'utf8');
-    
-    // Extract platform from config
-    const platformMatch = configContent.match(/platform:\s*["']([^"']+)["']/);
-    
-    if (platformMatch) {
-      return platformMatch[1];
+
+    // Extract platform from the runtime config object, not the type interface.
+    // The file also contains `SiteConfig` type unions that should not be used.
+    const siteConfigStart = configContent.indexOf('export const siteConfig');
+    const runtimeConfigContent = siteConfigStart >= 0
+      ? configContent.slice(siteConfigStart)
+      : configContent;
+
+    const deploymentBlockMatch = runtimeConfigContent.match(
+      /deployment:\s*\{[\s\S]*?platform:\s*["']([^"']+)["']/
+    );
+
+    if (deploymentBlockMatch) {
+      return deploymentBlockMatch[1];
+    }
+
+    // Fallback: pick the last direct platform assignment if structure changes.
+    const allPlatformMatches = [
+      ...runtimeConfigContent.matchAll(/platform:\s*["']([^"']+)["']\s*,/g)
+    ];
+
+    if (allPlatformMatches.length > 0) {
+      return allPlatformMatches[allPlatformMatches.length - 1][1];
     }
     
     // Fallback to environment variable
