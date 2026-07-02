@@ -1,22 +1,23 @@
 ---
-title: "La leyenda del Eguzkilore"
-heroImage: "https://i.imgur.com/gnYqONy.jpg"
+title: La leyenda del Eguzkilore
+heroImage: https://i.imgur.com/gnYqONy.jpg
 pubDate: 2022-11-02T09:58:50Z
 updatedDate: 2022-11-03T12:38:55Z
 draft: false
-author: "AlbertoEpic"
+author: AlbertoEpic
 description: "Mitología vasca En SQLP estamos recién llegados de pasar unos días por el valle de Baztán, al norte de Navarra. Y antes de reseñar ninguna ruta, vamos a plasmar una bonita leyenda que nos ha gustado mucho. En todos los pueblos podíamos ver "
 category: Otros
 tags:
-  - "eguzkilore"
-  - "leyendas"
+  - eguzkilore
+  - leyendas
 ---
 
 Mitología vasca
 
 En SQLP estamos recién llegados de pasar unos días por el valle de Baztán, al norte de Navarra. Y antes de reseñar ninguna ruta, vamos a plasmar una bonita leyenda que nos ha gustado mucho. En todos los pueblos podíamos ver estas flores/cardos secas clavadas en las puertas. AlbertoEpic se preguntó en voz alta cuál sería el significado... y allí estaba la especialista Miriam para consultar a San Google y responderle no sé qué historias del Eguzkilore...
 
-[https://i.imgur.com/gnYqONy.jpg](https://i.imgur.com/gnYqONy.jpg)Puertas en una calle de Amaiur (Maya), pueblo al norte de Navarra.
+![https://i.imgur.com/gnYqONy.jpg](https://i.imgur.com/gnYqONy.jpg)
+Puertas en una calle de Amaiur (Maya), pueblo al norte de Navarra.
 
 Ya en nuestros estudios centrales hemos podido buscar esa leyenda y la dejamos a continuación apuntada:
 
@@ -32,9 +33,9 @@ Al principio los hombres no se atrevieron a salir pero, al ver que los genios ma
 
 Los hombres acudieron otra vez a AMALUR pidiéndole algo mas poderoso.
 
-í¢â‚¬â€œ AMALUR. te estamos muy agradecidos porque nos has regalado a la madre luna, pero necesitamos algo más poderoso puesto que los genios no dejan de perseguirnos.
+"AMALUR, te estamos muy agradecidos porque nos has regalado a la madre luna, pero necesitamos algo más poderoso puesto que los genios no dejan de perseguirnos".
 
-í¢â‚¬â€œ "De acuerdo -dijo AMALURí¢â‚¬Â- crearé un ser todavía más luminoso que llamaréis EGUZKI.
+"De acuerdo -dijo AMALUR- crearé un ser todavía más luminoso que llamaréis EGUZKI".
 
 Y AMALUR creó el Sol. De esta forma, el sol iluminaría el día y la luna la noche.
 
@@ -43,5 +44,7 @@ Era tan grande, luminoso y caliente que incluso los hombres tuvieron que acostum
 Esa flor es EGUZKILORE (flor del sol). Y hasta hoy, este es el símbolo de protección que defiende los hogares de los malos espíritus, los brujos, los genios de la enfermedad, las tempestades, los rayos y demás enemigos del hombre.
 Fuente: https://alavalpunto.com/
 
-Vista la entrada, mi amigo José Ricarte me comenta que "En la montaña, en el valle de Benasque también se ponen en la puerta de casa, son símbolos de protección. En Aragón se llama carlincha y en Cataluña carlina."
-Muchas gracias por compartirlo, José!
+---
+
+**P.D.:** Vista la entrada, mi amigo José Ricarte me comenta que "En la montaña, en el valle de Benasque también se ponen en la puerta de casa, son símbolos de protección. En Aragón se llama carlincha y en Cataluña carlina."
+Muchas gracias por compartirlo, **José**!
