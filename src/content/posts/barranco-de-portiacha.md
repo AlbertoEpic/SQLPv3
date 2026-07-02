@@ -1,6 +1,6 @@
 ---
 title: Barranco de Portiacha
-heroImage: attachments/portiacha_topo-1024x680.webp
+heroImage: https://i.imgur.com/cfULdJp.jpg
 pubDate: 2022-10-27T10:05:38Z
 updatedDate: 2022-10-27T16:20:23Z
 draft: false
@@ -14,13 +14,13 @@ tags:
 
 ## Larga vida a los rápeles 'volaos'...
 
-aÅ¡ltima semana de octubre, última semana con horario de verano, y presumiblemente final de temporada de actividades vespertinas los miércoles por el monte para el TeRReXtrem Team... Como colofón a esta próspera temporada, July y AlbertoEpic eligieron una actividad breve, a la par que variada e intensa.
+Última semana de octubre, última semana con horario de verano, y presumiblemente final de temporada de actividades vespertinas los miércoles por el monte para el TeRReXtrem Team... Como colofón a esta próspera temporada, July y AlbertoEpic eligieron una actividad breve, a la par que variada e intensa.
 
 El barranco de Portiacha es un afluente del rí­o Vero, un barranco seco y cortito compuesto básicamente por dos largos rápeles 'volaos'. Nuestros especialistas dejaron el coche en el parking del Portiacha, un poco antes del parking del Vero de Lecina.
 
 Desde allí­, el barranco comienza directamente con el primer rápel, para calentar, después de un suspiro! A continuación puedes ver el croquis:
 
-![Imagen de https://www.docuwiki.infobarrancos.es/doku.php?id=barrancos:huesca:portiacha](attachments/portiacha_topo.webp)](https://www.docuwiki.infobarrancos.es/doku.php?id=barrancos:huesca:portiacha)
+![barranco-de-portiacha - croquis](attachments/barranco-de-portiacha-croquis.png)
 
 *Imagen de https://www.docuwiki.infobarrancos.es/doku.php?id=barrancos:huesca:portiacha*
 
