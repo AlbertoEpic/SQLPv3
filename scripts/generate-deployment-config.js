@@ -852,15 +852,19 @@ async function generateRedirects() {
     log.info('🔍 Validation mode - checking all platform configurations...');
   }
   
-  // Get project name from package.json for Cloudflare Workers
+  // Resolve Worker name for Cloudflare.
+  // Priority: env override > existing wrangler.toml name > package.json > default.
   const projectRoot = path.join(__dirname, '..');
-  let projectName = 'astro-modular';
+  let projectName = process.env.CLOUDFLARE_WORKER_NAME || 'sqlpv3';
   try {
-    const packageJsonPath = path.join(projectRoot, 'package.json');
-    const packageJson = JSON.parse(await fs.readFile(packageJsonPath, 'utf-8'));
-    projectName = packageJson.name || 'astro-modular';
+    const wranglerTomlPath = path.join(projectRoot, 'wrangler.toml');
+    const wranglerToml = await fs.readFile(wranglerTomlPath, 'utf-8');
+    const wranglerNameMatch = wranglerToml.match(/^name\s*=\s*["']([^"']+)["']/m);
+    if (wranglerNameMatch?.[1]) {
+      projectName = wranglerNameMatch[1];
+    }
   } catch (error) {
-    // Use default if package.json can't be read
+    // wrangler.toml missing or unreadable; continue with env/default fallback
   }
   
   let allRedirects = [];
