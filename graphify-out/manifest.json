@@ -10,8 +10,8 @@
     "semantic_hash": ""
   },
   "astro.config.mjs": {
-    "mtime": 1782925269.5262249,
-    "ast_hash": "d437fc2556e9edf3bf3fe25599a629a7",
+    "mtime": 1783018508.0734134,
+    "ast_hash": "82e6dcf0e229d925d550a8ca0bcc0c57",
     "semantic_hash": ""
   },
   "cli/bin/create-astro-modular.mjs": {
@@ -50,13 +50,13 @@
     "semantic_hash": ""
   },
   "public/gpx/strava/index.json": {
-    "mtime": 1782925269.3787043,
-    "ast_hash": "71e3df0da7013cba49ceda82d4e9e17c",
+    "mtime": 1783010618.0707939,
+    "ast_hash": "2a24579b6151018d7976cb1e91039520",
     "semantic_hash": ""
   },
   "public/gpx/strava/manual-links.json": {
-    "mtime": 1782925269.3797033,
-    "ast_hash": "697ba76302d0804b796af22be49fd7de",
+    "mtime": 1783010618.071795,
+    "ast_hash": "9fcf8ab9d892b28d7ce87dbbe19b905f",
     "semantic_hash": ""
   },
   "public/scripts/category-filtering.js": {
@@ -100,8 +100,8 @@
     "semantic_hash": ""
   },
   "scripts/get-deployment-platform.js": {
-    "mtime": 1779290939.690063,
-    "ast_hash": "26cf10037e86dc98453159863838005d",
+    "mtime": 1783018545.6700535,
+    "ast_hash": "36cd432f94761c9826a58080f052a778",
     "semantic_hash": ""
   },
   "scripts/get-version.js": {
@@ -295,8 +295,8 @@
     "semantic_hash": ""
   },
   "src/config.ts": {
-    "mtime": 1779900388.314867,
-    "ast_hash": "2c9711d52576cc3a7ad9153f82f85c4b",
+    "mtime": 1783018545.6700535,
+    "ast_hash": "fb39f43065bc5fe3045379e9304cae22",
     "semantic_hash": ""
   },
   "src/config/dev.ts": {
@@ -310,12 +310,12 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/app.json": {
-    "mtime": 1782748781.1859512,
+    "mtime": 1783010382.8322077,
     "ast_hash": "ded516c585290a7de233be611476c7fa",
     "semantic_hash": ""
   },
   "src/content/.obsidian/appearance.json": {
-    "mtime": 1782748781.340468,
+    "mtime": 1783010382.9897583,
     "ast_hash": "1aad267d29936122e7bb65c819410bdc",
     "semantic_hash": ""
   },
@@ -330,12 +330,12 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/community-plugins.json": {
-    "mtime": 1782748780.823134,
+    "mtime": 1783010382.9607606,
     "ast_hash": "5bbe65981dfbb542f5258967752adb64",
     "semantic_hash": ""
   },
   "src/content/.obsidian/core-plugins.json": {
-    "mtime": 1782748780.282432,
+    "mtime": 1783010382.156683,
     "ast_hash": "db29479913624ef3dc8b0036639d2854",
     "semantic_hash": ""
   },
@@ -395,7 +395,7 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/consistent-attachments-and-links/data.json": {
-    "mtime": 1782748779.532,
+    "mtime": 1783010381.801,
     "ast_hash": "8437410eb6cccad442f9a5b5414c403e",
     "semantic_hash": ""
   },
@@ -440,7 +440,7 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/editing-toolbar/data.json": {
-    "mtime": 1782748779.33,
+    "mtime": 1783010381.607,
     "ast_hash": "eb0d237aa2244036f55114b6012aa606",
     "semantic_hash": ""
   },
@@ -590,7 +590,7 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/omnisearch/data.json": {
-    "mtime": 1782748781.748,
+    "mtime": 1783010383.472,
     "ast_hash": "c8f315bcb8888e08c3461f22885addf4",
     "semantic_hash": ""
   },
@@ -1145,8 +1145,8 @@
     "semantic_hash": ""
   },
   ".github/workflows/deploy.yml": {
-    "mtime": 1780658973.7024772,
-    "ast_hash": "41e6fd71642fbbba806bec2c77c74f1f",
+    "mtime": 1783018545.6690536,
+    "ast_hash": "0c33d2715b196e38b6acfd09531a4e48",
     "semantic_hash": ""
   },
   "AGENTS.md": {
@@ -1214,11 +1214,6 @@
     "ast_hash": "07c554bf4b460e294ca22e6f11d650c1",
     "semantic_hash": ""
   },
-  "src/content/pages/about.md": {
-    "mtime": 1781022444.7531056,
-    "ast_hash": "7676d9a37b2663c3804e38647f4073fe",
-    "semantic_hash": ""
-  },
   "src/content/pages/categor\u00edas.md": {
     "mtime": 1779290939.8687077,
     "ast_hash": "77c381cebd3a8e48887e55736835a8aa",
@@ -1250,8 +1245,8 @@
     "semantic_hash": ""
   },
   "src/content/posts/1a-suboda-tozal-de-guara.md": {
-    "mtime": 1779870852.7141697,
-    "ast_hash": "828311f3e45afd24abcf65dda2ae9f0e",
+    "mtime": 1783010943.887607,
+    "ast_hash": "c5563bdab2dbc41dbf88ad754d0215dc",
     "semantic_hash": ""
   },
   "src/content/posts/1er-tri-neu-gore-tex-valle-de-benasque-cerler.md": {
@@ -1420,8 +1415,8 @@
     "semantic_hash": ""
   },
   "src/content/posts/barranco-de-portiacha.md": {
-    "mtime": 1779870852.8063438,
-    "ast_hash": "38dad2512679331d286fef13b950cb96",
+    "mtime": 1783016821.7123787,
+    "ast_hash": "fd2dd2805caac3358b729e4e6228d711",
     "semantic_hash": ""
   },
   "src/content/posts/barranco-de-sorrosal.md": {
@@ -2525,8 +2520,8 @@
     "semantic_hash": ""
   },
   "src/content/posts/la-leyenda-del-eguzkilore.md": {
-    "mtime": 1779700129.8274577,
-    "ast_hash": "0506bc61169e4b464e042baf480b7d66",
+    "mtime": 1783013321.6863556,
+    "ast_hash": "825b59c25d7594fbaaf6def205fe848f",
     "semantic_hash": ""
   },
   "src/content/posts/la-loire-a-velo.md": {
@@ -6742,6 +6737,61 @@
   "src/content/posts/attachments/barranco-forcos-resea.png": {
     "mtime": 1782725609.2561567,
     "ast_hash": "fc57a3e61e676826156db174153ed45a",
+    "semantic_hash": ""
+  },
+  "src/content/pages/albertoepic.md": {
+    "mtime": 1783012407.2419903,
+    "ast_hash": "846635bb7c21a44a8ea910813459bcc3",
+    "semantic_hash": ""
+  },
+  "src/content/posts/barranco-del-formiga.md": {
+    "mtime": 1782986558.4083028,
+    "ast_hash": "c9963740865b930b7128e3748a4fafc5",
+    "semantic_hash": ""
+  },
+  "src/content/pages/attachments/sobre-m-firma.png": {
+    "mtime": 1782988232.8588855,
+    "ast_hash": "768fa20f3d6c7769c440a496fa9080f3",
+    "semantic_hash": ""
+  },
+  "src/content/pages/signature.png": {
+    "mtime": 1783011620.947611,
+    "ast_hash": "f9cf34d6e45fa96ba4b1c1264d0aee70",
+    "semantic_hash": ""
+  },
+  "src/content/pages/sobre-m-1.png": {
+    "mtime": 1782987974.028543,
+    "ast_hash": "da3248321d453f2dd078291b5431aafa",
+    "semantic_hash": ""
+  },
+  "src/content/posts/attachments/barranco-de-portiacha-croquis.png": {
+    "mtime": 1783016636.1326706,
+    "ast_hash": "79c9a520e35d85917ef40492f55cf1de",
+    "semantic_hash": ""
+  },
+  "src/content/posts/attachments/barranco-del-formiga-1.png": {
+    "mtime": 1782986211.4038975,
+    "ast_hash": "081b7db345f9b8e1a82cc54006062a1c",
+    "semantic_hash": ""
+  },
+  "src/content/posts/attachments/barranco-del-formiga-2.png": {
+    "mtime": 1782986313.4683485,
+    "ast_hash": "cae39a8d1c49f6b7b4a3f9a680a05b0a",
+    "semantic_hash": ""
+  },
+  "src/content/posts/attachments/barranco-del-formiga-3.png": {
+    "mtime": 1782986437.1073287,
+    "ast_hash": "a1b1d8539aded22400c15ef3b698ed31",
+    "semantic_hash": ""
+  },
+  "src/content/posts/attachments/barranco-del-formiga-hero.png": {
+    "mtime": 1782985685.7358024,
+    "ast_hash": "61822e0519fcca30c919d1acc39e7c80",
+    "semantic_hash": ""
+  },
+  "src/content/posts/attachments/barranco-del-formiga-resea.png": {
+    "mtime": 1782985998.5139337,
+    "ast_hash": "ce419f8f1ff5c31a650646d02ca73702",
     "semantic_hash": ""
   }
 }
