@@ -434,17 +434,29 @@ function generateCloudflareWorkersConfig(projectName) {
 // Clean up platform-specific files that don't match the selected platform
 async function cleanupOtherPlatformFiles(currentPlatform) {
   const projectRoot = path.join(__dirname, '..');
-  
-  // Clean up GitHub Pages/Cloudflare Workers files if not using those platforms
-  // (Both platforms use the same _redirects and _headers format)
-  // These files should ONLY exist for github-pages and cloudflare-workers
+  const redirectsFile = path.join(projectRoot, 'public', '_redirects');
+  const headersFile = path.join(projectRoot, 'public', '_headers');
+
+  // Cloudflare Workers in this setup should not place _redirects/_headers in public/
+  // because Astro/Vite may try to parse them during build.
+  if (currentPlatform === 'cloudflare-workers') {
+    const filesToRemove = [redirectsFile, headersFile];
+    for (const file of filesToRemove) {
+      try {
+        await fs.access(file);
+        await fs.unlink(file);
+        log.info(`🧹 Removed ${path.basename(file)} (not needed for cloudflare-workers)`);
+      } catch (error) {
+        // File doesn't exist, nothing to clean up
+      }
+    }
+  }
+
+  // For non GitHub Pages / non Cloudflare Workers platforms, remove both files.
   if (currentPlatform !== 'github-pages' && currentPlatform !== 'cloudflare-workers') {
-    const sharedFiles = [
-      path.join(projectRoot, 'public', '_redirects'),
-      path.join(projectRoot, 'public', '_headers')
-    ];
-    
-    for (const file of sharedFiles) {
+    const filesToRemove = [redirectsFile, headersFile];
+
+    for (const file of filesToRemove) {
       try {
         await fs.access(file);
         await fs.unlink(file);
@@ -498,7 +510,8 @@ async function writeVercelConfig(redirects) {
   }
 }
 
-async function writeGitHubPagesConfig(redirects) {
+async function writeGitHubPagesConfig(redirects, options = {}) {
+  const { includeHeaders = true } = options;
   const projectRoot = path.join(__dirname, '..');
   const redirectsPath = path.join(projectRoot, 'public', '_redirects');
   const headersPath = path.join(projectRoot, 'public', '_headers');
@@ -514,6 +527,17 @@ async function writeGitHubPagesConfig(redirects) {
     const config = generateGitHubPagesConfig(redirects);
     await fs.writeFile(redirectsPath, config, 'utf-8');
     log.info(`📝 Updated public/_redirects with ${redirects.length} redirects`);
+
+    if (!includeHeaders) {
+      try {
+        await fs.access(headersPath);
+        await fs.unlink(headersPath);
+        log.info('🧹 Removed public/_headers for current platform');
+      } catch (error) {
+        // File doesn't exist, nothing to clean up
+      }
+      return;
+    }
     
     // Write headers file (for GitHub Pages and Cloudflare Pages)
     // Note: Custom headers require GitHub Pages on a paid plan or GitHub Enterprise
@@ -927,11 +951,10 @@ async function generateRedirects() {
         await writeGitHubPagesConfig(allRedirects);
         break;
       case 'cloudflare-workers':
-        // Cloudflare Workers: Uses _redirects file for instant HTTP redirects
-        // See migration guide: https://developers.cloudflare.com/workers/static-assets/migration-guides/migrate-from-pages/
-        // No Astro config needed - would create slow meta refresh HTML files
+        // Cloudflare Workers: don't generate public/_redirects or public/_headers here,
+        // because they can be parsed by Astro/Vite during build in this project setup.
+        // Keep redirects disabled in Astro production config to avoid meta refresh output.
         // Generate Workers-compatible wrangler.toml (uses assets.directory instead of pages_build_output_dir)
-        await writeGitHubPagesConfig(allRedirects); // Uses same _redirects/_headers format
         await writeCloudflareWorkersConfig(projectName); // Generate Workers-compatible config
         await copyAssetsIgnoreFile(); // Copy .assetsignore to dist/ for Workers
         break;

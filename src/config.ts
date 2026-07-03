@@ -1,4 +1,4 @@
-// Site configuration with TypeScript types`r`n// CI_TRIGGER_CLOUDFLARE_TEST
+// Site configuration with TypeScript types
 import type { NavigationItem } from "./types";
 
 // Aspect ratio options for post cards
