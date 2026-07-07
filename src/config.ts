@@ -183,7 +183,7 @@ export interface SiteConfig {
 export const siteConfig: SiteConfig = {
   // Site Information
   // [CONFIG:SITE_URL]
-  site: "https://sqlp.workers.dev/",
+  site: "https://sqlpv3.albertolafarga.workers.dev/",
   // [CONFIG:SITE_TITLE]
   title: ".::: SQLP :::.",
   // [CONFIG:HOMEPAGE_TITLE]
