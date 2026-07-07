@@ -641,6 +641,18 @@ async function writeGitHubPagesConfig(redirects, options = {}) {
 `;
     await fs.writeFile(headersPath, headersContent, 'utf-8');
     log.info(`📝 Created public/_headers for GitHub Pages / Cloudflare Pages`);
+
+    // If dist/ already exists (post-build), copy files there so they are included in the deployment
+    // This happens when generate-deployment-config.js runs after astro build
+    const distPath = path.join(projectRoot, 'dist');
+    try {
+      await fs.access(distPath);
+      await fs.copyFile(redirectsPath, path.join(distPath, '_redirects'));
+      await fs.copyFile(headersPath, path.join(distPath, '_headers'));
+      log.info(`📝 Copied _redirects and _headers to dist/`);
+    } catch {
+      // dist/ doesn't exist yet — files will be copied by Astro build (public/ → dist/)
+    }
   } catch (error) {
     log.error(`❌ Error updating GitHub Pages config:`, error.message);
   }

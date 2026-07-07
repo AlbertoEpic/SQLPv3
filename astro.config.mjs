@@ -28,8 +28,7 @@ import refreshContentOnChange from './src/integrations/refresh-content-on-change
 import { fileURLToPath } from 'node:url';
 
 export default defineConfig({
-  site: 'https://albertoepic.github.io',
-  base: '/SQLPv3',
+  site: siteConfig.site.replace(/\/$/, ''),
   deployment: {
     platform: siteConfig.deployment.platform
   },

@@ -14,6 +14,8 @@ import {
 } from "./images";
 import { withBase } from "./base-url";
 
+const normalizedSiteUrl = siteConfig.site.replace(/\/$/, "");
+
 // Helper function to get default OG image
 function getDefaultOGImage(): OpenGraphImage {
   return {
@@ -65,7 +67,7 @@ export function generatePostSEO(post: Post, url: string): SEOData {
         post.id,
         post.id
       );
-      imageUrl = `${siteConfig.site}${optimizedPath}`;
+      imageUrl = `${normalizedSiteUrl}${optimizedPath}`;
     }
     ogImage = {
       url: imageUrl,
@@ -78,7 +80,7 @@ export function generatePostSEO(post: Post, url: string): SEOData {
     ogImage = getDefaultOGImage();
     ogImage = {
       ...ogImage,
-      url: `${siteConfig.site}${ogImage.url}`,
+      url: `${normalizedSiteUrl}${ogImage.url}`,
     };
   }
 
@@ -118,7 +120,7 @@ export function generatePageSEO(page: Page, url: string): SEOData {
         page.id,
         page.id
       );
-      imageUrl = `${siteConfig.site}${optimizedPath}`;
+      imageUrl = `${normalizedSiteUrl}${optimizedPath}`;
     }
     ogImage = {
       url: imageUrl,
@@ -131,7 +133,7 @@ export function generatePageSEO(page: Page, url: string): SEOData {
     ogImage = getDefaultOGImage();
     ogImage = {
       ...ogImage,
-      url: `${siteConfig.site}${ogImage.url}`,
+      url: `${normalizedSiteUrl}${ogImage.url}`,
     };
   }
 
@@ -168,7 +170,7 @@ export function generateProjectSEO(project: Project, url: string): SEOData {
         project.id,
         project.id
       );
-      imageUrl = `${siteConfig.site}${optimizedPath}`;
+      imageUrl = `${normalizedSiteUrl}${optimizedPath}`;
     }
     ogImage = {
       url: imageUrl,
@@ -181,7 +183,7 @@ export function generateProjectSEO(project: Project, url: string): SEOData {
     ogImage = getDefaultOGImage();
     ogImage = {
       ...ogImage,
-      url: `${siteConfig.site}${ogImage.url}`,
+      url: `${normalizedSiteUrl}${ogImage.url}`,
     };
   }
 
@@ -223,7 +225,7 @@ export function generateDocumentationSEO(
         documentation.id,
         documentation.id
       );
-      imageUrl = `${siteConfig.site}${optimizedPath}`;
+      imageUrl = `${normalizedSiteUrl}${optimizedPath}`;
     }
     ogImage = {
       url: imageUrl,
@@ -238,7 +240,7 @@ export function generateDocumentationSEO(
     ogImage = getDefaultOGImage();
     ogImage = {
       ...ogImage,
-      url: `${siteConfig.site}${ogImage.url}`,
+      url: `${normalizedSiteUrl}${ogImage.url}`,
     };
   }
 
@@ -264,7 +266,7 @@ export function generateHomeSEO(url: string): SEOData {
   ogImage = getDefaultOGImage();
   ogImage = {
     ...ogImage,
-    url: `${siteConfig.site}${ogImage.url}`,
+    url: `${normalizedSiteUrl}${ogImage.url}`,
   };
 
   return {
