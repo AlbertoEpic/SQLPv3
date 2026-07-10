@@ -74,10 +74,11 @@ async function main() {
 
   const existingInstafeed = readEnvValue(envContent, 'INSTAFEED_ACCESS_TOKEN');
   const existingInstagram = readEnvValue(envContent, 'INSTAGRAM_ACCESS_TOKEN');
-  const currentToken = existingInstafeed || existingInstagram;
+  const existingPublicInstafeed = readEnvValue(envContent, 'PUBLIC_INSTAGRAM_ACCESS_TOKEN');
+  const currentToken = existingInstafeed || existingInstagram || existingPublicInstafeed;
 
-  if (!currentToken) {
-    fail('No existe INSTAFEED_ACCESS_TOKEN ni INSTAGRAM_ACCESS_TOKEN en .env.local.');
+if (!currentToken) {
+    fail('No existe INSTAFEED_ACCESS_TOKEN, INSTAGRAM_ACCESS_TOKEN ni PUBLIC_INSTAGRAM_ACCESS_TOKEN en .env.local.');
   }
 
   console.log(`Token actual: ${maskToken(currentToken)}`);
@@ -88,6 +89,9 @@ async function main() {
 
   if (existingInstagram) {
     nextEnvContent = setEnvValue(nextEnvContent, 'INSTAGRAM_ACCESS_TOKEN', refreshed.token);
+  }
+  if (existingPublicInstafeed) {
+    nextEnvContent = setEnvValue(nextEnvContent, 'PUBLIC_INSTAGRAM_ACCESS_TOKEN', refreshed.token);
   }
 
   writeFileSync(ENV_PATH, nextEnvContent, 'utf-8');
