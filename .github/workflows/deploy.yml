@@ -38,10 +38,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         
-      - name: Setup Node.js 24
-        uses: actions/setup-node@v4
+      - name: Setup Node.js 20
+        uses: actions/setup-node@v3
         with:
-          node-version: '24'
+          node-version: '20'
           
       - name: Install project dependencies
         run: |
@@ -49,7 +49,7 @@ jobs:
           if ! command -v pnpm &> /dev/null; then
             npm install -g pnpm@latest
           fi
-    
+     
       - name: Refresh Instagram token for this build
         env:
           PUBLIC_INSTAGRAM_ACCESS_TOKEN: ${{ secrets.PUBLIC_INSTAGRAM_ACCESS_TOKEN }}
@@ -98,12 +98,12 @@ jobs:
             process.exit(1);
           });
           NODE
-    
+     
       - name: Build project
         run: pnpm run build
     
       - name: Deploy to Cloudflare Workers
-        uses: cloudflare/wrangler-action@v3
+        uses: cloudflare/wrangler-action@main
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
