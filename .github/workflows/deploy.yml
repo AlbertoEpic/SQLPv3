@@ -43,10 +43,10 @@ jobs:
         with:
           node-version: '24'
           
-      - name: Install project dependencies
+      - name: Install project dependencies with pnpm
         run: |
           if ! command -v pnpm &> /dev/null; then
-            npm install -g pnpm@10.5.0
+            npx --no-install pnpm@10.29.3
           fi
      
       - name: Refresh Instagram token for this build
@@ -102,7 +102,7 @@ jobs:
         run: pnpm run build
     
       - name: Deploy to Cloudflare Workers
-        uses: cloudflare/wrangler-action@main
+        uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
