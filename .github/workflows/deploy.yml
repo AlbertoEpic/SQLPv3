@@ -100,7 +100,7 @@ jobs:
           NODE
     
       - name: Build project
-        run: npm install && pnpm run build
+        run: pnpm run build
     
       - name: Deploy to Cloudflare Workers
         uses: cloudflare/wrangler-action@v3
