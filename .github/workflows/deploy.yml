@@ -42,13 +42,13 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '24'
-          cache: pnpm
           
-      - name: Install pnpm globally if not available
-        run: npm install -g pnpm@latest
-        
-      - name: Install project dependencies with pnpm
-        run: pnpm install
+      - name: Install project dependencies
+        run: |
+          npm install pnpm@latest || true
+          if ! command -v pnpm &> /dev/null; then
+            npm install -g pnpm@latest
+          fi
     
       - name: Refresh Instagram token for this build
         env:
@@ -99,17 +99,9 @@ jobs:
           });
           NODE
     
-      - name: Build project with pnpm
-        run: pnpm run build
-      
-      - name: Install wrangler CLI globally
-        uses: cloudflare/wrangler-action@v3
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: install
-          wranglerVersion: latest
-      
+      - name: Build project
+        run: pnpm install && pnpm run build
+    
       - name: Deploy to Cloudflare Workers
         uses: cloudflare/wrangler-action@v3
         with:
