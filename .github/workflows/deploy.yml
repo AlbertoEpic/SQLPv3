@@ -43,11 +43,9 @@ jobs:
         with:
           node-version: '24'
           
-      - name: Install project dependencies with pnpm
+      - name: Install project dependencies with pnpm via npm
         run: |
-          if ! command -v pnpm &> /dev/null; then
-            npx --no-install pnpm@10.29.3
-          fi
+          npm install -g pnpm@10.5.0 || true
      
       - name: Refresh Instagram token for this build
         env:
