@@ -1,3 +1,6 @@
+# Cloudflare Workers Deployment Workflow
+# This workflow builds and deploys your project to Cloudflare Workers
+
 name: Deploy to Cloudflare Workers
 
 on:
@@ -30,22 +33,20 @@ concurrency:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
-
-      - name: Install pnpm
-        uses: pnpm/action-setup@v4
-
-      - name: Setup Node.js
+        
+      - name: Setup Node.js 24
         uses: actions/setup-node@v4
         with:
           node-version: '24'
           cache: pnpm
-
-      - name: Install dependencies
+      
+      - name: Install pnpm dependencies
         run: pnpm install
-
+      
       - name: Refresh Instagram token for this build
         env:
           PUBLIC_INSTAGRAM_ACCESS_TOKEN: ${{ secrets.PUBLIC_INSTAGRAM_ACCESS_TOKEN }}
@@ -95,9 +96,17 @@ jobs:
           });
           NODE
     
-      - name: Build project
+      - name: Build project with pnpm
         run: pnpm run build
-
+      
+      - name: Install wrangler CLI globally
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: install
+          wranglerVersion: latest
+      
       - name: Deploy to Cloudflare Workers
         uses: cloudflare/wrangler-action@v3
         with:
