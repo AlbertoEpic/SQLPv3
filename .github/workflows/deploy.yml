@@ -96,6 +96,13 @@ jobs:
           });
           NODE
      
+      - name: Install dependencies with pnpm
+        run: |
+          if ! command -v pnpm &> /dev/null; then
+            npm install -g pnpm@10.5.0 || true
+          fi
+          pnpm install
+    
       - name: Build project
         run: pnpm run build
     
