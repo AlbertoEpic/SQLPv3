@@ -38,16 +38,15 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         
-      - name: Setup Node.js 20
+      - name: Setup Node.js 24
         uses: actions/setup-node@v3
         with:
-          node-version: '20'
+          node-version: '24'
           
       - name: Install project dependencies
         run: |
-          npm install pnpm@latest || true
           if ! command -v pnpm &> /dev/null; then
-            npm install -g pnpm@latest
+            npm install -g pnpm@10.5.0
           fi
      
       - name: Refresh Instagram token for this build
