@@ -43,10 +43,13 @@ jobs:
         with:
           node-version: '24'
           cache: pnpm
-      
-      - name: Install pnpm dependencies
+          
+      - name: Install pnpm globally if not available
+        run: npm install -g pnpm@latest
+        
+      - name: Install project dependencies with pnpm
         run: pnpm install
-      
+    
       - name: Refresh Instagram token for this build
         env:
           PUBLIC_INSTAGRAM_ACCESS_TOKEN: ${{ secrets.PUBLIC_INSTAGRAM_ACCESS_TOKEN }}
