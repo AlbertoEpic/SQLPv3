@@ -1,8 +1,8 @@
 ---
 title: Fajalata / Peña Rápita (2.156m)
 heroImage: "[[attachments/fajalata-pea-rpita-2156m.png]]"
-description: La 'portera' del valle de Tena...
-pubDate: 2026-07-14
+description: El 'centinela' guardián del Alto valle de Tena...
+pubDate: 2026-07-06
 author: AlbertoEpic
 category: Ascensiones
 tags:
@@ -21,6 +21,7 @@ Simplemente la reseño en este blog siendo consciente de que esto lo ven cuatro 
 ![](https://www.youtube.com/watch?v=w9YG1h65Bqo)
 
 Arriba tienes unas imágenes a vista de dron de la incursión de nuestros especialistas.
+Podrás observar que este promontorio se levanta como centinela de la puerta al Alto Valle de Tena. Y es que, en invierno, generalmente el paisaje nevado comienza a partir del estrechamiento de Santa Elena, justo delimitado por este cordal.
 
 
 ## Las Fotos
