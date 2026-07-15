@@ -78,8 +78,8 @@ async function main() {
   const currentToken = existingInstafeed || existingInstagram || existingPublicInstafeed;
 
 if (!currentToken) {
-    fail('No existe INSTAFEED_ACCESS_TOKEN, INSTAGRAM_ACCESS_TOKEN ni PUBLIC_INSTAGRAM_ACCESS_TOKEN en .env.local.');
-  }
+    fail('Falta al menos uno de estos tokens en .env.local: INSTAFEED_ACCESS_TOKEN, INSTAGRAM_ACCESS_TOKEN, PUBLIC_INSTAGRAM_ACCESS_TOKEN');
+}
 
   console.log(`Token actual: ${maskToken(currentToken)}`);
   const refreshed = await refreshInstagramToken(currentToken);
