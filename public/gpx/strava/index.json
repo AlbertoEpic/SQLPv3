@@ -36,20 +36,27 @@
   },
   {
     "id": "gpx-0006",
+    "name": "Fajalata desde Santa Elena",
+    "file": "Fajalata.gpx",
+    "start_date": "2025-07-06T10:48:33.000Z",
+    "status": "ok"
+  },
+  {
+    "id": "gpx-0007",
     "name": "Skimo: Feniás con Myriam...",
     "file": "Feniás-skimo.gpx",
     "start_date": "2026-04-17T05:07:38Z",
     "status": "ok"
   },
   {
-    "id": "gpx-0007",
+    "id": "gpx-0008",
     "name": "La Raca Sunset",
     "file": "La_Raca_Sunset.gpx",
     "start_date": "2026-03-18T15:55:09Z",
     "status": "ok"
   },
   {
-    "id": "gpx-0008",
+    "id": "gpx-0009",
     "name": "Skimo - Peña Sabocos",
     "file": "Peña_Sabocos-skimo.gpx",
     "start_date": "2026-06-03T06:02:49.000Z",
