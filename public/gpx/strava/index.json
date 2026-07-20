@@ -50,13 +50,20 @@
   },
   {
     "id": "gpx-0008",
+    "name": "Vía ferrata de Iserías",
+    "file": "ferrata_Iserias.gpx",
+    "start_date": "2026-07-17T06:58:35Z",
+    "status": "ok"
+  },
+  {
+    "id": "gpx-0009",
     "name": "La Raca Sunset",
     "file": "La_Raca_Sunset.gpx",
     "start_date": "2026-03-18T15:55:09Z",
     "status": "ok"
   },
   {
-    "id": "gpx-0009",
+    "id": "gpx-0010",
     "name": "Skimo - Peña Sabocos",
     "file": "Peña_Sabocos-skimo.gpx",
     "start_date": "2026-06-03T06:02:49.000Z",

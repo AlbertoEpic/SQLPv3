@@ -5,7 +5,7 @@
 # You can rename this to your desired project name (e.g., "my-blog", "my-website")
 # This name will be used for your Cloudflare Worker deployment
 name = "sqlpv3"
-compatibility_date = "2026-07-17"
+compatibility_date = "2026-07-20"
 
 [assets]
   directory = "./dist"
