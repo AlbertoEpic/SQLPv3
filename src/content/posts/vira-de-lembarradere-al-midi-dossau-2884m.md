@@ -5,7 +5,7 @@ heroImage: attachments/SQLPcomodin.jpg
 updatedDate: 2015-04-06T10:28:46Z
 draft: false
 author: AlbertoEpic
-description: Por fin este pasado finde hizo bueno. Marcos, Marthe, Lucía y Alberto recuperamos este plan que fue pospuesto la semana anterior. El sábado subimos a vivaquear junto al lac de Pombie, y el domingo subimos al Midi por la vira de l'EmbarradíƒÂ¨r
+description: Por fin este pasado finde hizo bueno. Marcos, Marthe, Lucía y Alberto recuperamos este plan que fue pospuesto la semana anterior. El sábado subimos a vivaquear junto al lac de Pombie, y el domingo subimos al Midi por la vira de l'Embarradere
 category: Escalada
 tags:
   - ascensiones

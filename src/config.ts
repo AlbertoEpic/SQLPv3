@@ -460,8 +460,8 @@ export const siteConfig: SiteConfig = {
 };
 
 // Utility functions
-export function getFeature(feature: keyof Omit<SiteConfig["postOptions"], "postsPerPage" | "showPostCardCoverImages" | "postCardAspectRatio" | "customPostCardAspectRatio" | "linkedMentions" | "graphView" | "comments">): boolean {
-  return siteConfig.postOptions[feature];
+export function getFeature<T extends keyof SiteConfig["postOptions"]>(feature: T): boolean {
+  return ((siteConfig.postOptions)[feature]) as boolean;
 }
 
 export function getCommandPaletteShortcut(): string {
@@ -472,7 +472,7 @@ export function getContentWidth(): string {
   return siteConfig.layout.contentWidth;
 }
 
-export function getTheme(): "minimal" | "oxygen" | "atom" | "ayu" | "catppuccin" | "charcoal" | "dracula" | "everforest" | "flexoki" | "gruvbox" | "macos" | "nord" | "obsidian" | "rose-pine" | "sky" | "solarized" | "things" | "custom" {
+export function getTheme(): string {
   return siteConfig.theme;
 }
 

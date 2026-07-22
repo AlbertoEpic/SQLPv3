@@ -87,6 +87,7 @@ export default defineConfig({
   '/contact-us': '/contact',
   '/privacy': '/privacy-policy',
   '/posts/barranco-del-forcos': '/posts/barranco-forcos',
+  '/posts/vira-de-lembarradere-al-midi-dossau-2-884m': '/posts/vira-de-lembarradere-al-midi-dossau-2884m',
   '/projects/obsidian-astro-composer': '/projects/astro-composer',
   '/projects/obsidian-astro-suite': '/projects/vault-cms',
   '/docs/api-reference': '/docs/api',
