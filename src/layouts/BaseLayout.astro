@@ -5,6 +5,9 @@
 
 import { siteConfig, getFontFamily, getGoogleFontsUrl, shouldLoadLocalFonts, shouldLoadCdnFonts, getFontDisplay, getThemeDisplayName } from '@/config';
 import type { SEOData } from '@/types';
+
+// Favicon paths - referenced in template below
+const faviconPaths = { light: '/favicon-light.png', dark: '/favicon-dark.png' };
 import Header from '@/components/Header.astro';
 import Footer from '@/components/Footer.astro';
 import CommandPalette from '@/components/CommandPalette.astro';
@@ -383,47 +386,31 @@ const scrollbarClass = siteConfig.hideScrollBar ? '' : 'show-scrollbars';
     // Initialize immediately after config is set
     initTheme().catch(console.error);
 
-    // Set favicon based on system theme
-    function setFavicon() {
-      const faviconThemeAdaptive = window.siteConfig?.faviconThemeAdaptive ?? true;
-      const baseUrl = document.documentElement.getAttribute('data-base-url') || '';
-      
-      let faviconUrl;
-      
-      if (faviconThemeAdaptive) {
-        // Use theme-based favicons based on browser preference
-        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-        const prefersLight = window.matchMedia('(prefers-color-scheme: light)').matches;
+     // Set favicon based on system theme
+     function setFavicon() {
+       const faviconThemeAdaptive = window.siteConfig?.faviconThemeAdaptive ?? true;
+       
+       let faviconUrl;
+       
+       if (faviconThemeAdaptive) {
+         // Use theme-based favicons based on browser preference
+         const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+         const prefersLight = window.matchMedia('(prefers-color-scheme: light)').matches;
 
-        if (prefersDark) {
-          faviconUrl = `${baseUrl}/favicon-dark.png`;
-        } else if (prefersLight) {
-          faviconUrl = `${baseUrl}/favicon-light.png`;
-        } else {
-          faviconUrl = `${baseUrl}/favicon.png`;
-        }
-      } else {
-        // Always use static favicon
-        faviconUrl = `${baseUrl}/favicon.png`;
-      }
+         if (prefersDark) {
+           faviconUrl = '/favicon-dark.png';
+         } else if (prefersLight) {
+           faviconUrl = '/favicon-light.png';
+         } else {
+           faviconUrl = '/favicon.png';
+         }
+       } else {
+         // Always use static favicon
+         faviconUrl = '/favicon.png';
+       }
+     }
 
-      // Remove ALL existing favicon links
-      const existingFavicons = document.querySelectorAll('link[rel="icon"]');
-      existingFavicons.forEach(link => link.remove());
-
-      // Create new favicon link
-      const faviconLink = document.createElement('link');
-      faviconLink.rel = 'icon';
-      faviconLink.type = 'image/png';
-      faviconLink.href = `${faviconUrl}?v=${Date.now()}`;
-      document.head.appendChild(faviconLink);
-
-      // Force favicon refresh by updating page title
-      const originalTitle = document.title;
-      document.title = originalTitle;
-    }
-
-    // Set favicon on page load
+     // Set favicon on page load
     setFavicon();
 
     // View Transitions disabled - no need for astro:page-load
@@ -1078,9 +1065,6 @@ const scrollbarClass = siteConfig.hideScrollBar ? '' : 'show-scrollbars';
     }
   </script>
 
-  <!-- View Transitions - temporarily disabled to fix compiler issues -->
-  <!-- <ViewTransitions /> -->
-
   <!-- Additional head content -->
   <slot name="head" />
 
@@ -1375,54 +1359,21 @@ const scrollbarClass = siteConfig.hideScrollBar ? '' : 'show-scrollbars';
 
     function setupSwupHooks() {
       if (window.swup && window.swup.hooks && typeof window.swup.hooks.on === 'function') {
-        // Use the correct Swup hooks API
+        // Content replaced - reinitialize all Swup-dependent widgets
         window.swup.hooks.on('content:replace', () => {
-          // ...existing code...
           setTimeout(() => {
-            // ...existing code...
+            syncThemeAndMode();
+            reinitWidgetsAfterReplace();
           }, 100);
         });
 
+        // After page view - theme sync + widget re-init
         window.swup.hooks.on('page:view', () => {
-          // ...existing code...
-          // Refuerzo estructural: sincroniza theme y modo dark/light tras cada navegación SPA
-          (function syncThemeAndMode() {
-            // 1. Sincroniza dark/light
-            const storedMode = localStorage.getItem('theme');
-            const systemMode = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-            const mode = storedMode || systemMode;
-            document.documentElement.classList.remove('light', 'dark');
-            document.documentElement.classList.add(mode);
-
-            // 2. Sincroniza data-theme
-            const theme = window.getThemeWithoutClearing ? window.getThemeWithoutClearing() : (window.siteConfig?.theme || 'oxygen');
-            document.documentElement.setAttribute('data-theme', theme);
-
-            // 3. Reaplica variables CSS
-            if (window.updateThemeCSSVariables) {
-              window.updateThemeCSSVariables(theme).catch?.(console.error);
-            }
-
-            // 4. Dispara evento global para que todos los widgets reactiven su lógica
-            window.dispatchEvent(new CustomEvent('themechange', { detail: { mode, theme } }));
-          })();
-
-          // Re-inicialización de widgets tras navegación SPA (Swup)
-          if (window.resetGraph) window.resetGraph();
-          if (window.initializeGraph) window.initializeGraph();
-          if (window.setupGraphButtons) window.setupGraphButtons();
-          if (window.resetHomeGraph) window.resetHomeGraph();
-          // Inicialización robusta del grafo HomeGraph tras SPA
-          if (window.initializeHomeGraph) window.initializeHomeGraph();
-          if (window.initializeHomeInstagramFeed) window.initializeHomeInstagramFeed();
-          if (window.initializeImageGalleries) window.initializeImageGalleries();
-          if (window.initializeImagePreloader) window.initializeImagePreloader();
-          if (window.initializeGraphModal) window.initializeGraphModal();
-          if (window.initializeLinkedMentions) window.initializeLinkedMentions();
-          if (window.initializeLeafletMaps) window.initializeLeafletMaps();
-          // ...otros widgets que expongan inicializador global
+          syncThemeAndMode();
+          reinitWidgetsAfterView();
         });
 
+        // Visit ended (before history popstate) - leaflet refresh
         window.swup.hooks.on('visit:end', () => {
           if (window.initializeLeafletMaps) {
             setTimeout(() => window.initializeLeafletMaps?.(), 100);

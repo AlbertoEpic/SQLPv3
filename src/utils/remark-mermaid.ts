@@ -6,42 +6,31 @@ import type { Root, Code } from 'mdast';
  * Remark plugin for processing Mermaid diagrams
  * 
  * This plugin detects code blocks with language "mermaid" and transforms them
- * into HTML containers with class "mermaid-diagram" that can be processed by
- * the client-side Mermaid library.
- * 
- * Follows the same pattern as existing plugins like remarkCallouts and remarkWikilinks.
+ * into HTML containers that can be processed by the client-side Mermaid library.
  */
 
 const remarkMermaid: Plugin<[], Root> = () => {
   return (tree) => {
     visit(tree, 'code', (node: Code, index, parent) => {
-      // Check if this is a mermaid code block
-      if (node.lang !== 'mermaid') {
-        return;
-      }
+      if (node.lang !== 'mermaid') return;
+      if (!node.value || typeof node.value !== 'string') return;
 
-      // Validate that we have content
-      if (!node.value || typeof node.value !== 'string') {
-        return;
-      }
-
-      // Create a unique ID for this diagram
       const diagramId = `mermaid-${Math.random().toString(36).substr(2, 9)}`;
 
-      // Transform the code block into a mermaid diagram container
-      const mermaidHtml: any = {
+      // Transform to HTML container — no mermaid-js needed
+      const html: any = {
         type: 'html',
-        value: `<div class="mermaid-diagram" data-mermaid-id="${diagramId}" data-mermaid-source="${encodeURIComponent(node.value)}">
-          <div class="mermaid-diagram-content">
-            <pre class="mermaid-diagram-source"><code>${node.value.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</code></pre>
-          </div>
+        value: `<div class="mermaid-diagram" data-mermaid-id="${diagramId}">
+          <pre class="mermaid-diagram-content"><code>${node.value.replace(/</g, '<').replace(/>/g, '>')}</code></pre>
+          <style>
+            .mermaid-diagram { text-align: center; padding: 1rem 0; }
+            .mermaid-diagram-content { font-size: 13px; overflow-x: auto; white-space: pre-wrap; word-break: break-word; background: #f5f5f5; border-radius: 6px; padding: 1rem; margin: 0.5rem 0; }
+            .mermaid-diagram-content code { font-family: 'Fira Code', monospace; }
+          </style>
         </div>`
       };
 
-      // Replace the code block with the mermaid container
-      if (parent && typeof index === 'number') {
-        parent.children.splice(index, 1, mermaidHtml);
-      }
+      if (parent && typeof index === 'number') parent.children.splice(index, 1, html);
     });
   };
 };

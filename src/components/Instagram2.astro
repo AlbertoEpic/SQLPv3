@@ -1,52 +1,37 @@
 ---
-
+const token = import.meta.env.PUBLIC_INSTAGRAM_ACCESS_TOKEN;
+---
 
 <section class="instagram-contenedor">
-
   <h2>Sígueme en Instagram</h2>
-  <div id="instafeed" class="instagram-grid"></div>
+  <div id="instafeed" class="instagram-grid" data-token={token}></div>
 </section>
-
----
-const token = import.meta.env.PUBLIC_INSTAGRAM_ACCESS_TOKEN || '';
----
-
-
-
-
-
 
 <script is:inline src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0/dist/instafeed.min.js"></script>
 
 <script is:inline>
   function loadInstagram() {
-    // 1. Control de seguridad: Si el contenedor no existe en esta página, no hacemos nada
     const feedContainer = document.getElementById('instafeed');
     if (!feedContainer) return;
 
-    // 2. Limpiamos el contenedor por si acaso Astro ha dejado restos de una navegación previa
     feedContainer.innerHTML = '';
 
-    // 3. Inicializamos Instafeed
-    const instagramToken = `${token}`;
+    const instagramToken = feedContainer.dataset.token;
+    if (!instagramToken) return;
+
     const feed = new Instafeed({
       accessToken: instagramToken,
       limit: 6,
-      template: '<a href="{{link}}" target="_blank"><img src="{{image}}" alt="{{caption}}" /></a>',
-      // ... el resto de tus opciones de configuración
+      template: '<a href="{{link}}" target="_blank" class="instagram-tarjeta"><img src="{{image}}" alt="{{caption}}" /></a>',
     });
 
     feed.run();
   }
 
-  // Ejecutar cuando la página se carga de manera tradicional (F5)
   document.addEventListener('DOMContentLoaded', loadInstagram);
-
-  // Ejecutar cada vez que Astro cambia de página dinámicamente
   document.addEventListener('astro:after-swap', loadInstagram);
 </script>
 
-<!-- --- SECCIÓN DE ESTILOS CSS --- -->
 <style>
   .instagram-contenedor {
     margin: 40px auto;
