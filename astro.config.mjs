@@ -64,7 +64,7 @@ export default defineConfig({
       resources: ["'self'", "data:", "https:"]
     },
     connectDirective: {
-      resources: ["'self'", "https://giscus.app"]
+      resources: ["'self'", "https://giscus.app", "https://graph.instagram.com"]
     },
     frameDirective: {
       resources: [
