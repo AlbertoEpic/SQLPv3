@@ -473,34 +473,23 @@ const structuredData = {
             </div>
           </div>
 
-          <a href={latestPost ? withBase(`/posts/${latestPost.id}`) : withBase('/posts')} class="hero-banner group" aria-label="Ir a la última entrada">
             <div class="hero-banner-media">
-              {latestPostImage ? (
-                <ImageWrapper
-                  src={latestPostImage.src}
-                  basePath={latestPostImage.basePath}
-                  alt={latestPost?.data?.imageAlt || latestPost?.data?.title || 'Ultima entrada'}
-                  class="hero-banner-image"
-                  width={1200}
-                  height={630}
-                  loading="eager"
-                  fetchpriority="high"
-                />
-              ) : (
-                <div class="hero-banner-fallback" aria-hidden="true"></div>
-              )}
+
             </div>
 
             <div class="hero-banner-content">
-              <p class="text-xs uppercase tracking-[0.18em] text-primary-100/90">Presentación</p>
-              <h2 class="text-xl sm:text-2xl font-semibold text-white mt-2 line-clamp-2">
-                {latestPost?.data?.title || 'Tu siguiente historia empieza aquí'}
-              </h2>
-              <p class="text-sm text-primary-100/90 mt-2 line-clamp-2">
-                {latestPost?.data?.description || 'Descubre las últimas publicaciones y entra al archivo completo de rutas y experiencias.'}
-              </p>
+              <video 
+                autoplay 
+                loop 
+                muted 
+                playsinline 
+                preload="metadata"
+                class="w-full h-auto object-cover"
+              >
+                <source src="/src/content/SQLP.webm" type="video/webm">
+                Tu navegador no soporta vídeos HTML5.
+              </video>
             </div>
-          </a>
         </div>
       </div>
     </section>

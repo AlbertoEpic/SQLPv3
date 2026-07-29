@@ -463,34 +463,21 @@ const structuredData = {
             </div>
           </div>
 
-          <a href={latestPost ? withBase(`/posts/${latestPost.id}`) : withBase('/posts')} class="hero-banner group" aria-label="Ir a la última entrada">
+          <div class="hero-banner group">
             <div class="hero-banner-media">
-              {latestPostImage ? (
-                <ImageWrapper
-                  src={latestPostImage.src}
-                  basePath={latestPostImage.basePath}
-                  alt={latestPost?.data?.imageAlt || latestPost?.data?.title || 'Ultima entrada'}
-                  class="hero-banner-image"
-                  width={1200}
-                  height={630}
-                  loading="eager"
-                  fetchpriority="high"
-                />
-              ) : (
-                <div class="hero-banner-fallback" aria-hidden="true"></div>
-              )}
+                  <video 
+                    autoplay 
+                    loop 
+                    muted 
+                    playsinline 
+                    preload="metadata"
+                    class="hero-banner-video"
+                  >
+                <source src="/SQLP.webm" type="video/webm">
+                Tu navegador no soporta vídeos HTML5.
+              </video>
             </div>
-
-            <div class="hero-banner-content">
-              <p class="text-xs uppercase tracking-[0.18em] text-primary-100/90">Presentación</p>
-              <h2 class="text-xl sm:text-2xl font-semibold text-white mt-2 line-clamp-2">
-                {latestPost?.data?.title || 'Tu siguiente historia empieza aquí'}
-              </h2>
-              <p class="text-sm text-primary-100/90 mt-2 line-clamp-2">
-                {latestPost?.data?.description || 'Descubre las últimas publicaciones y entra al archivo completo de rutas y experiencias.'}
-              </p>
-            </div>
-          </a>
+          </div>
         </div>
       </div>
     </section>
@@ -691,7 +678,7 @@ const structuredData = {
   }
 
   .hero-row {
-    min-height: clamp(26rem, 52vh, 40rem);
+    min-height: auto;
   }
 
   .hero-fullbleed {
@@ -724,8 +711,10 @@ const structuredData = {
   }
 
   .hero-banner {
-    display: grid;
-    grid-template-rows: minmax(11rem, 1fr);
+    display: block;
+    width: 100%;
+    max-width: 75%;
+    margin-inline: auto;
     border-radius: 1.25rem;
     overflow: hidden;
     border: 1px solid rgb(var(--color-primary-300) / 0.5);
@@ -734,14 +723,28 @@ const structuredData = {
     transition: transform 220ms ease, box-shadow 220ms ease;
   }
 
+  @media (min-width: 1280px) {
+    .hero-banner {
+      margin-left: auto;
+      margin-right: 5px;
+    }
+  }
+
   .hero-banner:hover {
     transform: translateY(-2px);
     box-shadow: 0 26px 60px rgb(var(--color-primary-950) / 0.45);
   }
 
   .hero-banner-media {
-    position: absolute;
-    inset: 0;
+    position: relative;
+  }
+
+  .hero-banner-video {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
   }
 
   .hero-banner-image,
@@ -753,14 +756,6 @@ const structuredData = {
 
   .hero-banner-fallback {
     background: linear-gradient(130deg, rgb(var(--color-highlight-600) / 0.85), rgb(var(--color-primary-900) / 0.95));
-  }
-
-  .hero-banner-content {
-    position: relative;
-    z-index: 1;
-    padding: 1.25rem;
-    align-self: end;
-    background: linear-gradient(180deg, transparent, rgb(var(--color-primary-950) / 0.88));
   }
 
   .hero-btn {
