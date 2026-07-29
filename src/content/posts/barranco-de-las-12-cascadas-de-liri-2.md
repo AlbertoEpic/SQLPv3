@@ -18,7 +18,7 @@ Vivimos un verano raro, marcado por el calor y los incendios. El otro día, los 
 Total, que tocó recalcular sobre la marcha. El plan B terminó siendo el barranco de las 12 Cascadas de Liri, pero sólo el tramo superior porque para uno de los rápeles de la segunda mitad hace falta una cuerda más larga de la que llevaban...
 
 ## El croquis
-![barranco-de-las-12-cascadas-de-liri-2 -](attachments/barranco-de-las-12-cascadas-de-liri-2.png)
+![](attachments/barranco-de-las-12-cascadas-de-liri-croquis.png)
 
 Nuestros especialistas realizaron el tramo superior reseñado, hasta salir por un sendero semi-perdido a la carretera.
 
