@@ -3872,7 +3872,7 @@ var SiteInfoTab = class extends TabRenderer {
           cls: "mod-cta"
         });
         faviconLightButton.addEventListener("click", () => {
-          void showFilePicker("favicon-light.png");
+          void showFilePicker("/favicon-light.png");
         });
       });
       assetsGroup.addSetting((setting) => {
@@ -3882,7 +3882,7 @@ var SiteInfoTab = class extends TabRenderer {
           cls: "mod-cta"
         });
         faviconDarkButton.addEventListener("click", () => {
-          void showFilePicker("favicon-dark.png");
+          void showFilePicker("/favicon-dark.png");
         });
       });
     }
