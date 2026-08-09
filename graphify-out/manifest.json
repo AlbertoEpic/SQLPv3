@@ -10,8 +10,8 @@
     "semantic_hash": ""
   },
   "astro.config.mjs": {
-    "mtime": 1783018508.0734134,
-    "ast_hash": "82e6dcf0e229d925d550a8ca0bcc0c57",
+    "mtime": 1786267680.2788806,
+    "ast_hash": "4111e43da08a092fe3a04ed0748c92ff",
     "semantic_hash": ""
   },
   "cli/bin/create-astro-modular.mjs": {
@@ -45,18 +45,18 @@
     "semantic_hash": ""
   },
   "package.json": {
-    "mtime": 1782893563.0017853,
-    "ast_hash": "a864430221c71c5a113a5e72246e2963",
+    "mtime": 1785150375.0521927,
+    "ast_hash": "03a929fda3828198312e6badb173cef9",
     "semantic_hash": ""
   },
   "public/gpx/strava/index.json": {
-    "mtime": 1783010618.0707939,
-    "ast_hash": "2a24579b6151018d7976cb1e91039520",
+    "mtime": 1786267680.1168435,
+    "ast_hash": "376776fbc25ee8568c160e345429125f",
     "semantic_hash": ""
   },
   "public/gpx/strava/manual-links.json": {
-    "mtime": 1783010618.071795,
-    "ast_hash": "9fcf8ab9d892b28d7ce87dbbe19b905f",
+    "mtime": 1786267680.1168435,
+    "ast_hash": "a8a76fa300744aeda1c1cecda24eeeec",
     "semantic_hash": ""
   },
   "public/scripts/category-filtering.js": {
@@ -85,8 +85,8 @@
     "semantic_hash": ""
   },
   "scripts/generate-deployment-config.js": {
-    "mtime": 1779290939.689062,
-    "ast_hash": "2d7bd84b2c1538688e535fa6e99102d0",
+    "mtime": 1783446569.3959084,
+    "ast_hash": "3aab1f4582837eecfbc898c731d04303",
     "semantic_hash": ""
   },
   "scripts/generate-graph-data.js": {
@@ -205,8 +205,8 @@
     "semantic_hash": ""
   },
   "src/components/Instagram2.astro": {
-    "mtime": 1780658973.8029926,
-    "ast_hash": "0294d84f59dc0ef3c1a5158fda554bed",
+    "mtime": 1785186837.9439335,
+    "ast_hash": "48375e9474153962ae34d06bccc5eeb9",
     "semantic_hash": ""
   },
   "src/components/LeafletMap.astro": {
@@ -295,8 +295,8 @@
     "semantic_hash": ""
   },
   "src/config.ts": {
-    "mtime": 1783018545.6700535,
-    "ast_hash": "fb39f43065bc5fe3045379e9304cae22",
+    "mtime": 1784705751.6292565,
+    "ast_hash": "777f28e3501dc50a3e0860ff7cb485a9",
     "semantic_hash": ""
   },
   "src/config/dev.ts": {
@@ -310,12 +310,12 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/app.json": {
-    "mtime": 1783010382.8322077,
+    "mtime": 1785320466.0262065,
     "ast_hash": "ded516c585290a7de233be611476c7fa",
     "semantic_hash": ""
   },
   "src/content/.obsidian/appearance.json": {
-    "mtime": 1783010382.9897583,
+    "mtime": 1785320466.2678921,
     "ast_hash": "1aad267d29936122e7bb65c819410bdc",
     "semantic_hash": ""
   },
@@ -330,12 +330,12 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/community-plugins.json": {
-    "mtime": 1783010382.9607606,
+    "mtime": 1785320466.14672,
     "ast_hash": "5bbe65981dfbb542f5258967752adb64",
     "semantic_hash": ""
   },
   "src/content/.obsidian/core-plugins.json": {
-    "mtime": 1783010382.156683,
+    "mtime": 1785320465.2926688,
     "ast_hash": "db29479913624ef3dc8b0036639d2854",
     "semantic_hash": ""
   },
@@ -370,8 +370,8 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/astro-modular-settings/main.js": {
-    "mtime": 1780384618.7383542,
-    "ast_hash": "c5b5f4266a5cc70c0a79813a3539689f",
+    "mtime": 1785533119.5547316,
+    "ast_hash": "2489818d29a3c902e54486bc76fc34c8",
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/astro-modular-settings/manifest.json": {
@@ -395,7 +395,7 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/consistent-attachments-and-links/data.json": {
-    "mtime": 1783010381.801,
+    "mtime": 1785320464.695,
     "ast_hash": "8437410eb6cccad442f9a5b5414c403e",
     "semantic_hash": ""
   },
@@ -440,7 +440,7 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/editing-toolbar/data.json": {
-    "mtime": 1783010381.607,
+    "mtime": 1785320464.477,
     "ast_hash": "eb0d237aa2244036f55114b6012aa606",
     "semantic_hash": ""
   },
@@ -545,13 +545,13 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/nested-properties/main.js": {
-    "mtime": 1782723607.8968787,
-    "ast_hash": "1d40e89f3c1c30a5e0eb04b4a6c4f245",
+    "mtime": 1785256910.5953052,
+    "ast_hash": "f5def91e72066bdb5b9396995542f8a0",
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/nested-properties/manifest.json": {
-    "mtime": 1782723607.897879,
-    "ast_hash": "a20ec185545f4ae21850e01a5c5fe4ba",
+    "mtime": 1785256910.5972953,
+    "ast_hash": "5158ab86702ad2a81d57c785c540309d",
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/obsidian-git/data.json": {
@@ -590,7 +590,7 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/omnisearch/data.json": {
-    "mtime": 1783010383.472,
+    "mtime": 1785320466.711,
     "ast_hash": "c8f315bcb8888e08c3461f22885addf4",
     "semantic_hash": ""
   },
@@ -640,13 +640,13 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/seo/main.js": {
-    "mtime": 1780384622.7524445,
-    "ast_hash": "e9e16e1ceb2f6fdfc5dfd2b477d7330c",
+    "mtime": 1785256922.8571167,
+    "ast_hash": "d46084251b1973c1ba57fc6e28dc7458",
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/seo/manifest.json": {
-    "mtime": 1780384622.7544441,
-    "ast_hash": "3b50f5042ba659ee7ff7ee95d2950294",
+    "mtime": 1785256922.8581166,
+    "ast_hash": "eded6510142a88f27f07ec688fb3a34b",
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/settings-search/main.js": {
@@ -755,8 +755,8 @@
     "semantic_hash": ""
   },
   "src/layouts/BaseLayout.astro": {
-    "mtime": 1782140988.0190518,
-    "ast_hash": "310dc8cf99379b610fbb2cdacb9a1f3f",
+    "mtime": 1785533077.1741662,
+    "ast_hash": "77d6cc6bfcfa064e7380e4ee0c2dca16",
     "semantic_hash": ""
   },
   "src/layouts/DocumentationLayout.astro": {
@@ -790,8 +790,8 @@
     "semantic_hash": ""
   },
   "src/pages/[...slug].astro": {
-    "mtime": 1779290940.6672764,
-    "ast_hash": "3411868c83a49329b5483443b18f87ff",
+    "mtime": 1783769485.8844664,
+    "ast_hash": "869448fe40c176327ee32fa55f92655c",
     "semantic_hash": ""
   },
   "src/pages/api/docs.json.ts": {
@@ -845,13 +845,13 @@
     "semantic_hash": ""
   },
   "src/pages/index-backup.astro": {
-    "mtime": 1781168138.4680152,
-    "ast_hash": "c05de36441c5284fae95ee0095b0379d",
+    "mtime": 1785325279.7582629,
+    "ast_hash": "87f982a46c295f493b93d937de937643",
     "semantic_hash": ""
   },
   "src/pages/index.astro": {
-    "mtime": 1782899289.2839496,
-    "ast_hash": "6b7e96236ec82d6cfff50aa0afd2f42d",
+    "mtime": 1786267993.1609383,
+    "ast_hash": "8daec1a1f2a00837f0cdef49044c8828",
     "semantic_hash": ""
   },
   "src/pages/leaflet-demo.astro": {
@@ -955,7 +955,7 @@
     "semantic_hash": ""
   },
   "src/utils/base-url.ts": {
-    "mtime": 1779290940.6842813,
+    "mtime": 1783446569.3979075,
     "ast_hash": "e57ab45df051f0e8d23cb44ec3c96aab",
     "semantic_hash": ""
   },
@@ -975,7 +975,7 @@
     "semantic_hash": ""
   },
   "src/utils/internallinks.ts": {
-    "mtime": 1779290940.6872816,
+    "mtime": 1784141494.8239994,
     "ast_hash": "7d91a7d8b004cae9aca68542fda33e39",
     "semantic_hash": ""
   },
@@ -1040,8 +1040,8 @@
     "semantic_hash": ""
   },
   "src/utils/remark-mermaid.ts": {
-    "mtime": 1779290940.692282,
-    "ast_hash": "8a18d08a455a54e4031ca6657bcde860",
+    "mtime": 1784708006.4966488,
+    "ast_hash": "29b7c2d4100fcfe0915891a3beb3d5c8",
     "semantic_hash": ""
   },
   "src/utils/remark-obsidian-comments.ts": {
@@ -1060,8 +1060,8 @@
     "semantic_hash": ""
   },
   "src/utils/seo.ts": {
-    "mtime": 1781168138.4630957,
-    "ast_hash": "6b5ca0365f410a52d96ebd6c478a6cb9",
+    "mtime": 1783444986.840689,
+    "ast_hash": "fd556db57a3dace61ac95b40e843bec2",
     "semantic_hash": ""
   },
   "src/utils/status.ts": {
@@ -1145,8 +1145,8 @@
     "semantic_hash": ""
   },
   ".github/workflows/deploy.yml": {
-    "mtime": 1783018545.6690536,
-    "ast_hash": "0c33d2715b196e38b6acfd09531a4e48",
+    "mtime": 1783785498.743296,
+    "ast_hash": "264c48205e38d333fb0c652105406cfb",
     "semantic_hash": ""
   },
   "AGENTS.md": {
@@ -1180,7 +1180,7 @@
     "semantic_hash": ""
   },
   "pnpm-workspace.yaml": {
-    "mtime": 1779386541.3388996,
+    "mtime": 1785150375.0560052,
     "ast_hash": "69c1abfe89366c1daf83c1a35f4678f4",
     "semantic_hash": ""
   },
@@ -3854,11 +3854,6 @@
     "ast_hash": "bcca75e691e85cbef1e8caee2438fb6f",
     "semantic_hash": ""
   },
-  "src/content/posts/vira-de-lembarradere-al-midi-dossau-2-884m.md": {
-    "mtime": 1779290940.6462772,
-    "ast_hash": "81c9c424f06171f7e5edb6cb0359a541",
-    "semantic_hash": ""
-  },
   "src/content/posts/visita-al-muladar-del-tiacuto.md": {
     "mtime": 1779870854.1520677,
     "ast_hash": "5fd4d4277138e99c997de6a2260bf0b9",
@@ -3990,8 +3985,8 @@
     "semantic_hash": ""
   },
   "public/favicon-light.png": {
-    "mtime": 1779290939.674058,
-    "ast_hash": "f2e35fa4af0dacbf9d2f799f9b0f4cfb",
+    "mtime": 1779290939.6730595,
+    "ast_hash": "f41caf56d2f84b9e09af13828d1f366a",
     "semantic_hash": ""
   },
   "public/favicon.png": {
@@ -6740,8 +6735,8 @@
     "semantic_hash": ""
   },
   "src/content/pages/albertoepic.md": {
-    "mtime": 1783012407.2419903,
-    "ast_hash": "846635bb7c21a44a8ea910813459bcc3",
+    "mtime": 1786269090.0501912,
+    "ast_hash": "4cec8ab9892d774845ea3bbadb880f74",
     "semantic_hash": ""
   },
   "src/content/posts/barranco-del-formiga.md": {
@@ -6792,6 +6787,131 @@
   "src/content/posts/attachments/barranco-del-formiga-resea.png": {
     "mtime": 1782985998.5139337,
     "ast_hash": "ce419f8f1ff5c31a650646d02ca73702",
+    "semantic_hash": ""
+  },
+  ".vscode/extensions.json": {
+    "mtime": 1785167885.399645,
+    "ast_hash": "70201dec9bea19e50992bf9135b07d66",
+    "semantic_hash": ""
+  },
+  "src/content/posts/barranco-de-las-12-cascadas-de-liri-2.md": {
+    "mtime": 1785320921.7835374,
+    "ast_hash": "93ccdc82b51e0be8bcf62242e9fb0547",
+    "semantic_hash": ""
+  },
+  "src/content/posts/fajalata-pe\u00f1a-r\u00e1pita-2156m.md": {
+    "mtime": 1784051757.6214378,
+    "ast_hash": "d2337ed8b6c59a08d916a4c4d64ca9f7",
+    "semantic_hash": ""
+  },
+  "src/content/posts/vira-de-lembarradere-al-midi-dossau-2884m.md": {
+    "mtime": 1784566376.8554904,
+    "ast_hash": "dcee73125e28fa9b15ce50a5c63c4c3e",
+    "semantic_hash": ""
+  },
+  "src/content/posts/v\u00eda-ferrata-pared-de-iser\u00edas.md": {
+    "mtime": 1784274553.5778599,
+    "ast_hash": "7f61bda670dd037db6569c381c01fa89",
+    "semantic_hash": ""
+  },
+  "src/content/posts/attachments/barranco-de-las-12-cascadas-de-liri-2-1.png": {
+    "mtime": 1785262429.4525926,
+    "ast_hash": "57d33b570ce26ada181f22b1b197d3ae",
+    "semantic_hash": ""
+  },
+  "src/content/posts/attachments/barranco-de-las-12-cascadas-de-liri-2-2.png": {
+    "mtime": 1785262466.4171982,
+    "ast_hash": "14b74865cdebb70776cc102d198d337c",
+    "semantic_hash": ""
+  },
+  "src/content/posts/attachments/barranco-de-las-12-cascadas-de-liri-2-3.png": {
+    "mtime": 1785262491.2353084,
+    "ast_hash": "60147d0e3ef8d93f9589a25727b6b4bf",
+    "semantic_hash": ""
+  },
+  "src/content/posts/attachments/barranco-de-las-12-cascadas-de-liri-2-4.png": {
+    "mtime": 1785262520.3266146,
+    "ast_hash": "ff460b924cbe002de78adc8c0ccbfb04",
+    "semantic_hash": ""
+  },
+  "src/content/posts/attachments/barranco-de-las-12-cascadas-de-liri-2-5.png": {
+    "mtime": 1785262548.5885403,
+    "ast_hash": "1321326263f7438be6635badd8a5c251",
+    "semantic_hash": ""
+  },
+  "src/content/posts/attachments/barranco-de-las-12-cascadas-de-liri-2.jpg": {
+    "mtime": 1785259522.4251857,
+    "ast_hash": "68a0e6932fe941e23136294c4fdbd4c5",
+    "semantic_hash": ""
+  },
+  "src/content/posts/attachments/barranco-de-las-12-cascadas-de-liri-croquis.png": {
+    "mtime": 1785260178.1837015,
+    "ast_hash": "d4ae84a39fb3aaa8d8eab2f560522c6e",
+    "semantic_hash": ""
+  },
+  "src/content/posts/attachments/fajalata-pea-rpita-2156m-1.png": {
+    "mtime": 1784049232.6043375,
+    "ast_hash": "72aa7629576e63c132367c4457ec06d8",
+    "semantic_hash": ""
+  },
+  "src/content/posts/attachments/fajalata-pea-rpita-2156m-2.png": {
+    "mtime": 1784049285.0780697,
+    "ast_hash": "2af8c1cb99aef6a2f792f59c2d5a8474",
+    "semantic_hash": ""
+  },
+  "src/content/posts/attachments/fajalata-pea-rpita-2156m-3.png": {
+    "mtime": 1784049335.283847,
+    "ast_hash": "33f432cbf9388e6bdd0c0aafb15ca893",
+    "semantic_hash": ""
+  },
+  "src/content/posts/attachments/fajalata-pea-rpita-2156m-4.png": {
+    "mtime": 1784049381.1131785,
+    "ast_hash": "f23858ec956e2b4f81d14f2aa3e3d0a1",
+    "semantic_hash": ""
+  },
+  "src/content/posts/attachments/fajalata-pea-rpita-2156m-5.png": {
+    "mtime": 1784049423.2087822,
+    "ast_hash": "3a7c6f4e90cc3c6c61a5cd1c4d092101",
+    "semantic_hash": ""
+  },
+  "src/content/posts/attachments/fajalata-pea-rpita-2156m.png": {
+    "mtime": 1784048444.677628,
+    "ast_hash": "72aa7629576e63c132367c4457ec06d8",
+    "semantic_hash": ""
+  },
+  "src/content/posts/attachments/va-ferrata-pared-de-iseras-1.png": {
+    "mtime": 1784273294.4334974,
+    "ast_hash": "decc59f3e29397791c50bcfec4f792ba",
+    "semantic_hash": ""
+  },
+  "src/content/posts/attachments/va-ferrata-pared-de-iseras-2.png": {
+    "mtime": 1784273545.273867,
+    "ast_hash": "842cc21d0be9a0dc4e62f3d7446a7dd0",
+    "semantic_hash": ""
+  },
+  "src/content/posts/attachments/va-ferrata-pared-de-iseras-3.png": {
+    "mtime": 1784273599.905626,
+    "ast_hash": "bebc99064c085b5d2f6764e44e224348",
+    "semantic_hash": ""
+  },
+  "src/content/posts/attachments/va-ferrata-pared-de-iseras.png": {
+    "mtime": 1784271992.7436812,
+    "ast_hash": "ad9230c9c36e282879324d3a8ee394a3",
+    "semantic_hash": ""
+  },
+  "public/SQLP.webm": {
+    "mtime": 1785323108.1533678,
+    "ast_hash": "38db8bb3822538dc8d5a866e315a0988",
+    "semantic_hash": ""
+  },
+  "src/content/pages/attachments/sobre-m-1.png": {
+    "mtime": 1782987974.028543,
+    "ast_hash": "da3248321d453f2dd078291b5431aafa",
+    "semantic_hash": ""
+  },
+  "src/content/pages/attachments/About_Hero.jpg": {
+    "mtime": 1735754982.4319768,
+    "ast_hash": "cf476f7299c928e44d051d37eb562bfc",
     "semantic_hash": ""
   }
 }
