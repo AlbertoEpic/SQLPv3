@@ -290,12 +290,11 @@ import Icon from './Icon.astro';
     container.innerHTML = '';
     
 
-    // Limitar a 600 nodos y filtrar enlaces relacionados
-    const MAX_NODES = 600;
+    // Usar todos los nodos y enlaces para mostrar el grafo global completo.
     const batchSize = 50;
     const allNodes = data.nodes.map((d) => ({ ...d }));
     const allLinks = data.links.map((d) => ({ ...d }));
-    const nodes = allNodes.slice(0, MAX_NODES);
+    const nodes = allNodes;
     const nodeIds = new Set(nodes.map(n => n.id));
     const links = allLinks.filter(l => nodeIds.has(typeof l.source === 'object' ? l.source.id : l.source) && nodeIds.has(typeof l.target === 'object' ? l.target.id : l.target));
 
@@ -803,4 +802,14 @@ import Icon from './Icon.astro';
       }
     });
   }
+
+  (window as any).initializeGraphModal = initializeGraphModal;
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initializeGraphModal);
+  } else {
+    initializeGraphModal();
+  }
+
+  document.addEventListener('astro:page-load', initializeGraphModal);
 </script>

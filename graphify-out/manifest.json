@@ -10,7 +10,7 @@
     "semantic_hash": ""
   },
   "astro.config.mjs": {
-    "mtime": 1786381023.946898,
+    "mtime": 1786399592.5518694,
     "ast_hash": "4111e43da08a092fe3a04ed0748c92ff",
     "semantic_hash": ""
   },
@@ -50,12 +50,12 @@
     "semantic_hash": ""
   },
   "public/gpx/strava/index.json": {
-    "mtime": 1786380908.237095,
+    "mtime": 1786399467.5351129,
     "ast_hash": "376776fbc25ee8568c160e345429125f",
     "semantic_hash": ""
   },
   "public/gpx/strava/manual-links.json": {
-    "mtime": 1786380908.237095,
+    "mtime": 1786399467.5361135,
     "ast_hash": "a8a76fa300744aeda1c1cecda24eeeec",
     "semantic_hash": ""
   },
@@ -170,8 +170,8 @@
     "semantic_hash": ""
   },
   "src/components/GraphModal.astro": {
-    "mtime": 1781024941.4687924,
-    "ast_hash": "0f49a56f239731664e09702c00193535",
+    "mtime": 1786398236.473259,
+    "ast_hash": "8b564959d29cee368b17ab5ad73b0e09",
     "semantic_hash": ""
   },
   "src/components/Header.astro": {
@@ -200,8 +200,8 @@
     "semantic_hash": ""
   },
   "src/components/ImageWrapper.astro": {
-    "mtime": 1786380904.5516148,
-    "ast_hash": "380aaff1773baf16cf0feafbfb8e4903",
+    "mtime": 1786381311.0462139,
+    "ast_hash": "19bf642d33abcd41eb4c438efcbe3cf4",
     "semantic_hash": ""
   },
   "src/components/Instagram2.astro": {
@@ -850,8 +850,8 @@
     "semantic_hash": ""
   },
   "src/pages/index.astro": {
-    "mtime": 1786379401.2205236,
-    "ast_hash": "70641459c0d0ba573991b36e5b8b59a4",
+    "mtime": 1786398228.330422,
+    "ast_hash": "ecde6ff6701c1b3de4f39ea31c939a51",
     "semantic_hash": ""
   },
   "src/pages/leaflet-demo.astro": {
@@ -2040,8 +2040,8 @@
     "semantic_hash": ""
   },
   "src/content/posts/el-castell-roques-de-benet-1-016m.md": {
-    "mtime": 1779290940.460808,
-    "ast_hash": "e42b4882cfb9ccc287411f9ee0f1c1cb",
+    "mtime": 1786395993.5219412,
+    "ast_hash": "13586869bb538e875d2d706749e5c03a",
     "semantic_hash": ""
   },
   "src/content/posts/el-gigante-dormido.md": {
@@ -3405,8 +3405,8 @@
     "semantic_hash": ""
   },
   "src/content/posts/skimo-tendenera-2-845m.md": {
-    "mtime": 1781022258.1450453,
-    "ast_hash": "cba1834da0f11441769bd6d25481bd6a",
+    "mtime": 1786396994.54208,
+    "ast_hash": "6d679616ce781bc7c30ba673d0851fdc",
     "semantic_hash": ""
   },
   "src/content/posts/skimo-tuca-del-posolobino-2-778m.md": {
@@ -6917,6 +6917,11 @@
   "src/utils/pano360.ts": {
     "mtime": 1786379401.2185242,
     "ast_hash": "71079e600f32b69d454ee0636d1c8ed0",
+    "semantic_hash": ""
+  },
+  "src/components/NeuralGraphIsland.astro": {
+    "mtime": 1786399464.1567156,
+    "ast_hash": "963fd3f25ae1ca25a90366d14caef8cd",
     "semantic_hash": ""
   }
 }

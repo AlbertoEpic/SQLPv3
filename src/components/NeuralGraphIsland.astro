@@ -1,0 +1,597 @@
+---
+import Icon from '@/components/Icon.astro';
+---
+
+<div class="social-island neural-graph-widget" data-no-swup>
+  <div class="social-head">
+    <Icon name="git-fork" class="w-5 h-5" />
+    <h3>gráfico neuronal</h3>
+  </div>
+  <p>Global Graph con todas las relaciones entre posts.</p>
+
+  <div
+    id="home-neural-graph"
+    class="neural-graph-viewport"
+    role="img"
+    aria-label="Vista previa del grafo global de posts"
+  >
+    <p class="neural-graph-loading" data-neural-loading>Cargando grafo neuronal...</p>
+  </div>
+
+  <div class="neural-graph-meta" aria-live="polite">
+    <span data-neural-post-count>0 posts</span>
+    <span data-neural-link-count>0 conexiones</span>
+  </div>
+
+  <button type="button" class="neural-graph-open" id="home-neural-open-btn">
+    Abrir Global Graph
+  </button>
+</div>
+
+<script>
+  import * as d3 from 'd3';
+  import { getGraphThemeColors } from '@/utils/graph-theme-colors';
+
+  interface GraphNode {
+    id: string;
+    name: string;
+    slug?: string;
+    radius: number;
+    group?: 'post' | 'category';
+    connections?: number;
+    type?: string;
+    x?: number;
+    y?: number;
+    vx?: number;
+    vy?: number;
+    fx?: number | null;
+    fy?: number | null;
+    categories?: string[];
+  }
+
+  interface GraphLink {
+    source: string | GraphNode;
+    target: string | GraphNode;
+    value?: number;
+  }
+
+  interface RawGraphData {
+    nodes: any[];
+    links?: GraphLink[];
+    connections?: GraphLink[];
+  }
+
+  let cleanupPreview: (() => void) | null = null;
+  let lastGraphData: RawGraphData | null = null;
+
+  function getGraphDataUrl() {
+    const baseUrl = document.documentElement.getAttribute('data-base-url') || '/';
+    const normalizedBase = baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`;
+    return `${normalizedBase}graph/graph-data.json`;
+  }
+
+  function normalizeGraphData(data: RawGraphData) {
+    const rawNodes: GraphNode[] = (data.nodes || []).map((node: any) => {
+      const rawCategories = Array.isArray(node.categories)
+        ? node.categories
+        : node.category
+          ? [node.category]
+          : [];
+
+      const categories = rawCategories
+        .map((category: any) => String(category).trim())
+        .filter(Boolean);
+
+      return {
+        ...node,
+        name: node.title || node.name || node.id,
+        categories,
+        group: 'post',
+        radius: Math.max(2.2, Math.min(5.2, ((node.connections || 0) / 3) + 2.2)),
+      };
+    });
+
+    const categoryLabelMap = new Map<string, string>();
+    const categoryPostMap = new Map<string, Set<string>>();
+
+    for (const post of rawNodes) {
+      const postCategories = (post.categories || []).length > 0
+        ? (post.categories as string[])
+        : ['Sin categoria'];
+
+      post.categories = postCategories;
+
+      for (const rawCategory of postCategories) {
+        const normalizedCategory = rawCategory.toLowerCase();
+        if (!categoryLabelMap.has(normalizedCategory)) {
+          categoryLabelMap.set(normalizedCategory, rawCategory);
+        }
+        if (!categoryPostMap.has(normalizedCategory)) {
+          categoryPostMap.set(normalizedCategory, new Set<string>());
+        }
+        categoryPostMap.get(normalizedCategory)!.add(post.id);
+      }
+    }
+
+    const categoryNodes: GraphNode[] = Array.from(categoryPostMap.entries()).map(([categoryKey, postIds]) => ({
+      id: `category:${categoryKey}`,
+      name: categoryLabelMap.get(categoryKey) || categoryKey,
+      group: 'category',
+      radius: Math.max(5, Math.min(10, 4.5 + Math.log2(postIds.size + 1))),
+      categories: [categoryKey],
+    }));
+
+    const categoryLinks = Array.from(categoryPostMap.entries()).flatMap(([categoryKey, postIds]) => {
+      const categoryNodeId = `category:${categoryKey}`;
+      return Array.from(postIds).map((postId) => ({
+        source: postId,
+        target: categoryNodeId,
+        value: 1,
+      }));
+    });
+
+    const nodes = [...rawNodes, ...categoryNodes];
+
+    return {
+      nodes,
+      links: categoryLinks,
+    };
+  }
+
+  function buildPostUrl(slug: string) {
+    const baseUrl = document.documentElement.getAttribute('data-base-url') || '/';
+    const normalizedBase = baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`;
+    return `${normalizedBase}posts/${encodeURIComponent(slug)}`;
+  }
+
+  function navigateToPost(slug?: string) {
+    if (!slug) return;
+
+    const targetUrl = buildPostUrl(slug);
+    if ((window as any).swup?.navigate) {
+      (window as any).swup.navigate(targetUrl);
+      return;
+    }
+
+    window.location.href = targetUrl;
+  }
+
+  function updateCounters(postCount: number, linkCount: number) {
+    const postCounter = document.querySelector('[data-neural-post-count]');
+    const linkCounter = document.querySelector('[data-neural-link-count]');
+    if (postCounter) postCounter.textContent = `${postCount} posts`;
+    if (linkCounter) linkCounter.textContent = `${linkCount} conexiones`;
+  }
+
+  function renderPreview(rawData: RawGraphData) {
+    const container = document.getElementById('home-neural-graph');
+    if (!container) return;
+
+    if (cleanupPreview) {
+      cleanupPreview();
+      cleanupPreview = null;
+    }
+
+    const graphData = normalizeGraphData(rawData);
+    updateCounters(graphData.nodes.length, graphData.links.length);
+
+    if (graphData.nodes.length === 0) {
+      container.innerHTML = '<p class="neural-graph-loading">No hay datos del grafo.</p>';
+      return;
+    }
+
+    container.innerHTML = '';
+
+    const colors = getGraphThemeColors();
+    const isDarkMode = document.documentElement.classList.contains('dark');
+    const width = container.clientWidth || 720;
+    const height = container.clientHeight || 250;
+
+    const svg = d3
+      .select(container)
+      .append('svg')
+      .attr('width', width)
+      .attr('height', height)
+      .attr('viewBox', `0 0 ${width} ${height}`)
+      .attr('preserveAspectRatio', 'xMidYMid meet')
+      .style('display', 'block')
+      .style('width', '100%')
+      .style('height', '100%');
+
+    const links = graphData.links.map((l) => ({ ...l }));
+    const nodes = graphData.nodes.map((n) => ({ ...n }));
+
+    let dragStartX = 0;
+    let dragStartY = 0;
+    let isDraggingNode = false;
+    const CLICK_DISTANCE = 5;
+
+    const zoomGroup = svg.append('g');
+    let labels: any = null;
+
+    const simulation = d3
+      .forceSimulation(nodes)
+      // Tighter layout: less repulsion + shorter links + softer collision.
+      .force('link', d3.forceLink(links).id((d: any) => d.id).distance(26).strength(0.2))
+      .force('charge', d3.forceManyBody().strength(-45))
+      .force('collide', d3.forceCollide((d: any) => (d.group === 'category' ? d.radius + 2 : d.radius + 1)))
+      .force('center', d3.forceCenter(width / 2, height / 2))
+      .force('x', d3.forceX(width / 2).strength(0.08))
+      .force('y', d3.forceY(height / 2).strength(0.08));
+
+    const zoom = d3
+      .zoom<SVGSVGElement, unknown>()
+      .scaleExtent([0.4, 4])
+      .filter((event) => {
+        if (isDraggingNode) return false;
+        if (event.type === 'wheel') return true;
+        if (event.type === 'mousedown') {
+          return !(event.target as Element)?.closest('circle[data-node-id]');
+        }
+        if (event.type === 'touchstart' || event.type === 'touchmove') {
+          if (event.touches && event.touches.length >= 2) return true;
+          return !(event.target as Element)?.closest('circle[data-node-id]');
+        }
+        return false;
+      })
+      .on('start', (event) => {
+        if (event.sourceEvent && event.sourceEvent.type === 'mousedown') {
+          const isOnNode = !!(event.sourceEvent.target as Element)?.closest('circle[data-node-id]');
+          svg.style('cursor', isOnNode ? 'default' : 'grabbing');
+        }
+      })
+      .on('zoom', (event) => {
+        zoomGroup.attr('transform', event.transform);
+        if (!labels) return;
+        labels.style('opacity', event.transform.k < 0.65 ? 0 : 0.6);
+      })
+      .on('end', () => {
+        svg.style('cursor', 'grab');
+      });
+
+    svg.call(zoom as any);
+    svg.style('cursor', 'grab');
+
+    svg.append('defs').html(`
+      <filter id="home-neural-node-shadow" x="-30%" y="-30%" width="160%" height="160%">
+        <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="${colors.linkStroke}" flood-opacity="0.18"/>
+      </filter>
+    `);
+
+    const neighbors = new Map<string, Set<string>>();
+    for (const linkItem of links as any[]) {
+      const src = typeof linkItem.source === 'object' ? linkItem.source.id : linkItem.source;
+      const tgt = typeof linkItem.target === 'object' ? linkItem.target.id : linkItem.target;
+      if (!neighbors.has(src)) neighbors.set(src, new Set());
+      if (!neighbors.has(tgt)) neighbors.set(tgt, new Set());
+      neighbors.get(src)!.add(tgt);
+      neighbors.get(tgt)!.add(src);
+    }
+
+    const link = zoomGroup
+      .append('g')
+      .attr('stroke', colors.linkStroke)
+      .attr('stroke-opacity', 0.6)
+      .selectAll('line')
+      .data(links)
+      .enter()
+      .append('line')
+      .attr('stroke-width', 2);
+
+    const nodeGroup = zoomGroup
+      .append('g')
+      .selectAll('g')
+      .data(nodes)
+      .enter()
+      .append('g')
+      .attr('data-node-id', (d: any) => d.id)
+      .call(
+        d3
+          .drag<SVGGElement, any>()
+          .on('start', function (event) {
+            dragStartX = event.x;
+            dragStartY = event.y;
+            isDraggingNode = true;
+            if (!event.active) simulation.alphaTarget(0.12).restart();
+            event.subject.fx = event.subject.x;
+            event.subject.fy = event.subject.y;
+          })
+          .on('drag', function (event, d) {
+            d.fx = event.x;
+            d.fy = event.y;
+          })
+          .on('end', function (event, d) {
+            isDraggingNode = false;
+            if (!event.active) simulation.alphaTarget(0);
+
+            event.subject.fx = null;
+            event.subject.fy = null;
+
+            const dx = event.x - dragStartX;
+            const dy = event.y - dragStartY;
+            const dist = Math.sqrt(dx * dx + dy * dy);
+            if (dist < CLICK_DISTANCE) {
+              navigateToPost(d.slug);
+            }
+          }) as any,
+      )
+      .on('mouseover', (_event: any, hoveredNode: any) => {
+        const connected = neighbors.get(hoveredNode.id) ?? new Set<string>();
+        connected.add(hoveredNode.id);
+
+        link.transition().duration(180)
+          .attr('stroke', (l: any) => {
+            const sourceId = typeof l.source === 'object' ? l.source.id : l.source;
+            const targetId = typeof l.target === 'object' ? l.target.id : l.target;
+            return sourceId === hoveredNode.id || targetId === hoveredNode.id
+              ? colors.tagFill
+              : colors.linkStroke;
+          })
+          .attr('stroke-width', (l: any) => {
+            const sourceId = typeof l.source === 'object' ? l.source.id : l.source;
+            const targetId = typeof l.target === 'object' ? l.target.id : l.target;
+            return sourceId === hoveredNode.id || targetId === hoveredNode.id ? 3 : 1.5;
+          })
+          .attr('stroke-opacity', (l: any) => {
+            const sourceId = typeof l.source === 'object' ? l.source.id : l.source;
+            const targetId = typeof l.target === 'object' ? l.target.id : l.target;
+            return sourceId === hoveredNode.id || targetId === hoveredNode.id ? 0.9 : 0.08;
+          });
+
+        nodeGroup
+          .selectAll<SVGCircleElement, any>('circle')
+          .attr('fill-opacity', (n: any) => (connected.has(n.id) ? 1 : 0.18))
+          .attr('fill', (n: any) => {
+            if (n.id === hoveredNode.id) return colors.tagFill;
+            return n.group === 'category' ? colors.tagFill : colors.postFill;
+          })
+          .attr('stroke', (n: any) => {
+            if (n.id === hoveredNode.id) return colors.tagStroke;
+            return n.group === 'category' ? colors.tagStroke : colors.postStroke;
+          })
+          .attr('stroke-width', (n: any) => (n.id === hoveredNode.id ? 3 : 2))
+          .attr('filter', (n: any) => (n.id === hoveredNode.id ? 'url(#home-neural-node-shadow)' : null));
+
+        labels?.transition().duration(180)
+          .style('opacity', (n: any) => (connected.has(n.id) ? 1 : 0.08));
+      })
+      .on('mouseout', () => {
+        link.transition().duration(180)
+          .attr('stroke', colors.linkStroke)
+          .attr('stroke-width', 2)
+          .attr('stroke-opacity', 0.6);
+
+        nodeGroup
+          .selectAll<SVGCircleElement, any>('circle')
+          .attr('fill-opacity', 0.96)
+          .attr('stroke-width', 2)
+          .attr('fill', (d: any) => d.group === 'category' ? colors.tagFill : colors.postFill)
+          .attr('stroke', (d: any) => d.group === 'category' ? colors.tagStroke : colors.postStroke)
+          .attr('filter', 'url(#home-neural-node-shadow)');
+
+        const currentTransform = svg ? d3.zoomTransform(svg.node() as Element) : { k: 1 };
+        labels?.transition().duration(180)
+          .style('opacity', currentTransform.k < 0.65 ? 0 : 0.6);
+      });
+
+    const node = nodeGroup
+      .append('circle')
+      .attr('r', (d: any) => d.radius || 3)
+      .attr('fill', (d: any) => d.group === 'category' ? colors.tagFill : colors.postFill)
+      .attr('stroke', (d: any) => d.group === 'category' ? colors.tagStroke : colors.postStroke)
+      .attr('stroke-width', 2)
+      .attr('filter', 'url(#home-neural-node-shadow)')
+      .attr('cursor', 'pointer')
+      .style('transition', 'fill 0.2s, stroke 0.2s, filter 0.2s');
+
+    node.append('title').text((d: any) => d.name || d.id);
+
+    labels = nodeGroup
+      .append('g')
+      .attr('class', 'graph-label-group')
+      .style('pointer-events', 'none')
+      .style('opacity', 0.6);
+
+    labels.append('rect')
+      .attr('x', (d: any) => -d.name.length * 3.2)
+      .attr('y', (d: any) => (d.radius || 3) + 1)
+      .attr('width', (d: any) => d.name.length * 6.4 + 10)
+      .attr('height', 20)
+      .attr('rx', 7)
+      .attr('fill', isDarkMode ? 'rgba(30,41,59,0.85)' : 'rgba(255,255,255,0.85)')
+      .attr('stroke', colors.backgroundSecondary)
+      .attr('stroke-width', 1);
+
+    labels.append('text')
+      .text((d: any) => d.name)
+      .attr('x', 0)
+      .attr('y', (d: any) => (d.radius || 3) + 14)
+      .attr('text-anchor', 'middle')
+      .attr('font-size', '11px')
+      .attr('font-weight', '500')
+      .attr('fill', colors.postText)
+      .style('user-select', 'none');
+
+    simulation.on('tick', () => {
+      link
+        .attr('x1', (d: any) => d.source.x)
+        .attr('y1', (d: any) => d.source.y)
+        .attr('x2', (d: any) => d.target.x)
+        .attr('y2', (d: any) => d.target.y);
+
+      nodeGroup.attr('transform', (d: any) => `translate(${d.x},${d.y})`);
+    });
+
+    cleanupPreview = () => {
+      simulation.stop();
+      svg.remove();
+    };
+  }
+
+  async function loadAndRenderPreview() {
+    const container = document.getElementById('home-neural-graph');
+    if (!container) return;
+
+    const loading = container.querySelector('[data-neural-loading]');
+    if (loading) loading.classList.remove('hidden');
+
+    try {
+      const response = await fetch(getGraphDataUrl());
+      const data = await response.json();
+      lastGraphData = data;
+      renderPreview(data);
+    } catch {
+      container.innerHTML = '<p class="neural-graph-loading">No se pudo cargar el grafo global.</p>';
+      updateCounters(0, 0);
+    }
+  }
+
+  function setupOpenButton() {
+    const button = document.getElementById('home-neural-open-btn');
+    if (!button) return;
+
+    button.replaceWith(button.cloneNode(true));
+    const freshButton = document.getElementById('home-neural-open-btn');
+    if (!freshButton) return;
+
+    freshButton.addEventListener('click', () => {
+      if ((window as any).openGraphModal) {
+        (window as any).openGraphModal();
+        return;
+      }
+
+      if ((window as any).initializeGraphModal) {
+        (window as any).initializeGraphModal();
+        setTimeout(() => {
+          if ((window as any).openGraphModal) {
+            (window as any).openGraphModal();
+          }
+        }, 100);
+      }
+    });
+  }
+
+  function initializeHomeNeuralGraphIsland() {
+    const container = document.getElementById('home-neural-graph');
+    if (!container) return;
+
+    setupOpenButton();
+
+    if (lastGraphData) {
+      renderPreview(lastGraphData);
+      return;
+    }
+
+    loadAndRenderPreview();
+  }
+
+  Object.assign(window, { initializeHomeNeuralGraphIsland });
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initializeHomeNeuralGraphIsland);
+  } else {
+    initializeHomeNeuralGraphIsland();
+  }
+
+  document.addEventListener('astro:page-load', initializeHomeNeuralGraphIsland);
+  window.addEventListener('themechange', () => {
+    if (lastGraphData) {
+      renderPreview(lastGraphData);
+    }
+  });
+</script>
+
+<style>
+  .neural-graph-widget {
+    position: relative;
+  }
+
+  .neural-graph-viewport {
+    margin-top: 0.75rem;
+    border-radius: 0.85rem;
+    border: 1px solid rgb(var(--color-primary-300));
+    height: 250px;
+    overflow: hidden;
+    background: rgb(var(--color-primary-50));
+  }
+
+  :global(.dark) .neural-graph-viewport {
+    border-color: rgb(var(--color-primary-600));
+    background: rgb(var(--color-primary-800));
+  }
+
+  .neural-graph-loading {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.92rem;
+    color: rgb(var(--color-primary-700));
+  }
+
+  :global(.dark) .neural-graph-loading {
+    color: rgb(var(--color-primary-300));
+  }
+
+  .neural-graph-meta {
+    margin-top: 0.7rem;
+    display: flex;
+    gap: 0.9rem;
+    flex-wrap: wrap;
+  }
+
+  .neural-graph-meta span {
+    margin-top: 0;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: rgb(var(--color-highlight-700));
+    background: rgb(var(--color-primary-50) / 0.75);
+    border: 1px solid rgb(var(--color-primary-200));
+    padding: 0.3rem 0.5rem;
+    border-radius: 999px;
+  }
+
+  :global(.dark) .neural-graph-meta span {
+    color: rgb(var(--color-highlight-300));
+    background: rgb(var(--color-primary-800) / 0.75);
+    border-color: rgb(var(--color-primary-600));
+  }
+
+  .neural-graph-open {
+    margin-top: 0.85rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(var(--color-highlight-400));
+    border-radius: 0.7rem;
+    padding: 0.46rem 0.72rem;
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: rgb(var(--color-highlight-800));
+    background: rgb(var(--color-highlight-100) / 0.68);
+    transition: transform 170ms ease, background-color 170ms ease;
+  }
+
+  .neural-graph-open:hover {
+    transform: translateY(-1px);
+    background: rgb(var(--color-highlight-200) / 0.8);
+  }
+
+  :global(.dark) .neural-graph-open {
+    color: rgb(var(--color-highlight-200));
+    background: rgb(var(--color-highlight-800) / 0.32);
+    border-color: rgb(var(--color-highlight-600));
+  }
+
+  :global(.dark) .neural-graph-open:hover {
+    background: rgb(var(--color-highlight-700) / 0.45);
+  }
+
+  @media (max-width: 767px) {
+    .neural-graph-viewport {
+      height: 220px;
+    }
+  }
+</style>
