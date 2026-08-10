@@ -10,7 +10,7 @@
     "semantic_hash": ""
   },
   "astro.config.mjs": {
-    "mtime": 1786267680.2788806,
+    "mtime": 1786380339.2490346,
     "ast_hash": "4111e43da08a092fe3a04ed0748c92ff",
     "semantic_hash": ""
   },
@@ -50,12 +50,12 @@
     "semantic_hash": ""
   },
   "public/gpx/strava/index.json": {
-    "mtime": 1786267680.1168435,
+    "mtime": 1786380209.0356376,
     "ast_hash": "376776fbc25ee8568c160e345429125f",
     "semantic_hash": ""
   },
   "public/gpx/strava/manual-links.json": {
-    "mtime": 1786267680.1168435,
+    "mtime": 1786380209.0356376,
     "ast_hash": "a8a76fa300744aeda1c1cecda24eeeec",
     "semantic_hash": ""
   },
@@ -90,8 +90,8 @@
     "semantic_hash": ""
   },
   "scripts/generate-graph-data.js": {
-    "mtime": 1779290939.690063,
-    "ast_hash": "4c9ee1d71b29d988e64e647436f6108e",
+    "mtime": 1786380197.666515,
+    "ast_hash": "1c09c672a114ebf196c669496f27c7fa",
     "semantic_hash": ""
   },
   "scripts/generate-strava-gpx-index.mjs": {
@@ -225,8 +225,8 @@
     "semantic_hash": ""
   },
   "src/components/LocalGraph.astro": {
-    "mtime": 1781026201.2888591,
-    "ast_hash": "78c960b8504f4a24ac793a3c2b3cb504",
+    "mtime": 1786380192.3401327,
+    "ast_hash": "fdb6f0c4eca8f5dc401690e5dca2c508",
     "semantic_hash": ""
   },
   "src/components/MermaidDiagram.astro": {
@@ -310,12 +310,12 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/app.json": {
-    "mtime": 1785320466.0262065,
+    "mtime": 1786380271.9680035,
     "ast_hash": "ded516c585290a7de233be611476c7fa",
     "semantic_hash": ""
   },
   "src/content/.obsidian/appearance.json": {
-    "mtime": 1785320466.2678921,
+    "mtime": 1786380272.3107588,
     "ast_hash": "1aad267d29936122e7bb65c819410bdc",
     "semantic_hash": ""
   },
@@ -330,12 +330,12 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/community-plugins.json": {
-    "mtime": 1785320466.14672,
+    "mtime": 1786380272.3827567,
     "ast_hash": "5bbe65981dfbb542f5258967752adb64",
     "semantic_hash": ""
   },
   "src/content/.obsidian/core-plugins.json": {
-    "mtime": 1785320465.2926688,
+    "mtime": 1786380271.9110045,
     "ast_hash": "db29479913624ef3dc8b0036639d2854",
     "semantic_hash": ""
   },
@@ -370,13 +370,13 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/astro-modular-settings/main.js": {
-    "mtime": 1785533119.5547316,
-    "ast_hash": "2489818d29a3c902e54486bc76fc34c8",
+    "mtime": 1786380344.6495821,
+    "ast_hash": "fe9a83d8b559676315f738bcdb8c4dd7",
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/astro-modular-settings/manifest.json": {
-    "mtime": 1780384618.7393532,
-    "ast_hash": "139acc3c65a0197f6ccc1f499efe09c9",
+    "mtime": 1786380344.6515825,
+    "ast_hash": "45be5ecca3f32a02be640e22048f02f6",
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/bases-cms/data.json": {
@@ -395,7 +395,7 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/consistent-attachments-and-links/data.json": {
-    "mtime": 1785320464.695,
+    "mtime": 1786380271.037,
     "ast_hash": "8437410eb6cccad442f9a5b5414c403e",
     "semantic_hash": ""
   },
@@ -440,7 +440,7 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/editing-toolbar/data.json": {
-    "mtime": 1785320464.477,
+    "mtime": 1786380270.806,
     "ast_hash": "eb0d237aa2244036f55114b6012aa606",
     "semantic_hash": ""
   },
@@ -545,13 +545,13 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/nested-properties/main.js": {
-    "mtime": 1785256910.5953052,
-    "ast_hash": "f5def91e72066bdb5b9396995542f8a0",
+    "mtime": 1786380334.0420625,
+    "ast_hash": "272bb91563d8c7e3871bab4aaecaec73",
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/nested-properties/manifest.json": {
-    "mtime": 1785256910.5972953,
-    "ast_hash": "5158ab86702ad2a81d57c785c540309d",
+    "mtime": 1786380334.0650618,
+    "ast_hash": "4638f43d3f6dd0113a2171447356772b",
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/obsidian-git/data.json": {
@@ -590,7 +590,7 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/omnisearch/data.json": {
-    "mtime": 1785320466.711,
+    "mtime": 1786380273.556,
     "ast_hash": "c8f315bcb8888e08c3461f22885addf4",
     "semantic_hash": ""
   },
@@ -670,8 +670,8 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/ui-tweaker/data.json": {
-    "mtime": 1779290939.8173308,
-    "ast_hash": "465c410d82accc2514fd5c3e3faad586",
+    "mtime": 1786380271.965,
+    "ast_hash": "85a4f83ae9cbf2c311d880f0d15f1ba4",
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/ui-tweaker/main.js": {
@@ -850,8 +850,8 @@
     "semantic_hash": ""
   },
   "src/pages/index.astro": {
-    "mtime": 1786267993.1609383,
-    "ast_hash": "8daec1a1f2a00837f0cdef49044c8828",
+    "mtime": 1786379401.2205236,
+    "ast_hash": "70641459c0d0ba573991b36e5b8b59a4",
     "semantic_hash": ""
   },
   "src/pages/leaflet-demo.astro": {
@@ -3075,8 +3075,8 @@
     "semantic_hash": ""
   },
   "src/content/posts/por-las-ferratas-de-pena-rueba.md": {
-    "mtime": 1781172038.3490863,
-    "ast_hash": "bfeaf4cc94e8b1b5f0eb2d94cd38c093",
+    "mtime": 1786380380.8955164,
+    "ast_hash": "83664305b618e129aefdc9cfd9c39906",
     "semantic_hash": ""
   },
   "src/content/posts/powder-en-el-pirineo-mito-o-realidad.md": {
@@ -6735,8 +6735,8 @@
     "semantic_hash": ""
   },
   "src/content/pages/albertoepic.md": {
-    "mtime": 1786269090.0501912,
-    "ast_hash": "4cec8ab9892d774845ea3bbadb880f74",
+    "mtime": 1786270620.361271,
+    "ast_hash": "124a8841fd0b73fef715f513d917397d",
     "semantic_hash": ""
   },
   "src/content/posts/barranco-del-formiga.md": {
@@ -6912,6 +6912,11 @@
   "src/content/pages/attachments/About_Hero.jpg": {
     "mtime": 1735754982.4319768,
     "ast_hash": "cf476f7299c928e44d051d37eb562bfc",
+    "semantic_hash": ""
+  },
+  "src/utils/pano360.ts": {
+    "mtime": 1786379401.2185242,
+    "ast_hash": "71079e600f32b69d454ee0636d1c8ed0",
     "semantic_hash": ""
   }
 }
