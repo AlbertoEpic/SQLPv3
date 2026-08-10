@@ -12,6 +12,7 @@ import logoMiniPlanetas from '@/content/logoMiniPlanetas.png';
 import pano360Favicon from '@/content/pano360 favicon-1-180x180.png';
 import { withBase } from '@/utils/base-url';
 import HomeGraph from '@/components/HomeGraph.astro';
+import { getLatestPano360 } from '@/utils/pano360';
 
 const allPosts = await getCollection('posts');
 const isDev = import.meta.env.DEV;
@@ -87,31 +88,10 @@ const latestPostImage = (() => {
 
 
 // --- Panoramicas 360: obtener ultimo producto desde feed XML personalizado ---
-let latestPanoLink = null;
-let latestPanoTitle = null;
-let latestPanoImage = null;
-try {
-  const res = await fetch('https://pano360.soloquedalopeor.com/wp-content/uploads/woo-feed/custom/xml/feedpano360.xml');
-  if (res.ok) {
-    const xml = await res.text();
-    const products = Array.from(xml.matchAll(/<product>([\s\S]*?)<\/product>/g)).map(m => m[1]);
-
-    if (products.length > 0) {
-      const latestProduct = products[0];
-      const linkMatch = latestProduct.match(/<link>([\s\S]*?)<\/link>/);
-      const titleMatch = latestProduct.match(/<title>([\s\S]*?)<\/title>/);
-      const imageMatch = latestProduct.match(/<image_link>([\s\S]*?)<\/image_link>/);
-
-      if (linkMatch && linkMatch[1].includes('/panorama/')) {
-        latestPanoLink = linkMatch[1].trim();
-        latestPanoTitle = titleMatch ? titleMatch[1].trim() : 'Ver ultima panoramica';
-        latestPanoImage = imageMatch ? imageMatch[1].trim() : null;
-      }
-    }
-  }
-} catch (e) {
-  // Si hay error, dejar latestPanoLink en null
-}
+const pano360Data = await getLatestPano360();
+const latestPanoLink = pano360Data.link;
+const latestPanoTitle = pano360Data.title;
+const latestPanoImage = pano360Data.image;
 
 let latestMiniPlanetLink = null;
 let latestMiniPlanetTitle = null;
