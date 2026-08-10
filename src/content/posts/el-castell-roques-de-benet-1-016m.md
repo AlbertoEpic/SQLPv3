@@ -29,7 +29,7 @@ Y como es habitual aquí, podrás ver el itinerario animado sobre un mapa 3D:
 
 En esta ocasión nuestro especialista AlbertoEpic no cargaba con todo el material necesario para una de sus fotos esféricas, por lo que hemos realizado [algo parecido en Pano360](https://pano360.soloquedalopeor.com/panorama/el-castell-roques-de-benet-1-016m/)...
 
-[https://i.imgur.com/I3E0qv7.jpg](https://i.imgur.com/I3E0qv7.jpg)Cheles en el tramo inicial de pista, bajo las imponentes Roques de Benet.
+![https://i.imgur.com/I3E0qv7.jpg](https://i.imgur.com/I3E0qv7.jpg)Cheles en el tramo inicial de pista, bajo las imponentes Roques de Benet.
 
 Si bien conforme nos acercamos por la pista los mallos parecen inexpugnables si no es con técnicas de escalada, luego el sendero se las arregla para ir buscando los puntos débiles de las paredes y ascender a la parte superior por una canal de rocas no demasiado empinada. Los bastones se quedaron en el coche por si había que trepar, pero luego se echaron de menos al ser una actividad de mucho menos compromiso de lo previsto.
 
