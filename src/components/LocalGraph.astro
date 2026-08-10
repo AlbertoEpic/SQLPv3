@@ -541,7 +541,7 @@ const shouldShowGraph = true;
     for (const pattern of patterns) {
       const match = currentPath.match(pattern);
       if (match) {
-        currentSlug = match[1];
+        currentSlug = decodeURIComponent(match[1]);
         break;
       }
     }
@@ -550,7 +550,7 @@ const shouldShowGraph = true;
     if (!currentSlug) {
       const segments = currentPath.split('/').filter(Boolean);
       if (segments.length >= 2 && segments[0] === 'posts') {
-        currentSlug = segments[1];
+        currentSlug = decodeURIComponent(segments[1]);
       }
     }
 

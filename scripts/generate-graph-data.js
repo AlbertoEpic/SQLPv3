@@ -537,28 +537,16 @@ async function generateGraphData() {
       }
     }
 
-    // Apply maxNodes filtering if configured
-    let filteredNodes = nodes;
-    let filteredConnections = connections;
-
-    if (maxNodes && nodes.length > maxNodes) {
-      // Sort posts by connection count (descending), then by date (descending)
-      const sortedPosts = nodes.sort((a, b) => {
-        if (b.connections !== a.connections) {
-          return b.connections - a.connections;
-        }
-        return new Date(b.date) - new Date(a.date);
-      });
-
-      filteredNodes = sortedPosts.slice(0, maxNodes);
-
-      // Filter connections to only include those between selected nodes
-      const selectedNodeIds = new Set(filteredNodes.map((n) => n.id));
-      filteredConnections = connections.filter(
-        (conn) =>
-          selectedNodeIds.has(conn.source) && selectedNodeIds.has(conn.target)
-      );
-    }
+    // Sort posts by connection count (descending), then by date (descending).
+    // Keep all posts in the exported dataset so the LocalGraph works on every post,
+    // including newer entries that would otherwise fall outside a maxNodes cutoff.
+    const filteredNodes = nodes.sort((a, b) => {
+      if (b.connections !== a.connections) {
+        return b.connections - a.connections;
+      }
+      return new Date(b.date) - new Date(a.date);
+    });
+    const filteredConnections = connections;
 
     // Remove date field from nodes before exporting (only needed for sorting)
     const nodesForExport = filteredNodes.map(({ date, ...node }) => node);
@@ -570,7 +558,8 @@ async function generateGraphData() {
       metadata: {
         totalPosts: filteredNodes.length,
         totalConnections: filteredConnections.length,
-        maxNodesApplied: maxNodes && nodes.length > maxNodes,
+        maxNodesApplied: false,
+        maxNodesConfigured: maxNodes,
         originalNodeCount: nodes.length,
       },
     };

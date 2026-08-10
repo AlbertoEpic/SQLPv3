@@ -245,6 +245,13 @@
       "ariaLabel": "Colapsar todo",
       "type": "external",
       "hidden": false
+    },
+    {
+      "id": "external-mostrar-filtro-de-b-squeda",
+      "name": "Mostrar filtro de búsqueda",
+      "ariaLabel": "Mostrar filtro de búsqueda",
+      "type": "external",
+      "hidden": false
     }
   ],
   "nativeExplorerButtonColors": {},
