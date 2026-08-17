@@ -3183,7 +3183,7 @@ var ContentTypeStep = class extends BaseWizardStep {
     }));
     attachmentExtraSlot = stepContentWrapper.createDiv({ cls: "vault-cms-attachment-extra-slot" });
     this.renderAttachmentExtraSlot(attachmentExtraSlot);
-    new import_obsidian8.Setting(stepContentWrapper).setName("Resolve cover images from public folder").setDesc("Enable this if your theme uses absolute image paths (like /images/photo.jpg) that reference the Astro project's public/ folder. This lets banners and card thumbnails display correctly in Obsidian.").addToggle((toggle) => {
+    new import_obsidian8.Setting(stepContentWrapper).setName("Resolve cover images from project folders").setDesc("Enable this if your content uses absolute image paths (like /images/photo.jpg) that map to an image folder in your project. Searches public/, src/assets/, static/, and assets/. This lets banners and card thumbnails display correctly in Obsidian, even when the build pipeline (e.g. Astro's src/assets) optimizes the images at build time.").addToggle((toggle) => {
       var _a2;
       return toggle.setValue((_a2 = this.state.resolvePublicImages) != null ? _a2 : false).onChange((value) => {
         this.state.resolvePublicImages = value;
@@ -14947,8 +14947,11 @@ var VaultCMSPlugin = class extends import_obsidian28.Plugin {
   }
   /**
    * Resolve an absolute image path (e.g. /images/blog/1.jpg) against the
-   * Astro project's public/ folder. Returns a file:// resource URL if the
-   * file exists, null otherwise.
+   * project's image folders. Tries, in order: public/, src/assets/,
+   * static/, assets/ (relative to the configured project root). This means
+   * a path like /images/foo.jpg works whether the framework serves it raw
+   * from public/ OR optimizes it from a build-pipeline dir like Astro's
+   * src/assets/. Returns a file:// resource URL if found, null otherwise.
    *
    * Preserved at the top level for back-compat with consumers written
    * before the namespaced API existed (Image Manager, Bases CMS). New
