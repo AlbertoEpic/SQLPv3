@@ -212,6 +212,30 @@ var init_QuickSwitchModal = __esm({
             e.stopPropagation();
           }
         });
+        this.scope.register(["Mod"], "Enter", (evt) => {
+          this.chooseSelected(evt);
+          return false;
+        });
+        this.scope.register(["Mod", "Alt"], "Enter", (evt) => {
+          this.chooseSelected(evt);
+          return false;
+        });
+        this.scope.register(["Shift"], "Enter", (evt) => {
+          this.chooseSelected(evt);
+          return false;
+        });
+      }
+      /**
+       * Hand the highlighted suggestion to onChooseItem along with the real
+       * keyboard event, so the modifier branches there can act on it. `chooser` is
+       * internal to SuggestModal and not in the public typings, so it is accessed
+       * defensively: if it is ever missing the shortcut simply does nothing rather
+       * than throwing inside a key handler.
+       */
+      chooseSelected(evt) {
+        var _a;
+        const chooser = this.chooser;
+        (_a = chooser == null ? void 0 : chooser.useSelectedItem) == null ? void 0 : _a.call(chooser, evt);
       }
       addFooter() {
         const promptContainer = this.containerEl.querySelector(".prompt");
@@ -822,12 +846,13 @@ var init_QuickSwitchModal = __esm({
             new import_obsidian4.Notice(`Error creating note: ${message}`);
           });
         } else if (item instanceof import_obsidian4.TFile) {
+          const modKey = evt instanceof KeyboardEvent && (evt.ctrlKey || evt.metaKey);
           if (evt instanceof KeyboardEvent) {
-            if (evt.ctrlKey && evt.altKey) {
-              const leaf = this.app.workspace.getLeaf(true);
+            if (modKey && evt.altKey) {
+              const leaf = this.app.workspace.getLeaf("split", "vertical");
               void leaf.openFile(item);
-            } else if (evt.ctrlKey) {
-              void this.app.workspace.getLeaf().openFile(item);
+            } else if (modKey) {
+              void this.app.workspace.getLeaf("tab").openFile(item);
             } else if (evt.shiftKey) {
               const activeView = this.app.workspace.getActiveViewOfType(import_obsidian4.MarkdownView);
               const sourcePath = ((_c = activeView == null ? void 0 : activeView.file) == null ? void 0 : _c.path) || "";
@@ -1884,24 +1909,30 @@ var DragDropService = class {
     this.DROP_DEBOUNCE_MS = 100;
     this.plugin = plugin;
   }
+  /**
+   * Returns true only when this drop is one the plugin claims, so the caller
+   * knows whether to call preventDefault(). A drop of an image or any other
+   * non-note file is not ours, and preventing default on it would stop
+   * Obsidian from embedding the file at all.
+   */
   handleDragDrop(event, editor) {
     const dataTransfer = event.dataTransfer;
     if (!dataTransfer) {
-      return;
+      return false;
     }
-    const filePath = dataTransfer.getData("text/plain");
-    if (!filePath || !filePath.endsWith(".md") && !(filePath.endsWith(".mdx") && this.plugin.settings.enableMdxSupport)) {
-      return;
+    const filePath = this.resolveDroppedNotePath(dataTransfer.getData("text/plain"));
+    if (!filePath) {
+      return false;
     }
     const now = Date.now();
     if (now - this.lastDropTime < this.DROP_DEBOUNCE_MS && this.lastDropData === filePath) {
-      return;
+      return false;
     }
     this.lastDropTime = now;
     this.lastDropData = filePath;
     const file = this.plugin.app.vault.getAbstractFileByPath(filePath);
     if (!file || !(file instanceof import_obsidian6.TFile)) {
-      return;
+      return false;
     }
     if (file.extension === "md") {
       const displayName = this.getDisplayNameSync(file);
@@ -1926,7 +1957,44 @@ var DragDropService = class {
           window.setTimeout(attemptReplace, 150);
         }
       })();
+    } else {
+      return false;
     }
+    return true;
+  }
+  /**
+   * Work out which note a drag payload refers to.
+   *
+   * The payload is not always a bare vault path. Depending on the vault's link
+   * format Obsidian hands over a wikilink, a Markdown link, or an obsidian://
+   * URL, and the previous code required the string to end in .md, so every one
+   * of those forms was rejected and the drag was never handled at all.
+   *
+   * Returns the vault path of the note, or null when the drop is not a note
+   * this plugin should touch.
+   */
+  resolveDroppedNotePath(raw) {
+    if (!raw) return null;
+    let text = raw.trim();
+    if (text.startsWith("obsidian://")) {
+      try {
+        const fileParam = new URL(text).searchParams.get("file");
+        if (fileParam) text = fileParam;
+      } catch (e) {
+        return null;
+      }
+    }
+    const wiki = /^\[\[([^\]|]+)(?:\|[^\]]*)?\]\]$/.exec(text);
+    if (wiki && wiki[1]) text = wiki[1];
+    const md = /^\[[^\]]*\]\(([^)]+)\)$/.exec(text);
+    if (md && md[1]) text = md[1];
+    text = decodeURIComponent(text.trim());
+    if (!text) return null;
+    const resolved = this.plugin.app.metadataCache.getFirstLinkpathDest(text, "");
+    const path = resolved ? resolved.path : text;
+    const isMd = path.endsWith(".md");
+    const isMdx = path.endsWith(".mdx") && this.plugin.settings.enableMdxSupport;
+    return isMd || isMdx ? path : null;
   }
   handleDOMDrop(event) {
     const target = event.target;
@@ -3542,8 +3610,9 @@ var PropertyOverFileNamePlugin = class extends import_obsidian12.Plugin {
       this.app.workspace.on("editor-drop", (event, editor) => {
         if (event.defaultPrevented) return;
         if (this.settings.enableForDragDrop) {
-          this.dragDropService.handleDragDrop(event, editor);
-          event.preventDefault();
+          if (this.dragDropService.handleDragDrop(event, editor)) {
+            event.preventDefault();
+          }
         }
       })
     );
