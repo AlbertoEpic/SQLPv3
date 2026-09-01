@@ -1515,7 +1515,8 @@ const scrollbarClass = siteConfig.hideScrollBar ? '' : 'show-scrollbars';
     function setupSmoothScrolling() {
       // Remove any existing event listeners to avoid duplicates
       // Select all anchor links (starting with #) but exclude root anchor (# only)
-      const existingLinks = document.querySelectorAll('a[href^="#"]');
+      // Skip .toc-link: TableOfContents.astro owns its own header-aware scroll logic.
+      const existingLinks = document.querySelectorAll('a[href^="#"]:not(.toc-link)');
       existingLinks.forEach(link => {
         const href = link.getAttribute('href');
         // Only process links that have a hash with content (not just #)
@@ -1525,7 +1526,7 @@ const scrollbarClass = siteConfig.hideScrollBar ? '' : 'show-scrollbars';
       });
 
       // Only handle anchor links that have content after #
-      const anchorLinks = document.querySelectorAll('a[href^="#"]');
+      const anchorLinks = document.querySelectorAll('a[href^="#"]:not(.toc-link)');
 
       anchorLinks.forEach(link => {
         const href = link.getAttribute('href');
@@ -1651,6 +1652,8 @@ const scrollbarClass = siteConfig.hideScrollBar ? '' : 'show-scrollbars';
       const target = e.target;
       const link = target.closest('a[href]');
       if (!link) return;
+      // TableOfContents.astro owns TOC link scrolling with its own header-aware offset.
+      if (link.classList.contains('toc-link')) return;
 
       const href = link.getAttribute('href');
       if (href && href.startsWith('#') && href.length > 1) {
@@ -1699,8 +1702,20 @@ const scrollbarClass = siteConfig.hideScrollBar ? '' : 'show-scrollbars';
       const targetElement = document.querySelector(hash);
       if (!targetElement) return;
 
+      // Scroll to the same header-aware offset used by TOC/category anchor links,
+      // instead of the native scrollIntoView() (which relies on CSS scroll-margin-top
+      // and doesn't match the sticky header's real, dynamic height).
+      const scrollToTarget = () => {
+        const header = document.querySelector('#main-header');
+        const headerHeight = header ? header.getBoundingClientRect().height : 0;
+        const extraGap = 8;
+        const rect = targetElement.getBoundingClientRect();
+        const top = Math.max(0, window.scrollY + rect.top - (headerHeight + extraGap));
+        window.scrollTo({ top, behavior: 'auto' });
+      };
+
       // Scroll immediately
-      targetElement.scrollIntoView();
+      scrollToTarget();
 
       // Watch prose images and re-scroll each time one finishes loading
       const prose = document.querySelector('.prose');
@@ -1713,7 +1728,7 @@ const scrollbarClass = siteConfig.hideScrollBar ? '' : 'show-scrollbars';
           pending++;
           const done = () => {
             pending--;
-            targetElement.scrollIntoView();
+            scrollToTarget();
           };
           img.addEventListener('load', done, { once: true });
           img.addEventListener('error', done, { once: true });
@@ -1721,7 +1736,7 @@ const scrollbarClass = siteConfig.hideScrollBar ? '' : 'show-scrollbars';
       });
 
       if (pending === 0) {
-        requestAnimationFrame(() => targetElement.scrollIntoView());
+        requestAnimationFrame(scrollToTarget);
       }
     }
 

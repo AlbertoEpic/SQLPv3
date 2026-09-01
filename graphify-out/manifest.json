@@ -10,7 +10,7 @@
     "semantic_hash": ""
   },
   "astro.config.mjs": {
-    "mtime": 1786399592.5518694,
+    "mtime": 1788281573.4397478,
     "ast_hash": "4111e43da08a092fe3a04ed0748c92ff",
     "semantic_hash": ""
   },
@@ -50,13 +50,13 @@
     "semantic_hash": ""
   },
   "public/gpx/strava/index.json": {
-    "mtime": 1786399467.5351129,
-    "ast_hash": "376776fbc25ee8568c160e345429125f",
+    "mtime": 1788281573.2647247,
+    "ast_hash": "3c9adb3d29afe144d195b2b7df9caafc",
     "semantic_hash": ""
   },
   "public/gpx/strava/manual-links.json": {
-    "mtime": 1786399467.5361135,
-    "ast_hash": "a8a76fa300744aeda1c1cecda24eeeec",
+    "mtime": 1788281573.265724,
+    "ast_hash": "715203fc8179548fc1ac90a934159c82",
     "semantic_hash": ""
   },
   "public/scripts/category-filtering.js": {
@@ -170,7 +170,7 @@
     "semantic_hash": ""
   },
   "src/components/GraphModal.astro": {
-    "mtime": 1786398236.473259,
+    "mtime": 1786400554.5555336,
     "ast_hash": "8b564959d29cee368b17ab5ad73b0e09",
     "semantic_hash": ""
   },
@@ -275,8 +275,8 @@
     "semantic_hash": ""
   },
   "src/components/TableOfContents.astro": {
-    "mtime": 1782895175.941468,
-    "ast_hash": "c5cb833daf2b4d4cf1f0ae24cebac712",
+    "mtime": 1788278429.4541771,
+    "ast_hash": "056f41b004d6f41ef4d33751ae9188f0",
     "semantic_hash": ""
   },
   "src/components/Tags.astro": {
@@ -310,12 +310,12 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/app.json": {
-    "mtime": 1786380271.9680035,
+    "mtime": 1788246874.8673823,
     "ast_hash": "ded516c585290a7de233be611476c7fa",
     "semantic_hash": ""
   },
   "src/content/.obsidian/appearance.json": {
-    "mtime": 1786380272.3107588,
+    "mtime": 1788246875.0063188,
     "ast_hash": "1aad267d29936122e7bb65c819410bdc",
     "semantic_hash": ""
   },
@@ -330,17 +330,17 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/community-plugins.json": {
-    "mtime": 1786380272.3827567,
-    "ast_hash": "5bbe65981dfbb542f5258967752adb64",
+    "mtime": 1788246875.49814,
+    "ast_hash": "97489853a7f6ebee87999c1bd3e8d442",
     "semantic_hash": ""
   },
   "src/content/.obsidian/core-plugins.json": {
-    "mtime": 1786380271.9110045,
+    "mtime": 1788246874.4746516,
     "ast_hash": "db29479913624ef3dc8b0036639d2854",
     "semantic_hash": ""
   },
   "src/content/.obsidian/graph.json": {
-    "mtime": 1779701182.495,
+    "mtime": 1788082272.054,
     "ast_hash": "a7b8a80aabde608e0a378c624959d075",
     "semantic_hash": ""
   },
@@ -355,13 +355,13 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/astro-composer/main.js": {
-    "mtime": 1780384624.9717665,
-    "ast_hash": "1cc0a0ccf2c3485b40c58dc3e14ecade",
+    "mtime": 1788082075.239465,
+    "ast_hash": "d739810bad6e55de146d1d44811713dc",
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/astro-composer/manifest.json": {
-    "mtime": 1780384624.985766,
-    "ast_hash": "915b0b1a43e46f2752e176e183db92de",
+    "mtime": 1788082075.2404637,
+    "ast_hash": "428176117440892a43478957f5bc0d50",
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/astro-modular-settings/data.json": {
@@ -370,13 +370,13 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/astro-modular-settings/main.js": {
-    "mtime": 1786380344.6495821,
+    "mtime": 1786530218.0616107,
     "ast_hash": "fe9a83d8b559676315f738bcdb8c4dd7",
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/astro-modular-settings/manifest.json": {
-    "mtime": 1786380344.6515825,
-    "ast_hash": "45be5ecca3f32a02be640e22048f02f6",
+    "mtime": 1786530218.0626106,
+    "ast_hash": "262c47c4310b60e6b12a196d6d671080",
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/bases-cms/data.json": {
@@ -385,17 +385,17 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/bases-cms/main.js": {
-    "mtime": 1780384616.6778584,
+    "mtime": 1788082069.4106097,
     "ast_hash": "af1e1a74a82840631d7fb5a321935c81",
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/bases-cms/manifest.json": {
-    "mtime": 1780384616.6798577,
-    "ast_hash": "fbedc7ac5fde63df56c82da14efb702e",
+    "mtime": 1788082069.4126098,
+    "ast_hash": "365a4ab4819bb43fae8aa7284d56d50c",
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/consistent-attachments-and-links/data.json": {
-    "mtime": 1786380271.037,
+    "mtime": 1788246873.956,
     "ast_hash": "8437410eb6cccad442f9a5b5414c403e",
     "semantic_hash": ""
   },
@@ -440,7 +440,7 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/editing-toolbar/data.json": {
-    "mtime": 1786380270.806,
+    "mtime": 1788246873.726,
     "ast_hash": "eb0d237aa2244036f55114b6012aa606",
     "semantic_hash": ""
   },
@@ -460,13 +460,13 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/explorer-focus/main.js": {
-    "mtime": 1780384610.3475952,
-    "ast_hash": "1c84814ab48135ddc9fc6877a50b6c5a",
+    "mtime": 1788082065.4428618,
+    "ast_hash": "a857f0aee42a93cb0d60f530502835e8",
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/explorer-focus/manifest.json": {
-    "mtime": 1780384610.349595,
-    "ast_hash": "95e328b450cce021db574c268f532f00",
+    "mtime": 1788082065.443862,
+    "ast_hash": "27074d27908ca7042fc1d75d703cfb5c",
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/file-name-history/data.json": {
@@ -535,23 +535,23 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/image-manager/main.js": {
-    "mtime": 1780384606.2480786,
-    "ast_hash": "95db75f3b9af9109fa82060354db30b9",
+    "mtime": 1786530207.9202316,
+    "ast_hash": "250bfed7cfd9f2bae4350e51da6a53fd",
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/image-manager/manifest.json": {
-    "mtime": 1780384606.2490783,
-    "ast_hash": "3892e54398670727090ae5224a91cac4",
+    "mtime": 1786530207.9222362,
+    "ast_hash": "8151020cc044edba24d21f959317107d",
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/nested-properties/main.js": {
-    "mtime": 1786380334.0420625,
-    "ast_hash": "272bb91563d8c7e3871bab4aaecaec73",
+    "mtime": 1788246937.1569514,
+    "ast_hash": "0cb79b5e519b1696ceed2c4a011fa67f",
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/nested-properties/manifest.json": {
-    "mtime": 1786380334.0650618,
-    "ast_hash": "4638f43d3f6dd0113a2171447356772b",
+    "mtime": 1788246937.158951,
+    "ast_hash": "7b9dd195945bbd271fdaea7e396b68c4",
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/obsidian-git/data.json": {
@@ -590,7 +590,7 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/omnisearch/data.json": {
-    "mtime": 1786380273.556,
+    "mtime": 1788246875.994,
     "ast_hash": "c8f315bcb8888e08c3461f22885addf4",
     "semantic_hash": ""
   },
@@ -610,13 +610,13 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/oxygen-settings/main.js": {
-    "mtime": 1780384620.6750546,
+    "mtime": 1788082072.2232146,
     "ast_hash": "871b541d69ea263eb8e0177414b136e6",
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/oxygen-settings/manifest.json": {
-    "mtime": 1780384620.6760542,
-    "ast_hash": "e669c041128c53775fe4867312316307",
+    "mtime": 1788082072.2247217,
+    "ast_hash": "925ddeff524e8922784b5e561cbbcd9e",
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/property-over-file-name/data.json": {
@@ -625,13 +625,13 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/property-over-file-name/main.js": {
-    "mtime": 1782723610.0711567,
-    "ast_hash": "65e933ec858c12cdd0e8a4fef8a3cc85",
+    "mtime": 1788082060.4059176,
+    "ast_hash": "4d73551eaf15957526371df00b5f440c",
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/property-over-file-name/manifest.json": {
-    "mtime": 1782723610.072157,
-    "ast_hash": "1172e161df75af71d17ecbb47166437d",
+    "mtime": 1788082060.407918,
+    "ast_hash": "0812020637753e397bfc4cf63d4cb774",
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/seo/data.json": {
@@ -640,13 +640,13 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/seo/main.js": {
-    "mtime": 1785256922.8571167,
-    "ast_hash": "d46084251b1973c1ba57fc6e28dc7458",
+    "mtime": 1786530221.9715278,
+    "ast_hash": "ff4ccf321b13066cbc1a5535397bb009",
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/seo/manifest.json": {
-    "mtime": 1785256922.8581166,
-    "ast_hash": "eded6510142a88f27f07ec688fb3a34b",
+    "mtime": 1786530221.9735188,
+    "ast_hash": "126143876a12bd3c155730fb2701e96c",
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/settings-search/main.js": {
@@ -675,13 +675,13 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/ui-tweaker/main.js": {
-    "mtime": 1780384612.4101398,
+    "mtime": 1786530212.48979,
     "ast_hash": "ea870fdefb43462b57b4c9d15a79cf79",
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/ui-tweaker/manifest.json": {
-    "mtime": 1780384612.4111488,
-    "ast_hash": "45a6d9a1a6bf2d935da77cc24a264156",
+    "mtime": 1786530212.4917896,
+    "ast_hash": "c26a02fa875267bfad7fc44c6ab6d5c2",
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/vault-cms/data.json": {
@@ -690,13 +690,13 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/vault-cms/main.js": {
-    "mtime": 1781712752.5961773,
-    "ast_hash": "5be61d1c0344fdcbdf5a12562e22e8d4",
+    "mtime": 1786530214.447536,
+    "ast_hash": "a8cd7403cabed49bdcc2b05927277a42",
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/vault-cms/manifest.json": {
-    "mtime": 1781712752.5971775,
-    "ast_hash": "5d8aa24987feaa8fb458687009eac326",
+    "mtime": 1786530214.4495368,
+    "ast_hash": "08cc3d6b3fe3b2d1022ab3ea1e0ada67",
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/zenmode/data.json": {
@@ -850,8 +850,8 @@
     "semantic_hash": ""
   },
   "src/pages/index.astro": {
-    "mtime": 1786398228.330422,
-    "ast_hash": "ecde6ff6701c1b3de4f39ea31c939a51",
+    "mtime": 1786400501.5777247,
+    "ast_hash": "70641459c0d0ba573991b36e5b8b59a4",
     "semantic_hash": ""
   },
   "src/pages/leaflet-demo.astro": {
@@ -930,8 +930,8 @@
     "semantic_hash": ""
   },
   "src/scripts/leaflet-client.ts": {
-    "mtime": 1782926743.2575562,
-    "ast_hash": "3ca55c62ba3677dd9d8bc1feada65cd8",
+    "mtime": 1788281790.2953157,
+    "ast_hash": "d2a8327a931b5dca2050f33f73ffc665",
     "semantic_hash": ""
   },
   "src/scripts/mermaid-client.ts": {
@@ -1195,8 +1195,8 @@
     "semantic_hash": ""
   },
   "src/content/docs/api.md": {
-    "mtime": 1781023133.7452304,
-    "ast_hash": "2c2a9c1d31939c0cade99b5b7dffa5a1",
+    "mtime": 1788082118.3466136,
+    "ast_hash": "20b035a2f5f824b783ad884b565fd552",
     "semantic_hash": ""
   },
   "src/content/docs/configuration.md": {
@@ -1480,8 +1480,8 @@
     "semantic_hash": ""
   },
   "src/content/posts/btt-circular-enlazando-erata-y-oturia.md": {
-    "mtime": 1779290940.4040825,
-    "ast_hash": "8c6139d16de3dc4062c0046a5e0aa837",
+    "mtime": 1788247133.9137433,
+    "ast_hash": "865af1f9a6a686b27972760e88504248",
     "semantic_hash": ""
   },
   "src/content/posts/btt-con-sami-vuelta-al-embalse-de-lanuza.md": {
@@ -6920,8 +6920,118 @@
     "semantic_hash": ""
   },
   "src/components/NeuralGraphIsland.astro": {
-    "mtime": 1786399464.1567156,
-    "ast_hash": "963fd3f25ae1ca25a90366d14caef8cd",
+    "mtime": 1786400554.5535338,
+    "ast_hash": "377a02560e40b4dafef9781799c23da4",
+    "semantic_hash": ""
+  },
+  "src/content/.obsidian/plugins/obsidian-emoji-toolbar/data.json": {
+    "mtime": 1788166844.755,
+    "ast_hash": "a8a65443bc1a951613be1a22d64fb830",
+    "semantic_hash": ""
+  },
+  "src/content/.obsidian/plugins/obsidian-emoji-toolbar/main.js": {
+    "mtime": 1788166826.5503848,
+    "ast_hash": "4bd57a8d7b4c35d5cfd4b9c77114663e",
+    "semantic_hash": ""
+  },
+  "src/content/.obsidian/plugins/obsidian-emoji-toolbar/manifest.json": {
+    "mtime": 1788166825.9628747,
+    "ast_hash": "4683094c7ac8b03d63caf45c93852c14",
+    "semantic_hash": ""
+  },
+  "src/content/posts/oturia-x2-cr\u00f3nica-de-una-paliza-anunciada.md": {
+    "mtime": 1788194434.2105317,
+    "ast_hash": "fe26598817a93a7d297b3043d033ff2e",
+    "semantic_hash": ""
+  },
+  "src/content/posts/pp30-rinc\u00f3n-del-cielo-desde-linsoles.md": {
+    "mtime": 1786990813.4360886,
+    "ast_hash": "ec862f3a9833365315d8fe67f6a79db6",
+    "semantic_hash": ""
+  },
+  "src/content/posts/attachments/oturia-x2-crnica-de-una-paliza-anunciada-1.png": {
+    "mtime": 1788168868.3489192,
+    "ast_hash": "2ecaf3f035fd3b5f6813e411776be9df",
+    "semantic_hash": ""
+  },
+  "src/content/posts/attachments/oturia-x2-crnica-de-una-paliza-anunciada-2.png": {
+    "mtime": 1788169172.250224,
+    "ast_hash": "62add8d7353bbf23061f7cc237e526f1",
+    "semantic_hash": ""
+  },
+  "src/content/posts/attachments/oturia-x2-crnica-de-una-paliza-anunciada-3.png": {
+    "mtime": 1788169535.6560829,
+    "ast_hash": "1d1f1536ae570837b558482cb122a821",
+    "semantic_hash": ""
+  },
+  "src/content/posts/attachments/oturia-x2-crnica-de-una-paliza-anunciada-4.png": {
+    "mtime": 1788169885.0968723,
+    "ast_hash": "2c221eea8dd86081da42b1dfb2e3fcd3",
+    "semantic_hash": ""
+  },
+  "src/content/posts/attachments/oturia-x2-crnica-de-una-paliza-anunciada-5.png": {
+    "mtime": 1788170682.9610217,
+    "ast_hash": "97af3f54d0645219525bc5390b8d2946",
+    "semantic_hash": ""
+  },
+  "src/content/posts/attachments/oturia-x2-crnica-de-una-paliza-anunciada-6.png": {
+    "mtime": 1788171279.973322,
+    "ast_hash": "7c1b3d46151be4ccfe8ab411f320dd85",
+    "semantic_hash": ""
+  },
+  "src/content/posts/attachments/oturia-x2-crnica-de-una-paliza-anunciada-7.png": {
+    "mtime": 1788171300.1189015,
+    "ast_hash": "ef939e49f774104dc036a1e57bae7636",
+    "semantic_hash": ""
+  },
+  "src/content/posts/attachments/oturia-x2-crnica-de-una-paliza-anunciada-8.png": {
+    "mtime": 1788193918.9643776,
+    "ast_hash": "7bb52fdcc4d1bdc5f8194ddc90015c9c",
+    "semantic_hash": ""
+  },
+  "src/content/posts/attachments/oturia-x2-crnica-de-una-paliza-anunciada.png": {
+    "mtime": 1788167280.7953403,
+    "ast_hash": "be0f93a9d877d9a1c3a18c655a5d7131",
+    "semantic_hash": ""
+  },
+  "src/content/posts/attachments/pp30-rincn-del-cielo-desde-linsoles-1.png": {
+    "mtime": 1786990490.1155202,
+    "ast_hash": "45c8e73cd4466964f03c94176e6a7de9",
+    "semantic_hash": ""
+  },
+  "src/content/posts/attachments/pp30-rincn-del-cielo-desde-linsoles-2.png": {
+    "mtime": 1786990546.007365,
+    "ast_hash": "df5311b9fbb26b97a91d21320a531579",
+    "semantic_hash": ""
+  },
+  "src/content/posts/attachments/pp30-rincn-del-cielo-desde-linsoles-3.png": {
+    "mtime": 1786990570.5594323,
+    "ast_hash": "a2a5eeb65129bfe757998028a4c9f957",
+    "semantic_hash": ""
+  },
+  "src/content/posts/attachments/pp30-rincn-del-cielo-desde-linsoles-4.png": {
+    "mtime": 1786990604.0616517,
+    "ast_hash": "26526636c3fce7ef5d3ebeab89b9206e",
+    "semantic_hash": ""
+  },
+  "src/content/posts/attachments/pp30-rincn-del-cielo-desde-linsoles-5.png": {
+    "mtime": 1786990639.6725771,
+    "ast_hash": "a2ebd5478c71ecff30213c8175ca83bf",
+    "semantic_hash": ""
+  },
+  "src/content/posts/attachments/pp30-rincn-del-cielo-desde-linsoles-6.png": {
+    "mtime": 1786990661.3099384,
+    "ast_hash": "8510b167378deacf5e5c44fa162495d5",
+    "semantic_hash": ""
+  },
+  "src/content/posts/attachments/pp30-rincn-del-cielo-desde-linsoles-7.png": {
+    "mtime": 1786990683.7496667,
+    "ast_hash": "9f8eade6614180e03a34b00e1009e6ef",
+    "semantic_hash": ""
+  },
+  "src/content/posts/attachments/pp30-rincn-del-cielo-desde-linsoles.png": {
+    "mtime": 1786989302.3163,
+    "ast_hash": "d7b6ecc2a4749a05ea5642c32efd733e",
     "semantic_hash": ""
   }
 }

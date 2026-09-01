@@ -71,16 +71,23 @@
   },
   {
     "id": "gpx-0011",
+    "name": "Oturia x2 - Buscando los límites... Y encontrándolos!",
+    "file": "OturiaX2.gpx",
+    "start_date": "2026-08-29T06:16:38Z",
+    "status": "ok"
+  },
+  {
+    "id": "gpx-0012",
     "name": "Skimo - Peña Sabocos",
     "file": "Peña_Sabocos-skimo.gpx",
     "start_date": "2026-06-03T06:02:49.000Z",
     "status": "ok"
   },
   {
-    "id": "gpx-0012",
-    "name": "oturia-x2-crónica-de-una-paliza-anunciada",
-    "file": "OturiaX2.gpx",
-    "start_date": "2026-06-03T06:02:49.000Z",
+    "id": "gpx-0013",
+    "name": "PP30 - Rincón del Cielo desde Linsoles",
+    "file": "PP30_Rincón_del_Cielo_desde_Linsoles.gpx",
+    "start_date": "2026-08-07T07:37:04Z",
     "status": "ok"
   }
 ]

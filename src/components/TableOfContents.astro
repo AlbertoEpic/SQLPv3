@@ -84,6 +84,99 @@ const shouldShowTOC = filteredHeadings.length > 1;
     };
   }
   
+  // Animation variables for smooth TOC scroll
+  let tocScrollRafId: number | null = null;
+  const TOC_SCROLL_MIN_DURATION_MS = 400;
+  const TOC_SCROLL_MAX_DURATION_MS = 1000;
+
+  function easeInOutCubic(t: number) {
+    return t < 0.5
+      ? 4 * t * t * t
+      : 1 - Math.pow(-2 * t + 2, 3) / 2;
+  }
+
+  function animateTOCScrollTo(top: number, duration?: number) {
+    // Respect prefers-reduced-motion
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      window.scrollTo({ top, behavior: 'auto' });
+      return;
+    }
+
+    if (tocScrollRafId !== null) {
+      cancelAnimationFrame(tocScrollRafId);
+      tocScrollRafId = null;
+    }
+
+    const startY = window.scrollY;
+    const distance = top - startY;
+    if (Math.abs(distance) < 2) {
+      window.scrollTo({ top, behavior: 'auto' });
+      return;
+    }
+
+    const computedDuration = duration ?? Math.min(
+      TOC_SCROLL_MAX_DURATION_MS,
+      Math.max(TOC_SCROLL_MIN_DURATION_MS, 760 + Math.abs(distance) * 0.46)
+    );
+
+    const startTime = performance.now();
+
+    const step = (now: number) => {
+      const elapsed = now - startTime;
+      const progress = Math.min(elapsed / computedDuration, 1);
+      const eased = easeInOutCubic(progress);
+      window.scrollTo({ top: startY + distance * eased, behavior: 'auto' });
+
+      if (progress < 1) {
+        tocScrollRafId = requestAnimationFrame(step);
+      } else {
+        tocScrollRafId = null;
+      }
+    };
+
+    tocScrollRafId = requestAnimationFrame(step);
+  }
+
+  // Calculate the scroll target position accounting for sticky header
+  function getTOCAnchorOffsetTop(hash: string): number | null {
+    if (!hash || !hash.startsWith('#')) return null;
+    const targetId = decodeURIComponent(hash.slice(1));
+    const target = document.getElementById(targetId) as HTMLElement | null;
+    if (!target) return null;
+
+    const header = document.querySelector('#main-header') as HTMLElement | null;
+    const headerHeight = header ? header.getBoundingClientRect().height : 0;
+    
+    // Add a small gap (8px) below the header so the title isn't flush against it
+    const extraGap = 8;
+    
+    // Align the heading's own top edge (its margin already provides breathing room
+    // above it) with the header + gap. Do NOT subtract margin-top here, otherwise
+    // the heading ends up pushed further down, leaving an extra gap under the header.
+    const targetRect = target.getBoundingClientRect();
+    const desiredViewportTop = headerHeight + extraGap;
+    const deltaToDesired = targetRect.top - desiredViewportTop;
+    return Math.max(0, window.scrollY + deltaToDesired);
+  }
+
+  // Re-apply anchor position after lazy assets/layout shifts
+  function stabilizeTOCAnchor(hash: string) {
+    if (tocScrollRafId !== null) {
+      cancelAnimationFrame(tocScrollRafId);
+      tocScrollRafId = null;
+    }
+    
+    setTimeout(() => {
+      const offsetTop = getTOCAnchorOffsetTop(hash);
+      if (offsetTop === null) return;
+
+      const diff = Math.abs(window.scrollY - offsetTop);
+      if (diff > 14) {
+        animateTOCScrollTo(offsetTop, 280);
+      }
+    }, 150); // Short delay to allow layout to settle
+  }
+
   // Store scroll listener reference for cleanup
   let scrollListener: (() => void) | null = null;
   // Track last scroll time to avoid excessive highlighting updates
@@ -175,14 +268,21 @@ const shouldShowTOC = filteredHeadings.length > 1;
       if (!headings || headings.length === 0) return;
 
       let current = '';
-      const viewportTop = 120; // Threshold for active headings (accounts for header)
+      // Use the same dynamic calculation as getTOCAnchorOffsetTop for consistency
+      const header = document.querySelector('#main-header') as HTMLElement | null;
+      const headerHeight = header ? header.getBoundingClientRect().height : 0;
+      const extraGap = 8; // Same gap as in getTOCAnchorOffsetTop
+      const viewportTop = headerHeight + extraGap;
       const headingsArray = Array.from(headings);
 
       // Find the heading that should be highlighted
-      // Priority: 1) Heading closest to viewport top, 2) Last heading above viewport, 3) First heading
+      // Priority: 1) Last heading above or at viewport threshold, 2) Closest heading to viewport top
       let closestHeading = null;
       let closestDistance = Infinity;
       let lastHeadingAboveViewport = null;
+      // Small tolerance so a heading that lands exactly on the threshold after a
+      // programmatic scroll (sub-pixel rounding) still counts as "reached".
+      const thresholdTolerance = 4;
 
       for (const heading of headingsArray) {
         const rect = heading.getBoundingClientRect();
@@ -194,8 +294,8 @@ const shouldShowTOC = filteredHeadings.length > 1;
           closestHeading = heading;
         }
 
-        // Track the last heading that is above the viewport threshold
-        if (rect.top <= viewportTop) {
+        // Track the last heading that is at or above the viewport threshold
+        if (rect.top <= viewportTop + thresholdTolerance) {
           lastHeadingAboveViewport = heading;
         }
       }
@@ -246,16 +346,24 @@ const shouldShowTOC = filteredHeadings.length > 1;
           const target = document.getElementById(targetId);
           if (target) {
             e.preventDefault();
-            // Ajusta el offset si hay header fijo (ajusta 100 según tu header)
-            const yOffset = -100;
-            const y = target.getBoundingClientRect().top + window.pageYOffset + yOffset;
-            window.scrollTo({ top: y, behavior: 'smooth' });
-            // Actualiza el hash en la URL sin recargar
-            if (history.replaceState) {
-              history.replaceState(null, '', hash);
-            } else {
-              window.location.hash = hash;
+            e.stopPropagation(); // Prevent Swup from intercepting
+            e.stopImmediatePropagation(); // Stop all other handlers
+            
+            // Update URL without triggering Swup
+            const currentUrl = window.location.pathname + window.location.search;
+            window.history.pushState(null, '', currentUrl + hash);
+            
+            // Use the same robust scroll animation as category anchors
+            const offsetTop = getTOCAnchorOffsetTop(hash);
+            if (offsetTop !== null) {
+              animateTOCScrollTo(offsetTop);
+              stabilizeTOCAnchor(hash);
             }
+
+            // Mark the clicked link active immediately instead of waiting for
+            // scroll-based detection, which can lag by one heading right after
+            // the animated scroll lands exactly on the threshold.
+            tocLinks.forEach(l => l.classList.toggle('active', l === link));
           }
         }
       });
@@ -311,6 +419,11 @@ const shouldShowTOC = filteredHeadings.length > 1;
 
   // Initialize on DOMContentLoaded
   document.addEventListener('DOMContentLoaded', initializeTableOfContents);
+
+  // Add Swup hook to re-initialize TOC
+  if ((window as any).swup?.hooks?.on) {
+    (window as any).swup.hooks.on('page:view', initializeTableOfContents);
+  }
 </script>
 
 <style>

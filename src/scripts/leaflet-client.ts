@@ -397,11 +397,12 @@ async function initLeafletMaps(): Promise<void> {
           opacity: 0.8,
         },
       })
-        .on('loaded', function loaded(this: { getBounds: () => unknown }) {
+        .on('loaded', function loaded(this: { getBounds: () => unknown; get_elevation_gain?: () => number }) {
           if (elevationTargetSelector && typeof L?.control?.elevation === 'function') {
             const elevationTarget = document.querySelector<HTMLElement>(elevationTargetSelector);
             if (elevationTarget) {
               const theme = getCurrentTheme() === 'dark' ? 'magenta-theme' : 'lightblue-theme';
+              const elevationGain = this.get_elevation_gain?.() ?? 0;
               elevationTarget.classList.remove('hidden');
 
               const elevationControl = L.control.elevation({
@@ -422,7 +423,24 @@ async function initLeafletMaps(): Promise<void> {
                 },
               });
 
+              const updateElevationSummary = () => {
+                const averageElevation = elevationTarget.querySelector<HTMLElement>('.avgele');
+                const label = averageElevation?.querySelector<HTMLElement>('.summarylabel');
+                const value = averageElevation?.querySelector<HTMLElement>('.summaryvalue');
+                const formattedGain = `${Math.round(elevationGain)} m`;
+                if (label && label.textContent !== 'Desnivel+ acumulado: ') {
+                  label.textContent = 'Desnivel+ acumulado: ';
+                }
+                if (value && value.textContent !== formattedGain) {
+                  value.textContent = formattedGain;
+                }
+              };
+
+              const summaryObserver = new MutationObserver(updateElevationSummary);
+              summaryObserver.observe(elevationTarget, { childList: true, subtree: true, characterData: true });
+
               elevationControl.addTo(map);
+              elevationControl.on('eledata_loaded', updateElevationSummary);
               elevationControl.load(gpxUrl);
             }
           }
