@@ -46,11 +46,11 @@ function extractImagePath(image: string): string {
 
 // Generate SEO data for posts
 export function generatePostSEO(post: Post, url: string): SEOData {
-  const { title, description, image, imageOG, tags, date } = post.data;
+  const { title, description, image, tags, date } = post.data;
 
   let ogImage: OpenGraphImage | undefined;
 
-  if (image && imageOG) {
+  if (image) {
     // Extract image path from Obsidian bracket syntax if needed
     const imagePath = extractImagePath(image);
 

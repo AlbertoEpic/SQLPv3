@@ -18,6 +18,7 @@ import { devConfig } from '@/config/dev';
 import { readFileSync } from 'fs';
 import { join } from 'path';
 import LeafletMap from '@/components/LeafletMap.astro';
+import PostShare from '@/components/PostShare.astro';
 import { parseGPXString, calculateCenterAndZoom } from '@/utils/gpx-parser';
 
 export interface Props {
@@ -31,7 +32,7 @@ import { withBase } from '@/utils/base-url';
 const isDev = import.meta.env.DEV;
 
 // Generate SEO data
-const seoData = generatePostSEO(post, import.meta.env.SITE || '');
+const seoData = generatePostSEO(post, Astro.url.href);
 
 // Load GPX map data if enabled
 let gpxMapData: { center: [number, number]; zoom: number; polylines: any[]; gpxFileName?: string } | null = null;
@@ -223,9 +224,11 @@ const showLocalGraph = siteConfig.postOptions.graphView.enabled && siteConfig.po
         <div class={`p-6 ${siteConfig.postOptions.showPostCardCoverImages !== 'none' && post.data.image && post.data.hideCoverImage !== true ? 'rounded-b-lg' : 'rounded-lg'}`}>
           <!-- Post header -->
           <header class="mb-4">
-          <h1 class="text-xl font-bold text-primary-900 dark:text-primary-50 mb-6 leading-tight">
+          <h1 class="text-2xl sm:text-3xl font-bold text-primary-900 dark:text-primary-50 mb-6 leading-tight">
             {post.data.title}
           </h1>
+
+          <PostShare url={Astro.url.href} title={post.data.title} imageUrl={seoData.ogImage?.url} />
 
           <div class="flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-primary-600 dark:text-primary-300 mb-6">
             <time datetime={post.data.date.toISOString()} class="font-medium">
