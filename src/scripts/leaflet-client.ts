@@ -96,6 +96,22 @@ async function loadScriptWithFallback(sources: string[]): Promise<void> {
   throw lastError instanceof Error ? lastError : new Error('No se pudo cargar el script requerido.');
 }
 
+function configureElevationTranslations(L: any): void {
+  const translations: Record<string, string> = {
+    'Total Length': 'Distancia',
+    'Total Length: ': 'Distancia: ',
+    'Total Time': 'Tiempo',
+    'Total Time: ': 'Tiempo: ',
+    'Min Elevation': 'Altitud Mínima',
+    'Min Elevation: ': 'Altitud Mínima: ',
+    'Max Elevation': 'Altitud Máxima',
+    'Max Elevation: ': 'Altitud Máxima: ',
+  };
+  const translate = typeof L?._ === 'function' ? L._.bind(L) : (value: string) => value;
+
+  L._ = (value: string) => translations[value] ?? translate(value);
+}
+
 function getSiteBasePath(): string {
   const raw = document.documentElement.getAttribute('data-base-url') || '/';
   if (raw === '/') return '/';
@@ -263,6 +279,8 @@ async function ensureLeafletAssets(needsGpx: boolean): Promise<{ L: any }> {
         'https://cdn.jsdelivr.net/npm/@raruto/leaflet-elevation@2.5.2/dist/leaflet-elevation.min.js',
       ]);
     }
+
+    configureElevationTranslations(L);
   }
 
   return { L };

@@ -8,7 +8,16 @@ export interface Props {
 }
 
 const { url, title, imageUrl = '' } = Astro.props;
-const encodedUrl = encodeURIComponent(url);
+const publicShareOrigin = 'https://www.soloquedalopeor.com';
+const publicShareUrl = (() => {
+  try {
+    const shareUrl = new URL(url);
+    return `${publicShareOrigin}${shareUrl.pathname}${shareUrl.search}${shareUrl.hash}`;
+  } catch {
+    return url;
+  }
+})();
+const encodedUrl = encodeURIComponent(publicShareUrl);
 const encodedTitle = encodeURIComponent(title);
 
 const shareLinks = [
@@ -43,7 +52,7 @@ const shareLinks = [
         type="button"
         data-post-share-native
         data-share-title={title}
-        data-share-url={url}
+        data-share-url={publicShareUrl}
         data-share-image={imageUrl}
         class="inline-flex min-h-8 items-center gap-1.5 rounded-md border border-highlight-400 dark:border-highlight-500 px-2.5 py-1 text-xs font-medium text-highlight-700 dark:text-highlight-200 transition-colors hover:bg-highlight-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-highlight-400 dark:hover:bg-highlight-900 dark:focus-visible:ring-highlight-500"
         aria-label="Compartir el artículo con su imagen"
