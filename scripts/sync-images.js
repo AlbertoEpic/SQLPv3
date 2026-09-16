@@ -357,6 +357,28 @@ async function cleanupTargetDirectory(targetDir, sourceImageFiles) {
 async function syncAllImages() {
   log.info('🖼️ Syncing images from content to public directory...');
 
+  // The site favicon lives at the root of the public output, not in a content collection.
+  const sourceFavicon = 'src/content/favicon.png';
+  const targetFavicon = 'public/favicon.png';
+  try {
+    const sourceStats = await fs.stat(sourceFavicon);
+    let shouldSync = true;
+    try {
+      const targetStats = await fs.stat(targetFavicon);
+      shouldSync = sourceStats.mtime > targetStats.mtime || sourceStats.size !== targetStats.size;
+    } catch {
+      // The target does not exist yet.
+    }
+    if (shouldSync) {
+      await fs.copyFile(sourceFavicon, targetFavicon);
+      log.info('   Synced favicon.png');
+    }
+  } catch (error) {
+    if (error.code !== 'ENOENT') {
+      log.warn(`Warning: Could not sync favicon: ${error.message}`);
+    }
+  }
+
   for (const config of IMAGE_SYNC_CONFIGS) {
     const result = await syncImagesForConfig(config);
     if (result.synced > 0 || result.skipped > 0) {

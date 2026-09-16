@@ -195,7 +195,7 @@ export const siteConfig: SiteConfig = {
   // [CONFIG:SITE_LANGUAGE]
   language: "es",
   // [CONFIG:FAVICON_THEME_ADAPTIVE]
-  faviconThemeAdaptive: true, // If true, favicon switches between favicon-dark.png and favicon-light.png based on browser's system theme preference. If false, always uses favicon.png
+  faviconThemeAdaptive: false, // Always use the custom favicon.png
   // [CONFIG:DEFAULT_OG_IMAGE_ALT]
   defaultOgImageAlt: "SQLP", // Alt text for the default Open Graph image, public/open-graph.png
 

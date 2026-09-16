@@ -125,7 +125,7 @@ const scrollbarClass = siteConfig.hideScrollBar ? '' : 'show-scrollbars';
   )}
 
   <!-- Default favicon (will be updated by JavaScript) -->
-    <link rel="icon" type="image/png" href={withBase('/favicon.png')} />
+  <link rel="icon" type="image/png" href={withBase('/favicon.png')} />
 
   <!-- Command Palette Config for Client Script -->
   <meta name="command-palette-shortcut" content={siteConfig.commandPalette.shortcut || ''}>
@@ -386,53 +386,7 @@ const scrollbarClass = siteConfig.hideScrollBar ? '' : 'show-scrollbars';
     // Initialize immediately after config is set
     initTheme().catch(console.error);
 
-     // Set favicon based on system theme
-     function setFavicon() {
-       const faviconThemeAdaptive = window.siteConfig?.faviconThemeAdaptive ?? true;
-       
-       let faviconUrl;
-       
-       if (faviconThemeAdaptive) {
-         // Use theme-based favicons based on browser preference
-         const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-         const prefersLight = window.matchMedia('(prefers-color-scheme: light)').matches;
-
-         if (prefersDark) {
-           faviconUrl = '/favicon-dark.png';
-         } else if (prefersLight) {
-           faviconUrl = '/favicon-light.png';
-         } else {
-           faviconUrl = '/favicon.png';
-         }
-       } else {
-         // Always use static favicon
-         faviconUrl = '/favicon.png';
-       }
-     }
-
-     // Set favicon on page load
-    setFavicon();
-
     // View Transitions disabled - no need for astro:page-load
-
-    // Listen for system theme changes
-    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
-      if (window.location.hostname === 'localhost' || window.location.hostname.includes('localhost')) {
-      }
-      if (!localStorage.getItem('theme')) {
-        const newTheme = e.matches ? 'dark' : 'light';
-        localStorage.setItem('theme', newTheme);
-        initTheme();
-      } else {
-        if (window.location.hostname === 'localhost' || window.location.hostname.includes('localhost')) {
-        }
-      }
-      // Only update favicon if theme adaptive is enabled
-      const faviconThemeAdaptive = window.siteConfig?.faviconThemeAdaptive ?? true;
-      if (faviconThemeAdaptive) {
-        setFavicon();
-      }
-    });
 
     // Global theme toggle function - always available regardless of button visibility
     function toggleTheme() {
@@ -1126,7 +1080,7 @@ const scrollbarClass = siteConfig.hideScrollBar ? '' : 'show-scrollbars';
     </script>
 
   <!-- Global scripts - Defer non-critical JavaScript -->
-  <script define:vars={{ commentsEnabled: siteConfig.postOptions.comments.enabled, baseUrl: import.meta.env.BASE_URL }} defer>
+  <script define:vars={{ commentsEnabled: siteConfig.postOptions.comments.enabled, baseUrl: import.meta.env.BASE_URL, defaultFaviconUrl: withBase('/favicon.png') }} defer>
     
     // Logger removed - no console output in production
 
@@ -1135,6 +1089,7 @@ const scrollbarClass = siteConfig.hideScrollBar ? '' : 'show-scrollbars';
 
     // Set window.commentsEnabled for client-side access
     window.commentsEnabled = commentsEnabled;
+    const faviconBaseUrl = baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`;
 
     // Simple favicon function - follows system theme only
     function setFavicon() {
@@ -1145,10 +1100,10 @@ const scrollbarClass = siteConfig.hideScrollBar ? '' : 'show-scrollbars';
       if (faviconThemeAdaptive) {
         // Use theme-based favicons based on browser preference
         const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-        faviconUrl = prefersDark ? `${baseUrl}/favicon-dark.png` : `${baseUrl}/favicon-light.png`;
+        faviconUrl = prefersDark ? `${faviconBaseUrl}favicon-dark.png` : `${faviconBaseUrl}favicon-light.png`;
       } else {
         // Always use static favicon
-        faviconUrl = `${baseUrl}/favicon.png`;
+        faviconUrl = defaultFaviconUrl;
       }
 
       // Remove existing favicon
