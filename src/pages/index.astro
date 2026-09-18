@@ -10,6 +10,7 @@ import ImageWrapper from '@/components/ImageWrapper.astro';
 import faviconLogo from '@/content/favicon.png';
 import logoMiniPlanetas from '@/content/logoMiniPlanetas.png';
 import pano360Favicon from '@/content/pano360 favicon-1-180x180.png';
+import especialAnetoBanner from '@/content/especialAneto.jpg';
 import { withBase } from '@/utils/base-url';
 import HomeGraph from '@/components/HomeGraph.astro';
 import { getLatestPano360 } from '@/utils/pano360';
@@ -643,6 +644,27 @@ const structuredData = {
         </div>
       </div>
     </section>
+
+    <section class="content-row px-4 sm:px-6 lg:px-10 mt-8">
+      <div class="social-island especiales-widget" data-no-swup>
+        <div class="social-head">
+          <Icon name="star" class="w-5 h-5" />
+          <h3>Especiales SQLP</h3>
+        </div>
+        <p>Descubre la primera ascensión mundial al Aneto en Fatbike.</p>
+        <a href={withBase('/projects/aneto-en-fatbike/')} class="island-link especiales-link">
+          <img
+            src={especialAnetoBanner.src}
+            alt="Especial Aneto en FatBike"
+            class="especiales-image"
+            loading="lazy"
+            decoding="async"
+            width={especialAnetoBanner.width}
+            height={especialAnetoBanner.height}
+          />
+        </a>
+      </div>
+    </section>
   </main>
 </BaseLayout>
 
@@ -888,6 +910,22 @@ const structuredData = {
 
   .island-wide {
     width: 100%;
+  }
+
+  .especiales-link {
+    display: block;
+  }
+
+  .especiales-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 0.6rem;
+    border: 1px solid rgb(var(--color-primary-300));
+  }
+
+  :global(.dark) .especiales-image {
+    border-color: rgb(var(--color-primary-600));
   }
 
   .category-grid {
