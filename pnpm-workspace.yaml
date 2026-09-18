@@ -1,13 +1,9 @@
 packages:
   - cli
 
-onlyBuiltDependencies:
-  - a
-  - esbuild
-  - h
-  - p
-  - r
-  - s
-  - sharp
-  - swup
-  - workerd
+allowBuilds:
+  esbuild: true
+  obsidian-dev-skills: true
+  sharp: true
+  swup: true
+  workerd: true

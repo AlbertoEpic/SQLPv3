@@ -3,7 +3,8 @@
   "showViewHeader": true,
   "showRibbon": true,
   "enabledCssSnippets": [
-    "astro-modular-styling"
+    "astro-modular-styling",
+    "tabla_especialistas"
   ],
   "theme": "system",
   "accentColor": ""

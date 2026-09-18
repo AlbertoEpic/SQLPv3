@@ -1,0 +1,111 @@
+/* Estilos para la tabla de especialistas en Obsidian */
+.specialists-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 15px;
+  width: 100%;
+}
+
+.specialist-card {
+  min-width: 0;
+  padding: 16px;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 6px;
+  text-align: center;
+}
+
+.specialist-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 12px;
+}
+
+.specialist-card h3 {
+  margin: 0 0 12px;
+}
+
+.specialist-card p {
+  margin: 0 0 12px;
+}
+
+.specialist-card p:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 900px) {
+  .specialists-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .specialists-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.tabla-especialistas table {
+  width: 100% !important;
+  border-collapse: collapse !important;
+}
+
+/* 1. Corrección del error en thead (usar 'none' en lugar de 'yes') */
+.tabla-especialistas table thead {
+  display: none !important;
+}
+
+/* Fuerza el diseño responsivo flexbox */
+.tabla-especialistas table tbody {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 15px !important;
+  width: 100% !important;
+}
+
+.tabla-especialistas table tr {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  width: 100% !important;
+  gap: 15px !important;
+}
+
+/* 2. Celdas con ancho 100% idéntico entre sí */
+.tabla-especialistas table td {
+  flex: 1 1 0px !important; /* El '0px' es clave para forzar reparto proporcional idéntico */
+  min-width: 250px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  text-align: center !important;
+  padding: 16px !important;
+  box-sizing: border-box !important;
+}
+
+/* 3. Selección directa de las envolturas de imagen de Obsidian (sin romper los spans de texto) */
+.tabla-especialistas table td .image-embed,
+.tabla-especialistas table td .internal-embed,
+.tabla-especialistas table td a:has(img) {
+  width: 100% !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+}
+
+/* 4. Imágenes con dimensiones fijas exactas */
+.tabla-especialistas table td img {
+  width: 100% !important;
+  height: 200px !important;
+  max-width: 100% !important;
+  min-width: 100% !important;
+  max-height: 200px !important;
+  min-height: 200px !important;
+  object-fit: cover !important;
+  border-radius: 6px !important;
+  margin-bottom: 12px !important;
+}

@@ -167,8 +167,8 @@ export function generateProjectSEO(project: Project, url: string): SEOData {
       const optimizedPath = optimizeContentImagePath(
         imagePath,
         "projects",
-        project.id,
-        project.id
+        project.id.split('/')[0] || project.id,
+        project.id.split('/')[0] || project.id
       );
       imageUrl = `${normalizedSiteUrl}${optimizedPath}`;
     }

@@ -25,6 +25,7 @@ export interface Props {
 }
 
 const { project } = Astro.props;
+const projectAssetId = project.id.split('/')[0] || project.id;
 
 // Normalize status for consistent handling
 const status = normalizeStatus(project.data.status);
@@ -118,7 +119,7 @@ const { prev: prevProject, next: nextProject } = getAdjacentPosts(visibleProject
       <link
         rel="preload"
         as="image"
-        href={optimizeContentImagePath(project.data.image, 'projects', project.id, project.id)}
+        href={optimizeContentImagePath(project.data.image, 'projects', projectAssetId, projectAssetId)}
         fetchpriority="high"
       />
     )}
@@ -174,7 +175,7 @@ const { prev: prevProject, next: nextProject } = getAdjacentPosts(visibleProject
               }
               // Safety check: ensure project.id exists before using it
               if (project.id) {
-                imageBasePath = `/projects/${project.id}/`;
+                imageBasePath = `/projects/${projectAssetId}/`;
               } else {
                 // Fallback to attachments directory if project.id is undefined
                 imageBasePath = '/projects/attachments/';
@@ -345,7 +346,7 @@ const { prev: prevProject, next: nextProject } = getAdjacentPosts(visibleProject
 
       <!-- Desktop TOC - floats to the right of the content container -->
       {shouldShowTOC && (
-        <div class="hidden xl:block absolute top-0 left-full ml-1 w-[280px] h-full">
+        <div class="hidden xl:block absolute top-0 left-full ml-1 w-70 h-full">
           <div class="sticky top-24 pb-6" id="toc">
             <TableOfContents headings={toc} />
           </div>

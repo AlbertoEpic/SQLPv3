@@ -10,7 +10,7 @@
     "semantic_hash": ""
   },
   "astro.config.mjs": {
-    "mtime": 1789110670.6435783,
+    "mtime": 1789715241.059741,
     "ast_hash": "4111e43da08a092fe3a04ed0748c92ff",
     "semantic_hash": ""
   },
@@ -45,17 +45,17 @@
     "semantic_hash": ""
   },
   "package.json": {
-    "mtime": 1785150375.0521927,
-    "ast_hash": "03a929fda3828198312e6badb173cef9",
+    "mtime": 1789713907.5525656,
+    "ast_hash": "7e256e9b9f74420df7db4759f00c4c50",
     "semantic_hash": ""
   },
   "public/gpx/strava/index.json": {
-    "mtime": 1789110556.6372938,
+    "mtime": 1789716283.2610395,
     "ast_hash": "dfc2a69b07b622fba02f42517b4890a2",
     "semantic_hash": ""
   },
   "public/gpx/strava/manual-links.json": {
-    "mtime": 1789110556.6382954,
+    "mtime": 1789716283.2620392,
     "ast_hash": "cdf009bdfccadbc44a909731549cb176",
     "semantic_hash": ""
   },
@@ -120,8 +120,8 @@
     "semantic_hash": ""
   },
   "scripts/sync-images.js": {
-    "mtime": 1779290939.6930618,
-    "ast_hash": "292e82c9e3a7720a8c6b6970bb44d2b7",
+    "mtime": 1789583089.2773025,
+    "ast_hash": "81a1e5d3888d26540d7ae33bd890f55d",
     "semantic_hash": ""
   },
   "scripts/update.mjs": {
@@ -295,8 +295,8 @@
     "semantic_hash": ""
   },
   "src/config.ts": {
-    "mtime": 1784705751.6292565,
-    "ast_hash": "777f28e3501dc50a3e0860ff7cb485a9",
+    "mtime": 1789715202.861876,
+    "ast_hash": "9293c92a554290e688247053a987adb8",
     "semantic_hash": ""
   },
   "src/config/dev.ts": {
@@ -310,13 +310,13 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/app.json": {
-    "mtime": 1789021298.7086914,
-    "ast_hash": "ded516c585290a7de233be611476c7fa",
+    "mtime": 1789667605.701634,
+    "ast_hash": "0c7175952b89ee6124443b43550766ea",
     "semantic_hash": ""
   },
   "src/content/.obsidian/appearance.json": {
-    "mtime": 1789021299.235185,
-    "ast_hash": "1aad267d29936122e7bb65c819410bdc",
+    "mtime": 1789667605.702634,
+    "ast_hash": "f462304feea404fb74a1bcb75eb1f70d",
     "semantic_hash": ""
   },
   "src/content/.obsidian/backlink.json": {
@@ -330,12 +330,12 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/community-plugins.json": {
-    "mtime": 1789021299.237183,
+    "mtime": 1789660399.874317,
     "ast_hash": "97489853a7f6ebee87999c1bd3e8d442",
     "semantic_hash": ""
   },
   "src/content/.obsidian/core-plugins.json": {
-    "mtime": 1789021298.0904112,
+    "mtime": 1789660399.125066,
     "ast_hash": "db29479913624ef3dc8b0036639d2854",
     "semantic_hash": ""
   },
@@ -365,8 +365,8 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/astro-modular-settings/data.json": {
-    "mtime": 1779897964.071,
-    "ast_hash": "49bb0cd8553027391d0d87d74616aa82",
+    "mtime": 1789669028.714,
+    "ast_hash": "7eb12400ffbbb1a86866da171b940cdf",
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/astro-modular-settings/main.js": {
@@ -395,7 +395,7 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/consistent-attachments-and-links/data.json": {
-    "mtime": 1789021297.797,
+    "mtime": 1789660398.731,
     "ast_hash": "8437410eb6cccad442f9a5b5414c403e",
     "semantic_hash": ""
   },
@@ -440,7 +440,7 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/editing-toolbar/data.json": {
-    "mtime": 1789021297.561,
+    "mtime": 1789660398.487,
     "ast_hash": "eb0d237aa2244036f55114b6012aa606",
     "semantic_hash": ""
   },
@@ -590,7 +590,7 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/omnisearch/data.json": {
-    "mtime": 1789021299.966,
+    "mtime": 1789660400.474,
     "ast_hash": "c8f315bcb8888e08c3461f22885addf4",
     "semantic_hash": ""
   },
@@ -605,8 +605,8 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/oxygen-settings/data.json": {
-    "mtime": 1779290939.7983594,
-    "ast_hash": "f6e9fc60e1e4b3759e955b3ff94fb33e",
+    "mtime": 1789667604.688,
+    "ast_hash": "bfe15b620b9cb27a9ffed4186b5d651a",
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/oxygen-settings/main.js": {
@@ -755,8 +755,8 @@
     "semantic_hash": ""
   },
   "src/layouts/BaseLayout.astro": {
-    "mtime": 1788283151.5059655,
-    "ast_hash": "687939bd3cfa8e404dc7bc50ced2838e",
+    "mtime": 1789583399.4056108,
+    "ast_hash": "4821565b92e0609db0461033a464405a",
     "semantic_hash": ""
   },
   "src/layouts/DocumentationLayout.astro": {
@@ -775,8 +775,8 @@
     "semantic_hash": ""
   },
   "src/layouts/ProjectLayout.astro": {
-    "mtime": 1779290940.6662774,
-    "ast_hash": "f748d2ec829ad0215b28aa49592cd690",
+    "mtime": 1789714213.3475142,
+    "ast_hash": "dc1d9c6902415fc9e8ee59b508fb3cc5",
     "semantic_hash": ""
   },
   "src/middleware.ts": {
@@ -930,7 +930,7 @@
     "semantic_hash": ""
   },
   "src/scripts/leaflet-client.ts": {
-    "mtime": 1789110549.5764034,
+    "mtime": 1789110790.342908,
     "ast_hash": "962a067064a46c47257fb2c5c098df73",
     "semantic_hash": ""
   },
@@ -1060,8 +1060,8 @@
     "semantic_hash": ""
   },
   "src/utils/seo.ts": {
-    "mtime": 1789056715.4506352,
-    "ast_hash": "985ed3750a543eb45e8b063622cd654e",
+    "mtime": 1789663869.4418738,
+    "ast_hash": "2c6143cb3761e5b5cb77134f139771eb",
     "semantic_hash": ""
   },
   "src/utils/status.ts": {
@@ -1150,8 +1150,8 @@
     "semantic_hash": ""
   },
   "AGENTS.md": {
-    "mtime": 1780992539.947681,
-    "ast_hash": "68867664d69ad15c8e20b90c4ebd8377",
+    "mtime": 1789714855.0324278,
+    "ast_hash": "08e04c98f79a3341da2ae40edddcfd0e",
     "semantic_hash": ""
   },
   "CLAUDE.md": {
@@ -1180,8 +1180,8 @@
     "semantic_hash": ""
   },
   "pnpm-workspace.yaml": {
-    "mtime": 1785150375.0560052,
-    "ast_hash": "69c1abfe89366c1daf83c1a35f4678f4",
+    "mtime": 1789714835.0424304,
+    "ast_hash": "eacc949e1aeeebc62c42c6a5742d7581",
     "semantic_hash": ""
   },
   "src/content/.trash/Untitled.md": {
@@ -1930,8 +1930,8 @@
     "semantic_hash": ""
   },
   "src/content/posts/cordier-creguena-coronas-solitaria-despedida-de-temporada.md": {
-    "mtime": 1779870853.0719197,
-    "ast_hash": "e94a66811aaf50a9b361ce48de603dd9",
+    "mtime": 1789111522.8270864,
+    "ast_hash": "dad4b006491e0244c10a40f06f872baa",
     "semantic_hash": ""
   },
   "src/content/posts/cresta-de-las-espadas-al-posets.md": {
@@ -3990,7 +3990,7 @@
     "semantic_hash": ""
   },
   "public/favicon.png": {
-    "mtime": 1779290939.6760564,
+    "mtime": 1779290939.865706,
     "ast_hash": "9eb69c5aeaf5ceb14cedee8dd0882c96",
     "semantic_hash": ""
   },
@@ -7035,7 +7035,7 @@
     "semantic_hash": ""
   },
   "src/components/PostShare.astro": {
-    "mtime": 1789109870.3280764,
+    "mtime": 1789110863.2576299,
     "ast_hash": "32837127b3e27c4780e26253727d031a",
     "semantic_hash": ""
   },
@@ -7077,6 +7077,291 @@
   "src/content/posts/attachments/pico-castanesa-2859m-y-sierra-negra-emtb.png": {
     "mtime": 1789023127.4373648,
     "ast_hash": "bd8c7a2ee31cb24de45734902e0e014f",
+    "semantic_hash": ""
+  },
+  ".agent/sync-status.json": {
+    "mtime": 1789714855.0334287,
+    "ast_hash": "70ac0e67ee696f3e242a6a37bd155448",
+    "semantic_hash": ""
+  },
+  ".agent/skills/obsidian-dev/SKILL.md": {
+    "mtime": 1789714763.2457178,
+    "ast_hash": "1889ed06dc8a095a66281ecc003fcf80",
+    "semantic_hash": ""
+  },
+  ".agent/skills/obsidian-dev/references/agent-dos-donts.md": {
+    "mtime": 1789714763.2447183,
+    "ast_hash": "fd0dc6eb182546826c561fc8209d26d1",
+    "semantic_hash": ""
+  },
+  ".agent/skills/obsidian-dev/references/code-patterns.md": {
+    "mtime": 1789714763.2417185,
+    "ast_hash": "514d9759c160e3ce28cbf80217ef10d2",
+    "semantic_hash": ""
+  },
+  ".agent/skills/obsidian-dev/references/coding-conventions.md": {
+    "mtime": 1789714763.2447183,
+    "ast_hash": "2fa63d64f31b872768c58231ed9c578d",
+    "semantic_hash": ""
+  },
+  ".agent/skills/obsidian-dev/references/commands-settings.md": {
+    "mtime": 1789714763.2437184,
+    "ast_hash": "abf164196cea0531a79cb1b731faec63",
+    "semantic_hash": ""
+  },
+  ".agent/skills/obsidian-dev/references/common-tasks.md": {
+    "mtime": 1789714763.2447183,
+    "ast_hash": "295b906d974005f5ad5eea8648cfdff2",
+    "semantic_hash": ""
+  },
+  ".agent/skills/obsidian-dev/references/plugin-guidelines.md": {
+    "mtime": 1789714763.2437184,
+    "ast_hash": "e982ee23d8ff7be40d0173e7b5455fca",
+    "semantic_hash": ""
+  },
+  ".agent/skills/obsidian-ops/SKILL.md": {
+    "mtime": 1789714763.2447183,
+    "ast_hash": "746c12b355d9be8e523b3e2f235f663b",
+    "semantic_hash": ""
+  },
+  ".agent/skills/obsidian-ops/references/build-workflow.md": {
+    "mtime": 1789714763.2457178,
+    "ast_hash": "10e5c8b7481b3e4808aaf7d66d587786",
+    "semantic_hash": ""
+  },
+  ".agent/skills/obsidian-ops/references/contributing-template.md": {
+    "mtime": 1789714763.2447183,
+    "ast_hash": "6b7f9dc84e5df7c83bae8a4b753ad4a5",
+    "semantic_hash": ""
+  },
+  ".agent/skills/obsidian-ops/references/performance.md": {
+    "mtime": 1789714763.2417185,
+    "ast_hash": "526a00803ef670f5cbd07e5434614c0e",
+    "semantic_hash": ""
+  },
+  ".agent/skills/obsidian-ops/references/quick-reference.md": {
+    "mtime": 1789714763.2427187,
+    "ast_hash": "dd44a95d653faece0a20b7245117ddfd",
+    "semantic_hash": ""
+  },
+  ".agent/skills/obsidian-ops/references/quick-sync-guide.md": {
+    "mtime": 1789714763.2457178,
+    "ast_hash": "5ad9d1bb88df91ea1175c4c019ba53e6",
+    "semantic_hash": ""
+  },
+  ".agent/skills/obsidian-ops/references/release-readiness.md": {
+    "mtime": 1789714763.2447183,
+    "ast_hash": "5779ceaa4ed8e808ed78cccc87c0c574",
+    "semantic_hash": ""
+  },
+  ".agent/skills/obsidian-ops/references/scorecard-compliance.md": {
+    "mtime": 1789714763.2457178,
+    "ast_hash": "8d2179d61f1c6daaf02d8918140517b3",
+    "semantic_hash": ""
+  },
+  ".agent/skills/obsidian-ops/references/security-privacy.md": {
+    "mtime": 1789714763.2427187,
+    "ast_hash": "6137021e39014b5116c287d5f118c86a",
+    "semantic_hash": ""
+  },
+  ".agent/skills/obsidian-ops/references/summarize-commands.md": {
+    "mtime": 1789714763.2417185,
+    "ast_hash": "11b0833a534a55152be3608fb6700a33",
+    "semantic_hash": ""
+  },
+  ".agent/skills/obsidian-ops/references/sync-procedure.md": {
+    "mtime": 1789714763.2417185,
+    "ast_hash": "ad3412f75f2a7a625766eddf3cf45cf4",
+    "semantic_hash": ""
+  },
+  ".agent/skills/obsidian-ops/references/testing.md": {
+    "mtime": 1789714763.2417185,
+    "ast_hash": "fa941acd1cf547bf895e505a21336e73",
+    "semantic_hash": ""
+  },
+  ".agent/skills/obsidian-ops/references/troubleshooting.md": {
+    "mtime": 1789714763.2417185,
+    "ast_hash": "2921bf14a0cf854afaed36c9b8fa3fe6",
+    "semantic_hash": ""
+  },
+  ".agent/skills/obsidian-ops/references/versioning-releases.md": {
+    "mtime": 1789714763.2417185,
+    "ast_hash": "5f169b03d0f2299bc416dcabdcbfd58e",
+    "semantic_hash": ""
+  },
+  ".agent/skills/obsidian-ref/SKILL.md": {
+    "mtime": 1789714763.247719,
+    "ast_hash": "8cc264fa53accd4fb406f8e830561aef",
+    "semantic_hash": ""
+  },
+  ".agent/skills/obsidian-ref/references/environment.md": {
+    "mtime": 1789714763.2417185,
+    "ast_hash": "12d75ed76f5ab643aa2c7276c63ad53f",
+    "semantic_hash": ""
+  },
+  ".agent/skills/obsidian-ref/references/file-conventions.md": {
+    "mtime": 1789714763.2427187,
+    "ast_hash": "5ce84f214008d8fb3e0ed2200bd6824a",
+    "semantic_hash": ""
+  },
+  ".agent/skills/obsidian-ref/references/manifest.md": {
+    "mtime": 1789714763.2417185,
+    "ast_hash": "a718c35770f19fc6611d751915ec98e4",
+    "semantic_hash": ""
+  },
+  ".agent/skills/obsidian-ref/references/mobile.md": {
+    "mtime": 1789714763.2427187,
+    "ast_hash": "e5efb73dd4276975a3f49551652f5545",
+    "semantic_hash": ""
+  },
+  ".agent/skills/obsidian-ref/references/obsidian-file-formats.md": {
+    "mtime": 1789714763.2447183,
+    "ast_hash": "00f86e58f21fbf3e3b470947efb22682",
+    "semantic_hash": ""
+  },
+  ".agent/skills/obsidian-ref/references/ref-instructions.md": {
+    "mtime": 1789714763.2407186,
+    "ast_hash": "2d12a8395e0339d7a659c85e73b7f176",
+    "semantic_hash": ""
+  },
+  ".agent/skills/obsidian-ref/references/references.md": {
+    "mtime": 1789714763.2437184,
+    "ast_hash": "fb4a7a7747d5597531011efd869ef6a1",
+    "semantic_hash": ""
+  },
+  ".agent/skills/obsidian-ref/references/ux-copy.md": {
+    "mtime": 1789714763.2427187,
+    "ast_hash": "9a2a7ccb4c9d267c8dab453a45bcc76a",
+    "semantic_hash": ""
+  },
+  ".agent/skills/obsidian-theme-dev/SKILL.md": {
+    "mtime": 1789714763.2457178,
+    "ast_hash": "86e9bb4cbdbb007307be490ae5f08a71",
+    "semantic_hash": ""
+  },
+  ".agent/skills/obsidian-theme-dev/references/theme-best-practices.md": {
+    "mtime": 1789714763.2427187,
+    "ast_hash": "1cbb9c2f0fc903dc764d99048d16efe6",
+    "semantic_hash": ""
+  },
+  ".agent/skills/obsidian-theme-dev/references/theme-coding-conventions.md": {
+    "mtime": 1789714763.2447183,
+    "ast_hash": "73996e6947d84450180d6ec04aed75d1",
+    "semantic_hash": ""
+  },
+  ".agent/skills/project/SKILL.md": {
+    "mtime": 1789713872.8079886,
+    "ast_hash": "668a37328c4ba678b8d9a6fcf5fe1538",
+    "semantic_hash": ""
+  },
+  "src/content/posts/Untitled.md": {
+    "mtime": 1789583767.5371137,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "src/content/posts/fateando-por-formigal 1.md": {
+    "mtime": 1789667623.431123,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "src/content/projects/aneto-en-fatbike/cronica-de-albertoepic.md": {
+    "mtime": 1789667164.0225184,
+    "ast_hash": "a338a90a0cfa049b8be155f7152b615e",
+    "semantic_hash": ""
+  },
+  "src/content/projects/aneto-en-fatbike/gestacion-de-la-idea.md": {
+    "mtime": 1789667623.5071168,
+    "ast_hash": "52f2446425df670201930ab5b32f44c7",
+    "semantic_hash": ""
+  },
+  "src/content/projects/aneto-en-fatbike/index.md": {
+    "mtime": 1789716123.4514446,
+    "ast_hash": "047d170281a0bbf490cbce1d41b06053",
+    "semantic_hash": ""
+  },
+  "src/content/projects/aneto-en-fatbike/nota-de-prensa.md": {
+    "mtime": 1789664107.721808,
+    "ast_hash": "00a699bb174c7088c6c5d55a81a3b763",
+    "semantic_hash": ""
+  },
+  "src/content/projects/aneto-en-fatbike/2019-04-04.jpg": {
+    "mtime": 1789586717.8318782,
+    "ast_hash": "82f849e659913065e3f9c97a493934ee",
+    "semantic_hash": ""
+  },
+  "src/content/projects/aneto-en-fatbike/AlbertoEpic.jpg": {
+    "mtime": 1789586723.918253,
+    "ast_hash": "4b7c0a4164ffd04ce7ed3922f80f6741",
+    "semantic_hash": ""
+  },
+  "src/content/projects/aneto-en-fatbike/PeakRider_logo.gif": {
+    "mtime": 1789586716.1889863,
+    "ast_hash": "835e17a0864de3b4bba9bebdc302e966",
+    "semantic_hash": ""
+  },
+  "src/content/projects/aneto-en-fatbike/bannerAnetoFatbike2.jpg": {
+    "mtime": 1789586715.8530948,
+    "ast_hash": "fcb35caedac7fed291ed4fb387c09322",
+    "semantic_hash": ""
+  },
+  "src/content/projects/aneto-en-fatbike/brujulabike-1.jpg": {
+    "mtime": 1789586719.5261142,
+    "ast_hash": "9be928bcadee13eaa76790684ba3a2ab",
+    "semantic_hash": ""
+  },
+  "src/content/projects/aneto-en-fatbike/endurospain.jpg": {
+    "mtime": 1789586718.9539318,
+    "ast_hash": "0b63620867c8a65b6be75d7390f0f0da",
+    "semantic_hash": ""
+  },
+  "src/content/projects/aneto-en-fatbike/espe1.jpg": {
+    "mtime": 1789586721.1906602,
+    "ast_hash": "9494ee88906dfd347cd497acb6f568a2",
+    "semantic_hash": ""
+  },
+  "src/content/projects/aneto-en-fatbike/espe2.jpg": {
+    "mtime": 1789586728.4012547,
+    "ast_hash": "4883bc274024bbf63972eab4de3a7902",
+    "semantic_hash": ""
+  },
+  "src/content/projects/aneto-en-fatbike/espe3.jpg": {
+    "mtime": 1789586727.7665026,
+    "ast_hash": "3e45b747b0a9f099c228f7fd763e4e57",
+    "semantic_hash": ""
+  },
+  "src/content/projects/aneto-en-fatbike/heraldo.jpg": {
+    "mtime": 1789586719.074536,
+    "ast_hash": "3facff8bd0b4536624b10dc1d780d642",
+    "semantic_hash": ""
+  },
+  "src/content/projects/aneto-en-fatbike/icon1.jpg": {
+    "mtime": 1789586730.43095,
+    "ast_hash": "b6e02a058090d994426174757f0dc7f2",
+    "semantic_hash": ""
+  },
+  "src/content/projects/aneto-en-fatbike/icon2.jpg": {
+    "mtime": 1789586726.4206738,
+    "ast_hash": "ea87b3442dc24519cc34c85874a0ae75",
+    "semantic_hash": ""
+  },
+  "src/content/projects/aneto-en-fatbike/icon3.jpg": {
+    "mtime": 1789586722.3690355,
+    "ast_hash": "88d73022f0e7cdf0963e6d6f73dce05d",
+    "semantic_hash": ""
+  },
+  "src/content/projects/aneto-en-fatbike/icon4.jpg": {
+    "mtime": 1789586721.2874308,
+    "ast_hash": "99fcac25e2335a3b022fb6fa8c29b77c",
+    "semantic_hash": ""
+  },
+  "src/content/projects/aneto-en-fatbike/portada-e1553804628900.jpg": {
+    "mtime": 1789586721.0158548,
+    "ast_hash": "1bbb7b0d31630ceae78a5bceb22ef286",
+    "semantic_hash": ""
+  },
+  "src/content/projects/aneto-en-fatbike/portada.jpg": {
+    "mtime": 1789586729.8014734,
+    "ast_hash": "548efd3b88e90de26fe40e23e3a2478c",
     "semantic_hash": ""
   }
 }

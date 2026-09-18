@@ -841,6 +841,57 @@ textarea:focus {
   @apply rounded-lg shadow-sm;
 }
 
+.prose .specialists-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0 2rem;
+}
+
+.prose .specialist-card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  padding: 1rem;
+  border: 1px solid currentColor;
+  border-radius: 0.75rem;
+  color: inherit;
+  opacity: 0.95;
+}
+
+.prose .specialist-card img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  margin: 0 0 1rem;
+}
+
+.prose .specialist-card h3 {
+  margin: 0 0 0.75rem;
+  font-size: 1.1rem;
+}
+
+.prose .specialist-card p {
+  margin: 0 0 0.75rem;
+  font-size: 0.95rem;
+}
+
+.prose .specialist-card p:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 900px) {
+  .prose .specialists-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .prose .specialists-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* Obsidian-sized images - respect manual width/height, centered, no cropping */
 .prose img.obsidian-sized {
   display: block;
