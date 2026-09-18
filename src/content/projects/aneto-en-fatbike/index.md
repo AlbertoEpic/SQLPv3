@@ -52,18 +52,18 @@ Conoce a continuación a los especialistas que hicieron realidad este proyecto:
 
 <div class="specialists-grid">
   <article class="specialist-card">
-    <img src="espe1.jpg" alt="Alberto Herrerías" loading="lazy">
+    <img src="espe1.webp" alt="Alberto Herrerías" loading="lazy">
     <h3>Alberto Herrerías</h3>
     <p><strong>El Alpinista:</strong> Alberto es un alpinista confirmado, se mueve por las crestas con la misma seguridad que por el pasillo de su casa. Gracias a él existe la foto de la FatBike en la cima, junto a la cruz. Fue el encargado de cruzar el Paso de Mahoma con la bici a cuestas.</p>
   </article>
   <article class="specialist-card">
-    <img src="espe2.jpg" alt="Jorge García" loading="lazy">
+    <img src="espe2.webp" alt="Jorge García" loading="lazy">
     <h3>Jorge García</h3>
     <p><strong>Un figura:</strong> Igual te organiza la Ultra del Aneto que te sube a limpiar las pintadas de su cruz. Y si te descuidas, ¡entre medio te gana una carrera de orientación!</p>
     <p>Principal reportero gráfico de la aventura y responsable de la difusión de la misma en tiempo real.</p>
   </article>
   <article class="specialist-card">
-    <img src="AlbertoEpic.jpg" alt="AlbertoEpic" loading="lazy">
+    <img src="AlbertoEpic.webp" alt="AlbertoEpic" loading="lazy">
     <h3>AlbertoEpic</h3>
     <p><strong>El Visionario:</strong> Superhéroe de 'todo a cien', es la pieza fundamental de SQLP. Haciendo superheroicidades y excentricidades desde el siglo pasado.</p>
     <p>El portador del Anillo hasta el monte del destino, ¡no, espera!, el portador de la fatbike hasta el Aneto.</p>
