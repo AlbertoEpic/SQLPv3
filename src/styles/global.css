@@ -285,17 +285,6 @@ html.show-scrollbars {
   /* overflow: auto !important; */
 }
 
-/* Ensure body and html have scrollbars when needed - but don't interfere with sticky positioning */
-body.show-scrollbars {
-  /* Don't set overflow on body element as it can interfere with sticky positioning */
-  /* overflow: auto !important; */
-}
-
-html.show-scrollbars {
-  /* Don't set overflow on html element as it can interfere with sticky positioning */
-  /* overflow: auto !important; */
-}
-
 /* Selection Colors */
 ::selection {
   background-color: rgb(var(--selection-bg) / 0.2);
@@ -326,7 +315,7 @@ code ::-moz-selection,
   outline-offset: 2px;
 }
 
-:global(.dark) :focus-visible {
+.dark :focus-visible {
   outline-color: rgb(var(--color-highlight-400));
 }
 
@@ -544,10 +533,10 @@ textarea:focus {
   box-shadow: 0 0 0 2px rgb(var(--color-highlight-500) / 0.45);
 }
 
-:global(.dark) input[type="text"]:focus,
-:global(.dark) input[type="email"]:focus,
-:global(.dark) input[type="search"]:focus,
-:global(.dark) textarea:focus {
+.dark input[type="text"]:focus,
+.dark input[type="email"]:focus,
+.dark input[type="search"]:focus,
+.dark textarea:focus {
   box-shadow: 0 0 0 2px rgb(var(--color-highlight-400) / 0.45);
 }
 
@@ -590,7 +579,7 @@ textarea:focus {
 }
 
 .callout-icon {
-  @apply w-4 h-4 flex-shrink-0;
+  @apply w-4 h-4 shrink-0;
 }
 
 .callout-content {
@@ -1143,11 +1132,6 @@ footer, nav {
   transform: translateZ(0);
 }
 
-/* Header needs special handling to maintain sticky positioning */
-header {
-  /* Don't apply transform to header as it interferes with sticky positioning */
-}
-
 /* Ensure smooth transitions for interactive elements only */
 a, button, .btn, .card, .callout, nav a {
   transition: all 0.2s ease-out;
@@ -1217,9 +1201,9 @@ a:focus-visible, button:focus-visible, .btn:focus-visible {
   transition: outline 0.2s ease-in-out;
 }
 
-:global(.dark) a:focus-visible,
-:global(.dark) button:focus-visible,
-:global(.dark) .btn:focus-visible {
+.dark a:focus-visible,
+.dark button:focus-visible,
+.dark .btn:focus-visible {
   outline-color: rgb(var(--color-highlight-400));
 }
 
@@ -1268,7 +1252,7 @@ img + p em {
 }
 
 /* Mermaid diagram styling */
-.mermaid-diagram :global(.mermaid) {
+.mermaid-diagram .mermaid {
   @apply text-center;
 }
 
@@ -1307,7 +1291,7 @@ img + p em {
 }
 
 /* Mermaid theme integration */
-.mermaid-diagram :global(.mermaid) {
+.mermaid-diagram .mermaid {
   @apply text-primary-900 dark:text-primary-100;
 }
 
@@ -1411,14 +1395,7 @@ img + p em {
   height: auto;
 }
 
-/* Preserve colorful diagrams completely - no overrides in any mode */
-.mermaid-diagram svg.pie,
-.mermaid-diagram svg.gitgraph {
-  /* No overrides - let Mermaid handle colors naturally */
-}
-
-/* Handle specific edge cases as they come up */
-/* TODO: Add specific overrides for problematic elements */
+/* Preserve colorful diagrams completely - no overrides applied in any mode */
 
 /* Print Styles */
 @media print {
