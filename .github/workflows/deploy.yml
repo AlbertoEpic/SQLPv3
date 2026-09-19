@@ -46,7 +46,7 @@ jobs:
       - name: Install pnpm globally via npm
         run: |
           if ! command -v pnpm &> /dev/null; then
-            npm install -g pnpm@10.5.0 || true
+            npm install -g pnpm@12.4.2 || true
           fi
      
       - name: Refresh Instagram token for this build
@@ -100,9 +100,7 @@ jobs:
      
       - name: Install dependencies with pnpm
         run: |
-          if ! command -v pnpm &> /dev/null; then
-            npm install -g pnpm@10.5.0 || true
-          fi
+          npm install -g pnpm@12.4.2
           pnpm install
     
       - name: Build project

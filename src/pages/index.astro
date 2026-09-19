@@ -14,14 +14,15 @@ import especialAnetoBanner from '@/content/especialAneto.jpg';
 import { withBase } from '@/utils/base-url';
 import HomeGraph from '@/components/HomeGraph.astro';
 import { getLatestPano360 } from '@/utils/pano360';
+import type { Post } from '@/types';
 
 const allPosts = await getCollection('posts');
 const isDev = import.meta.env.DEV;
 const visiblePosts = allPosts.filter(post => shouldShowPost(post, isDev));
 const sortedPosts = sortPostsByDate(visiblePosts);
 const processedPosts = await Promise.all(
-  sortedPosts.map(async (post) => await processPost(post))
-) as any[];
+  sortedPosts.map((post: Post) => processPost(post))
+);
 
 const latestPost = processedPosts[0] || null;
 const defaultOgImageSrc = withBase('/open-graph.png');
@@ -98,6 +99,23 @@ let latestMiniPlanetLink = null;
 let latestMiniPlanetTitle = null;
 let latestMiniPlanetImage = null;
 
+const miniBaseUrl = 'https://miniplanetas.soloquedalopeor.com';
+const miniFetchHeaders = {
+  'User-Agent': 'Mozilla/5.0 (compatible; SQLP-Astro-Bot/1.0; +https://soloquedalopeor.com)',
+  Accept: 'text/html,application/xhtml+xml',
+};
+
+const fetchWithTimeout = async (url: string, options: RequestInit = {}, timeoutMs = 10000) => {
+  const controller = new AbortController();
+  const timeoutId = setTimeout(() => controller.abort(), timeoutMs);
+
+  try {
+    return await fetch(url, { ...options, signal: controller.signal });
+  } finally {
+    clearTimeout(timeoutId);
+  }
+};
+
 const parseSpanishDiscoveryDate = (rawDate: string) => {
   const monthMap: Record<string, number> = {
     enero: 1,
@@ -136,13 +154,7 @@ const parseSpanishDiscoveryDate = (rawDate: string) => {
 };
 
 try {
-  const miniBaseUrl = 'https://miniplanetas.soloquedalopeor.com';
-  const miniFetchHeaders = {
-    'User-Agent': 'Mozilla/5.0 (compatible; SQLP-Astro-Bot/1.0; +https://soloquedalopeor.com)',
-    Accept: 'text/html,application/xhtml+xml',
-  };
-
-  const catalogRes = await fetch('https://miniplanetas.soloquedalopeor.com/catalogo/', {
+  const catalogRes = await fetchWithTimeout(`${miniBaseUrl}/catalogo/`, {
     headers: miniFetchHeaders,
   });
   if (catalogRes.ok) {
@@ -163,7 +175,7 @@ try {
     const planetsWithDate = await Promise.all(planetLinks.map(async (detailUrl) => {
 
       try {
-        const detailRes = await fetch(detailUrl, {
+        const detailRes = await fetchWithTimeout(detailUrl, {
           headers: miniFetchHeaders,
         });
         if (!detailRes.ok) return null;
@@ -210,6 +222,12 @@ try {
   }
 } catch (e) {
   // Si hay error, dejar valores null para fallback visual.
+}
+
+if (!latestMiniPlanetLink) {
+  latestMiniPlanetLink = `${miniBaseUrl}/catalogo/`;
+  latestMiniPlanetTitle = 'Miniplanetas';
+  latestMiniPlanetImage = withBase('/open-graph.png');
 }
 
 const instagramLink = siteConfig.navigation.social.find(

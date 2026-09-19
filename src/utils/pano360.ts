@@ -8,6 +8,8 @@ const FALLBACK_PANO360 = {
 
 function decodeXmlEntities(value: string) {
   return value
+    .replace(/^<!\[CDATA\[/i, '')
+    .replace(/\]\]>$/i, '')
     .replace(/&amp;/gi, '&')
     .replace(/&lt;/gi, '<')
     .replace(/&gt;/gi, '>')

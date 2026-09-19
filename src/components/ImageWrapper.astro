@@ -1,7 +1,5 @@
 ---
 import path from "node:path";
-import { Image } from "astro:assets";
-import { devConfig, isDev } from "@/config/dev";
 
 interface Props {
   id?: string;
@@ -30,12 +28,9 @@ const {
   basePath = "/",
   width = 800,
   height = 450,
-  format = "webp",
-  quality = 85,
   loading = "lazy",
   decoding = "async",
   fetchpriority = "auto",
-  densities = [1, 2]
 } = Astro.props;
 
 const className = Astro.props.class;
@@ -71,14 +66,6 @@ const withBase = (path: string) => {
   return `${normalizedBase}${path.replace(/^\/+/, '')}`;
 };
 
-let hasSharp = false;
-try {
-  await import("sharp");
-  hasSharp = true;
-} catch {
-  hasSharp = false;
-}
-
 if (cleanSrc.startsWith('./')) {
   cleanSrc = cleanSrc.slice(2);
 }
@@ -112,50 +99,12 @@ const resolvedSrc =
         ? withBase(cleanSrc)
         : withBase(normalizedCombinedPath);
 
-let optimizedImg: ImageMetadata | null = null;
-
-if (hasSharp && cleanSrc && !isExternal) {
-  try {
-    const files = import.meta.glob<ImageMetadata>("/public/**", {
-      import: "default",
-    });
-
-    const publicPath = (cleanSrc.startsWith('/') && !isSyncedFolder)
-      ? path.join('/public', cleanSrc)
-      : path.join('/public', basePath, cleanSrc);
-
-    const normalizedPublicPath = path.normalize(publicPath).replace(/\\/g, '/');
-    const imageLoader = files[normalizedPublicPath];
-
-    if (imageLoader) {
-      optimizedImg = await imageLoader();
-    }
-  } catch {
-    optimizedImg = null;
-  }
-}
-
 const imageClass = "w-full h-full object-cover";
 const imageStyle = `object-position: ${position}`;
 ---
 
 <div id={id} class:list={[className, 'overflow-hidden relative']}>
-  {optimizedImg ? (
-    <Image
-      src={optimizedImg}
-      alt={alt}
-      width={width}
-      height={height}
-      format={format}
-      quality={quality}
-      class={imageClass}
-      style={imageStyle}
-      loading={loading}
-      decoding={decoding}
-      fetchpriority={fetchpriority}
-      densities={densities}
-    />
-  ) : resolvedSrc ? (
+  {resolvedSrc ? (
     <img 
       src={resolvedSrc}
       alt={alt} 

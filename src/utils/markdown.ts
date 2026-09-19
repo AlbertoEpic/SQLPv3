@@ -1,4 +1,4 @@
-import type { Post, PostData, ReadingTime, Heading } from "@/types";
+import type { Post, Project, PostData, ReadingTime, Heading } from "@/types";
 import { render } from "astro:content";
 
 // Check if a date is valid (not January 1, 1970 or invalid)
@@ -146,7 +146,7 @@ export async function generateTOC(headings: Heading[]): Promise<Heading[]> {
 }
 
 // Process content data for display (posts, projects, docs, etc.)
-export async function processPost(post: any) {
+export async function processPost<T extends Post | Project>(post: T) {
   const { Content, headings, remarkPluginFrontmatter } = await render(post);
   const { excerpt, wordCount, hasMore } = processMarkdown(post.body || "");
   const readingTime = getReadingTime(remarkPluginFrontmatter, post.body || ""); // Pass post.body as fallback
@@ -239,7 +239,7 @@ export function shouldShowPost(post: Post, isDev: boolean | undefined = undefine
   const { draft, title, date } = post.data;
 
   // Always require title and date
-  if (!title || !date) {
+  if (!title || title.trim() === 'Untitled Post' || !date) {
     return false;
   }
 

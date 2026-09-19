@@ -1,0 +1,14 @@
+Scope: all 2 workspace projects
+Ô£ô Lockfile passes supply-chain policies (verified 5m ago)
+Lockfile is up to date, resolution step is skipped
+Packages: +80 -3
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++---
+Progress: resolved 80, reused 80, downloaded 0, added 80, done
+.../node_modules/obsidian-dev-skills postinstall$ node ./scripts/init.mjs
+.../sharp@0.34.5/node_modules/sharp install$ node install/check.js || npm run build
+.../node_modules/obsidian-dev-skills postinstall: ­ƒÜÇ Initializing Obsidian Dev Skills in: C:\Users\USER\Desktop\SQLP
+.../node_modules/obsidian-dev-skills postinstall: 
+.../node_modules/obsidian-dev-skills postinstall: ÔØô The project type is not immediately clear.
+.../node_modules/obsidian-dev-skills postinstall: Is this an Obsidian plugin project, a theme project, or both?
+.../node_modules/obsidian-dev-skills postinstall: Choices: [p]lugin, [t]heme, [b]oth (default)
+.../sharp@0.34.5/node_modules/sharp install: Done
