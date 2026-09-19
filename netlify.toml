@@ -4,7 +4,7 @@
 
 [build.environment]
   NODE_VERSION = "22"
-  PNPM_VERSION = "8"
+  PNPM_VERSION = "12.4.2"
 
 # Enable compression for all text-based files
 # Note: Netlify automatically handles gzip/brotli compression based on client support
