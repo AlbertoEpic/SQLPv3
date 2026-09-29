@@ -1,7 +1,7 @@
 ---
 title: Amanecer en el Pico de las Tres Güegas (2.303m) - EMTB
 heroImage: attachments/amanecer3guegas4.png
-description: ""
+description: Retomamos la serie 'Desayunando en...'
 pubDate: 2026-09-28
 author: AlbertoEpic
 category: e-bike
@@ -40,7 +40,7 @@ La alarma suena en un visto y no visto. Vestirse, sacar y montar la bici, y para
 
 ![amanecer-en-el-pico-de-las-tres-güegas-2303m-emtb -](attachments/amanecer3guegas3.png)
 
-10min antes de la salida del sol por el horizonte... ya ya esperando al sol arriba con el desayuno. En el parking soplaba bastante viento, pero aquí arriba todo está en calma.
+10min antes de la salida del sol por el horizonte... ya esperando al sol arriba con el desayuno. En el parking soplaba bastante viento, pero aquí arriba todo está en calma.
 
 	
 ![amanecer-en-el-pico-de-las-tres-güegas-2303m-emtb -](attachments/amanecer3guegas4.png)
@@ -52,5 +52,10 @@ Por el cordal en dirección al pico Porrón.
 Punta Escarra y Pala de Ip, espectacular telón de fondo.
 
 
+## El Miniplaneta
+
+Ya que estaba, nuestro especialista cumplió con el encargo de hacerse con material gráfico para la creación de un nuevo miniplaneta en nuestra web. Haz [**click aquí para ver su ficha**](https://miniplanetas.soloquedalopeor.com/planetas/planeta-tres-guegas/)...
+
+![miniplaneta-3guegas](attachments/miniplaneta-3guegas.png)
 ## El Track
 Si te interesa seguir los pasos de nuestro especialista, a continuación tienes el mapa con el track:
