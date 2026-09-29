@@ -1,6 +1,6 @@
 ---
 title: Amanecer en el Pico de las Tres Güegas (2.303m) - EMTB
-heroImage: attachments/amanecer-en-el-pico-de-las-tres-gegas-2303m-emtb.png
+heroImage: attachments/amanecer3guegas4.png
 description: ""
 pubDate: 2026-09-28
 author: AlbertoEpic
@@ -29,24 +29,25 @@ Para redondear la jornada, desde esta cima partió por el cordal en dirección a
 
 ## Las Fotos
 
-![amanecer-en-el-pico-de-las-tres-güegas-2303m-emtb -](attachments/amanecer-en-el-pico-de-las-tres-gegas-2303m-emtb.jpg)
+![amanecer-en-el-pico-de-las-tres-güegas-2303m-emtb -](attachments/amanecer3guegas1.jpg)
+
 
 Después de cenar en casa, tocaba subir con la Albertoneta a dormir al parking de Sextas de Formigal. A las 0:45am AlbertoEpic tomaba esta foto, ponía el despertador a las 5:30am y se acostaba un ratito...
 
-![amanecer-en-el-pico-de-las-tres-güegas-2303m-emtb -](attachments/amanecer-en-el-pico-de-las-tres-gegas-2303m-emtb-1.jpg)
+![amanecer-en-el-pico-de-las-tres-güegas-2303m-emtb -](attachments/amanecer3guegas2.jpg)
 
 La alarma suena en un visto y no visto. Vestirse, sacar y montar la bici, y para arriba sin perder un segundo, que el sol no espera y tenemos una cita en la cima...
 
-![amanecer-en-el-pico-de-las-tres-güegas-2303m-emtb -](attachments/amanecer-en-el-pico-de-las-tres-gegas-2303m-emtb-1.png)
+![amanecer-en-el-pico-de-las-tres-güegas-2303m-emtb -](attachments/amanecer3guegas3.png)
 
 10min antes de la salida del sol por el horizonte... ya ya esperando al sol arriba con el desayuno. En el parking soplaba bastante viento, pero aquí arriba todo está en calma.
 
 	
-![amanecer-en-el-pico-de-las-tres-güegas-2303m-emtb -](attachments/amanecer-en-el-pico-de-las-tres-gegas-2303m-emtb.png)
+![amanecer-en-el-pico-de-las-tres-güegas-2303m-emtb -](attachments/amanecer3guegas4.png)
 
 Por el cordal en dirección al pico Porrón.
 
-![amanecer-en-el-pico-de-las-tres-güegas-2303m-emtb -](attachments/amanecer-en-el-pico-de-las-tres-gegas-2303m-emtb-2.jpg)
+![amanecer-en-el-pico-de-las-tres-güegas-2303m-emtb -](attachments/amanecer3guegas5.jpg)
 
 Punta Escarra y Pala de Ip, espectacular telón de fondo.
 
