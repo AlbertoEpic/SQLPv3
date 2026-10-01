@@ -1,9 +1,9 @@
-const PANO360_FEED_URL = 'https://pano360.soloquedalopeor.com/wp-content/uploads/woo-feed/custom/xml/feedpano360.xml';
+const PANO360_FEED_URL = 'https://pano360.soloquedalopeor.com/rss.xml';
 
 const FALLBACK_PANO360 = {
-  link: 'https://pano360.soloquedalopeor.com/panorama/garmo-negro-3-064m-2/',
-  title: 'Garmo Negro (3.064m)',
-  image: 'https://pano360.soloquedalopeor.com/wp-content/uploads/2026/04/Garmo-Negro.jpg',
+  link: 'https://pano360.soloquedalopeor.com/productos/tres-guegas-2-303m-verano/',
+  title: 'Tres Güegas (2.303m) - verano',
+  image: 'https://pano360.soloquedalopeor.com/products/tres-guegas-2-303m-verano.jpg',
 };
 
 function decodeXmlEntities(value: string) {
@@ -18,27 +18,41 @@ function decodeXmlEntities(value: string) {
     .trim();
 }
 
-function parseLatestPano360(xml: string) {
-  const products = Array.from(xml.matchAll(/<product>([\s\S]*?)<\/product>/gi)).map((match) => match[1]);
+function getPano360ImageUrl(link: string) {
+  try {
+    const productUrl = new URL(link);
+    const productSlug = productUrl.pathname.match(/^\/productos\/([^/]+)\/?$/i)?.[1];
 
-  for (const product of products) {
-    const linkMatch = product.match(/<link>([\s\S]*?)<\/link>/i);
-    const titleMatch = product.match(/<title>([\s\S]*?)<\/title>/i);
-    const imageMatch = product.match(/<image_link>([\s\S]*?)<\/image_link>/i);
+    if (productUrl.hostname !== 'pano360.soloquedalopeor.com' || !productSlug) {
+      return null;
+    }
+
+    return `${productUrl.origin}/products/${productSlug}.jpg`;
+  } catch {
+    return null;
+  }
+}
+
+function parseLatestPano360(xml: string) {
+  const items = Array.from(xml.matchAll(/<item\b[^>]*>([\s\S]*?)<\/item>/gi)).map((match) => match[1]);
+
+  for (const item of items) {
+    const linkMatch = item.match(/<link>([\s\S]*?)<\/link>/i);
+    const titleMatch = item.match(/<title>([\s\S]*?)<\/title>/i);
 
     if (!linkMatch?.[1]) {
       continue;
     }
 
     const link = decodeXmlEntities(linkMatch[1]);
-    if (!link.includes('/panorama/')) {
+    if (!link.includes('/productos/')) {
       continue;
     }
 
     return {
       link,
       title: decodeXmlEntities(titleMatch?.[1] || 'Ver ultima panoramica'),
-      image: imageMatch ? decodeXmlEntities(imageMatch[1]) : null,
+      image: getPano360ImageUrl(link),
     };
   }
 

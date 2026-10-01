@@ -123,7 +123,7 @@ const paletteIcon = allSectionsDisabled ? 'search' : 'command';
                       </button>
                     )}
                     {/* Dropdown menu */}
-                    <div class="nav-dropdown-menu absolute top-full left-0 mt-1 hidden bg-white dark:bg-primary-900 border border-primary-200 dark:border-primary-700 rounded-lg shadow-lg py-2 min-w-[200px] z-50">
+                    <div class="nav-dropdown-menu absolute top-full left-0 mt-1 hidden bg-white dark:bg-primary-900 border border-primary-200 dark:border-primary-700 rounded-lg shadow-lg py-2 min-w-50 z-50">
                       {childPages.map(child => (
                         <a
                           href={resolveNavHref(child.url)}
