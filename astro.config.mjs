@@ -82,6 +82,7 @@ export default defineConfig({
   '/contact-me': '/contact',
   '/contact-us': '/contact',
   '/privacy': '/privacy-policy',
+  '/posts/amanecer-en-el-pico-de-las-tres-güegas-2303m': '/posts/amanecer-en-el-pico-de-las-tres-güegas-2303m-emtb',
   '/posts/barranco-del-forcos': '/posts/barranco-forcos',
   '/posts/vira-de-lembarradere-al-midi-dossau-2-884m': '/posts/vira-de-lembarradere-al-midi-dossau-2884m',
   '/projects/obsidian-astro-composer': '/projects/astro-composer',
