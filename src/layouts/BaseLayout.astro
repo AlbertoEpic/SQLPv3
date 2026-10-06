@@ -20,27 +20,6 @@ import CategoryFilter from '@/components/CategoryFilter.astro';
 import { withBase } from '@/utils/base-url';
 import '@/styles/global.css';
 
-// Import local fonts if configured
-if (shouldLoadLocalFonts()) {
-  // Import Inter font
-  if (siteConfig.fonts.families.body === 'Inter' || siteConfig.fonts.families.heading === 'Inter') {
-    import('@fontsource/inter/300.css');
-    import('@fontsource/inter/400.css');
-    import('@fontsource/inter/500.css');
-    import('@fontsource/inter/600.css');
-    import('@fontsource/inter/700.css');
-  }
-
-  // Import JetBrains Mono font
-  if (siteConfig.fonts.families.mono === 'JetBrains Mono') {
-    import('@fontsource/jetbrains-mono/300.css');
-    import('@fontsource/jetbrains-mono/400.css');
-    import('@fontsource/jetbrains-mono/500.css');
-    import('@fontsource/jetbrains-mono/600.css');
-    import('@fontsource/jetbrains-mono/700.css');
-  }
-}
-
 export interface Props {
   seoData: SEOData;
   bodyClass?: string;

@@ -1,5 +1,5 @@
 ---
-title: RutaZZ's  pares!
+title: 'RutaZZ''s a pares!'
 heroImage: "[[attachments/ruta-zz067-3.jpg]]"
 description: ZZ067 (El Último Onso) y ZZ066 (Laspuña EWS 2018)
 pubDate: 2026-10-05
@@ -13,7 +13,11 @@ tags:
 gpxMap: true
 draft: false
 date: 2026-09-28
+aliases:
+  - ruta-zzs-pares
 ---
+
+
 
 ## Intro
 La aventura de hoy comienza con AlbertoEpic conduciendo hasta Laspuña, en plena Zona Zero Pirineos, para conocer por fin la ruta Trending Topic del momento: ZZ-067, El Último Onso. Es peligroso crearse expectativas, pero... Con todo lo que cuentan, no hay quien se resista a conocerla!
