@@ -2678,7 +2678,70 @@ var HomeBaseService = class {
         return leaf;
       }
     }
+    for (const leaf of leaves) {
+      if (this.isPinnedLeaf(leaf) && leafHasFile(leaf, homeBasePath)) {
+        this.ghostLeaves.add(leaf);
+        return leaf;
+      }
+    }
     return null;
+  }
+  /**
+   * Close every hidden home base tab, including the live one. Unpins first,
+   * since a pinned leaf is what makes these survive Close all.
+   *
+   * Returns how many were closed.
+   */
+  closeAllGhostTabs() {
+    const file = this.getHomeBaseFile();
+    if (!file) return 0;
+    const ghosts = [];
+    this.app.workspace.iterateAllLeaves((leaf) => {
+      var _a;
+      const viewType = (_a = leaf.view) == null ? void 0 : _a.getViewType();
+      if (!viewType || !LEAF_TYPES.includes(viewType)) return;
+      if (this.isPinnedLeaf(leaf) && leafHasFile(leaf, file.path)) {
+        ghosts.push(leaf);
+      }
+    });
+    for (const ghost of ghosts) {
+      ghost.setPinned(false);
+      ghost.detach();
+    }
+    return ghosts.length;
+  }
+  /** Whether the leaf is pinned, which is how ghost tabs are marked. */
+  isPinnedLeaf(leaf) {
+    return leaf.getViewState().pinned === true;
+  }
+  /**
+   * Collapse ghost tabs left over from the duplication bug, keeping one.
+   *
+   * Vaults that ran the affected versions accumulated a pinned, hidden tab per
+   * restart. They cannot be closed with Close all, because Obsidian skips
+   * pinned tabs, so they have to be cleared here.
+   *
+   * Returns how many were closed.
+   */
+  cleanupDuplicateGhostTabs() {
+    const file = this.getHomeBaseFile();
+    if (!file) return 0;
+    const ghosts = [];
+    this.app.workspace.iterateAllLeaves((leaf) => {
+      var _a;
+      const viewType = (_a = leaf.view) == null ? void 0 : _a.getViewType();
+      if (!viewType || !LEAF_TYPES.includes(viewType)) return;
+      if (this.isPinnedLeaf(leaf) && leafHasFile(leaf, file.path)) {
+        ghosts.push(leaf);
+      }
+    });
+    const [keep, ...extras] = ghosts;
+    if (keep) this.ghostLeaves.add(keep);
+    for (const extra of extras) {
+      extra.setPinned(false);
+      extra.detach();
+    }
+    return extras.length;
   }
   /**
    * Open home base in ghost tab (for sticky icon)
@@ -4100,6 +4163,10 @@ var HomeBasePlugin = class extends import_obsidian11.Plugin {
       this.titleObserver.observe(titleEl, { childList: true });
     }
     this.app.workspace.onLayoutReady(() => {
+      const removed = this.homeService.cleanupDuplicateGhostTabs();
+      if (removed > 0) {
+        console.debug(`[Home Base] Removed ${removed} duplicate hidden home base tab(s)`);
+      }
       setTimeout(() => {
         if (this.isSettingsModalOpen()) {
           this.updateStickyTabIcon();
@@ -4164,6 +4231,16 @@ var HomeBasePlugin = class extends import_obsidian11.Plugin {
    * Register plugin commands
    */
   registerCommands() {
+    this.addCommand({
+      id: "close-hidden-tabs",
+      name: "Close hidden tabs",
+      callback: () => {
+        const removed = this.homeService.closeAllGhostTabs();
+        new import_obsidian11.Notice(
+          removed > 0 ? `Closed ${removed} hidden tab${removed === 1 ? "" : "s"}.` : "No hidden tabs found."
+        );
+      }
+    });
     this.addCommand({
       id: "open",
       name: "Open",
