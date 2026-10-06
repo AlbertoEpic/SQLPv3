@@ -7,7 +7,8 @@ author: AlbertoEpic
 category: e-bike
 tags: []
 gpxMap: true
-draft: true
+draft: false
+date: 2026-10-06
 ---
 
 ## Intro
