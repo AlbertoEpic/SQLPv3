@@ -8,7 +8,7 @@ category: e-bike
 tags: []
 gpxMap: true
 draft: false
-date: 2026-10-06
+date: 2026-09-28
 ---
 
 ## Intro
