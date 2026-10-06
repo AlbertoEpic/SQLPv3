@@ -1,11 +1,15 @@
 ---
 title: RutaZZ's  pares!
-heroImage: "[[attachments/ruta-zzs-pares.png]]"
+heroImage: "[[attachments/ruta-zz067-3.jpg]]"
 description: ZZ067 (El Último Onso) y ZZ066 (Laspuña EWS 2018)
 pubDate: 2026-10-05
 author: AlbertoEpic
 category: e-bike
-tags: []
+tags:
+  - Laspuña
+  - sobrarbe
+  - zona-zero
+  - EMTB
 gpxMap: true
 draft: false
 date: 2026-09-28
