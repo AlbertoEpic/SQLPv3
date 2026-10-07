@@ -183,7 +183,7 @@ export interface SiteConfig {
 export const siteConfig: SiteConfig = {
   // Site Information
   // [CONFIG:SITE_URL]
-  site: "https://albertoepic.github.io/SQLPv3/",
+  site: "https://soloquedalopeor.com/",
   // [CONFIG:SITE_TITLE]
   title: ".::: SQLP :::.",
   // [CONFIG:HOMEPAGE_TITLE]

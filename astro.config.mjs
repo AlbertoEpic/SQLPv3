@@ -84,6 +84,7 @@ export default defineConfig({
   '/privacy': '/privacy-policy',
   '/posts/amanecer-en-el-pico-de-las-tres-güegas-2303m': '/posts/amanecer-en-el-pico-de-las-tres-güegas-2303m-emtb',
   '/posts/barranco-del-forcos': '/posts/barranco-forcos',
+  '/posts/ruta-zzs-pares': '/posts/ruta-zzs-a-pares',
   '/posts/vira-de-lembarradere-al-midi-dossau-2-884m': '/posts/vira-de-lembarradere-al-midi-dossau-2884m',
   '/projects/obsidian-astro-composer': '/projects/astro-composer',
   '/projects/obsidian-astro-suite': '/projects/vault-cms',

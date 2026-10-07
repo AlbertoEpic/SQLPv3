@@ -25,7 +25,12 @@ export interface Props {
   bodyClass?: string;
 }
 
-const { seoData, bodyClass = '' } = Astro.props;
+const { seoData: rawSeoData, bodyClass = '' } = Astro.props;
+
+// Always derive the canonical from the actual page URL (no query/hash) so every
+// page, including listings and projects/docs, gets a correct self-canonical.
+const canonicalUrl = new URL(Astro.url.pathname, Astro.site ?? Astro.url).toString();
+const seoData = { ...rawSeoData, canonical: canonicalUrl };
 const defaultOgImageUrl = withBase('/open-graph.png');
 
 // Determine scrollbar class based on configuration

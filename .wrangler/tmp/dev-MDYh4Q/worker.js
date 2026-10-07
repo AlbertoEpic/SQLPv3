@@ -1,0 +1,856 @@
+var __defProp = Object.defineProperty;
+var __name = (target, value) => __defProp(target, "name", { value, configurable: true });
+
+// scripts/wordpress-legacy-urls.json
+var wordpress_legacy_urls_default = {
+  paths: {
+    "/panosphere/": "/posts/",
+    "/tracks-gps/": "/posts/",
+    "/blog-posts/": "/posts/",
+    "/fotos-esfericas/": "/posts/",
+    "/sqlp-blog/": "/posts/",
+    "/viajes/": "/posts/",
+    "/el-blog-de-sqlp/": "/posts/",
+    "/webcams/": "/posts/webcams-soloquedalopeor-com/",
+    "/producciones-sqlp/": "/posts/",
+    "/video-grid-gallery/": "/posts/",
+    "/video-gallery/": "/posts/",
+    "/2012/07/31/class-aptent-taciti-sociosqu-ad-litora/": "/posts/",
+    "/2012/07/31/nunc-tincidunt-elit-non-cursus/": "/posts/",
+    "/2012/07/31/proin-sodales-quam-nec-ante-sollicits/": "/posts/",
+    "/aneto-en-fatbike/": "/projects/aneto-en-fatbike/",
+    "/aneto-en-fatbike-nota-de-prensa/": "/projects/aneto-en-fatbike/nota-de-prensa/",
+    "/aneto-en-fatbike-gestacion-de-la-idea/": "/projects/aneto-en-fatbike/gestacion-de-la-idea/",
+    "/aneto-en-fatbike-cronica-de-albertoepic/": "/projects/aneto-en-fatbike/cronica-de-albertoepic/",
+    "/aneto-en-fatbike-galeria-de-fotos/": "/projects/aneto-en-fatbike/",
+    "/norway-2019/": "/posts/",
+    "/norway-2019-galeria-de-fotos/": "/posts/",
+    "/2012/07/31/nullam-vitae-nibh-un-odio/": "/posts/",
+    "/2012/07/31/praesent-et-urna-turpis-sadips/": "/posts/",
+    "/2012/07/31/donec-at-mauris-enim-duis-nisi-tellus/": "/posts/",
+    "/2015/01/26/vuelta-al-pico-acue-2-258m/": "/posts/skimo-vuelta-al-acue-2-258m/",
+    "/2014/12/21/feliz-navidad/": "/posts/feliz-navidad/",
+    "/2014/11/08/alquezar-five-stars-btt-enduro/": "/posts/alquezar-five-stars-btt-enduro/",
+    "/2014/10/03/danny-macaskill-the-ridge/": "/posts/danny-macaskill-the-ridge/",
+    "/2014/09/01/cicloalpinismo-integral-de-sierra-negra/": "/posts/cicloalpinismo-integral-de-sierra-negra/",
+    "/2014/08/21/trans-suiza-2014-mittelland-route-episodio-3/": "/posts/trans-suiza-2014-mittelland-route-episodio-3/",
+    "/2014/08/07/trans-suiza-2014-mittelland-route-episodio-2/": "/posts/trans-suiza-2014-mittelland-route-episodio-2/",
+    "/2014/07/30/trans-suiza-2014-mittelland-route-episodio-1/": "/posts/trans-suiza-2014-mittelland-route-episodio-1/",
+    "/2014/06/24/cicloalpinismo-por-bielsa/": "/posts/cicloalpinismo-por-bielsa/",
+    "/2014/06/12/escapada-playera-activa/": "/posts/escapada-playera-activa/",
+    "/2014/05/08/pico-tendenera-2-853m/": "/posts/pico-tendenera-2-853m/",
+    "/2014/05/06/punta-bila-2-581m/": "/posts/punta-bila-2-581m/",
+    "/2014/04/14/btt-enduro-fortalecimiento-del-espiritu/": "/posts/btt-enduro-fortalecimiento-del-espiritu/",
+    "/2014/02/26/salida-promocional-pena-guara-travesia-portalet-astun/": "/posts/salida-promocional-pena-guara-travesia-portalet-astun/",
+    "/2014/02/19/btt-enduro-rodellar-sierra-de-balced/": "/posts/btt-enduro-rodellar-sierra-de-balced/",
+    "/2014/02/11/ii-travesia-altos-pirineos-1978/": "/posts/ii-travesia-altos-pirineos-1978/",
+    "/2014/02/10/aludes-leccion-practica/": "/posts/aludes-leccion-practica/",
+    "/2014/02/07/webcams-soloquedalopeor-com/": "/posts/webcams-soloquedalopeor-com/",
+    "/2014/01/20/en-avioneta-por-el-pirineo-oscense/": "/posts/en-avioneta-por-el-pirineo-oscense/",
+    "/2014/01/13/vuelta-al-peyreget-2-483m/": "/posts/vuelta-al-peyreget-2-483m/",
+    "/2014/01/09/btt-enduro-bara-miz-alastrue-biban-bara/": "/posts/btt-enduro-bara-miz-alastrue-biban-bara/",
+    "/2014/01/02/recibiendo-el-2014-como-se-merece-pico-arroyeras/": "/posts/recibiendo-el-2014-como-se-merece-pico-arroyeras/",
+    "/2013/12/24/pico-secus-2-351m/": "/posts/pico-secus-2-351m/",
+    "/2013/12/09/foqueando-por-somport/": "/posts/foqueando-por-somport/",
+    "/2013/12/04/circular-astun-pic-belonseiche-cabane-arnousse/": "/posts/circular-astun-pic-belonseiche-cabane-arnousse/",
+    "/2013/11/29/pon-a-prueba-tus-conocimientos-de-seguridad-en-la-montana/": "/posts/pon-a-prueba-tus-conocimientos-de-seguridad-en-la-montana/",
+    "/2013/11/16/despedida-del-cicloalpinismo-2013-valle-de-estos/": "/posts/despedida-del-cicloalpinismo-2013-valle-de-estos/",
+    "/2013/08/02/sos-la-sierra-de-guara-te-necesita/": "/posts/sos-la-sierra-de-guara-te-necesita/",
+    "/2013/07/19/women-are-awesome-hot-edition-2013-hd/": "/posts/women-are-awesome-hot-edition-2013-hd/",
+    "/2013/05/03/alta-ruta-ordesa-y-monte-perdido-2013-pena-guara/": "/posts/alta-ruta-ordesa-y-monte-perdido-2013-pena-guara/",
+    "/2013/03/28/diente-occidental-de-batanes-2-878m/": "/posts/diente-occidental-de-batanes-2-878m/",
+    "/2013/03/06/picos-de-lariste-2-168m-y-burcq-2-110m/": "/posts/picos-de-lariste-2-168m-y-burcq-2-110m/",
+    "/2013/02/11/paseo-matutino-por-panticosa/": "/posts/paseo-matutino-por-panticosa/",
+    "/2013/01/30/eric-hjorleifson-the-way-i-see-it-al-rico-polvoron/": "/posts/eric-hjorleifson-the-way-i-see-it-al-rico-polvoron/",
+    "/2013/01/22/funambulismo-en-yosemite/": "/posts/funambulismo-en-yosemite/",
+    "/2012/12/27/gigaimagen-del-everest/": "/posts/gigaimagen-del-everest/",
+    "/2012/12/24/feliz-navidad-2/": "/posts/feliz-navidad-2/",
+    "/2012/12/13/usa-2012-silverton-to-durango-3-el-tramo-del-ct-que-todo-biker-deberia-hacer-al-menos-una-vez-en-su-vida/": "/posts/usa-2012-silverton-to-durango-3-el-tramo-del-ct-que-todo-biker-deberia-hacer-al-menos-una-vez-en-su-vida/",
+    "/2012/10/31/usa-2012-silverton-to-durango-2-el-tramo-del-ct-que-todo-biker-deberia-hacer-al-menos-una-vez-en-su-vida/": "/posts/usa-2012-silverton-to-durango-2-el-tramo-del-ct-que-todo-biker-deberia-hacer-al-menos-una-vez-en-su-vida/",
+    "/2012/10/22/usa-2012-silverton-to-durango-el-tramo-del-ct-que-todo-biker-deberia-hacer-al-menos-una-vez-en-su-vida/": "/posts/usa-2012-silverton-to-durango-el-tramo-del-ct-que-todo-biker-deberia-hacer-al-menos-una-vez-en-su-vida/",
+    "/2012/09/19/usa-2012-yosemite-national-park/": "/posts/usa-2012-yosemite-national-park/",
+    "/2012/09/13/usa-2012-grand-canyon-national-park/": "/posts/usa-2012-grand-canyon-national-park/",
+    "/2012/08/27/usa-2012-colorado-trail-3-la-brusca-interrupcion/": "/posts/usa-2012-colorado-trail-3-la-brusca-interrupcion/",
+    "/2012/08/22/usa-2012-colorado-trail-2-esto-se-pone-interesante/": "/posts/usa-2012-colorado-trail-2-esto-se-pone-interesante/",
+    "/2012/08/13/usa-2012-colorado-trail-toma-de-contacto/": "/posts/usa-2012-colorado-trail-toma-de-contacto/",
+    "/2012/07/29/usa-2012-la-serie/": "/posts/usa-2012-la-serie/",
+    "/2012/06/17/1a-suboda-tozal-de-guara/": "/posts/1a-suboda-tozal-de-guara/",
+    "/2012/05/09/capsulas-alpes-2012-powder/": "/posts/capsulas-alpes-2012-powder/",
+    "/2012/04/30/capsulas-alpes-2012-countdown/": "/posts/capsulas-alpes-2012-countdown/",
+    "/2012/04/20/semana-santa-2012-la-trilogia-alpina/": "/posts/semana-santa-2012-la-trilogia-alpina/",
+    "/2012/04/17/1er-tri-neu-gore-tex-valle-de-benasque-cerler/": "/posts/1er-tri-neu-gore-tex-valle-de-benasque-cerler/",
+    "/2012/04/13/iii-raid-rioja-alavesa/": "/posts/iii-raid-rioja-alavesa/",
+    "/2012/03/25/camino-natural-de-la-hoya-de-huesca/": "/posts/camino-natural-de-la-hoya-de-huesca/",
+    "/2012/03/13/maladeta-oriental-3-308m/": "/posts/maladeta-oriental-3-308m/",
+    "/2012/03/08/uno-de-los-libros-que-no-quieren-que-leamos/": "/posts/uno-de-los-libros-que-no-quieren-que-leamos/",
+    "/2012/03/07/pico-del-cuello-de-soba-2-612m/": "/posts/pico-del-cuello-de-soba-2-612m/",
+    "/2012/03/04/no-nieva-pero-tranquilos/": "/posts/no-nieva-pero-tranquilos/",
+    "/2012/02/13/pico-lariste-2-168m/": "/posts/pico-lariste-2-168m/",
+    "/2012/02/06/scattered-flurries/": "/posts/scattered-flurries/",
+    "/2012/01/24/cicloalpinismo-serrano-tozal-de-guara-2-077m/": "/posts/cicloalpinismo-serrano-tozal-de-guara-2-077m/",
+    "/2012/01/20/novedades-en-soloquedalopeor/": "/posts/novedades-en-soloquedalopeor/",
+    "/2012/01/17/btt-alquezar-el-ruton/": "/posts/alquezar-five-stars-btt-enduro/",
+    "/2012/01/16/kitaro-matsuri-las-maravillas-de-la-naturaleza/": "/posts/kitaro-matsuri-las-maravillas-de-la-naturaleza/",
+    "/2012/01/10/y-la-nieve-se-convirtio-en-cristal/": "/posts/y-la-nieve-se-convirtio-en-cristal/",
+    "/2011/12/30/geocaching/": "/posts/geocaching/",
+    "/2011/12/23/feliz-navidad-3/": "/posts/feliz-navidad-3/",
+    "/2011/12/19/people-are-awesome-dons-version/": "/posts/people-are-awesome-dons-version/",
+    "/2011/12/11/cicloalpinismo-esperando-a-que-nieve/": "/posts/cicloalpinismo-esperando-a-que-nieve/",
+    "/2011/12/09/uttarakhand-2011-episodio-5/": "/posts/uttarakhand-2011-episodio-5/",
+    "/2011/12/06/jp-auclair-street-segment-all-i-can/": "/posts/jp-auclair-street-segment-all-i-can/",
+    "/2011/12/05/sacando-partido-a-cada-mm-de-suspension/": "/posts/sacando-partido-a-cada-mm-de-suspension/",
+    "/2011/11/30/uttarakhand-2011-episodio-4/": "/posts/uttarakhand-2011-episodio-4/",
+    "/2011/11/28/el-8-de-rodellar/": "/posts/el-8-de-rodellar/",
+    "/2011/11/23/uttarakhand-2011-episodio-3/": "/posts/uttarakhand-2011-episodio-3/",
+    "/2011/11/14/uttarakhand-2011-episodio-2/": "/posts/uttarakhand-2011-episodio-2/",
+    "/2011/11/09/uttarakhand-2011-episodio-1/": "/posts/uttarakhand-2011-episodio-1/",
+    "/2011/10/31/la-india-una-semana-despues/": "/posts/la-india-una-semana-despues/",
+    "/2011/10/30/kilians-quest-slow-motion/": "/posts/kilians-quest-slow-motion/",
+    "/2011/10/04/all-i-can-official-teaser/": "/posts/all-i-can-official-teaser/",
+    "/2011/09/26/10-things-i-have-learned-about-mountainbiking/": "/posts/10-things-i-have-learned-about-mountainbiking/",
+    "/2011/09/01/gavarnie-weekend-ii-pico-pimene/": "/posts/gavarnie-weekend-ii-pico-pimene/",
+    "/2011/08/30/gavarnie-weekend-i-btt-gavarnie-popurri/": "/posts/gavarnie-weekend-i-btt-gavarnie-popurri/",
+    "/2011/08/24/btt-minas-de-liat-o-cuidadin-con-crearse-expectativas/": "/posts/btt-minas-de-liat-o-cuidadin-con-crearse-expectativas/",
+    "/2011/08/19/paris-brest-paris-2011/": "/posts/paris-brest-paris-2011/",
+    "/2011/08/10/cicloalpinismo-como-llegar-al-puerto-de-la-madera-y-descender-en-btt/": "/posts/cicloalpinismo-como-llegar-al-puerto-de-la-madera-y-descender-en-btt/",
+    "/2011/08/03/vira-de-lembarradere-al-midi-dossau-2-884m/": "/posts/vira-de-lembarradere-al-midi-dossau-2884m/",
+    "/2011/08/01/tutorial-fabrica-tu-propio-porta-gps/": "/posts/tutorial-fabrica-tu-propio-porta-gps/",
+    "/2011/07/26/finde-bttero-hace-un-videoclip/": "/posts/finde-bttero-hace-un-videoclip/",
+    "/2011/07/22/ironman-de-zurich/": "/posts/ironman-de-zurich/",
+    "/2011/07/11/btt-senderos-de-occitania-episodio-2/": "/posts/btt-senderos-de-occitania-episodio-2/",
+    "/2011/07/07/btt-senderos-de-occitania-episodio-1/": "/posts/btt-senderos-de-occitania-episodio-1/",
+    "/2011/06/30/barranco-de-las-12-cascadas-de-liri/": "/posts/barranco-de-las-12-cascadas-de-liri/",
+    "/2011/06/28/sabado-bttero-en-benasque/": "/posts/sabado-bttero-en-benasque/",
+    "/2011/06/19/domingo-barranquil-ii-sarratanas/": "/posts/domingo-barranquil-ii-sarratanas/",
+    "/2011/06/16/domingo-barranquil-i-argatin-superior/": "/posts/domingo-barranquil-i-argatin-superior/",
+    "/2011/06/15/espectaculo-visual-a-camara-lenta/": "/posts/espectaculo-visual-a-camara-lenta/",
+    "/2011/06/11/iii-triatlon-cros-mar-de-aragon-caspe/": "/posts/iii-triatlon-cros-mar-de-aragon-caspe/",
+    "/2011/06/09/oberland-2011-episodio-7-fin-de-la-serie/": "/posts/oberland-2011-episodio-7-fin-de-la-serie/",
+    "/2011/06/03/oberland-2011-episodio-6/": "/posts/oberland-2011-episodio-6/",
+    "/2011/05/31/descenso-de-barrancos-mascun/": "/posts/descenso-de-barrancos-mascun/",
+    "/2011/05/30/btt-trialeando-por-el-cebollar-torla/": "/posts/btt-trialeando-por-el-cebollar-torla/",
+    "/2011/05/26/oberland-2011-episodio-5/": "/posts/oberland-2011-episodio-5/",
+    "/2011/05/17/oberland-2011-episodio-4/": "/posts/oberland-2011-episodio-4/",
+    "/2011/05/12/oberland-2011-episodio-3/": "/posts/oberland-2011-episodio-3/",
+    "/2011/05/09/oberland-2011-episodio-2/": "/posts/oberland-2011-episodio-2/",
+    "/2011/05/04/oberland-2011-episodio-1/": "/posts/oberland-2011-episodio-1/",
+    "/2011/05/02/maraton-btt-de-monegros/": "/posts/maraton-btt-de-monegros/",
+    "/2011/04/27/oberland-2011-la-serie/": "/posts/oberland-2011-la-serie/",
+    "/2011/04/14/tunel-de-bielsa-boca-norte-cresta-fronteriza/": "/posts/tunel-de-bielsa-boca-norte-cresta-fronteriza/",
+    "/2011/04/11/utah-esta-a-una-hora-en-coche-de-zaragoza/": "/posts/utah-esta-a-una-hora-en-coche-de-zaragoza/",
+    "/2011/04/01/petit-arriel-2-683m/": "/posts/petit-arriel-2-683m/",
+    "/2011/03/29/los-maestros-de-spiderman/": "/posts/los-maestros-de-spiderman/",
+    "/2011/03/25/pico-de-aneto-3-404m/": "/posts/pico-de-aneto-3-404m/",
+    "/2011/03/22/una-de-auroras-boreales/": "/posts/una-de-auroras-boreales/",
+    "/2011/03/16/trilogia-en-el-portalet-acumulando-metros-de-rodaje/": "/posts/trilogia-en-el-portalet-acumulando-metros-de-rodaje/",
+    "/2011/03/09/tuc-de-baciver-2-645m-el-espelunciecha-de-baqueira/": "/posts/tuc-de-baciver-2-645m-el-espelunciecha-de-baqueira/",
+    "/2011/03/03/santa-catalina-endura/": "/posts/santa-catalina-endura/",
+    "/2011/02/24/optimismo-e-ilusion/": "/posts/optimismo-e-ilusion/",
+    "/2011/02/16/se-ha-escrito-otro-epico-capitulo-en-la-historia-globeril-vuelta-a-guara-en-btt/": "/posts/se-ha-escrito-otro-epico-capitulo-en-la-historia-globeril-vuelta-a-guara-en-btt/",
+    "/2011/02/10/circular-soum-de-pombie-pic-peyreget-2-487m/": "/posts/circular-soum-de-pombie-pic-peyreget-2-487m/",
+    "/2011/01/14/tuca-de-la-montaneta-intento/": "/posts/tuca-de-la-montaneta-intento/",
+    "/2011/01/11/sociedad-general-de-fabricantes-de-mesas/": "/posts/sociedad-general-de-fabricantes-de-mesas/",
+    "/2011/01/11/el-gran-casino-europeo/": "/posts/el-gran-casino-europeo/",
+    "/2010/12/28/poligono-industrial-desalojado-en-ayerbe/": "/posts/poligono-industrial-desalojado-en-ayerbe/",
+    "/2010/12/24/con-nuestros-mejores-deseos/": "/posts/con-nuestros-mejores-deseos/",
+    "/2010/12/20/juan-colleja-en-el-corredor-maribel-pena-telera/": "/posts/juan-colleja-en-el-corredor-maribel-pena-telera/",
+    "/2010/12/20/pico-petrechema/": "/posts/pico-petrechema/",
+    "/2010/12/15/full-en-el-portalet/": "/posts/full-en-el-portalet/",
+    "/2010/12/07/powder-en-el-pirineo-mito-o-realidad/": "/posts/powder-en-el-pirineo-mito-o-realidad/",
+    "/2010/12/05/se-puede-comprar-la-meteo/": "/posts/se-puede-comprar-la-meteo/",
+    "/2010/11/24/nueva-modalidad-de-btt/": "/posts/nueva-modalidad-de-btt/",
+    "/2010/11/16/cada-vez-mas-invierno-vamos-bajando-ruta-btt-por-sta-orosia/": "/posts/cada-vez-mas-invierno-vamos-bajando-ruta-btt-por-sta-orosia/",
+    "/2010/11/08/apurando-con-la-btt-antes-de-que-nieve/": "/posts/apurando-con-la-btt-antes-de-que-nieve/",
+    "/2010/11/05/atasco-computacional-necesario-mecenazgo/": "/posts/atasco-computacional-necesario-mecenazgo/",
+    "/2010/10/30/la-vida-es-color/": "/posts/la-vida-es-color/",
+    "/2010/10/18/escalada-j-a-sanz-riglos/": "/posts/escalada-j-a-sanz-riglos/",
+    "/2010/10/07/1-000m-de-desnivel-negativo-en-btt/": "/posts/1-000m-de-desnivel-negativo-en-btt/",
+    "/2010/10/04/ultra-trail-guara-somontano/": "/posts/ultra-trail-guara-somontano/",
+    "/2010/10/01/trajes-de-superheroe/": "/posts/trajes-de-superheroe/",
+    "/2010/09/08/ii-raid-de-aventura-de-la-ribagorza/": "/posts/ii-raid-de-aventura-de-la-ribagorza/",
+    "/2010/09/01/ii-descenso-btt-de-ayerbe/": "/posts/ii-descenso-btt-de-ayerbe/",
+    "/2010/08/31/barranco-del-mirabal/": "/posts/barranco-del-mirabal/",
+    "/2010/08/29/transpirenaica-aragonesa-en-btt/": "/posts/transpirenaica-aragonesa-en-btt/",
+    "/2010/08/24/via-del-diedro-de-hoz-de-jaca/": "/posts/via-del-diedro-de-hoz-de-jaca/",
+    "/2010/08/12/ahora-toca-roca-pene-sarriere/": "/posts/ahora-toca-roca-pene-sarriere/",
+    "/2010/08/05/ironman-de-regensburg/": "/posts/ironman-de-regensburg/",
+    "/2010/08/03/vallnord-si-al-final-sabia-que-lo-probaria/": "/posts/vallnord-si-al-final-sabia-que-lo-probaria/",
+    "/2010/08/03/el-tiempo-es-oro/": "/posts/el-tiempo-es-oro/",
+    "/2010/08/02/turbon-tour/": "/posts/turbon-tour/",
+    "/2010/07/30/lo-ultimo-en-ligereza-bicis-sin-pedales/": "/posts/lo-ultimo-en-ligereza-bicis-sin-pedales/",
+    "/2010/07/16/time-lapse-viendo-pasar-el-tiempo/": "/posts/time-lapse-viendo-pasar-el-tiempo/",
+    "/2010/07/13/barranco-de-estribiella/": "/posts/barranco-de-estribiella/",
+    "/2010/07/11/oceanografico-de-valencia/": "/posts/oceanografico-de-valencia/",
+    "/2010/07/05/barranco-de-lumos/": "/posts/barranco-de-lumos/",
+    "/2010/06/23/vuelta-al-pantano-de-mediano/": "/posts/vuelta-al-pantano-de-mediano/",
+    "/2010/06/16/oferta-de-trabajo/": "/posts/oferta-de-trabajo/",
+    "/2010/06/08/raid-de-aventura-ii-trofeo-pena-guara-la-pelicula/": "/posts/raid-de-aventura-ii-trofeo-pena-guara-la-pelicula/",
+    "/2010/06/01/ii-raid-de-aventura-pena-guara/": "/posts/ii-raid-de-aventura-pena-guara/",
+    "/2010/05/28/rare-especies-protegidas/": "/posts/rare-especies-protegidas/",
+    "/2010/05/27/espectacular-time-lapse-mision-sts-131/": "/posts/espectacular-time-lapse-mision-sts-131/",
+    "/2010/05/20/pico-tendenera-2-853m-intento/": "/posts/pico-tendenera-2-853m-intento/",
+    "/2010/05/15/viajar-a-2-400kmh/": "/posts/viajar-a-2-400kmh/",
+    "/2010/05/12/la-nueva-era-de-producciones-soloquedalopeor/": "/posts/la-nueva-era-de-producciones-soloquedalopeor/",
+    "/2010/05/11/calentamiento-global/": "/posts/calentamiento-global/",
+    "/2010/05/04/camino-al-cielo/": "/posts/camino-al-cielo/",
+    "/2010/05/04/la-verdad-esta-ahi-fuera/": "/posts/la-verdad-esta-ahi-fuera/",
+    "/2010/04/25/boda-navatera/": "/posts/boda-navatera/",
+    "/2010/04/23/pico-garmo-negro-3-051m/": "/posts/pico-garmo-negro-3-051m/",
+    "/2010/04/21/un-antes-y-un-despues/": "/posts/un-antes-y-un-despues/",
+    "/2010/04/21/con-otro-ilustre/": "/posts/con-otro-ilustre/",
+    "/2010/04/01/pico-del-aspe-2-645m/": "/posts/pico-del-aspe-2-645m/",
+    "/2010/03/22/pico-del-verde-2-295m/": "/posts/pico-del-verde-2-295m/",
+    "/2010/03/16/travesia-balneario-de-panticosa-a-sallent/": "/posts/travesia-balneario-de-panticosa-a-sallent/",
+    "/2010/03/03/presentacion-al-mundo-bloguero/": "/posts/presentacion-al-mundo-bloguero/",
+    "/2010/03/03/vuelta-al-macizo-de-bernera/": "/posts/vuelta-al-macizo-de-bernera/",
+    "/2010/03/01/globeros-por-laponia/": "/posts/globeros-por-laponia/",
+    "/2010/02/19/con-otro-famoso/": "/posts/con-otro-famoso/",
+    "/2010/02/19/foto-con-famoso/": "/posts/foto-con-famoso/",
+    "/2010/02/11/mesa-de-los-tres-reyes/": "/posts/mesa-de-los-tres-reyes/",
+    "/2010/01/28/video-del-pico-barrosa/": "/posts/video-del-pico-barrosa/",
+    "/2010/01/27/pico-foratulas-i-2-510m/": "/posts/pico-foratulas-i-2-510m/",
+    "/2010/01/25/the-wild-boar-rogaining-lespluga-calba/": "/posts/the-wild-boar-rogaining-lespluga-calba/",
+    "/2010/01/25/pico-barrosa-2-742m/": "/posts/pico-barrosa-2-742m/",
+    "/2010/01/12/pico-foratulas-ii-2-585m/": "/posts/pico-foratulas-ii-2-585m/",
+    "/2010/01/04/pico-castanesa-2-858m/": "/posts/pico-castanesa-2-858m/",
+    "/2009/12/31/feliz-2010/": "/posts/feliz-2010/",
+    "/2009/12/21/pico-arroyeras-2-572m/": "/posts/pico-arroyeras-2-572m/",
+    "/2009/12/15/eclectic-3-0-the-roads-less-traveled/": "/posts/eclectic-3-0-the-roads-less-traveled/",
+    "/2009/12/14/escapar-de-la-niebla-en-btt/": "/posts/escapar-de-la-niebla-en-btt/",
+    "/2009/12/07/inauguracion-de-la-temporada-de-esqui-de-travesia/": "/posts/inauguracion-de-la-temporada-de-esqui-de-travesia/",
+    "/2009/11/25/grecia-una-vision-atipica/": "/posts/grecia-una-vision-atipica/",
+    "/2009/10/31/enlace-globero/": "/posts/enlace-globero/",
+    "/2009/10/28/el-tozal-del-mallo/": "/posts/el-tozal-del-mallo/",
+    "/2009/10/20/ferrata-regina-the-movie/": "/posts/ferrata-regina-the-movie/",
+    "/2009/10/14/un-mito-viviente/": "/posts/un-mito-viviente/",
+    "/2009/10/13/timescapes-timelapse-mountain-light/": "/posts/timescapes-timelapse-mountain-light/",
+    "/2009/10/09/via-ferrata-regina/": "/posts/via-ferrata-regina/",
+    "/2009/10/05/globero-ironman/": "/posts/globero-ironman/",
+    "/2009/09/16/ruta-de-los-4000s-al-mont-blanc-4-810m/": "/posts/ruta-de-los-4000s-al-mont-blanc-4-810m/",
+    "/2009/09/07/barranco-del-infierno/": "/posts/barranco-del-infierno/",
+    "/2009/09/01/btt-sierra-de-las-cutas/": "/posts/btt-sierra-de-las-cutas/",
+    "/2009/08/25/barranco-del-sorrosal/": "/posts/barranco-del-sorrosal/",
+    "/2009/08/19/vuelta-a-punta-suelza/": "/posts/vuelta-a-punta-suelza/",
+    "/2009/08/04/tan-cerca/": "/posts/tan-cerca/",
+    "/2009/08/04/barranco-de-las-gloces/": "/posts/barranco-de-las-gloces/",
+    "/2009/07/20/ferrata-de-riglos/": "/posts/ferrata-de-riglos/",
+    "/2009/07/11/laigueta-de-barbaruens/": "/posts/laigueta-de-barbaruens/",
+    "/2009/07/08/cresta-de-las-espadas-al-posets/": "/posts/cresta-de-las-espadas-al-posets/",
+    "/2009/07/06/los-globeros-bajan-barrancos/": "/posts/los-globeros-bajan-barrancos/",
+    "/2009/06/29/exclusiva-miguelon-vuelve-al-tour/": "/posts/exclusiva-miguelon-vuelve-al-tour/",
+    "/2009/06/29/la-primavera-la-savia-altera/": "/posts/la-primavera-la-savia-altera/",
+    "/2009/06/17/los-pedroches-road-trip/": "/posts/los-pedroches-road-trip/",
+    "/2009/06/08/oda-al-planeta-tierra/": "/posts/oda-al-planeta-tierra/",
+    "/2009/06/03/picos-del-medio-3-346m-y-de-coronas-3-298m/": "/posts/picos-del-medio-3-346m-y-de-coronas-3-298m/",
+    "/2009/06/03/trofeo-vic-de-orientacion-en-bici/": "/posts/trofeo-vic-de-orientacion-en-bici/",
+    "/2009/05/19/carros-de-foc/": "/posts/carros-de-foc/",
+    "/2009/05/11/superpoderes-sobre-una-bici/": "/posts/superpoderes-sobre-una-bici/",
+    "/2009/05/02/raid-la-pineda-cronica-de-jara/": "/posts/raid-la-pineda-cronica-de-jara/",
+    "/2009/04/30/ascension-al-taillon-3-144m-desde-bujaruelo/": "/posts/ascension-al-taillon-3-144m-desde-bujaruelo/",
+    "/2009/04/22/marruecos-2006/": "/posts/marruecos-2006/",
+    "/2009/04/10/vuelta-a-guara/": "/posts/vuelta-a-guara/",
+    "/2009/04/06/xxxi-travesia-altos-pirineos/": "/posts/xxxi-travesia-altos-pirineos/",
+    "/2009/03/31/aprendiz-de-spiderman/": "/posts/aprendiz-de-spiderman/",
+    "/2009/03/18/alta-ruta-panticosa-wallon/": "/posts/alta-ruta-panticosa-wallon/",
+    "/2009/03/09/curso-on-line-de-raids-para-novatos/": "/posts/curso-on-line-de-raids-para-novatos/",
+    "/2009/03/02/pico-piniecho/": "/posts/pico-piniecho/",
+    "/2009/02/28/collarada-sin-comida/": "/posts/collarada-sin-comida/",
+    "/2009/02/26/ibones-y-vertice-del-anayet/": "/posts/ibones-y-vertice-del-anayet/",
+    "/2009/02/15/rapapolvo-a-la-onu/": "/posts/rapapolvo-a-la-onu/",
+    "/2009/02/12/rss-ese-temido-y-util-amigo/": "/posts/rss-ese-temido-y-util-amigo/",
+    "/2009/02/10/estacion-meteorologica-en-arascues/": "/posts/estacion-meteorologica-en-arascues/",
+    "/2009/02/09/gran-paradiso/": "/posts/gran-paradiso/",
+    "/2009/02/06/el-mundo-al-verres/": "/posts/el-mundo-al-verres/",
+    "/2009/02/05/practica-virtual-con-el-arva/": "/posts/practica-virtual-con-el-arva/",
+    "/2009/02/04/una-inmensa-minoria/": "/posts/una-inmensa-minoria/",
+    "/2009/02/01/pico-erata-2-005m-con-esquis/": "/posts/pico-erata-2-005m-con-esquis/",
+    "/2009/01/30/un-paseo-hasta-el-mandilar-panticosa/": "/posts/un-paseo-hasta-el-mandilar-panticosa/",
+    "/2009/01/27/wingsuit-base-jumping/": "/posts/wingsuit-base-jumping/",
+    "/2009/01/23/a-los-tripulantes-de-nuestra-hermosa-nave/": "/posts/a-los-tripulantes-de-nuestra-hermosa-nave/",
+    "/2009/01/14/dakar-en-btt/": "/posts/dakar-en-btt/",
+    "/2009/01/01/despedida-del-ano-en-la-mesa-de-los-tres-reyes/": "/posts/despedida-del-ano-en-la-mesa-de-los-tres-reyes/",
+    "/2008/12/29/pic-du-larry-2-337m/": "/posts/pic-du-larry-2-337m/",
+    "/2008/12/29/no-funciona-intenne/": "/posts/no-funciona-intenne/",
+    "/2008/12/18/entrenando-por-la-sierra-de-guadarrama/": "/posts/entrenando-por-la-sierra-de-guadarrama/",
+    "/2008/12/14/aprovechando-la-ventana-de-buen-tiempo/": "/posts/aprovechando-la-ventana-de-buen-tiempo/",
+    "/2008/11/25/el-camino-del-rey/": "/posts/el-camino-del-rey/",
+    "/2008/11/24/combinada-btt-montearagon/": "/posts/combinada-btt-montearagon/",
+    "/2008/11/13/pilotando-por-el-pardo/": "/posts/pilotando-por-el-pardo/",
+    "/2008/11/12/trialeando-por-hoyo-de-manzanares/": "/posts/trialeando-por-hoyo-de-manzanares/",
+    "/2008/11/09/inaugurada-la-temporada-de-esqui-de-travesia/": "/posts/inaugurada-la-temporada-de-esqui-de-travesia/",
+    "/2008/11/07/rutita-antiestres-por-la-pedriza/": "/posts/rutita-antiestres-por-la-pedriza/",
+    "/2008/10/31/sevilla-y-ole/": "/posts/sevilla-y-ole/",
+    "/2008/10/30/final-de-la-liga-aragonesa-o-btt-en-used/": "/posts/final-de-la-liga-aragonesa-o-btt-en-used/",
+    "/2008/10/21/un-finde-movidito-entre-nocito-y-caldearenas/": "/posts/un-finde-movidito-entre-nocito-y-caldearenas/",
+    "/2008/10/13/llega-el-otono-al-pirineo/": "/posts/llega-el-otono-al-pirineo/",
+    "/2008/10/13/tozal-de-guara/": "/posts/tozal-de-guara/",
+    "/2008/10/09/campeonato-de-europa-de-orientacion-en-bici-2008/": "/posts/campeonato-de-europa-de-orientacion-en-bici-2008/",
+    "/2008/10/08/el-gigante-dormido/": "/posts/el-gigante-dormido/",
+    "/2008/10/05/btt-panticosa-sabocos/": "/posts/btt-panticosa-sabocos/",
+    "/2008/10/03/pedals-doccitania/": "/posts/pedals-doccitania/",
+    "/2008/09/24/inaugurando-desde-lituania/": "/posts/inaugurando-desde-lituania/",
+    "/2008/09/17/globerautores/": "/posts/globerautores/",
+    "/2008/09/17/soloquedalopeor-pide-tu-colaboracion/": "/posts/soloquedalopeor-pide-tu-colaboracion/",
+    "/2015/02/09/una-nevada-historica-en-imagenes/": "/posts/una-nevada-historica-en-imagenes/",
+    "/2015/04/04/alpes-haute-route-2015-chamonix-zermatt-a-la-suiza/": "/posts/alpes-haute-route-2015-chamonix-zermatt-a-la-suiza/",
+    "/2015/03/18/dias-de-unas-largas-y-culos-prietos-cronica-de-dos-dias-de-esqui-de-travesia-con-pena-guara/": "/posts/dias-de-unas-largas-y-culos-prietos-cronica-de-dos-dias-de-esqui-de-travesia-con-pena-guara/",
+    "/2015/04/13/haute-route-2015-swiss-style-episodio-1/": "/posts/haute-route-2015-swiss-style-episodio-1/",
+    "/2015/04/20/haute-route-2015-swiss-style-episodio-2/": "/posts/haute-route-2015-swiss-style-episodio-2/",
+    "/2015/04/27/haute-route-2015-swiss-style-episodio-3/": "/posts/haute-route-2015-swiss-style-episodio-3/",
+    "/2015/05/05/haute-route-2015-swiss-style-episodio-4/": "/posts/haute-route-2015-swiss-style-episodio-4/",
+    "/2015/05/11/haute-route-2015-swiss-style-episodio-5/": "/posts/haute-route-2015-swiss-style-episodio-5/",
+    "/2015/05/13/cordier-creguena-coronas-solitaria-despedida-de-temporada/": "/posts/cordier-creguena-coronas-solitaria-despedida-de-temporada/",
+    "/2015/07/01/exprimiendo-el-finde-en-pineta/": "/posts/exprimiendo-el-finde-en-pineta/",
+    "/2015/07/30/escapada-relampago-por-bedous/": "/posts/escapada-relampago-por-bedous/",
+    "/2015/08/04/gabardiella-enduro-duro-cicloalpinismo-medio/": "/posts/gabardiella-enduro-duro-cicloalpinismo-medio/",
+    "/2015/08/07/punta-acuta-casi-un-2kv/": "/posts/punta-acuta-casi-un-2kv/",
+    "/2015/08/18/btt-la-solana-de-sase-zz-027/": "/posts/btt-la-solana-de-sase-zz-027/",
+    "/2015/09/02/cantabria-de-campo-y-playa/": "/posts/cantabria-de-campo-y-playa/",
+    "/2015/09/08/tuca-de-culebres-3-062m-la-integralisssima-de-sierra-negra/": "/posts/tuca-de-culebres-3-062m-la-integralisssima-de-sierra-negra/",
+    "/2015/09/13/la-loire-a-velo/": "/posts/la-loire-a-velo/",
+    "/2015/09/16/latrek-trail-loop-manana-vintage/": "/posts/latrek-trail-loop-manana-vintage/",
+    "/2015/09/18/tutorial-como-fabricar-tu-propio-guardabarros-para-horquilla-de-suspension/": "/posts/tutorial-como-fabricar-tu-propio-guardabarros-para-horquilla-de-suspension/",
+    "/2015/09/21/cicloalpinismo-romantico-lacs-de-consaterre/": "/posts/cicloalpinismo-romantico-lacs-de-consaterre/",
+    "/2015/09/28/ews-round-7-ainsa/": "/posts/ews-round-7-ainsa/",
+    "/2015/10/12/pedaleando-por-noruega/": "/posts/pedaleando-por-noruega/",
+    "/2015/10/27/otono-en-benasque/": "/posts/otono-en-benasque/",
+    "/2015/11/03/otono-2-0-en-benasque-otra-vez/": "/posts/otono-2-0-en-benasque-otra-vez/",
+    "/2015/11/09/btt-punta-selva-y-el-espiritu-montaraz-de-villanua/": "/posts/btt-punta-selva-y-el-espiritu-montaraz-de-villanua/",
+    "/2015/11/16/enduro-montaraz-2-0-integral-del-gallinero-plus/": "/posts/enduro-montaraz-2-0-integral-del-gallinero-plus/",
+    "/2015/12/21/vuelta-endurera-a-pena-oroel/": "/posts/vuelta-endurera-a-pena-oroel/",
+    "/2015/12/31/sqlp-te-desea-feliz-ano-2016/": "/posts/sqlp-te-desea-feliz-ano-2016/",
+    "/2016/01/19/estreno-de-la-temporada-2-0/": "/posts/estreno-de-la-temporada-2-0/",
+    "/2016/01/22/escapada-mananera-al-espelunciecha-2-399m/": "/posts/escapada-mananera-al-espelunciecha-2-399m/",
+    "/2016/01/25/pico-bacias-2-760m/": "/posts/pico-bacias-2-760m/",
+    "/2016/02/11/hitler-se-entera-de-que-hay-menos-videos-en-sqlp/": "/posts/hitler-se-entera-de-que-hay-menos-videos-en-sqlp/",
+    "/2016/02/16/tutorial-determinar-inclinacion-de-la-pendiente/": "/posts/tutorial-determinar-inclinacion-de-la-pendiente/",
+    "/2016/02/23/vuelta-al-mall-pintrat/": "/posts/vuelta-al-mall-pintrat/",
+    "/2016/04/12/alta-ruta-maladetas-posets-2016/": "/posts/alta-ruta-maladetas-posets-2016/",
+    "/2016/04/18/ellos-las-prefieren-gordas-un-poco-de-snowbike-en-formigal/": "/posts/ellos-las-prefieren-gordas-un-poco-de-snowbike-en-formigal/",
+    "/2016/04/25/pedaleando-por-la-spanish-utah/": "/posts/pedaleando-por-la-spanish-utah/",
+    "/2016/04/28/picos-de-algas-3-036m-y-garmo-negro-3-061m/": "/posts/picos-de-algas-3-036m-y-garmo-negro-3-061m/",
+    "/2016/04/29/la-raca-fateando-por-astun/": "/posts/la-raca-fateando-por-astun/",
+    "/2016/05/17/btt-enduro-sierra-de-algairen/": "/posts/btt-enduro-sierra-de-algairen/",
+    "/2016/05/23/via-mosquitos-la-visera-mallos-de-riglos/": "/posts/via-mosquitos-la-visera-mallos-de-riglos/",
+    "/2016/06/17/crestas-del-boron-al-atardecer/": "/posts/crestas-del-boron-al-atardecer/"
+  },
+  ids: {
+    "4097": "/posts/",
+    "8655": "/posts/",
+    "10477": "/posts/",
+    "105610": "/posts/",
+    "105668": "/posts/",
+    "105802": "/posts/",
+    "105830": "/posts/",
+    "105865": "/posts/webcams-soloquedalopeor-com/",
+    "106039": "/posts/",
+    "106043": "/posts/",
+    "106044": "/posts/",
+    "202": "/posts/",
+    "207": "/posts/",
+    "209": "/posts/",
+    "106233": "/projects/aneto-en-fatbike/",
+    "106246": "/projects/aneto-en-fatbike/nota-de-prensa/",
+    "106251": "/projects/aneto-en-fatbike/gestacion-de-la-idea/",
+    "106264": "/projects/aneto-en-fatbike/cronica-de-albertoepic/",
+    "106302": "/posts/",
+    "106482": "/posts/",
+    "106561": "/posts/",
+    "211": "/posts/",
+    "213": "/posts/",
+    "215": "/posts/",
+    "4686": "/posts/skimo-vuelta-al-acue-2-258m/",
+    "4687": "/posts/feliz-navidad/",
+    "4688": "/posts/alquezar-five-stars-btt-enduro/",
+    "4689": "/posts/danny-macaskill-the-ridge/",
+    "4690": "/posts/cicloalpinismo-integral-de-sierra-negra/",
+    "4691": "/posts/trans-suiza-2014-mittelland-route-episodio-3/",
+    "4692": "/posts/trans-suiza-2014-mittelland-route-episodio-2/",
+    "4693": "/posts/trans-suiza-2014-mittelland-route-episodio-1/",
+    "4694": "/posts/cicloalpinismo-por-bielsa/",
+    "4695": "/posts/escapada-playera-activa/",
+    "4696": "/posts/pico-tendenera-2-853m/",
+    "4697": "/posts/punta-bila-2-581m/",
+    "4698": "/posts/btt-enduro-fortalecimiento-del-espiritu/",
+    "4699": "/posts/salida-promocional-pena-guara-travesia-portalet-astun/",
+    "4700": "/posts/btt-enduro-rodellar-sierra-de-balced/",
+    "4701": "/posts/ii-travesia-altos-pirineos-1978/",
+    "4702": "/posts/aludes-leccion-practica/",
+    "4703": "/posts/webcams-soloquedalopeor-com/",
+    "4704": "/posts/en-avioneta-por-el-pirineo-oscense/",
+    "4705": "/posts/vuelta-al-peyreget-2-483m/",
+    "4706": "/posts/btt-enduro-bara-miz-alastrue-biban-bara/",
+    "4707": "/posts/recibiendo-el-2014-como-se-merece-pico-arroyeras/",
+    "4708": "/posts/pico-secus-2-351m/",
+    "4709": "/posts/foqueando-por-somport/",
+    "4710": "/posts/circular-astun-pic-belonseiche-cabane-arnousse/",
+    "4711": "/posts/pon-a-prueba-tus-conocimientos-de-seguridad-en-la-montana/",
+    "4712": "/posts/despedida-del-cicloalpinismo-2013-valle-de-estos/",
+    "4713": "/posts/sos-la-sierra-de-guara-te-necesita/",
+    "4714": "/posts/women-are-awesome-hot-edition-2013-hd/",
+    "4715": "/posts/alta-ruta-ordesa-y-monte-perdido-2013-pena-guara/",
+    "4716": "/posts/diente-occidental-de-batanes-2-878m/",
+    "4717": "/posts/picos-de-lariste-2-168m-y-burcq-2-110m/",
+    "4718": "/posts/paseo-matutino-por-panticosa/",
+    "4719": "/posts/eric-hjorleifson-the-way-i-see-it-al-rico-polvoron/",
+    "4720": "/posts/funambulismo-en-yosemite/",
+    "4721": "/posts/gigaimagen-del-everest/",
+    "4722": "/posts/feliz-navidad-2/",
+    "4723": "/posts/usa-2012-silverton-to-durango-3-el-tramo-del-ct-que-todo-biker-deberia-hacer-al-menos-una-vez-en-su-vida/",
+    "4724": "/posts/usa-2012-silverton-to-durango-2-el-tramo-del-ct-que-todo-biker-deberia-hacer-al-menos-una-vez-en-su-vida/",
+    "4725": "/posts/usa-2012-silverton-to-durango-el-tramo-del-ct-que-todo-biker-deberia-hacer-al-menos-una-vez-en-su-vida/",
+    "4726": "/posts/usa-2012-yosemite-national-park/",
+    "4727": "/posts/usa-2012-grand-canyon-national-park/",
+    "4728": "/posts/usa-2012-colorado-trail-3-la-brusca-interrupcion/",
+    "4729": "/posts/usa-2012-colorado-trail-2-esto-se-pone-interesante/",
+    "4730": "/posts/usa-2012-colorado-trail-toma-de-contacto/",
+    "4731": "/posts/usa-2012-la-serie/",
+    "4732": "/posts/1a-suboda-tozal-de-guara/",
+    "4733": "/posts/capsulas-alpes-2012-powder/",
+    "4734": "/posts/capsulas-alpes-2012-countdown/",
+    "4735": "/posts/semana-santa-2012-la-trilogia-alpina/",
+    "4736": "/posts/1er-tri-neu-gore-tex-valle-de-benasque-cerler/",
+    "4737": "/posts/iii-raid-rioja-alavesa/",
+    "4738": "/posts/camino-natural-de-la-hoya-de-huesca/",
+    "4739": "/posts/maladeta-oriental-3-308m/",
+    "4740": "/posts/uno-de-los-libros-que-no-quieren-que-leamos/",
+    "4741": "/posts/pico-del-cuello-de-soba-2-612m/",
+    "4742": "/posts/no-nieva-pero-tranquilos/",
+    "4743": "/posts/pico-lariste-2-168m/",
+    "4744": "/posts/scattered-flurries/",
+    "4745": "/posts/cicloalpinismo-serrano-tozal-de-guara-2-077m/",
+    "4746": "/posts/novedades-en-soloquedalopeor/",
+    "4747": "/posts/alquezar-five-stars-btt-enduro/",
+    "4748": "/posts/kitaro-matsuri-las-maravillas-de-la-naturaleza/",
+    "4749": "/posts/y-la-nieve-se-convirtio-en-cristal/",
+    "4750": "/posts/geocaching/",
+    "4752": "/posts/feliz-navidad-3/",
+    "4753": "/posts/people-are-awesome-dons-version/",
+    "4754": "/posts/cicloalpinismo-esperando-a-que-nieve/",
+    "4755": "/posts/uttarakhand-2011-episodio-5/",
+    "4756": "/posts/jp-auclair-street-segment-all-i-can/",
+    "4757": "/posts/sacando-partido-a-cada-mm-de-suspension/",
+    "4758": "/posts/uttarakhand-2011-episodio-4/",
+    "4759": "/posts/el-8-de-rodellar/",
+    "4760": "/posts/uttarakhand-2011-episodio-3/",
+    "4761": "/posts/uttarakhand-2011-episodio-2/",
+    "4762": "/posts/uttarakhand-2011-episodio-1/",
+    "4763": "/posts/la-india-una-semana-despues/",
+    "4764": "/posts/kilians-quest-slow-motion/",
+    "4765": "/posts/all-i-can-official-teaser/",
+    "4766": "/posts/10-things-i-have-learned-about-mountainbiking/",
+    "4767": "/posts/gavarnie-weekend-ii-pico-pimene/",
+    "4768": "/posts/gavarnie-weekend-i-btt-gavarnie-popurri/",
+    "4769": "/posts/btt-minas-de-liat-o-cuidadin-con-crearse-expectativas/",
+    "4770": "/posts/paris-brest-paris-2011/",
+    "4771": "/posts/cicloalpinismo-como-llegar-al-puerto-de-la-madera-y-descender-en-btt/",
+    "4772": "/posts/vira-de-lembarradere-al-midi-dossau-2884m/",
+    "4773": "/posts/tutorial-fabrica-tu-propio-porta-gps/",
+    "4774": "/posts/finde-bttero-hace-un-videoclip/",
+    "4775": "/posts/ironman-de-zurich/",
+    "4776": "/posts/btt-senderos-de-occitania-episodio-2/",
+    "4777": "/posts/btt-senderos-de-occitania-episodio-1/",
+    "4778": "/posts/barranco-de-las-12-cascadas-de-liri/",
+    "4779": "/posts/sabado-bttero-en-benasque/",
+    "4780": "/posts/domingo-barranquil-ii-sarratanas/",
+    "4781": "/posts/domingo-barranquil-i-argatin-superior/",
+    "4782": "/posts/espectaculo-visual-a-camara-lenta/",
+    "4783": "/posts/iii-triatlon-cros-mar-de-aragon-caspe/",
+    "4784": "/posts/oberland-2011-episodio-7-fin-de-la-serie/",
+    "4785": "/posts/oberland-2011-episodio-6/",
+    "4786": "/posts/descenso-de-barrancos-mascun/",
+    "4787": "/posts/btt-trialeando-por-el-cebollar-torla/",
+    "4788": "/posts/oberland-2011-episodio-5/",
+    "4789": "/posts/oberland-2011-episodio-4/",
+    "4790": "/posts/oberland-2011-episodio-3/",
+    "4791": "/posts/oberland-2011-episodio-2/",
+    "4792": "/posts/oberland-2011-episodio-1/",
+    "4793": "/posts/maraton-btt-de-monegros/",
+    "4794": "/posts/oberland-2011-la-serie/",
+    "4795": "/posts/tunel-de-bielsa-boca-norte-cresta-fronteriza/",
+    "4796": "/posts/utah-esta-a-una-hora-en-coche-de-zaragoza/",
+    "4797": "/posts/petit-arriel-2-683m/",
+    "4798": "/posts/los-maestros-de-spiderman/",
+    "4799": "/posts/pico-de-aneto-3-404m/",
+    "4800": "/posts/una-de-auroras-boreales/",
+    "4802": "/posts/trilogia-en-el-portalet-acumulando-metros-de-rodaje/",
+    "4803": "/posts/tuc-de-baciver-2-645m-el-espelunciecha-de-baqueira/",
+    "4804": "/posts/santa-catalina-endura/",
+    "4805": "/posts/optimismo-e-ilusion/",
+    "4806": "/posts/se-ha-escrito-otro-epico-capitulo-en-la-historia-globeril-vuelta-a-guara-en-btt/",
+    "4807": "/posts/circular-soum-de-pombie-pic-peyreget-2-487m/",
+    "4808": "/posts/tuca-de-la-montaneta-intento/",
+    "4809": "/posts/sociedad-general-de-fabricantes-de-mesas/",
+    "4810": "/posts/el-gran-casino-europeo/",
+    "4812": "/posts/poligono-industrial-desalojado-en-ayerbe/",
+    "4813": "/posts/con-nuestros-mejores-deseos/",
+    "4814": "/posts/juan-colleja-en-el-corredor-maribel-pena-telera/",
+    "4815": "/posts/pico-petrechema/",
+    "4816": "/posts/full-en-el-portalet/",
+    "4817": "/posts/powder-en-el-pirineo-mito-o-realidad/",
+    "4818": "/posts/se-puede-comprar-la-meteo/",
+    "4819": "/posts/nueva-modalidad-de-btt/",
+    "4820": "/posts/cada-vez-mas-invierno-vamos-bajando-ruta-btt-por-sta-orosia/",
+    "4821": "/posts/apurando-con-la-btt-antes-de-que-nieve/",
+    "4822": "/posts/atasco-computacional-necesario-mecenazgo/",
+    "4823": "/posts/la-vida-es-color/",
+    "4824": "/posts/escalada-j-a-sanz-riglos/",
+    "4825": "/posts/1-000m-de-desnivel-negativo-en-btt/",
+    "4826": "/posts/ultra-trail-guara-somontano/",
+    "4827": "/posts/trajes-de-superheroe/",
+    "4828": "/posts/ii-raid-de-aventura-de-la-ribagorza/",
+    "4829": "/posts/ii-descenso-btt-de-ayerbe/",
+    "4830": "/posts/barranco-del-mirabal/",
+    "4831": "/posts/transpirenaica-aragonesa-en-btt/",
+    "4832": "/posts/via-del-diedro-de-hoz-de-jaca/",
+    "4833": "/posts/ahora-toca-roca-pene-sarriere/",
+    "4834": "/posts/ironman-de-regensburg/",
+    "4835": "/posts/vallnord-si-al-final-sabia-que-lo-probaria/",
+    "4836": "/posts/el-tiempo-es-oro/",
+    "4837": "/posts/turbon-tour/",
+    "4838": "/posts/lo-ultimo-en-ligereza-bicis-sin-pedales/",
+    "4839": "/posts/time-lapse-viendo-pasar-el-tiempo/",
+    "4840": "/posts/barranco-de-estribiella/",
+    "4841": "/posts/oceanografico-de-valencia/",
+    "4842": "/posts/barranco-de-lumos/",
+    "4843": "/posts/vuelta-al-pantano-de-mediano/",
+    "4844": "/posts/oferta-de-trabajo/",
+    "4845": "/posts/raid-de-aventura-ii-trofeo-pena-guara-la-pelicula/",
+    "4846": "/posts/ii-raid-de-aventura-pena-guara/",
+    "4847": "/posts/rare-especies-protegidas/",
+    "4848": "/posts/espectacular-time-lapse-mision-sts-131/",
+    "4849": "/posts/pico-tendenera-2-853m-intento/",
+    "4850": "/posts/viajar-a-2-400kmh/",
+    "4851": "/posts/la-nueva-era-de-producciones-soloquedalopeor/",
+    "4852": "/posts/calentamiento-global/",
+    "4853": "/posts/camino-al-cielo/",
+    "4854": "/posts/la-verdad-esta-ahi-fuera/",
+    "4855": "/posts/boda-navatera/",
+    "4856": "/posts/pico-garmo-negro-3-051m/",
+    "4857": "/posts/un-antes-y-un-despues/",
+    "4858": "/posts/con-otro-ilustre/",
+    "4859": "/posts/pico-del-aspe-2-645m/",
+    "4860": "/posts/pico-del-verde-2-295m/",
+    "4861": "/posts/travesia-balneario-de-panticosa-a-sallent/",
+    "4862": "/posts/presentacion-al-mundo-bloguero/",
+    "4863": "/posts/vuelta-al-macizo-de-bernera/",
+    "4864": "/posts/globeros-por-laponia/",
+    "4865": "/posts/con-otro-famoso/",
+    "4866": "/posts/foto-con-famoso/",
+    "4867": "/posts/mesa-de-los-tres-reyes/",
+    "4868": "/posts/video-del-pico-barrosa/",
+    "4869": "/posts/pico-foratulas-i-2-510m/",
+    "4870": "/posts/the-wild-boar-rogaining-lespluga-calba/",
+    "4871": "/posts/pico-barrosa-2-742m/",
+    "4872": "/posts/pico-foratulas-ii-2-585m/",
+    "4873": "/posts/pico-castanesa-2-858m/",
+    "4874": "/posts/feliz-2010/",
+    "4875": "/posts/pico-arroyeras-2-572m/",
+    "4876": "/posts/eclectic-3-0-the-roads-less-traveled/",
+    "4877": "/posts/escapar-de-la-niebla-en-btt/",
+    "4878": "/posts/inauguracion-de-la-temporada-de-esqui-de-travesia/",
+    "4879": "/posts/grecia-una-vision-atipica/",
+    "4880": "/posts/enlace-globero/",
+    "4881": "/posts/el-tozal-del-mallo/",
+    "4882": "/posts/ferrata-regina-the-movie/",
+    "4883": "/posts/un-mito-viviente/",
+    "4884": "/posts/timescapes-timelapse-mountain-light/",
+    "4885": "/posts/via-ferrata-regina/",
+    "4886": "/posts/globero-ironman/",
+    "4887": "/posts/ruta-de-los-4000s-al-mont-blanc-4-810m/",
+    "4888": "/posts/barranco-del-infierno/",
+    "4889": "/posts/btt-sierra-de-las-cutas/",
+    "4890": "/posts/barranco-del-sorrosal/",
+    "4891": "/posts/vuelta-a-punta-suelza/",
+    "4892": "/posts/tan-cerca/",
+    "4893": "/posts/barranco-de-las-gloces/",
+    "4894": "/posts/ferrata-de-riglos/",
+    "4895": "/posts/laigueta-de-barbaruens/",
+    "4896": "/posts/cresta-de-las-espadas-al-posets/",
+    "4897": "/posts/los-globeros-bajan-barrancos/",
+    "4898": "/posts/exclusiva-miguelon-vuelve-al-tour/",
+    "4899": "/posts/la-primavera-la-savia-altera/",
+    "4900": "/posts/los-pedroches-road-trip/",
+    "4901": "/posts/oda-al-planeta-tierra/",
+    "4902": "/posts/picos-del-medio-3-346m-y-de-coronas-3-298m/",
+    "4903": "/posts/trofeo-vic-de-orientacion-en-bici/",
+    "4904": "/posts/carros-de-foc/",
+    "4905": "/posts/superpoderes-sobre-una-bici/",
+    "4906": "/posts/raid-la-pineda-cronica-de-jara/",
+    "4907": "/posts/ascension-al-taillon-3-144m-desde-bujaruelo/",
+    "4908": "/posts/marruecos-2006/",
+    "4909": "/posts/vuelta-a-guara/",
+    "4910": "/posts/xxxi-travesia-altos-pirineos/",
+    "4911": "/posts/aprendiz-de-spiderman/",
+    "4912": "/posts/alta-ruta-panticosa-wallon/",
+    "4913": "/posts/curso-on-line-de-raids-para-novatos/",
+    "4914": "/posts/pico-piniecho/",
+    "4915": "/posts/collarada-sin-comida/",
+    "4916": "/posts/ibones-y-vertice-del-anayet/",
+    "4917": "/posts/rapapolvo-a-la-onu/",
+    "4918": "/posts/rss-ese-temido-y-util-amigo/",
+    "4919": "/posts/estacion-meteorologica-en-arascues/",
+    "4920": "/posts/gran-paradiso/",
+    "4921": "/posts/el-mundo-al-verres/",
+    "4922": "/posts/practica-virtual-con-el-arva/",
+    "4923": "/posts/una-inmensa-minoria/",
+    "4924": "/posts/pico-erata-2-005m-con-esquis/",
+    "4925": "/posts/un-paseo-hasta-el-mandilar-panticosa/",
+    "4926": "/posts/wingsuit-base-jumping/",
+    "4927": "/posts/a-los-tripulantes-de-nuestra-hermosa-nave/",
+    "4928": "/posts/dakar-en-btt/",
+    "4929": "/posts/despedida-del-ano-en-la-mesa-de-los-tres-reyes/",
+    "4930": "/posts/pic-du-larry-2-337m/",
+    "4931": "/posts/no-funciona-intenne/",
+    "4932": "/posts/entrenando-por-la-sierra-de-guadarrama/",
+    "4933": "/posts/aprovechando-la-ventana-de-buen-tiempo/",
+    "4934": "/posts/el-camino-del-rey/",
+    "4935": "/posts/combinada-btt-montearagon/",
+    "4936": "/posts/pilotando-por-el-pardo/",
+    "4937": "/posts/trialeando-por-hoyo-de-manzanares/",
+    "4938": "/posts/inaugurada-la-temporada-de-esqui-de-travesia/",
+    "4939": "/posts/rutita-antiestres-por-la-pedriza/",
+    "4940": "/posts/sevilla-y-ole/",
+    "4941": "/posts/final-de-la-liga-aragonesa-o-btt-en-used/",
+    "4942": "/posts/un-finde-movidito-entre-nocito-y-caldearenas/",
+    "4943": "/posts/llega-el-otono-al-pirineo/",
+    "4944": "/posts/tozal-de-guara/",
+    "4945": "/posts/campeonato-de-europa-de-orientacion-en-bici-2008/",
+    "4946": "/posts/el-gigante-dormido/",
+    "4947": "/posts/btt-panticosa-sabocos/",
+    "4948": "/posts/pedals-doccitania/",
+    "4949": "/posts/inaugurando-desde-lituania/",
+    "4950": "/posts/globerautores/",
+    "4951": "/posts/soloquedalopeor-pide-tu-colaboracion/",
+    "5258": "/posts/una-nevada-historica-en-imagenes/",
+    "14133": "/posts/alpes-haute-route-2015-chamonix-zermatt-a-la-suiza/",
+    "14702": "/posts/dias-de-unas-largas-y-culos-prietos-cronica-de-dos-dias-de-esqui-de-travesia-con-pena-guara/",
+    "16922": "/posts/haute-route-2015-swiss-style-episodio-1/",
+    "19511": "/posts/haute-route-2015-swiss-style-episodio-2/",
+    "22181": "/posts/haute-route-2015-swiss-style-episodio-3/",
+    "25284": "/posts/haute-route-2015-swiss-style-episodio-4/",
+    "27753": "/posts/haute-route-2015-swiss-style-episodio-5/",
+    "28041": "/posts/cordier-creguena-coronas-solitaria-despedida-de-temporada/",
+    "44259": "/posts/exprimiendo-el-finde-en-pineta/",
+    "52416": "/posts/escapada-relampago-por-bedous/",
+    "53516": "/posts/gabardiella-enduro-duro-cicloalpinismo-medio/",
+    "54655": "/posts/punta-acuta-casi-un-2kv/",
+    "57248": "/posts/btt-la-solana-de-sase-zz-027/",
+    "61341": "/posts/cantabria-de-campo-y-playa/",
+    "63837": "/posts/tuca-de-culebres-3-062m-la-integralisssima-de-sierra-negra/",
+    "65706": "/posts/la-loire-a-velo/",
+    "66895": "/posts/latrek-trail-loop-manana-vintage/",
+    "67548": "/posts/tutorial-como-fabricar-tu-propio-guardabarros-para-horquilla-de-suspension/",
+    "68706": "/posts/cicloalpinismo-romantico-lacs-de-consaterre/",
+    "71417": "/posts/ews-round-7-ainsa/",
+    "76197": "/posts/pedaleando-por-noruega/",
+    "80966": "/posts/otono-en-benasque/",
+    "83682": "/posts/otono-2-0-en-benasque-otra-vez/",
+    "85358": "/posts/btt-punta-selva-y-el-espiritu-montaraz-de-villanua/",
+    "87635": "/posts/enduro-montaraz-2-0-integral-del-gallinero-plus/",
+    "89405": "/posts/vuelta-endurera-a-pena-oroel/",
+    "89613": "/posts/sqlp-te-desea-feliz-ano-2016/",
+    "89961": "/posts/estreno-de-la-temporada-2-0/",
+    "90064": "/posts/escapada-mananera-al-espelunciecha-2-399m/",
+    "90102": "/posts/pico-bacias-2-760m/",
+    "90479": "/posts/hitler-se-entera-de-que-hay-menos-videos-en-sqlp/",
+    "90597": "/posts/tutorial-determinar-inclinacion-de-la-pendiente/",
+    "90749": "/posts/vuelta-al-mall-pintrat/",
+    "91735": "/posts/alta-ruta-maladetas-posets-2016/",
+    "91877": "/posts/ellos-las-prefieren-gordas-un-poco-de-snowbike-en-formigal/",
+    "92004": "/posts/pedaleando-por-la-spanish-utah/",
+    "92094": "/posts/picos-de-algas-3-036m-y-garmo-negro-3-061m/",
+    "92138": "/posts/la-raca-fateando-por-astun/",
+    "92470": "/posts/btt-enduro-sierra-de-algairen/",
+    "92583": "/posts/via-mosquitos-la-visera-mallos-de-riglos/",
+    "93080": "/posts/crestas-del-boron-al-atardecer/"
+  }
+};
+
+// worker.js
+var worker_default = {
+  async fetch(request, env) {
+    const url = new URL(request.url);
+    const id = url.searchParams.get("p") || url.searchParams.get("page_id");
+    const target = id && wordpress_legacy_urls_default.ids[id];
+    if (target) {
+      return Response.redirect(new URL(target, url.origin).toString(), 301);
+    }
+    return env.ASSETS.fetch(request);
+  }
+};
+
+// node_modules/.pnpm/wrangler@4.71.0/node_modules/wrangler/templates/middleware/middleware-ensure-req-body-drained.ts
+var drainBody = /* @__PURE__ */ __name(async (request, env, _ctx, middlewareCtx) => {
+  try {
+    return await middlewareCtx.next(request, env);
+  } finally {
+    try {
+      if (request.body !== null && !request.bodyUsed) {
+        const reader = request.body.getReader();
+        while (!(await reader.read()).done) {
+        }
+      }
+    } catch (e) {
+      console.error("Failed to drain the unused request body.", e);
+    }
+  }
+}, "drainBody");
+var middleware_ensure_req_body_drained_default = drainBody;
+
+// node_modules/.pnpm/wrangler@4.71.0/node_modules/wrangler/templates/middleware/middleware-miniflare3-json-error.ts
+function reduceError(e) {
+  return {
+    name: e?.name,
+    message: e?.message ?? String(e),
+    stack: e?.stack,
+    cause: e?.cause === void 0 ? void 0 : reduceError(e.cause)
+  };
+}
+__name(reduceError, "reduceError");
+var jsonError = /* @__PURE__ */ __name(async (request, env, _ctx, middlewareCtx) => {
+  try {
+    return await middlewareCtx.next(request, env);
+  } catch (e) {
+    const error = reduceError(e);
+    return Response.json(error, {
+      status: 500,
+      headers: { "MF-Experimental-Error-Stack": "true" }
+    });
+  }
+}, "jsonError");
+var middleware_miniflare3_json_error_default = jsonError;
+
+// .wrangler/tmp/bundle-3jMrLP/middleware-insertion-facade.js
+var __INTERNAL_WRANGLER_MIDDLEWARE__ = [
+  middleware_ensure_req_body_drained_default,
+  middleware_miniflare3_json_error_default
+];
+var middleware_insertion_facade_default = worker_default;
+
+// node_modules/.pnpm/wrangler@4.71.0/node_modules/wrangler/templates/middleware/common.ts
+var __facade_middleware__ = [];
+function __facade_register__(...args) {
+  __facade_middleware__.push(...args.flat());
+}
+__name(__facade_register__, "__facade_register__");
+function __facade_invokeChain__(request, env, ctx, dispatch, middlewareChain) {
+  const [head, ...tail] = middlewareChain;
+  const middlewareCtx = {
+    dispatch,
+    next(newRequest, newEnv) {
+      return __facade_invokeChain__(newRequest, newEnv, ctx, dispatch, tail);
+    }
+  };
+  return head(request, env, ctx, middlewareCtx);
+}
+__name(__facade_invokeChain__, "__facade_invokeChain__");
+function __facade_invoke__(request, env, ctx, dispatch, finalMiddleware) {
+  return __facade_invokeChain__(request, env, ctx, dispatch, [
+    ...__facade_middleware__,
+    finalMiddleware
+  ]);
+}
+__name(__facade_invoke__, "__facade_invoke__");
+
+// .wrangler/tmp/bundle-3jMrLP/middleware-loader.entry.ts
+var __Facade_ScheduledController__ = class ___Facade_ScheduledController__ {
+  constructor(scheduledTime, cron, noRetry) {
+    this.scheduledTime = scheduledTime;
+    this.cron = cron;
+    this.#noRetry = noRetry;
+  }
+  static {
+    __name(this, "__Facade_ScheduledController__");
+  }
+  #noRetry;
+  noRetry() {
+    if (!(this instanceof ___Facade_ScheduledController__)) {
+      throw new TypeError("Illegal invocation");
+    }
+    this.#noRetry();
+  }
+};
+function wrapExportedHandler(worker) {
+  if (__INTERNAL_WRANGLER_MIDDLEWARE__ === void 0 || __INTERNAL_WRANGLER_MIDDLEWARE__.length === 0) {
+    return worker;
+  }
+  for (const middleware of __INTERNAL_WRANGLER_MIDDLEWARE__) {
+    __facade_register__(middleware);
+  }
+  const fetchDispatcher = /* @__PURE__ */ __name(function(request, env, ctx) {
+    if (worker.fetch === void 0) {
+      throw new Error("Handler does not export a fetch() function.");
+    }
+    return worker.fetch(request, env, ctx);
+  }, "fetchDispatcher");
+  return {
+    ...worker,
+    fetch(request, env, ctx) {
+      const dispatcher = /* @__PURE__ */ __name(function(type, init) {
+        if (type === "scheduled" && worker.scheduled !== void 0) {
+          const controller = new __Facade_ScheduledController__(
+            Date.now(),
+            init.cron ?? "",
+            () => {
+            }
+          );
+          return worker.scheduled(controller, env, ctx);
+        }
+      }, "dispatcher");
+      return __facade_invoke__(request, env, ctx, dispatcher, fetchDispatcher);
+    }
+  };
+}
+__name(wrapExportedHandler, "wrapExportedHandler");
+function wrapWorkerEntrypoint(klass) {
+  if (__INTERNAL_WRANGLER_MIDDLEWARE__ === void 0 || __INTERNAL_WRANGLER_MIDDLEWARE__.length === 0) {
+    return klass;
+  }
+  for (const middleware of __INTERNAL_WRANGLER_MIDDLEWARE__) {
+    __facade_register__(middleware);
+  }
+  return class extends klass {
+    #fetchDispatcher = /* @__PURE__ */ __name((request, env, ctx) => {
+      this.env = env;
+      this.ctx = ctx;
+      if (super.fetch === void 0) {
+        throw new Error("Entrypoint class does not define a fetch() function.");
+      }
+      return super.fetch(request);
+    }, "#fetchDispatcher");
+    #dispatcher = /* @__PURE__ */ __name((type, init) => {
+      if (type === "scheduled" && super.scheduled !== void 0) {
+        const controller = new __Facade_ScheduledController__(
+          Date.now(),
+          init.cron ?? "",
+          () => {
+          }
+        );
+        return super.scheduled(controller);
+      }
+    }, "#dispatcher");
+    fetch(request) {
+      return __facade_invoke__(
+        request,
+        this.env,
+        this.ctx,
+        this.#dispatcher,
+        this.#fetchDispatcher
+      );
+    }
+  };
+}
+__name(wrapWorkerEntrypoint, "wrapWorkerEntrypoint");
+var WRAPPED_ENTRY;
+if (typeof middleware_insertion_facade_default === "object") {
+  WRAPPED_ENTRY = wrapExportedHandler(middleware_insertion_facade_default);
+} else if (typeof middleware_insertion_facade_default === "function") {
+  WRAPPED_ENTRY = wrapWorkerEntrypoint(middleware_insertion_facade_default);
+}
+var middleware_loader_entry_default = WRAPPED_ENTRY;
+export {
+  __INTERNAL_WRANGLER_MIDDLEWARE__,
+  middleware_loader_entry_default as default
+};
+//# sourceMappingURL=worker.js.map

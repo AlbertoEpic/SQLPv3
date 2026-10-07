@@ -983,11 +983,115 @@ async function generateRedirects() {
     }
   }
   
+  if (DEPLOYMENT_PLATFORM === 'cloudflare-workers' && !VALIDATE_ONLY) {
+    await writeCloudflareLegacyRedirects(allRedirects);
+  }
+
   if (DRY_RUN) {
     log.info('🎉 [DRY RUN] Redirect generation complete! No files were modified.');
   } else {
     log.info(`🎉 Redirect generation complete! Created ${allRedirects.length} redirects for ${DEPLOYMENT_PLATFORM}.`);
   }
+}
+
+// WordPress-style slug (lowercase, no accents, hyphens)
+function wpSlugify(value) {
+  return String(value)
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+}
+
+// Builds 301 rules for the old WordPress URLs (/yyyy/mm/dd/slug/, pages, /category/x/, /tag/x/)
+// Post and page URLs come from scripts/wordpress-legacy-urls.json (generated from the WordPress export)
+async function collectLegacyWordPressRedirects() {
+  const postsDir = path.join(__dirname, '..', 'src', 'content', 'posts');
+  const rules = new Map();
+  const categories = new Map();
+  const tags = new Map();
+
+  try {
+    const legacy = JSON.parse(await fs.readFile(path.join(__dirname, 'wordpress-legacy-urls.json'), 'utf-8'));
+    for (const [from, to] of Object.entries(legacy.paths)) rules.set(from, to);
+  } catch {
+    log.warn('⚠️  scripts/wordpress-legacy-urls.json not found; skipping WordPress post/page redirects');
+  }
+
+  const entries = await fs.readdir(postsDir, { withFileTypes: true });
+
+  for (const entry of entries) {
+    let filePath;
+    if (entry.isFile() && entry.name.endsWith('.md')) {
+      filePath = path.join(postsDir, entry.name);
+    } else if (entry.isDirectory() && entry.name !== 'attachments') {
+      filePath = path.join(postsDir, entry.name, 'index.md');
+    } else {
+      continue;
+    }
+
+    let raw;
+    try {
+      raw = await fs.readFile(filePath, 'utf-8');
+    } catch {
+      continue;
+    }
+    const { frontmatter } = parseFrontmatter(raw.replace(/\r\n/g, '\n'));
+    if (!frontmatter || frontmatter.draft === 'true') continue;
+
+    if (typeof frontmatter.category === 'string' && frontmatter.category.trim()) {
+      categories.set(wpSlugify(frontmatter.category), frontmatter.category.trim());
+    }
+    const postTags = Array.isArray(frontmatter.tags) ? frontmatter.tags : frontmatter.tags ? [frontmatter.tags] : [];
+    for (const tag of postTags) {
+      if (tag) tags.set(wpSlugify(tag), tag);
+    }
+  }
+
+  for (const [categorySlug, category] of categories) {
+    if (categorySlug) rules.set(`/category/${categorySlug}/`, `/posts/filtroposts/?category=${encodeURIComponent(category)}`);
+  }
+  for (const [tagSlug, tag] of tags) {
+    if (tagSlug) rules.set(`/tag/${tagSlug}/`, `/posts/tag/${encodeURIComponent(tag)}/`);
+  }
+  rules.set('/category/*', '/posts/');
+  rules.set('/tag/*', '/posts/');
+  rules.set('/feed/', '/rss.xml');
+  rules.set('/feed', '/rss.xml');
+
+  return rules;
+}
+
+// Cloudflare Workers static assets read dist/_redirects (limit: 2000 static rules)
+async function writeCloudflareLegacyRedirects(aliasRedirects) {
+  const distPath = path.join(__dirname, '..', 'dist');
+  try {
+    await fs.access(distPath);
+  } catch {
+    return; // Not a build run (e.g. dev), nothing to write
+  }
+
+  const rules = await collectLegacyWordPressRedirects();
+  for (const redirect of aliasRedirects) {
+    if (redirect.from !== redirect.to) rules.set(redirect.from, redirect.to);
+  }
+
+  const lines = [];
+  for (const [from, to] of rules) {
+    lines.push(`${from} ${to} 301`);
+  }
+
+  if (lines.filter(l => !l.includes('*')).length > 2000) {
+    log.warn(`⚠️  ${lines.length} redirects exceed Cloudflare's limit of 2000 static rules; extra rules will be ignored`);
+  }
+
+  if (DRY_RUN) {
+    log.info(`📝 [DRY RUN] Would write dist/_redirects with ${lines.length} rules`);
+    return;
+  }
+  await fs.writeFile(path.join(distPath, '_redirects'), lines.join('\n') + '\n', 'utf-8');
+  log.info(`📝 Wrote dist/_redirects with ${lines.length} rules (WordPress legacy + aliases)`);
 }
 
 // Run the script

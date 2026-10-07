@@ -2,7 +2,7 @@ import type { APIRoute } from "astro";
 import { siteConfig } from "../config";
 
 export const GET: APIRoute = async () => {
-  const siteUrl = import.meta.env.SITE || siteConfig.site;
+  const siteUrl = (import.meta.env.SITE || siteConfig.site).replace(/\/?$/, "/");
 
   const robotsTxt = `# Content Signals (https://contentsignals.org/, IETF draft-romm-aipref-contentsignals)
 # declare AI usage preferences. Recognized by AI/agent crawlers and Cloudflare;
