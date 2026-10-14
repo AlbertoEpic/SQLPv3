@@ -23,12 +23,12 @@
             }
           },
           {
-            "id": "42f87926c1507a70",
+            "id": "8afa19ba14d21a16",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/la-palma-la-via-lactea-desde-r-d-l-m.md",
+                "file": "posts/la-palma-roque-de-los-muchachos-2-426m.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -43,7 +43,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "la-palma-la-via-lactea-desde-r-d-l-m"
+              "title": "la-palma-roque-de-los-muchachos-2-426m"
             }
           }
         ],
@@ -225,7 +225,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "42f87926c1507a70",
+  "active": "8afa19ba14d21a16",
   "lastOpenFiles": [
     "bases/Home.base",
     "posts/tan-cerca.md",
