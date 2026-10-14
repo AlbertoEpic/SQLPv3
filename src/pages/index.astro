@@ -217,7 +217,12 @@ try {
     if (latestPlanet) {
       latestMiniPlanetLink = latestPlanet.link;
       latestMiniPlanetTitle = latestPlanet.title;
-      latestMiniPlanetImage = latestPlanet.image;
+      latestMiniPlanetImage = latestPlanet.image
+        ? latestPlanet.image.replace(
+            /^https:\/\/raw\.githubusercontent\.com\/AlbertoEpic\/MINIPLANETAS\/refs\/heads\/gh-pages\//i,
+            `${miniBaseUrl}/`
+          )
+        : null;
     }
   }
 } catch (e) {
