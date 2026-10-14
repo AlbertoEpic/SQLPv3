@@ -16,7 +16,7 @@ tags:
 
 Hemos estado al norte, al sur,... y ahora nos toca un lugar mítico, sobre todo para los astrónomos. Es el punto más alto de la isla (2.426 metros) donde astronomía y naturaleza se dan la mano. Impresionantes vistas sobre el Parque Nacional de la Caldera de Taburiente.
 
-Alberga el Observatorio Astrofísico del Roque de Los Muchachos (ORM), uno de los complejos de telescopios más completos del mundo. Gracias a sus cielos oscuros y despejados durante casi todo el año, La Palma se ha convertido en uno de los enclaves más privilegiados del planeta para la observación astronómica.
+Alberga el **Observatorio Astrofísico del Roque de Los Muchachos (ORM)**, uno de los complejos de telescopios más completos del mundo. Gracias a sus cielos oscuros y despejados durante casi todo el año, La Palma se ha convertido en uno de los enclaves más privilegiados del planeta para la observación astronómica.
 
 A continuación puedes ver un mapa para ubicarlo en la isla, en el borde norte de la Caldera de Taburiente.
 <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-18.171386718750004%2C28.615870539671818%2C-17.598037719726566%2C28.8927788645183&layer=cyclosm&marker=28.754416494988554%2C-17.88471221923828" style="border: 1px solid black"></iframe>
