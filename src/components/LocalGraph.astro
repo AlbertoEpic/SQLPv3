@@ -27,7 +27,7 @@ const shouldShowGraph = true;
 ---
 
 {shouldShowGraph && (
-  <div id="local-graph-container" class="relative w-full bg-primary-50 dark:bg-primary-800 rounded-xl border border-primary-200 dark:border-primary-700 shadow-lg backdrop-blur-sm bg-opacity-95 dark:bg-opacity-95 overflow-hidden" style="width: 280px; max-width: 280px; height: 280px;">
+  <div id="local-graph-container" data-slug={currentSlug} class="relative w-full bg-primary-50 dark:bg-primary-800 rounded-xl border border-primary-200 dark:border-primary-700 shadow-lg backdrop-blur-sm bg-opacity-95 dark:bg-opacity-95 overflow-hidden" style="width: 280px; max-width: 280px; height: 280px;">
 
     <!-- Icons in top right corner -->
     <div class="absolute top-3 right-3 z-20 flex items-center gap-2">
@@ -100,11 +100,27 @@ const shouldShowGraph = true;
     return `${normalizedBase}graph/graph-data.json`;
   }
 
-  function filterLocalGraphData(data: any, currentSlug: string): GraphData {
-    if (!currentSlug) return { nodes: [], links: [] };
+  function resolveCurrentSlug(): string {
+    const fromAttr = document.getElementById('local-graph-container')?.getAttribute('data-slug');
+    if (fromAttr) return fromAttr;
+    const match = window.location.pathname.match(/\/posts\/([^\/]+)/);
+    if (!match) return '';
+    try {
+      return decodeURIComponent(match[1]);
+    } catch {
+      return match[1];
+    }
+  }
 
-    const currentNode = data.nodes.find((node: any) => node.id === currentSlug);
+  function filterLocalGraphData(data: any, rawSlug: string): GraphData {
+    if (!rawSlug) return { nodes: [], links: [] };
+
+    const norm = (s: string) => String(s).normalize('NFC').toLowerCase();
+    const currentNode =
+      data.nodes.find((node: any) => node.id === rawSlug) ||
+      data.nodes.find((node: any) => norm(node.id) === norm(rawSlug));
     if (!currentNode) return { nodes: [], links: [] };
+    const currentSlug = currentNode.id;
 
     // 1. Encuentra nodos conectados directamente (posts)
     const directlyConnectedNodeIds = new Set([currentSlug]);
@@ -528,31 +544,7 @@ const shouldShowGraph = true;
       </div>
     `;
 
-    const currentPath = window.location.pathname;
-    let currentSlug = '';
-    
-    // Try multiple patterns to match the current post
-    const patterns = [
-      /\/posts\/([^\/]+)/,           // /posts/slug
-      /\/posts\/([^\/]+)\/$/,        // /posts/slug/
-      /\/posts\/([^\/]+)\/index/,   // /posts/slug/index
-    ];
-    
-    for (const pattern of patterns) {
-      const match = currentPath.match(pattern);
-      if (match) {
-        currentSlug = decodeURIComponent(match[1]);
-        break;
-      }
-    }
-    
-    // If no match, try to extract from the last segment
-    if (!currentSlug) {
-      const segments = currentPath.split('/').filter(Boolean);
-      if (segments.length >= 2 && segments[0] === 'posts') {
-        currentSlug = decodeURIComponent(segments[1]);
-      }
-    }
+    const currentSlug = resolveCurrentSlug();
 
     // Get base URL for proper path resolution
     fetch(getGraphDataUrl())
@@ -566,8 +558,10 @@ const shouldShowGraph = true;
           
           // Check if there are actually connections to show
           if (filteredData.nodes.length <= 1) {
-            // Hide the entire graph container if no connections
+            // Hide the whole island if no connections
             outerContainer.style.display = 'none';
+            const island = document.getElementById('graph-sidebar');
+            if (island) island.style.display = 'none';
             return;
           }
           
@@ -789,7 +783,14 @@ const shouldShowGraph = true;
     setupLocalGraphButtons();
   }
 
-  if ((window as any).swup) {
+  let swupHooksRegistered = false;
+  function registerSwupHooks(retries = 0) {
+    if (swupHooksRegistered) return;
+    if (!(window as any).swup) {
+      if (retries < 50) setTimeout(() => registerSwupHooks(retries + 1), 100);
+      return;
+    }
+    swupHooksRegistered = true;
     (window as any).swup.hooks.on('visit:start', () => {
       const fullscreenModals = document.querySelectorAll('.fixed.inset-0.z-50:not(#command-palette-overlay):not(#graph-modal-overlay)');
       fullscreenModals.forEach(modal => {
@@ -843,6 +844,7 @@ const shouldShowGraph = true;
       }
     });
   }
+  registerSwupHooks();
 
   // Listen for theme changes to update graph colors
   window.addEventListener('themechange', () => {
@@ -853,25 +855,7 @@ const shouldShowGraph = true;
       fetch(getGraphDataUrl())
         .then(response => response.json())
         .then(data => {
-          const currentPath = window.location.pathname;
-          let currentSlug = '';
-          
-          // Try multiple patterns to match the current post
-          const patterns = [
-            /\/posts\/([^\/]+)/,           // /posts/slug
-            /\/posts\/([^\/]+)\/$/,        // /posts/slug/
-            /\/posts\/([^\/]+)\/index/,   // /posts/slug/index
-          ];
-          
-          for (const pattern of patterns) {
-            const match = currentPath.match(pattern);
-            if (match) {
-              currentSlug = match[1];
-              break;
-            }
-          }
-          
-          const filteredData = filterLocalGraphData(data, currentSlug);
+          const filteredData = filterLocalGraphData(data, resolveCurrentSlug());
           renderLocalGraph(container, filteredData);
         })
         .catch(error => {
@@ -911,22 +895,7 @@ const shouldShowGraph = true;
         renderLocalGraph(container, cachedFilteredData);
       } else {
         // Fetch fresh data if cache is not available
-        const currentPath = window.location.pathname;
-        let currentSlug = '';
-        
-        const patterns = [
-          /\/posts\/([^\/]+)/,
-          /\/posts\/([^\/]+)\/$/,
-          /\/posts\/([^\/]+)\/index/,
-        ];
-        
-        for (const pattern of patterns) {
-          const match = currentPath.match(pattern);
-          if (match) {
-            currentSlug = match[1];
-            break;
-          }
-        }
+        const currentSlug = resolveCurrentSlug();
 
         fetch(getGraphDataUrl())
           .then(response => response.json())

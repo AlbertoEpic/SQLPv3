@@ -291,82 +291,11 @@ import Icon from './Icon.astro';
     
 
     // Usar todos los nodos y enlaces para mostrar el grafo global completo.
-    const batchSize = 50;
     const allNodes = data.nodes.map((d) => ({ ...d }));
     const allLinks = data.links.map((d) => ({ ...d }));
     const nodes = allNodes;
     const nodeIds = new Set(nodes.map(n => n.id));
     const links = allLinks.filter(l => nodeIds.has(typeof l.source === 'object' ? l.source.id : l.source) && nodeIds.has(typeof l.target === 'object' ? l.target.id : l.target));
-
-    // Renderizado progresivo
-    function progressiveRender(batchStart = 0) {
-      const batchEnd = Math.min(batchStart + batchSize, nodes.length);
-      const currentBatch = nodes.slice(batchStart, batchEnd);
-      // Añadir nodos y enlaces del batch actual
-      if (batchStart === 0) {
-        // Primer batch: crear simulación y SVG
-        simulation = d3
-          .forceSimulation<GraphNode>([])
-          .force(
-            "link",
-            d3.forceLink([]).id((d: any) => d.id).distance(100)
-          )
-          .force("charge", d3.forceManyBody().strength(-radiusForce))
-          .force("x", d3.forceX(width / 2).strength(0.1))
-          .force("y", d3.forceY(height / 2).strength(0.1))
-          .force("collision", d3.forceCollide().radius((d: any) => d.radius + 5));
-
-        svg = d3
-          .select(container)
-          .append("svg")
-          .attr("width", width)
-          .attr("height", height)
-          .style("background", colors.background);
-        containerGroup = svg.append("g");
-        svg.call(zoom as any);
-        if (svg) svg.style('cursor', 'default');
-      }
-
-      // Añadir nodos y enlaces al batch
-      if (simulation) {
-        simulation.nodes(simulation.nodes().concat(currentBatch));
-        const batchLinks = links.filter(l => {
-          const src = typeof l.source === 'object' ? l.source.id : l.source;
-          const tgt = typeof l.target === 'object' ? l.target.id : l.target;
-          return currentBatch.some(n => n.id === src || n.id === tgt);
-        });
-        const linkForce = simulation.force<d3.ForceLink<GraphNode, any>>("link");
-        if (linkForce) {
-          const currentLinks = linkForce.links() || [];
-          linkForce.links([...currentLinks, ...batchLinks]);
-        }
-
-        // Renderizar nodos y enlaces del batch
-        containerGroup.selectAll("g")
-          .data(simulation.nodes(), (d: any) => d.id)
-          .enter()
-          .append("g")
-          .attr("data-id", (d: any) => d.id);
-        const linkForce2 = simulation.force<d3.ForceLink<GraphNode, any>>("link");
-        containerGroup.selectAll("line")
-          .data((linkForce2 && linkForce2.links()) ? linkForce2.links() : [])
-          .enter()
-          .append("line")
-          .attr("stroke", colors.linkStroke)
-          .attr("stroke-width", 2)
-          .attr("stroke-opacity", 0.6);
-      }
-
-      // Continuar con el siguiente batch si quedan nodos
-      if (batchEnd < nodes.length) {
-        requestAnimationFrame(() => progressiveRender(batchEnd));
-      } else {
-        // Cuando termina, continuar con el resto del renderizado (labels, eventos, etc.)
-        // ...existing code...
-      }
-    }
-
-    progressiveRender(0);
 
     // Create force simulation
     simulation = d3
@@ -804,6 +733,8 @@ import Icon from './Icon.astro';
   }
 
   (window as any).initializeGraphModal = initializeGraphModal;
+  (window as any).openGraphModal = openModal;
+  (window as any).closeGraphModal = closeModal;
 
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', initializeGraphModal);

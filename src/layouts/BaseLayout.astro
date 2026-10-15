@@ -1296,6 +1296,35 @@ const scrollbarClass = siteConfig.hideScrollBar ? '' : 'show-scrollbars';
     const maxSwupRetries = 50; // Max 5 seconds of retries
 
 
+    // Re-apply dark/light mode after Swup swaps the DOM (html attributes persist, so this is a safety net)
+    function syncThemeAndMode() {
+      const html = document.documentElement;
+      const storedMode = localStorage.getItem('theme');
+      const systemMode = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      const mode = storedMode || systemMode;
+      if (!html.classList.contains(mode)) {
+        html.classList.remove('light', 'dark');
+        html.classList.add(mode);
+      }
+    }
+
+    function reinitWidgetsAfterReplace() {
+      window.fixPostAttachmentImageUrls?.();
+      window.initializeBaseEmbeds?.();
+      window.initializeTableWrappers?.();
+      window.initializeImageGrids?.();
+    }
+
+    function reinitWidgetsAfterView() {
+      window.initializeImagePreloader?.();
+      window.initializeGraphModal?.();
+      window.initializeLinkedMentions?.();
+      window.initializeLeafletMaps?.();
+      if (document.querySelector('#giscus-comments')) {
+        window.initializeGiscusComments?.();
+      }
+    }
+
     function setupSwupHooks() {
       if (window.swup && window.swup.hooks && typeof window.swup.hooks.on === 'function') {
         // Content replaced - reinitialize all Swup-dependent widgets
