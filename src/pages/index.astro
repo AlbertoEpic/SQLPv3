@@ -491,8 +491,8 @@ const structuredData = {
     </section>
 
     <section class="content-row px-4 sm:px-6 lg:px-10 mt-8 md:mt-10">
-      <div class="islands-grid-3">
-        <article class="island-card">
+      <div class="featured-islands-grid">
+        <article class="island-card island-card-featured">
           <header class="island-head">
             <h3>Última entrada del blog</h3>
             <img
@@ -527,77 +527,79 @@ const structuredData = {
           )}
         </article>
 
-        <article class="island-card">
-          <header class="island-head">
-            <h3>Panoramicas 360</h3>
-            <img
-              src={pano360Favicon.src}
-              alt="Favicon Pano360"
-              class="w-8 h-8"
-              loading="lazy"
-              decoding="async"
-            />
-          </header>
-          {latestPanoLink ? (
-            <a href={latestPanoLink} class="island-link" target="_blank" rel="noopener noreferrer" data-no-swup>
-              {latestPanoImage ? (
-                <img
-                  src={latestPanoImage}
-                  alt={latestPanoTitle || 'Ultima panoramica'}
-                  class="island-post-image"
-                  width="800"
-                  height="450"
-                  loading="lazy"
-                  decoding="async"
-                  referrerpolicy="no-referrer"
-                />
-              ) : (
-                <div class="island-post-image island-post-image-fallback" aria-hidden="true"></div>
-              )}
-              <h4>{latestPanoTitle}</h4>
-              <p>Descubre la ultima panoramica publicada en SQLP Pano360.</p>
-              <span class="island-cta">Ver panoramica</span>
-            </a>
-          ) : (
-            <div class="island-link island-empty">No se pudo cargar la ultima panoramica.</div>
-          )}
-        </article>
+        <div class="island-side-column">
+          <article class="island-card island-card-compact">
+            <header class="island-head">
+              <h3>Panoramicas 360</h3>
+              <img
+                src={pano360Favicon.src}
+                alt="Favicon Pano360"
+                class="w-8 h-8"
+                loading="lazy"
+                decoding="async"
+              />
+            </header>
+            {latestPanoLink ? (
+              <a href={latestPanoLink} class="island-link" target="_blank" rel="noopener noreferrer" data-no-swup>
+                {latestPanoImage ? (
+                  <img
+                    src={latestPanoImage}
+                    alt={latestPanoTitle || 'Ultima panoramica'}
+                    class="island-post-image"
+                    width="800"
+                    height="450"
+                    loading="lazy"
+                    decoding="async"
+                    referrerpolicy="no-referrer"
+                  />
+                ) : (
+                  <div class="island-post-image island-post-image-fallback" aria-hidden="true"></div>
+                )}
+                <h4>{latestPanoTitle}</h4>
+                <p>Descubre la ultima panoramica publicada en SQLP Pano360.</p>
+                <span class="island-cta">Ver panoramica</span>
+              </a>
+            ) : (
+              <div class="island-link island-empty">No se pudo cargar la ultima panoramica.</div>
+            )}
+          </article>
 
-        <article class="island-card">
-          <header class="island-head">
-            <h3>Miniplanetas</h3>
-            <img
-              src={logoMiniPlanetas.src}
-              alt="Favicon Miniplanetas"
-              class="w-10 h-8"
-              loading="lazy"
-              decoding="async"
-            />
-          </header>
-          {latestMiniPlanetLink ? (
-            <a href={latestMiniPlanetLink} class="island-link" target="_blank" rel="noopener noreferrer" data-no-swup>
-              {latestMiniPlanetImage ? (
-                <img
-                  src={latestMiniPlanetImage}
-                  alt={latestMiniPlanetTitle || 'Ultimo miniplaneta'}
-                  class="island-post-image"
-                  width="800"
-                  height="450"
-                  loading="lazy"
-                  decoding="async"
-                  referrerpolicy="no-referrer"
-                />
-              ) : (
-                <div class="island-post-image island-post-image-fallback" aria-hidden="true"></div>
-              )}
-              <h4>{latestMiniPlanetTitle}</h4>
-              <p>Descubre el ultimo miniplaneta publicado en el catalogo.</p>
-              <span class="island-cta">Ver miniplaneta</span>
-            </a>
-          ) : (
-            <div class="island-link island-empty">No se pudo cargar el ultimo miniplaneta.</div>
-          )}
-        </article>
+          <article class="island-card island-card-compact">
+            <header class="island-head">
+              <h3>Miniplanetas</h3>
+              <img
+                src={logoMiniPlanetas.src}
+                alt="Favicon Miniplanetas"
+                class="w-10 h-8"
+                loading="lazy"
+                decoding="async"
+              />
+            </header>
+            {latestMiniPlanetLink ? (
+              <a href={latestMiniPlanetLink} class="island-link" target="_blank" rel="noopener noreferrer" data-no-swup>
+                {latestMiniPlanetImage ? (
+                  <img
+                    src={latestMiniPlanetImage}
+                    alt={latestMiniPlanetTitle || 'Ultimo miniplaneta'}
+                    class="island-post-image"
+                    width="800"
+                    height="450"
+                    loading="lazy"
+                    decoding="async"
+                    referrerpolicy="no-referrer"
+                  />
+                ) : (
+                  <div class="island-post-image island-post-image-fallback" aria-hidden="true"></div>
+                )}
+                <h4>{latestMiniPlanetTitle}</h4>
+                <p>Descubre el ultimo miniplaneta publicado en el catalogo.</p>
+                <span class="island-cta">Ver miniplaneta</span>
+              </a>
+            ) : (
+              <div class="island-link island-empty">No se pudo cargar el ultimo miniplaneta.</div>
+            )}
+          </article>
+        </div>
       </div>
     </section>
 
@@ -839,10 +841,15 @@ const structuredData = {
     background: rgb(var(--color-primary-900) / 0.58);
   }
 
-  .islands-grid-3 {
+  .featured-islands-grid {
     display: grid;
     gap: 1rem;
     grid-template-columns: 1fr;
+  }
+
+  .island-side-column {
+    display: grid;
+    gap: 1rem;
   }
 
   .island-card {
@@ -901,6 +908,37 @@ const structuredData = {
     font-size: 1.05rem;
     font-weight: 600;
     color: rgb(var(--color-primary-900));
+  }
+
+  .island-card-featured .island-link h4 {
+    font-size: 1.35rem;
+  }
+
+  .island-card-compact {
+    padding: 0.9rem;
+  }
+
+  .island-card-compact .island-head {
+    margin-bottom: 0.5rem;
+  }
+
+  .island-card-compact .island-post-image {
+    aspect-ratio: 2 / 1;
+    margin-bottom: 0.5rem;
+  }
+
+  .island-card-compact .island-link h4 {
+    font-size: 0.98rem;
+  }
+
+  .island-card-compact .island-link p {
+    margin-top: 0.3rem;
+    font-size: 0.85rem;
+  }
+
+  .island-card-compact .island-cta {
+    margin-top: 0.55rem;
+    font-size: 0.82rem;
   }
 
   :global(.dark) .island-link h4 {
@@ -1190,9 +1228,31 @@ const structuredData = {
   }
 
   @media (min-width: 768px) {
-    .islands-grid-3 {
-      grid-template-columns: repeat(3, minmax(0, 1fr));
+    .featured-islands-grid {
+      grid-template-columns: minmax(0, 1.7fr) minmax(17rem, 0.9fr);
       gap: 1.1rem;
+    }
+
+    .island-side-column {
+      grid-template-rows: repeat(2, minmax(0, 1fr));
+    }
+
+    .island-card-featured {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .island-card-featured .island-link {
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+      min-height: 0;
+    }
+
+    :global(.island-card-featured .island-post-image) {
+      flex: 1 1 0%;
+      min-height: 0;
+      aspect-ratio: auto;
     }
 
     .island-card,
