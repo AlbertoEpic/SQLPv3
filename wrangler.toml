@@ -5,7 +5,7 @@
 # You can rename this to your desired project name (e.g., "my-blog", "my-website")
 # This name will be used for your Cloudflare Worker deployment
 name = "sqlpv3"
-compatibility_date = "2026-10-15"
+compatibility_date = "2026-10-19"
 
 # Redirects old WordPress short links (/?p=123) - see worker.js
 main = "./worker.js"

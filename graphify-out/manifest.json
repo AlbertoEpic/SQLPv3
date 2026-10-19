@@ -10,8 +10,8 @@
     "semantic_hash": ""
   },
   "astro.config.mjs": {
-    "mtime": 1792339290.4221966,
-    "ast_hash": "523a45c27de4da31db20776d66a13558",
+    "mtime": 1792340054.4390502,
+    "ast_hash": "b86a46e47bf4a2c14c2752d3aec4eefe",
     "semantic_hash": ""
   },
   "cli/bin/create-astro-modular.mjs": {
@@ -170,8 +170,8 @@
     "semantic_hash": ""
   },
   "src/components/GraphModal.astro": {
-    "mtime": 1792057358.0008612,
-    "ast_hash": "a472704e655067204deb5d5cc462ec8a",
+    "mtime": 1792401345.5008614,
+    "ast_hash": "ae21b939ce6702fbab09cde8dfcdbb94",
     "semantic_hash": ""
   },
   "src/components/Header.astro": {
@@ -1150,8 +1150,8 @@
     "semantic_hash": ""
   },
   "AGENTS.md": {
-    "mtime": 1791270974.3719614,
-    "ast_hash": "08e04c98f79a3341da2ae40edddcfd0e",
+    "mtime": 1792401356.9671154,
+    "ast_hash": "02898ca6f4424168b0039ae18e992283",
     "semantic_hash": ""
   },
   "CLAUDE.md": {

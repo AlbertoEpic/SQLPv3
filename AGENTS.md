@@ -452,7 +452,9 @@ Two components, both built on D3 force simulation:
 
 - **`GraphModal.astro`** — full-screen global graph, opened from command palette.
   Keyboard: `Esc` close, `R` reset zoom, `C` center. Reads `/graph/graph-data.json`
-  (generated at build time by `scripts/generate-graph-data.js`).
+  (generated at build time by `scripts/generate-graph-data.js`). It displays post
+  links plus tag nodes and post-to-tag links derived from each post's tags; only
+  post nodes are navigable.
 - **`LocalGraph.astro`** — 280×280 sidebar graph showing only directly-connected
   posts. Filters the same data source. Has a "fullscreen" button that opens the
   modal.
@@ -461,7 +463,10 @@ Colors come from `src/utils/graph-theme-colors.ts`, which reads CSS custom prope
 and converts RGB to hex. Both components listen for `themechange` events and
 re-render on theme switch. Use `getGraphThemeColors()` — never hardcode graph colors.
 
-Graph nodes are **posts only**, filtered by `isPostLink`. Don't add other content
+The local graph is centered on a post and shows its directly connected posts and
+shared tag nodes. The global graph includes tag nodes to make shared-tag
+relationships visible without creating a dense all-to-all mesh of post links.
+Linked Mentions and graph navigation remain posts-only; don't add other content
 types without thinking carefully about scope.
 
 ---

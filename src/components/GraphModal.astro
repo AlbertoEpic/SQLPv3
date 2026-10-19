@@ -240,12 +240,43 @@ import Icon from './Icon.astro';
             radius: Math.max(5, Math.min(15, (node.connections || 0) + 5)),
             group: node.type
           })),
-          links: data.connections.map((conn: any) => ({
+          links: []
+        };
+        const tagCounts = new Map<string, number>();
+        const getNodeTags = (node: any): string[] =>
+          Array.isArray(node.tags)
+            ? [...new Set<string>(node.tags.map((value: unknown) => String(value).trim()).filter((tag: string) => tag.length > 0))]
+            : [];
+        for (const node of data.nodes) {
+          for (const tag of getNodeTags(node)) {
+            tagCounts.set(tag, (tagCounts.get(tag) || 0) + 1);
+          }
+        }
+
+        const tagNodes: GraphNode[] = [...tagCounts].map(([tag, count]) => ({
+          id: `tag:${tag}`,
+          name: tag,
+          radius: Math.max(4, Math.min(9, Math.sqrt(count) + 2)),
+          group: "tag"
+        }));
+        const tagNodeIds = new Set(tagNodes.map((node) => node.id));
+        graphData.nodes.push(...tagNodes);
+        graphData.links.push(
+          ...data.connections.map((conn: any) => ({
             source: conn.source,
             target: conn.target,
             value: 1
-          }))
-        };
+          })),
+          ...data.nodes.flatMap((node: any) =>
+            getNodeTags(node)
+              .filter((tag) => tagNodeIds.has(`tag:${tag}`))
+              .map((tag) => ({
+                source: node.id,
+                target: `tag:${tag}`,
+                value: 0.5
+              }))
+          )
+        );
         renderGraph(container, graphData);
       })
       .catch(error => {
@@ -357,13 +388,10 @@ import Icon from './Icon.astro';
         const scale = event.transform.k;
         const labelThreshold = 0.6; // Hide labels when zoomed out beyond this threshold
         
-        if (scale < labelThreshold) {
-          // Hide all labels when zoomed out
-          labels.style("opacity", 0);
-        } else {
-          // Show all labels when zoomed in
-          labels.style("opacity", 1);
-        }
+        labels.style("opacity", (d: GraphNode) => {
+          if (d.group === "tag") return scale > 1.2 ? 0.6 : 0;
+          return scale < labelThreshold ? 0 : 1;
+        });
       });
 
     svg.call(zoom as any);
@@ -377,7 +405,7 @@ import Icon from './Icon.astro';
         .append("line")
         .attr("stroke", colors.linkStroke)
         .attr("stroke-width", 2)
-        .attr("stroke-opacity", 0.6);
+        .attr("stroke-opacity", (d) => d.value < 1 ? 0.2 : 0.6);
 
       // Create node groups
       const nodeGroup = containerGroup
@@ -463,8 +491,8 @@ import Icon from './Icon.astro';
 
           nodeGroup.selectAll<SVGCircleElement, GraphNode>("circle")
             .attr("fill-opacity", (n: GraphNode) => connected.has(n.id) ? 1 : 0.18)
-            .attr("fill", (n: GraphNode) => n.id === d.id ? colors.tagFill : colors.postFill)
-            .attr("stroke", (n: GraphNode) => n.id === d.id ? colors.tagStroke : colors.postStroke)
+            .attr("fill", (n: GraphNode) => n.id === d.id ? colors.highlight : n.group === "tag" ? colors.tagFill : colors.postFill)
+            .attr("stroke", (n: GraphNode) => n.group === "tag" ? colors.tagStroke : colors.postStroke)
             .attr("stroke-width", (n: GraphNode) => n.id === d.id ? 3 : 2)
             .attr("filter", (n: GraphNode) => n.id === d.id ? "url(#node-shadow)" : null);
 
@@ -475,26 +503,29 @@ import Icon from './Icon.astro';
           link.transition().duration(180)
             .attr("stroke", colors.linkStroke)
             .attr("stroke-width", 2)
-            .attr("stroke-opacity", 0.6);
+            .attr("stroke-opacity", (d: any) => d.value < 1 ? 0.2 : 0.6);
 
           nodeGroup.selectAll<SVGCircleElement, GraphNode>("circle")
-            .attr("fill", colors.postFill)
+            .attr("fill", (d: GraphNode) => d.group === "tag" ? colors.tagFill : colors.postFill)
             .attr("fill-opacity", 1)
-            .attr("stroke", colors.postStroke)
+            .attr("stroke", (d: GraphNode) => d.group === "tag" ? colors.tagStroke : colors.postStroke)
             .attr("stroke-width", 2)
             .attr("filter", "url(#node-shadow)");
 
           const currentTransform = svg ? d3.zoomTransform(svg.node() as Element) : { k: 1 };
           labels.transition().duration(180)
-            .style("opacity", (n: any) => currentTransform.k < 0.6 ? 0 : 0.6);
+            .style("opacity", (n: GraphNode) => {
+              if (n.group === "tag") return currentTransform.k > 1.2 ? 0.6 : 0;
+              return currentTransform.k < 0.6 ? 0 : 0.6;
+            });
         });
 
       // Create circles
       const node = nodeGroup
         .append("circle")
         .attr("r", (d) => d.radius)
-        .attr("fill", colors.postFill)
-        .attr("stroke", colors.postStroke)
+        .attr("fill", (d) => d.group === "tag" ? colors.tagFill : colors.postFill)
+        .attr("stroke", (d) => d.group === "tag" ? colors.tagStroke : colors.postStroke)
         .attr("stroke-width", 2)
         .attr("filter", "url(#node-shadow)")
         .attr("cursor", "pointer")
@@ -512,7 +543,7 @@ import Icon from './Icon.astro';
         .append("g")
         .attr("class", "graph-label-group")
         .style("pointer-events", "none")
-        .style("opacity", 0.6);
+        .style("opacity", (d) => d.group === "tag" ? 0 : 0.6);
 
       labels.append("rect")
         .attr("x", (d) => -d.name.length * 3.5)
@@ -531,7 +562,7 @@ import Icon from './Icon.astro';
         .attr("text-anchor", "middle")
         .attr("font-size", "13px")
         .attr("font-weight", "500")
-        .attr("fill", colors.postText)
+        .attr("fill", (d) => d.group === "tag" ? colors.tagText : colors.postText)
         .style("user-select", "none");
 
       // Update positions on simulation tick
