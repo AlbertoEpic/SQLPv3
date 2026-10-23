@@ -1,0 +1,97 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import WebcamMap from '@/components/WebcamMap.astro';
+import WebcamCard from '@/components/WebcamCard.astro';
+import WebcamLightbox from '@/components/WebcamLightbox.astro';
+import webcams from '@/data/webcams.json';
+
+const categories = ["Todas", "Pirineo Oscense", "Provincia de Huesca", "Carreteras DGT", "Mundo"];
+
+const seoData = {
+  title: 'Webcams en directo',
+  description: 'Webcams en directo del Pirineo Oscense, la provincia de Huesca y el mundo.',
+  canonical: new URL('/webcams', Astro.site ?? 'http://localhost:5000').toString(),
+  ogType: 'website' as const,
+};
+---
+
+<BaseLayout seoData={seoData}>
+  <div class="bg-[#0f172a] py-10">
+    <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+      <h1 class="mb-2 text-3xl font-bold text-gray-100">Webcams en directo</h1>
+      <p class="mb-6 text-gray-400">Mira cómo está el tiempo ahora mismo en el Pirineo, Huesca y el mundo.</p>
+
+      <WebcamMap webcams={webcams} />
+
+      <div class="my-8 flex flex-wrap gap-2" role="group" aria-label="Filtrar por categoría">
+        {categories.map((cat, i) => (
+          <button
+            type="button"
+            data-filter={cat}
+            aria-pressed={i === 0 ? 'true' : 'false'}
+            class="webcam-filter rounded-full border border-gray-700 bg-gray-900 px-4 py-2 text-sm font-medium text-gray-300 transition-colors hover:border-amber-500 hover:text-amber-400 aria-pressed:border-amber-500 aria-pressed:bg-amber-500 aria-pressed:text-gray-900"
+          >
+            {cat}
+          </button>
+        ))}
+      </div>
+
+      <div id="webcam-grid" class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+        {webcams.map((cam) => (
+          <WebcamCard
+            id={cam.id}
+            title={cam.title}
+            location={cam.location}
+            category={cam.category}
+            type={cam.type as 'youtube' | 'iframe' | 'dgt'}
+            embedUrl={cam.embedUrl}
+            sourceName={cam.sourceName}
+          />
+        ))}
+      </div>
+      <p id="webcam-empty" class="hidden py-10 text-center text-gray-400">No hay cámaras en esta categoría.</p>
+    </div>
+  </div>
+  <WebcamLightbox />
+</BaseLayout>
+
+<script>
+  function initializeWebcamFilters() {
+    const buttons = document.querySelectorAll<HTMLButtonElement>('.webcam-filter');
+    const cards = document.querySelectorAll<HTMLElement>('[data-webcam-card]');
+    const empty = document.getElementById('webcam-empty');
+    if (!buttons.length) return;
+
+    buttons.forEach((btn) => {
+      const fresh = btn.cloneNode(true) as HTMLButtonElement;
+      btn.replaceWith(fresh);
+      fresh.addEventListener('click', () => {
+        const filter = fresh.dataset.filter;
+        document.querySelectorAll<HTMLButtonElement>('.webcam-filter').forEach((b) =>
+          b.setAttribute('aria-pressed', String(b === fresh))
+        );
+        let visible = 0;
+        cards.forEach((card) => {
+          const show = filter === 'Todas' || card.dataset.category === filter;
+          card.classList.toggle('hidden', !show);
+          if (show) visible++;
+        });
+        empty?.classList.toggle('hidden', visible > 0);
+      });
+    });
+  }
+
+  (window as any).initializeWebcamFilters = initializeWebcamFilters;
+  document.addEventListener('DOMContentLoaded', initializeWebcamFilters);
+  if (document.readyState !== 'loading') initializeWebcamFilters();
+
+  const hookFilters = () => {
+    const swup = (window as any).swup;
+    if (!swup?.hooks || (window as any).__webcamFiltersHooked) return;
+    (window as any).__webcamFiltersHooked = true;
+    swup.hooks.on('page:view', () => (window as any).initializeWebcamFilters?.());
+    swup.hooks.on('visit:end', () => (window as any).initializeWebcamFilters?.());
+  };
+  hookFilters();
+  document.addEventListener('DOMContentLoaded', hookFilters);
+</script>

@@ -1,0 +1,200 @@
+[
+  {
+    "id": "cerler-cota-2085",
+    "title": "Cerler - Restaurante El Bosque (2.085m)",
+    "location": "Valle de Benasque, Huesca",
+    "category": "Pirineo Oscense",
+    "type": "iframe",
+    "embedUrl": "https://webtv.feratel.com/webtv/?cam=15083&design=v5&c0=1&c2=1&lg=es&pg=674B2A51-59D0-420A-BA75-38A8F79D99AB&s=0",
+    "sourceName": "Feratel / Aramón",
+    "lat": 42.5891,
+    "lng": 0.5482
+  },
+  {
+    "id": "cerler-ampriu",
+    "title": "Cerler - Ampriu (1.912m)",
+    "location": "Valle de Benasque, Huesca",
+    "category": "Pirineo Oscense",
+    "type": "iframe",
+    "embedUrl": "https://webtv.feratel.com/webtv/?cam=15080&design=v5&c0=1&c2=1&lg=es&pg=674B2A51-59D0-420A-BA75-38A8F79D99AB&s=0",
+    "sourceName": "Feratel / Aramón",
+    "lat": 42.5732,
+    "lng": 0.5801
+  },
+  {
+    "id": "formigal-anayet",
+    "title": "Formigal - Anayet",
+    "location": "Valle de Tena, Huesca",
+    "category": "Pirineo Oscense",
+    "type": "iframe",
+    "embedUrl": "https://webtv.feratel.com/webtv/?design=v3&pg=674B2A51-59D0-420A-BA75-38A8F79D99AB&cam=15020",
+    "sourceName": "Feratel / Aramón",
+    "lat": 42.7661,
+    "lng": -0.3812
+  },
+  {
+    "id": "panticosa-petrosos",
+    "title": "Panticosa - Zona Petrosos",
+    "location": "Valle de Tena, Huesca",
+    "category": "Pirineo Oscense",
+    "type": "iframe",
+    "embedUrl": "https://webtv.feratel.com/webtv/?design=v3&pg=674B2A51-59D0-420A-BA75-38A8F79D99AB&cam=15024",
+    "sourceName": "Feratel / Aramón",
+    "lat": 42.7183,
+    "lng": -0.3168
+  },
+  {
+    "id": "breuil-cervinia",
+    "title": "Breuil-Cervinia - Plateau Rosa",
+    "location": "Breuil-Cervinia, Italia",
+    "category": "Mundo",
+    "type": "iframe",
+    "embedUrl": "https://webtv.feratel.com/webtv/?cam=6350&design=v5&c0=1&c2=1&lg=es&pg=674B2A51-59D0-420A-BA75-38A8F79D99AB&s=0",
+    "sourceName": "Feratel",
+    "lat": 45.919040,
+    "lng": 7.690200
+  },
+  {
+    "id": "dgt-166454",
+    "title": "A-136 Formigal (km 21,1)",
+    "location": "Valle de Tena, Huesca",
+    "category": "Carreteras DGT",
+    "type": "dgt",
+    "embedUrl": "https://etraffic.dgt.es/camarasEtraffic/166454.jpg",
+    "sourceName": "DGT Tráfico",
+    "lat": 42.774857,
+    "lng": -0.3687671
+  },
+  {
+    "id": "dgt-164373",
+    "title": "A-136 Valle de Tena (km 17,8)",
+    "location": "Valle de Tena, Huesca",
+    "category": "Carreteras DGT",
+    "type": "dgt",
+    "embedUrl": "https://etraffic.dgt.es/camarasEtraffic/164373.jpg",
+    "sourceName": "DGT Tráfico",
+    "lat": 42.7625,
+    "lng": -0.337275
+  },
+  {
+    "id": "dgt-180323",
+    "title": "A-136 Valle de Tena (km 8,8)",
+    "location": "Valle de Tena, Huesca",
+    "category": "Carreteras DGT",
+    "type": "dgt",
+    "embedUrl": "https://etraffic.dgt.es/camarasEtraffic/180323.jpg",
+    "sourceName": "DGT Tráfico",
+    "lat": 42.7012,
+    "lng": -0.31968126
+  },
+  {
+    "id": "dgt-164370",
+    "title": "N-330a Candanchú (km 673,4)",
+    "location": "Somport, Huesca",
+    "category": "Carreteras DGT",
+    "type": "dgt",
+    "embedUrl": "https://etraffic.dgt.es/camarasEtraffic/164370.jpg",
+    "sourceName": "DGT Tráfico",
+    "lat": 42.7855,
+    "lng": -0.5223954
+  },
+  {
+    "id": "dgt-165064",
+    "title": "N-330a Somport (km 675,2)",
+    "location": "Somport, Huesca",
+    "category": "Carreteras DGT",
+    "type": "dgt",
+    "embedUrl": "https://etraffic.dgt.es/camarasEtraffic/165064.jpg",
+    "sourceName": "DGT Tráfico",
+    "lat": 42.795506,
+    "lng": -0.5250867
+  },
+  {
+    "id": "dgt-1578",
+    "title": "N-330 Valle de Aísa (km 658)",
+    "location": "Jaca - Somport, Huesca",
+    "category": "Carreteras DGT",
+    "type": "dgt",
+    "embedUrl": "https://etraffic.dgt.es/camarasEtraffic/1578.jpg",
+    "sourceName": "DGT Tráfico",
+    "lat": 42.67524,
+    "lng": -0.5398226
+  },
+  {
+    "id": "dgt-164374",
+    "title": "A-138 Bielsa (km 86,9)",
+    "location": "Sobrarbe, Huesca",
+    "category": "Carreteras DGT",
+    "type": "dgt",
+    "embedUrl": "https://etraffic.dgt.es/camarasEtraffic/164374.jpg",
+    "sourceName": "DGT Tráfico",
+    "lat": 42.689384,
+    "lng": 0.2075648
+  },
+  {
+    "id": "dgt-164375",
+    "title": "A-138 Sobrarbe (km 72,7)",
+    "location": "Sobrarbe, Huesca",
+    "category": "Carreteras DGT",
+    "type": "dgt",
+    "embedUrl": "https://etraffic.dgt.es/camarasEtraffic/164375.jpg",
+    "sourceName": "DGT Tráfico",
+    "lat": 42.585037,
+    "lng": 0.217182
+  },
+  {
+    "id": "dgt-164372",
+    "title": "A-139 Valle de Benasque (km 62,5)",
+    "location": "Ribagorza, Huesca",
+    "category": "Carreteras DGT",
+    "type": "dgt",
+    "embedUrl": "https://etraffic.dgt.es/camarasEtraffic/164372.jpg",
+    "sourceName": "DGT Tráfico",
+    "lat": 42.618206,
+    "lng": 0.5358614
+  },
+  {
+    "id": "dgt-164371",
+    "title": "N-260 Ribagorza (km 385,8)",
+    "location": "Pirineo, Huesca",
+    "category": "Carreteras DGT",
+    "type": "dgt",
+    "embedUrl": "https://etraffic.dgt.es/camarasEtraffic/164371.jpg",
+    "sourceName": "DGT Tráfico",
+    "lat": 42.511753,
+    "lng": 0.4819107
+  },
+  {
+    "id": "dgt-88",
+    "title": "A-23 Huesca Norte (km 386)",
+    "location": "Huesca",
+    "category": "Carreteras DGT",
+    "type": "dgt",
+    "embedUrl": "https://etraffic.dgt.es/camarasEtraffic/88.jpg",
+    "sourceName": "DGT Tráfico",
+    "lat": 42.354053,
+    "lng": -0.394358
+  },
+  {
+    "id": "dgt-178671",
+    "title": "A-22 Tierz (km 101,5)",
+    "location": "Tierz, Huesca",
+    "category": "Carreteras DGT",
+    "type": "dgt",
+    "embedUrl": "https://etraffic.dgt.es/camarasEtraffic/178671.jpg",
+    "sourceName": "DGT Tráfico",
+    "lat": 42.141773,
+    "lng": -0.361565
+  },
+  {
+    "id": "dgt-87",
+    "title": "A-23 Huesca (km 362)",
+    "location": "Huesca",
+    "category": "Carreteras DGT",
+    "type": "dgt",
+    "embedUrl": "https://etraffic.dgt.es/camarasEtraffic/87.jpg",
+    "sourceName": "DGT Tráfico",
+    "lat": 42.15993,
+    "lng": -0.4217974
+  }
+]

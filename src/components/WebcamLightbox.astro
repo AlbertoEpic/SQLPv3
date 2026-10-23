@@ -1,0 +1,190 @@
+<div
+  id="webcam-lightbox"
+  class="fixed inset-0 z-[100] hidden flex-col items-center justify-center bg-black/90 p-4 backdrop-blur-sm"
+  role="dialog"
+  aria-modal="true"
+  aria-label="Webcam ampliada"
+>
+  <button
+    type="button"
+    data-lb-close
+    aria-label="Cerrar"
+    class="absolute right-4 top-4 rounded-full border border-white/10 bg-gray-900 p-2 text-gray-200 hover:text-amber-400 focus-visible:ring-2 focus-visible:ring-amber-500"
+  >
+    <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 6l12 12M18 6L6 18"></path></svg>
+  </button>
+
+  <button
+    type="button"
+    data-lb-prev
+    aria-label="Webcam anterior"
+    class="absolute left-2 top-1/2 z-10 -translate-y-1/2 rounded-full border border-white/10 bg-gray-900/90 p-3 text-gray-200 hover:text-amber-400 focus-visible:ring-2 focus-visible:ring-amber-500 sm:left-6"
+  >
+    <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
+  </button>
+  <button
+    type="button"
+    data-lb-next
+    aria-label="Webcam siguiente"
+    class="absolute right-2 top-1/2 z-10 -translate-y-1/2 rounded-full border border-white/10 bg-gray-900/90 p-3 text-gray-200 hover:text-amber-400 focus-visible:ring-2 focus-visible:ring-amber-500 sm:right-6"
+  >
+    <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+  </button>
+
+  <div class="w-full max-w-5xl">
+    <div data-lb-media class="relative aspect-video w-full overflow-hidden rounded-xl border border-gray-700 bg-black shadow-2xl"></div>
+    <div class="mt-3 flex items-center justify-between gap-4 text-gray-200">
+      <div>
+        <h2 data-lb-title class="text-lg font-bold"></h2>
+        <p data-lb-location class="text-sm text-gray-400"></p>
+      </div>
+      <span data-lb-counter class="whitespace-nowrap text-sm text-amber-400"></span>
+    </div>
+  </div>
+</div>
+
+<script>
+  let items: HTMLElement[] = [];
+  let current = -1;
+  let home: HTMLElement | null = null;
+
+  const lb = () => document.getElementById('webcam-lightbox');
+
+  function visibleCards(): HTMLElement[] {
+    return Array.from(document.querySelectorAll<HTMLElement>('[data-webcam-card]')).filter(
+      (c) => !c.classList.contains('hidden')
+    );
+  }
+
+  function render(): void {
+    const box = lb();
+    const card = items[current];
+    if (!box || !card) return;
+    const media = box.querySelector<HTMLElement>('[data-lb-media]')!;
+    media.replaceChildren();
+
+    const src = card.dataset.mediaSrc || '';
+    if (card.dataset.type === 'dgt') {
+      const img = document.createElement('img');
+      const url = new URL(src, window.location.href);
+      url.searchParams.set('t', String(Date.now()));
+      img.src = url.toString();
+      img.alt = card.dataset.title || '';
+      img.referrerPolicy = 'no-referrer';
+      img.className = 'h-full w-full object-contain';
+      media.append(img);
+    } else {
+      const frame = document.createElement('iframe');
+      frame.src = src;
+      frame.title = card.dataset.title || '';
+      frame.className = 'absolute inset-0 h-full w-full border-0';
+      frame.allow = 'autoplay; encrypted-media; picture-in-picture; fullscreen';
+      frame.allowFullscreen = true;
+      media.append(frame);
+    }
+
+    box.querySelector('[data-lb-title]')!.textContent = card.dataset.title || '';
+    box.querySelector('[data-lb-location]')!.textContent = card.dataset.location || '';
+    box.querySelector('[data-lb-counter]')!.textContent = `${current + 1} / ${items.length}`;
+    const single = items.length < 2;
+    box.querySelector('[data-lb-prev]')!.classList.toggle('hidden', single);
+    box.querySelector('[data-lb-next]')!.classList.toggle('hidden', single);
+  }
+
+  function openLightbox(card: HTMLElement): void {
+    const box = lb();
+    if (!box) return;
+    items = visibleCards();
+    current = items.indexOf(card);
+    if (current < 0) return;
+    render();
+    // #swup-container tiene transform y rompe position: fixed; se pasa a <body>
+    if (box.parentElement !== document.body) {
+      home = box.parentElement;
+      document.body.appendChild(box);
+    }
+    box.classList.remove('hidden');
+    box.classList.add('flex');
+    document.body.style.overflow = 'hidden';
+    box.querySelector<HTMLElement>('[data-lb-close]')?.focus();
+  }
+
+  function openById(id: string): void {
+    const card = document.getElementById(`webcam-${id}`);
+    if (card) openLightbox(card);
+  }
+
+  function closeLightbox(): void {
+    const box = lb();
+    if (!box) return;
+    box.classList.add('hidden');
+    box.classList.remove('flex');
+    box.querySelector('[data-lb-media]')?.replaceChildren();
+    // El scroll sigue bloqueado si el mapa está a pantalla completa
+    document.body.style.overflow = document.querySelector('.webcam-map-full') ? 'hidden' : '';
+    current = -1;
+    if (home && home.isConnected) home.appendChild(box);
+    else box.remove();
+    home = null;
+  }
+
+  function step(delta: number): void {
+    if (current < 0 || items.length < 2) return;
+    current = (current + delta + items.length) % items.length;
+    render();
+  }
+
+  function isOpen(): boolean {
+    return !!lb() && !lb()!.classList.contains('hidden');
+  }
+
+  function initializeWebcamLightbox(): void {
+    // Tras una navegación Swup el DOM anterior ya no existe
+    document.body.style.overflow = '';
+    current = -1;
+    items = [];
+    // Si se navegó con el visor abierto, el original quedó huérfano en <body>
+    document.querySelectorAll('body > #webcam-lightbox').forEach((el) => {
+      if (document.querySelectorAll('#webcam-lightbox').length > 1 || !home?.isConnected) el.remove();
+    });
+    home = null;
+    if ((window as any).__webcamLightboxBound) return;
+    (window as any).__webcamLightboxBound = true;
+
+    document.addEventListener('click', (e) => {
+      const target = e.target as HTMLElement;
+      const expand = target.closest<HTMLElement>('[data-webcam-expand]');
+      if (expand) {
+        const card = expand.closest<HTMLElement>('[data-webcam-card]');
+        if (card) openLightbox(card);
+        return;
+      }
+      if (!isOpen()) return;
+      if (target.closest('[data-lb-close]') || target === lb()) closeLightbox();
+      else if (target.closest('[data-lb-prev]')) step(-1);
+      else if (target.closest('[data-lb-next]')) step(1);
+    });
+
+    document.addEventListener('keydown', (e) => {
+      if (!isOpen()) return;
+      if (e.key === 'Escape') closeLightbox();
+      else if (e.key === 'ArrowLeft') step(-1);
+      else if (e.key === 'ArrowRight') step(1);
+    });
+  }
+
+  (window as any).initializeWebcamLightbox = initializeWebcamLightbox;
+  (window as any).openWebcamLightbox = openById;
+  document.addEventListener('DOMContentLoaded', initializeWebcamLightbox);
+  if (document.readyState !== 'loading') initializeWebcamLightbox();
+
+  const hookLightbox = () => {
+    const swup = (window as any).swup;
+    if (!swup?.hooks || (window as any).__webcamLightboxHooked) return;
+    (window as any).__webcamLightboxHooked = true;
+    swup.hooks.on('page:view', () => (window as any).initializeWebcamLightbox?.());
+    swup.hooks.on('visit:end', () => (window as any).initializeWebcamLightbox?.());
+  };
+  hookLightbox();
+  document.addEventListener('DOMContentLoaded', hookLightbox);
+</script>

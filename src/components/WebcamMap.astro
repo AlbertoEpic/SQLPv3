@@ -1,0 +1,234 @@
+---
+export interface Webcam {
+  id: string;
+  title: string;
+  location: string;
+  category: string;
+  lat: number;
+  lng: number;
+}
+
+export interface Props {
+  webcams: Webcam[];
+  height?: string;
+}
+
+const { webcams, height = '420px' } = Astro.props;
+const data = encodeURIComponent(
+  JSON.stringify(webcams.map(({ id, title, location, category, lat, lng }) => ({ id, title, location, category, lat, lng })))
+);
+---
+
+<div id="webcam-map-wrap" class="relative w-full" style={`height:${height};`} data-height={height}>
+  <div
+    id="webcam-map"
+    class="not-prose h-full w-full overflow-hidden rounded-xl border border-gray-700 bg-[#0f172a]"
+    data-webcams={data}
+    aria-label="Mapa de webcams"
+  >
+  </div>
+  <div
+    id="webcam-map-hint"
+    class="pointer-events-none absolute inset-0 z-[1000] flex items-center justify-center rounded-xl bg-black/50 text-sm font-medium text-gray-100 opacity-0 transition-opacity duration-200"
+    aria-hidden="true"
+  >
+    Usa Ctrl + rueda para hacer zoom en el mapa
+  </div>
+</div>
+
+<style is:global>
+  #webcam-map-wrap.webcam-map-full { position: fixed; inset: 0; z-index: 90; height: 100% !important; background: #0f172a; padding: 0.75rem; box-sizing: border-box; }
+  #webcam-map-wrap.webcam-map-full #webcam-map { border-radius: 0.5rem; }
+  .webcam-marker { background: transparent; border: 0; }
+  .webcam-marker svg { filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.6)); animation: webcam-float 2.5s ease-in-out infinite; }
+  @keyframes webcam-float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
+  #webcam-map .leaflet-popup-content-wrapper,
+  #webcam-map .leaflet-popup-tip { background: #111827; color: #f3f4f6; }
+</style>
+
+<script>
+  import 'leaflet/dist/leaflet.css';
+
+  const CAMERA_SVG = `<svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#0f172a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="11" fill="#f59e0b" stroke="#fcd34d"/><path d="M7 9h6a1.5 1.5 0 0 1 1.5 1.5v3A1.5 1.5 0 0 1 13 15H7a1.5 1.5 0 0 1-1.5-1.5v-3A1.5 1.5 0 0 1 7 9z" fill="#0f172a"/><path d="M14.5 11.2 18 9.5v5l-3.5-1.7" fill="#0f172a"/></svg>`;
+
+  let map: any = null;
+  let fullscreenHome: { parent: Node; next: Node | null } | null = null;
+
+  const EXPAND_ICON = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8V4h4M20 8V4h-4M4 16v4h4M20 16v4h-4"/></svg>';
+  const COLLAPSE_ICON = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 4v4H4M16 4v4h4M8 20v-4H4M16 20v-4h4"/></svg>';
+
+  function isMapFullscreen(): boolean {
+    return !!document.getElementById('webcam-map-wrap')?.classList.contains('webcam-map-full');
+  }
+
+  // #swup-container tiene transform y rompe position: fixed; el contenedor se mueve a <body>
+  function setMapFullscreen(on: boolean): void {
+    const wrap = document.getElementById('webcam-map-wrap');
+    if (!wrap || on === isMapFullscreen()) return;
+    if (on) {
+      fullscreenHome = { parent: wrap.parentNode!, next: wrap.nextSibling };
+      document.body.appendChild(wrap);
+      document.body.style.overflow = 'hidden';
+    } else {
+      if (fullscreenHome?.parent.isConnected) fullscreenHome.parent.insertBefore(wrap, fullscreenHome.next);
+      fullscreenHome = null;
+      document.body.style.overflow = '';
+    }
+    wrap.classList.toggle('webcam-map-full', on);
+    const btn = wrap.querySelector('[data-map-fullscreen]');
+    if (btn) {
+      btn.innerHTML = on ? COLLAPSE_ICON : EXPAND_ICON;
+      btn.setAttribute('aria-label', on ? 'Salir de pantalla completa' : 'Pantalla completa');
+    }
+    setTimeout(() => map?.invalidateSize(), 50);
+  }
+
+  function openWebcam(id: string): void {
+    const card = document.getElementById(`webcam-${id}`);
+    if (!card) return;
+    // Si la tarjeta está oculta por el filtro, mostrar todas para que entre en el visor
+    if (card.classList.contains('hidden')) {
+      (document.querySelector('[data-filter="Todas"]') as HTMLElement | null)?.click();
+    }
+    if ((window as any).openWebcamLightbox) (window as any).openWebcamLightbox(id);
+    else scrollToWebcam(id);
+  }
+
+  function scrollToWebcam(id: string): void {
+    const card = document.getElementById(`webcam-${id}`);
+    if (!card) return;
+    // Si la tarjeta está oculta por el filtro, mostrar todas
+    if (card.classList.contains('hidden')) {
+      (document.querySelector('[data-filter="Todas"]') as HTMLElement | null)?.click();
+    }
+    card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    card.classList.add('webcam-highlight');
+    setTimeout(() => card.classList.remove('webcam-highlight'), 2500);
+  }
+
+  async function initializeWebcamMap(): Promise<void> {
+    const el = document.getElementById('webcam-map');
+    if (!el) return;
+    if (isMapFullscreen()) setMapFullscreen(false);
+    if (map) {
+      map.remove();
+      map = null;
+    }
+    if ((el as any)._leaflet_id) delete (el as any)._leaflet_id;
+
+    const L = (await import('leaflet')).default;
+    const webcams = JSON.parse(decodeURIComponent(el.dataset.webcams || '[]'));
+
+    map = L.map(el, { scrollWheelZoom: false }).setView([42.4, -0.3], 8);
+
+    // Sin pantalla completa, la rueda solo hace zoom con Ctrl pulsado; si no, la página sigue haciendo scroll
+    const wrap = document.getElementById('webcam-map-wrap');
+    const hint = document.getElementById('webcam-map-hint');
+    let hintTimer: number | undefined;
+    wrap?.addEventListener(
+      'wheel',
+      (e: WheelEvent) => {
+        if (!map) return;
+        if (isMapFullscreen() || e.ctrlKey) {
+          map.scrollWheelZoom.enable();
+          return;
+        }
+        map.scrollWheelZoom.disable();
+        if (hint) {
+          hint.style.opacity = '1';
+          window.clearTimeout(hintTimer);
+          hintTimer = window.setTimeout(() => (hint.style.opacity = '0'), 1200);
+        }
+      },
+      { capture: true, passive: true }
+    );
+    // Mismos proveedores sin API key que usa el mapa de los posts (leaflet-client.ts), más un fondo oscuro
+    const dark = L.layerGroup([
+      L.tileLayer('https://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
+        attribution: 'Tiles &copy; Esri',
+        maxNativeZoom: 16,
+        maxZoom: 18,
+      }),
+      L.tileLayer('https://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Reference/MapServer/tile/{z}/{y}/{x}', {
+        maxNativeZoom: 16,
+        maxZoom: 18,
+      }),
+    ]);
+    const topo = L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; OpenTopoMap &copy; OpenStreetMap',
+      maxZoom: 17,
+    });
+    const satellite = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+      attribution: '&copy; Esri',
+      maxZoom: 18,
+    });
+    dark.addTo(map);
+    L.control.layers({ Oscuro: dark, Topográfico: topo, Satélite: satellite }, undefined, { position: 'topright' }).addTo(map);
+
+    const FullscreenControl = L.Control.extend({
+      options: { position: 'topleft' },
+      onAdd() {
+        const bar = L.DomUtil.create('div', 'leaflet-bar leaflet-control');
+        const a = L.DomUtil.create('a', '', bar) as HTMLAnchorElement;
+        a.href = '#';
+        a.setAttribute('role', 'button');
+        a.setAttribute('aria-label', 'Pantalla completa');
+        a.title = 'Pantalla completa';
+        a.dataset.mapFullscreen = 'true';
+        a.style.cssText = 'display:flex;align-items:center;justify-content:center;';
+        a.innerHTML = EXPAND_ICON;
+        L.DomEvent.disableClickPropagation(bar);
+        L.DomEvent.on(a, 'click', (e: Event) => {
+          L.DomEvent.preventDefault(e);
+          setMapFullscreen(!isMapFullscreen());
+        });
+        return bar;
+      },
+    });
+    map.addControl(new FullscreenControl());
+
+    const icon = L.divIcon({
+      className: 'webcam-marker',
+      html: CAMERA_SVG,
+      iconSize: [34, 34],
+      iconAnchor: [17, 17],
+      popupAnchor: [0, -18],
+    });
+
+    const bounds: [number, number][] = [];
+    for (const cam of webcams) {
+      const marker = L.marker([cam.lat, cam.lng], { icon, title: cam.title, keyboard: true }).addTo(map);
+      marker.bindTooltip(cam.title, { direction: 'top', offset: [0, -16] });
+      marker.on('click', () => openWebcam(cam.id));
+      if (cam.category !== 'Mundo') bounds.push([cam.lat, cam.lng]);
+    }
+    if (bounds.length > 1) map.fitBounds(bounds, { padding: [40, 40], maxZoom: 9 });
+  }
+
+  (window as any).scrollToWebcam = scrollToWebcam;
+  (window as any).initializeWebcamMap = initializeWebcamMap;
+
+  if (!(window as any).__webcamMapEsc) {
+    (window as any).__webcamMapEsc = true;
+    document.addEventListener('keydown', (e) => {
+      if (e.key !== 'Escape' || !isMapFullscreen()) return;
+      // Si el visor está abierto, Esc solo cierra el visor
+      const lb = document.getElementById('webcam-lightbox');
+      if (lb && !lb.classList.contains('hidden')) return;
+      setMapFullscreen(false);
+    });
+  }
+
+  document.addEventListener('DOMContentLoaded', initializeWebcamMap);
+  if (document.readyState !== 'loading') initializeWebcamMap();
+
+  const hook = () => {
+    const swup = (window as any).swup;
+    if (!swup?.hooks || (window as any).__webcamMapHooked) return;
+    (window as any).__webcamMapHooked = true;
+    swup.hooks.on('page:view', () => (window as any).initializeWebcamMap?.());
+    swup.hooks.on('visit:end', () => (window as any).initializeWebcamMap?.());
+  };
+  hook();
+  document.addEventListener('DOMContentLoaded', hook);
+</script>
