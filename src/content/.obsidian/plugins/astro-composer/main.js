@@ -108,6 +108,13 @@ function sortByPatternSpecificity(types) {
 }
 
 // src/utils/string-utils.ts
+function toSafeFileName(str) {
+  const cleaned = str.normalize("NFC").replace(/[‎‏‪-‮⁦-⁩]/g, "").split("").filter((char) => char.charCodeAt(0) >= 32).join("").replace(/[\\/:*?"<>|#^[\]]/g, " ").replace(/\s+/g, " ").trim().replace(/^\.+/, "").replace(/[.\s]+$/g, "");
+  if (/^(con|prn|aux|nul|com[1-9]|lpt[1-9])$/i.test(cleaned)) {
+    return `${cleaned} file`;
+  }
+  return cleaned;
+}
 function toKebabCase(str) {
   const normalized = str.normalize("NFKC").replace(/([a-z0-9])([A-Z])/g, "$1-$2").replace(/([A-Z])([A-Z][a-z])/g, "$1-$2$3").toLowerCase().replace(/[\u200e\u200f\u202a-\u202e\u2066-\u2069]/g, "").replace(/[<>:"/\\|?*]/g, " ").split("").filter((char) => char.charCodeAt(0) >= 32).join("").replace(/[^\p{L}\p{N}\p{M}\s-]/gu, "").trim().replace(/\s+/g, "-").replace(/-+/g, "-").replace(/^-|-$/g, "");
   if (!normalized) {
@@ -134,7 +141,9 @@ var FileOperations = class {
     }
     return this.settings;
   }
-  createSafeStem(title) {
+  /** A file or folder name from a title, in the content type's file name format. */
+  createSafeStem(title, contentType) {
+    if ((contentType == null ? void 0 : contentType.fileNameFormat) === "title") return toSafeFileName(title) || "Untitled";
     return toKebabCase(title) || "untitled";
   }
   getUniqueFilePath(path, currentPathToIgnore) {
@@ -173,8 +182,8 @@ var FileOperations = class {
       suffix += 1;
     }
   }
-  generateFilename(title, enableUnderscorePrefix = false) {
-    const safeKebabTitle = this.createSafeStem(title);
+  generateFilename(title, enableUnderscorePrefix = false, contentType) {
+    const safeKebabTitle = this.createSafeStem(title, contentType);
     const prefix = enableUnderscorePrefix ? "_" : "";
     return `${prefix}${safeKebabTitle}`;
   }
@@ -265,7 +274,7 @@ var FileOperations = class {
       new import_obsidian.Notice(`Content type ${type} not found.`);
       return null;
     }
-    const kebabTitle = this.createSafeStem(title);
+    const kebabTitle = this.createSafeStem(title, contentType);
     const enableUnderscorePrefix = (contentType == null ? void 0 : contentType.enableUnderscorePrefix) || false;
     const prefix = enableUnderscorePrefix ? "_" : "";
     let targetFolder = "";
@@ -446,7 +455,7 @@ var FileOperations = class {
       new import_obsidian.Notice(`Content type ${type} not found.`);
       return null;
     }
-    const kebabTitle = this.createSafeStem(title);
+    const kebabTitle = this.createSafeStem(title, contentType);
     const prefix = "";
     const creationMode = (contentType == null ? void 0 : contentType.creationMode) || "file";
     if (creationMode === "folder") {
@@ -1559,8 +1568,8 @@ var TitleModal = class extends import_obsidian4.Modal {
     } else {
       targetFolder = originalDir;
     }
-    const filename = this.fileOps.generateFilename(title);
     const contentType = this.fileOps.getContentType(this.type);
+    const filename = this.fileOps.generateFilename(title, false, contentType);
     const extension = (contentType == null ? void 0 : contentType.useMdxExtension) ? ".mdx" : ".md";
     const filePath = targetFolder ? `${targetFolder}/${filename}${extension}` : `${filename}${extension}`;
     if (this.plugin) {
@@ -3511,6 +3520,7 @@ var AstroComposerSettingTab = class extends import_obsidian9.PluginSettingTab {
       template: '---\ntitle: "{{title}}"\ndate: {{date}}\n---\n',
       enabled: true,
       creationMode: "file",
+      fileNameFormat: "kebab-case",
       indexFileName: "",
       ignoreSubfolders: false,
       enableUnderscorePrefix: false,
@@ -3681,6 +3691,12 @@ var AstroComposerSettingTab = class extends import_obsidian9.PluginSettingTab {
           customType.creationMode = value;
           await this.plugin.saveSettings();
           this.updateCustomContentTypeIndexFileField(customType.id);
+        })
+      );
+      new import_obsidian9.Setting(settingsContainer.createDiv()).setName("File name").setDesc("How new entries are named from their title. Kebab-case gives my-post.md; as typed keeps the title with its capitals and spaces, as Obsidian names notes.").addDropdown(
+        (dropdown) => dropdown.addOption("kebab-case", "Kebab-case (my-post.md)").addOption("title", "As typed (keeps capitals and spaces)").setValue(customType.fileNameFormat || "kebab-case").onChange(async (value) => {
+          customType.fileNameFormat = value;
+          await this.plugin.saveSettings();
         })
       );
       const indexFileContainer = settingsContainer.createDiv({ cls: "custom-index-file-field" });
