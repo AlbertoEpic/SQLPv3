@@ -10,8 +10,8 @@
     "semantic_hash": ""
   },
   "astro.config.mjs": {
-    "mtime": 1792340054.4390502,
-    "ast_hash": "b86a46e47bf4a2c14c2752d3aec4eefe",
+    "mtime": 1793030170.5971894,
+    "ast_hash": "cc43ac8b5c4a322de8382144b7c6aad4",
     "semantic_hash": ""
   },
   "cli/bin/create-astro-modular.mjs": {
@@ -50,13 +50,13 @@
     "semantic_hash": ""
   },
   "public/gpx/strava/index.json": {
-    "mtime": 1792339290.4471967,
-    "ast_hash": "609814d3c9056891bd6fbead0892385c",
+    "mtime": 1793030170.3871903,
+    "ast_hash": "3ecd5e6ff6890c923e793a92c3b2cdb5",
     "semantic_hash": ""
   },
   "public/gpx/strava/manual-links.json": {
-    "mtime": 1792339290.470197,
-    "ast_hash": "f684dbc3aeb38b99a4671dd34e17839e",
+    "mtime": 1793030170.3871903,
+    "ast_hash": "29925d09ee8ea9da3c850ee1f295a97a",
     "semantic_hash": ""
   },
   "public/scripts/category-filtering.js": {
@@ -170,8 +170,8 @@
     "semantic_hash": ""
   },
   "src/components/GraphModal.astro": {
-    "mtime": 1792401345.5008614,
-    "ast_hash": "ae21b939ce6702fbab09cde8dfcdbb94",
+    "mtime": 1792401420.0204322,
+    "ast_hash": "5fd3e7b2af19c88a1b7246248e3268b9",
     "semantic_hash": ""
   },
   "src/components/Header.astro": {
@@ -310,12 +310,12 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/app.json": {
-    "mtime": 1792058094.0060143,
+    "mtime": 1793000999.5543244,
     "ast_hash": "0c7175952b89ee6124443b43550766ea",
     "semantic_hash": ""
   },
   "src/content/.obsidian/appearance.json": {
-    "mtime": 1792058094.139014,
+    "mtime": 1793000999.6663246,
     "ast_hash": "f462304feea404fb74a1bcb75eb1f70d",
     "semantic_hash": ""
   },
@@ -330,12 +330,12 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/community-plugins.json": {
-    "mtime": 1792058093.9380121,
+    "mtime": 1793000999.9573238,
     "ast_hash": "97489853a7f6ebee87999c1bd3e8d442",
     "semantic_hash": ""
   },
   "src/content/.obsidian/core-plugins.json": {
-    "mtime": 1792058093.138013,
+    "mtime": 1793000999.2723248,
     "ast_hash": "db29479913624ef3dc8b0036639d2854",
     "semantic_hash": ""
   },
@@ -355,13 +355,13 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/astro-composer/main.js": {
-    "mtime": 1788082075.239465,
-    "ast_hash": "d739810bad6e55de146d1d44811713dc",
+    "mtime": 1793001076.058863,
+    "ast_hash": "ae53f9ac0883ec194c108288f28b3016",
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/astro-composer/manifest.json": {
-    "mtime": 1788082075.2404637,
-    "ast_hash": "428176117440892a43478957f5bc0d50",
+    "mtime": 1793001076.060542,
+    "ast_hash": "36a97d07cfd0bdcdd52928e34a088735",
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/astro-modular-settings/data.json": {
@@ -395,7 +395,7 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/consistent-attachments-and-links/data.json": {
-    "mtime": 1792058092.376,
+    "mtime": 1793000998.898,
     "ast_hash": "8437410eb6cccad442f9a5b5414c403e",
     "semantic_hash": ""
   },
@@ -440,7 +440,7 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/editing-toolbar/data.json": {
-    "mtime": 1792058092.161,
+    "mtime": 1793000998.685,
     "ast_hash": "eb0d237aa2244036f55114b6012aa606",
     "semantic_hash": ""
   },
@@ -545,13 +545,13 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/nested-properties/main.js": {
-    "mtime": 1791216364.3953757,
-    "ast_hash": "cbe9265b9b0da8a5ab3e6f5e0ed68ce3",
+    "mtime": 1793001062.376652,
+    "ast_hash": "fd67fd90ba0d2fdad5edc53e9dc73f0c",
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/nested-properties/manifest.json": {
-    "mtime": 1791216364.396382,
-    "ast_hash": "79efe2479497749975bbb01df97b9778",
+    "mtime": 1793001062.3786538,
+    "ast_hash": "8e4ba7188044e3f33a3c13817ec2619c",
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/obsidian-git/data.json": {
@@ -590,7 +590,7 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/omnisearch/data.json": {
-    "mtime": 1792058094.671,
+    "mtime": 1793001000.152,
     "ast_hash": "c8f315bcb8888e08c3461f22885addf4",
     "semantic_hash": ""
   },
@@ -635,8 +635,8 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/seo/data.json": {
-    "mtime": 1779290939.807332,
-    "ast_hash": "3ea391c6d56c4f9fa32313a006f918f5",
+    "mtime": 1793007547.639,
+    "ast_hash": "1b2040d6ab9eaa5aafac37c494699b04",
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/seo/main.js": {
@@ -1420,8 +1420,8 @@
     "semantic_hash": ""
   },
   "src/content/posts/barranco-de-sorrosal.md": {
-    "mtime": 1779443313.2497194,
-    "ast_hash": "8d497a4c7cfd02ee6119905a4ccdcdc1",
+    "mtime": 1792404321.5283563,
+    "ast_hash": "5241dfa166f45c9bd0912658bff49fda",
     "semantic_hash": ""
   },
   "src/content/posts/barranco-del-caldares.md": {
@@ -3390,8 +3390,8 @@
     "semantic_hash": ""
   },
   "src/content/posts/skimo-tendenera-2-845m.md": {
-    "mtime": 1786396994.54208,
-    "ast_hash": "6d679616ce781bc7c30ba673d0851fdc",
+    "mtime": 1792405135.0529964,
+    "ast_hash": "ee22fce32b31fe4f25c6bebfed3a288e",
     "semantic_hash": ""
   },
   "src/content/posts/skimo-tuca-del-posolobino-2-778m.md": {
@@ -7532,6 +7532,46 @@
   "src/content/posts/attachments/ruta-zzs-pares.png": {
     "mtime": 1791216445.9186506,
     "ast_hash": "a678801dc8fb3f1c846bd8875633cd2b",
+    "semantic_hash": ""
+  },
+  "src/components/WebcamCard.astro": {
+    "mtime": 1793031020.6756387,
+    "ast_hash": "e8bb2ad0dd9c3f1268a9e963117fbab8",
+    "semantic_hash": ""
+  },
+  "src/components/WebcamLightbox.astro": {
+    "mtime": 1793031020.6896398,
+    "ast_hash": "d73c1bda5143017bce9509cdec906c9e",
+    "semantic_hash": ""
+  },
+  "src/components/WebcamMap.astro": {
+    "mtime": 1792774670.9761598,
+    "ast_hash": "e718950c32844ad89c21139b330738a5",
+    "semantic_hash": ""
+  },
+  "src/data/webcams.json": {
+    "mtime": 1793032066.8120472,
+    "ast_hash": "820baa84a9aa0301989750fbb1742f6f",
+    "semantic_hash": ""
+  },
+  "src/pages/webcams.astro": {
+    "mtime": 1793031020.6626403,
+    "ast_hash": "8cd9715eda7725b65a8462b269512fa7",
+    "semantic_hash": ""
+  },
+  "src/content/posts/la-tetralog\u00eda-de-a\u00edsa-emtb.md": {
+    "mtime": 1793007532.2569804,
+    "ast_hash": "0bd24c59d426f4bc3944979fc14a8ed2",
+    "semantic_hash": ""
+  },
+  "src/content/posts/attachments/barranco-de-sorrosal.png": {
+    "mtime": 1792404311.2684238,
+    "ast_hash": "ce6051d81d5cc9579d89335cc61f20e9",
+    "semantic_hash": ""
+  },
+  "src/content/posts/attachments/la-tetraloga-de-asa-emtb.jpg": {
+    "mtime": 1793007527.3349752,
+    "ast_hash": "a31f77c389698651beda49048e5f778e",
     "semantic_hash": ""
   }
 }

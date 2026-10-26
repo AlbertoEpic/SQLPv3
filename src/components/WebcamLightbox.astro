@@ -64,7 +64,7 @@
     media.replaceChildren();
 
     const src = card.dataset.mediaSrc || '';
-    if (card.dataset.type === 'dgt') {
+    if (card.dataset.type === 'dgt' || card.dataset.type === 'snapshot') {
       const img = document.createElement('img');
       const url = new URL(src, window.location.href);
       url.searchParams.set('t', String(Date.now()));

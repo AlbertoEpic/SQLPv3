@@ -29,8 +29,8 @@
     "type": "iframe",
     "embedUrl": "https://webtv.feratel.com/webtv/?design=v3&pg=674B2A51-59D0-420A-BA75-38A8F79D99AB&cam=15020",
     "sourceName": "Feratel / Aramón",
-    "lat": 42.7661,
-    "lng": -0.3812
+    "lat": 42.76328402936604,
+    "lng": -0.40628143469657335
   },
   {
     "id": "panticosa-petrosos",
@@ -40,8 +40,30 @@
     "type": "iframe",
     "embedUrl": "https://webtv.feratel.com/webtv/?design=v3&pg=674B2A51-59D0-420A-BA75-38A8F79D99AB&cam=15024",
     "sourceName": "Feratel / Aramón",
-    "lat": 42.7183,
-    "lng": -0.3168
+    "lat": 42.703258861162,
+    "lng": -0.27490925714408826
+  },
+  {
+    "id": "portalet-frontera",
+    "title": "Frontera del Portalet",
+    "location": "Puerto del Portalet, Sallent de Gállego, Huesca",
+    "category": "Pirineo Oscense",
+    "type": "iframe",
+    "embedUrl": "https://webcams.windy.com/webcams/public/embed/player/1491734335/day",
+    "sourceName": "Windy Webcams",
+    "lat": 42.805972986903406,
+    "lng": -0.4186109886345741
+  },
+  {
+    "id": "portalet-col-du-pourtalet",
+    "title": "Col du Portalet",
+    "location": "Puerto del Portalet, Sallent de Gállego, Huesca",
+    "category": "Pirineo Oscense",
+    "type": "iframe",
+    "embedUrl": "https://webcams.windy.com/webcams/public/embed/player/1609141904/day",
+    "sourceName": "Windy Webcams",
+    "lat": 42.80559962031162,
+    "lng": -0.41862493082660057
   },
   {
     "id": "breuil-cervinia",
@@ -55,6 +77,125 @@
     "lng": 7.690200
   },
   {
+    "id": "mieders-flyingcam",
+    "title": "Mieders - FlyingCam",
+    "location": "Mieders, Tirol, Austria",
+    "category": "Mundo",
+    "type": "iframe",
+    "embedUrl": "https://webtvfc.feratel.com/webtv/?design=v5&pg=DA7D2F22-8600-464D-9D4F-CDB04014A6C5&cam=75772&lg=es&sound=muted",
+    "sourceName": "Feratel",
+    "lat": 47.1667,
+    "lng": 11.3833
+  },
+  {
+    "id": "goriz-valle-ordesa",
+    "title": "Refugio de Góriz - Valle de Ordesa",
+    "location": "Parque Nacional de Ordesa y Monte Perdido, Huesca",
+    "category": "Pirineo Oscense",
+    "type": "snapshot",
+    "embedUrl": "https://alberguesyrefugios.com/img/webcams/goriz2.jpg",
+    "sourceName": "Albergues y refugios (FAM)",
+    "sourceUrl": "https://www.alberguesyrefugios.com/webcams#gallery-webcam-16",
+    "lat": 42.66354348864314,
+    "lng": 0.014861468323007374
+  },
+  {
+    "id": "mondicieto-este",
+    "title": "Pico Mondicieto - Vista este",
+    "location": "Ordesa y Monte Perdido, Huesca",
+    "category": "Pirineo Oscense",
+    "type": "snapshot",
+    "embedUrl": "https://alberguesyrefugios.com/img/webcams/Cutas.jpg",
+    "sourceName": "Albergues y refugios (FAM)",
+    "sourceUrl": "https://www.alberguesyrefugios.com/webcams",
+    "lat": 42.62646128666203,
+    "lng": -0.000428311308674
+  },
+  {
+    "id": "mondicieto-ordesa-monte-perdido",
+    "title": "Pico Mondicieto - Ordesa y Monte Perdido",
+    "location": "Cabecera del valle de Ordesa, Huesca",
+    "category": "Pirineo Oscense",
+    "type": "snapshot",
+    "embedUrl": "https://alberguesyrefugios.com/img/webcams/Mondicieto.jpg",
+    "sourceName": "Albergues y refugios (FAM)",
+    "sourceUrl": "https://www.alberguesyrefugios.com/webcams",
+    "lat": 42.62646128666203,
+    "lng": -0.00042831130867400396
+  },
+  {
+    "id": "pineta",
+    "title": "Refugio de Pineta",
+    "location": "Valle de Pineta, Huesca",
+    "category": "Pirineo Oscense",
+    "type": "snapshot",
+    "embedUrl": "https://alberguesyrefugios.com/img/webcams/Pineta.jpg",
+    "sourceName": "Albergues y refugios (FAM)",
+    "sourceUrl": "https://www.alberguesyrefugios.com/webcams",
+    "lat": 42.66617,
+    "lng": 0.10334
+  },
+  {
+    "id": "viados",
+    "title": "Refugio de Viadós",
+    "location": "Valle de Chistau, Huesca",
+    "category": "Pirineo Oscense",
+    "type": "snapshot",
+    "embedUrl": "https://alberguesyrefugios.com/img/webcams/viados.jpg",
+    "sourceName": "Albergues y refugios (FAM)",
+    "sourceUrl": "https://www.alberguesyrefugios.com/webcams",
+    "lat": 42.660711,
+    "lng": 0.377183
+  },
+  {
+    "id": "estos-valle",
+    "title": "Refugio de Estós - Valle de Estós y Maladetas",
+    "location": "Valle de Estós, Huesca",
+    "category": "Pirineo Oscense",
+    "type": "snapshot",
+    "embedUrl": "https://alberguesyrefugios.com/img/webcams/estos.jpg",
+    "sourceName": "Albergues y refugios (FAM)",
+    "sourceUrl": "https://www.alberguesyrefugios.com/webcams",
+    "lat": 42.67835,
+    "lng": 0.48653
+  },
+  {
+    "id": "estos-bardamina",
+    "title": "Refugio de Estós - Tucas de Bardamina",
+    "location": "Valle de Estós, Huesca",
+    "category": "Pirineo Oscense",
+    "type": "snapshot",
+    "embedUrl": "https://alberguesyrefugios.com/img/webcams/Estos000M.jpg",
+    "sourceName": "Albergues y refugios (FAM)",
+    "sourceUrl": "https://www.alberguesyrefugios.com/webcams",
+    "lat": 42.67835,
+    "lng": 0.48653
+  },
+  {
+    "id": "escuela-montana-benasque",
+    "title": "Escuela de Montaña de Benasque",
+    "location": "Benasque, Huesca",
+    "category": "Pirineo Oscense",
+    "type": "snapshot",
+    "embedUrl": "https://alberguesyrefugios.com/img/webcams/benasque000M.jpg",
+    "sourceName": "Albergues y refugios (FAM)",
+    "sourceUrl": "https://www.alberguesyrefugios.com/webcams",
+    "lat": 42.61963,
+    "lng": 0.52168
+  },
+  {
+    "id": "pico-cogulla",
+    "title": "Pico Cogulla",
+    "location": "Cerler, Huesca",
+    "category": "Pirineo Oscense",
+    "type": "snapshot",
+    "embedUrl": "https://alberguesyrefugios.com/img/webcams/Aneto.jpg",
+    "sourceName": "Albergues y refugios (FAM)",
+    "sourceUrl": "https://www.alberguesyrefugios.com/webcams",
+    "lat": 42.55,
+    "lng": 0.55
+  },
+  {
     "id": "dgt-166454",
     "title": "A-136 Formigal (km 21,1)",
     "location": "Valle de Tena, Huesca",
@@ -64,17 +205,6 @@
     "sourceName": "DGT Tráfico",
     "lat": 42.774857,
     "lng": -0.3687671
-  },
-  {
-    "id": "dgt-164373",
-    "title": "A-136 Valle de Tena (km 17,8)",
-    "location": "Valle de Tena, Huesca",
-    "category": "Carreteras DGT",
-    "type": "dgt",
-    "embedUrl": "https://etraffic.dgt.es/camarasEtraffic/164373.jpg",
-    "sourceName": "DGT Tráfico",
-    "lat": 42.7625,
-    "lng": -0.337275
   },
   {
     "id": "dgt-180323",
@@ -130,17 +260,6 @@
     "sourceName": "DGT Tráfico",
     "lat": 42.689384,
     "lng": 0.2075648
-  },
-  {
-    "id": "dgt-164375",
-    "title": "A-138 Sobrarbe (km 72,7)",
-    "location": "Sobrarbe, Huesca",
-    "category": "Carreteras DGT",
-    "type": "dgt",
-    "embedUrl": "https://etraffic.dgt.es/camarasEtraffic/164375.jpg",
-    "sourceName": "DGT Tráfico",
-    "lat": 42.585037,
-    "lng": 0.217182
   },
   {
     "id": "dgt-164372",

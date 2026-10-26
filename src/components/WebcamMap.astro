@@ -22,14 +22,14 @@ const data = encodeURIComponent(
 <div id="webcam-map-wrap" class="relative w-full" style={`height:${height};`} data-height={height}>
   <div
     id="webcam-map"
-    class="not-prose h-full w-full overflow-hidden rounded-xl border border-gray-700 bg-[#0f172a]"
+    class="not-prose h-full w-full overflow-hidden rounded-xl border border-primary-200 bg-primary-100 dark:border-primary-700 dark:bg-primary-900"
     data-webcams={data}
     aria-label="Mapa de webcams"
   >
   </div>
   <div
     id="webcam-map-hint"
-    class="pointer-events-none absolute inset-0 z-[1000] flex items-center justify-center rounded-xl bg-black/50 text-sm font-medium text-gray-100 opacity-0 transition-opacity duration-200"
+    class="pointer-events-none absolute inset-0 z-[1000] flex items-center justify-center rounded-xl bg-primary-950/50 text-sm font-medium text-primary-50 opacity-0 transition-opacity duration-200"
     aria-hidden="true"
   >
     Usa Ctrl + rueda para hacer zoom en el mapa
@@ -37,13 +37,16 @@ const data = encodeURIComponent(
 </div>
 
 <style is:global>
-  #webcam-map-wrap.webcam-map-full { position: fixed; inset: 0; z-index: 90; height: 100% !important; background: #0f172a; padding: 0.75rem; box-sizing: border-box; }
+  #webcam-map-wrap.webcam-map-full { position: fixed; inset: 0; z-index: 90; height: 100% !important; background: rgb(var(--color-primary-50)); padding: 0.75rem; box-sizing: border-box; }
+  .dark #webcam-map-wrap.webcam-map-full { background: rgb(var(--color-primary-950)); }
   #webcam-map-wrap.webcam-map-full #webcam-map { border-radius: 0.5rem; }
   .webcam-marker { background: transparent; border: 0; }
   .webcam-marker svg { filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.6)); animation: webcam-float 2.5s ease-in-out infinite; }
   @keyframes webcam-float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
   #webcam-map .leaflet-popup-content-wrapper,
-  #webcam-map .leaflet-popup-tip { background: #111827; color: #f3f4f6; }
+  #webcam-map .leaflet-popup-tip { background: rgb(var(--color-primary-50)); color: rgb(var(--color-primary-900)); }
+  .dark #webcam-map .leaflet-popup-content-wrapper,
+  .dark #webcam-map .leaflet-popup-tip { background: rgb(var(--color-primary-900)); color: rgb(var(--color-primary-50)); }
 </style>
 
 <script>
@@ -154,6 +157,17 @@ const data = encodeURIComponent(
         maxZoom: 18,
       }),
     ]);
+    const light = L.layerGroup([
+      L.tileLayer('https://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
+        attribution: 'Tiles &copy; Esri',
+        maxNativeZoom: 16,
+        maxZoom: 18,
+      }),
+      L.tileLayer('https://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Reference/MapServer/tile/{z}/{y}/{x}', {
+        maxNativeZoom: 16,
+        maxZoom: 18,
+      }),
+    ]);
     const topo = L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
       attribution: '&copy; OpenTopoMap &copy; OpenStreetMap',
       maxZoom: 17,
@@ -162,8 +176,8 @@ const data = encodeURIComponent(
       attribution: '&copy; Esri',
       maxZoom: 18,
     });
-    dark.addTo(map);
-    L.control.layers({ Oscuro: dark, Topográfico: topo, Satélite: satellite }, undefined, { position: 'topright' }).addTo(map);
+    topo.addTo(map);
+    L.control.layers({ Topográfico: topo, Claro: light, Oscuro: dark, Satélite: satellite }, undefined, { position: 'topright' }).addTo(map);
 
     const FullscreenControl = L.Control.extend({
       options: { position: 'topleft' },

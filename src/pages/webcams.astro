@@ -4,6 +4,7 @@ import WebcamMap from '@/components/WebcamMap.astro';
 import WebcamCard from '@/components/WebcamCard.astro';
 import WebcamLightbox from '@/components/WebcamLightbox.astro';
 import webcams from '@/data/webcams.json';
+import { withBase } from '@/utils/base-url';
 
 const categories = ["Todas", "Pirineo Oscense", "Provincia de Huesca", "Carreteras DGT", "Mundo"];
 
@@ -16,20 +17,32 @@ const seoData = {
 ---
 
 <BaseLayout seoData={seoData}>
-  <div class="bg-[#0f172a] py-10">
-    <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-      <h1 class="mb-2 text-3xl font-bold text-gray-100">Webcams en directo</h1>
-      <p class="mb-6 text-gray-400">Mira cómo está el tiempo ahora mismo en el Pirineo, Huesca y el mundo.</p>
+  <main class="webcams-cover w-full pb-14">
+    <section class="webcams-fullbleed relative overflow-hidden border-b border-primary-200/80 dark:border-primary-700/70">
+      <div class="webcams-hero-bg absolute inset-0" style={`background-image: url('${withBase('/fondo_heroSQLP.jpg')}')`} aria-hidden="true"></div>
+      <div class="webcams-hero-overlay absolute inset-0" aria-hidden="true"></div>
+      <div class="relative px-4 py-12 sm:px-6 md:py-16 lg:px-10">
+        <h1 class="webcams-title leading-tight">Webcams en directo</h1>
+        <p class="mt-4 max-w-xl text-base text-white/90 sm:text-lg">
+          Mira cómo está el tiempo ahora mismo en el Pirineo, Huesca y el mundo.
+        </p>
+      </div>
+    </section>
 
-      <WebcamMap webcams={webcams} />
+    <section class="px-4 sm:px-6 lg:px-10 mt-8 md:mt-10">
+      <div class="webcams-island">
+        <WebcamMap webcams={webcams} />
+      </div>
+    </section>
 
-      <div class="my-8 flex flex-wrap gap-2" role="group" aria-label="Filtrar por categoría">
+    <section class="px-4 sm:px-6 lg:px-10 mt-8">
+      <div class="mb-6 flex flex-wrap gap-2" role="group" aria-label="Filtrar por categoría">
         {categories.map((cat, i) => (
           <button
             type="button"
             data-filter={cat}
             aria-pressed={i === 0 ? 'true' : 'false'}
-            class="webcam-filter rounded-full border border-gray-700 bg-gray-900 px-4 py-2 text-sm font-medium text-gray-300 transition-colors hover:border-amber-500 hover:text-amber-400 aria-pressed:border-amber-500 aria-pressed:bg-amber-500 aria-pressed:text-gray-900"
+            class="webcam-filter rounded-xl border border-primary-200 bg-primary-50/80 px-4 py-2 text-sm font-semibold text-primary-800 transition-colors hover:border-highlight-500 hover:text-highlight-700 aria-pressed:border-highlight-400 aria-pressed:bg-highlight-600 aria-pressed:text-primary-50 dark:border-primary-700 dark:bg-primary-900/60 dark:text-primary-100 dark:hover:text-highlight-300"
           >
             {cat}
           </button>
@@ -43,18 +56,75 @@ const seoData = {
             title={cam.title}
             location={cam.location}
             category={cam.category}
-            type={cam.type as 'youtube' | 'iframe' | 'dgt'}
+            type={cam.type as 'youtube' | 'iframe' | 'dgt' | 'snapshot'}
             embedUrl={cam.embedUrl}
             sourceName={cam.sourceName}
+            sourceUrl={cam.sourceUrl}
           />
         ))}
       </div>
-      <p id="webcam-empty" class="hidden py-10 text-center text-gray-400">No hay cámaras en esta categoría.</p>
-    </div>
-  </div>
+      <p id="webcam-empty" class="hidden py-10 text-center text-primary-600 dark:text-primary-300">No hay cámaras en esta categoría.</p>
+    </section>
+  </main>
   <WebcamLightbox />
 </BaseLayout>
 
+<style>
+  .webcams-cover {
+    background:
+      radial-gradient(1200px 380px at 20% -5%, rgb(var(--color-highlight-500) / 0.22), transparent 60%),
+      radial-gradient(1000px 420px at 95% 0%, rgb(var(--color-primary-700) / 0.18), transparent 62%),
+      rgb(var(--color-primary-50));
+  }
+  :global(.dark) .webcams-cover {
+    background:
+      radial-gradient(1200px 380px at 20% -5%, rgb(var(--color-highlight-500) / 0.2), transparent 60%),
+      radial-gradient(1000px 420px at 95% 0%, rgb(var(--color-primary-200) / 0.08), transparent 62%),
+      rgb(var(--color-primary-950));
+  }
+  .webcams-fullbleed {
+    position: relative;
+    left: 50%;
+    right: 50%;
+    width: 100vw;
+    max-width: 100vw;
+    margin-left: -50vw;
+    margin-right: -50vw;
+  }
+  @supports (width: 100dvw) {
+    .webcams-fullbleed {
+      width: 100dvw;
+      max-width: 100dvw;
+      margin-left: -50dvw;
+      margin-right: -50dvw;
+    }
+  }
+  .webcams-hero-bg {
+    background-size: cover;
+    background-position: center;
+    filter: saturate(1.15);
+  }
+  .webcams-hero-overlay {
+    background: linear-gradient(180deg, rgb(var(--color-primary-900) / 0.08), rgb(var(--color-primary-950) / 0.38));
+  }
+  .webcams-title {
+    font-family: 'Mouse Memoirs', sans-serif !important;
+    font-weight: 400;
+    font-size: 4rem;
+    color: #ffffff !important;
+  }
+  .webcams-island {
+    border: 1px solid rgb(var(--color-primary-200));
+    background: rgb(var(--color-primary-50) / 0.8);
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: 0 14px 35px rgb(var(--color-primary-900) / 0.07);
+  }
+  :global(.dark) .webcams-island {
+    border-color: rgb(var(--color-primary-700));
+    background: rgb(var(--color-primary-900) / 0.62);
+  }
+</style>
 <script>
   function initializeWebcamFilters() {
     const buttons = document.querySelectorAll<HTMLButtonElement>('.webcam-filter');
@@ -72,7 +142,11 @@ const seoData = {
         );
         let visible = 0;
         cards.forEach((card) => {
-          const show = filter === 'Todas' || card.dataset.category === filter;
+          const cat = card.dataset.category;
+          const show =
+            filter === 'Todas' ||
+            cat === filter ||
+            (filter === 'Provincia de Huesca' && (cat === 'Pirineo Oscense' || cat === 'Carreteras DGT'));
           card.classList.toggle('hidden', !show);
           if (show) visible++;
         });

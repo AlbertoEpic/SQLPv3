@@ -84600,6 +84600,165 @@
       "issuesCount": 0,
       "warningsCount": 3,
       "noticesCount": 2
+    },
+    {
+      "file": "posts/la-tetralogía-de-aísa-emtb.md",
+      "displayName": "La Tetralogía de Aísa - EMTB",
+      "checks": {
+        "titleLength": [
+          {
+            "passed": true,
+            "message": "Good title length: 44 characters (La Tetralogía de Aísa - EMTB + \" - Astro Modular\")",
+            "severity": "info"
+          }
+        ],
+        "metaDescription": [
+          {
+            "passed": false,
+            "message": "Description too short: 32 characters",
+            "suggestion": "Aim for 120-160 characters",
+            "severity": "warning"
+          }
+        ],
+        "titleH1Uniqueness": [
+          {
+            "passed": true,
+            "message": "Meta title and H1 are unique (prefix/suffix configured)",
+            "severity": "info"
+          }
+        ],
+        "keywordInTitle": [
+          {
+            "passed": true,
+            "message": "No targetKeyword defined in properties",
+            "severity": "notice"
+          }
+        ],
+        "keywordInDescription": [],
+        "keywordInHeadings": [
+          {
+            "passed": true,
+            "message": "No targetKeyword defined in properties",
+            "severity": "notice"
+          }
+        ],
+        "keywordInSlug": [
+          {
+            "passed": true,
+            "message": "No targetKeyword defined in properties",
+            "severity": "notice"
+          }
+        ],
+        "slugFormat": [],
+        "keywordDensity": [
+          {
+            "passed": true,
+            "message": "No targetKeyword defined in properties",
+            "severity": "notice"
+          }
+        ],
+        "headingOrder": [
+          {
+            "passed": true,
+            "message": "Heading structure is correct",
+            "severity": "info"
+          }
+        ],
+        "contentLength": [
+          {
+            "passed": false,
+            "message": "Content too short: 188 words",
+            "suggestion": "Aim for at least 300 words",
+            "severity": "warning"
+          }
+        ],
+        "duplicateTitles": [],
+        "duplicateDescriptions": [],
+        "duplicateContent": [],
+        "altText": [
+          {
+            "passed": false,
+            "message": "Media missing alt text: https://www.youtube.com/watch?v=kOzMvBcRock",
+            "suggestion": "Add descriptive alt text for accessibility",
+            "severity": "error",
+            "position": {
+              "line": 23,
+              "searchText": "![](https://www.youtube.com/watch?v=kOzMvBcRock)",
+              "context": "\nTe dejamos a continuación con el vídeo resultante, gracias a Producciones SQLP:\n![](https://www.youtube.com/watch?v=kOzMvBcRock)\n\n"
+            }
+          }
+        ],
+        "imageFileNames": [
+          {
+            "passed": true,
+            "message": "All images have good file names",
+            "severity": "info"
+          }
+        ],
+        "nakedLinks": [
+          {
+            "passed": false,
+            "message": "Naked link found: https://valledeaisatrails.es/**",
+            "suggestion": "Convert to markdown link format: [link text](url)",
+            "severity": "warning",
+            "position": {
+              "line": 28,
+              "searchText": "https://valledeaisatrails.es/**",
+              "context": "## Valle de Aísa Trails\n\nPuedes consultar **en esta web https://valledeaisatrails.es/** todos los senderos habilitados dentro de este territorio. Nosotros hicimos una combinación de los dos más importantes, **R3** (Trilogía del Fabarral) y **R4** (Valle de Aísa)\n\n## El Track"
+            }
+          }
+        ],
+        "brokenLinks": [
+          {
+            "passed": true,
+            "message": "No broken internal links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenLinks": [
+          {
+            "passed": true,
+            "message": "No potentially broken links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenEmbeds": [],
+        "externalBrokenLinks": [
+          {
+            "passed": true,
+            "message": "External link: https://www.youtube.com/watch?v=kOzMvBcRock",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 23,
+              "searchText": "https://www.youtube.com/watch?v=kOzMvBcRock",
+              "context": "\nTe dejamos a continuación con el vídeo resultante, gracias a Producciones SQLP:\n![](https://www.youtube.com/watch?v=kOzMvBcRock)\n\n"
+            }
+          },
+          {
+            "passed": true,
+            "message": "External link: https://valledeaisatrails.es/**",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 28,
+              "searchText": "https://valledeaisatrails.es/**",
+              "context": "## Valle de Aísa Trails\n\nPuedes consultar **en esta web https://valledeaisatrails.es/** todos los senderos habilitados dentro de este territorio. Nosotros hicimos una combinación de los dos más importantes, **R3** (Trilogía del Fabarral) y **R4** (Valle de Aísa)\n\n## El Track"
+            }
+          }
+        ],
+        "readingLevel": [
+          {
+            "passed": true,
+            "message": "Good reading level: 11.1 (Moderately easy to read)",
+            "severity": "info"
+          }
+        ]
+      },
+      "overallScore": 58,
+      "issuesCount": 1,
+      "warningsCount": 3,
+      "noticesCount": 6
     }
   ],
   "lastScanTimestamp": 1792404342168,

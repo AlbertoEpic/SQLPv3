@@ -124,5 +124,12 @@
     "file": "RutaZZs_a_pares_.gpx",
     "start_date": "2026-09-28T08:12:55Z",
     "status": "ok"
+  },
+  {
+    "id": "gpx-0019",
+    "name": "Tetralogía de Aísa...",
+    "file": "tetralogia-aisa.gpx",
+    "start_date": "2026-10-22T13:40:56Z",
+    "status": "ok"
   }
 ]
