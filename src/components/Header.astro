@@ -9,6 +9,7 @@ const profilePicture = siteConfig.profilePicture;
 const baseUrl = import.meta.env.BASE_URL;
 
 const withBase = (path: string) => `${baseUrl.replace(/\/$/, '')}/${path.replace(/^\//, '')}`;
+const isWebcamsPage = Astro.url.pathname.replace(/\/+$/, '').endsWith('/webcams');
 
 const resolveNavHref = (rawUrl?: string) => {
   if (!rawUrl) return '#';
@@ -59,11 +60,26 @@ const paletteIcon = allSectionsDisabled ? 'search' : 'command';
               class={getHeaderProfilePictureClasses(profilePicture.style)}
             />
           ) : (
-            <img
-              src={faviconLogo.src}
-              alt={siteConfig.title}
-              class="h-16 w-16 object-contain"
-            />
+            <>
+              <img
+                id="header-default-logo"
+                src={faviconLogo.src}
+                alt={siteConfig.title}
+                class={`h-16 w-16 object-contain ${isWebcamsPage ? 'hidden' : ''}`}
+              />
+              <span id="header-webcams-logo" class={isWebcamsPage ? '' : 'hidden'}>
+                <img
+                  src={withBase('/LogoSQLP-Webcams.png')}
+                  alt={siteConfig.title}
+                  class="h-16 w-16 object-contain dark:hidden"
+                />
+                <img
+                  src={withBase('/LogoSQLP-Webcams-dark.png')}
+                  alt={siteConfig.title}
+                  class="hidden h-16 w-16 object-contain dark:block"
+                />
+              </span>
+            </>
           )}
         </a>
       </div>

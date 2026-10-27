@@ -318,6 +318,7 @@ export const siteConfig: SiteConfig = {
       { title: "Rutipedia", url: "/posts/" },
       { title: "Pano360", url: "https://pano360.soloquedalopeor.com/" },
       { title: "Miniplanetas", url: "https://miniplanetas.soloquedalopeor.com/" },
+      { title: "Webcams", url: "/webcams/" },
       { title: "Sobre mí", url: "/albertoepic/" }
     ],
     // [CONFIG:NAVIGATION_SOCIAL]

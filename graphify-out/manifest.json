@@ -10,7 +10,7 @@
     "semantic_hash": ""
   },
   "astro.config.mjs": {
-    "mtime": 1793030170.5971894,
+    "mtime": 1793128084.420703,
     "ast_hash": "cc43ac8b5c4a322de8382144b7c6aad4",
     "semantic_hash": ""
   },
@@ -50,12 +50,12 @@
     "semantic_hash": ""
   },
   "public/gpx/strava/index.json": {
-    "mtime": 1793030170.3871903,
+    "mtime": 1793128084.270071,
     "ast_hash": "3ecd5e6ff6890c923e793a92c3b2cdb5",
     "semantic_hash": ""
   },
   "public/gpx/strava/manual-links.json": {
-    "mtime": 1793030170.3871903,
+    "mtime": 1793128084.2710695,
     "ast_hash": "29925d09ee8ea9da3c850ee1f295a97a",
     "semantic_hash": ""
   },
@@ -175,8 +175,8 @@
     "semantic_hash": ""
   },
   "src/components/Header.astro": {
-    "mtime": 1790787474.3356507,
-    "ast_hash": "3d9ae83de0dabc5195ae25150618968b",
+    "mtime": 1793128888.3275714,
+    "ast_hash": "b588eef74e2fd0f1825ef23368bda66d",
     "semantic_hash": ""
   },
   "src/components/HomeGraph.astro": {
@@ -295,8 +295,8 @@
     "semantic_hash": ""
   },
   "src/config.ts": {
-    "mtime": 1791396363.1027446,
-    "ast_hash": "fca19d1e139d19711a5d9749103ca913",
+    "mtime": 1793127822.781101,
+    "ast_hash": "7d271014b5bea64634040775113a11eb",
     "semantic_hash": ""
   },
   "src/config/dev.ts": {
@@ -755,8 +755,8 @@
     "semantic_hash": ""
   },
   "src/layouts/BaseLayout.astro": {
-    "mtime": 1792057857.541678,
-    "ast_hash": "acda3ab5e8fe980de2ad9504b6c9788e",
+    "mtime": 1793128894.1728747,
+    "ast_hash": "3fe44b23e6885d8a4e87737f79566ac0",
     "semantic_hash": ""
   },
   "src/layouts/DocumentationLayout.astro": {
@@ -7350,8 +7350,8 @@
     "semantic_hash": ""
   },
   ".wrangler/tmp/dev-MDYh4Q/worker.js": {
-    "mtime": 1791397037.9932923,
-    "ast_hash": "c37846cca2b6d02301957f7ef2fe480c",
+    "mtime": 1793116761.1598308,
+    "ast_hash": "21bd8fa89acdafd7cc156f9902590f29",
     "semantic_hash": ""
   },
   "scripts/clean-static-config.js": {
@@ -7360,8 +7360,8 @@
     "semantic_hash": ""
   },
   "scripts/wordpress-legacy-urls.json": {
-    "mtime": 1791396979.5558996,
-    "ast_hash": "f81d18c741b821888c67ffb9498cbcf8",
+    "mtime": 1793116805.6214504,
+    "ast_hash": "fd1b275e55280676a48ea2c4a7417d6e",
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/nested-properties/data.json": {
@@ -7535,8 +7535,8 @@
     "semantic_hash": ""
   },
   "src/components/WebcamCard.astro": {
-    "mtime": 1793031020.6756387,
-    "ast_hash": "e8bb2ad0dd9c3f1268a9e963117fbab8",
+    "mtime": 1793032847.3223512,
+    "ast_hash": "9d98244b846e385195ba3f5ecfe592ba",
     "semantic_hash": ""
   },
   "src/components/WebcamLightbox.astro": {
@@ -7545,18 +7545,18 @@
     "semantic_hash": ""
   },
   "src/components/WebcamMap.astro": {
-    "mtime": 1792774670.9761598,
-    "ast_hash": "e718950c32844ad89c21139b330738a5",
+    "mtime": 1793034078.1190062,
+    "ast_hash": "5cb4a3a3512f56050005c4771ae324d0",
     "semantic_hash": ""
   },
   "src/data/webcams.json": {
-    "mtime": 1793032066.8120472,
-    "ast_hash": "820baa84a9aa0301989750fbb1742f6f",
+    "mtime": 1793036302.2986977,
+    "ast_hash": "0a7742572fce23de39494414fd100955",
     "semantic_hash": ""
   },
   "src/pages/webcams.astro": {
-    "mtime": 1793031020.6626403,
-    "ast_hash": "8cd9715eda7725b65a8462b269512fa7",
+    "mtime": 1793033539.7457573,
+    "ast_hash": "976d84eb027e5665924490dde6ecab1c",
     "semantic_hash": ""
   },
   "src/content/posts/la-tetralog\u00eda-de-a\u00edsa-emtb.md": {
@@ -7572,6 +7572,16 @@
   "src/content/posts/attachments/la-tetraloga-de-asa-emtb.jpg": {
     "mtime": 1793007527.3349752,
     "ast_hash": "a31f77c389698651beda49048e5f778e",
+    "semantic_hash": ""
+  },
+  "public/LogoSQLP-Webcams.png": {
+    "mtime": 1793127621.0419407,
+    "ast_hash": "d397860bdf8d3bbb271c91500e43fdaf",
+    "semantic_hash": ""
+  },
+  "public/LogoSQLP-Webcams-dark.png": {
+    "mtime": 1793128537.0753906,
+    "ast_hash": "a4ec0f2fd591f6d83bfc4017ef55e415",
     "semantic_hash": ""
   }
 }

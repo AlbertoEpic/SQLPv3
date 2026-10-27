@@ -1315,6 +1315,18 @@ const scrollbarClass = siteConfig.hideScrollBar ? '' : 'show-scrollbars';
       window.initializeImageGrids?.();
     }
 
+    function updateHeaderLogo() {
+      const defaultLogo = document.getElementById('header-default-logo');
+      const webcamsLogo = document.getElementById('header-webcams-logo');
+      if (!defaultLogo || !webcamsLogo) return;
+
+      const isWebcamsPage = window.location.pathname.replace(/\/+$/, '').endsWith('/webcams');
+      defaultLogo.classList.toggle('hidden', isWebcamsPage);
+      webcamsLogo.classList.toggle('hidden', !isWebcamsPage);
+    }
+
+    updateHeaderLogo();
+
     function reinitWidgetsAfterView() {
       window.initializeImagePreloader?.();
       window.initializeGraphModal?.();
@@ -1337,12 +1349,14 @@ const scrollbarClass = siteConfig.hideScrollBar ? '' : 'show-scrollbars';
 
         // After page view - theme sync + widget re-init
         window.swup.hooks.on('page:view', () => {
+          updateHeaderLogo();
           syncThemeAndMode();
           reinitWidgetsAfterView();
         });
 
         // Visit ended (before history popstate) - leaflet refresh
         window.swup.hooks.on('visit:end', () => {
+          updateHeaderLogo();
           if (window.initializeLeafletMaps) {
             setTimeout(() => window.initializeLeafletMaps?.(), 100);
           }
