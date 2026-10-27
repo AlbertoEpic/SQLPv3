@@ -11,7 +11,6 @@ var wordpress_legacy_urls_default = {
     "/sqlp-blog/": "/posts/",
     "/viajes/": "/posts/",
     "/el-blog-de-sqlp/": "/posts/",
-    "/webcams/": "/posts/webcams-soloquedalopeor-com/",
     "/producciones-sqlp/": "/posts/",
     "/video-grid-gallery/": "/posts/",
     "/video-gallery/": "/posts/",
