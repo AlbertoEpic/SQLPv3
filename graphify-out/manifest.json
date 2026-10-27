@@ -745,8 +745,8 @@
     "semantic_hash": ""
   },
   "src/env.d.ts": {
-    "mtime": 1782140965.6582015,
-    "ast_hash": "66368bbc3c3c578283cb48a32d8bec62",
+    "mtime": 1793129231.8004346,
+    "ast_hash": "7eceb1efd4b906a0d09701953bc0e818",
     "semantic_hash": ""
   },
   "src/integrations/refresh-content-on-change.ts": {
@@ -925,8 +925,8 @@
     "semantic_hash": ""
   },
   "src/scripts/home-graph-client.ts": {
-    "mtime": 1779787406.0777862,
-    "ast_hash": "1f43d0c2d97aa2a9f1877dc5c5ce57d5",
+    "mtime": 1793129231.8154309,
+    "ast_hash": "ccafbe853b115168ef5a4b54c518f8e6",
     "semantic_hash": ""
   },
   "src/scripts/leaflet-client.ts": {
@@ -7582,6 +7582,11 @@
   "public/LogoSQLP-Webcams-dark.png": {
     "mtime": 1793128537.0753906,
     "ast_hash": "a4ec0f2fd591f6d83bfc4017ef55e415",
+    "semantic_hash": ""
+  },
+  "src/types/leaflet-gpx.d.ts": {
+    "mtime": 1793129231.8284335,
+    "ast_hash": "251854205d1a1d9b3b4bcaadd9561394",
     "semantic_hash": ""
   }
 }
