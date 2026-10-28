@@ -40,6 +40,14 @@ const scrollbarClass = siteConfig.hideScrollBar ? '' : 'show-scrollbars';
 <!DOCTYPE html>
 <html lang={siteConfig.language} class={`scrollbar-hide ${scrollbarClass}`} data-theme-config={siteConfig.theme} data-custom-theme-file={siteConfig.customThemeFile} data-available-themes={JSON.stringify(siteConfig.availableThemes)} data-command-palette-enabled={siteConfig.commandPalette.enabled} data-command-palette-change-theme={siteConfig.commandPalette.quickActions.changeTheme} data-feature-button={siteConfig.featureButton} data-favicon-theme-adaptive={siteConfig.faviconThemeAdaptive} data-base-url={import.meta.env.BASE_URL}>
 <head>
+  <!-- Google tag (gtag.js) -->
+  <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-PJBEL9T68P"></script>
+  <script is:inline>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-PJBEL9T68P');
+  </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
