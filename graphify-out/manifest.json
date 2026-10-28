@@ -10,7 +10,7 @@
     "semantic_hash": ""
   },
   "astro.config.mjs": {
-    "mtime": 1793128084.420703,
+    "mtime": 1793174110.0324707,
     "ast_hash": "cc43ac8b5c4a322de8382144b7c6aad4",
     "semantic_hash": ""
   },
@@ -50,12 +50,12 @@
     "semantic_hash": ""
   },
   "public/gpx/strava/index.json": {
-    "mtime": 1793128084.270071,
+    "mtime": 1793174109.8774712,
     "ast_hash": "3ecd5e6ff6890c923e793a92c3b2cdb5",
     "semantic_hash": ""
   },
   "public/gpx/strava/manual-links.json": {
-    "mtime": 1793128084.2710695,
+    "mtime": 1793174109.8774712,
     "ast_hash": "29925d09ee8ea9da3c850ee1f295a97a",
     "semantic_hash": ""
   },
@@ -7555,8 +7555,8 @@
     "semantic_hash": ""
   },
   "src/pages/webcams.astro": {
-    "mtime": 1793033539.7457573,
-    "ast_hash": "976d84eb027e5665924490dde6ecab1c",
+    "mtime": 1793174020.387152,
+    "ast_hash": "30df2f6a251cb27f8ec6633fd7fb092a",
     "semantic_hash": ""
   },
   "src/content/posts/la-tetralog\u00eda-de-a\u00edsa-emtb.md": {
@@ -7585,8 +7585,13 @@
     "semantic_hash": ""
   },
   "src/types/leaflet-gpx.d.ts": {
-    "mtime": 1793129231.8284335,
-    "ast_hash": "251854205d1a1d9b3b4bcaadd9561394",
+    "mtime": 1793129291.1270778,
+    "ast_hash": "8928aa293b91b736fa215c466ec855bb",
+    "semantic_hash": ""
+  },
+  "public/Webcams en paisajes alpinos.png": {
+    "mtime": 1793173705.7727647,
+    "ast_hash": "3158e82c7c3a7870362368e8ad86ee5f",
     "semantic_hash": ""
   }
 }

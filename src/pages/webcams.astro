@@ -18,18 +18,18 @@ const seoData = {
 
 <BaseLayout seoData={seoData}>
   <main class="webcams-cover w-full pb-14">
-    <section class="webcams-fullbleed relative overflow-hidden border-b border-primary-200/80 dark:border-primary-700/70">
-      <div class="webcams-hero-bg absolute inset-0" style={`background-image: url('${withBase('/fondo_heroSQLP.jpg')}')`} aria-hidden="true"></div>
+    <section class="webcams-fullbleed relative min-h-48 overflow-hidden border-b border-primary-200/80 dark:border-primary-700/70 md:min-h-64" aria-label="Paisaje alpino">
+      <div class="webcams-hero-bg absolute inset-0" style={`background-image: url('${withBase('/Webcams en paisajes alpinos.png')}')`} aria-hidden="true"></div>
       <div class="webcams-hero-overlay absolute inset-0" aria-hidden="true"></div>
-      <div class="relative px-4 py-12 sm:px-6 md:py-16 lg:px-10">
-        <h1 class="webcams-title leading-tight">Webcams en directo</h1>
-        <p class="mt-4 max-w-xl text-base text-white/90 sm:text-lg">
-          Mira cómo está el tiempo ahora mismo en el Pirineo, Huesca y el mundo.
-        </p>
-      </div>
     </section>
 
-    <section class="px-4 sm:px-6 lg:px-10 mt-8 md:mt-10">
+    <section class="mt-6 px-4 sm:px-6 lg:px-10">
+      <p class="mt-2 text-left text-base text-primary-700 dark:text-primary-200 sm:text-lg">
+        Mira cómo está el tiempo ahora mismo en el Pirineo, Huesca y el Mundo. Y es que una imagen vale más que mil palabras. En esta sección puedes comprobar el estado del tráfico en las carreteras, la meteo en puntos clave del Pirineo, la innivación de las estaciones de esquí,... Incluso asomarte al mundo en algunos rincones míticos!
+      </p>
+    </section>
+
+    <section class="mt-6 px-4 sm:px-6 lg:px-10">
       <div class="webcams-island">
         <WebcamMap webcams={webcams} />
       </div>
@@ -111,7 +111,6 @@ const seoData = {
     font-family: 'Mouse Memoirs', sans-serif !important;
     font-weight: 400;
     font-size: 4rem;
-    color: #ffffff !important;
   }
   .webcams-island {
     border: 1px solid rgb(var(--color-primary-200));
