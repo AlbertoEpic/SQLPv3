@@ -6,7 +6,7 @@ import WebcamLightbox from '@/components/WebcamLightbox.astro';
 import webcams from '@/data/webcams.json';
 import { withBase } from '@/utils/base-url';
 
-const categories = ["Todas", "Pirineo Oscense", "Provincia de Huesca", "Carreteras DGT", "Mundo"];
+const categories = ["Todas", "Pirineo Oscense", "Provincia de Huesca", "Carreteras DGT", "Otros Pirineos", "Otras zonas", "Mundo"];
 
 const seoData = {
   title: 'Webcams en directo',
@@ -56,7 +56,7 @@ const seoData = {
             title={cam.title}
             location={cam.location}
             category={cam.category}
-            type={cam.type as 'youtube' | 'iframe' | 'dgt' | 'snapshot'}
+            type={cam.type as 'youtube' | 'iframe' | 'dgt' | 'snapshot' | 'hls' | 'mjpeg'}
             embedUrl={cam.embedUrl}
             sourceName={cam.sourceName}
             sourceUrl={cam.sourceUrl}
@@ -145,7 +145,7 @@ const seoData = {
           const show =
             filter === 'Todas' ||
             cat === filter ||
-            (filter === 'Provincia de Huesca' && (cat === 'Pirineo Oscense' || cat === 'Carreteras DGT'));
+            (filter === 'Provincia de Huesca' && (cat === 'Pirineo Oscense' || cat === 'Provincia de Huesca' || cat === 'Carreteras DGT'));
           card.classList.toggle('hidden', !show);
           if (show) visible++;
         });

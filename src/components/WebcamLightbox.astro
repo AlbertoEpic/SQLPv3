@@ -1,6 +1,6 @@
 <div
   id="webcam-lightbox"
-  class="fixed inset-0 z-[100] hidden flex-col items-center justify-center bg-black/90 p-4 backdrop-blur-sm"
+  class="fixed inset-0 z-100 hidden flex-col items-center justify-center bg-black/90 p-4 backdrop-blur-sm"
   role="dialog"
   aria-modal="true"
   aria-label="Webcam ampliada"
@@ -44,9 +44,13 @@
 </div>
 
 <script>
+  import { initializeWebcamStream } from '@/utils/webcam-stream';
+
   let items: HTMLElement[] = [];
   let current = -1;
   let home: HTMLElement | null = null;
+  let activeStreamCleanup: (() => void) | null = null;
+  let streamGeneration = 0;
 
   const lb = () => document.getElementById('webcam-lightbox');
 
@@ -61,18 +65,46 @@
     const card = items[current];
     if (!box || !card) return;
     const media = box.querySelector<HTMLElement>('[data-lb-media]')!;
+    const generation = ++streamGeneration;
+    activeStreamCleanup?.();
+    activeStreamCleanup = null;
     media.replaceChildren();
 
     const src = card.dataset.mediaSrc || '';
-    if (card.dataset.type === 'dgt' || card.dataset.type === 'snapshot') {
+    if (card.dataset.type === 'dgt' || card.dataset.type === 'snapshot' || card.dataset.type === 'mjpeg') {
       const img = document.createElement('img');
-      const url = new URL(src, window.location.href);
-      url.searchParams.set('t', String(Date.now()));
-      img.src = url.toString();
+      if (card.dataset.type === 'mjpeg') {
+        img.src = src;
+      } else {
+        const url = new URL(src, window.location.href);
+        url.searchParams.set('t', String(Date.now()));
+        img.src = url.toString();
+      }
       img.alt = card.dataset.title || '';
       img.referrerPolicy = 'no-referrer';
       img.className = 'h-full w-full object-contain';
       media.append(img);
+    } else if (card.dataset.type === 'hls') {
+      const video = document.createElement('video');
+      video.className = 'absolute inset-0 h-full w-full object-contain';
+      video.controls = true;
+      video.autoplay = true;
+      video.muted = true;
+      video.playsInline = true;
+      video.preload = 'none';
+      video.setAttribute('aria-label', card.dataset.title || '');
+      media.append(video);
+      void initializeWebcamStream(video, src).then((cleanup) => {
+        if (generation !== streamGeneration || !video.isConnected) {
+          cleanup?.();
+          return;
+        }
+        activeStreamCleanup = cleanup;
+        if (cleanup) void video.play().catch(() => {});
+        else showStreamFallback(media);
+      }).catch(() => {
+        if (generation === streamGeneration && video.isConnected) showStreamFallback(media);
+      });
     } else {
       const frame = document.createElement('iframe');
       frame.src = src;
@@ -81,6 +113,13 @@
       frame.allow = 'autoplay; encrypted-media; picture-in-picture; fullscreen';
       frame.allowFullscreen = true;
       media.append(frame);
+    }
+
+    function showStreamFallback(media: HTMLElement): void {
+      const fallback = document.createElement('div');
+      fallback.className = 'absolute inset-0 flex items-center justify-center text-sm text-gray-300';
+      fallback.textContent = 'No se pudo reproducir esta webcam en este navegador.';
+      media.append(fallback);
     }
 
     box.querySelector('[data-lb-title]')!.textContent = card.dataset.title || '';
@@ -117,9 +156,12 @@
   function closeLightbox(): void {
     const box = lb();
     if (!box) return;
+    streamGeneration++;
     box.classList.add('hidden');
     box.classList.remove('flex');
     box.querySelector('[data-lb-media]')?.replaceChildren();
+    activeStreamCleanup?.();
+    activeStreamCleanup = null;
     // El scroll sigue bloqueado si el mapa está a pantalla completa
     document.body.style.overflow = document.querySelector('.webcam-map-full') ? 'hidden' : '';
     current = -1;

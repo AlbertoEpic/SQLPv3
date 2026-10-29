@@ -10,7 +10,7 @@
     "semantic_hash": ""
   },
   "astro.config.mjs": {
-    "mtime": 1793174110.0324707,
+    "mtime": 1793273359.3213837,
     "ast_hash": "cc43ac8b5c4a322de8382144b7c6aad4",
     "semantic_hash": ""
   },
@@ -45,17 +45,17 @@
     "semantic_hash": ""
   },
   "package.json": {
-    "mtime": 1791270974.5539608,
-    "ast_hash": "073302e4d6a6de67af409b2c88f325c2",
+    "mtime": 1793273431.228266,
+    "ast_hash": "56a3210237bacb8aae31f0db85a79e3e",
     "semantic_hash": ""
   },
   "public/gpx/strava/index.json": {
-    "mtime": 1793174109.8774712,
+    "mtime": 1793273359.1163805,
     "ast_hash": "3ecd5e6ff6890c923e793a92c3b2cdb5",
     "semantic_hash": ""
   },
   "public/gpx/strava/manual-links.json": {
-    "mtime": 1793174109.8774712,
+    "mtime": 1793273359.1163805,
     "ast_hash": "29925d09ee8ea9da3c850ee1f295a97a",
     "semantic_hash": ""
   },
@@ -755,8 +755,8 @@
     "semantic_hash": ""
   },
   "src/layouts/BaseLayout.astro": {
-    "mtime": 1793128894.1728747,
-    "ast_hash": "3fe44b23e6885d8a4e87737f79566ac0",
+    "mtime": 1793210872.2850513,
+    "ast_hash": "f0cc53f3d6f46ae4e176ec92043e4cf7",
     "semantic_hash": ""
   },
   "src/layouts/DocumentationLayout.astro": {
@@ -1150,8 +1150,8 @@
     "semantic_hash": ""
   },
   "AGENTS.md": {
-    "mtime": 1792401356.9671154,
-    "ast_hash": "02898ca6f4424168b0039ae18e992283",
+    "mtime": 1793273568.7855844,
+    "ast_hash": "bc335c48b460fcc55839ea661c9397e3",
     "semantic_hash": ""
   },
   "CLAUDE.md": {
@@ -7060,7 +7060,7 @@
     "semantic_hash": ""
   },
   ".agent/sync-status.json": {
-    "mtime": 1791270974.372961,
+    "mtime": 1793273562.725103,
     "ast_hash": "56fe0377228254f85a4edf9f25ad73f8",
     "semantic_hash": ""
   },
@@ -7535,13 +7535,13 @@
     "semantic_hash": ""
   },
   "src/components/WebcamCard.astro": {
-    "mtime": 1793032847.3223512,
-    "ast_hash": "9d98244b846e385195ba3f5ecfe592ba",
+    "mtime": 1793274219.650763,
+    "ast_hash": "8ea4fd775a3f5679bccf7c1c5ab59622",
     "semantic_hash": ""
   },
   "src/components/WebcamLightbox.astro": {
-    "mtime": 1793031020.6896398,
-    "ast_hash": "d73c1bda5143017bce9509cdec906c9e",
+    "mtime": 1793274219.6687627,
+    "ast_hash": "6c4722395fa07580079889c2fa7016b3",
     "semantic_hash": ""
   },
   "src/components/WebcamMap.astro": {
@@ -7550,13 +7550,13 @@
     "semantic_hash": ""
   },
   "src/data/webcams.json": {
-    "mtime": 1793036302.2986977,
-    "ast_hash": "0a7742572fce23de39494414fd100955",
+    "mtime": 1793275760.0455394,
+    "ast_hash": "d24727d92afe51de89ef0cc4799ed522",
     "semantic_hash": ""
   },
   "src/pages/webcams.astro": {
-    "mtime": 1793174020.387152,
-    "ast_hash": "30df2f6a251cb27f8ec6633fd7fb092a",
+    "mtime": 1793274707.5414815,
+    "ast_hash": "6a4ceb05bb173fd7e1bf6fc3101a7c75",
     "semantic_hash": ""
   },
   "src/content/posts/la-tetralog\u00eda-de-a\u00edsa-emtb.md": {
@@ -7592,6 +7592,11 @@
   "public/Webcams en paisajes alpinos.png": {
     "mtime": 1793173705.7727647,
     "ast_hash": "3158e82c7c3a7870362368e8ad86ee5f",
+    "semantic_hash": ""
+  },
+  "src/utils/webcam-stream.ts": {
+    "mtime": 1793273719.7055187,
+    "ast_hash": "5e42743797628ecf10593af163b31036",
     "semantic_hash": ""
   }
 }

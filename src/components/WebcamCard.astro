@@ -4,7 +4,7 @@ export interface Props {
   title: string;
   location: string;
   category: string;
-  type: 'youtube' | 'iframe' | 'dgt' | 'snapshot';
+  type: 'youtube' | 'iframe' | 'dgt' | 'snapshot' | 'hls' | 'mjpeg';
   embedUrl: string;
   sourceName: string;
   sourceUrl?: string;
@@ -17,10 +17,12 @@ const src =
     : embedUrl;
 const isDgt = type === 'dgt';
 const isSnapshot = type === 'snapshot';
-const isImage = isDgt || isSnapshot;
+const isMjpeg = type === 'mjpeg';
+const isImage = isDgt || isSnapshot || isMjpeg;
 const isEmbed = type === 'youtube' || type === 'iframe';
+const isHls = type === 'hls';
 // Evita contenido mixto (http dentro de https)
-const imgSrc = embedUrl.replace(/^http:\/\//, 'https://');
+const imgSrc = isMjpeg ? embedUrl : embedUrl.replace(/^http:\/\//, 'https://');
 ---
 
 <article
@@ -34,7 +36,7 @@ const imgSrc = embedUrl.replace(/^http:\/\//, 'https://');
   class="webcam-card overflow-hidden rounded-2xl border border-primary-200 bg-primary-50/80 shadow-md transition-all duration-300 hover:border-highlight-400 dark:border-primary-700 dark:bg-primary-900/62 dark:hover:border-highlight-500"
 >
   <div class="relative flex aspect-video w-full items-center justify-center bg-primary-900">
-    {isImage || isEmbed ? (
+    {isImage || isEmbed || isHls ? (
       <button
         type="button"
         data-webcam-expand
@@ -78,11 +80,29 @@ const imgSrc = embedUrl.replace(/^http:\/\//, 'https://');
           class="h-full w-full object-cover"
           loading="lazy"
           referrerpolicy="no-referrer"
-          data-webcam-refresh
+          data-webcam-refresh={isMjpeg ? undefined : ''}
+          data-webcam-mjpg={isMjpeg ? '' : undefined}
           data-base-src={imgSrc}
         />
         <div data-webcam-fallback class="absolute inset-0 hidden items-center justify-center bg-primary-900 text-xs text-primary-300">
           Cámara no disponible
+        </div>
+      </>
+    ) : isHls ? (
+      <>
+        <video
+          class="h-full w-full object-cover"
+          controls
+          autoplay
+          muted
+          playsinline
+          preload="none"
+          data-webcam-stream
+          data-stream-src={embedUrl}
+          aria-label={title}
+        ></video>
+        <div data-stream-fallback class="absolute inset-0 hidden items-center justify-center bg-primary-900 text-xs text-primary-300">
+          No se pudo reproducir esta webcam en este navegador.
         </div>
       </>
     ) : isEmbed ? (
@@ -140,8 +160,14 @@ const imgSrc = embedUrl.replace(/^http:\/\//, 'https://');
 </style>
 
 <script>
+  import { initializeWebcamStream } from '@/utils/webcam-stream';
+
   const REFRESH_MS = 120000;
   let refreshTimer: number | undefined;
+  let streamObserver: IntersectionObserver | undefined;
+  const activeStreams = new Map<HTMLVideoElement, () => void>();
+  const startingStreams = new WeakSet<HTMLVideoElement>();
+  const unavailableStreams = new WeakSet<HTMLVideoElement>();
 
   function withCacheBust(base: string): string {
     const url = new URL(base, window.location.href);
@@ -159,8 +185,7 @@ const imgSrc = embedUrl.replace(/^http:\/\//, 'https://');
       window.clearInterval(refreshTimer);
       refreshTimer = undefined;
     }
-    const imgs = document.querySelectorAll<HTMLImageElement>('img[data-webcam-refresh]');
-    if (!imgs.length) return;
+    const imgs = document.querySelectorAll<HTMLImageElement>('img[data-webcam-refresh], img[data-webcam-mjpg]');
 
     imgs.forEach((img) => {
       if (img.dataset.bound === 'true') return;
@@ -173,18 +198,83 @@ const imgSrc = embedUrl.replace(/^http:\/\//, 'https://');
       if (img.complete && img.naturalWidth === 0 && img.currentSrc) showFallback(img);
     });
 
+    const snapshots = document.querySelectorAll<HTMLImageElement>('img[data-webcam-refresh]');
+    if (!snapshots.length) return;
+
     refreshTimer = window.setInterval(() => {
       if (document.hidden) return;
-      document.querySelectorAll<HTMLImageElement>('img[data-webcam-refresh]').forEach((img) => {
+      snapshots.forEach((img) => {
         const base = img.dataset.baseSrc;
         if (base) img.src = withCacheBust(base);
       });
     }, REFRESH_MS);
   }
 
+  function initializeWebcamStreams(): void {
+    streamObserver?.disconnect();
+    activeStreams.forEach((cleanup, video) => {
+      if (!video.isConnected) {
+        cleanup();
+        activeStreams.delete(video);
+      }
+    });
+
+    const videos = document.querySelectorAll<HTMLVideoElement>('video[data-webcam-stream]');
+    if (!videos.length) return;
+
+    const showStreamFallback = (video: HTMLVideoElement) => {
+      video.parentElement?.querySelector('[data-stream-fallback]')?.classList.replace('hidden', 'flex');
+      unavailableStreams.add(video);
+    };
+
+    const startStream = async (video: HTMLVideoElement) => {
+      const source = video.dataset.streamSrc;
+      if (!source || activeStreams.has(video) || startingStreams.has(video) || unavailableStreams.has(video)) return;
+      startingStreams.add(video);
+      try {
+        const cleanup = await initializeWebcamStream(video, source);
+        if (!video.isConnected) {
+          cleanup?.();
+          return;
+        }
+        if (!cleanup) {
+          showStreamFallback(video);
+          return;
+        }
+        activeStreams.set(video, cleanup);
+        void video.play().catch(() => {});
+      } catch {
+        showStreamFallback(video);
+      } finally {
+        startingStreams.delete(video);
+      }
+    };
+
+    if (!('IntersectionObserver' in window)) {
+      videos.forEach((video) => void startStream(video));
+      return;
+    }
+
+    streamObserver = new IntersectionObserver((entries, observer) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        const video = entry.target as HTMLVideoElement;
+        void startStream(video);
+        observer.unobserve(video);
+      });
+    }, { rootMargin: '200px' });
+
+    videos.forEach((video) => {
+      if (!activeStreams.has(video)) streamObserver?.observe(video);
+    });
+  }
+
   (window as any).initializeWebcamSnapshots = initializeWebcamSnapshots;
+  (window as any).initializeWebcamStreams = initializeWebcamStreams;
   document.addEventListener('DOMContentLoaded', initializeWebcamSnapshots);
+  document.addEventListener('DOMContentLoaded', initializeWebcamStreams);
   if (document.readyState !== 'loading') initializeWebcamSnapshots();
+  if (document.readyState !== 'loading') initializeWebcamStreams();
 
   const hookSnapshots = () => {
     const swup = (window as any).swup;
@@ -192,6 +282,8 @@ const imgSrc = embedUrl.replace(/^http:\/\//, 'https://');
     (window as any).__webcamSnapshotsHooked = true;
     swup.hooks.on('page:view', () => (window as any).initializeWebcamSnapshots?.());
     swup.hooks.on('visit:end', () => (window as any).initializeWebcamSnapshots?.());
+    swup.hooks.on('page:view', () => (window as any).initializeWebcamStreams?.());
+    swup.hooks.on('visit:end', () => (window as any).initializeWebcamStreams?.());
   };
   hookSnapshots();
   document.addEventListener('DOMContentLoaded', hookSnapshots);
