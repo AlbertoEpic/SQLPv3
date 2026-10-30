@@ -70,6 +70,18 @@
     "lng": 0.15
   },
   {
+    "id": "baqueira-beret-blanhiblar",
+    "title": "Baqueira Beret - Blanhiblar",
+    "location": "Val d'Aran, Lleida",
+    "category": "Otros Pirineos",
+    "type": "iframe",
+    "embedUrl": "https://baqueira.roundshot.com/blanhiblar",
+    "sourceName": "Baqueira Beret",
+    "sourceUrl": "https://www.baqueira.es/es/webcams/livecam-blanhiblar",
+    "lat": 42.72,
+    "lng": 0.94
+  },
+  {
     "id": "formigal-anayet",
     "title": "Formigal - Anayet",
     "location": "Valle de Tena, Huesca",

@@ -7550,8 +7550,8 @@
     "semantic_hash": ""
   },
   "src/data/webcams.json": {
-    "mtime": 1793275760.0455394,
-    "ast_hash": "d24727d92afe51de89ef0cc4799ed522",
+    "mtime": 1793344834.0526094,
+    "ast_hash": "cf370143a98d790ceec67185301e052d",
     "semantic_hash": ""
   },
   "src/pages/webcams.astro": {
