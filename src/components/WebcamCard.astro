@@ -4,13 +4,14 @@ export interface Props {
   title: string;
   location: string;
   category: string;
+  kind?: string;
   type: 'youtube' | 'iframe' | 'dgt' | 'snapshot' | 'hls' | 'mjpeg';
   embedUrl: string;
   sourceName: string;
   sourceUrl?: string;
 }
 
-const { id, title, location, category, type, embedUrl, sourceName, sourceUrl } = Astro.props;
+const { id, title, location, category, kind = '', type, embedUrl, sourceName, sourceUrl } = Astro.props;
 const src =
   type === 'youtube'
     ? `${embedUrl}${embedUrl.includes('?') ? '&' : '?'}autoplay=1&mute=1&playsinline=1`
@@ -29,6 +30,7 @@ const imgSrc = isMjpeg ? embedUrl : embedUrl.replace(/^http:\/\//, 'https://');
   id={`webcam-${id}`}
   data-webcam-card
   data-category={category}
+  data-kind={kind}
   data-type={type}
   data-title={title}
   data-location={location}

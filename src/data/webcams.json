@@ -329,14 +329,14 @@
   {
     "id": "la-raca-canal-roya",
     "title": "La Raca - Canal Roya y Anayet",
-    "location": "Formigal, Huesca",
+    "location": "Astún, Huesca",
     "category": "Pirineo Oscense",
     "type": "snapshot",
     "embedUrl": "https://alberguesyrefugios.com/img/webcams/canal_roya.jpg",
     "sourceName": "Albergues y refugios (FAM)",
     "sourceUrl": "https://www.alberguesyrefugios.com/webcams",
-    "lat": 42.7846,
-    "lng": -0.5176
+    "lat": 42.792792,
+    "lng": -0.504844
   },
   {
     "id": "respomuso-embalse",

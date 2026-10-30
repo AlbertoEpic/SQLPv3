@@ -8,6 +8,18 @@ import { withBase } from '@/utils/base-url';
 
 const categories = ["Todas", "Pirineo Oscense", "Provincia de Huesca", "Carreteras DGT", "Otros Pirineos", "Otras zonas", "Mundo"];
 
+const kinds = ["Estación de esquí", "Refugio de montaña", "Enclaves del Pirineo", "DGT-carreteras", "Otras"];
+const skiPattern = /^(cerler-(cota|ampriu)|formigal|panticosa-petrosos|piau-engaly|baqueira|breuil|mieders|llanos-del-hospital|linza-esqui-fondo)/;
+const enclavePattern = /^(cascada|portalet|tunnel-bielsa|riglos|nocito|alquezar|montfalco)/;
+
+function getKind(cam: { id: string; type: string; sourceName: string }) {
+  if (cam.type === 'dgt') return 'DGT-carreteras';
+  if (skiPattern.test(cam.id)) return 'Estación de esquí';
+  if (enclavePattern.test(cam.id)) return 'Enclaves del Pirineo';
+  if (cam.sourceName.startsWith('Albergues y refugios')) return 'Refugio de montaña';
+  return 'Otras';
+}
+
 const seoData = {
   title: 'Webcams en directo',
   description: 'Webcams en directo del Pirineo Oscense, la provincia de Huesca y el mundo.',
@@ -35,7 +47,28 @@ const seoData = {
       </div>
     </section>
 
-    <section class="px-4 sm:px-6 lg:px-10 mt-8">
+    <section class="px-4 sm:px-6 lg:px-10 mt-6">
+      <form id="webcam-search" class="flex flex-col gap-3 sm:flex-row" role="search" aria-label="Buscar webcams" onsubmit="return false">
+        <input
+          id="webcam-search-name"
+          type="search"
+          placeholder="Por nombre"
+          aria-label="Buscar webcam por nombre"
+          autocomplete="off"
+          class="w-full rounded-xl border border-primary-200 bg-primary-50/80 px-4 py-2 text-sm text-primary-800 placeholder:text-primary-500 focus:border-highlight-500 focus:outline-none dark:border-primary-700 dark:bg-primary-900/60 dark:text-primary-100 dark:placeholder:text-primary-400 sm:flex-1"
+        />
+        <select
+          id="webcam-search-kind"
+          aria-label="Filtrar por tipo"
+          class="w-full rounded-xl border border-primary-200 bg-primary-50/80 px-4 py-2 text-sm text-primary-800 focus:border-highlight-500 focus:outline-none dark:border-primary-700 dark:bg-primary-900/60 dark:text-primary-100 sm:w-64"
+        >
+          <option value="">Por tipo: todos</option>
+          {kinds.map((k) => <option value={k}>{k}</option>)}
+        </select>
+      </form>
+    </section>
+
+    <section class="px-4 sm:px-6 lg:px-10 mt-6">
       <div class="mb-6 flex flex-wrap gap-2" role="group" aria-label="Filtrar por categoría">
         {categories.map((cat, i) => (
           <button
@@ -56,6 +89,7 @@ const seoData = {
             title={cam.title}
             location={cam.location}
             category={cam.category}
+            kind={getKind(cam)}
             type={cam.type as 'youtube' | 'iframe' | 'dgt' | 'snapshot' | 'hls' | 'mjpeg'}
             embedUrl={cam.embedUrl}
             sourceName={cam.sourceName}
@@ -63,7 +97,7 @@ const seoData = {
           />
         ))}
       </div>
-      <p id="webcam-empty" class="hidden py-10 text-center text-primary-600 dark:text-primary-300">No hay cámaras en esta categoría.</p>
+      <p id="webcam-empty" class="hidden py-10 text-center text-primary-600 dark:text-primary-300">No hay cámaras que coincidan con la búsqueda.</p>
     </section>
   </main>
   <WebcamLightbox />
@@ -129,29 +163,55 @@ const seoData = {
     const buttons = document.querySelectorAll<HTMLButtonElement>('.webcam-filter');
     const cards = document.querySelectorAll<HTMLElement>('[data-webcam-card]');
     const empty = document.getElementById('webcam-empty');
+    const nameInput = document.getElementById('webcam-search-name') as HTMLInputElement | null;
+    const kindSelect = document.getElementById('webcam-search-kind') as HTMLSelectElement | null;
     if (!buttons.length) return;
+
+    const normalize = (s: string) => s.normalize('NFD').replace(/\p{Diacritic}/gu, '').toLowerCase().trim();
+
+    const applyFilters = () => {
+      const active = document.querySelector<HTMLButtonElement>('.webcam-filter[aria-pressed="true"]');
+      const filter = active?.dataset.filter ?? 'Todas';
+      const query = normalize(nameInput?.value ?? '');
+      const kind = kindSelect?.value ?? '';
+      let visible = 0;
+      cards.forEach((card) => {
+        const cat = card.dataset.category;
+        const matchesCategory =
+          filter === 'Todas' ||
+          cat === filter ||
+          (filter === 'Provincia de Huesca' && (cat === 'Pirineo Oscense' || cat === 'Provincia de Huesca' || cat === 'Carreteras DGT'));
+        const matchesName = !query || normalize(`${card.dataset.title ?? ''} ${card.dataset.location ?? ''}`).includes(query);
+        const matchesKind = !kind || card.dataset.kind === kind;
+        const show = matchesCategory && matchesName && matchesKind;
+        card.classList.toggle('hidden', !show);
+        if (show) visible++;
+      });
+      empty?.classList.toggle('hidden', visible > 0);
+      const filtered = visible !== cards.length;
+      const ids = Array.from(cards)
+        .filter((c) => !c.classList.contains('hidden'))
+        .map((c) => c.id.replace(/^webcam-/, ''));
+      (window as any).setWebcamMapVisibleIds?.(filtered ? ids : null);
+    };
 
     buttons.forEach((btn) => {
       const fresh = btn.cloneNode(true) as HTMLButtonElement;
       btn.replaceWith(fresh);
       fresh.addEventListener('click', () => {
-        const filter = fresh.dataset.filter;
         document.querySelectorAll<HTMLButtonElement>('.webcam-filter').forEach((b) =>
           b.setAttribute('aria-pressed', String(b === fresh))
         );
-        let visible = 0;
-        cards.forEach((card) => {
-          const cat = card.dataset.category;
-          const show =
-            filter === 'Todas' ||
-            cat === filter ||
-            (filter === 'Provincia de Huesca' && (cat === 'Pirineo Oscense' || cat === 'Provincia de Huesca' || cat === 'Carreteras DGT'));
-          card.classList.toggle('hidden', !show);
-          if (show) visible++;
-        });
-        empty?.classList.toggle('hidden', visible > 0);
+        applyFilters();
       });
     });
+
+    [nameInput, kindSelect].forEach((el) => {
+      if (!el || el.dataset.bound === 'true') return;
+      el.dataset.bound = 'true';
+      el.addEventListener('input', applyFilters);
+    });
+    applyFilters();
   }
 
   (window as any).initializeWebcamFilters = initializeWebcamFilters;

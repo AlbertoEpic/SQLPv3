@@ -10,7 +10,7 @@
     "semantic_hash": ""
   },
   "astro.config.mjs": {
-    "mtime": 1793273359.3213837,
+    "mtime": 1793388210.0446298,
     "ast_hash": "cc43ac8b5c4a322de8382144b7c6aad4",
     "semantic_hash": ""
   },
@@ -50,12 +50,12 @@
     "semantic_hash": ""
   },
   "public/gpx/strava/index.json": {
-    "mtime": 1793273359.1163805,
+    "mtime": 1793388209.8576312,
     "ast_hash": "3ecd5e6ff6890c923e793a92c3b2cdb5",
     "semantic_hash": ""
   },
   "public/gpx/strava/manual-links.json": {
-    "mtime": 1793273359.1163805,
+    "mtime": 1793388209.8586314,
     "ast_hash": "29925d09ee8ea9da3c850ee1f295a97a",
     "semantic_hash": ""
   },
@@ -7535,8 +7535,8 @@
     "semantic_hash": ""
   },
   "src/components/WebcamCard.astro": {
-    "mtime": 1793274219.650763,
-    "ast_hash": "8ea4fd775a3f5679bccf7c1c5ab59622",
+    "mtime": 1793388149.9061024,
+    "ast_hash": "d571734a5d42da722b4664a9f7c2c2bc",
     "semantic_hash": ""
   },
   "src/components/WebcamLightbox.astro": {
@@ -7545,18 +7545,18 @@
     "semantic_hash": ""
   },
   "src/components/WebcamMap.astro": {
-    "mtime": 1793034078.1190062,
-    "ast_hash": "5cb4a3a3512f56050005c4771ae324d0",
+    "mtime": 1793388512.9592962,
+    "ast_hash": "b352cbb8d647f503ab444fa5aab34a36",
     "semantic_hash": ""
   },
   "src/data/webcams.json": {
-    "mtime": 1793344834.0526094,
-    "ast_hash": "cf370143a98d790ceec67185301e052d",
+    "mtime": 1793388559.5986433,
+    "ast_hash": "d47163f5de5835ffd1d6e447a3997917",
     "semantic_hash": ""
   },
   "src/pages/webcams.astro": {
-    "mtime": 1793274707.5414815,
-    "ast_hash": "6a4ceb05bb173fd7e1bf6fc3101a7c75",
+    "mtime": 1793388517.3016584,
+    "ast_hash": "ecf2c6e887beba684ebf051c17f18ed8",
     "semantic_hash": ""
   },
   "src/content/posts/la-tetralog\u00eda-de-a\u00edsa-emtb.md": {

@@ -55,6 +55,8 @@ const data = encodeURIComponent(
   const CAMERA_SVG = `<svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#0f172a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="11" fill="#f59e0b" stroke="#fcd34d"/><path d="M7 9h6a1.5 1.5 0 0 1 1.5 1.5v3A1.5 1.5 0 0 1 13 15H7a1.5 1.5 0 0 1-1.5-1.5v-3A1.5 1.5 0 0 1 7 9z" fill="#0f172a"/><path d="M14.5 11.2 18 9.5v5l-3.5-1.7" fill="#0f172a"/></svg>`;
 
   let map: any = null;
+  let markers: { id: string; marker: any; cam: any }[] = [];
+  let visibleIds: Set<string> | null = null;
   let fullscreenHome: { parent: Node; next: Node | null } | null = null;
 
   const EXPAND_ICON = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8V4h4M20 8V4h-4M4 16v4h4M20 16v4h-4"/></svg>';
@@ -209,16 +211,42 @@ const data = encodeURIComponent(
       popupAnchor: [0, -18],
     });
 
-    const bounds: [number, number][] = [];
+    markers = [];
     for (const cam of webcams) {
-      const marker = L.marker([cam.lat, cam.lng], { icon, title: cam.title, keyboard: true }).addTo(map);
+      const marker = L.marker([cam.lat, cam.lng], { icon, title: cam.title, keyboard: true });
       marker.bindTooltip(cam.title, { direction: 'top', offset: [0, -16] });
       marker.on('click', () => openWebcam(cam.id));
-      if (cam.category !== 'Mundo') bounds.push([cam.lat, cam.lng]);
+      markers.push({ id: cam.id, marker, cam });
     }
-    if (bounds.length > 1) map.fitBounds(bounds, { padding: [40, 40], maxZoom: 9 });
+    applyMapFilter();
   }
 
+  // Muestra solo los marcadores visibles y reencuadra el mapa
+  function applyMapFilter(): void {
+    if (!map) return;
+    const bounds: [number, number][] = [];
+    const fallback: [number, number][] = [];
+    for (const { id, marker, cam } of markers) {
+      const show = !visibleIds || visibleIds.has(id);
+      if (show) {
+        if (!map.hasLayer(marker)) marker.addTo(map);
+        fallback.push([cam.lat, cam.lng]);
+        if (cam.category !== 'Mundo') bounds.push([cam.lat, cam.lng]);
+      } else if (map.hasLayer(marker)) {
+        map.removeLayer(marker);
+      }
+    }
+    const pts = bounds.length ? bounds : fallback;
+    if (pts.length > 1) map.fitBounds(pts, { padding: [40, 40], maxZoom: 9 });
+    else if (pts.length === 1) map.setView(pts[0], 9);
+  }
+
+  function setWebcamMapVisibleIds(ids: string[] | null): void {
+    visibleIds = ids ? new Set(ids) : null;
+    applyMapFilter();
+  }
+
+  (window as any).setWebcamMapVisibleIds = setWebcamMapVisibleIds;
   (window as any).scrollToWebcam = scrollToWebcam;
   (window as any).initializeWebcamMap = initializeWebcamMap;
 
