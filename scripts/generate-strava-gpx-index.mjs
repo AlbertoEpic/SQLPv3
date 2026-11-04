@@ -1,7 +1,7 @@
 import { promises as fs } from 'node:fs';
 import path from 'node:path';
 
-const STRAVA_DIR = path.join(process.cwd(), 'public', 'gpx', 'strava');
+const STRAVA_DIR = path.join(process.cwd(), 'public', 'gpx');
 const INDEX_PATH = path.join(STRAVA_DIR, 'index.json');
 const MANUAL_LINKS_PATH = path.join(STRAVA_DIR, 'manual-links.json');
 const IS_STRICT_MODE = process.argv.includes('--strict');
@@ -103,7 +103,7 @@ async function main() {
 
   if (IS_STRICT_MODE) {
     process.stdout.write(
-      `Generated ${indexItems.length} GPX entries in public/gpx/strava/index.json. Strict mode enabled: manual-links.json was not modified.\n`
+      `Generated ${indexItems.length} GPX entries in public/gpx/index.json. Strict mode enabled: manual-links.json was not modified.\n`
     );
 
     if (suggestedOnly.length === 0) {
@@ -121,7 +121,7 @@ async function main() {
   await fs.writeFile(MANUAL_LINKS_PATH, `${JSON.stringify(mergedManualLinks, null, 2)}\n`, 'utf8');
 
   process.stdout.write(
-    `Generated ${indexItems.length} GPX entries in public/gpx/strava/index.json and ${Object.keys(mergedManualLinks).length} manual links.\n`
+    `Generated ${indexItems.length} GPX entries in public/gpx/index.json and ${Object.keys(mergedManualLinks).length} manual links.\n`
   );
 }
 

@@ -387,7 +387,7 @@ async function initLeafletMaps(): Promise<void> {
           button.onmouseout = () => { button.style.background = 'white'; };
           L.DomEvent.on(button, 'click', () => {
             const filename = config.gpxFileName;
-            const url = `${getSiteBasePath()}gpx/strava/${filename}`;
+            const url = `${getSiteBasePath()}gpx/${filename}`;
             const link = document.createElement('a');
             link.href = url;
             link.download = filename ?? 'track.gpx';
@@ -399,7 +399,7 @@ async function initLeafletMaps(): Promise<void> {
       });
       new DownloadControl({ position: 'topright' }).addTo(map);
 
-      const gpxUrl = `${getSiteBasePath()}gpx/strava/${config.gpxFileName}`;
+      const gpxUrl = `${getSiteBasePath()}gpx/${config.gpxFileName}`;
       const elevationTargetSelector = config.elevationTargetId ? `#${config.elevationTargetId}` : null;
 
       new L.GPX(gpxUrl, {

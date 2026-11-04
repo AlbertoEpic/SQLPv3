@@ -39,14 +39,14 @@ let gpxMapData: { center: [number, number]; zoom: number; polylines: any[]; gpxF
 if (post.data.gpxMap) {
   try {
     // Read manual-links.json
-    const manualLinksPath = join(process.cwd(), 'public/gpx/strava/manual-links.json');
+    const manualLinksPath = join(process.cwd(), 'public/gpx/manual-links.json');
     const manualLinksContent = readFileSync(manualLinksPath, 'utf-8');
     const manualLinks: Record<string, string> = JSON.parse(manualLinksContent);
 
     // Get GPX filename for this post
     const gpxFilename = manualLinks[post.id];
     if (gpxFilename) {
-      const gpxPath = join(process.cwd(), `public/gpx/strava/${gpxFilename}`);
+      const gpxPath = join(process.cwd(), `public/gpx/${gpxFilename}`);
       const gpxContent = readFileSync(gpxPath, 'utf-8');
       const parsed = parseGPXString(gpxContent);
 

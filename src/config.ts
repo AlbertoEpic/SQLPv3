@@ -319,6 +319,7 @@ export const siteConfig: SiteConfig = {
       { title: "Pano360", url: "https://pano360.soloquedalopeor.com/" },
       { title: "Miniplanetas", url: "https://miniplanetas.soloquedalopeor.com/" },
       { title: "Webcams", url: "/webcams/" },
+      { title: "No Te Pierdas", url: "/ntp/" },
       { title: "Sobre mí", url: "/albertoepic/" }
     ],
     // [CONFIG:NAVIGATION_SOCIAL]

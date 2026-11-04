@@ -5,11 +5,11 @@
  * Muestra automáticamente el mapa Leaflet con el GPX de Strava que mejor
  * coincide con el post actual (por título, slug y fecha de publicación).
  *
- * Requiere que los archivos GPX estén en public/gpx/strava/ junto con el
+ * Requiere que los archivos GPX estén en public/gpx/ junto con el
  * index.json generado por scripts/download-strava-gpx.mjs.
  *
  * Para sobreescribir la asociación automática de un post, crea el archivo
- * public/gpx/strava/manual-links.json con el formato:
+ * public/gpx/manual-links.json con el formato:
  *   { "mi-slug-de-post": "2024-05-10-nombre-actividad-12345.gpx" }
  */
 
@@ -87,7 +87,7 @@ function findBestMatch(index: any[], title: string, slug: string, date?: string)
   return bestScore >= 4 ? best : null;
 }
 
-const stravaDir = join(process.cwd(), 'public', 'gpx', 'strava');
+const stravaDir = join(process.cwd(), 'public', 'gpx');
 const indexPath = join(stravaDir, 'index.json');
 const manualLinksPath = join(stravaDir, 'manual-links.json');
 
@@ -561,7 +561,7 @@ if (existsSync(indexPath)) {
     try {
       if (!gpxFile) return;
 
-      const gpxUrl = withBase(`gpx/strava/${gpxFile}`);
+      const gpxUrl = withBase(`gpx/${gpxFile}`);
       status.textContent = gpxName;
 
       await ensureLeafletAssets();

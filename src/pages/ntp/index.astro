@@ -1,0 +1,114 @@
+---
+import { getCollection } from 'astro:content';
+import { existsSync, readFileSync } from 'node:fs';
+import { join } from 'node:path';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Global3DMap from '@/components/Global3DMap.astro';
+import { withBase } from '@/utils/base-url';
+import { shouldShowPost } from '@/utils/markdown';
+
+interface GpxIndexEntry {
+  id: string;
+  name: string;
+  file: string;
+  status: string;
+}
+
+const gpxDirectory = join(process.cwd(), 'public', 'gpx');
+const indexPath = join(gpxDirectory, 'index.json');
+const manualLinksPath = join(gpxDirectory, 'manual-links.json');
+
+if (!existsSync(indexPath) || !existsSync(manualLinksPath)) {
+  throw new Error('Falta public/gpx/index.json o public/gpx/manual-links.json; ejecuta el paso generate-strava-gpx-index.');
+}
+
+const gpxIndex = JSON.parse(readFileSync(indexPath, 'utf8')) as GpxIndexEntry[];
+const manualLinks = JSON.parse(readFileSync(manualLinksPath, 'utf8')) as Record<string, string>;
+const posts = await getCollection('posts');
+const visiblePosts = posts.filter((post) => shouldShowPost(post, import.meta.env.DEV));
+
+const routes = gpxIndex.map((entry) => {
+  const post = visiblePosts.find((candidate) => manualLinks[candidate.id] === entry.file);
+
+  return {
+    id: entry.id,
+    title: entry.name || entry.file,
+    gpxUrl: withBase(`/gpx/${encodeURIComponent(entry.file)}`),
+    postUrl: post ? withBase(`/posts/${post.id}`) : null,
+  };
+});
+
+const seoData = {
+  title: 'No Te Pierdas — Mapa 3D de rutas',
+  description: 'Explora en un mapa 3D las rutas GPX y accede a sus reseñas.',
+  canonical: new URL('/ntp/', Astro.site ?? 'http://localhost:5000').toString(),
+  ogType: 'website' as const,
+};
+---
+
+<BaseLayout seoData={seoData}>
+  <div class="ntp-map-shell">
+    <Global3DMap routes={routes} />
+
+    <header class="ntp-map-header">
+      <a
+        class="ntp-map-back rounded-lg border border-primary-200 bg-primary-50/90 px-3 py-2 text-sm font-semibold text-primary-800 shadow-lg backdrop-blur-md transition hover:border-highlight-500 hover:text-highlight-700 dark:border-primary-700 dark:bg-primary-950/90 dark:text-primary-100 dark:hover:text-highlight-300"
+        href={withBase('/')}
+        data-no-swup
+      >
+        Volver
+      </a>
+      <div class="ntp-map-brand rounded-xl border border-primary-200 bg-primary-50/90 px-4 py-2 shadow-lg backdrop-blur-md dark:border-primary-700 dark:bg-primary-950/90">
+        <h1 class="text-base font-extrabold tracking-wider text-highlight-700 dark:text-highlight-300 sm:text-lg">
+          NO TE PIERDAS
+        </h1>
+        <p class="text-xs text-primary-700 dark:text-primary-200">Mapa interactivo 3D de rutas</p>
+      </div>
+    </header>
+  </div>
+</BaseLayout>
+
+<style is:global>
+  body:has(#global-3d-map) {
+    overflow: hidden;
+  }
+
+  body:has(#global-3d-map) #main-header,
+  body:has(#global-3d-map) > footer {
+    display: none;
+  }
+
+  body:has(#global-3d-map) #main-content {
+    width: 100%;
+    max-width: none !important;
+    margin: 0;
+  }
+
+  body:has(#global-3d-map) #swup-container {
+    min-height: 100dvh;
+  }
+
+  .ntp-map-shell {
+    position: relative;
+    width: 100%;
+    height: 100dvh;
+    min-height: 28rem;
+  }
+
+  .ntp-map-header {
+    position: absolute;
+    z-index: 3;
+    top: 1rem;
+    left: 1rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+  }
+
+  @media (max-width: 480px) {
+    .ntp-map-header {
+      right: 1rem;
+      flex-wrap: wrap;
+    }
+  }
+</style>

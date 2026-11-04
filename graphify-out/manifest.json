@@ -10,8 +10,8 @@
     "semantic_hash": ""
   },
   "astro.config.mjs": {
-    "mtime": 1793388210.0446298,
-    "ast_hash": "cc43ac8b5c4a322de8382144b7c6aad4",
+    "mtime": 1793793795.54987,
+    "ast_hash": "a01deafb48212649508fd004dc6c4d52",
     "semantic_hash": ""
   },
   "cli/bin/create-astro-modular.mjs": {
@@ -45,18 +45,8 @@
     "semantic_hash": ""
   },
   "package.json": {
-    "mtime": 1793273431.228266,
-    "ast_hash": "56a3210237bacb8aae31f0db85a79e3e",
-    "semantic_hash": ""
-  },
-  "public/gpx/strava/index.json": {
-    "mtime": 1793388209.8576312,
-    "ast_hash": "3ecd5e6ff6890c923e793a92c3b2cdb5",
-    "semantic_hash": ""
-  },
-  "public/gpx/strava/manual-links.json": {
-    "mtime": 1793388209.8586314,
-    "ast_hash": "29925d09ee8ea9da3c850ee1f295a97a",
+    "mtime": 1793793293.589306,
+    "ast_hash": "2be463c83a2859aa8a68b3b92c4d8526",
     "semantic_hash": ""
   },
   "public/scripts/category-filtering.js": {
@@ -95,8 +85,8 @@
     "semantic_hash": ""
   },
   "scripts/generate-strava-gpx-index.mjs": {
-    "mtime": 1780658973.8019924,
-    "ast_hash": "0c67ecf8e9dbf1a0615633e8762eab96",
+    "mtime": 1793792110.407333,
+    "ast_hash": "8b2f69e37ff474720d4e914ef395a4e2",
     "semantic_hash": ""
   },
   "scripts/get-deployment-platform.js": {
@@ -270,8 +260,8 @@
     "semantic_hash": ""
   },
   "src/components/StravaRouteMap.astro": {
-    "mtime": 1782900103.7871163,
-    "ast_hash": "45ece6433b11790cdb3fb7f016a3d354",
+    "mtime": 1793792110.4083335,
+    "ast_hash": "30cc92d6fc7ce526e998a6567043a40c",
     "semantic_hash": ""
   },
   "src/components/TableOfContents.astro": {
@@ -295,8 +285,8 @@
     "semantic_hash": ""
   },
   "src/config.ts": {
-    "mtime": 1793127822.781101,
-    "ast_hash": "7d271014b5bea64634040775113a11eb",
+    "mtime": 1793794199.968385,
+    "ast_hash": "a0d6c335161f70b0321bc8c507bfde22",
     "semantic_hash": ""
   },
   "src/config/dev.ts": {
@@ -770,8 +760,8 @@
     "semantic_hash": ""
   },
   "src/layouts/PostLayout.astro": {
-    "mtime": 1789057615.3086848,
-    "ast_hash": "1076106c11924b9bf40926f29c0c0cac",
+    "mtime": 1793792110.4103334,
+    "ast_hash": "c86fd4ea1dcb2d7095eebeeb4927d06f",
     "semantic_hash": ""
   },
   "src/layouts/ProjectLayout.astro": {
@@ -930,8 +920,8 @@
     "semantic_hash": ""
   },
   "src/scripts/leaflet-client.ts": {
-    "mtime": 1789110790.342908,
-    "ast_hash": "962a067064a46c47257fb2c5c098df73",
+    "mtime": 1793792110.4093328,
+    "ast_hash": "9e9350660d3746bca63205a11a83b57e",
     "semantic_hash": ""
   },
   "src/scripts/mermaid-client.ts": {
@@ -1150,7 +1140,7 @@
     "semantic_hash": ""
   },
   "AGENTS.md": {
-    "mtime": 1793273568.7855844,
+    "mtime": 1793793293.4573052,
     "ast_hash": "bc335c48b460fcc55839ea661c9397e3",
     "semantic_hash": ""
   },
@@ -7060,7 +7050,7 @@
     "semantic_hash": ""
   },
   ".agent/sync-status.json": {
-    "mtime": 1793273562.725103,
+    "mtime": 1793793430.5398755,
     "ast_hash": "56fe0377228254f85a4edf9f25ad73f8",
     "semantic_hash": ""
   },
@@ -7597,6 +7587,26 @@
   "src/utils/webcam-stream.ts": {
     "mtime": 1793273719.7055187,
     "ast_hash": "5e42743797628ecf10593af163b31036",
+    "semantic_hash": ""
+  },
+  "public/gpx/index.json": {
+    "mtime": 1793792186.5390453,
+    "ast_hash": "3ecd5e6ff6890c923e793a92c3b2cdb5",
+    "semantic_hash": ""
+  },
+  "public/gpx/manual-links.json": {
+    "mtime": 1793792186.5400445,
+    "ast_hash": "29925d09ee8ea9da3c850ee1f295a97a",
+    "semantic_hash": ""
+  },
+  "src/components/Global3DMap.astro": {
+    "mtime": 1793793978.8558354,
+    "ast_hash": "77faf30b26c63eea8158ad0b5d0de417",
+    "semantic_hash": ""
+  },
+  "src/pages/ntp/index.astro": {
+    "mtime": 1793794199.984385,
+    "ast_hash": "1cae650610f563a542940d5e815eede1",
     "semantic_hash": ""
   }
 }

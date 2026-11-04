@@ -64,7 +64,13 @@ export default defineConfig({
       resources: ["'self'", "data:", "https:"]
     },
     connectDirective: {
-      resources: ["'self'", "https://giscus.app", "https://graph.instagram.com"]
+      resources: [
+        "'self'",
+        "https://giscus.app",
+        "https://graph.instagram.com",
+        "https://tile.openstreetmap.org",
+        "https://s3.amazonaws.com"
+      ]
     },
     frameDirective: {
       resources: [

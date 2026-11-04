@@ -1,0 +1,447 @@
+---
+export interface Route {
+  id: string;
+  title: string;
+  gpxUrl: string;
+  postUrl: string | null;
+}
+
+interface Props {
+  routes: Route[];
+}
+
+const { routes } = Astro.props;
+const encodedRoutes = encodeURIComponent(JSON.stringify(routes));
+---
+
+<div class="global-map-frame">
+  <div
+    id="global-3d-map"
+    class="global-3d-map"
+    data-routes={encodedRoutes}
+    aria-label="Mapa 3D interactivo de rutas GPX"
+  ></div>
+  <p
+    id="global-3d-map-status"
+    class="global-map-status"
+    role="status"
+    aria-live="polite"
+  >
+    Preparando el mapa...
+  </p>
+</div>
+
+<style is:global>
+  .global-map-frame,
+  .global-3d-map {
+    width: 100%;
+    height: 100%;
+  }
+
+  .global-map-frame {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .global-3d-map {
+    background: rgb(var(--color-primary-100));
+  }
+
+  .dark .global-3d-map {
+    background: rgb(var(--color-primary-900));
+  }
+
+  .global-map-status {
+    position: absolute;
+    z-index: 2;
+    bottom: 1rem;
+    left: 1rem;
+    max-width: min(32rem, calc(100vw - 2rem));
+    margin: 0;
+    border: 1px solid rgb(var(--color-primary-200));
+    border-radius: 0.75rem;
+    background: rgb(var(--color-primary-50) / 0.92);
+    padding: 0.5rem 0.75rem;
+    color: rgb(var(--color-primary-800));
+    font-size: 0.75rem;
+    box-shadow: 0 4px 16px rgb(var(--color-primary-950) / 0.15);
+    backdrop-filter: blur(8px);
+  }
+
+  .dark .global-map-status {
+    border-color: rgb(var(--color-primary-700));
+    background: rgb(var(--color-primary-950) / 0.92);
+    color: rgb(var(--color-primary-100));
+  }
+
+  .global-map-popup {
+    display: grid;
+    gap: 0.5rem;
+    min-width: 10rem;
+    color: rgb(var(--color-primary-900));
+  }
+
+  .dark .global-map-popup {
+    color: rgb(var(--color-primary-50));
+  }
+
+  .global-map-popup a {
+    color: rgb(var(--color-highlight-700));
+    font-weight: 700;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  .dark .global-map-popup a {
+    color: rgb(var(--color-highlight-300));
+  }
+
+  .global-map-popup-note {
+    color: rgb(var(--color-primary-600));
+    font-size: 0.75rem;
+  }
+
+  .dark .global-map-popup-note {
+    color: rgb(var(--color-primary-300));
+  }
+
+  #global-3d-map .maplibregl-popup-content {
+    border: 1px solid rgb(var(--color-primary-200));
+    border-radius: 0.75rem;
+    background: rgb(var(--color-primary-50));
+    padding: 0.75rem;
+  }
+
+  .dark #global-3d-map .maplibregl-popup-content {
+    border-color: rgb(var(--color-primary-700));
+    background: rgb(var(--color-primary-900));
+  }
+</style>
+
+<script>
+  import {
+    LngLatBounds,
+    Map as MapLibreMap,
+    NavigationControl,
+    Popup,
+    setWorkerUrl,
+    type ErrorEventType,
+    type MapLayerMouseEvent,
+  } from 'maplibre-gl';
+  import workerUrl from 'maplibre-gl/dist/maplibre-gl-worker.mjs?url';
+  import 'maplibre-gl/dist/maplibre-gl.css';
+  import GpxParser from 'gpxparser';
+  import { getGraphThemeColors } from '@/utils/graph-theme-colors';
+
+  interface MapRoute {
+    id: string;
+    title: string;
+    gpxUrl: string;
+    postUrl: string | null;
+  }
+
+  interface TrackPoint {
+    lat: number;
+    lon: number;
+  }
+
+  interface RouteLineFeature {
+    type: 'Feature';
+    geometry: {
+      type: 'LineString';
+      coordinates: [number, number][];
+    };
+    properties: Record<string, never>;
+  }
+
+  interface RouteFeatureCollection {
+    type: 'FeatureCollection';
+    features: RouteLineFeature[];
+  }
+
+  class BrowserGpxParser extends GpxParser {
+    queryDirectSelector(parent: Element, needle: string): Element | undefined {
+      const matches = parent.querySelectorAll(needle);
+      let selected = matches.item(0) ?? undefined;
+      if (matches.length > 1) {
+        for (const child of Array.from(parent.children)) {
+          if (child.matches(needle)) selected = child;
+        }
+      }
+      return selected;
+    }
+  }
+
+  type WindowWithMap = Window & {
+    initializeGlobal3DMap?: () => void;
+    __global3DMapHooked?: boolean;
+    swup?: {
+      hooks?: {
+        on: (event: string, callback: () => void) => void;
+      };
+    };
+  };
+
+  const routeColorVariables = [
+    '--color-highlight-500',
+    '--color-primary-400',
+    '--color-highlight-300',
+    '--color-primary-600',
+    '--color-highlight-600',
+    '--color-primary-300',
+    '--color-highlight-700',
+    '--color-primary-500',
+  ];
+
+  setWorkerUrl(workerUrl);
+
+  let map: MapLibreMap | null = null;
+  let loadController: AbortController | null = null;
+  let hoveredLayerId: string | null = null;
+  const routeLayerColors = new Map<string, string>();
+
+  function setStatus(message: string): void {
+    const status = document.getElementById('global-3d-map-status');
+    if (status) status.textContent = message;
+  }
+
+  function getThemeColor(variable: string): string {
+    const value = getComputedStyle(document.documentElement).getPropertyValue(variable).trim();
+    if (value) return `rgb(${value})`;
+
+    const themeColors = getGraphThemeColors();
+    return variable.includes('highlight') ? themeColors.highlight : themeColors.postFill;
+  }
+
+  function refreshRouteColors(): void {
+    if (!map) return;
+    for (const [layerId, variable] of routeLayerColors) {
+      if (!map.getLayer(layerId)) continue;
+      map.setPaintProperty(
+        layerId,
+        'line-color',
+        layerId === hoveredLayerId ? getThemeColor('--color-highlight-400') : getThemeColor(variable)
+      );
+    }
+  }
+
+  function createPopupContent(route: MapRoute): HTMLElement {
+    const content = document.createElement('div');
+    content.className = 'global-map-popup';
+
+    const title = document.createElement('strong');
+    title.textContent = route.title;
+    content.append(title);
+
+    if (route.postUrl) {
+      const link = document.createElement('a');
+      link.href = route.postUrl;
+      link.dataset.noSwup = 'true';
+      link.textContent = 'Ver reseña completa';
+      content.append(link);
+    } else {
+      const note = document.createElement('span');
+      note.className = 'global-map-popup-note';
+      note.textContent = 'Esta ruta todavía no tiene una reseña asociada.';
+      content.append(note);
+    }
+
+    return content;
+  }
+
+  function getLineFeatures(parser: GpxParser): RouteFeatureCollection {
+    const pointGroups: TrackPoint[][] = [
+      ...parser.tracks.map((track) => track.points),
+      ...parser.routes.map((route) => route.points),
+    ];
+
+    const features = pointGroups.flatMap((points): RouteLineFeature[] => {
+      const coordinates = points
+        .filter((point) => Number.isFinite(point.lon) && Number.isFinite(point.lat))
+        .map((point): [number, number] => [point.lon, point.lat]);
+
+      if (coordinates.length < 2) return [];
+      return [{
+        type: 'Feature',
+        geometry: { type: 'LineString', coordinates },
+        properties: {},
+      }];
+    });
+
+    return { type: 'FeatureCollection', features };
+  }
+
+  async function loadRoutes(activeMap: MapLibreMap, routes: MapRoute[], signal: AbortSignal): Promise<void> {
+    const bounds = new LngLatBounds();
+    const errors: string[] = [];
+    let loaded = 0;
+
+    for (const [index, route] of routes.entries()) {
+      if (signal.aborted || map !== activeMap) return;
+
+      try {
+        const response = await fetch(route.gpxUrl, { signal });
+        if (!response.ok) {
+          throw new Error(`HTTP ${response.status} al cargar ${route.gpxUrl}`);
+        }
+
+        const parser = new BrowserGpxParser();
+        parser.parse(await response.text());
+        const data = getLineFeatures(parser);
+        if (data.features.length === 0) {
+          throw new Error('El archivo no contiene tracks o rutas con coordenadas válidas.');
+        }
+
+        const sourceId = `global-route-source-${route.id}`;
+        const layerId = `global-route-layer-${route.id}`;
+        const colorVariable = routeColorVariables[index % routeColorVariables.length];
+
+        activeMap.addSource(sourceId, { type: 'geojson', data });
+        activeMap.addLayer({
+          id: layerId,
+          type: 'line',
+          source: sourceId,
+          layout: {
+            'line-join': 'round',
+            'line-cap': 'round',
+          },
+          paint: {
+            'line-color': getThemeColor(colorVariable),
+            'line-width': 3,
+            'line-opacity': 0.85,
+          },
+        });
+        routeLayerColors.set(layerId, colorVariable);
+
+        for (const feature of data.features) {
+          for (const coordinate of feature.geometry.coordinates) {
+            bounds.extend(coordinate);
+          }
+        }
+
+        const popup = new Popup({ closeButton: false, closeOnClick: false })
+          .setDOMContent(createPopupContent(route));
+
+        activeMap.on('mouseenter', layerId, (event: MapLayerMouseEvent) => {
+          hoveredLayerId = layerId;
+          activeMap.getCanvas().style.cursor = route.postUrl ? 'pointer' : '';
+          activeMap.setPaintProperty(layerId, 'line-width', 6);
+          activeMap.setPaintProperty(layerId, 'line-color', getThemeColor('--color-highlight-400'));
+          popup.setLngLat(event.lngLat).addTo(activeMap);
+        });
+
+        activeMap.on('mousemove', layerId, (event: MapLayerMouseEvent) => {
+          popup.setLngLat(event.lngLat);
+        });
+
+        activeMap.on('mouseleave', layerId, () => {
+          if (hoveredLayerId === layerId) hoveredLayerId = null;
+          activeMap.getCanvas().style.cursor = '';
+          activeMap.setPaintProperty(layerId, 'line-width', 3);
+          activeMap.setPaintProperty(layerId, 'line-color', getThemeColor(colorVariable));
+          popup.remove();
+        });
+
+        activeMap.on('click', layerId, () => {
+          if (route.postUrl) window.location.assign(route.postUrl);
+        });
+
+        loaded += 1;
+      } catch (error) {
+        if (signal.aborted) return;
+        errors.push(route.title);
+        console.error(`No se pudo cargar la ruta GPX "${route.title}".`, error);
+      }
+
+      setStatus(`Cargando rutas: ${index + 1} de ${routes.length}...`);
+    }
+
+    if (signal.aborted || map !== activeMap) return;
+
+    if (!bounds.isEmpty()) {
+      activeMap.fitBounds(bounds, { padding: 80, maxZoom: 11, pitch: 58, duration: 0 });
+    }
+
+    const linkedCount = routes.filter((route) => route.postUrl).length;
+    const errorSummary = errors.length ? ` No se pudieron cargar: ${errors.join(', ')}.` : '';
+    setStatus(`${loaded} de ${routes.length} rutas cargadas; ${linkedCount} con reseña.${errorSummary}`);
+  }
+
+  async function initializeGlobal3DMap(): Promise<void> {
+    const element = document.getElementById('global-3d-map');
+    loadController?.abort();
+
+    if (!element) {
+      map?.remove();
+      map = null;
+      routeLayerColors.clear();
+      hoveredLayerId = null;
+      return;
+    }
+
+    map?.remove();
+    routeLayerColors.clear();
+    hoveredLayerId = null;
+    const controller = new AbortController();
+    loadController = controller;
+
+    const routes = JSON.parse(decodeURIComponent(element.dataset.routes || '[]')) as MapRoute[];
+    const activeMap = new MapLibreMap({
+      container: element,
+      style: {
+        version: 8,
+        sources: {
+          'osm-tiles': {
+            type: 'raster',
+            tiles: ['https://tile.openstreetmap.org/{z}/{x}/{y}.png'],
+            tileSize: 256,
+            attribution: '&copy; OpenStreetMap contributors',
+          },
+          terrain: {
+            type: 'raster-dem',
+            tiles: ['https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png'],
+            tileSize: 256,
+            encoding: 'terrarium',
+            maxzoom: 15,
+            attribution: 'Terrain data &copy; AWS Open Data',
+          },
+        },
+        layers: [{ id: 'osm-tiles-layer', type: 'raster', source: 'osm-tiles' }],
+        terrain: { source: 'terrain', exaggeration: 1.4 },
+      },
+      center: [-0.258, 42.756],
+      zoom: 11,
+      pitch: 58,
+      bearing: -15,
+      maxPitch: 85,
+    });
+
+    map = activeMap;
+    activeMap.addControl(new NavigationControl({ visualizePitch: true }), 'top-right');
+    activeMap.once('load', () => {
+      setStatus(`Cargando ${routes.length} rutas...`);
+      void loadRoutes(activeMap, routes, controller.signal);
+    });
+    activeMap.on('error', (event: ErrorEventType['error']) => {
+      console.error('Error en el mapa 3D.', event.error);
+      if (map === activeMap) setStatus('El mapa ha encontrado un error al cargar los datos cartográficos.');
+    });
+  }
+
+  const appWindow = window as WindowWithMap;
+  appWindow.initializeGlobal3DMap = initializeGlobal3DMap;
+  window.addEventListener('themechange', refreshRouteColors);
+
+  function hookSwup(): void {
+    const swup = appWindow.swup;
+    if (!swup?.hooks || appWindow.__global3DMapHooked) return;
+    appWindow.__global3DMapHooked = true;
+    swup.hooks.on('page:view', () => appWindow.initializeGlobal3DMap?.());
+    swup.hooks.on('visit:end', () => appWindow.initializeGlobal3DMap?.());
+  }
+
+  document.addEventListener('DOMContentLoaded', initializeGlobal3DMap);
+  if (document.readyState !== 'loading') void initializeGlobal3DMap();
+  hookSwup();
+  document.addEventListener('DOMContentLoaded', hookSwup);
+</script>
