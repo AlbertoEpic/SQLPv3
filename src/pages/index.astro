@@ -671,6 +671,21 @@ const structuredData = {
     </section>
 
     <section class="content-row px-4 sm:px-6 lg:px-10 mt-8">
+      <a href={withBase('/webcams/')} class="webcams-banner-container" title="Webcams en vivo de montaña">
+        <img
+          src="/banner-webcams.png"
+          alt="Webcams - Vistas en vivo de las montañas"
+          class="webcams-banner-fullwidth"
+          loading="lazy"
+          decoding="async"
+          width={1200}
+          height={675}
+        />
+        <div class="webcams-tooltip">Webcams: vistas en vivo de las montañas</div>
+      </a>
+    </section>
+
+    <section class="content-row px-4 sm:px-6 lg:px-10 mt-8">
       <a href={withBase('/ntp/')} class="ntp-banner-container" title="No Te Pierdas: mapa 3D interactivo con nuestras rutas .gpx">
         <img
           src="/banner-ntp-home.png"
@@ -1078,6 +1093,57 @@ const structuredData = {
   }
 
   .ntp-banner-container:hover .ntp-tooltip {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+
+  .webcams-banner-container {
+    position: relative;
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .webcams-banner-fullwidth {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 0.6rem;
+    box-shadow: 0 14px 35px rgb(var(--color-primary-900) / 0.07);
+    transition: transform 180ms ease, box-shadow 180ms ease;
+  }
+
+  .webcams-banner-container:hover .webcams-banner-fullwidth {
+    transform: translateY(-2px);
+    box-shadow: 0 20px 50px rgb(var(--color-primary-900) / 0.12);
+  }
+
+  :global(.dark) .webcams-banner-fullwidth {
+    box-shadow: 0 14px 35px rgb(var(--color-primary-900) / 0.25);
+  }
+
+  :global(.dark) .webcams-banner-container:hover .webcams-banner-fullwidth {
+    box-shadow: 0 20px 50px rgb(var(--color-primary-900) / 0.40);
+  }
+
+  .webcams-tooltip {
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%) translateY(10px);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 0.75rem 1rem;
+    border-radius: 0.4rem;
+    font-size: 0.875rem;
+    white-space: nowrap;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 200ms ease, transform 200ms ease;
+    z-index: 10;
+  }
+
+  .webcams-banner-container:hover .webcams-tooltip {
     opacity: 1;
     transform: translateX(-50%) translateY(0);
   }
