@@ -4,7 +4,7 @@ export interface Route {
   title: string;
   gpxUrl: string;
   postUrl: string | null;
-  category?: 'btt' | 'skimo' | 'senderismo';
+  category?: 'btt' | 'skimo' | 'senderismo' | 'barrancos';
 }
 
 interface Props {
@@ -476,6 +476,7 @@ const encodedRoutes = encodeURIComponent(JSON.stringify(routes));
     Popup,
     setWorkerUrl,
     type ErrorEventType,
+    type FilterSpecification,
     type MapLayerMouseEvent,
   } from 'maplibre-gl';
   import workerUrl from 'maplibre-gl/dist/maplibre-gl-worker.mjs?url';
@@ -503,7 +504,7 @@ const encodedRoutes = encodeURIComponent(JSON.stringify(routes));
       coordinates: [number, number][];
     };
     properties: {
-      activity?: 'btt' | 'skimo' | 'senderismo';
+      activity?: 'btt' | 'skimo' | 'senderismo' | 'barrancos';
     };
   }
 
@@ -561,7 +562,7 @@ const encodedRoutes = encodeURIComponent(JSON.stringify(routes));
     let totalVisible = 0;
 
     countBadges.forEach((badge) => {
-      const category = badge.getAttribute('data-category-count') as 'btt' | 'skimo' | 'senderismo' | null;
+      const category = badge.getAttribute('data-category-count') as 'btt' | 'skimo' | 'senderismo' | 'barrancos' | null;
       if (!category) return;
 
       const count = routeCategoryCounts[category] || 0;
@@ -593,7 +594,7 @@ const encodedRoutes = encodeURIComponent(JSON.stringify(routes));
     });
 
     // Filtrar capas de track principal y casing
-    const mapFilter = activeCategories.length > 0
+    const mapFilter: FilterSpecification = activeCategories.length > 0
       ? ['in', ['get', 'activity'], ['literal', activeCategories]]
       : ['==', ['get', 'activity'], 'none-selected'];
 
@@ -873,7 +874,7 @@ const encodedRoutes = encodeURIComponent(JSON.stringify(routes));
     
     // Crear clase de control personalizado para MapLibre
     class TiltOrientationControl {
-      private container: HTMLElement;
+      private container!: HTMLElement;
       private map: MapLibreMap | null = null;
 
       onAdd(map: MapLibreMap): HTMLElement {
