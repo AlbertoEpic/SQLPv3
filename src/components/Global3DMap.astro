@@ -4,6 +4,7 @@ export interface Route {
   title: string;
   gpxUrl: string;
   postUrl: string | null;
+  category?: 'btt' | 'skimo' | 'senderismo';
 }
 
 interface Props {
@@ -29,6 +30,116 @@ const encodedRoutes = encodeURIComponent(JSON.stringify(routes));
   >
     Preparando el mapa...
   </p>
+
+  <!-- Leyenda Flotante Interactiva -->
+  <div id="map-legend" class="map-legend">
+    <div class="legend-header">
+      <span class="legend-title">Filtrar Disciplinas</span>
+      <button
+        id="toggle-all-btn"
+        type="button"
+        class="legend-toggle-btn"
+        aria-label="Marcar o desmarcar todas las disciplinas"
+      >
+        Desmarcar todo
+      </button>
+    </div>
+
+    <div class="legend-filters">
+      <!-- BTT / E-MTB -->
+      <label class="legend-checkbox-label">
+        <div class="legend-checkbox-wrapper">
+          <input
+            type="checkbox"
+            value="btt"
+            checked
+            class="filter-checkbox"
+            data-category="btt"
+            aria-label="Filtrar rutas BTT / E-MTB"
+          />
+          <div class="legend-checkbox-visual">
+            <svg class="legend-checkmark" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path>
+            </svg>
+          </div>
+        </div>
+        <span class="legend-color-dot" style="background-color: #FF4500;"></span>
+        <span class="legend-label">BTT / E-MTB</span>
+      </label>
+      <span class="legend-count-badge" data-category-count="btt">0</span>
+
+      <!-- Skimo -->
+      <label class="legend-checkbox-label">
+        <div class="legend-checkbox-wrapper">
+          <input
+            type="checkbox"
+            value="skimo"
+            checked
+            class="filter-checkbox"
+            data-category="skimo"
+            aria-label="Filtrar rutas Skimo"
+          />
+          <div class="legend-checkbox-visual">
+            <svg class="legend-checkmark" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path>
+            </svg>
+          </div>
+        </div>
+        <span class="legend-color-dot" style="background-color: #00B4D8;"></span>
+        <span class="legend-label">Skimo</span>
+      </label>
+      <span class="legend-count-badge" data-category-count="skimo">0</span>
+
+      <!-- Senderismo -->
+      <label class="legend-checkbox-label">
+        <div class="legend-checkbox-wrapper">
+          <input
+            type="checkbox"
+            value="senderismo"
+            checked
+            class="filter-checkbox"
+            data-category="senderismo"
+            aria-label="Filtrar rutas de Senderismo"
+          />
+          <div class="legend-checkbox-visual">
+            <svg class="legend-checkmark" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path>
+            </svg>
+          </div>
+        </div>
+        <span class="legend-color-dot" style="background-color: #F59E0B;"></span>
+        <span class="legend-label">A pie</span>
+      </label>
+      <span class="legend-count-badge" data-category-count="senderismo">0</span>
+
+      <!-- Barrancos -->
+      <label class="legend-checkbox-label">
+        <div class="legend-checkbox-wrapper">
+          <input
+            type="checkbox"
+            value="barrancos"
+            checked
+            class="filter-checkbox"
+            data-category="barrancos"
+            aria-label="Filtrar rutas de Barrancos"
+          />
+          <div class="legend-checkbox-visual">
+            <svg class="legend-checkmark" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path>
+            </svg>
+          </div>
+        </div>
+        <span class="legend-color-dot" style="background-color: #0EA5E9;"></span>
+        <span class="legend-label">Barrancos</span>
+      </label>
+      <span class="legend-count-badge" data-category-count="barrancos">0</span>
+    </div>
+
+    <div class="legend-footer">
+      <span>Rutas visibles:</span>
+      <span id="total-visible-count" class="legend-total-count">0</span>
+    </div>
+  </div>
 </div>
 
 <style is:global>
@@ -45,6 +156,7 @@ const encodedRoutes = encodeURIComponent(JSON.stringify(routes));
 
   .global-3d-map {
     background: rgb(var(--color-primary-100));
+    filter: saturate(0.6) contrast(1.1) brightness(1.05);
   }
 
   .dark .global-3d-map {
@@ -72,6 +184,178 @@ const encodedRoutes = encodeURIComponent(JSON.stringify(routes));
     border-color: rgb(var(--color-primary-700));
     background: rgb(var(--color-primary-950) / 0.92);
     color: rgb(var(--color-primary-100));
+  }
+
+  /* Leyenda Flotante */
+  .map-legend {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    z-index: 20;
+    width: 16rem;
+    background: rgba(15, 23, 42, 0.92);
+    border: 1px solid rgba(51, 65, 85, 0.6);
+    border-radius: 0.75rem;
+    padding: 1rem;
+    color: rgb(226, 232, 240);
+    font-size: 0.875rem;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(12px);
+    font-family: system-ui, -apple-system, sans-serif;
+  }
+
+  .dark .map-legend {
+    background: rgba(15, 23, 42, 0.95);
+    border-color: rgba(51, 65, 85, 0.8);
+  }
+
+  .legend-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.75rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid rgba(51, 65, 85, 0.5);
+  }
+
+  .legend-title {
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-size: 0.625rem;
+    color: rgb(148, 163, 184);
+  }
+
+  .legend-toggle-btn {
+    background: none;
+    border: none;
+    font-size: 0.6875rem;
+    font-weight: 600;
+    color: #00B4D8;
+    cursor: pointer;
+    transition: color 150ms ease-in-out;
+    padding: 0;
+  }
+
+  .legend-toggle-btn:hover {
+    color: #22d3ee;
+  }
+
+  .legend-toggle-btn:focus {
+    outline: 2px solid #00B4D8;
+    outline-offset: 2px;
+  }
+
+  .legend-filters {
+    display: grid;
+    gap: 0.625rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .legend-checkbox-label {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  .legend-checkbox-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+
+  .filter-checkbox {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 1rem;
+    height: 1rem;
+    border: 1px solid rgb(100, 116, 139);
+    border-radius: 0.25rem;
+    background: rgb(30, 41, 59);
+    cursor: pointer;
+    transition: all 150ms ease-in-out;
+  }
+
+  .filter-checkbox:checked {
+    border-color: currentColor;
+    background: currentColor;
+  }
+
+  .filter-checkbox:focus-visible {
+    outline: 2px solid rgb(100, 116, 139);
+    outline-offset: 2px;
+  }
+
+  .legend-checkbox-visual {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+  }
+
+  .legend-checkmark {
+    width: 0.75rem;
+    height: 0.75rem;
+    color: white;
+    opacity: 0;
+    transition: opacity 150ms ease-in-out;
+  }
+
+  .filter-checkbox:checked ~ .legend-checkbox-visual .legend-checkmark {
+    opacity: 1;
+  }
+
+  .legend-color-dot {
+    display: inline-block;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    flex-shrink: 0;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  }
+
+  .legend-label {
+    flex: 1;
+    transition: color 150ms ease-in-out;
+  }
+
+  .legend-checkbox-label:hover .legend-label {
+    color: white;
+  }
+
+  .legend-count-badge {
+    font-size: 0.625rem;
+    font-family: 'Monaco', 'Menlo', monospace;
+    padding: 0.125rem 0.5rem;
+    border-radius: 9999px;
+    background: rgb(30, 41, 59);
+    color: rgb(148, 163, 184);
+    border: 1px solid rgba(51, 65, 85, 0.5);
+    flex-shrink: 0;
+  }
+
+  .legend-count-badge.opacity-40 {
+    opacity: 0.4;
+  }
+
+  .legend-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.5rem;
+    border-top: 1px solid rgba(51, 65, 85, 0.5);
+    font-size: 0.75rem;
+    color: rgb(148, 163, 184);
+  }
+
+  .legend-total-count {
+    font-weight: 700;
+    color: rgb(226, 232, 240);
+    font-family: 'Monaco', 'Menlo', monospace;
   }
 
   .global-map-popup {
@@ -116,6 +400,72 @@ const encodedRoutes = encodeURIComponent(JSON.stringify(routes));
     border-color: rgb(var(--color-primary-700));
     background: rgb(var(--color-primary-900));
   }
+
+  /* Controles de orientación e inclinación */
+  .map-tilt-orientation-controls {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    width: fit-content;
+  }
+
+  .dark .map-tilt-orientation-controls {
+  }
+
+  .map-control-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 29px;
+    height: 29px;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+    background: #fff;
+    color: #333;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    padding: 0;
+    line-height: 29px;
+    flex-shrink: 0;
+  }
+
+  .dark .map-control-btn {
+    background: #1e293b;
+    color: #e2e8f0;
+    border-bottom-color: #475569;
+  }
+
+  .map-control-btn:last-child {
+    border-bottom: 0;
+  }
+
+  .map-control-btn:hover {
+    background: #f5f5f5;
+  }
+
+  .dark .map-control-btn:hover {
+    background: #334155;
+  }
+
+  .map-control-btn:active {
+    background: #e0e0e0;
+  }
+
+  .dark .map-control-btn:active {
+    background: #475569;
+  }
+
+  .map-control-btn-reset {
+    font-size: 14px;
+  }
+
+  .map-control-btn-tilt,
+  .map-control-btn-rotate {
+    font-size: 14px;
+  }
 </style>
 
 <script>
@@ -138,6 +488,7 @@ const encodedRoutes = encodeURIComponent(JSON.stringify(routes));
     title: string;
     gpxUrl: string;
     postUrl: string | null;
+    category?: 'btt' | 'skimo' | 'senderismo' | 'barrancos';
   }
 
   interface TrackPoint {
@@ -151,7 +502,9 @@ const encodedRoutes = encodeURIComponent(JSON.stringify(routes));
       type: 'LineString';
       coordinates: [number, number][];
     };
-    properties: Record<string, never>;
+    properties: {
+      activity?: 'btt' | 'skimo' | 'senderismo';
+    };
   }
 
   interface RouteFeatureCollection {
@@ -182,46 +535,109 @@ const encodedRoutes = encodeURIComponent(JSON.stringify(routes));
     };
   };
 
-  const routeColorVariables = [
-    '--color-highlight-500',
-    '--color-primary-400',
-    '--color-highlight-300',
-    '--color-primary-600',
-    '--color-highlight-600',
-    '--color-primary-300',
-    '--color-highlight-700',
-    '--color-primary-500',
-  ];
+  // Colores semánticos por categoría
+  const categoryColors: Record<'btt' | 'skimo' | 'senderismo' | 'barrancos', string> = {
+    btt: '#FF4500',
+    skimo: '#00B4D8',
+    senderismo: '#F59E0B',
+    barrancos: '#0EA5E9',
+  };
 
   setWorkerUrl(workerUrl);
 
   let map: MapLibreMap | null = null;
   let loadController: AbortController | null = null;
   let hoveredLayerId: string | null = null;
-  const routeLayerColors = new Map<string, string>();
+  const routeLayerInfo = new Map<string, { category: 'btt' | 'skimo' | 'senderismo' | 'barrancos'; color: string }>();
+  const routeCategoryCounts = { btt: 0, skimo: 0, senderismo: 0, barrancos: 0 };
 
   function setStatus(message: string): void {
     const status = document.getElementById('global-3d-map-status');
     if (status) status.textContent = message;
   }
 
-  function getThemeColor(variable: string): string {
-    const value = getComputedStyle(document.documentElement).getPropertyValue(variable).trim();
-    if (value) return `rgb(${value})`;
+  function updateLegendCounters(): void {
+    const countBadges = document.querySelectorAll('.legend-count-badge');
+    let totalVisible = 0;
 
-    const themeColors = getGraphThemeColors();
-    return variable.includes('highlight') ? themeColors.highlight : themeColors.postFill;
+    countBadges.forEach((badge) => {
+      const category = badge.getAttribute('data-category-count') as 'btt' | 'skimo' | 'senderismo' | null;
+      if (!category) return;
+
+      const count = routeCategoryCounts[category] || 0;
+      badge.textContent = count.toString();
+
+      const checkbox = document.querySelector(`.filter-checkbox[data-category="${category}"]`) as HTMLInputElement | null;
+      if (checkbox && checkbox.checked) {
+        badge.classList.remove('opacity-40');
+        totalVisible += count;
+      } else {
+        badge.classList.add('opacity-40');
+      }
+    });
+
+    const totalEl = document.getElementById('total-visible-count');
+    if (totalEl) totalEl.textContent = totalVisible.toString();
   }
 
-  function refreshRouteColors(): void {
+  function updateMapFilters(): void {
     if (!map) return;
-    for (const [layerId, variable] of routeLayerColors) {
-      if (!map.getLayer(layerId)) continue;
-      map.setPaintProperty(
-        layerId,
-        'line-color',
-        layerId === hoveredLayerId ? getThemeColor('--color-highlight-400') : getThemeColor(variable)
-      );
+
+    const checkboxes = document.querySelectorAll('.filter-checkbox') as NodeListOf<HTMLInputElement>;
+    const activeCategories: Array<'btt' | 'skimo' | 'senderismo' | 'barrancos'> = [];
+
+    checkboxes.forEach((cb) => {
+      if (cb.checked) {
+        activeCategories.push(cb.value as 'btt' | 'skimo' | 'senderismo' | 'barrancos');
+      }
+    });
+
+    // Filtrar capas de track principal y casing
+    const mapFilter = activeCategories.length > 0
+      ? ['in', ['get', 'activity'], ['literal', activeCategories]]
+      : ['==', ['get', 'activity'], 'none-selected'];
+
+    for (const [layerId, info] of routeLayerInfo) {
+      const casingLayerId = `${layerId}-casing`;
+
+      if (map.getLayer(layerId)) {
+        map.setFilter(layerId, mapFilter);
+      }
+      if (map.getLayer(casingLayerId)) {
+        map.setFilter(casingLayerId, mapFilter);
+      }
+    }
+
+    updateLegendCounters();
+  }
+
+  function initializeFilterListeners(): void {
+    const checkboxes = document.querySelectorAll('.filter-checkbox');
+    const toggleAllBtn = document.getElementById('toggle-all-btn');
+
+    checkboxes.forEach((checkbox) => {
+      checkbox.addEventListener('change', () => {
+        updateMapFilters();
+        updateToggleButtonState();
+      });
+    });
+
+    toggleAllBtn?.addEventListener('click', () => {
+      const allChecked = Array.from(checkboxes).every((cb) => (cb as HTMLInputElement).checked);
+      checkboxes.forEach((cb) => {
+        (cb as HTMLInputElement).checked = !allChecked;
+      });
+      updateMapFilters();
+      updateToggleButtonState();
+    });
+  }
+
+  function updateToggleButtonState(): void {
+    const checkboxes = document.querySelectorAll('.filter-checkbox') as NodeListOf<HTMLInputElement>;
+    const allChecked = Array.from(checkboxes).every((cb) => cb.checked);
+    const toggleAllBtn = document.getElementById('toggle-all-btn');
+    if (toggleAllBtn) {
+      toggleAllBtn.textContent = allChecked ? 'Desmarcar todo' : 'Marcar todo';
     }
   }
 
@@ -249,7 +665,7 @@ const encodedRoutes = encodeURIComponent(JSON.stringify(routes));
     return content;
   }
 
-  function getLineFeatures(parser: GpxParser): RouteFeatureCollection {
+  function getLineFeatures(parser: GpxParser, category: 'btt' | 'skimo' | 'senderismo' | 'barrancos'): RouteFeatureCollection {
     const pointGroups: TrackPoint[][] = [
       ...parser.tracks.map((track) => track.points),
       ...parser.routes.map((route) => route.points),
@@ -264,7 +680,7 @@ const encodedRoutes = encodeURIComponent(JSON.stringify(routes));
       return [{
         type: 'Feature',
         geometry: { type: 'LineString', coordinates },
-        properties: {},
+        properties: { activity: category },
       }];
     });
 
@@ -275,6 +691,11 @@ const encodedRoutes = encodeURIComponent(JSON.stringify(routes));
     const bounds = new LngLatBounds();
     const errors: string[] = [];
     let loaded = 0;
+
+    // Inicializar contadores
+    Object.keys(routeCategoryCounts).forEach((key) => {
+      routeCategoryCounts[key as keyof typeof routeCategoryCounts] = 0;
+    });
 
     for (const [index, route] of routes.entries()) {
       if (signal.aborted || map !== activeMap) return;
@@ -287,16 +708,39 @@ const encodedRoutes = encodeURIComponent(JSON.stringify(routes));
 
         const parser = new BrowserGpxParser();
         parser.parse(await response.text());
-        const data = getLineFeatures(parser);
+
+        // Determinar categoría (usar la del route o "senderismo" por defecto)
+        const category: 'btt' | 'skimo' | 'senderismo' | 'barrancos' = route.category || 'senderismo';
+        const data = getLineFeatures(parser, category);
+
         if (data.features.length === 0) {
           throw new Error('El archivo no contiene tracks o rutas con coordenadas válidas.');
         }
 
         const sourceId = `global-route-source-${route.id}`;
         const layerId = `global-route-layer-${route.id}`;
-        const colorVariable = routeColorVariables[index % routeColorVariables.length];
+        const casingLayerId = `${layerId}-casing`;
+        const layerColor = categoryColors[category];
 
         activeMap.addSource(sourceId, { type: 'geojson', data });
+
+        // Capa de casing (contorno negro)
+        activeMap.addLayer({
+          id: casingLayerId,
+          type: 'line',
+          source: sourceId,
+          layout: {
+            'line-join': 'round',
+            'line-cap': 'round',
+          },
+          paint: {
+            'line-color': '#000000',
+            'line-width': 5,
+            'line-opacity': 0.8,
+          },
+        });
+
+        // Capa principal del track
         activeMap.addLayer({
           id: layerId,
           type: 'line',
@@ -306,12 +750,14 @@ const encodedRoutes = encodeURIComponent(JSON.stringify(routes));
             'line-cap': 'round',
           },
           paint: {
-            'line-color': getThemeColor(colorVariable),
+            'line-color': layerColor,
             'line-width': 3,
             'line-opacity': 0.85,
           },
         });
-        routeLayerColors.set(layerId, colorVariable);
+
+        routeLayerInfo.set(layerId, { category, color: layerColor });
+        routeCategoryCounts[category]++;
 
         for (const feature of data.features) {
           for (const coordinate of feature.geometry.coordinates) {
@@ -326,7 +772,8 @@ const encodedRoutes = encodeURIComponent(JSON.stringify(routes));
           hoveredLayerId = layerId;
           activeMap.getCanvas().style.cursor = route.postUrl ? 'pointer' : '';
           activeMap.setPaintProperty(layerId, 'line-width', 6);
-          activeMap.setPaintProperty(layerId, 'line-color', getThemeColor('--color-highlight-400'));
+          activeMap.setPaintProperty(layerId, 'line-color', '#FFF');
+          activeMap.setPaintProperty(casingLayerId, 'line-opacity', 1);
           popup.setLngLat(event.lngLat).addTo(activeMap);
         });
 
@@ -338,7 +785,8 @@ const encodedRoutes = encodeURIComponent(JSON.stringify(routes));
           if (hoveredLayerId === layerId) hoveredLayerId = null;
           activeMap.getCanvas().style.cursor = '';
           activeMap.setPaintProperty(layerId, 'line-width', 3);
-          activeMap.setPaintProperty(layerId, 'line-color', getThemeColor(colorVariable));
+          activeMap.setPaintProperty(layerId, 'line-color', layerColor);
+          activeMap.setPaintProperty(casingLayerId, 'line-opacity', 0.8);
           popup.remove();
         });
 
@@ -365,6 +813,10 @@ const encodedRoutes = encodeURIComponent(JSON.stringify(routes));
     const linkedCount = routes.filter((route) => route.postUrl).length;
     const errorSummary = errors.length ? ` No se pudieron cargar: ${errors.join(', ')}.` : '';
     setStatus(`${loaded} de ${routes.length} rutas cargadas; ${linkedCount} con reseña.${errorSummary}`);
+
+    // Inicializar listeners y actualizar leyenda
+    initializeFilterListeners();
+    updateLegendCounters();
   }
 
   async function initializeGlobal3DMap(): Promise<void> {
@@ -374,13 +826,13 @@ const encodedRoutes = encodeURIComponent(JSON.stringify(routes));
     if (!element) {
       map?.remove();
       map = null;
-      routeLayerColors.clear();
+      routeLayerInfo.clear();
       hoveredLayerId = null;
       return;
     }
 
     map?.remove();
-    routeLayerColors.clear();
+    routeLayerInfo.clear();
     hoveredLayerId = null;
     const controller = new AbortController();
     loadController = controller;
@@ -418,6 +870,89 @@ const encodedRoutes = encodeURIComponent(JSON.stringify(routes));
 
     map = activeMap;
     activeMap.addControl(new NavigationControl({ visualizePitch: true }), 'top-right');
+    
+    // Crear clase de control personalizado para MapLibre
+    class TiltOrientationControl {
+      private container: HTMLElement;
+      private map: MapLibreMap | null = null;
+
+      onAdd(map: MapLibreMap): HTMLElement {
+        this.map = map;
+        this.container = document.createElement('div');
+        this.container.className = 'maplibregl-ctrl maplibregl-ctrl-group map-tilt-orientation-controls';
+        
+        // Botón: Reset orientación y inclinación
+        const resetBtn = document.createElement('button');
+        resetBtn.className = 'map-control-btn map-control-btn-reset';
+        resetBtn.setAttribute('aria-label', 'Restaurar vista por defecto');
+        resetBtn.innerHTML = '⌘';
+        resetBtn.addEventListener('click', () => {
+          this.map?.flyTo({ bearing: -15, pitch: 58, duration: 800 });
+        });
+        this.container.appendChild(resetBtn);
+        
+        // Botón: Aumentar inclinación
+        const tiltUpBtn = document.createElement('button');
+        tiltUpBtn.className = 'map-control-btn map-control-btn-tilt';
+        tiltUpBtn.setAttribute('aria-label', 'Aumentar inclinación');
+        tiltUpBtn.innerHTML = '↗';
+        tiltUpBtn.addEventListener('click', () => {
+          if (this.map) {
+            const currentPitch = this.map.getPitch();
+            this.map.setPitch(Math.min(currentPitch + 15, 85));
+          }
+        });
+        this.container.appendChild(tiltUpBtn);
+        
+        // Botón: Disminuir inclinación
+        const tiltDownBtn = document.createElement('button');
+        tiltDownBtn.className = 'map-control-btn map-control-btn-tilt';
+        tiltDownBtn.setAttribute('aria-label', 'Disminuir inclinación');
+        tiltDownBtn.innerHTML = '↙';
+        tiltDownBtn.addEventListener('click', () => {
+          if (this.map) {
+            const currentPitch = this.map.getPitch();
+            this.map.setPitch(Math.max(currentPitch - 15, 0));
+          }
+        });
+        this.container.appendChild(tiltDownBtn);
+        
+        // Botón: Rotar izquierda
+        const rotateLeftBtn = document.createElement('button');
+        rotateLeftBtn.className = 'map-control-btn map-control-btn-rotate';
+        rotateLeftBtn.setAttribute('aria-label', 'Rotar a la izquierda');
+        rotateLeftBtn.innerHTML = '⟲';
+        rotateLeftBtn.addEventListener('click', () => {
+          if (this.map) {
+            const currentBearing = this.map.getBearing();
+            this.map.setBearing(currentBearing - 45);
+          }
+        });
+        this.container.appendChild(rotateLeftBtn);
+        
+        // Botón: Rotar derecha
+        const rotateRightBtn = document.createElement('button');
+        rotateRightBtn.className = 'map-control-btn map-control-btn-rotate';
+        rotateRightBtn.setAttribute('aria-label', 'Rotar a la derecha');
+        rotateRightBtn.innerHTML = '⟳';
+        rotateRightBtn.addEventListener('click', () => {
+          if (this.map) {
+            const currentBearing = this.map.getBearing();
+            this.map.setBearing(currentBearing + 45);
+          }
+        });
+        this.container.appendChild(rotateRightBtn);
+        
+        return this.container;
+      }
+
+      onRemove(): void {
+        this.container.remove();
+        this.map = null;
+      }
+    }
+
+    activeMap.addControl(new TiltOrientationControl(), 'top-right');
     activeMap.once('load', () => {
       setStatus(`Cargando ${routes.length} rutas...`);
       void loadRoutes(activeMap, routes, controller.signal);
@@ -430,7 +965,6 @@ const encodedRoutes = encodeURIComponent(JSON.stringify(routes));
 
   const appWindow = window as WindowWithMap;
   appWindow.initializeGlobal3DMap = initializeGlobal3DMap;
-  window.addEventListener('themechange', refreshRouteColors);
 
   function hookSwup(): void {
     const swup = appWindow.swup;

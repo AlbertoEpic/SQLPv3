@@ -17,6 +17,7 @@ interface GpxIndexEntry {
 const gpxDirectory = join(process.cwd(), 'public', 'gpx');
 const indexPath = join(gpxDirectory, 'index.json');
 const manualLinksPath = join(gpxDirectory, 'manual-links.json');
+const categoriesPath = join(gpxDirectory, 'categories.json');
 
 if (!existsSync(indexPath) || !existsSync(manualLinksPath)) {
   throw new Error('Falta public/gpx/index.json o public/gpx/manual-links.json; ejecuta el paso generate-strava-gpx-index.');
@@ -24,17 +25,23 @@ if (!existsSync(indexPath) || !existsSync(manualLinksPath)) {
 
 const gpxIndex = JSON.parse(readFileSync(indexPath, 'utf8')) as GpxIndexEntry[];
 const manualLinks = JSON.parse(readFileSync(manualLinksPath, 'utf8')) as Record<string, string>;
+const categories = existsSync(categoriesPath)
+  ? JSON.parse(readFileSync(categoriesPath, 'utf8')) as Record<string, 'btt' | 'skimo' | 'senderismo' | 'barrancos'>
+  : {};
+
 const posts = await getCollection('posts');
 const visiblePosts = posts.filter((post) => shouldShowPost(post, import.meta.env.DEV));
 
 const routes = gpxIndex.map((entry) => {
   const post = visiblePosts.find((candidate) => manualLinks[candidate.id] === entry.file);
+  const category = categories[entry.file] || 'senderismo';
 
   return {
     id: entry.id,
     title: entry.name || entry.file,
     gpxUrl: withBase(`/gpx/${encodeURIComponent(entry.file)}`),
     postUrl: post ? withBase(`/posts/${post.id}`) : null,
+    category,
   };
 });
 
