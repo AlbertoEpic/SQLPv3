@@ -10,7 +10,7 @@
     "semantic_hash": ""
   },
   "astro.config.mjs": {
-    "mtime": 1793793795.54987,
+    "mtime": 1793897404.7448013,
     "ast_hash": "a01deafb48212649508fd004dc6c4d52",
     "semantic_hash": ""
   },
@@ -259,11 +259,6 @@
     "ast_hash": "1540e122faf4d1ee3abb1dd9f2efe468",
     "semantic_hash": ""
   },
-  "src/components/StravaRouteMap.astro": {
-    "mtime": 1793792110.4083335,
-    "ast_hash": "30cc92d6fc7ce526e998a6567043a40c",
-    "semantic_hash": ""
-  },
   "src/components/TableOfContents.astro": {
     "mtime": 1788283151.5049658,
     "ast_hash": "5b52dbe56f08af5ccddc050c832c22f6",
@@ -285,7 +280,7 @@
     "semantic_hash": ""
   },
   "src/config.ts": {
-    "mtime": 1793794199.968385,
+    "mtime": 1793879155.1340494,
     "ast_hash": "a0d6c335161f70b0321bc8c507bfde22",
     "semantic_hash": ""
   },
@@ -300,12 +295,12 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/app.json": {
-    "mtime": 1793000999.5543244,
+    "mtime": 1793871691.6828132,
     "ast_hash": "0c7175952b89ee6124443b43550766ea",
     "semantic_hash": ""
   },
   "src/content/.obsidian/appearance.json": {
-    "mtime": 1793000999.6663246,
+    "mtime": 1793871691.7358136,
     "ast_hash": "f462304feea404fb74a1bcb75eb1f70d",
     "semantic_hash": ""
   },
@@ -320,12 +315,12 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/community-plugins.json": {
-    "mtime": 1793000999.9573238,
+    "mtime": 1793871692.0788143,
     "ast_hash": "97489853a7f6ebee87999c1bd3e8d442",
     "semantic_hash": ""
   },
   "src/content/.obsidian/core-plugins.json": {
-    "mtime": 1793000999.2723248,
+    "mtime": 1793871691.096016,
     "ast_hash": "db29479913624ef3dc8b0036639d2854",
     "semantic_hash": ""
   },
@@ -385,7 +380,7 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/consistent-attachments-and-links/data.json": {
-    "mtime": 1793000998.898,
+    "mtime": 1793871691.006,
     "ast_hash": "8437410eb6cccad442f9a5b5414c403e",
     "semantic_hash": ""
   },
@@ -430,7 +425,7 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/editing-toolbar/data.json": {
-    "mtime": 1793000998.685,
+    "mtime": 1793871690.763,
     "ast_hash": "eb0d237aa2244036f55114b6012aa606",
     "semantic_hash": ""
   },
@@ -535,13 +530,13 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/nested-properties/main.js": {
-    "mtime": 1793001062.376652,
-    "ast_hash": "fd67fd90ba0d2fdad5edc53e9dc73f0c",
+    "mtime": 1793871754.141301,
+    "ast_hash": "24958f037ca213ac9a9a1007b3c21cc3",
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/nested-properties/manifest.json": {
-    "mtime": 1793001062.3786538,
-    "ast_hash": "8e4ba7188044e3f33a3c13817ec2619c",
+    "mtime": 1793871754.1432989,
+    "ast_hash": "722f6d60b3f3491a17fec96b65663d3f",
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/obsidian-git/data.json": {
@@ -580,7 +575,7 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/omnisearch/data.json": {
-    "mtime": 1793001000.152,
+    "mtime": 1793871692.635,
     "ast_hash": "c8f315bcb8888e08c3461f22885addf4",
     "semantic_hash": ""
   },
@@ -625,8 +620,8 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/seo/data.json": {
-    "mtime": 1793007547.639,
-    "ast_hash": "1b2040d6ab9eaa5aafac37c494699b04",
+    "mtime": 1793871944.276,
+    "ast_hash": "5ab707abb213b5d36d234d8ecaadc886",
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/seo/main.js": {
@@ -840,8 +835,8 @@
     "semantic_hash": ""
   },
   "src/pages/index.astro": {
-    "mtime": 1792339902.186567,
-    "ast_hash": "8810d82c86b4c197175e873e4638324e",
+    "mtime": 1793878330.8379269,
+    "ast_hash": "7f3e98817b68c1eb2ce257ff82a42c76",
     "semantic_hash": ""
   },
   "src/pages/leaflet-demo.astro": {
@@ -1140,8 +1135,8 @@
     "semantic_hash": ""
   },
   "AGENTS.md": {
-    "mtime": 1793793293.4573052,
-    "ast_hash": "bc335c48b460fcc55839ea661c9397e3",
+    "mtime": 1793794486.7767756,
+    "ast_hash": "ea69ef24689170dc160d9816aff0d126",
     "semantic_hash": ""
   },
   "CLAUDE.md": {
@@ -3895,8 +3890,8 @@
     "semantic_hash": ""
   },
   "src/content/posts/zz-040-el-sarrau-del-tuerto.md": {
-    "mtime": 1779870854.2040954,
-    "ast_hash": "490a92c70fd425a7336e11d794102428",
+    "mtime": 1793871862.4615421,
+    "ast_hash": "b8932d8d3069b3e1c49470d34b23da37",
     "semantic_hash": ""
   },
   "src/content/projects/astro-composer.md": {
@@ -7355,8 +7350,8 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/nested-properties/data.json": {
-    "mtime": 1791216364.432,
-    "ast_hash": "606dfa77faf496106534c71549deac80",
+    "mtime": 1793871754.176,
+    "ast_hash": "8cdf15c4b64d55084fe2ed23af619981",
     "semantic_hash": ""
   },
   "worker.js": {
@@ -7590,23 +7585,48 @@
     "semantic_hash": ""
   },
   "public/gpx/index.json": {
-    "mtime": 1793792186.5390453,
-    "ast_hash": "3ecd5e6ff6890c923e793a92c3b2cdb5",
+    "mtime": 1793897404.5828023,
+    "ast_hash": "711500c1757183c222f5ad3feac888f2",
     "semantic_hash": ""
   },
   "public/gpx/manual-links.json": {
-    "mtime": 1793792186.5400445,
-    "ast_hash": "29925d09ee8ea9da3c850ee1f295a97a",
+    "mtime": 1793897404.5828023,
+    "ast_hash": "09779cc924923d50a7fb6d7bc4063b19",
     "semantic_hash": ""
   },
   "src/components/Global3DMap.astro": {
-    "mtime": 1793793978.8558354,
-    "ast_hash": "77faf30b26c63eea8158ad0b5d0de417",
+    "mtime": 1793897392.812297,
+    "ast_hash": "e489919e57f58bb8554da05371ac322b",
     "semantic_hash": ""
   },
   "src/pages/ntp/index.astro": {
-    "mtime": 1793794199.984385,
-    "ast_hash": "1cae650610f563a542940d5e815eede1",
+    "mtime": 1793898768.0440252,
+    "ast_hash": "209453e827d65497908c9459be238ec8",
+    "semantic_hash": ""
+  },
+  "public/gpx/categories.json": {
+    "mtime": 1793877103.9748077,
+    "ast_hash": "455705e96c244639a10b6adb6e67b5a9",
+    "semantic_hash": ""
+  },
+  "src/components/RouteMap.astro": {
+    "mtime": 1793818391.117939,
+    "ast_hash": "6af8f3f1dbea78e27e6f011e3325e552",
+    "semantic_hash": ""
+  },
+  "public/banner-ntp-home.png": {
+    "mtime": 1793820079.531968,
+    "ast_hash": "a9513c5cda2bc67a6c67ed338a859761",
+    "semantic_hash": ""
+  },
+  "public/banner-webcams.png": {
+    "mtime": 1793878296.295059,
+    "ast_hash": "38decc4326ef2dc71901e3741008696b",
+    "semantic_hash": ""
+  },
+  "public/logo-ntp.png": {
+    "mtime": 1793819415.6441708,
+    "ast_hash": "41c92fa23016b74df2818f7c050f167b",
     "semantic_hash": ""
   }
 }

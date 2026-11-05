@@ -35,8 +35,7 @@ const visiblePosts = posts.filter((post) => shouldShowPost(post, import.meta.env
 const routes = gpxIndex.map((entry) => {
   const post = visiblePosts.find((candidate) => manualLinks[candidate.id] === entry.file);
   const rawCategory = categories[entry.file];
-  const category: 'btt' | 'skimo' | 'senderismo' =
-    rawCategory === 'barrancos' || !rawCategory ? 'senderismo' : rawCategory;
+  const category: 'btt' | 'skimo' | 'senderismo' | 'barrancos' = rawCategory || 'senderismo';
 
   return {
     id: entry.id,
