@@ -1,4 +1,5 @@
 {
   "initialExpandLevel": 0,
-  "isFullKeyDisplayEnabled": false
+  "isFullKeyDisplayEnabled": false,
+  "shouldCommitBulkOperations": false
 }
