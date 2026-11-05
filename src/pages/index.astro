@@ -671,6 +671,21 @@ const structuredData = {
     </section>
 
     <section class="content-row px-4 sm:px-6 lg:px-10 mt-8">
+      <a href={withBase('/ntp/')} class="ntp-banner-container" title="No Te Pierdas: mapa 3D interactivo con nuestras rutas .gpx">
+        <img
+          src="/banner-ntp-home.png"
+          alt="No Te Pierdas - Mapa 3D de rutas"
+          class="ntp-banner-fullwidth"
+          loading="lazy"
+          decoding="async"
+          width={1200}
+          height={675}
+        />
+        <div class="ntp-tooltip">NoTePierdas: mapa 3D interactivo con nuestras rutas .gpx</div>
+      </a>
+    </section>
+
+    <section class="content-row px-4 sm:px-6 lg:px-10 mt-8">
       <div class="social-island especiales-widget" data-no-swup>
         <div class="social-head">
           <Icon name="star" class="w-5 h-5" />
@@ -987,6 +1002,84 @@ const structuredData = {
 
   :global(.dark) .especiales-image {
     border-color: rgb(var(--color-primary-600));
+  }
+
+  .ntp-banner-link {
+    display: block;
+    margin-top: 0.75rem;
+  }
+
+  .ntp-banner-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 0.6rem;
+    border: 1px solid rgb(var(--color-primary-300));
+    transition: transform 180ms ease, box-shadow 180ms ease;
+  }
+
+  .ntp-banner-link:hover .ntp-banner-image {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgb(var(--color-primary-900) / 0.12);
+  }
+
+  :global(.dark) .ntp-banner-image {
+    border-color: rgb(var(--color-primary-600));
+  }
+
+  :global(.dark) .ntp-banner-link:hover .ntp-banner-image {
+    box-shadow: 0 8px 20px rgb(var(--color-primary-900) / 0.35);
+  }
+
+  .ntp-banner-container {
+    position: relative;
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .ntp-banner-fullwidth {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 0.6rem;
+    box-shadow: 0 14px 35px rgb(var(--color-primary-900) / 0.07);
+    transition: transform 180ms ease, box-shadow 180ms ease;
+  }
+
+  .ntp-banner-container:hover .ntp-banner-fullwidth {
+    transform: translateY(-2px);
+    box-shadow: 0 20px 50px rgb(var(--color-primary-900) / 0.12);
+  }
+
+  :global(.dark) .ntp-banner-fullwidth {
+    box-shadow: 0 14px 35px rgb(var(--color-primary-900) / 0.25);
+  }
+
+  :global(.dark) .ntp-banner-container:hover .ntp-banner-fullwidth {
+    box-shadow: 0 20px 50px rgb(var(--color-primary-900) / 0.40);
+  }
+
+  .ntp-tooltip {
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%) translateY(10px);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 0.75rem 1rem;
+    border-radius: 0.4rem;
+    font-size: 0.875rem;
+    white-space: nowrap;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 200ms ease, transform 200ms ease;
+    z-index: 10;
+  }
+
+  .ntp-banner-container:hover .ntp-tooltip {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
   }
 
   .category-grid {

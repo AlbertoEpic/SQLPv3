@@ -52,17 +52,26 @@ const seoData = {
 
     <header class="ntp-map-header">
       <a
-        class="ntp-map-back rounded-lg border border-primary-200 bg-primary-50/90 px-3 py-2 text-sm font-semibold text-primary-800 shadow-lg backdrop-blur-md transition hover:border-highlight-500 hover:text-highlight-700 dark:border-primary-700 dark:bg-primary-950/90 dark:text-primary-100 dark:hover:text-highlight-300"
+        class="ntp-map-back rounded-lg border border-primary-200 bg-primary-50/90 px-3 py-2 text-sm font-semibold text-primary-800 shadow-lg backdrop-blur-md transition hover:border-highlight-500 hover:text-highlight-700 dark:border-primary-700 dark:bg-primary-950/90 dark:text-primary-100 dark:hover:text-highlight-300 flex items-center gap-2"
         href={withBase('/')}
         data-no-swup
       >
+        <img
+          src="/favicon.png"
+          alt="SQLP"
+          class="h-5 w-5"
+        />
         Volver
       </a>
-      <div class="ntp-map-brand rounded-xl border border-primary-200 bg-primary-50/90 px-4 py-2 shadow-lg backdrop-blur-md dark:border-primary-700 dark:bg-primary-950/90">
+      <div class="ntp-map-brand rounded-xl border border-primary-200 bg-primary-50/90 px-4 py-3 shadow-lg backdrop-blur-md dark:border-primary-700 dark:bg-primary-950/90 flex flex-col items-center justify-center gap-2">
+        <img
+          src="/logo-ntp.png"
+          alt="No Te Pierdas"
+          class="h-28 w-auto"
+        />
         <h1 class="text-base font-extrabold tracking-wider text-highlight-700 dark:text-highlight-300 sm:text-lg">
           NO TE PIERDAS
         </h1>
-        <p class="text-xs text-primary-700 dark:text-primary-200">Mapa interactivo 3D de rutas</p>
       </div>
     </header>
   </div>
