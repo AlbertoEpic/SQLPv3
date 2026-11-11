@@ -69,6 +69,7 @@ export default defineConfig({
         "https://giscus.app",
         "https://graph.instagram.com",
         "https://tile.openstreetmap.org",
+        "https://*.tile.opentopomap.org",
         "https://s3.amazonaws.com"
       ]
     },

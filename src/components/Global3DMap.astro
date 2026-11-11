@@ -475,9 +475,11 @@ const encodedRoutes = encodeURIComponent(JSON.stringify(routes));
     NavigationControl,
     Popup,
     setWorkerUrl,
-    type ErrorEventType,
-    type FilterSpecification,
-    type MapLayerMouseEvent,
+  } from 'maplibre-gl';
+  import type {
+    ErrorEventType,
+    FilterSpecification,
+    MapLayerMouseEvent,
   } from 'maplibre-gl';
   import workerUrl from 'maplibre-gl/dist/maplibre-gl-worker.mjs?url';
   import 'maplibre-gl/dist/maplibre-gl.css';
@@ -844,11 +846,16 @@ const encodedRoutes = encodeURIComponent(JSON.stringify(routes));
       style: {
         version: 8,
         sources: {
-          'osm-tiles': {
+          'topo-tiles': {
             type: 'raster',
-            tiles: ['https://tile.openstreetmap.org/{z}/{x}/{y}.png'],
+            tiles: [
+              'https://a.tile.opentopomap.org/{z}/{x}/{y}.png',
+              'https://b.tile.opentopomap.org/{z}/{x}/{y}.png',
+              'https://c.tile.opentopomap.org/{z}/{x}/{y}.png',
+            ],
             tileSize: 256,
-            attribution: '&copy; OpenStreetMap contributors',
+            maxzoom: 17,
+            attribution: 'Datos del mapa: &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>, SRTM | Mapa: &copy; <a href="https://opentopomap.org">OpenTopoMap</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)',
           },
           terrain: {
             type: 'raster-dem',
@@ -859,8 +866,8 @@ const encodedRoutes = encodeURIComponent(JSON.stringify(routes));
             attribution: 'Terrain data &copy; AWS Open Data',
           },
         },
-        layers: [{ id: 'osm-tiles-layer', type: 'raster', source: 'osm-tiles' }],
-        terrain: { source: 'terrain', exaggeration: 1.4 },
+        layers: [{ id: 'topo-tiles-layer', type: 'raster', source: 'topo-tiles' }],
+        terrain: { source: 'terrain', exaggeration: 1.6 },
       },
       center: [-0.258, 42.756],
       zoom: 11,
@@ -955,6 +962,17 @@ const encodedRoutes = encodeURIComponent(JSON.stringify(routes));
 
     activeMap.addControl(new TiltOrientationControl(), 'top-right');
     activeMap.once('load', () => {
+      // SOMBREADO DINÁMICO (Hillshade)
+      activeMap.addLayer({
+        id: 'hillshade-layer',
+        type: 'hillshade',
+        source: 'terrain',
+        paint: {
+          'hillshade-shadow-color': '#2b303a',
+          'hillshade-exaggeration': 0.65
+        }
+      }, 'topo-tiles-layer');
+
       setStatus(`Cargando ${routes.length} rutas...`);
       void loadRoutes(activeMap, routes, controller.signal);
     });

@@ -10,8 +10,8 @@
     "semantic_hash": ""
   },
   "astro.config.mjs": {
-    "mtime": 1793897404.7448013,
-    "ast_hash": "a01deafb48212649508fd004dc6c4d52",
+    "mtime": 1794420541.6626897,
+    "ast_hash": "fc88aa76be869ea7fbd8f0ddadfa3dc9",
     "semantic_hash": ""
   },
   "cli/bin/create-astro-modular.mjs": {
@@ -45,7 +45,7 @@
     "semantic_hash": ""
   },
   "package.json": {
-    "mtime": 1793793293.589306,
+    "mtime": 1794420548.422251,
     "ast_hash": "2be463c83a2859aa8a68b3b92c4d8526",
     "semantic_hash": ""
   },
@@ -75,8 +75,8 @@
     "semantic_hash": ""
   },
   "scripts/generate-deployment-config.js": {
-    "mtime": 1791396990.6381037,
-    "ast_hash": "885a0084e57a3283841a7d76a335f275",
+    "mtime": 1794420567.098997,
+    "ast_hash": "36286f239720bea5c33f502e827c3110",
     "semantic_hash": ""
   },
   "scripts/generate-graph-data.js": {
@@ -295,12 +295,12 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/app.json": {
-    "mtime": 1793871691.6828132,
+    "mtime": 1794381998.8396873,
     "ast_hash": "0c7175952b89ee6124443b43550766ea",
     "semantic_hash": ""
   },
   "src/content/.obsidian/appearance.json": {
-    "mtime": 1793871691.7358136,
+    "mtime": 1794381998.841686,
     "ast_hash": "f462304feea404fb74a1bcb75eb1f70d",
     "semantic_hash": ""
   },
@@ -315,12 +315,12 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/community-plugins.json": {
-    "mtime": 1793871692.0788143,
+    "mtime": 1794381999.5554433,
     "ast_hash": "97489853a7f6ebee87999c1bd3e8d442",
     "semantic_hash": ""
   },
   "src/content/.obsidian/core-plugins.json": {
-    "mtime": 1793871691.096016,
+    "mtime": 1794381998.2825751,
     "ast_hash": "db29479913624ef3dc8b0036639d2854",
     "semantic_hash": ""
   },
@@ -380,7 +380,7 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/consistent-attachments-and-links/data.json": {
-    "mtime": 1793871691.006,
+    "mtime": 1794381998.266,
     "ast_hash": "8437410eb6cccad442f9a5b5414c403e",
     "semantic_hash": ""
   },
@@ -425,7 +425,7 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/editing-toolbar/data.json": {
-    "mtime": 1793871690.763,
+    "mtime": 1794381998.006,
     "ast_hash": "eb0d237aa2244036f55114b6012aa606",
     "semantic_hash": ""
   },
@@ -575,7 +575,7 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/omnisearch/data.json": {
-    "mtime": 1793871692.635,
+    "mtime": 1794382000.085,
     "ast_hash": "c8f315bcb8888e08c3461f22885addf4",
     "semantic_hash": ""
   },
@@ -620,8 +620,8 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/seo/data.json": {
-    "mtime": 1793871944.276,
-    "ast_hash": "5ab707abb213b5d36d234d8ecaadc886",
+    "mtime": 1794387434.767,
+    "ast_hash": "5ecd7561af1dee753c9518d11afe9cc0",
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/seo/main.js": {
@@ -1135,8 +1135,8 @@
     "semantic_hash": ""
   },
   "AGENTS.md": {
-    "mtime": 1793794486.7767756,
-    "ast_hash": "ea69ef24689170dc160d9816aff0d126",
+    "mtime": 1794420541.6776903,
+    "ast_hash": "e15f870da8061d023082e78c47fbb467",
     "semantic_hash": ""
   },
   "CLAUDE.md": {
@@ -7045,8 +7045,8 @@
     "semantic_hash": ""
   },
   ".agent/sync-status.json": {
-    "mtime": 1793793430.5398755,
-    "ast_hash": "56fe0377228254f85a4edf9f25ad73f8",
+    "mtime": 1794418519.2810838,
+    "ast_hash": "cc6df9cc6f49499777b9938385fa2737",
     "semantic_hash": ""
   },
   ".agent/skills/obsidian-dev/SKILL.md": {
@@ -7585,18 +7585,18 @@
     "semantic_hash": ""
   },
   "public/gpx/index.json": {
-    "mtime": 1793897404.5828023,
-    "ast_hash": "711500c1757183c222f5ad3feac888f2",
+    "mtime": 1794418531.5686617,
+    "ast_hash": "4c541609e6e5892077d61649b92bf784",
     "semantic_hash": ""
   },
   "public/gpx/manual-links.json": {
-    "mtime": 1793897404.5828023,
-    "ast_hash": "09779cc924923d50a7fb6d7bc4063b19",
+    "mtime": 1794418531.5692966,
+    "ast_hash": "f8c8638db099ffbd2cebd9a6716b9dda",
     "semantic_hash": ""
   },
   "src/components/Global3DMap.astro": {
-    "mtime": 1793897392.812297,
-    "ast_hash": "e489919e57f58bb8554da05371ac322b",
+    "mtime": 1794420541.648685,
+    "ast_hash": "966f31d77eed017e6b16c6cab4e4d026",
     "semantic_hash": ""
   },
   "src/pages/ntp/index.astro": {
@@ -7627,6 +7627,41 @@
   "public/logo-ntp.png": {
     "mtime": 1793819415.6441708,
     "ast_hash": "41c92fa23016b74df2818f7c050f167b",
+    "semantic_hash": ""
+  },
+  "src/content/posts/emtb-ruta-de-los-bac\u00fan-bonus-track.md": {
+    "mtime": 1794387372.2999108,
+    "ast_hash": "437943e9e8b645767c5dce5870867d1b",
+    "semantic_hash": ""
+  },
+  "src/content/posts/attachments/emtb-ruta-de-los-bacn-bonus-track-1.jpg": {
+    "mtime": 1794385883.4925783,
+    "ast_hash": "63c45463f60d6bd1839dc716d26dc676",
+    "semantic_hash": ""
+  },
+  "src/content/posts/attachments/emtb-ruta-de-los-bacn-bonus-track-2.jpg": {
+    "mtime": 1794385937.8894837,
+    "ast_hash": "63c45463f60d6bd1839dc716d26dc676",
+    "semantic_hash": ""
+  },
+  "src/content/posts/attachments/emtb-ruta-de-los-bacn-bonus-track-3.jpg": {
+    "mtime": 1794386079.8397632,
+    "ast_hash": "a37e576221dc25c0a2a452b0ad62114b",
+    "semantic_hash": ""
+  },
+  "src/content/posts/attachments/emtb-ruta-de-los-bacn-bonus-track-4.jpg": {
+    "mtime": 1794386194.191075,
+    "ast_hash": "4bfe004d31a92d53833e751320c82346",
+    "semantic_hash": ""
+  },
+  "src/content/posts/attachments/emtb-ruta-de-los-bacn-bonus-track-5.jpg": {
+    "mtime": 1794386285.6268063,
+    "ast_hash": "5b339e58a66aa5bde9e4ffac88ca9bc6",
+    "semantic_hash": ""
+  },
+  "src/content/posts/attachments/emtb-ruta-de-los-bacn-bonus-track.jpg": {
+    "mtime": 1794385434.2366383,
+    "ast_hash": "08b4f572c42ce8b7611fa50e3882f79c",
     "semantic_hash": ""
   }
 }
