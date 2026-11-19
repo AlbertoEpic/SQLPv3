@@ -1,7 +1,7 @@
 ---
 title: Endureando ando... por Alquézar!
-heroImage: ""
-description: ""
+heroImage: attachments/endureando-ando-por-alquzar.png
+description: Una ruta de EMTB enduro libre de barro para después de las lluvias...
 pubDate: 2026-11-19
 author: AlbertoEpic
 category: e-bike
