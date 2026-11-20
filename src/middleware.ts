@@ -1,6 +1,16 @@
 import { defineMiddleware } from "astro:middleware";
+import legacy from "../scripts/wordpress-legacy-urls.json";
 
 export const onRequest = defineMiddleware(async (context, next) => {
+  const requestUrl = new URL(context.request.url);
+  if (requestUrl.pathname === "/") {
+    const id = requestUrl.searchParams.get("p") || requestUrl.searchParams.get("page_id");
+    const target = id ? legacy.ids[id as keyof typeof legacy.ids] : undefined;
+    if (target) {
+      return Response.redirect(new URL(target, requestUrl.origin).toString(), 301);
+    }
+  }
+
   const response = await next();
 
   // Solo procesamos si es una página HTML

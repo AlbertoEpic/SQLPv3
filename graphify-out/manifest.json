@@ -10,8 +10,8 @@
     "semantic_hash": ""
   },
   "astro.config.mjs": {
-    "mtime": 1794420541.6626897,
-    "ast_hash": "fc88aa76be869ea7fbd8f0ddadfa3dc9",
+    "mtime": 1795183516.22936,
+    "ast_hash": "380c52ae0eb1231fc44d2f940330f776",
     "semantic_hash": ""
   },
   "cli/bin/create-astro-modular.mjs": {
@@ -45,8 +45,8 @@
     "semantic_hash": ""
   },
   "package.json": {
-    "mtime": 1794420548.422251,
-    "ast_hash": "2be463c83a2859aa8a68b3b92c4d8526",
+    "mtime": 1795177830.1798773,
+    "ast_hash": "5c1f74e8b3a349edaea8f1dd6c388640",
     "semantic_hash": ""
   },
   "public/scripts/category-filtering.js": {
@@ -295,12 +295,12 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/app.json": {
-    "mtime": 1794381998.8396873,
+    "mtime": 1795078239.306085,
     "ast_hash": "0c7175952b89ee6124443b43550766ea",
     "semantic_hash": ""
   },
   "src/content/.obsidian/appearance.json": {
-    "mtime": 1794381998.841686,
+    "mtime": 1795078239.3080845,
     "ast_hash": "f462304feea404fb74a1bcb75eb1f70d",
     "semantic_hash": ""
   },
@@ -315,12 +315,12 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/community-plugins.json": {
-    "mtime": 1794381999.5554433,
+    "mtime": 1795078240.0660892,
     "ast_hash": "97489853a7f6ebee87999c1bd3e8d442",
     "semantic_hash": ""
   },
   "src/content/.obsidian/core-plugins.json": {
-    "mtime": 1794381998.2825751,
+    "mtime": 1795078238.851843,
     "ast_hash": "db29479913624ef3dc8b0036639d2854",
     "semantic_hash": ""
   },
@@ -380,7 +380,7 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/consistent-attachments-and-links/data.json": {
-    "mtime": 1794381998.266,
+    "mtime": 1795078238.868,
     "ast_hash": "8437410eb6cccad442f9a5b5414c403e",
     "semantic_hash": ""
   },
@@ -425,7 +425,7 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/editing-toolbar/data.json": {
-    "mtime": 1794381998.006,
+    "mtime": 1795078238.549,
     "ast_hash": "eb0d237aa2244036f55114b6012aa606",
     "semantic_hash": ""
   },
@@ -530,13 +530,13 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/nested-properties/main.js": {
-    "mtime": 1793871754.141301,
-    "ast_hash": "24958f037ca213ac9a9a1007b3c21cc3",
+    "mtime": 1795078301.4369738,
+    "ast_hash": "6cd2ee1120f8a668036b89de42f0719d",
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/nested-properties/manifest.json": {
-    "mtime": 1793871754.1432989,
-    "ast_hash": "722f6d60b3f3491a17fec96b65663d3f",
+    "mtime": 1795078301.4379737,
+    "ast_hash": "128c8b4cfee8cf0b3f848bca4b0c3adc",
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/obsidian-git/data.json": {
@@ -575,7 +575,7 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/omnisearch/data.json": {
-    "mtime": 1794382000.085,
+    "mtime": 1795078239.356,
     "ast_hash": "c8f315bcb8888e08c3461f22885addf4",
     "semantic_hash": ""
   },
@@ -620,8 +620,8 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/seo/data.json": {
-    "mtime": 1794387434.767,
-    "ast_hash": "5ecd7561af1dee753c9518d11afe9cc0",
+    "mtime": 1795083366.046,
+    "ast_hash": "93eda2b656a2613f3bacef80dbfb5719",
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/seo/main.js": {
@@ -765,8 +765,8 @@
     "semantic_hash": ""
   },
   "src/middleware.ts": {
-    "mtime": 1782894663.3869402,
-    "ast_hash": "faf6f9f8c02049ebd2106aae7c93e4c3",
+    "mtime": 1795177718.1994102,
+    "ast_hash": "0982de0e41f060a2d5031c2fa7017eb1",
     "semantic_hash": ""
   },
   "src/pages/404.astro": {
@@ -1135,8 +1135,8 @@
     "semantic_hash": ""
   },
   "AGENTS.md": {
-    "mtime": 1794420541.6776903,
-    "ast_hash": "e15f870da8061d023082e78c47fbb467",
+    "mtime": 1795183593.743574,
+    "ast_hash": "604dd0e8bb96717c8f277405cb833517",
     "semantic_hash": ""
   },
   "CLAUDE.md": {
@@ -2640,8 +2640,8 @@
     "semantic_hash": ""
   },
   "src/content/posts/marruecos-2006.md": {
-    "mtime": 1779290940.526084,
-    "ast_hash": "2e2d51cd6b72da350f8e46ec9b2acd1d",
+    "mtime": 1795088506.8923163,
+    "ast_hash": "bf4dd1699d6ca0512c5be4dc0ad7239d",
     "semantic_hash": ""
   },
   "src/content/posts/mesa-de-los-tres-reyes.md": {
@@ -7045,7 +7045,7 @@
     "semantic_hash": ""
   },
   ".agent/sync-status.json": {
-    "mtime": 1794418519.2810838,
+    "mtime": 1795178034.6499462,
     "ast_hash": "cc6df9cc6f49499777b9938385fa2737",
     "semantic_hash": ""
   },
@@ -7324,21 +7324,6 @@
     "ast_hash": "548efd3b88e90de26fe40e23e3a2478c",
     "semantic_hash": ""
   },
-  ".wrangler/tmp/bundle-3jMrLP/middleware-insertion-facade.js": {
-    "mtime": 1791397037.0428882,
-    "ast_hash": "f894002376773b357ab78ccbe93281e2",
-    "semantic_hash": ""
-  },
-  ".wrangler/tmp/bundle-3jMrLP/middleware-loader.entry.ts": {
-    "mtime": 1791397037.2148857,
-    "ast_hash": "421113e3d03d0557b9b1adf66f9a7f40",
-    "semantic_hash": ""
-  },
-  ".wrangler/tmp/dev-MDYh4Q/worker.js": {
-    "mtime": 1793116761.1598308,
-    "ast_hash": "21bd8fa89acdafd7cc156f9902590f29",
-    "semantic_hash": ""
-  },
   "scripts/clean-static-config.js": {
     "mtime": 1789751868.0400827,
     "ast_hash": "bddb28d70a4d4190c5d193b6889de99a",
@@ -7350,8 +7335,8 @@
     "semantic_hash": ""
   },
   "src/content/.obsidian/plugins/nested-properties/data.json": {
-    "mtime": 1793871754.176,
-    "ast_hash": "8cdf15c4b64d55084fe2ed23af619981",
+    "mtime": 1794482471.192,
+    "ast_hash": "eb59ac3daf98c0ce2581d4ae4e1fc7a2",
     "semantic_hash": ""
   },
   "worker.js": {
@@ -7520,8 +7505,8 @@
     "semantic_hash": ""
   },
   "src/components/WebcamCard.astro": {
-    "mtime": 1793388149.9061024,
-    "ast_hash": "d571734a5d42da722b4664a9f7c2c2bc",
+    "mtime": 1795178034.6309443,
+    "ast_hash": "3a851daba999a16f1d3b3f99c4bb1b90",
     "semantic_hash": ""
   },
   "src/components/WebcamLightbox.astro": {
@@ -7540,8 +7525,8 @@
     "semantic_hash": ""
   },
   "src/pages/webcams.astro": {
-    "mtime": 1793388517.3016584,
-    "ast_hash": "ecf2c6e887beba684ebf051c17f18ed8",
+    "mtime": 1795177503.1053555,
+    "ast_hash": "bb0b7f673ba4f6ae54b46325b1a36011",
     "semantic_hash": ""
   },
   "src/content/posts/la-tetralog\u00eda-de-a\u00edsa-emtb.md": {
@@ -7585,13 +7570,13 @@
     "semantic_hash": ""
   },
   "public/gpx/index.json": {
-    "mtime": 1794418531.5686617,
-    "ast_hash": "4c541609e6e5892077d61649b92bf784",
+    "mtime": 1795183162.777745,
+    "ast_hash": "5d8a5d7b8228aba94f327ff9bb5863d3",
     "semantic_hash": ""
   },
   "public/gpx/manual-links.json": {
-    "mtime": 1794418531.5692966,
-    "ast_hash": "f8c8638db099ffbd2cebd9a6716b9dda",
+    "mtime": 1795183162.7787497,
+    "ast_hash": "2575dc0560c19b5707875a98ad1d77a4",
     "semantic_hash": ""
   },
   "src/components/Global3DMap.astro": {
@@ -7662,6 +7647,51 @@
   "src/content/posts/attachments/emtb-ruta-de-los-bacn-bonus-track.jpg": {
     "mtime": 1794385434.2366383,
     "ast_hash": "08b4f572c42ce8b7611fa50e3882f79c",
+    "semantic_hash": ""
+  },
+  "src/pages/webcams/compartir/[id].astro": {
+    "mtime": 1795177503.119355,
+    "ast_hash": "5396304772299ee70d40ab65dc445293",
+    "semantic_hash": ""
+  },
+  "src/utils/webcam-share.ts": {
+    "mtime": 1794762245.9806993,
+    "ast_hash": "e65a21a0a973eaa3612ab9ad59fd1c43",
+    "semantic_hash": ""
+  },
+  "src/components/ShareCam.astro": {
+    "mtime": 1795178224.9190345,
+    "ast_hash": "c7e77ae72d37efc46f66b4c6889ea82a",
+    "semantic_hash": ""
+  },
+  "src/pages/api/snap.ts": {
+    "mtime": 1795180374.1627603,
+    "ast_hash": "3064d932e4ff847b21e540323ccbfc5d",
+    "semantic_hash": ""
+  },
+  "src/content/posts/endureando-ando-alquezar.md": {
+    "mtime": 1795083209.397475,
+    "ast_hash": "5af892d5808b631659644dad96d8e035",
+    "semantic_hash": ""
+  },
+  "src/content/posts/attachments/endureando-ando-por-alquzar-1.png": {
+    "mtime": 1795081207.1607208,
+    "ast_hash": "53e104029b7b26ab64d5252fef806f3f",
+    "semantic_hash": ""
+  },
+  "src/content/posts/attachments/endureando-ando-por-alquzar.png": {
+    "mtime": 1795081130.611379,
+    "ast_hash": "93c704c99bc51548f03ee16a75fd8071",
+    "semantic_hash": ""
+  },
+  "src/content/posts/attachments/marruecos-2006-1.png": {
+    "mtime": 1795088227.0201492,
+    "ast_hash": "63824a31aff36ea181bf2598beab5772",
+    "semantic_hash": ""
+  },
+  "src/content/posts/attachments/marruecos-2006.png": {
+    "mtime": 1795088131.143705,
+    "ast_hash": "63824a31aff36ea181bf2598beab5772",
     "semantic_hash": ""
   }
 }

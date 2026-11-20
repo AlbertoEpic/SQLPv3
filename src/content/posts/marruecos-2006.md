@@ -12,8 +12,9 @@ tags:
   - ascensiones
   - toubkhal
   - atlas
-heroimage: "[[attachments/marruecos-2006.png]]"
 ---
+![marruecos-2006 -](attachments/marruecos-2006-1.png)
+## Revival
 Hoy simplemente voy a poner un montaje de fotos que preparé hace algún tiempo, recuperado de los archivos de soloquedalopeor. Era el mes de junio de 2006, y con David nos fuimos una semana por el Atlas marroquí con las btt. Subimos al Toubkal, recorrimos las gargantas del Dades y el Todra, visitamos Marrakech,... toda una operación relámpago!
 
 Y por supuesto, sin GPS, ni tienda, ni sacos,... sólo un mal mapa de papel y toda la improvisación!

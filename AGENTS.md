@@ -16,7 +16,7 @@ Astro Modular is an Astro blog theme designed for Obsidian users, by
 Obsidian vault — users write in Obsidian, commit, and publish.
 
 **Stack:**
-- Astro 5.x (fully prepared for v6). Netlify / Vercel / GitHub Pages / Cloudflare Workers friendly.
+- Astro 7.x. Netlify / Vercel / GitHub Pages / Cloudflare Workers friendly.
 - **Obsidian vault as CMS.** `src/content/.obsidian/` is committed, with a curated plugin set.
 - **Swup** for client-side page transitions (NOT Astro's ClientRouter).
 - Tailwind + custom theme variables (17+ built-in color themes, switchable at runtime).
@@ -566,6 +566,17 @@ cleaned / regenerated.
 
 No environment variables needed. The legacy `DEPLOYMENT_PLATFORM=...` env var still
 works but isn't recommended.
+
+Cloudflare Workers use `@astrojs/cloudflare` with static output by default. Keep routes
+static unless they explicitly set `prerender = false`; Wrangler's `main` points to
+`@astrojs/cloudflare/entrypoints/server` and `assets.directory` remains `./dist`.
+List dynamic endpoint paths in `assets.run_worker_first` so they reach the Worker
+instead of the static `not_found_handling` page.
+Keep `astro/app/manifest` in Vite's `optimizeDeps.include`: the Cloudflare dev
+Worker needs it pre-optimized to avoid replacing an Astro SSR chunk during startup.
+Legacy WordPress query redirects are handled in `src/middleware.ts`. The deployment
+config generator updates Wrangler's `compatibility_date` during builds, so preserve
+the configured date when making manual Wrangler changes.
 
 ---
 

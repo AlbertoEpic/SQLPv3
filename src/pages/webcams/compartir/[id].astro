@@ -1,0 +1,39 @@
+---
+import webcams from '@/data/webcams.json';
+import { webcamPageUrl, webcamShareImage, webcamShareUrl } from '@/utils/webcam-share';
+
+export function getStaticPaths() {
+  return webcams.map((webcam) => ({
+    params: { id: webcam.id },
+    props: { webcam },
+  }));
+}
+
+const { webcam } = Astro.props;
+const shareUrl = webcamShareUrl(webcam.id);
+const imageUrl = webcamShareImage(webcam.type, webcam.embedUrl);
+const redirectUrl = `${webcamPageUrl}/#webcam-${webcam.id}`;
+---
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{webcam.title}</title>
+    <meta name="robots" content="noindex" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={webcam.title} />
+    <meta property="og:url" content={shareUrl} />
+    <meta property="og:image" content={imageUrl} />
+    <meta property="og:image:alt" content={webcam.title} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={webcam.title} />
+    <meta name="twitter:image" content={imageUrl} />
+    <meta name="twitter:image:alt" content={webcam.title} />
+    <script is:inline define:vars={{ redirectUrl }}>window.location.replace(redirectUrl);</script>
+  </head>
+  <body>
+    <p><a href={webcamPageUrl}>Ir a las webcams</a></p>
+  </body>
+</html>

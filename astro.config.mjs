@@ -1,4 +1,5 @@
 import { defineConfig } from 'astro/config';
+import cloudflare from '@astrojs/cloudflare';
 import sitemap from '@astrojs/sitemap';
 import mdx from '@astrojs/mdx';
 import { remarkInternalLinks, remarkFolderImages, remarkImageCaptions } from './src/utils/internallinks.ts';
@@ -28,6 +29,7 @@ import refreshContentOnChange from './src/integrations/refresh-content-on-change
 import { fileURLToPath } from 'node:url';
 
 export default defineConfig({
+  adapter: cloudflare({ imageService: 'compile', prerenderEnvironment: 'node' }),
   site: siteConfig.site.replace(/\/$/, ''),
   deployment: {
     platform: siteConfig.deployment.platform
@@ -91,6 +93,7 @@ export default defineConfig({
   '/privacy': '/privacy-policy',
   '/posts/amanecer-en-el-pico-de-las-tres-güegas-2303m': '/posts/amanecer-en-el-pico-de-las-tres-güegas-2303m-emtb',
   '/posts/barranco-del-forcos': '/posts/barranco-forcos',
+  '/posts/endureando-ando-por-alquézar': '/posts/endureando-ando-alquezar',
   '/posts/la-loire-a-velo': '/posts/la-loire-a-vélo',
   '/posts/ruta-zzs-pares': '/posts/ruta-zzs-a-pares',
   '/posts/vira-de-lembarradere-al-midi-dossau-2-884m': '/posts/vira-de-lembarradere-al-midi-dossau-2884m',
@@ -218,7 +221,8 @@ image: {
       'process.env.ASTRO_CONTENT_COLLECTION_CACHE': 'false'
     },
     optimizeDeps: {
-      exclude: ['astro:content']
+      include: ['astro/app/manifest'],
+      exclude: ['astro:content', 'gpxparser']
     },
 
       plugins: [tailwindcss()],

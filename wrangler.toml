@@ -5,13 +5,14 @@
 # You can rename this to your desired project name (e.g., "my-blog", "my-website")
 # This name will be used for your Cloudflare Worker deployment
 name = "sqlpv3"
-compatibility_date = "2026-11-11"
+compatibility_date = "2026-11-20"
+compatibility_flags = ["nodejs_compat"]
 
-# Redirects old WordPress short links (/?p=123) - see worker.js
-main = "./worker.js"
+# The Astro adapter handles requests; legacy WordPress redirects are in src/middleware.ts.
+main = "@astrojs/cloudflare/entrypoints/server"
 
 [assets]
   directory = "./dist"
   not_found_handling = "404-page"  # Serve custom 404 page from src/pages/404.astro
   binding = "ASSETS"
-  run_worker_first = ["/"]
+  run_worker_first = ["/", "/api/snap"]

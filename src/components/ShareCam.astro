@@ -1,0 +1,105 @@
+---
+interface Props {
+  id: string;
+  title: string;
+  type: 'youtube' | 'iframe' | 'dgt' | 'snapshot' | 'hls' | 'mjpeg';
+  embedUrl: string;
+  sourceName?: string;
+  snapshotUrl?: string;
+}
+
+const { id, title, type, embedUrl, sourceName, snapshotUrl } = Astro.props;
+const snapshot = snapshotUrl ?? (type === 'snapshot' || type === 'dgt' ? embedUrl : undefined);
+---
+
+<button
+  type="button"
+  class="inline-flex min-h-9 items-center justify-center rounded-lg border border-primary-300 px-3 py-1.5 text-xs font-semibold text-primary-700 transition-colors hover:border-highlight-400 hover:bg-highlight-100 hover:text-highlight-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-highlight-400 disabled:cursor-wait disabled:opacity-60 dark:border-primary-600 dark:text-primary-200 dark:hover:border-highlight-500 dark:hover:bg-highlight-900 dark:hover:text-highlight-200"
+  aria-label={`Compartir ${title}`}
+  data-cam-id={id}
+  data-title={title}
+  data-source={sourceName}
+  data-snapshot={snapshot}
+>
+  Compartir
+</button>
+
+<script>
+  function isCancelled(error: unknown): boolean {
+    return error instanceof DOMException && error.name === 'AbortError';
+  }
+
+  function showButtonMessage(button: HTMLButtonElement, message: string): void {
+    const label = button.textContent;
+    button.textContent = message;
+    window.setTimeout(() => {
+      if (button.isConnected && label) button.textContent = label;
+    }, 2000);
+  }
+
+  async function copyCamLink(button: HTMLButtonElement, pageUrl: string): Promise<void> {
+    try {
+      await navigator.clipboard.writeText(pageUrl);
+      showButtonMessage(button, '¡Enlace copiado!');
+    } catch {
+      showButtonMessage(button, 'No se pudo copiar');
+    }
+  }
+
+  async function shareCam(button: HTMLButtonElement): Promise<void> {
+    const { camId, title = '', source, snapshot } = button.dataset;
+    if (!camId) return;
+
+    const pageUrl = new URL('/webcams/', window.location.origin);
+    pageUrl.hash = `webcam-${camId}`;
+    const text =
+      `${title} · ${new Date().toLocaleString('es-ES')}` +
+      (source ? ` · Fuente: ${source}` : '');
+
+    if (snapshot && navigator.share && navigator.canShare) {
+      button.disabled = true;
+      try {
+        const proxyUrl = new URL('/api/snap', window.location.origin);
+        proxyUrl.searchParams.set('url', snapshot);
+        proxyUrl.searchParams.set('t', String(Date.now()));
+        const response = await fetch(proxyUrl, { cache: 'no-store' });
+        if (!response.ok) throw new Error(`Image proxy returned ${response.status}`);
+
+        const blob = await response.blob();
+        const extension = blob.type === 'image/webp' ? 'webp' : blob.type === 'image/png' ? 'png' : 'jpg';
+        const file = new File([blob], `${camId}-${Date.now()}.${extension}`, { type: blob.type });
+
+        if (navigator.canShare({ files: [file] })) {
+          try {
+            await navigator.share({ files: [file], title, text: `${text}\n${pageUrl}` });
+            return;
+          } catch (error) {
+            if (isCancelled(error)) return;
+          }
+        }
+      } catch (error) {
+        if (isCancelled(error)) return;
+      } finally {
+        button.disabled = false;
+      }
+    }
+
+    if (navigator.share) {
+      try {
+        await navigator.share({ title, text, url: pageUrl.toString() });
+        return;
+      } catch (error) {
+        if (isCancelled(error)) return;
+      }
+    }
+
+    await copyCamLink(button, pageUrl.toString());
+  }
+
+  document.addEventListener('click', (event) => {
+    const target = event.target;
+    if (!(target instanceof Element)) return;
+    const button = target.closest<HTMLButtonElement>('[data-cam-id]');
+    if (button) void shareCam(button);
+  });
+</script>

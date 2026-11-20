@@ -24,6 +24,12 @@ const seoData = {
   title: 'Webcams en directo',
   description: 'Webcams en directo del Pirineo Oscense, la provincia de Huesca y el mundo.',
   canonical: new URL('/webcams', Astro.site ?? 'http://localhost:5000').toString(),
+  ogImage: {
+    url: new URL(withBase('/LogoSQLP-Webcams.png'), Astro.site ?? Astro.url).toString(),
+    alt: 'Logo de Solo Queda Lo Peor Webcams',
+    width: 150,
+    height: 103,
+  },
   ogType: 'website' as const,
 };
 ---
@@ -94,6 +100,7 @@ const seoData = {
             embedUrl={cam.embedUrl}
             sourceName={cam.sourceName}
             sourceUrl={cam.sourceUrl}
+            snapshotUrl={'snapshotUrl' in cam && typeof cam.snapshotUrl === 'string' ? cam.snapshotUrl : undefined}
           />
         ))}
       </div>
@@ -195,6 +202,34 @@ const seoData = {
       (window as any).setWebcamMapVisibleIds?.(filtered ? ids : null);
     };
 
+    const revealHashTarget = () => {
+      let id: string;
+      try {
+        id = decodeURIComponent(window.location.hash.slice(1));
+      } catch {
+        return;
+      }
+      if (!id) return;
+
+      const card = document.getElementById(id);
+      if (!card?.matches('[data-webcam-card]')) return;
+
+      if (card.classList.contains('hidden')) {
+        document.querySelectorAll<HTMLButtonElement>('.webcam-filter').forEach((button) => {
+          button.setAttribute('aria-pressed', String(button.dataset.filter === 'Todas'));
+        });
+        if (nameInput) nameInput.value = '';
+        if (kindSelect) kindSelect.value = '';
+        applyFilters();
+      }
+
+      window.requestAnimationFrame(() => {
+        if (card.isConnected && !card.classList.contains('hidden')) {
+          card.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    };
+
     buttons.forEach((btn) => {
       const fresh = btn.cloneNode(true) as HTMLButtonElement;
       btn.replaceWith(fresh);
@@ -212,10 +247,12 @@ const seoData = {
       el.addEventListener('input', applyFilters);
     });
     applyFilters();
+    revealHashTarget();
   }
 
   (window as any).initializeWebcamFilters = initializeWebcamFilters;
   document.addEventListener('DOMContentLoaded', initializeWebcamFilters);
+  window.addEventListener('hashchange', () => (window as any).initializeWebcamFilters?.());
   if (document.readyState !== 'loading') initializeWebcamFilters();
 
   const hookFilters = () => {

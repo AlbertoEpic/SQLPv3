@@ -1,4 +1,8 @@
 ---
+import Icon from '@/components/Icon.astro';
+import ShareCam from '@/components/ShareCam.astro';
+import { webcamShareUrl } from '@/utils/webcam-share';
+
 export interface Props {
   id: string;
   title: string;
@@ -9,9 +13,10 @@ export interface Props {
   embedUrl: string;
   sourceName: string;
   sourceUrl?: string;
+  snapshotUrl?: string;
 }
 
-const { id, title, location, category, kind = '', type, embedUrl, sourceName, sourceUrl } = Astro.props;
+const { id, title, location, category, kind = '', type, embedUrl, sourceName, sourceUrl, snapshotUrl } = Astro.props;
 const src =
   type === 'youtube'
     ? `${embedUrl}${embedUrl.includes('?') ? '&' : '?'}autoplay=1&mute=1&playsinline=1`
@@ -22,6 +27,13 @@ const isMjpeg = type === 'mjpeg';
 const isImage = isDgt || isSnapshot || isMjpeg;
 const isEmbed = type === 'youtube' || type === 'iframe';
 const isHls = type === 'hls';
+const shareUrl = webcamShareUrl(id);
+const shareLinks = [
+  { name: 'Facebook', icon: 'facebook', url: `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}&quote=${encodeURIComponent(title)}` },
+  { name: 'X', icon: 'x-twitter', url: `https://twitter.com/intent/tweet?url=${encodeURIComponent(shareUrl)}&text=${encodeURIComponent(title)}` },
+  { name: 'Bluesky', icon: 'bluesky', url: `https://bsky.app/intent/compose?text=${encodeURIComponent(`${title} ${shareUrl}`)}` },
+  { name: 'WhatsApp', icon: 'whatsapp', url: `https://api.whatsapp.com/send?text=${encodeURIComponent(`${title} ${shareUrl}`)}` },
+];
 // Evita contenido mixto (http dentro de https)
 const imgSrc = isMjpeg ? embedUrl : embedUrl.replace(/^http:\/\//, 'https://');
 ---
@@ -125,9 +137,25 @@ const imgSrc = isMjpeg ? embedUrl : embedUrl.replace(/^http:\/\//, 'https://');
   <div class="p-4">
     <div class="mb-2 flex items-start justify-between gap-2">
       <h3 class="text-base font-bold       leading-snug text-primary-900 dark:text-primary-50">{title}</h3>
-            <span class="whitespace-nowrap rounded border border-highlight-500/30 bg-highlight-100 px-2 py-0.5 text-[11px] font-semibold text-highlight-700 dark:bg-primary-800 dark:text-highlight-300">
-        {category}
-      </span>
+      <div class="flex shrink-0 flex-col items-end gap-2">
+        <span class="whitespace-nowrap rounded border border-highlight-500/30 bg-highlight-100 px-2 py-0.5 text-[11px] font-semibold text-highlight-700 dark:bg-primary-800 dark:text-highlight-300">
+          {category}
+        </span>
+        <div class="flex gap-1" role="group" aria-label={`Compartir ${title}`}>
+          {shareLinks.map((share) => (
+            <a
+              href={share.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={`Compartir ${title} en ${share.name}`}
+              title={`Compartir en ${share.name}`}
+              class="inline-flex h-8 w-8 items-center justify-center rounded-md border border-primary-300 text-primary-600 transition-colors hover:border-highlight-400 hover:bg-highlight-100 hover:text-highlight-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-highlight-400 dark:border-primary-600 dark:text-primary-300 dark:hover:border-highlight-500 dark:hover:bg-highlight-900 dark:hover:text-highlight-200"
+            >
+              <Icon name={share.icon} size={17} />
+            </a>
+          ))}
+        </div>
+      </div>
     </div>
     <div class="mt-2 flex items-center justify-between gap-2     text-xs text-primary-700 dark:text-primary-200">
       <p class="flex items-center gap-1">
@@ -152,12 +180,26 @@ const imgSrc = isMjpeg ? embedUrl : embedUrl.replace(/^http:\/\//, 'https://');
         )
       )}
     </div>
+    <div class="mt-3 flex justify-end">
+      <ShareCam
+        id={id}
+        title={title}
+        type={type}
+        embedUrl={embedUrl}
+        sourceName={sourceName}
+        snapshotUrl={snapshotUrl}
+      />
+    </div>
   </div>
 </article>
 
 <style is:global>
-  .webcam-card.webcam-highlight {
-    box-shadow: 0 0 0 2px #f59e0b, 0 0 24px rgba(245, 158, 11, 0.4);
+  .webcam-card {
+    scroll-margin-top: 6rem;
+  }
+  .webcam-card.webcam-highlight,
+  .webcam-card:target {
+    box-shadow: 0 0 0 2px rgb(var(--color-highlight-500)), 0 0 24px rgb(var(--color-highlight-500) / 0.4);
   }
 </style>
 
