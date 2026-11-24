@@ -413,8 +413,11 @@ function generateNetlifyConfig(redirects) {
 }
 
 function generateCloudflareWorkersConfig(projectName) {
-  // Get current date for compatibility_date
+  // Use a compatibility date that's supported by the local dev server (miniflare)
+  // Miniflare may lag behind the latest Cloudflare Workers API
+  // Using yesterday's date ensures local dev environment compatibility
   const today = new Date();
+  today.setDate(today.getDate() - 1);
   const compatibilityDate = today.toISOString().split('T')[0];
   
   // Generate Workers-compatible config (recommended by Cloudflare)
@@ -784,6 +787,7 @@ async function writeCloudflareWorkersConfig(projectName) {
       } else {
         // [assets] section doesn't exist, add it after compatibility_date
         const today = new Date();
+        today.setDate(today.getDate() - 1);
         const compatibilityDate = today.toISOString().split('T')[0];
         updatedContent = updatedContent.replace(/^compatibility_date\s*=\s*["'][^"']*["']/m, `compatibility_date = "${compatibilityDate}"`);
         if (!updatedContent.match(/^compatibility_date\s*=/m)) {
@@ -796,6 +800,7 @@ async function writeCloudflareWorkersConfig(projectName) {
       
       // Update compatibility_date field
       const today = new Date();
+      today.setDate(today.getDate() - 1);
       const compatibilityDate = today.toISOString().split('T')[0];
       updatedContent = updatedContent.replace(/^compatibility_date\s*=\s*["'][^"']*["']/m, `compatibility_date = "${compatibilityDate}"`);
       
