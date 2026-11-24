@@ -492,8 +492,14 @@ const pagination = {
       return document.getElementById(targetId);
     }
 
+    function getCategoryAnchorPositionTarget(hash: string) {
+      const target = getCategoryAnchorTarget(hash);
+      if (!target) return null;
+      return (target.querySelector('.category-title') as HTMLElement | null) ?? target;
+    }
+
     function getCategoryAnchorOffsetTop(hash: string) {
-      const target = getCategoryAnchorTarget(hash) as HTMLElement | null;
+      const target = getCategoryAnchorPositionTarget(hash) as HTMLElement | null;
       if (!target) return null;
 
       const header = document.querySelector('#main-header') as HTMLElement | null;
@@ -726,10 +732,10 @@ const pagination = {
           const hash = link.getAttribute('href');
           if (!hash) return;
 
-          const section = getCategoryAnchorTarget(hash) as HTMLElement | null;
-          if (!section) return;
+          const sectionTitle = getCategoryAnchorPositionTarget(hash);
+          if (!sectionTitle) return;
 
-          const top = section.getBoundingClientRect().top;
+          const top = sectionTitle.getBoundingClientRect().top;
           if (top - threshold <= 0) {
             currentLink = link;
           }
