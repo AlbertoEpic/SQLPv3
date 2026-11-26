@@ -339,6 +339,30 @@
     "lng": -0.504844
   },
   {
+    "id": "astun-base-estacion",
+    "title": "Astún - Base estación",
+    "location": "Astún, Huesca",
+    "category": "Pirineo Oscense",
+    "type": "iframe",
+    "embedUrl": "https://g0.ipcamlive.com/player/player.php?alias=6787abea8545e&skin=white&autoplay=1&mute=1&disableautofullscreen=1&disablezoombutton=1&disabletimelapseplayer=1&disablestorageplayer=1&disableplaybackspeedbutton=1&disablenavigation=1",
+    "sourceName": "Astún",
+    "sourceUrl": "https://astun.com/webcams-astun/",
+    "lat": 42.809722,
+    "lng": -0.506111
+  },
+  {
+    "id": "astun-truchas",
+    "title": "Astún - Truchas",
+    "location": "Astún, Huesca",
+    "category": "Pirineo Oscense",
+    "type": "iframe",
+    "embedUrl": "https://g0.ipcamlive.com/player/player.php?alias=679382ecb9374&skin=white&autoplay=1&mute=1&disableautofullscreen=1&disablezoombutton=1&disabletimelapseplayer=1&disablestorageplayer=1&disableplaybackspeedbutton=1&disablenavigation=1",
+    "sourceName": "Astún",
+    "sourceUrl": "https://astun.com/webcams-astun/",
+    "lat": 42.814444,
+    "lng": -0.488333
+  },
+  {
     "id": "respomuso-embalse",
     "title": "Refugio de Respomuso - Embalse",
     "location": "Valle de Tena, Huesca",

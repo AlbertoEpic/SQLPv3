@@ -10,7 +10,7 @@
     "semantic_hash": ""
   },
   "astro.config.mjs": {
-    "mtime": 1795515219.2928786,
+    "mtime": 1795687591.051227,
     "ast_hash": "380c52ae0eb1231fc44d2f940330f776",
     "semantic_hash": ""
   },
@@ -75,8 +75,8 @@
     "semantic_hash": ""
   },
   "scripts/generate-deployment-config.js": {
-    "mtime": 1795514920.8904762,
-    "ast_hash": "fa8a8ba0dd416641aca6b5299ea54aa9",
+    "mtime": 1795687549.260701,
+    "ast_hash": "b6cd25b319690afa4252f76cb2d846ef",
     "semantic_hash": ""
   },
   "scripts/generate-graph-data.js": {
@@ -7520,13 +7520,13 @@
     "semantic_hash": ""
   },
   "src/data/webcams.json": {
-    "mtime": 1793388559.5986433,
-    "ast_hash": "d47163f5de5835ffd1d6e447a3997917",
+    "mtime": 1795687195.8453484,
+    "ast_hash": "3d0d660a261b58712096648163634219",
     "semantic_hash": ""
   },
   "src/pages/webcams.astro": {
-    "mtime": 1795177503.1053555,
-    "ast_hash": "bb0b7f673ba4f6ae54b46325b1a36011",
+    "mtime": 1795687195.8623495,
+    "ast_hash": "3c5ce42f1671af8123fc957055e3594c",
     "semantic_hash": ""
   },
   "src/content/posts/la-tetralog\u00eda-de-a\u00edsa-emtb.md": {
@@ -7570,12 +7570,12 @@
     "semantic_hash": ""
   },
   "public/gpx/index.json": {
-    "mtime": 1795515219.083878,
+    "mtime": 1795687590.889227,
     "ast_hash": "5d8a5d7b8228aba94f327ff9bb5863d3",
     "semantic_hash": ""
   },
   "public/gpx/manual-links.json": {
-    "mtime": 1795515219.083878,
+    "mtime": 1795687590.8902278,
     "ast_hash": "2575dc0560c19b5707875a98ad1d77a4",
     "semantic_hash": ""
   },

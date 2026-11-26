@@ -9,7 +9,7 @@ import { withBase } from '@/utils/base-url';
 const categories = ["Todas", "Pirineo Oscense", "Provincia de Huesca", "Carreteras DGT", "Otros Pirineos", "Otras zonas", "Mundo"];
 
 const kinds = ["Estación de esquí", "Refugio de montaña", "Enclaves del Pirineo", "DGT-carreteras", "Otras"];
-const skiPattern = /^(cerler-(cota|ampriu)|formigal|panticosa-petrosos|piau-engaly|baqueira|breuil|mieders|llanos-del-hospital|linza-esqui-fondo)/;
+const skiPattern = /^(cerler-(cota|ampriu)|formigal|panticosa-petrosos|piau-engaly|baqueira|breuil|mieders|llanos-del-hospital|linza-esqui-fondo|astun)/;
 const enclavePattern = /^(cascada|portalet|tunnel-bielsa|riglos|nocito|alquezar|montfalco)/;
 
 function getKind(cam: { id: string; type: string; sourceName: string }) {

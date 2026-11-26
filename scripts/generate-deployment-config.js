@@ -413,12 +413,7 @@ function generateNetlifyConfig(redirects) {
 }
 
 function generateCloudflareWorkersConfig(projectName) {
-  // Use a compatibility date that's supported by the local dev server (miniflare)
-  // Miniflare may lag behind the latest Cloudflare Workers API
-  // Using yesterday's date ensures local dev environment compatibility
-  const today = new Date();
-  today.setDate(today.getDate() - 1);
-  const compatibilityDate = today.toISOString().split('T')[0];
+  const compatibilityDate = '2024-09-23';
   
   // Generate Workers-compatible config (recommended by Cloudflare)
   // Workers uses assets.directory instead of pages_build_output_dir
@@ -786,23 +781,14 @@ async function writeCloudflareWorkersConfig(projectName) {
         }
       } else {
         // [assets] section doesn't exist, add it after compatibility_date
-        const today = new Date();
-        today.setDate(today.getDate() - 1);
-        const compatibilityDate = today.toISOString().split('T')[0];
-        updatedContent = updatedContent.replace(/^compatibility_date\s*=\s*["'][^"']*["']/m, `compatibility_date = "${compatibilityDate}"`);
+        const compatibilityDate = '2024-09-23';
         if (!updatedContent.match(/^compatibility_date\s*=/m)) {
-          // compatibility_date doesn't exist, add both
+          // compatibility_date is configured manually and must remain stable
           updatedContent = updatedContent.replace(/^(name\s*=[^\n]+)/m, `$1\ncompatibility_date = "${compatibilityDate}"`);
         }
         // Add [assets] section
         updatedContent = updatedContent.replace(/^(compatibility_date\s*=[^\n]+)/m, `$1\n\n[assets]\n  directory = "./dist"\n  not_found_handling = "404-page"  # Serve custom 404 page from src/pages/404.astro`);
       }
-      
-      // Update compatibility_date field
-      const today = new Date();
-      today.setDate(today.getDate() - 1);
-      const compatibilityDate = today.toISOString().split('T')[0];
-      updatedContent = updatedContent.replace(/^compatibility_date\s*=\s*["'][^"']*["']/m, `compatibility_date = "${compatibilityDate}"`);
       
       // Remove old [build] section if it exists (not needed for Workers)
       updatedContent = updatedContent.replace(/\n*\[build\]\s*\n\s*command\s*=\s*["'][^"']*["']\s*\n*/g, '\n');
